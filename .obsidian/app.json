@@ -1,0 +1,9 @@
+{
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "attachmentFolderPath": "sources",
+  "showUnsupportedFiles": false,
+  "defaultViewMode": "preview",
+  "foldHeading": false,
+  "showLineNumber": false
+}

@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "adcfaf07b68624ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa9918e4b4f602c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aba9055636f09825",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nova aba"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3a24074cac3f5388",
+    "type": "split",
+    "children": [
+      {
+        "id": "35458631d13b8897",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15b477f17f2e1940",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "b313724a493c3d80",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "4877fc7a7925a59b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f5bdfa7f182c776f",
+    "type": "split",
+    "children": [
+      {
+        "id": "73aca9ab718137da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1883aa1d0936b4d8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos"
+            }
+          },
+          {
+            "id": "697946910b1dba4a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "8ac9aee74eabb594",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "81646ff658fafa7e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "8e985e7fa64970ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "aba9055636f09825",
+  "lastOpenFiles": [
+    "cyrela.md",
+    "consignado_privado.md",
+    "nim_clientes.md",
+    "itau.md",
+    "_loop_log.md",
+    "_index.md",
+    "sources/_sources_index.md",
+    "Sem título",
+    "mcmv.md",
+    "nubank.md",
+    "duration.md",
+    "aliquota_efetiva.md",
+    "sanb11.md",
+    "jcp.md",
+    "BBDC4_opex.md",
+    "roe_bancario.md",
+    "spread_clientes.md",
+    "Sem título 1.canvas",
+    "Sem título.canvas",
+    "risco_cambial.md",
+    "xp_investimentos.md",
+    "vgv_lancamentos.md",
+    "margem_backlog.md",
+    "ll.md",
+    "alea.md",
+    "remuneracao_capital_giro.md",
+    "capital_de_giro.md",
+    "poc_revenue.md",
+    "resultado_seguros.md"
+  ]
+}
