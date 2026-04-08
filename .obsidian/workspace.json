@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fa9918e4b4f602c5",
+        "id": "5ce57cb948e9418a",
         "type": "tabs",
         "children": [
           {
-            "id": "aba9055636f09825",
+            "id": "a2999b9252660fa9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "tenda.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "tenda"
             }
           }
         ]
@@ -175,36 +179,44 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "aba9055636f09825",
+  "active": "a2999b9252660fa9",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "incorporadoras.md",
+    "tenda.md",
+    "tenda.md.tmp.11172.1775679056158",
+    "tenda.md.tmp.11172.1775679025457",
+    "sources/digested/tenda_dfp_2025_summary.md",
+    "sources/structured/tenda/2025/dfp.json",
+    "sources/full/tenda/2025/dfp.md",
+    "sources/full/tenda/2025",
+    "sources/undigested/Tenda-2025-12-31-wPTjC7R6.pdf",
+    "sources/digested/tenda_data_pack_1T26_summary.md",
+    "index.md",
+    "log.md",
+    "repasses.md",
+    "distrato.md",
+    "banco_de_terrenos.md",
+    "_coverage_tracker.md",
+    "README.md",
+    "log.md.tmp.11172.1775670165089",
+    "tenda.md.tmp.11172.1775670079915",
+    "sources/structured/tenda/1T11/data_pack.json",
+    "sources/structured/tenda/1T11",
+    "sources/structured/tenda/2T11/data_pack.json",
+    "sources/full/tenda/data_pack_1T26.md",
+    "sources/notion_tracker.md",
+    "mcmv.md",
+    "SCHEMA.md",
+    "Sem título.canvas",
+    "vso.md",
+    "vgv.md",
+    "sources/full/tenda/1T26/previa_operacional.md",
+    "sources/digested/tenda_previa_operacional_1T26_summary.md",
     "cyrela.md",
     "consignado_privado.md",
     "nim_clientes.md",
     "itau.md",
-    "_loop_log.md",
-    "_index.md",
-    "sources/_sources_index.md",
-    "Sem título",
-    "mcmv.md",
-    "nubank.md",
-    "duration.md",
-    "aliquota_efetiva.md",
-    "sanb11.md",
-    "jcp.md",
-    "BBDC4_opex.md",
-    "roe_bancario.md",
-    "spread_clientes.md",
-    "Sem título 1.canvas",
-    "Sem título.canvas",
-    "risco_cambial.md",
-    "xp_investimentos.md",
-    "vgv_lancamentos.md",
-    "margem_backlog.md",
-    "ll.md",
-    "alea.md",
-    "remuneracao_capital_giro.md",
-    "capital_de_giro.md",
-    "poc_revenue.md",
-    "resultado_seguros.md"
+    "Sem título 1.canvas"
   ]
 }

@@ -1,7 +1,7 @@
 ---
 type: entity
 aliases: [Construtora Tenda, Tenda, TEND3, Alea]
-sources: [full/tenda/1T26/previa_operacional.md, structured/tenda/1T26/previa_operacional.json, full/tenda/data_pack_1T26.md, structured/tenda/{1T11..1T26}/data_pack.json]
+sources: [full/tenda/1T26/previa_operacional.md, structured/tenda/1T26/previa_operacional.json, full/tenda/data_pack_1T26.md, structured/tenda/{1T11..1T26}/data_pack.json, full/tenda/2025/dfp.md, structured/tenda/2025/dfp.json]
 created: 2026-04-08
 updated: 2026-04-08
 ---
@@ -89,16 +89,30 @@ Fontes: `structured/tenda/{ano}/data_pack.json :: canonical.dre` e `canonical.fi
 - **Analista de RI:** Felipe Chiavegato Stella.
 - Website RI: ri.tenda.com | Contato: ri@tenda.com (fonte: full/tenda/1T26/previa_operacional.md §relações_com_investidores).
 
+## DFP 2025 auditada — o que destravou
+
+A DFP 2025 (fonte: full/tenda/2025/dfp.md) é a **primeira fonte auditada** digerida nesta wiki. Cross-check com o data_pack confirma receita, lucro, PL e dívida líquida ±0. O DFP adiciona:
+
+- **DFC completa** (primeira série no structured/): CFO consolidado 2025 R$ 290,3 mm (vs R$ 542,2 mm em 2024) — queda por forte expansão de capital de giro (Δ contas a receber R$ (559) mm + Δ imóveis R$ (725) mm compensados por Δ obrigações de compra de imóveis R$ +706 mm) (fonte: structured/tenda/2025/dfp.json :: canonical).
+- **Notas explicativas 1–25** com: cessão de créditos (Nota 4), SWAPs (Nota 11), debêntures detalhadas com covenants (Nota 10), IR/RET (Nota 15), contingências (Nota 16), PL e stock grant (Nota 17), segmentação (Nota 24).
+- **Segmentação contábil auditada on-site vs off-site** (Nota 24): segmento Tenda (on-site) **lucrou R$ 636 mm** em 2025; segmento Alea (off-site) **perdeu R$ 152 mm**. O consolidado de R$ 506 mm é líquido desse arrasto (fonte: full/tenda/2025/dfp.md §nota_24).
+
+**Observações críticas adicionais da DFP 2025:**
+
+1. **Prejuízo fiscal não reconhecido R$ 2,67 bi** (crédito fiscal R$ 906,7 mm). Não contabilizado porque o RET domina e não há perspectiva de Lucro Real. Alíquota efetiva 2025 = **1,23%** — baixa estrutural enquanto mix RET persistir (fonte: full/tenda/2025/dfp.md §nota_15).
+2. **SWAP TEND3 inflou o resultado financeiro** em ~R$ 180 mm (receita de SWAP R$ 135 mm em 2025 vs despesa R$ 45 mm em 2024). **Resultado financeiro ex-SWAP**: R$ (130,6) mm — este é o nível forward-looking coerente com dívida líquida R$ 266 mm a CDI+spread (fonte: full/tenda/2025/dfp.md §nota_11 e §nota_22).
+3. **13ª emissão de debêntures** em 31/10/2025: R$ 300 mm, vencimento bullet 2030/2031/2032. Elevou debêntures consolidadas de R$ 541 → R$ 993 mm. Duration total da dívida 24,2 meses, custo médio nominal 13,67% a.a. Covenants folgadíssimos: (4,53)% vs limite 15% (fonte: structured/tenda/2025/dfp.json :: company_specific.debentures_detalhe).
+4. **Dividendos 2025 totais de R$ 150 mm** (R$ 50 mm pagos em 30/12/2025 + R$ 100 mm pagos em 07/01/2026). Payout 29,7% do lucro líquido consolidado (fonte: full/tenda/2025/dfp.md §nota_17).
+
 ## Limitações de cobertura atual nesta wiki
 
 Digeridos até agora:
 - **Prévia operacional 1T26** (só operacional, preliminar).
 - **Data pack de RI as-of 1T26** — histórico completo 1T11–1T26 de operacional, DRE, BP e financeiro ajustado (consolidado + segmentos). Cobre toda a espinha numérica para modelagem histórica.
+- **DFP 2025 auditada** — DFs individuais+consolidadas, DFC, notas explicativas completas e segmentação contábil on-site/off-site.
 
 Ainda faltam:
-- **Release completo do 1T26** (MD&A, release narrativo — o data pack não cobre o 1T26 financeiro porque o release fechado ainda não saiu quando a planilha foi publicada).
-- **DFP 2025 auditada** — balanço e notas explicativas completas (o BP do data pack é resumido).
-- **Notas explicativas** — inexistentes no data pack; virão via DFP/ITR.
+- **Release completo do 1T26** (MD&A, release narrativo — o data pack não cobre o 1T26 financeiro porque o release fechado ainda não saiu).
 - **Apresentações institucionais** e **transcripts de call**.
 - **Fluxo de caixa** — não aparece no data pack, só implícito via variação de dívida líquida e caixa. Virá via DFP/ITR.
 

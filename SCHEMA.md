@@ -327,6 +327,13 @@ No `full/` or `structured/` is generated for web sources — the URL itself is t
 3. If the question is qualitative or needs context (notas, MD&A), open the relevant `full/` file.
 4. Synthesize answer with citations.
 5. If the answer is valuable and reusable, promote it to a new wiki page.
+6. **Write-through backfill (N=1):** whenever step 3 happened — i.e., the query had to go to `full/` to fetch a *numeric or structurable* fact that was not already in `structured/` — the agent MUST, before responding, add that fact to `company_specific` of the relevant `structured/{empresa}/{periodo}/{tipo}.json` (creating nested keys as needed). The first query pays the cost; the second is O(1).
+   - **Scope:** `company_specific` only. Promotion to `canonical` (sector schema) remains a conscious operation logged in `log.md` — never automatic.
+   - **What qualifies:** numeric values, dated events, structured tables (e.g., a nota's breakdown). Pure qualitative prose stays in `full/`.
+   - **Keying:** mirror the nota/section path. E.g., a lookup into Nota 12 for lease balance writes to `company_specific.notas.nota_12_arrendamento.saldo_final_consolidado`.
+   - **Citation:** the new key should carry a `_fonte` sibling pointing to the `full/` section it came from, so provenance is preserved.
+   - **No-op cases:** if the query was qualitative (definition, context, narrative), or if the fact is already in `canonical`/`company_specific`, skip the backfill.
+   - **Log:** append a one-line entry to `log.md` under a `backfill` section noting empresa, periodo, key path, and source section.
 
 ### Modeling (planilha)
 

@@ -113,19 +113,30 @@
     "2025": {
       "operacional": {
         "status": "filled",
-        "source": "sources/structured/tenda/2025/data_pack.json"
+        "source": "sources/structured/tenda/2025/data_pack.json",
+        "reason": "operacional 2025 vem do data_pack; DFP tem apenas métricas anuais resumidas no RA"
       },
       "dre": {
         "status": "filled",
-        "source": "sources/structured/tenda/2025/data_pack.json"
+        "source": "sources/structured/tenda/2025/dfp.json"
       },
       "bp": {
         "status": "filled",
-        "source": "sources/structured/tenda/2025/data_pack.json"
+        "source": "sources/structured/tenda/2025/dfp.json"
+      },
+      "dfc": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2025/dfp.json",
+        "reason": "primeira DFC estruturada disponível — DFP auditada"
       },
       "financeiro_ajustado": {
         "status": "filled",
-        "source": "sources/structured/tenda/2025/data_pack.json"
+        "source": "sources/structured/tenda/2025/dfp.json"
+      },
+      "notas_explicativas": {
+        "status": "filled",
+        "source": "sources/full/tenda/2025/dfp.md",
+        "reason": "notas 1-25 no full/; primeira fonte com notas completas para Tenda"
       }
     },
     "4T24": {
@@ -1485,9 +1496,29 @@
         "1T11",
         "2011"
       ]
+    },
+    {
+      "type": "dfp",
+      "asof": "2025",
+      "ingested_on": "2026-04-08",
+      "full": "sources/full/tenda/2025/dfp.md",
+      "digested": "sources/digested/tenda_dfp_2025_summary.md",
+      "structured": [
+        "sources/structured/tenda/2025/dfp.json"
+      ]
     }
   ],
   "precedence": [
+    {
+      "scope": "dre.* | bp.* | notas_explicativas at 2025 annual",
+      "winner": "sources/structured/tenda/2025/dfp.json",
+      "reason": "DFP auditada 2025 supersedes data_pack (que era gerencial pré-auditoria). Cross-check: receita, lucro, PL e dívida líquida concordam ±0. Notas explicativas e DFC só existem no DFP."
+    },
+    {
+      "scope": "dfc.* at 2025 annual",
+      "winner": "sources/structured/tenda/2025/dfp.json",
+      "reason": "data_pack não contém DFC; DFP é a única fonte"
+    },
     {
       "scope": "operacional.* at 1T26",
       "winner": "sources/structured/tenda/1T26/previa_operacional.json",
@@ -1510,10 +1541,14 @@
     "BP stand-alone do segmento Tenda MCMV não está disponível — apenas Consolidado (bp block) e Alea simplificado (company_specific.segmentos.alea_sbpe.bp_simplificado).",
     "1T26 tem apenas operacional preenchido; DRE/BP/financeiro_ajustado virão quando o release completo do 1T26 for ingerido.",
     "Redução de capital histórica (contexto da crise 2021–2023): data_pack mantém `divida_liquida_ajustada` separada de `divida_liquida` por causa disso.",
-    "Programa Habitacional 'Pode Entrar' (SP municipal) inflou vendas da Tenda no 3T24 — métricas 'ex-Pode Entrar' são a base de comparação limpa reportada pela empresa."
+    "Programa Habitacional 'Pode Entrar' (SP municipal) inflou vendas da Tenda no 3T24 — métricas 'ex-Pode Entrar' são a base de comparação limpa reportada pela empresa.",
+    "2025 annual DFs são auditadas (DFP) — use `dfp.json` para DRE/BP/DFC/Notas; `data_pack.json` 2025 é gerencial e superseded para esses blocos.",
+    "Resultado financeiro 2025 inflado em ~R$ 180 mm por receita de SWAP TEND3 (Nota 11). Resultado financeiro ex-SWAP = R$ (130,6) mm — usar este para extrapolação forward.",
+    "Prejuízo fiscal não reconhecido R$ 2,67 bi (crédito R$ 906,7 mm) — não contabilizado porque RET domina; alíquota efetiva 2025 = 1,23% tende a se manter baixa enquanto mix RET for dominante."
   ],
   "related_digests": [
     "sources/digested/tenda_previa_operacional_1T26_summary.md",
-    "sources/digested/tenda_data_pack_1T26_summary.md"
+    "sources/digested/tenda_data_pack_1T26_summary.md",
+    "sources/digested/tenda_dfp_2025_summary.md"
   ]
 }
