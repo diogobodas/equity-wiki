@@ -1,0 +1,432 @@
+{
+  "_schema": "incorporadora/v1",
+  "_schema_path": "sources/structured/_schemas/incorporadora.json",
+  "_empresa": "tenda",
+  "_periodo": "2023",
+  "_source": "full/tenda/data_pack_1T26.md",
+  "_source_type": "data_pack",
+  "_source_asof": "1T26",
+  "_notes": "Per-period slice of the Tenda RI data pack as-of 1T26. Canonical = Consolidado; segments in company_specific.",
+  "canonical": {
+    "operacional": {
+      "lancamentos": {
+        "n_empreendimentos": 62,
+        "vgv": 3484.4453,
+        "n_unidades": 17267,
+        "preco_medio_unidade": 201.798,
+        "tamanho_medio_empreendimento": 279
+      },
+      "vendas_brutas": {
+        "vgv": 3663.3001,
+        "vso_bruta": 0.664,
+        "n_unidades": 18049,
+        "preco_medio_unidade": 202.9642
+      },
+      "distratos": {
+        "vgv": 527.6498,
+        "n_unidades": 2684,
+        "distratos_sobre_vendas_brutas_unidades": 0.1487,
+        "preco_medio_unidade": 196.5908
+      },
+      "vendas_liquidas": {
+        "vgv": 3135.6539,
+        "vso_liquida": 0.568,
+        "n_unidades": 15365,
+        "preco_medio_unidade": 204.0777
+      },
+      "repasses": {
+        "vgv": 2432.6917,
+        "n_unidades": 15195
+      },
+      "entregas": {
+        "n_unidades": 16423
+      },
+      "obras_em_andamento": {
+        "n_empreendimentos": 78
+      },
+      "estoque": {
+        "vgv": 2385.0783,
+        "n_unidades": 11773,
+        "preco_medio_unidade": 202.5888
+      },
+      "banco_de_terrenos": {
+        "n_empreendimentos": 443,
+        "vgv": 19346.165,
+        "aquisicoes_ajustes_vgv": 6498.5754,
+        "n_unidades": 102384,
+        "preco_medio_unidade": 188.9569,
+        "pct_permuta_total": 0.63,
+        "pct_permuta_unidades": 0.087,
+        "pct_permuta_financeiro": 0.543
+      }
+    },
+    "dre": {
+      "receita_liquida": 2903.087,
+      "custos_operacionais": -2294.468,
+      "lucro_bruto": 608.619,
+      "lucro_bruto_ajustado": 684.2373,
+      "margem_bruta": 0.2096,
+      "margem_bruta_ajustada": 0.2357,
+      "despesas_operacionais": -535.939,
+      "despesas_com_vendas": -237.786,
+      "despesas_administrativas": -179.461,
+      "outras_desp_rec_operacionais": -78.034,
+      "depreciacao_amortizacao": -39.713,
+      "equivalencia_patrimonial": -0.945,
+      "lucro_operacional": 72.68,
+      "receita_financeira": 63.145,
+      "despesa_financeira": -193.896,
+      "lucro_antes_ir": -58.071,
+      "impostos_diferidos": -1.445,
+      "ir_csll": -42.994,
+      "lucro_apos_ir": -102.51,
+      "participacao_minoritarios": 6.663,
+      "lucro_liquido": -95.847,
+      "lucro_liquido_ajustado": -20.229,
+      "margem_liquida": -0.033,
+      "margem_liquida_ajustada": -0.007
+    },
+    "bp": {
+      "ativo_circulante": 2530.998,
+      "caixa_e_equivalentes": 718.816,
+      "recebiveis_clientes_circulante": 544.588,
+      "imoveis_comercializar_circulante": 933.7221,
+      "outros_contas_receber_circulante": 333.8719,
+      "ativo_nao_circulante": 1749.331,
+      "recebiveis_clientes_nc": 678.686,
+      "imoveis_comercializar_nc": 1010.255,
+      "outros_nc": 60.39,
+      "intangivel_imobilizado": 212.228,
+      "investimentos": 52.588,
+      "ativo_total": 4545.145,
+      "passivo_circulante": 1544.511,
+      "emprestimos_financiamentos_c": 231.765,
+      "debentures_c": 153.75,
+      "obrig_terrenos_adiant_c": 584.091,
+      "fornecedores_materiais": 153.995,
+      "dividendos_a_pagar": 0,
+      "impostos_contribuicoes": 47.954,
+      "cessao_creditos_c": 43.387,
+      "outros_passivo_c": 329.569,
+      "passivo_nao_circulante": 2136.1966,
+      "emprestimos_financiamentos_nc": 151.532,
+      "debentures_nc": 643.0476,
+      "obrig_terrenos_adiant_nc": 900.525,
+      "impostos_diferidos_bp": 17.85,
+      "provisao_contingencias": 97.001,
+      "cessao_creditos_nc": 185.999,
+      "outros_passivo_nc": 140.242,
+      "patrimonio_liquido_total": 864.4369,
+      "patrimonio_liquido": 859.5239,
+      "participacao_minoritarios_bp": 4.913,
+      "passivo_pl_total": 4545.1445
+    },
+    "financeiro_ajustado": {
+      "receita_liquida_destaque": 2903.087,
+      "lucro_bruto_ajustado_destaque": 684.2373,
+      "margem_bruta_ajustada_pct": 0.2357,
+      "margem_bruta_ajustada_ex_pode_entrar_pct": 0.2357,
+      "ebitda_ajustado": 217.4795,
+      "margem_ebitda_ajustada_pct": 0.0749,
+      "resultado_financeiro_liquido": -130.751,
+      "lucro_liquido_destaque": -95.847,
+      "receitas_a_apropriar": 1541.1153,
+      "resultados_a_apropriar": 516.4912,
+      "margem_resultados_a_apropriar_pct": 0.3351,
+      "caixa_disponibilidades": 718.816,
+      "divida_liquida": 461.2786,
+      "divida_liquida_ajustada": 461.2786,
+      "patrimonio_liquido_minoritarios": 864.4369,
+      "divida_liquida_sobre_pl_pct": 0.5336,
+      "divida_liquida_ajustada_sobre_pl_pct": 0.5336,
+      "lucro_liquido_ltm": -95.847,
+      "nopat_ltm": 103.861,
+      "capital_empregado": 1555.102,
+      "roe_ltm_pct": -0.122,
+      "roce_ltm_pct": 0.0753,
+      "despesas_com_vendas_sga": -237.786,
+      "despesas_administrativas_sga": -179.461,
+      "total_sga": -417.247,
+      "despesas_vendas_sobre_vl_pct": 0.0758,
+      "despesas_adm_sobre_lancamentos_pct": 0.0515,
+      "despesas_com_demandas_judiciais": -70.063,
+      "outras_receitas_despesas_op": -7.971,
+      "equivalencia_patrimonial_fin": -0.945,
+      "receitas_financeiras": 63.1446,
+      "despesas_financeiras": -193.8971,
+      "resultado_financeiro_ex_swap": -193.9895,
+      "capitalizacao_juros": 75.618,
+      "contas_a_receber_cap_empregado": 1557.146,
+      "estoque_cap_empregado": 459.361,
+      "outros_cap_empregado": -461.405,
+      "divida_bruta": 1180.0946,
+      "caixa_aplicacoes_financeiras_ded": -718.816,
+      "reducao_capital": 0,
+      "divida_liquida_ajustada_det": 461.2786
+    }
+  },
+  "company_specific": {
+    "segmentos": {
+      "tenda_mcmv": {
+        "operacional": {
+          "lancamentos": {
+            "n_empreendimentos": 41,
+            "vgv": 3119.2622,
+            "n_unidades": 15151,
+            "preco_medio_unidade": 205.8783,
+            "tamanho_medio_empreendimento": 370
+          },
+          "vendas_brutas": {
+            "vgv": 3499.4415,
+            "vso_bruta": 0.682,
+            "n_unidades": 17124,
+            "preco_medio_unidade": 204.3589
+          },
+          "distratos": {
+            "vgv": 506.5582,
+            "n_unidades": 2566,
+            "distratos_sobre_vendas_brutas_unidades": 0.1498,
+            "preco_medio_unidade": 197.4116
+          },
+          "vendas_liquidas": {
+            "vgv": 2992.8869,
+            "vso_liquida": null,
+            "n_unidades": 14558,
+            "preco_medio_unidade": 205.5837
+          },
+          "repasses": {
+            "vgv": 2364.3641,
+            "n_unidades": 14733
+          },
+          "entregas": {
+            "n_unidades": 16180
+          },
+          "obras_em_andamento": {
+            "n_empreendimentos": 69
+          },
+          "estoque": {
+            "vgv": 2141.2011,
+            "n_unidades": 10274,
+            "preco_medio_unidade": 208.4097
+          },
+          "banco_de_terrenos": {
+            "n_empreendimentos": 398,
+            "vgv": 16261.2617,
+            "aquisicoes_ajustes_vgv": 4312.1569,
+            "n_unidades": 85140,
+            "preco_medio_unidade": 190.9944,
+            "pct_permuta_total": 0.528,
+            "pct_permuta_unidades": 0.114,
+            "pct_permuta_financeiro": 0.414
+          }
+        },
+        "dre": {
+          "receita_liquida": 2795.041,
+          "custos_operacionais": -2167.916,
+          "lucro_bruto": 627.125,
+          "lucro_bruto_ajustado": 701.933,
+          "margem_bruta": 0.2244,
+          "margem_bruta_ajustada": 0.2511,
+          "despesas_operacionais": -484.0937,
+          "despesas_com_vendas": -220.167,
+          "despesas_administrativas": -148.214,
+          "outras_desp_rec_operacionais": -78.0507,
+          "depreciacao_amortizacao": -36.717,
+          "equivalencia_patrimonial": -0.945,
+          "lucro_operacional": 142.221,
+          "receita_financeira": 62.13,
+          "despesa_financeira": -193.1,
+          "lucro_antes_ir": 11.251,
+          "impostos_diferidos": -1.446,
+          "ir_csll": -42.994,
+          "lucro_apos_ir": -32.3787,
+          "participacao_minoritarios": 6.663,
+          "lucro_liquido": -25.7157,
+          "lucro_liquido_ajustado": 49.092,
+          "margem_liquida": -0.0092,
+          "margem_liquida_ajustada": 0.0176
+        },
+        "financeiro_ajustado": {
+          "receita_liquida_destaque": 2795.041,
+          "lucro_bruto_ajustado_destaque": 701.933,
+          "margem_bruta_ajustada_pct": 0.2511,
+          "margem_bruta_ajustada_ex_pode_entrar_pct": 0.2511,
+          "ebitda_ajustado": 278.2903,
+          "margem_ebitda_ajustada_pct": 0.0996,
+          "resultado_financeiro_liquido": -130.97,
+          "lucro_liquido_destaque": -25.7157,
+          "receitas_a_apropriar": 707.632,
+          "resultados_a_apropriar": 834.1409,
+          "margem_resultados_a_apropriar_pct": -27.7989,
+          "caixa_disponibilidades": 173.403,
+          "divida_liquida": null,
+          "divida_liquida_ajustada": null,
+          "patrimonio_liquido_minoritarios": null,
+          "divida_liquida_sobre_pl_pct": null,
+          "divida_liquida_ajustada_sobre_pl_pct": null,
+          "lucro_liquido_ltm": null,
+          "nopat_ltm": null,
+          "capital_empregado": null,
+          "roe_ltm_pct": 2023,
+          "roce_ltm_pct": 2899.802,
+          "despesas_com_vendas_sga": -7.9877,
+          "despesas_administrativas_sga": -0.945,
+          "total_sga": null,
+          "despesas_vendas_sobre_vl_pct": 62.1296,
+          "despesas_adm_sobre_lancamentos_pct": -193.1011,
+          "despesas_com_demandas_judiciais": -32.3787,
+          "outras_receitas_despesas_op": 6.663,
+          "equivalencia_patrimonial_fin": -25.7157,
+          "receitas_financeiras": 2023,
+          "despesas_financeiras": 36.717,
+          "resultado_financeiro_ex_swap": 2795.041,
+          "capitalizacao_juros": null,
+          "contas_a_receber_cap_empregado": null,
+          "estoque_cap_empregado": null,
+          "outros_cap_empregado": null,
+          "divida_bruta": null,
+          "caixa_aplicacoes_financeiras_ded": null,
+          "reducao_capital": null,
+          "divida_liquida_ajustada_det": null
+        }
+      },
+      "alea_sbpe": {
+        "operacional": {
+          "lancamentos": {
+            "n_empreendimentos": 21,
+            "vgv": 365.1832,
+            "n_unidades": 2116,
+            "preco_medio_unidade": 172.5818,
+            "tamanho_medio_empreendimento": 101
+          },
+          "vendas_brutas": {
+            "vgv": 163.8586,
+            "vso_bruta": 0.424,
+            "n_unidades": 925,
+            "preco_medio_unidade": 177.1445
+          },
+          "distratos": {
+            "vgv": 21.0917,
+            "n_unidades": 118,
+            "distratos_sobre_vendas_brutas_unidades": 0.1276,
+            "preco_medio_unidade": 178.7428
+          },
+          "vendas_liquidas": {
+            "vgv": 142.767,
+            "vso_liquida": 0.369,
+            "n_unidades": 807,
+            "preco_medio_unidade": 176.9108
+          },
+          "repasses": {
+            "vgv": 462,
+            "n_unidades": 243
+          },
+          "entregas": {
+            "n_unidades": 9
+          },
+          "obras_em_andamento": {
+            "n_empreendimentos": null
+          },
+          "estoque": {
+            "vgv": 1499,
+            "n_unidades": 162.6933,
+            "preco_medio_unidade": null
+          },
+          "banco_de_terrenos": {
+            "n_empreendimentos": 3084.9033,
+            "vgv": 2186.4185,
+            "aquisicoes_ajustes_vgv": 17244,
+            "n_unidades": 178.8972,
+            "preco_medio_unidade": 0.963,
+            "pct_permuta_total": 0,
+            "pct_permuta_unidades": 0.963,
+            "pct_permuta_financeiro": null
+          }
+        },
+        "dre": {
+          "receita_liquida": 108.046,
+          "custos_operacionais": -126.552,
+          "lucro_bruto": -18.506,
+          "lucro_bruto_ajustado": -17.6957,
+          "margem_bruta": -0.1713,
+          "margem_bruta_ajustada": -0.1638,
+          "despesas_operacionais": -51.8453,
+          "despesas_com_vendas": -17.619,
+          "despesas_administrativas": -31.247,
+          "outras_desp_rec_operacionais": 0.013,
+          "depreciacao_amortizacao": -2.996,
+          "equivalencia_patrimonial": 0,
+          "lucro_operacional": -70.3513,
+          "receita_financeira": 1.015,
+          "despesa_financeira": -0.796,
+          "lucro_antes_ir": -70.1323,
+          "impostos_diferidos": 0.001,
+          "ir_csll": 0,
+          "lucro_apos_ir": -70.1323,
+          "participacao_minoritarios": 0,
+          "lucro_liquido": -70.1313,
+          "lucro_liquido_ajustado": -69.321,
+          "margem_liquida": -0.6491,
+          "margem_liquida_ajustada": -0.6416
+        },
+        "financeiro_ajustado": {
+          "receita_liquida_destaque": 108.046,
+          "lucro_bruto_ajustado_destaque": -17.6957,
+          "margem_bruta_ajustada_pct": -0.1638,
+          "margem_bruta_ajustada_ex_pode_entrar_pct": -60.8108,
+          "ebitda_ajustado": -0.5628,
+          "margem_ebitda_ajustada_pct": 0.219,
+          "resultado_financeiro_liquido": -70.1313,
+          "lucro_liquido_destaque": 0,
+          "receitas_a_apropriar": 0,
+          "resultados_a_apropriar": 0,
+          "margem_resultados_a_apropriar_pct": 11.184,
+          "caixa_disponibilidades": 30.296,
+          "divida_liquida": -68.0481,
+          "divida_liquida_ajustada": -69.542,
+          "patrimonio_liquido_minoritarios": null,
+          "divida_liquida_sobre_pl_pct": null,
+          "divida_liquida_ajustada_sobre_pl_pct": null,
+          "lucro_liquido_ltm": null,
+          "nopat_ltm": null,
+          "capital_empregado": null,
+          "roe_ltm_pct": null,
+          "roce_ltm_pct": null,
+          "despesas_com_vendas_sga": 0.0167,
+          "despesas_administrativas_sga": 0,
+          "total_sga": null,
+          "despesas_vendas_sobre_vl_pct": 1.015,
+          "despesas_adm_sobre_lancamentos_pct": -0.796,
+          "despesas_com_demandas_judiciais": -70.1313,
+          "outras_receitas_despesas_op": 0,
+          "equivalencia_patrimonial_fin": -70.1313,
+          "receitas_financeiras": 2023,
+          "despesas_financeiras": 2.996,
+          "resultado_financeiro_ex_swap": 108.046,
+          "capitalizacao_juros": null,
+          "contas_a_receber_cap_empregado": null,
+          "estoque_cap_empregado": null,
+          "outros_cap_empregado": null,
+          "divida_bruta": null,
+          "caixa_aplicacoes_financeiras_ded": null,
+          "reducao_capital": null,
+          "divida_liquida_ajustada_det": null
+        },
+        "bp_simplificado": {
+          "caixa_equivalentes": 11.185,
+          "contas_a_receber": 43.556,
+          "imoveis_destinados_venda": 311.814,
+          "investimentos": 0,
+          "outros_ativos": 95.652,
+          "ativo_total": 462.207,
+          "emprestimos_financiamentos_debentures": 9.891,
+          "obrig_terrenos_adiant_clientes": 300.239,
+          "outros_passivos": 121.781,
+          "total_passivo": 431.911,
+          "patrimonio_liquido": 30.296,
+          "passivo_pl_total": 462.207
+        }
+      }
+    }
+  }
+}

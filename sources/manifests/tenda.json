@@ -1,0 +1,1519 @@
+{
+  "_schema": "manifest/v1",
+  "_updated": "2026-04-08",
+  "empresa": "tenda",
+  "display_name": "Construtora Tenda S.A.",
+  "aliases": [
+    "Tenda",
+    "TEND3",
+    "Alea"
+  ],
+  "ticker": "TEND3",
+  "setor": "incorporadora",
+  "setor_schema": "sources/structured/_schemas/incorporadora.json",
+  "segmentos": [
+    "tenda_mcmv",
+    "alea_sbpe"
+  ],
+  "wiki_page": "tenda.md",
+  "coverage": {
+    "1T26": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T26/data_pack.json"
+      },
+      "dre": {
+        "status": "empty",
+        "source": "sources/structured/tenda/1T26/data_pack.json",
+        "reason": "release completo do 1T26 ainda não publicado (apenas prévia operacional disponível)"
+      },
+      "bp": {
+        "status": "empty",
+        "source": "sources/structured/tenda/1T26/data_pack.json",
+        "reason": "release completo do 1T26 ainda não publicado (apenas prévia operacional disponível)"
+      },
+      "financeiro_ajustado": {
+        "status": "empty",
+        "source": "sources/structured/tenda/1T26/data_pack.json",
+        "reason": "release completo do 1T26 ainda não publicado (apenas prévia operacional disponível)"
+      }
+    },
+    "4T25": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T25/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T25/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T25/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T25/data_pack.json"
+      }
+    },
+    "3T25": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T25/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T25/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T25/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T25/data_pack.json"
+      }
+    },
+    "2T25": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T25/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T25/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T25/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T25/data_pack.json"
+      }
+    },
+    "1T25": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T25/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T25/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T25/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T25/data_pack.json"
+      }
+    },
+    "2025": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2025/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2025/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2025/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2025/data_pack.json"
+      }
+    },
+    "4T24": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T24/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T24/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T24/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T24/data_pack.json"
+      }
+    },
+    "3T24": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T24/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T24/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T24/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T24/data_pack.json"
+      }
+    },
+    "2T24": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T24/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T24/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T24/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T24/data_pack.json"
+      }
+    },
+    "1T24": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T24/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T24/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T24/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T24/data_pack.json"
+      }
+    },
+    "2024": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2024/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2024/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2024/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2024/data_pack.json"
+      }
+    },
+    "4T23": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T23/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T23/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T23/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T23/data_pack.json"
+      }
+    },
+    "3T23": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T23/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T23/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T23/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T23/data_pack.json"
+      }
+    },
+    "2T23": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T23/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T23/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T23/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T23/data_pack.json"
+      }
+    },
+    "1T23": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T23/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T23/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T23/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T23/data_pack.json"
+      }
+    },
+    "2023": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2023/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2023/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2023/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2023/data_pack.json"
+      }
+    },
+    "4T22": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T22/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T22/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T22/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T22/data_pack.json"
+      }
+    },
+    "3T22": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T22/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T22/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T22/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T22/data_pack.json"
+      }
+    },
+    "2T22": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T22/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T22/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T22/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T22/data_pack.json"
+      }
+    },
+    "1T22": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T22/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T22/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T22/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T22/data_pack.json"
+      }
+    },
+    "2022": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2022/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2022/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2022/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2022/data_pack.json"
+      }
+    },
+    "4T21": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T21/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T21/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T21/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T21/data_pack.json"
+      }
+    },
+    "3T21": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T21/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T21/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T21/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T21/data_pack.json"
+      }
+    },
+    "2T21": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T21/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T21/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T21/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T21/data_pack.json"
+      }
+    },
+    "1T21": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T21/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T21/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T21/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T21/data_pack.json"
+      }
+    },
+    "2021": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2021/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2021/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2021/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2021/data_pack.json"
+      }
+    },
+    "4T20": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T20/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T20/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T20/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T20/data_pack.json"
+      }
+    },
+    "3T20": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T20/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T20/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T20/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T20/data_pack.json"
+      }
+    },
+    "2T20": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T20/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T20/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T20/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T20/data_pack.json"
+      }
+    },
+    "1T20": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T20/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T20/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T20/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T20/data_pack.json"
+      }
+    },
+    "2020": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2020/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2020/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2020/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2020/data_pack.json"
+      }
+    },
+    "4T19": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T19/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T19/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T19/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T19/data_pack.json"
+      }
+    },
+    "3T19": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T19/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T19/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T19/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T19/data_pack.json"
+      }
+    },
+    "2T19": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T19/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T19/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T19/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T19/data_pack.json"
+      }
+    },
+    "1T19": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T19/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T19/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T19/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T19/data_pack.json"
+      }
+    },
+    "2019": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2019/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2019/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2019/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2019/data_pack.json"
+      }
+    },
+    "4T18": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T18/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T18/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T18/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/4T18/data_pack.json"
+      }
+    },
+    "3T18": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T18/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T18/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T18/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/3T18/data_pack.json"
+      }
+    },
+    "2T18": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T18/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T18/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T18/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2T18/data_pack.json"
+      }
+    },
+    "1T18": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T18/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T18/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T18/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/1T18/data_pack.json"
+      }
+    },
+    "2018": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2018/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2018/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2018/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2018/data_pack.json"
+      }
+    },
+    "4T17": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T17/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T17/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T17/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/4T17/data_pack.json"
+      }
+    },
+    "3T17": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T17/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T17/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T17/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/3T17/data_pack.json"
+      }
+    },
+    "2T17": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T17/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T17/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T17/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2T17/data_pack.json"
+      }
+    },
+    "1T17": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T17/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T17/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T17/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/1T17/data_pack.json"
+      }
+    },
+    "2017": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2017/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2017/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2017/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2017/data_pack.json"
+      }
+    },
+    "4T16": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T16/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T16/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T16/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/4T16/data_pack.json"
+      }
+    },
+    "3T16": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T16/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T16/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T16/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/3T16/data_pack.json"
+      }
+    },
+    "2T16": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T16/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T16/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T16/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2T16/data_pack.json"
+      }
+    },
+    "1T16": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T16/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T16/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T16/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/1T16/data_pack.json"
+      }
+    },
+    "2016": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2016/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2016/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2016/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2016/data_pack.json"
+      }
+    },
+    "4T15": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T15/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T15/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T15/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/4T15/data_pack.json"
+      }
+    },
+    "3T15": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T15/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T15/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T15/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/3T15/data_pack.json"
+      }
+    },
+    "2T15": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T15/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T15/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T15/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2T15/data_pack.json"
+      }
+    },
+    "1T15": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T15/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T15/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T15/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/1T15/data_pack.json"
+      }
+    },
+    "2015": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2015/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2015/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2015/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2015/data_pack.json"
+      }
+    },
+    "4T14": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T14/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T14/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T14/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/4T14/data_pack.json"
+      }
+    },
+    "3T14": {
+      "operacional": {
+        "status": "partial",
+        "source": "sources/structured/tenda/3T14/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T14/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T14/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/3T14/data_pack.json"
+      }
+    },
+    "2T14": {
+      "operacional": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2T14/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T14/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T14/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2T14/data_pack.json"
+      }
+    },
+    "1T14": {
+      "operacional": {
+        "status": "partial",
+        "source": "sources/structured/tenda/1T14/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T14/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T14/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/1T14/data_pack.json"
+      }
+    },
+    "2014": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2014/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2014/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2014/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2014/data_pack.json"
+      }
+    },
+    "4T13": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T13/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T13/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T13/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/4T13/data_pack.json"
+      }
+    },
+    "3T13": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T13/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T13/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T13/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/3T13/data_pack.json"
+      }
+    },
+    "2T13": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T13/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T13/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T13/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2T13/data_pack.json"
+      }
+    },
+    "1T13": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T13/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T13/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T13/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/1T13/data_pack.json"
+      }
+    },
+    "2013": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2013/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2013/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2013/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2013/data_pack.json"
+      }
+    },
+    "4T12": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T12/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T12/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T12/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/4T12/data_pack.json"
+      }
+    },
+    "3T12": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T12/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T12/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T12/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/3T12/data_pack.json"
+      }
+    },
+    "2T12": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T12/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T12/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T12/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2T12/data_pack.json"
+      }
+    },
+    "1T12": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T12/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T12/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T12/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/1T12/data_pack.json"
+      }
+    },
+    "2012": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2012/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2012/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2012/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2012/data_pack.json"
+      }
+    },
+    "4T11": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T11/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T11/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/4T11/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/4T11/data_pack.json"
+      }
+    },
+    "3T11": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T11/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T11/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/3T11/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/3T11/data_pack.json"
+      }
+    },
+    "2T11": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T11/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T11/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2T11/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2T11/data_pack.json"
+      }
+    },
+    "1T11": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T11/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T11/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/1T11/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/1T11/data_pack.json"
+      }
+    },
+    "2011": {
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2011/data_pack.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2011/data_pack.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2011/data_pack.json"
+      },
+      "financeiro_ajustado": {
+        "status": "partial",
+        "source": "sources/structured/tenda/2011/data_pack.json"
+      }
+    }
+  },
+  "sources": [
+    {
+      "type": "previa_operacional",
+      "asof": "1T26",
+      "ingested_on": "2026-04-08",
+      "full": "sources/full/tenda/1T26/previa_operacional.md",
+      "digested": "sources/digested/tenda_previa_operacional_1T26_summary.md",
+      "structured": [
+        "sources/structured/tenda/1T26/previa_operacional.json"
+      ]
+    },
+    {
+      "type": "data_pack",
+      "asof": "1T26",
+      "ingested_on": "2026-04-08",
+      "full": "sources/full/tenda/data_pack_1T26.md",
+      "digested": "sources/digested/tenda_data_pack_1T26_summary.md",
+      "structured_glob": "sources/structured/tenda/{period}/data_pack.json",
+      "structured_periods": [
+        "1T26",
+        "4T25",
+        "3T25",
+        "2T25",
+        "1T25",
+        "2025",
+        "4T24",
+        "3T24",
+        "2T24",
+        "1T24",
+        "2024",
+        "4T23",
+        "3T23",
+        "2T23",
+        "1T23",
+        "2023",
+        "4T22",
+        "3T22",
+        "2T22",
+        "1T22",
+        "2022",
+        "4T21",
+        "3T21",
+        "2T21",
+        "1T21",
+        "2021",
+        "4T20",
+        "3T20",
+        "2T20",
+        "1T20",
+        "2020",
+        "4T19",
+        "3T19",
+        "2T19",
+        "1T19",
+        "2019",
+        "4T18",
+        "3T18",
+        "2T18",
+        "1T18",
+        "2018",
+        "4T17",
+        "3T17",
+        "2T17",
+        "1T17",
+        "2017",
+        "4T16",
+        "3T16",
+        "2T16",
+        "1T16",
+        "2016",
+        "4T15",
+        "3T15",
+        "2T15",
+        "1T15",
+        "2015",
+        "4T14",
+        "3T14",
+        "2T14",
+        "1T14",
+        "2014",
+        "4T13",
+        "3T13",
+        "2T13",
+        "1T13",
+        "2013",
+        "4T12",
+        "3T12",
+        "2T12",
+        "1T12",
+        "2012",
+        "4T11",
+        "3T11",
+        "2T11",
+        "1T11",
+        "2011"
+      ]
+    }
+  ],
+  "precedence": [
+    {
+      "scope": "operacional.* at 1T26",
+      "winner": "sources/structured/tenda/1T26/previa_operacional.json",
+      "reason": "prévia é a fonte primária do 1T26 operacional, mais curada; data_pack é redundante no 1T26 (números idênticos, cross-validado em vendas líquidas consolidadas R$ 1.533,0 mm)"
+    },
+    {
+      "scope": "operacional.* at any period ≠ 1T26",
+      "winner": "sources/structured/tenda/{period}/data_pack.json",
+      "reason": "data_pack é única fonte para períodos históricos"
+    },
+    {
+      "scope": "dre.* | bp.* | financeiro_ajustado.* at any period",
+      "winner": "sources/structured/tenda/{period}/data_pack.json",
+      "reason": "prévia operacional não traz DFs; data_pack é a única fonte financeira histórica até o próximo ingest de release/ITR/DFP"
+    }
+  ],
+  "caveats": [
+    "Séries pré-2024 refletem empresa estruturalmente diferente devido ao ciclo de quase-quebra 2021–2023 (prejuízo recorde de R$ 547 mm em 2022, ROE -57%). Ver tenda.md §arco-historico.",
+    "Alea (segmento SBPE) só tem histórico a partir de ~2020; períodos anteriores são Tenda MCMV stand-alone.",
+    "BP stand-alone do segmento Tenda MCMV não está disponível — apenas Consolidado (bp block) e Alea simplificado (company_specific.segmentos.alea_sbpe.bp_simplificado).",
+    "1T26 tem apenas operacional preenchido; DRE/BP/financeiro_ajustado virão quando o release completo do 1T26 for ingerido.",
+    "Redução de capital histórica (contexto da crise 2021–2023): data_pack mantém `divida_liquida_ajustada` separada de `divida_liquida` por causa disso.",
+    "Programa Habitacional 'Pode Entrar' (SP municipal) inflou vendas da Tenda no 3T24 — métricas 'ex-Pode Entrar' são a base de comparação limpa reportada pela empresa."
+  ],
+  "related_digests": [
+    "sources/digested/tenda_previa_operacional_1T26_summary.md",
+    "sources/digested/tenda_data_pack_1T26_summary.md"
+  ]
+}

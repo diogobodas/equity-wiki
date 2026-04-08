@@ -1,0 +1,179 @@
+{
+  "_schema": "incorporadora/v1",
+  "_schema_path": "sources/structured/_schemas/incorporadora.json",
+  "_empresa": "tenda",
+  "_periodo": "1T26",
+  "_source": "full/tenda/data_pack_1T26.md",
+  "_source_type": "data_pack",
+  "_source_asof": "1T26",
+  "_notes": "Per-period slice of the Tenda RI data pack as-of 1T26. Canonical = Consolidado; segments in company_specific.",
+  "canonical": {
+    "operacional": {
+      "lancamentos": {
+        "n_empreendimentos": 15,
+        "vgv": 1456.5802,
+        "n_unidades": 6344,
+        "preco_medio_unidade": 229.5997,
+        "tamanho_medio_empreendimento": 422.9333
+      },
+      "vendas_brutas": {
+        "vgv": 1701.0036,
+        "vso_bruta": 0.306,
+        "n_unidades": 7260,
+        "preco_medio_unidade": 234.298
+      },
+      "distratos": {
+        "vgv": 167.9814,
+        "n_unidades": 783,
+        "distratos_sobre_vendas_brutas_unidades": 0.1079,
+        "preco_medio_unidade": 214.5356
+      },
+      "vendas_liquidas": {
+        "vgv": 1533.0222,
+        "vso_liquida": 0.2756,
+        "n_unidades": 6477,
+        "preco_medio_unidade": 236.6871
+      },
+      "repasses": {
+        "vgv": 1109.1765,
+        "n_unidades": 5921
+      },
+      "entregas": {
+        "n_unidades": 5464
+      },
+      "obras_em_andamento": {
+        "n_empreendimentos": 83
+      },
+      "estoque": {
+        "vgv": 4030.2648,
+        "n_unidades": 17139,
+        "preco_medio_unidade": 235.1517
+      },
+      "banco_de_terrenos": {
+        "n_empreendimentos": 793,
+        "vgv": 29668.7084,
+        "aquisicoes_ajustes_vgv": 2415.2338,
+        "n_unidades": 139072,
+        "preco_medio_unidade": 213.3334,
+        "pct_permuta_total": 0.7121,
+        "pct_permuta_unidades": 0.0632,
+        "pct_permuta_financeiro": 0.6489
+      }
+    },
+    "dre": null,
+    "bp": null,
+    "financeiro_ajustado": null
+  },
+  "company_specific": {
+    "segmentos": {
+      "tenda_mcmv": {
+        "operacional": {
+          "lancamentos": {
+            "n_empreendimentos": 13,
+            "vgv": 1409.2132,
+            "n_unidades": 6083,
+            "preco_medio_unidade": 231.6642,
+            "tamanho_medio_empreendimento": 467.9231
+          },
+          "vendas_brutas": {
+            "vgv": 1579.4046,
+            "vso_bruta": 0.297,
+            "n_unidades": 6647,
+            "preco_medio_unidade": 237.6116
+          },
+          "distratos": {
+            "vgv": 151.4356,
+            "n_unidades": 695,
+            "distratos_sobre_vendas_brutas_unidades": 0.1046,
+            "preco_medio_unidade": 217.893
+          },
+          "vendas_liquidas": {
+            "vgv": 1427.9689,
+            "vso_liquida": 0.2689,
+            "n_unidades": 5952,
+            "preco_medio_unidade": 239.9141
+          },
+          "repasses": {
+            "vgv": 1021.202,
+            "n_unidades": 5400
+          },
+          "entregas": {
+            "n_unidades": 4625
+          },
+          "obras_em_andamento": {
+            "n_empreendimentos": 71
+          },
+          "estoque": {
+            "vgv": 3882.9755,
+            "n_unidades": 16199,
+            "preco_medio_unidade": 239.7046
+          },
+          "banco_de_terrenos": {
+            "n_empreendimentos": 609,
+            "vgv": 23445.7672,
+            "aquisicoes_ajustes_vgv": 2221.1062,
+            "n_unidades": 106499,
+            "preco_medio_unidade": 220.1501,
+            "pct_permuta_total": 0.6072,
+            "pct_permuta_unidades": 0.0879,
+            "pct_permuta_financeiro": 0.5194
+          }
+        }
+      },
+      "alea_sbpe": {
+        "operacional": {
+          "lancamentos": {
+            "n_empreendimentos": 2,
+            "vgv": 47.3671,
+            "n_unidades": 261,
+            "preco_medio_unidade": 181.483,
+            "tamanho_medio_empreendimento": 130.5
+          },
+          "vendas_brutas": {
+            "vgv": 121.599,
+            "vso_bruta": 0.482,
+            "n_unidades": 613,
+            "preco_medio_unidade": 198.3671
+          },
+          "distratos": {
+            "vgv": 16.5458,
+            "n_unidades": 88,
+            "distratos_sobre_vendas_brutas_unidades": 0.1436,
+            "preco_medio_unidade": 188.0202
+          },
+          "vendas_liquidas": {
+            "vgv": 105.0532,
+            "vso_liquida": 0.4163,
+            "n_unidades": 525,
+            "preco_medio_unidade": 200.1014
+          },
+          "repasses": {
+            "vgv": 521,
+            "n_unidades": 839
+          },
+          "entregas": {
+            "n_unidades": 12
+          },
+          "obras_em_andamento": {
+            "n_empreendimentos": null
+          },
+          "estoque": {
+            "vgv": 940,
+            "n_unidades": 156.6908,
+            "preco_medio_unidade": null
+          },
+          "banco_de_terrenos": {
+            "n_empreendimentos": 6222.9413,
+            "vgv": 194.1277,
+            "aquisicoes_ajustes_vgv": 32573,
+            "n_unidades": 191.046,
+            "preco_medio_unidade": 0.9805,
+            "pct_permuta_total": 0,
+            "pct_permuta_unidades": 0.9805,
+            "pct_permuta_financeiro": null
+          }
+        }
+      }
+    }
+  }
+}

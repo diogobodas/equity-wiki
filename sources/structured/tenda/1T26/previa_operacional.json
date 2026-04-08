@@ -1,0 +1,333 @@
+{
+  "_schema": "incorporadora/v1",
+  "_schema_path": "sources/structured/_schemas/incorporadora.json",
+  "_empresa": "tenda",
+  "_periodo": "1T26",
+  "_source": "full/tenda/1T26/previa_operacional.md",
+  "_source_type": "previa_operacional",
+  "_notes": "Prévia operacional — dados preliminares, sujeitos a revisão. Não contém DF (DRE/BP/FC). Canonical é preenchido com o consolidado Tenda+Alea; breakdown por segmento fica em company_specific.segmentos. Unidades: VGV em R$ milhões, preços em R$ mil/unidade, percentuais em pct.",
+  "canonical": {
+    "operacional": {
+      "lancamentos": {
+        "n_empreendimentos": 15,
+        "vgv": 1456.6,
+        "n_unidades": 6344,
+        "preco_medio_unidade": 229.6,
+        "tamanho_medio_empreendimento": 423
+      },
+      "vendas_brutas": {
+        "vgv": 1701.0,
+        "n_unidades": 7260,
+        "preco_medio_unidade": 234.3,
+        "vso_bruta": 30.6
+      },
+      "distratos": {
+        "vgv": 168.0,
+        "n_unidades": 783,
+        "distratos_sobre_vendas_brutas_vgv": 9.9,
+        "distratos_sobre_vendas_brutas_unidades": 10.8
+      },
+      "vendas_liquidas": {
+        "vgv": 1533.0,
+        "n_unidades": 6477,
+        "vso_liquida": 27.6,
+        "pct_lancamentos": 9.7,
+        "pct_estoque": 90.3
+      },
+      "repasses": {
+        "vgv": 1109.2,
+        "n_unidades": 5921
+      },
+      "entregas": {
+        "n_unidades": 5464,
+        "n_empreendimentos": null
+      },
+      "obras_em_andamento": {
+        "n_empreendimentos": 83
+      },
+      "banco_de_terrenos": {
+        "n_empreendimentos": 793,
+        "vgv": 29668.7,
+        "aquisicoes_ajustes_vgv": 2415.2,
+        "n_unidades": 139072,
+        "preco_medio_unidade": 213.3,
+        "pct_permuta_total": 71.2,
+        "pct_permuta_unidades": 6.3,
+        "pct_permuta_financeiro": 64.9
+      }
+    },
+    "dre": {
+      "receita_liquida": null,
+      "custo_dos_imoveis_vendidos": null,
+      "lucro_bruto": null,
+      "margem_bruta": null,
+      "despesas_comerciais": null,
+      "despesas_administrativas": null,
+      "ebitda": null,
+      "margem_ebitda": null,
+      "resultado_financeiro": null,
+      "lucro_liquido": null,
+      "margem_liquida": null
+    },
+    "bp": {
+      "caixa_e_equivalentes": null,
+      "contas_a_receber": null,
+      "estoques": null,
+      "ativo_total": null,
+      "divida_bruta": null,
+      "divida_liquida": null,
+      "patrimonio_liquido": null
+    },
+    "fc": {
+      "fluxo_caixa_operacional": null,
+      "fluxo_caixa_investimento": null,
+      "fluxo_caixa_financiamento": null,
+      "geracao_caixa_do_periodo": null
+    }
+  },
+  "company_specific": {
+    "segmentos": {
+      "_definicao": "Tenda reporta em dois segmentos: Tenda (MCMV faixa 1) e Alea (SBPE, fora do MCMV). Alea é marca/subsidiária 100% Tenda, não é listada. Consolidado = Tenda + Alea.",
+      "tenda_mcmv": {
+        "lancamentos": {
+          "n_empreendimentos": 13,
+          "vgv": 1409.2,
+          "n_unidades": 6083,
+          "preco_medio_unidade": 231.7,
+          "tamanho_medio_empreendimento": 468
+        },
+        "vendas_brutas": {
+          "vgv": 1579.4,
+          "n_unidades": 6647,
+          "preco_medio_unidade": 237.6,
+          "vso_bruta": 29.7
+        },
+        "distratos": {
+          "vgv": 151.4,
+          "n_unidades": 695,
+          "distratos_sobre_vendas_brutas_vgv": 9.6,
+          "distratos_sobre_vendas_brutas_unidades": 10.5
+        },
+        "vendas_liquidas": {
+          "vgv": 1428.0,
+          "n_unidades": 5952,
+          "vso_liquida": 26.9,
+          "pct_lancamentos": 8.5,
+          "pct_estoque": 91.5
+        },
+        "repasses": {
+          "vgv": 1021.2,
+          "n_unidades": 5400
+        },
+        "entregas": {
+          "n_unidades": 4625
+        },
+        "obras_em_andamento": {
+          "n_empreendimentos": 71
+        },
+        "banco_de_terrenos": {
+          "n_empreendimentos": 609,
+          "vgv": 23445.8,
+          "aquisicoes_ajustes_vgv": 2221.1,
+          "n_unidades": 106499,
+          "preco_medio_unidade": 220.2,
+          "pct_permuta_total": 60.7,
+          "pct_permuta_unidades": 8.8,
+          "pct_permuta_financeiro": 51.9
+        }
+      },
+      "alea_sbpe": {
+        "lancamentos": {
+          "n_empreendimentos": 2,
+          "vgv": 47.4,
+          "n_unidades": 261,
+          "preco_medio_unidade": 181.5,
+          "tamanho_medio_empreendimento": 131
+        },
+        "vendas_brutas": {
+          "vgv": 121.6,
+          "n_unidades": 613,
+          "preco_medio_unidade": 198.4,
+          "vso_bruta": 48.2
+        },
+        "distratos": {
+          "vgv": 16.5,
+          "n_unidades": 88,
+          "distratos_sobre_vendas_brutas_vgv": 13.6,
+          "distratos_sobre_vendas_brutas_unidades": 14.4
+        },
+        "vendas_liquidas": {
+          "vgv": 105.1,
+          "n_unidades": 525,
+          "vso_liquida": 41.6,
+          "pct_lancamentos": 26.8,
+          "pct_estoque": 73.2
+        },
+        "repasses": {
+          "vgv": 88.0,
+          "n_unidades": 521
+        },
+        "entregas": {
+          "n_unidades": 839
+        },
+        "obras_em_andamento": {
+          "n_empreendimentos": 12,
+          "verticalizadas": 8,
+          "nao_verticalizadas": 4
+        },
+        "banco_de_terrenos": {
+          "n_empreendimentos": 184,
+          "vgv": 6222.9,
+          "aquisicoes_ajustes_vgv": 194.1,
+          "n_unidades": 32573,
+          "preco_medio_unidade": 191.0,
+          "pct_permuta_total": 98.0,
+          "pct_permuta_unidades": 0.0,
+          "pct_permuta_financeiro": 98.0
+        }
+      }
+    },
+    "pode_entrar": {
+      "_definicao": "Programa Habitacional 'Pode Entrar' (prefeitura de SP) impactou pontualmente o 3T24 da Tenda, inflando vendas e lançamentos. Tenda reporta métricas 'ex-Pode Entrar' como recordes históricos no 1T26.",
+      "impacto_3T24_tenda": {
+        "vendas_brutas_vgv_total": 1572,
+        "vendas_brutas_vgv_pode_entrar": 531,
+        "vendas_brutas_vgv_ex_pode_entrar": 1041,
+        "vso_bruta_com": 41.0,
+        "vso_bruta_ex": 31.0,
+        "vendas_liquidas_vgv_total": 1466,
+        "vendas_liquidas_vgv_pode_entrar": 532,
+        "vendas_liquidas_vgv_ex_pode_entrar": 934,
+        "vso_liquida_com": 38.0,
+        "vso_liquida_ex": 28.0,
+        "preco_medio_lancamento_com": 221,
+        "preco_medio_lancamento_ex": 215
+      }
+    },
+    "historico_operacional_tenda_mcmv": {
+      "_unidades": "preco em R$ mil/un; vgv em R$ mm; vso em pct",
+      "preco_medio_lancamento": {
+        "1T24": 220,
+        "2T24": 227,
+        "3T24": 221,
+        "3T24_ex_pode_entrar": 215,
+        "4T24": 219,
+        "1T25": 225,
+        "2T25": 217,
+        "3T25": 234,
+        "4T25": 239,
+        "1T26": 232
+      },
+      "vendas_brutas_vgv": {
+        "1T24": 972,
+        "2T24": 1002,
+        "3T24": 1572,
+        "3T24_ex_pode_entrar": 1041,
+        "4T24": 1042,
+        "1T25": 1094,
+        "2T25": 1187,
+        "3T25": 1235,
+        "4T25": 1233,
+        "1T26": 1579
+      },
+      "vso_bruta": {
+        "1T24": 34,
+        "2T24": 36,
+        "3T24": 41,
+        "3T24_ex_pode_entrar": 31,
+        "4T24": 28,
+        "1T25": 30,
+        "2T25": 31,
+        "3T25": 29,
+        "4T25": 25,
+        "1T26": 30
+      },
+      "vendas_liquidas_vgv": {
+        "1T24": 884,
+        "2T24": 908,
+        "3T24": 1466,
+        "3T24_ex_pode_entrar": 934,
+        "4T24": 926,
+        "1T25": 988,
+        "2T25": 1051,
+        "3T25": 1099,
+        "4T25": 1104,
+        "1T26": 1428
+      },
+      "vso_liquida": {
+        "1T24": 31,
+        "2T24": 33,
+        "3T24": 38,
+        "3T24_ex_pode_entrar": 28,
+        "4T24": 25,
+        "1T25": 27,
+        "2T25": 28,
+        "3T25": 26,
+        "4T25": 23,
+        "1T26": 27
+      }
+    },
+    "historico_operacional_alea_sbpe": {
+      "_unidades": "preco em R$ mil/un; vgv em R$ mm; vso em pct",
+      "preco_medio_lancamento": {
+        "1T24": 180,
+        "2T24": 196,
+        "3T24": 197,
+        "4T24": 189,
+        "1T25": 235,
+        "2T25": 189,
+        "3T25": 197,
+        "4T25": 199,
+        "1T26": 181
+      },
+      "vendas_brutas_vgv": {
+        "1T24": 104,
+        "2T24": 125,
+        "3T24": 104,
+        "4T24": 83,
+        "1T25": 119,
+        "2T25": 181,
+        "3T25": 174,
+        "4T25": 170,
+        "1T26": 122
+      },
+      "vso_bruta": {
+        "1T24": 31,
+        "2T24": 34,
+        "3T24": 29,
+        "4T24": 16,
+        "1T25": 22,
+        "2T25": 39,
+        "3T25": 46,
+        "4T25": 54,
+        "1T26": 48
+      },
+      "vendas_liquidas_vgv": {
+        "1T24": 81,
+        "2T24": 112,
+        "3T24": 89,
+        "4T24": 58,
+        "1T25": 100,
+        "2T25": 145,
+        "3T25": 134,
+        "4T25": 121,
+        "1T26": 105
+      },
+      "vso_liquida": {
+        "1T24": 24,
+        "2T24": 31,
+        "3T24": 24,
+        "4T24": 11,
+        "1T25": 18,
+        "2T25": 31,
+        "3T25": 35,
+        "4T25": 38,
+        "1T26": 42
+      }
+    },
+    "eventos": [
+      "Março/2026: primeiro empreendimento da Tenda no estado da Paraíba — 464 unidades, preço médio R$ 268,4 mil/un.",
+      "Banco de terrenos: >90% do pagamento dos terrenos comprados em caixa está atrelado à obtenção do registro de incorporação (mitigador de risco de fluxo)."
+    ]
+  }
+}
