@@ -320,6 +320,82 @@
       "stock_option_2014": "Programa encerrado em 2025 com exercício de 5.343.797 ações remanescentes. Saldo residual 89.291 opções.",
       "plano_alea": "Aprovado 10/2021. Diluição máxima 4%. 2025: reversão de R$ (281) + R$ (183)."
     },
+    "nota_21_custos_despesas_natureza": {
+      "_fonte": "full/tenda/2025/dfp.md §nota_21",
+      "custos_incorporacao_venda": {
+        "custo_construcao": {"2025": -2254.817, "2024": -1700.099},
+        "custo_terrenos": {"2025": -452.534, "2024": -462.773},
+        "custo_incorporacao": {"2025": -85.489, "2024": -84.131},
+        "encargos_financeiros_capitalizados": {"2025": -82.864, "2024": -93.505},
+        "manutencao_garantia": {"2025": -34.248, "2024": -30.213},
+        "custo_provisao_distrato": {"2025": -8.046, "2024": -22.236},
+        "total": {"2025": -2917.998, "2024": -2392.957}
+      },
+      "despesas_vendas": {
+        "marketing_produto": {"2025": -161.678, "2024": -133.771},
+        "corretagem_comissao": {"2025": -171.067, "2024": -142.221},
+        "custo_vendas": {"2025": -37.290, "2024": -36.350},
+        "custo_repasse": {"2025": -9.671, "2024": -8.463},
+        "corretagem": {"2025": -124.106, "2024": -97.408},
+        "crm": {"2025": -6.964, "2024": -4.157},
+        "outras": {"2025": -2.631, "2024": -4.852},
+        "total": {"2025": -342.340, "2024": -285.001}
+      },
+      "g_and_a": {
+        "salarios_encargos": {"2025": -135.669, "2024": -111.766},
+        "beneficios": {"2025": -17.325, "2024": -11.439},
+        "viagens_utilidades": {"2025": -4.730, "2024": -5.524},
+        "servicos_prestados": {"2025": -33.654, "2024": -16.865},
+        "alugueis_condominios": {"2025": -7.907, "2024": -6.842},
+        "informatica": {"2025": -17.497, "2024": -15.888},
+        "plano_opcoes_acoes": {"2025": -20.052, "2024": -23.863},
+        "provisao_ppr": {"2025": -50.060, "2024": -42.898},
+        "outras": {"2025": -5.641, "2024": -4.941},
+        "total": {"2025": -292.535, "2024": -240.026}
+      },
+      "outras_receitas_despesas_liquidas": {
+        "depreciacao_amortizacao": {"2025": -46.196, "2024": -41.478},
+        "pagamentos_demandas_judiciais": {"2025": -40.166, "2024": -49.812},
+        "provisoes_reversoes_judiciais": {"2025": -7.130, "2024": 20.908},
+        "projetos_descontinuados": {"2025": -18.000, "2024": -12.357},
+        "outras": {"2025": -15.659, "2024": -5.249},
+        "total": {"2025": -127.151, "2024": -87.988}
+      },
+      "observacao_reclassificacao": "Depreciação de formas e maquinário de fábricas Alea reclassificada para linha de custo: consolidado R$ 19.270 (R$ 27.116 em 2024)."
+    },
+    "nota_22_resultado_financeiro": {
+      "_fonte": "full/tenda/2025/dfp.md §nota_22",
+      "receitas_financeiras": {
+        "rendimento_aplicacoes_financeiras": 101.984,
+        "receita_swap": 135.049,
+        "total": 237.033
+      },
+      "despesas_financeiras": {
+        "juros_captacoes_liq_capitalizacao": -133.596,
+        "despesa_cessao_credito": -82.109,
+        "despesa_swap": 0,
+        "outras": -16.958,
+        "total": -232.663
+      },
+      "resultado_financeiro_liquido": 4.370,
+      "comparativo_2024": {
+        "receitas_financeiras": {
+          "rendimento_aplicacoes_financeiras": 54.328,
+          "receita_swap": 10.853,
+          "total": 65.181
+        },
+        "despesas_financeiras": {
+          "juros_captacoes_liq_capitalizacao": -131.723,
+          "despesa_cessao_credito": -52.768,
+          "despesa_swap": -45.468,
+          "outras": -6.068,
+          "total": -236.027
+        },
+        "resultado_financeiro_liquido": -170.846
+      },
+      "encargos_capitalizados_no_estoque_2025": 82.864,
+      "comentario": "Virada YoY de +R$ 175 mm puxada por SWAP (+R$ 124 mm em receita e zerada a despesa de R$ 45 mm de 2024)."
+    },
     "derivativos_swap": {
       "_fonte": "Nota 11",
       "swap_ativo_total": 143.544,

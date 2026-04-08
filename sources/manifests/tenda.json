@@ -218,15 +218,26 @@
       },
       "dre": {
         "status": "filled",
-        "source": "sources/structured/tenda/2024/data_pack.json"
+        "source": "sources/structured/tenda/2024/dfp.json",
+        "supersedes": "sources/structured/tenda/2024/data_pack.json"
       },
       "bp": {
         "status": "filled",
-        "source": "sources/structured/tenda/2024/data_pack.json"
+        "source": "sources/structured/tenda/2024/dfp.json",
+        "supersedes": "sources/structured/tenda/2024/data_pack.json"
+      },
+      "dfc": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2024/dfp.json"
+      },
+      "notas_explicativas": {
+        "status": "filled",
+        "source": "sources/structured/tenda/2024/dfp.json"
       },
       "financeiro_ajustado": {
         "status": "filled",
-        "source": "sources/structured/tenda/2024/data_pack.json"
+        "source": "sources/structured/tenda/2024/dfp.json",
+        "supersedes": "sources/structured/tenda/2024/data_pack.json"
       }
     },
     "4T23": {
@@ -1506,6 +1517,16 @@
       "structured": [
         "sources/structured/tenda/2025/dfp.json"
       ]
+    },
+    {
+      "type": "dfp",
+      "asof": "2024",
+      "ingested_on": "2026-04-08",
+      "full": "sources/full/tenda/2024/dfp.md",
+      "digested": "sources/digested/tenda_dfp_2024_summary.md",
+      "structured": [
+        "sources/structured/tenda/2024/dfp.json"
+      ]
     }
   ],
   "precedence": [
@@ -1515,8 +1536,18 @@
       "reason": "DFP auditada 2025 supersedes data_pack (que era gerencial pré-auditoria). Cross-check: receita, lucro, PL e dívida líquida concordam ±0. Notas explicativas e DFC só existem no DFP."
     },
     {
+      "scope": "dre.* | bp.* | notas_explicativas at 2024 annual",
+      "winner": "sources/structured/tenda/2024/dfp.json",
+      "reason": "DFP auditada 2024 supersedes data_pack para o ano. Cross-check: receita 3.284,4 ✓, LL controladores 106,4 ✓, PL+min 956,4 ✓, dívida líquida 192,2 ✓."
+    },
+    {
       "scope": "dfc.* at 2025 annual",
       "winner": "sources/structured/tenda/2025/dfp.json",
+      "reason": "data_pack não contém DFC; DFP é a única fonte"
+    },
+    {
+      "scope": "dfc.* at 2024 annual",
+      "winner": "sources/structured/tenda/2024/dfp.json",
       "reason": "data_pack não contém DFC; DFP é a única fonte"
     },
     {
@@ -1544,11 +1575,17 @@
     "Programa Habitacional 'Pode Entrar' (SP municipal) inflou vendas da Tenda no 3T24 — métricas 'ex-Pode Entrar' são a base de comparação limpa reportada pela empresa.",
     "2025 annual DFs são auditadas (DFP) — use `dfp.json` para DRE/BP/DFC/Notas; `data_pack.json` 2025 é gerencial e superseded para esses blocos.",
     "Resultado financeiro 2025 inflado em ~R$ 180 mm por receita de SWAP TEND3 (Nota 11). Resultado financeiro ex-SWAP = R$ (130,6) mm — usar este para extrapolação forward.",
-    "Prejuízo fiscal não reconhecido R$ 2,67 bi (crédito R$ 906,7 mm) — não contabilizado porque RET domina; alíquota efetiva 2025 = 1,23% tende a se manter baixa enquanto mix RET for dominante."
+    "Prejuízo fiscal não reconhecido R$ 2,67 bi (crédito R$ 906,7 mm) — não contabilizado porque RET domina; alíquota efetiva 2025 = 1,23% tende a se manter baixa enquanto mix RET for dominante.",
+    "2024 annual DFs também são auditadas (DFP) — use `2024/dfp.json` para DRE/BP/DFC/Notas; `2024/data_pack.json` é gerencial e superseded para esses blocos.",
+    "Apresentação do resultado financeiro mudou entre DFP 2024 e DFP 2025: 2024 consolida juros + SWAP em uma linha (177,2); 2025 separa (juros 131,7 + SWAP 45,5). A séries `juros sobre captações` precisa harmonizar essas duas apresentações.",
+    "SWAP TEND3 em 31/12/24 era PASSIVO (posição líquida -18,6 mm, efeito resultado -28,2 mm). A virada para receita só ocorre em 2025 (efeito +135 mm). O resultado financeiro 2024 (-170,8 mm) é puro custo de funding.",
+    "Em 31/12/24 a Tenda detinha 100% da Alea. A entrada do GKP (6,97% por R$ 80 mm, EV R$ 1,1 bi) é evento subsequente assinado em dez/24 e efetivado fev/25 — minor passa a aparecer no PL a partir de 2025.",
+    "RET 1 (0,47%) — primeira aparição em 2024, regulamentado pela IN 2179 (mar/24) para Faixa 1 urbana renda até R$ 2.640 (atualizado ago/24 para R$ 2.850). Base 2024: R$ 530 mm."
   ],
   "related_digests": [
     "sources/digested/tenda_previa_operacional_1T26_summary.md",
     "sources/digested/tenda_data_pack_1T26_summary.md",
-    "sources/digested/tenda_dfp_2025_summary.md"
+    "sources/digested/tenda_dfp_2025_summary.md",
+    "sources/digested/tenda_dfp_2024_summary.md"
   ]
 }

@@ -104,12 +104,26 @@ A DFP 2025 (fonte: full/tenda/2025/dfp.md) é a **primeira fonte auditada** dige
 3. **13ª emissão de debêntures** em 31/10/2025: R$ 300 mm, vencimento bullet 2030/2031/2032. Elevou debêntures consolidadas de R$ 541 → R$ 993 mm. Duration total da dívida 24,2 meses, custo médio nominal 13,67% a.a. Covenants folgadíssimos: (4,53)% vs limite 15% (fonte: structured/tenda/2025/dfp.json :: company_specific.debentures_detalhe).
 4. **Dividendos 2025 totais de R$ 150 mm** (R$ 50 mm pagos em 30/12/2025 + R$ 100 mm pagos em 07/01/2026). Payout 29,7% do lucro líquido consolidado (fonte: full/tenda/2025/dfp.md §nota_17).
 
+## DFP 2024 auditada — o ano da virada
+
+A DFP 2024 (fonte: full/tenda/2024/dfp.md) captura o **ponto de inflexão** do turnaround. Cross-check com data_pack: receita 3.284,4 ✓, LL controladores 106,4 ✓, PL+min 956,4 ✓, dívida líquida 192,2 ✓.
+
+- **Lucro líquido controladores R$ 106,4 mm** vs prejuízo de R$ 95,8 mm em 2023 — primeira virada do ciclo. Margem líquida 3,2%.
+- **Dívida líquida corporativa / PL = −10,3%** (vs +16,1% em 2023) — primeira vez negativa. DL/PL total 20,1% (vs 53,4%), redução de 33 p.p. em um ano. Waiver dos covenants encerrado em 30/06/2024 após 2 trimestres consecutivos abaixo de 15% (fonte: full/tenda/2024/dfp.md §nota_10).
+- **Segmentação on/off-site auditada**: segmento Tenda lucrou R$ 172,7 mm (MB 28,8%); Alea perdeu R$ 71,9 mm (MB 8,5% no ano, mas 11,2% só no 4T24, sinalizando convergência) (fonte: full/tenda/2024/dfp.md §nota_24).
+- **SWAP TEND3 ainda era PASSIVO em 31/12/24**: posição líquida −R$ 18,6 mm, efeito no resultado −R$ 28,2 mm. **A virada para receita só ocorre em 2025** (efeito 2025: +R$ 135 mm). O resultado financeiro 2024 (−R$ 170,8 mm) é "puro custo de funding", sem o ruído positivo de SWAP que aparece em 2025 (fonte: full/tenda/2024/dfp.md §nota_11).
+- **RET 1 (0,47%) — primeira aparição em 2024**, regulamentado pela IN 2179 (mar/24) para Faixa 1 urbana. Base 2024: R$ 530 mm. Combinado com RET 1,92% (base R$ 1,10 bi) → alíquota efetiva consolidada **1,71%** (fonte: full/tenda/2024/dfp.md §nota_15).
+- **Estrutura societária Alea**: em 31/12/24 a Tenda detinha 100% da Alea. Acordo com Good Karma Ventures (GKP) assinado em dez/24, efetivado fev/25: 6,97% por R$ 80 mm, **EV Alea R$ 1,1 bi**. Mecanismo de ajuste em 2026 pode levar a 5,89%–8,11% (fonte: full/tenda/2024/dfp.md §nota_27).
+- **Apresentação do resultado financeiro mudou entre 2024 e 2025**: o DFP 2024 consolida juros + SWAP em uma linha (R$ 177,2 mm); o DFP 2025 separa as duas (juros 131,7 + SWAP 45,5 = 177,2 ✓). Qualquer série temporal de "juros sobre captações" precisa harmonizar.
+- **Cessão de crédito acelerou em 2024**: 4 operações vivas em 31/12/24 (vs 2 em 31/12/23), saldo R$ 488 mm (vs R$ 229 mm). Despesa de cessão na DRE saltou para R$ 52,8 mm (vs R$ 29,3 mm) (fonte: full/tenda/2024/dfp.md §nota_4a).
+
 ## Limitações de cobertura atual nesta wiki
 
 Digeridos até agora:
 - **Prévia operacional 1T26** (só operacional, preliminar).
 - **Data pack de RI as-of 1T26** — histórico completo 1T11–1T26 de operacional, DRE, BP e financeiro ajustado (consolidado + segmentos). Cobre toda a espinha numérica para modelagem histórica.
 - **DFP 2025 auditada** — DFs individuais+consolidadas, DFC, notas explicativas completas e segmentação contábil on-site/off-site.
+- **DFP 2024 auditada** — mesmo escopo, captura o ano da virada do ciclo.
 
 Ainda faltam:
 - **Release completo do 1T26** (MD&A, release narrativo — o data pack não cobre o 1T26 financeiro porque o release fechado ainda não saiu).
