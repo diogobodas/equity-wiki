@@ -1,111 +1,150 @@
 # LLM Wiki — Tutorial
 
-Uma wiki pessoal mantida por LLM, baseada no padrão descrito por [Andrej Karpathy](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
+Uma wiki pessoal mantida por LLM, baseada no padrão descrito por [Andrej Karpathy](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f), **estendida para servir também como substrato de modelagem financeira**.
 
-A ideia central: em vez de re-derivar conhecimento do zero a cada pergunta (como RAG tradicional), o LLM **constroi e mantém incrementalmente** uma base de conhecimento persistente — um artefato que se acumula ao longo do tempo.
+A ideia central: em vez de re-derivar conhecimento do zero a cada pergunta (como RAG tradicional), o LLM **constrói e mantém incrementalmente** uma base de conhecimento persistente — um artefato que se acumula ao longo do tempo. Aqui a base tem dois usos complementares:
 
-O humano cuida das fontes e faz as perguntas certas. O LLM faz o trabalho pesado de sumarizar, cross-referenciar e manter tudo organizado.
+1. **Wiki de conhecimento** — páginas de empresas, conceitos, setores, comparações e teses.
+2. **Substrato de modelagem** — fontes preservadas de forma estruturada para alimentar planilhas/modelos completos (ITR, DFP, releases de resultado, com notas explicativas e MD&A intactos).
+
+O humano cuida das fontes e faz as perguntas certas. O LLM faz o trabalho pesado de transcrever, estruturar, cross-referenciar e manter tudo organizado.
 
 ---
 
 ## Como funciona
 
-A wiki tem tres camadas:
+A wiki tem **quatro camadas** dentro de `sources/`, mais a camada de páginas da wiki por cima:
 
 ```
 equity-wiki/
-├── sources/              # 1. Fontes (ciclo ingest & digest)
-│   ├── index.md          #    Registro de todas as fontes
-│   ├── undigested/       #    Inbox — arquivos brutos aguardando ingestao
-│   └── digested/         #    Summaries exaustivos em markdown (permanentes)
-├── *.md                  # 2. Paginas da wiki (mantidas pelo LLM)
-├── index.md              #    Catalogo por categoria
-├── log.md                #    Historico cronologico de operacoes
-├── SCHEMA.md             # 3. Schema (configuracao e convencoes)
-└── README.md             #    Este tutorial
+├── sources/
+│   ├── undigested/                              # 1. Inbox — arquivos brutos
+│   ├── full/{empresa}/{periodo}/{tipo}.md       # 2. Transcrição estruturada mas sem cortes
+│   ├── structured/
+│   │   ├── _schemas/{setor}.json                #    Schema canônico por setor (sob demanda)
+│   │   └── {empresa}/{periodo}/{tipo}.json      # 3. Dados canonical + company_specific
+│   ├── digested/{name}_summary.md               # 4. TL;DR para a wiki
+│   ├── index.md                                 #    Registro de fontes
+│   └── notion_tracker.md
+├── *.md                                         # 5. Páginas da wiki (entity/concept/...)
+├── index.md                                     #    Catálogo por categoria
+├── log.md                                       #    Histórico append-only
+├── SCHEMA.md                                    #    Contrato operacional
+└── README.md                                    #    Este tutorial
 ```
 
-1. **sources/** — Fontes com ciclo de vida: arquivo bruto entra em `undigested/`, LLM processa, gera summary exaustivo em `digested/`, arquivo original e apagado.
-2. **Paginas da wiki** — Markdowns interligados com `[[wikilinks]]`. Sempre citam fontes. O LLM cria, atualiza e interliga.
-3. **SCHEMA.md** — O "manual de instrucoes" que o LLM le antes de qualquer operacao.
+### O que cada camada faz
+
+| Camada | Perda de informação | Para que serve |
+|--------|---------------------|----------------|
+| `undigested/` | nenhuma | Inbox. Apagado depois do ingest. |
+| `full/` | só layout/imagens | **O "chão"** — tudo que o PDF dizia, organizado em headings (DRE, BP, FC, Nota 1..N, MD&A). Literal dentro de cada seção. É daqui que a modelagem relê notas explicativas. Substitui guardar o PDF bruto. |
+| `structured/` | só pega DFs + breakdowns | JSON determinístico que alimenta a planilha. `canonical` padronizado por setor + `company_specific` livre para o que cada empresa reporta do seu jeito. |
+| `digested/` | editorial | TL;DR usado para escrever as páginas da wiki. |
+| Wiki pages | síntese | Tese, conceitos, comparações. Cita as camadas de baixo. |
+
+**Regra de ouro:** depois do ingest, o original em `undigested/` é apagado. `full/` é o novo chão — não existe `raw/`.
 
 ---
 
-## Operacoes
+## Operações
 
-### 1. Ingest (adicionar conhecimento)
+### 1. Ingest de ITR / DFP / release de resultados (caminho pesado)
 
-O workflow principal. Voce joga uma fonte, o LLM processa.
+O workflow mais completo. Gera as quatro camadas.
 
-**Passo a passo:**
-
-1. Coloque o arquivo na pasta `sources/undigested/` (PDF, markdown, texto, imagem, o que for)
-2. Peca ao LLM para processar:
+1. Coloque o arquivo em `sources/undigested/` (PDF ou XLSX).
+2. Peça ao LLM:
 
 ```
-Ingere esta fonte: sources/undigested/nome_do_arquivo.pdf
+Ingere este ITR: sources/undigested/itau_itr_3T25.pdf
 ```
 
 3. O LLM vai:
-   - Ler a fonte inteira
-   - Criar ou atualizar paginas da wiki com as informacoes extraidas
-   - Adicionar `[[wikilinks]]` entre paginas relacionadas
-   - Gerar summary exaustivo em `sources/digested/` (todas as tabelas, todos os numeros)
-   - Apagar o arquivo original de `sources/undigested/`
-   - Registrar em `sources/index.md` e no `log.md`
+   - Ler a fonte inteira.
+   - Gerar `full/itau/3T25/itr.md` — transcrição estruturada mas **sem cortar nada**. Cada nota explicativa vira um heading `## Nota N — título` com conteúdo literal.
+   - Gerar `structured/itau/3T25/itr.json` — DRE, BP, FC, segmentos preenchidos no `canonical` (seguindo `_schemas/banco.json`), e breakdowns gerenciais idiossincráticos em `company_specific`. Se o schema setorial ainda não existe, o LLM cria a partir dessa primeira fonte.
+   - Gerar `digested/itau_itr_3T25_summary.md` — TL;DR.
+   - Atualizar `itau.md`, `bancos.md`, páginas de conceitos relevantes, com citações apontando para `full/` ou `structured/`.
+   - Apagar o original de `undigested/`.
+   - Registrar em `sources/index.md` e `log.md`.
 
-**Se precisar de mais dados depois:** coloque o PDF original de volta em `sources/undigested/` e peca re-extracao direcionada.
+### 2. Ingest de apresentação / fato relevante / outros (caminho leve)
 
-### 2. Query (perguntar)
+Igual ao pesado, **sem** a etapa de `structured/`. Gera `full/` + `digested/` + atualiza wiki.
 
-Faca perguntas contra a wiki. O LLM busca nas paginas relevantes e sintetiza a resposta com citacoes.
+### 3. Ingest de web
 
 ```
-Qual a diferenca entre NIM clientes e NIM total?
+Pesquisa sobre o ciclo de crédito brasileiro em 2025
 ```
 
-Se a resposta for valiosa e reutilizavel, o LLM pode promove-la a uma nova pagina da wiki.
+O LLM usa WebSearch/WebFetch, classifica confiabilidade (`oficial`/`editorial`/`community`) e cita inline — sem gerar `full/` ou `structured/`.
 
-### 3. Lint (saude da wiki)
+### 4. Ingest de Notion
 
-Peca uma verificacao periodica:
+O LLM puxa via MCP, gera `digested/notion_{slug}.md`, atualiza páginas e `notion_tracker.md`.
+
+### 5. Query (perguntar)
+
+```
+Qual foi a margem financeira do Itaú no 3T25?
+```
+
+O LLM busca na wiki primeiro. Se for pergunta numérica pontual, vai direto em `structured/`. Se precisar de contexto qualitativo (notas, MD&A), abre `full/`.
+
+### 6. Modelagem (planilha)
+
+```
+Monta a espinha histórica do Itaú dos últimos 8 trimestres
+```
+
+O LLM puxa `canonical` de todos os `structured/itau/*/itr.json`, usa `company_specific` para gerencial, abre `full/` quando precisa fundamentar uma premissa de projeção, e checa `itau.md` para a tese. Registra a sessão em `log.md`.
+
+### 7. `promote_nota`
+
+Quando uma nota explicativa virar referência recorrente (citada por 3+ páginas), o LLM pode promovê-la a uma página própria, tipo `itau_nota_instrumentos_financeiros.md`, consolidando a nota ao longo dos trimestres.
+
+### 8. Lint (saúde da wiki)
 
 ```
 Faz um lint da wiki.
 ```
 
-O LLM checa:
-- Links mortos (apontam para paginas que nao existem)
-- Paginas orfas (ninguem linka para elas)
-- Paginas desatualizadas (fonte mais recente que a pagina)
-- Cross-references faltando
-- Contradicoes (mesmo dado com valores diferentes em paginas distintas)
+Checa: links mortos, páginas órfãs, páginas desatualizadas, cross-refs faltando, contradições, **schema drift** (`structured/` com chaves canônicas faltando) e notas recorrentes não promovidas.
 
 ---
 
-## Anatomia de uma pagina
-
-Toda pagina tem frontmatter YAML + conteudo em markdown:
+## Anatomia de uma página da wiki
 
 ```markdown
 ---
-type: concept
-aliases: [Net Interest Margin]
-sources: [ITUB4_release_4T25.pdf, bradesco_release_4T25.pdf]
+type: entity
+aliases: [Itaú Unibanco, ITUB4]
+sources: [full/itau/3T25/itr.md, structured/itau/3T25/itr.json]
 created: 2026-04-08
 updated: 2026-04-08
 ---
 
-# NIM
+# Itaú
 
-Net Interest Margin e a margem liquida de juros...
+Maior banco privado do Brasil por ativos...
 
-Relacionado: [[nii_clientes]], [[spread_clientes]], [[selic]]
+Margem financeira de R$ 27,3 bi no 3T25 (fonte: structured/itau/3T25/itr.json :: canonical.dre.margem_financeira), impulsionada por [...] (fonte: full/itau/3T25/itr.md §mdna).
 
-(fonte: ITUB4_release_4T25.pdf, p.15)
+Relacionado: [[bancos]], [[nim]], [[custo_risco]]
 ```
 
-**Tipos de pagina:** entity, concept, sector, comparison, synthesis.
+**Tipos de página:** entity, concept, sector, comparison, synthesis, nota.
+
+---
+
+## Convenções de nomenclatura
+
+- Filenames: `snake_case.md`, lowercase, português quando natural.
+- Sem prefixo de ticker (`itau.md`, não `ITUB4_itau.md`) — tickers no `aliases`.
+- Períodos: `1T25`, `2T25`, `3T25`, `4T25`, `2025` (anual).
+- Tipos de fonte: `itr`, `dfp`, `release`, `apresentacao`, `fato_relevante`, `call_transcript`.
 
 ---
 
@@ -113,40 +152,36 @@ Relacionado: [[nii_clientes]], [[spread_clientes]], [[selic]]
 
 ### Obsidian
 
-Esta wiki e 100% compativel com [Obsidian](https://obsidian.md/). Abra a pasta como vault para:
-- Navegar pelos `[[wikilinks]]` clicando
-- Ver o graph view (mapa visual das conexoes)
-- Identificar hubs (paginas muito conectadas) e orfas
-- Usar o plugin Dataview para queries sobre o frontmatter
+Esta wiki é 100% compatível com [Obsidian](https://obsidian.md/). Abra a pasta como vault para navegar pelos `[[wikilinks]]`, ver o graph view e usar Dataview.
 
 ### Fontes
 
-- Use o [Obsidian Web Clipper](https://obsidian.md/clipper) para converter artigos da web em markdown direto na pasta `sources/`
-- Para PDFs, basta copiar o arquivo — o LLM le PDFs nativamente
-- Mantenha os nomes originais dos arquivos em `sources/`
+- PDFs de ITR/DFP/release: baixe do site de RI da empresa e solte em `sources/undigested/`.
+- Para artigos: use o [Obsidian Web Clipper](https://obsidian.md/clipper) ou peça ingest web.
 
-### Boas praticas
+### Boas práticas
 
-- **Uma fonte por vez** — ingira fontes individualmente para que o LLM faca um bom trabalho de integracao
-- **Deixe o LLM linkar** — nao se preocupe em criar links manualmente; o ingest cuida disso
-- **Lint regularmente** — uma vez por semana, peca um lint para manter a saude da wiki
-- **Promova respostas** — se uma query gerou uma resposta boa, peca para virar pagina
-- **Nao edite sources/** — as fontes sao imutaveis; se precisar corrigir algo, crie uma nova versao
+- **Uma fonte por vez** — ingira fontes individualmente para que o LLM faça cross-linking coerente.
+- **Deixe o LLM linkar** — não crie wikilinks manualmente.
+- **Lint regularmente** — uma vez por semana.
+- **Promova respostas** — queries boas viram páginas.
+- **Não edite `sources/`** — fontes são imutáveis. Para corrigir, reingira.
 
 ---
 
 ## Arquivos especiais
 
-| Arquivo | Proposito |
+| Arquivo | Propósito |
 |---------|-----------|
-| `SCHEMA.md` | Convencoes e regras — o LLM le antes de operar |
-| `index.md` | Catalogo de todas as paginas, organizado por categoria |
-| `log.md` | Historico cronologico (append-only) de todas as operacoes |
-| `sources/index.md` | Registro de todas as fontes brutas |
+| `SCHEMA.md` | Contrato operacional — o LLM lê antes de qualquer operação |
+| `index.md` | Catálogo de páginas da wiki por categoria |
+| `log.md` | Histórico append-only |
+| `sources/index.md` | Registro de fontes brutas |
+| `sources/structured/_schemas/` | Schemas canônicos por setor |
 | `README.md` | Este tutorial |
 
 ---
 
-## Creditos
+## Créditos
 
 Padrão baseado no [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) de Andrej Karpathy.
