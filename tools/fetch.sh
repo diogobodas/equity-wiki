@@ -104,18 +104,32 @@ else
     echo "Found manifest: $MANIFESTS_PATH/$EMPRESA.json"
 fi
 
-# --- Build prompt by replacing placeholders ---
-USER_PROMPT=$(cat "$PROMPT_TEMPLATE")
-USER_PROMPT="${USER_PROMPT//\{\{TICKER\}\}/$TICKER}"
-USER_PROMPT="${USER_PROMPT//\{\{EMPRESA\}\}/$EMPRESA}"
-USER_PROMPT="${USER_PROMPT//\{\{COLD_START\}\}/$COLD_START}"
-USER_PROMPT="${USER_PROMPT//\{\{HORIZON_FROM\}\}/$HORIZON_FROM}"
-USER_PROMPT="${USER_PROMPT//\{\{TYPES\}\}/$TYPES}"
-USER_PROMPT="${USER_PROMPT//\{\{UNDIGESTED_PATH\}\}/$UNDIGESTED_PATH}"
-USER_PROMPT="${USER_PROMPT//\{\{MANIFESTS_PATH\}\}/$MANIFESTS_PATH}"
-USER_PROMPT="${USER_PROMPT//\{\{TODAY\}\}/$TODAY}"
-USER_PROMPT="${USER_PROMPT//\{\{DISPLAY_NAME\}\}/$DISPLAY_NAME}"
-USER_PROMPT="${USER_PROMPT//\{\{MANIFEST_CONTENT\}\}/$MANIFEST_CONTENT}"
+# --- Build prompt via Python (handles JSON escaping safely) ---
+PROMPT_FILE=$(mktemp "${TMPDIR:-/tmp}/fetch_prompt_XXXXXX.md")
+trap 'rm -f "$PROMPT_FILE"' EXIT
+
+python -c "
+import sys
+template = open(sys.argv[1]).read()
+manifest = sys.argv[2]
+replacements = {
+    '{{TICKER}}': sys.argv[3],
+    '{{EMPRESA}}': sys.argv[4],
+    '{{COLD_START}}': sys.argv[5],
+    '{{HORIZON_FROM}}': sys.argv[6],
+    '{{TYPES}}': sys.argv[7],
+    '{{UNDIGESTED_PATH}}': sys.argv[8],
+    '{{MANIFESTS_PATH}}': sys.argv[9],
+    '{{TODAY}}': sys.argv[10],
+    '{{DISPLAY_NAME}}': sys.argv[11],
+    '{{MANIFEST_CONTENT}}': manifest,
+}
+for k, v in replacements.items():
+    template = template.replace(k, v)
+open(sys.argv[12], 'w', encoding='utf-8').write(template)
+" "$PROMPT_TEMPLATE" "$MANIFEST_CONTENT" "$TICKER" "$EMPRESA" "$COLD_START" \
+  "$HORIZON_FROM" "$TYPES" "$UNDIGESTED_PATH" "$MANIFESTS_PATH" "$TODAY" \
+  "$DISPLAY_NAME" "$PROMPT_FILE"
 
 echo ""
 echo "Invoking Claude agent..."
@@ -125,4 +139,4 @@ echo ""
 # --- Invoke Claude ---
 claude --print \
     --allowedTools "Bash(command:python*)" \
-    -p "$USER_PROMPT"
+    -p "$(cat "$PROMPT_FILE")"

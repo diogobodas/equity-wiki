@@ -36,9 +36,13 @@ Returns a JSON array of documents available on CVM, sorted from most recent to o
 ```bash
 python tools/lib/cvm_fetch.py download --num-sequencia <X> --num-versao <Y> --numero-protocolo <Z> --desc-tipo <W> --output <path>
 ```
-Downloads a filing to the specified path. Output path MUST follow: `{{UNDIGESTED_PATH}}/{{TICKER}}_{periodo}_{tipo}.pdf`
+Downloads a filing to the specified path. Output path MUST follow: `{{UNDIGESTED_PATH}}/{{TICKER}}_{periodo}_{tipo}.{ext}`
 
-Example: `{{UNDIGESTED_PATH}}/TEND3_4T25_dfp.pdf`
+The extension depends on what the CVM returns:
+- DFP/ITR (EST documents) → `.zip` (contains XML/XBRL structured data)
+- Releases/Fatos relevantes (IPE documents) → `.pdf`
+
+Examples: `{{UNDIGESTED_PATH}}/TEND3_2025_dfp.zip`, `{{UNDIGESTED_PATH}}/TEND3_4T25_release.pdf`
 
 ## Algorithm
 
@@ -53,7 +57,7 @@ Example: `{{UNDIGESTED_PATH}}/TEND3_4T25_dfp.pdf`
    - If `{{COLD_START}}` is `true`, there is no manifest to compare — everything up to `{{HORIZON_FROM}}` is a gap.
 
 4. **Download** each gap:
-   - Output path: `{{UNDIGESTED_PATH}}/{{TICKER}}_{periodo}_{tipo}.pdf`
+   - Output path: `{{UNDIGESTED_PATH}}/{{TICKER}}_{periodo}_{tipo}.{ext}` (use `.zip` for dfp/itr, `.pdf` for release/fato_relevante)
    - If the download returns an error, log it and continue with the next document.
 
 5. **Cold-start manifest** — if `{{COLD_START}}` is `true`, create a skeleton manifest:
