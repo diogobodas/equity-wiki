@@ -1656,6 +1656,13 @@
         "sources/full/tenda/2T26/fato_relevante_1025459.md"
       ],
       "digested": "sources/digested/tenda_fatos_relevantes_1T26_2T25_2T26_3T25_4T25_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/tenda/1T25/fato_relevante_859967.md",
+      "digested": "sources/digested/tenda_fatos_relevantes_batch_summary.md"
     }
   ],
   "precedence": [

@@ -1,7 +1,7 @@
 ---
 type: entity
 aliases: [Construtora Tenda, Tenda, TEND3, Alea]
-sources: [full/tenda/1T26/previa_operacional.md, structured/tenda/1T26/previa_operacional.json, full/tenda/data_pack_1T26.md, structured/tenda/{1T11..1T26}/data_pack.json, full/tenda/2025/dfp.md, structured/tenda/2025/dfp.json, full/tenda/2024/dfp.md, structured/tenda/2024/dfp.json, full/tenda/1T25/itr.md, structured/tenda/1T25/itr.json, full/tenda/2T25/itr.md, structured/tenda/2T25/itr.json, full/tenda/3T25/itr.md, structured/tenda/3T25/itr.json, full/tenda/1T25/release.md, structured/tenda/1T25/release.json, full/tenda/2T25/release.md, structured/tenda/2T25/release.json, full/tenda/3T25/release.md, structured/tenda/3T25/release.json, full/tenda/4T25/release.md, structured/tenda/4T25/release.json]
+sources: [full/tenda/1T26/previa_operacional.md, structured/tenda/1T26/previa_operacional.json, full/tenda/data_pack_1T26.md, structured/tenda/{1T11..1T26}/data_pack.json, full/tenda/2025/dfp.md, structured/tenda/2025/dfp.json, full/tenda/2024/dfp.md, structured/tenda/2024/dfp.json, full/tenda/1T25/itr.md, structured/tenda/1T25/itr.json, full/tenda/2T25/itr.md, structured/tenda/2T25/itr.json, full/tenda/3T25/itr.md, structured/tenda/3T25/itr.json, full/tenda/1T25/release.md, structured/tenda/1T25/release.json, full/tenda/2T25/release.md, structured/tenda/2T25/release.json, full/tenda/3T25/release.md, structured/tenda/3T25/release.json, full/tenda/4T25/release.md, structured/tenda/4T25/release.json, full/tenda/2T25/fato_relevante_904079.md, full/tenda/2T25/fato_relevante_907345.md, full/tenda/2T25/fato_relevante_913498.md, full/tenda/2T25/fato_relevante_913576.md, full/tenda/2T25/fato_relevante_914604.md, full/tenda/2T25/fato_relevante_917092.md, full/tenda/3T25/fato_relevante_930915.md, full/tenda/3T25/fato_relevante_930916.md, full/tenda/3T25/fato_relevante_934724.md, full/tenda/3T25/fato_relevante_934734.md, full/tenda/3T25/fato_relevante_952756.md, full/tenda/3T25/fato_relevante_952757.md, full/tenda/4T25/fato_relevante_963021.md, full/tenda/4T25/fato_relevante_979561.md, full/tenda/4T25/fato_relevante_981189.md, full/tenda/4T25/fato_relevante_983829.md, full/tenda/4T25/fato_relevante_986338.md, full/tenda/1T26/fato_relevante_1013789.md, full/tenda/2T26/fato_relevante_1025459.md]
 created: 2026-04-08
 updated: 2026-04-10
 ---
@@ -130,9 +130,13 @@ Fontes: (fonte: structured/tenda/1T25/release.json :: canonical.operacional), (f
 
 Fontes: (fonte: structured/tenda/1T25/itr.json :: canonical.bp), (fonte: structured/tenda/2T25/itr.json :: canonical.bp), (fonte: structured/tenda/3T25/itr.json :: canonical.bp), (fonte: structured/tenda/4T25/release.json :: canonical.bp).
 
-A 13a emissao de [[debentures|debentures]] (CRI) em 31/10/2025 — R$ 300 mm brutos, vencimento bullet 2030/2031/2032 — endereçou a necessidade de captacao ate final de 2026 (fonte: full/tenda/3T25/itr.md §eventos_subsequentes). A divida bruta subiu para R$ 1.313 mm no 4T25, mas o duration se alongou para 24,9 meses. O custo medio subiu para 13,81% a.a. refletindo juros mais altos no segundo semestre de 2025 (fonte: structured/tenda/4T25/release.json :: canonical.bp).
+**12a emissao de [[debentures|debentures]]** (mai/2025): R$ 180 mm com garantia real, serie unica, CDI+2,10% a.a., via Travessia Securitizadora. Liquidacao em 23/mai com montante liquido de R$ 179,6 mm (fonte: full/tenda/2T25/fato_relevante_904079.md, full/tenda/2T25/fato_relevante_907345.md).
 
-Cessao de recebiveis acumulou R$ 609,8 mm em saldo no 3T25 (fonte: full/tenda/3T25/release.md §cessao_recebiveis). Rating S&P elevado de brA- para brA+ em jul/2025 (fonte: full/tenda/2T25/release.md §balanco).
+**Cessao pro-soluto de recebiveis** (jun/2025 em diante): operacao via CRI (Opea Securitizadora, 448a emissao), ate R$ 300 mm em integralizacoes sucessivas. Taxas: 1a serie senior CDI+2%, 2a serie IPCA+9,90%, subordinada IPCA+11%. Tres integralizacoes realizadas: R$ 159,0 mm (jun/2025), R$ 69,3 mm (set/2025), R$ 64,6 mm (dez/2025) — total R$ 292,9 mm. Companhia considera tornar operacao recorrente (fonte: full/tenda/2T25/fato_relevante_914604.md, full/tenda/2T25/fato_relevante_917092.md, full/tenda/3T25/fato_relevante_952756.md, full/tenda/4T25/fato_relevante_986338.md). Cessao de recebiveis acumulou R$ 609,8 mm em saldo no 3T25 (fonte: full/tenda/3T25/release.md §cessao_recebiveis).
+
+**13a emissao de debentures** (out/2025): R$ 300 mm brutos (quirografarias, ate 4 series, colocacao privada), vinculada a CRI da Opea (513a emissao), distribuida pelo Bradesco BBI em garantia firme. Montante liquido recebido: R$ 291,2 mm. Taxas finais por bookbuilding: 2a serie 9,00% a.a., 3a serie 14,45% a.a., 4a serie 8,99% a.a. Vencimento bullet 2030/2031/2032 — endereçou a necessidade de captacao ate final de 2026 (fonte: full/tenda/3T25/fato_relevante_952757.md, full/tenda/4T25/fato_relevante_963021.md).
+
+A divida bruta subiu para R$ 1.313 mm no 4T25, mas o duration se alongou para 24,9 meses. O custo medio subiu para 13,81% a.a. refletindo juros mais altos no segundo semestre de 2025 (fonte: structured/tenda/4T25/release.json :: canonical.bp). Rating S&P elevado de brA- para brA+ em jul/2025 (fonte: full/tenda/2T25/release.md §balanco).
 
 ## Resultado a apropriar (backlog de margem)
 
@@ -201,6 +205,15 @@ O SWAP distorce significativamente o lucro liquido reportado. O resultado financ
 
 A empresa reporta guidance de lucro liquido "ex-SWAP" desde o 1T25, reconhecendo a distorcao.
 
+**Cronologia de liquidacoes e rolagem dos derivativos:**
+
+- **Jun/2025:** liquidacao integral antecipada com Itau (4,5 mm acoes) e parcial com Bradesco (100 mil acoes), gerando caixa bruto estimado ~R$ 43 mm. Programa de stock option de 2014 integralmente liquidado na mesma data. Posicao remanescente: 7.642.100 acoes (Santander + Bradesco) (fonte: full/tenda/2T25/fato_relevante_913576.md).
+- **Ago/2025:** liquidacao parcial com Bradesco (713.744 acoes), ganho bruto ~R$ 6,4 mm. Posicao remanescente: 6.928.356 acoes (fonte: full/tenda/3T25/fato_relevante_934734.md).
+- **Mar/2026:** liquidacao parcial com Santander (385.601 acoes) para programas ILP (stock grant). Posicao remanescente: 5.146.499 acoes (todo Santander) (fonte: full/tenda/1T26/fato_relevante_1013789.md).
+- **Abr/2026:** rolagem de derivativos com Santander — novos contratos referenciados em 5.146.499 acoes (2.114.399 + 3.032.100), vencimento ate abr/2027. Vencimento dos contratos antigos deve gerar entrada de caixa liquida >R$ 60 mm (fonte: full/tenda/2T26/fato_relevante_1025459.md).
+
+A tendencia e de reducao gradual da posicao via liquidacoes parciais, com aquisicao de acoes para programas de incentivo de longo prazo (ILP). A estrategia de recompra via derivativos foi confirmada na rolagem de abr/2026.
+
 ### Pode Entrar — efeito residual
 
 O Programa Habitacional [[pode_entrar|Pode Entrar]] (prefeitura de SP) inflou o 3T24 e suas caudas contabeis continuam a afetar comparacoes A/A em 2025. A MBA da marca Tenda ex Pode Entrar e consistentemente 1-3 p.p. acima da MBA com Pode Entrar ao longo de 2025 (ex: 36,4% vs 34,5% no 3T25) (fonte: structured/tenda/3T25/release.json :: company_specific). As metricas "ex Pode Entrar" sao a base de comparacao limpa.
@@ -208,6 +221,19 @@ O Programa Habitacional [[pode_entrar|Pode Entrar]] (prefeitura de SP) inflou o 
 ### GKP — minoritario na Alea
 
 Acordo com Good Karma Ventures (GKP) assinado em dez/2024, efetivado em fev/2025: 6,97% da Alea por R$ 80 mm, implicando EV de R$ 1,1 bi para a Alea. Mecanismo de ajuste em 2026 pode levar a participacao entre 5,89% e 8,11% (fonte: full/tenda/2024/dfp.md §nota_27). Dado o prejuizo acumulado da Alea em 2025 (R$ 152 mm), o valuation implicito parece elevado em relacao a realidade operacional atual.
+
+### Dividendos e recompra de acoes
+
+**Dividendos 2025:** duas distribuicoes intercalares totalizando R$ 150 mm (payout 29,7% do lucro liquido consolidado):
+
+- R$ 50 mm (R$ 0,4079/acao), base lucro acumulado ate 1T25, data-base 07/ago/2025, pagamento 30/dez/2025 (fonte: full/tenda/3T25/fato_relevante_930915.md).
+- R$ 100 mm (R$ 0,8252/acao), base lucro acumulado ate 3T25, data-base 23/dez/2025, pagamento 07/jan/2026 (fonte: full/tenda/4T25/fato_relevante_983829.md).
+
+**Programa de recompra** (dez/2025): aprovada recompra de ate 2 milhoes de acoes para programa de incentivo de longo prazo, com liquidacao ate 30/jun/2026. Free float: 122.578.152 acoes (fonte: full/tenda/4T25/fato_relevante_979561.md).
+
+### Governanca — mudanca no conselho
+
+Renuncia do conselheiro independente Bernardo Werther de Araujo (Board + Comite de Auditoria) em 31/jul/2025 por motivos pessoais. Vaga mantida em aberto (fonte: full/tenda/3T25/fato_relevante_930916.md).
 
 ### MCMV — mudancas regulatorias
 
@@ -297,12 +323,12 @@ Digeridos ate agora:
 - **DFP 2024 auditada** — mesmo escopo, captura o ano da virada do ciclo.
 - **ITRs 1T25, 2T25, 3T25** — demonstracoes trimestrais com notas explicativas e DFC.
 - **Releases de resultados 1T25, 2T25, 3T25, 4T25** — MD&A completo, operacional, guidance, segmentacao Tenda/Alea.
+- **Fatos relevantes 2T25–2T26** — 19 fatos cobrindo debentures (12a e 13a emissoes), cessao pro-soluto de recebiveis (CRI Opea), liquidacoes parciais de derivativos (SWAP TRS), dividendos, recompra de acoes, guidance 2026 e governanca.
 
 Ainda faltam:
 - **Release completo do 1T26** (MD&A, release narrativo — o data pack nao cobre o 1T26 financeiro porque o release fechado ainda nao saiu).
 - **ITR 4T25** — nao publicado separadamente (DFP 2025 cobre o ano fechado).
 - **Apresentacoes institucionais** e **transcripts de call**.
-- **Fatos relevantes** — potencialmente relevantes para eventos corporativos (SWAP, Alea, GKP).
 
 ## Histórico operacional disponível
 
