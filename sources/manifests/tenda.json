@@ -1597,6 +1597,65 @@
       "structured": [
         "sources/structured/tenda/4T25/release.json"
       ]
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T25",
+      "ingested_on": "2026-04-10",
+      "full": [
+        "sources/full/tenda/2T25/fato_relevante_904079.md",
+        "sources/full/tenda/2T25/fato_relevante_907345.md",
+        "sources/full/tenda/2T25/fato_relevante_913498.md",
+        "sources/full/tenda/2T25/fato_relevante_913576.md",
+        "sources/full/tenda/2T25/fato_relevante_914604.md",
+        "sources/full/tenda/2T25/fato_relevante_917092.md"
+      ],
+      "digested": null
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "3T25",
+      "ingested_on": "2026-04-10",
+      "full": [
+        "sources/full/tenda/3T25/fato_relevante_930915.md",
+        "sources/full/tenda/3T25/fato_relevante_930916.md",
+        "sources/full/tenda/3T25/fato_relevante_934724.md",
+        "sources/full/tenda/3T25/fato_relevante_934734.md",
+        "sources/full/tenda/3T25/fato_relevante_952756.md",
+        "sources/full/tenda/3T25/fato_relevante_952757.md"
+      ],
+      "digested": null
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T25",
+      "ingested_on": "2026-04-10",
+      "full": [
+        "sources/full/tenda/4T25/fato_relevante_963021.md",
+        "sources/full/tenda/4T25/fato_relevante_979561.md",
+        "sources/full/tenda/4T25/fato_relevante_981189.md",
+        "sources/full/tenda/4T25/fato_relevante_983829.md",
+        "sources/full/tenda/4T25/fato_relevante_986338.md"
+      ],
+      "digested": null
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-10",
+      "full": [
+        "sources/full/tenda/1T26/fato_relevante_1013789.md"
+      ],
+      "digested": "sources/digested/tenda_fatos_relevantes_1T26_2T25_2T26_3T25_4T25_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T26",
+      "ingested_on": "2026-04-10",
+      "full": [
+        "sources/full/tenda/2T26/fato_relevante_1025459.md"
+      ],
+      "digested": "sources/digested/tenda_fatos_relevantes_1T26_2T25_2T26_3T25_4T25_summary.md"
     }
   ],
   "precedence": [
@@ -1666,7 +1725,9 @@
     "sources/digested/tenda_previa_operacional_1T26_summary.md",
     "sources/digested/tenda_data_pack_1T26_summary.md",
     "sources/digested/tenda_dfp_2025_summary.md",
-    "sources/digested/tenda_dfp_2024_summary.md"
+    "sources/digested/tenda_dfp_2024_summary.md",
+    "sources/digested/tenda_fatos_relevantes_2T25_1T26_2T26_summary.md",
+    "sources/digested/tenda_fatos_relevantes_3T25_4T25_summary.md"
   ],
   "fetch_profile": {
     "_created": "2026-04-10",
