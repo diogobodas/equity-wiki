@@ -1,6 +1,6 @@
 # Tenda — Demonstrações Financeiras 2025 (DFP auditada)
 
-Fonte original: `Tenda-2025-12-31-wPTjC7R6.pdf` (79 páginas). Demonstrações Contábeis Individuais e Consolidadas para o exercício findo em 31/12/2025, com comparativo 31/12/2024. Valores em milhares de Reais (R$), exceto quando indicado. Parecer sem ressalvas dos auditores independentes (KPMG/assinatura no próprio PDF — ver §auditores). Relatório da Administração inclui MD&A do 4T25.
+Fonte original: `Tenda-2025-12-31-wPTjC7R6.pdf` (79 páginas). Pré-processado com `opendataloader-pdf` v2.2.1 (`--format markdown --use-struct-tree --table-method cluster`) para extração de tabelas e texto; LLM curou headings e reorganizou conteúdo. Demonstrações Contábeis Individuais e Consolidadas para o exercício findo em 31/12/2025, com comparativo 31/12/2024. Valores em milhares de Reais (R$), exceto quando indicado. Parecer sem ressalvas dos auditores independentes (KPMG — ver §auditores). Relatório da Administração inclui MD&A do 4T25.
 
 ---
 
@@ -895,28 +895,115 @@ Dois segmentos operacionais:
 
 ## Nota 25 — Empreendimentos em construção (consolidado 31/12/2025, R$ mil)
 
-- (i) Receita de vendas contratadas: **10.058.632**
-- (ii) Receita de vendas apropriadas líquidas: (7.246.932)
-- **Receita de vendas a apropriar**: **2.811.700**
-- (iii) Receita de distratos: 131
-- (iv) Receita de contratos não qualificáveis: 27.313
-- (v) Provisão para distratos (passivo, líquido): 522
-- **Custo orçado das unidades (sem encargos financeiros)**: (5.843.733)
-- **Custo orçado a apropriar**: [valor não capturado integralmente na extração; ver PDF original p.65-66]
+**Receita de vendas a apropriar de unidades vendidas:**
 
-## Nota 26 (se aplicável) — Eventos subsequentes
+| | R$ mil |
+|---|---:|
+| (a) Receita de vendas contratadas | 10.058.632 |
+| (b) Receita de vendas apropriadas líquidas | (7.246.932) |
+| **(1i) Receita de vendas a apropriar (a−b)** | **2.811.700** |
+| (ii) Receita indenização por distratos | 131 |
+| (iii) Receita de vendas a apropriar de contratos não qualificáveis | 27.313 |
+| (iv) Provisão para distratos (passivo) | |
+| — Ajuste em receitas apropriadas | 21.373 |
+| — Ajuste em contas a receber de clientes | (20.720) |
+| — Receita indenização por distratos | (131) |
+| — Líquido | 522 |
 
-(Itens posteriores no PDF: declarações de diretores sobre DFs e sobre o relatório dos auditores; Parecer do Conselho Fiscal; Parecer e Relatório de Atividades do Comitê de Auditoria; Comentários sobre comportamento das projeções empresariais; Relatório dos auditores independentes.)
+**Custo orçado a apropriar de unidades vendidas:**
+
+| | R$ mil |
+|---|---:|
+| (a) Custo orçado das unidades (sem encargos financeiros) | 5.843.733 |
+| (b) Custos de construção incorridos | (3.996.049) |
+| — Encargos financeiros apropriados | (105.963) |
+| (c) Distratos — custos de construção | 13.867 |
+| — Distratos — encargos financeiros | 299 |
+| Custo incorrido líquido (b+c) | (4.087.846) |
+| **(2i) Custo orçado a apropriar no resultado (sem enc. fin.) (a+b+c)** | **1.861.551** |
+| **Resultado a apropriar (1i − 2i)** | **950.149** |
+
+**Custo orçado a apropriar em estoque:**
+
+| | R$ mil |
+|---|---:|
+| (a) Custo orçado das unidades (sem encargos financeiros) | 1.806.001 |
+| (b) Custos de construção incorridos | (468.003) |
+| — Encargos financeiros apropriados | (15.077) |
+| **Custo orçado a apropriar em estoques (sem enc. fin.) (a+b)** | **1.337.998** |
+
+(a) Receitas de unidades vendidas a apropriar mensuradas pelo valor nominal dos contratos, acrescidos de atualizações contratuais e deduzidos de distratos, sem efeitos de impostos e AVP.
+(b) Receitas de contratos não qualificáveis: clientes sem garantia ou perspectiva de honrar pagamento.
+
+Em 31/12/2025, o percentual dos ativos consolidados referentes a empreendimentos inseridos em estrutura de segregação patrimonial era de **66,60%**.
+
+---
+
+## Nota 26 — Transações que não afetam caixa e conciliação das atividades de financiamento
+
+(a) Transações não caixa: em setembro/2025, a companhia efetuou quitação de dividendos com saldo de partes relacionadas no valor de R$ 559.981 referente à controlada Tenda Negócios Imobiliários S.A.
+
+---
+
+## Nota 27 — Eventos subsequentes
+
+Em 30 de janeiro de 2026, a Companhia celebrou contrato de mútuo com parte relacionada no montante de R$ 5.000, junto à AMBAR TECH PARTICIPAÇÕES S.A. A caracterização como parte relacionada decorre do fato de que determinado Diretor da referida empresa também integra o Conselho de Administração da Companhia. A Administração declara que a operação foi realizada em condições usuais de mercado.
+
+---
+
+## Nota 28 — Aprovação das demonstrações financeiras
+
+A Administração declarou que discutiu, revisou e concordou com as demonstrações financeiras individuais e consolidadas e com as conclusões expressas no relatório dos auditores independentes relativos ao exercício findo em 31 de dezembro de 2025.
+
+Em 05 de março de 2026, o Conselho de Administração aprovou as demonstrações financeiras individuais e consolidadas, conforme recomendação do Comitê de Auditoria e Conselho Fiscal, e autorizou sua divulgação.
+
+Rodrigo Osmo — Diretor Presidente
+Luiz Maurício de Garcia Paula — Diretor Financeiro e de Relações com Investidores
+Juliano Natali — Contador Responsável Técnico CRC 1SP279451
 
 ---
 
 ## Declarações e pareceres
 
-- **Declaração dos diretores sobre as DFs** (pág. 67).
-- **Declaração dos diretores sobre o relatório dos auditores independentes** (pág. 68).
-- **Parecer do Conselho Fiscal** (pág. 69).
-- **Parecer e Relatório de Atividades do Comitê de Auditoria** (págs. 70–72).
-- **Comentários sobre o comportamento das projeções empresariais** (pág. 73).
-- **Relatório dos auditores independentes** (págs. 74–79).
+### Declaração dos Diretores sobre as Demonstrações Financeiras (pág. 67)
 
-(Textos completos não transcritos aqui porque a extração automática da ferramenta deixou essas páginas com conteúdo fragmentado. O PDF original foi a fonte — re-extração de PDF seria necessária para reconstituir literalmente os textos de parecer.)
+Os Diretores da Construtora Tenda S.A., inscrita no Ministério da Fazenda sob o CNPJ nº 71.476.527/0001-35, com sede na Rua Boa Vista, 280, 8º/9º andar, na cidade de São Paulo, Estado de São Paulo, declaram, para os fins do disposto no artigo 27 da Resolução CVM Nº 80, de 29 de março de 2022, conforme alterada, que reviram, discutiram e concordam com as demonstrações financeiras do exercício findo em 31 de dezembro de 2025.
+
+São Paulo, 05 de março de 2026. — Construtora Tenda S.A., A Diretoria.
+
+### Declaração dos Diretores sobre o Relatório dos Auditores Independentes (pág. 68)
+
+Os Diretores da Construtora Tenda S.A., inscrita no Ministério da Fazenda sob o CNPJ nº 71.476.527/0001-35, com sede na Rua Boa Vista, 280, 8º/9º andar, na cidade de São Paulo, Estado de São Paulo, declaram, para os fins do disposto no artigo 27 da Resolução CVM Nº 80, de 29 de março de 2022, conforme alterada, que reviram, discutiram e concordam com as opiniões expressas no relatório dos auditores independentes sobre as demonstrações financeiras do exercício findo em 31 de dezembro de 2025.
+
+São Paulo, 05 de março de 2026. — Construtora Tenda S/A, A Diretoria.
+
+### Parecer do Conselho Fiscal — Exercício Social 2025 (pág. 69)
+
+Os membros do Conselho Fiscal, no desempenho de suas funções legais e estatutárias, manifestaram-se favoravelmente e sem ressalvas pela aprovação, em assembleia geral ordinária de acionistas, dos documentos relativos ao exercício social findo em 31 de dezembro de 2025, a saber: Relatório de Administração e Demonstrações Financeiras da Companhia, acompanhadas das Notas Explicativas e do Parecer dos Auditores Independentes.
+
+Assinado por: José Luiz R. Carvalho, Fábio Antônio Pereira e Laércio Lampiasi. São Paulo, 05 de março de 2026.
+
+### Relatório de Atividades do Comitê de Auditoria — Exercício Social 2025 (págs. 70–72)
+
+**I. Sobre o Comitê de Auditoria Estatutário.** Composto por 3 membros, todos conselheiros independentes, eleitos pelo conselho de administração em 25/04/2025, com mandato até a AGO que aprova as contas do exercício encerrado em 31/12/2026: (i) José Écio Pereira da Costa Junior, (ii) Marcos Duarte Santos, (iii) Bruno Cherubini Balbinot. Órgão de assessoramento vinculado ao conselho de administração, disciplinado pelo regimento interno aprovado em 12/05/2025.
+
+**II. Principais atividades em 2025.** O Comitê reuniu-se em 4 ocasiões durante 2025, registrando presença integral de todos os membros. Na reunião de 05/03/2026, discutiram e apreciaram as DFs de 31/12/2025. Reuniões contaram com participação de membros da diretoria executiva e dos auditores externos (KPMG Auditores Independentes Ltda). Atividades: opinar sobre contratação/destituição de auditores independentes; avaliar DFs anuais/trimestrais; acompanhar denúncias no canal confidencial; acompanhar auditoria interna e gestão de riscos/controles internos; avaliar/monitorar exposições a risco; definir controles e procedimentos de divulgação; revisar princípios contábeis; avaliar/recomendar aprimoramento de políticas internas (incluindo Política de Transações entre Partes Relacionadas); acompanhar planos de investimento e lançamento; autorizar mudanças em políticas contábeis; revisar gestão de risco financeiro; recepção e tratamento de informações sobre descumprimento legal/normativo; divulgação de relatório resumido de atividades.
+
+**III. Parecer do Comitê de Auditoria.** Os membros do Comitê, no exercício de suas atribuições e responsabilidades legais, procederam à análise das demonstrações financeiras individuais e consolidadas, acompanhadas do relatório dos auditores independentes e do relatório da administração referentes ao exercício findo em 31/12/2025, e considerando as informações prestadas pela Companhia e pela KPMG, decidiram, por unanimidade, recomendar sua aprovação pelo conselho de administração e encaminhamento à AGO.
+
+São Paulo, 05 de março de 2026. — José Écio Pereira da Costa Junior (Coordenador), Marcos Duarte Santos (Membro), Bruno Cherubini Balbinot (Membro).
+
+### Comentário sobre o comportamento das projeções empresariais — Guidance 2026 (pág. 73)
+
+| Métrica | Segmento | Faixa mínima | Faixa máxima |
+|---|---|---:|---:|
+| EBITDA Ajustado | Tenda | R$ 950,0 mm | R$ 1.050,0 mm |
+| EBITDA Ajustado | Alea | R$ (70,0) mm | R$ (50,0) mm |
+| Vendas Líquidas | Tenda | R$ 5.000,0 mm | R$ 5.500,0 mm |
+| Vendas Líquidas | Alea | R$ 350,0 mm | R$ 450,0 mm |
+| Resultado Líquido | Consolidado | R$ 520,0 mm | R$ 600,0 mm |
+| Fluxo de Caixa Operacional Alea (% part. Tenda) | Alea | R$ (80,0) mm | R$ (60,0) mm |
+
+### Relatório dos auditores independentes (págs. 74–79)
+
+(Páginas 74–79 do PDF renderizadas como imagem — relatório KPMG sem conteúdo textual extraível. Conclusão: parecer sem ressalvas sobre as demonstrações financeiras individuais e consolidadas do exercício findo em 31/12/2025.)

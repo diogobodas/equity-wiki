@@ -93,6 +93,22 @@
 - Key path: `structured/tenda/2025/dfp.json :: company_specific.nota_22_resultado_financeiro` — receitas (rendimento aplicações 101.984 + receita SWAP 135.049 = 237.033), despesas (juros líq cap −133.596, cessão −82.109, swap 0, outras −16.958 = −232.663), líquido +4.370, comparativo 2024, encargos capitalizados 82.864.
 - Fonte preservada via `_fonte: full/tenda/2025/dfp.md §nota_22`.
 
+## 2026-04-10 — re-ingest (file, dfp) — **Tenda DFP 2025 auditada** (re-ingest com opendataloader-pdf)
+
+PDF pré-processado com `opendataloader-pdf` v2.2.1 (`--format markdown --use-struct-tree --table-method cluster`). Gaps preenchidos vs ingest original:
+
+1. **Nota 25 (empreendimentos em construção)** — tabela completa com custo orçado a apropriar no resultado (R$ 1.861.551 mil), resultado a apropriar (R$ 950.149 mil), custo a apropriar em estoque (R$ 1.337.998 mil), percentual segregação patrimonial (66,60%). Antes tinha "[valor não capturado integralmente na extração]".
+2. **Nota 26 (transações não caixa)** — quitação de dividendos R$ 559.981 via partes relacionadas (set/2025). Não existia no full/ anterior.
+3. **Nota 27 (eventos subsequentes)** — mútuo R$ 5.000 mil com Ambar Tech Participações (30/01/2026, parte relacionada). Não existia no full/ anterior.
+4. **Nota 28 (aprovação DFs)** — aprovação em 05/03/2026, signatários. Não existia no full/ anterior.
+5. **Declarações e pareceres** — textos completos das 5 seções (declaração diretores DFs, declaração diretores auditores, parecer conselho fiscal, relatório comitê de auditoria com 3 seções, guidance 2026 completo com tabela). Antes era "[Textos completos não transcritos — extração fragmentada]".
+6. **Guidance 2026** — tabela completa com 6 métricas/faixas: EBITDA Tenda R$ 950–1.050 mm, EBITDA Alea R$ (70)–(50) mm, vendas líquidas Tenda R$ 5.000–5.500 mm, vendas líquidas Alea R$ 350–450 mm, LL consolidado R$ 520–600 mm, FCO Alea R$ (80)–(60) mm.
+7. **DMPL** — continua sem extração textual (página renderizada como imagem no PDF). Resumo manual preservado. Requer hybrid mode (OCR) para extração completa.
+
+- Updated `sources/full/tenda/2025/dfp.md` — header atualizado refletindo pré-processamento, notas 25-28 completas, pareceres/declarações integral.
+- Updated `sources/structured/tenda/2025/dfp.json` — backfill nota 25 completa (14 novos campos em `company_specific.segmentacao_construcao`), guidance 2026 expandido (4 novas métricas/faixas).
+- Relatório auditores independentes (KPMG, págs 74-79) — renderizado como imagem no PDF, sem extração textual. Parecer sem ressalvas anotado.
+
 ## 2026-04-10 — schema addition — PDF pre-processing with opendataloader-pdf
 
 Added `opendataloader-pdf` as the standard PDF pre-processor for all file ingests. New section "PDF pre-processing" in SCHEMA.md documents the CLI (`opendataloader-pdf <file>.pdf --format markdown --hybrid --use-struct-tree`), lifecycle (intermediate `.md` deleted after ingest), and scope (PDF sources only). Heavy and light ingest paths now include step 0 for PDF conversion. CLAUDE.md updated to reference the new tool. Motivation: eliminate extraction gaps in tables, DMPL, pareceres, and visual-heavy pages that the LLM struggles to read directly from PDF binary.
