@@ -1,0 +1,48 @@
+{
+  "_schema": "manifest/v1",
+  "_updated": "2026-04-10",
+  "empresa": "direcional",
+  "display_name": "Direcional Engenharia S.A.",
+  "aliases": [
+    "Direcional",
+    "DIRR3"
+  ],
+  "ticker": "DIRR3",
+  "setor": "incorporadora",
+  "setor_schema": "sources/structured/_schemas/incorporadora.json",
+  "wiki_page": "direcional.md",
+  "sources": [],
+  "coverage": {},
+  "precedence": [],
+  "caveats": [
+    "cold-start — manifest criado por fetch agent, pendente ingest"
+  ],
+  "fetch_profile": {
+    "_created": "2026-04-10",
+    "_sample_period": "4T25",
+    "categories": {
+      "release_resultado_pt": {
+        "action": "include",
+        "description": "Divulgacao de resultados trimestral/anual em PT",
+        "sample_files": [
+          "DIRR3_4T25_release_1012256.pdf"
+        ]
+      },
+      "relatorio_administracao": {
+        "action": "exclude",
+        "description": "Relatorio da Administracao anual (excluido por opcao do usuario)",
+        "sample_files": [
+          "DIRR3_4T25_release_1012429.pdf"
+        ]
+      },
+      "fato_relevante": {
+        "action": "include",
+        "description": "Fatos relevantes (dividendos, eventos corporativos)",
+        "sample_files": [
+          "DIRR3_4T25_fato_relevante_980371.pdf"
+        ]
+      }
+    }
+  },
+  "related_digests": []
+}
