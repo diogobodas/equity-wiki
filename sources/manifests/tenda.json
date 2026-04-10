@@ -1587,5 +1587,54 @@
     "sources/digested/tenda_data_pack_1T26_summary.md",
     "sources/digested/tenda_dfp_2025_summary.md",
     "sources/digested/tenda_dfp_2024_summary.md"
-  ]
+  ],
+  "fetch_profile": {
+    "_created": "2026-04-10",
+    "_sample_period": "4T25",
+    "categories": {
+      "release_resultado_pt": {
+        "action": "include",
+        "description": "Release de resultados trimestral em português",
+        "sample_files": [
+          "TEND3_4T25_release_1010843.pdf"
+        ]
+      },
+      "release_resultado_en": {
+        "action": "exclude",
+        "description": "Earnings release in English (duplicate of PT version)",
+        "sample_files": [
+          "TEND3_4T25_release_1010845.pdf"
+        ]
+      },
+      "relatorio_administracao": {
+        "action": "include",
+        "description": "Relatório da Administração anual",
+        "sample_files": [
+          "TEND3_4T25_release_1010847.pdf"
+        ]
+      },
+      "demonstracoes_financeiras_pt": {
+        "action": "include",
+        "description": "Demonstrações financeiras completas (DFP) em português",
+        "sample_files": [
+          "TEND3_4T25_release_1011039.pdf"
+        ]
+      },
+      "demonstracoes_financeiras_en": {
+        "action": "exclude",
+        "description": "Financial statements in English (duplicate of PT version)",
+        "sample_files": [
+          "TEND3_4T25_release_1019316.pdf"
+        ]
+      },
+      "fato_relevante": {
+        "action": "include",
+        "description": "Fatos relevantes (debêntures, recompra, guidance, dividendos, CRI)",
+        "sample_files": [
+          "TEND3_4T25_fato_relevante_963021.pdf",
+          "TEND3_4T25_fato_relevante_979561.pdf"
+        ]
+      }
+    }
+  }
 }
