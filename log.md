@@ -132,3 +132,19 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 2026-04-10 — ingest 19 fatos relevantes Tenda (2T25–2T26). Light path: full/ + digested/ only. Updated tenda.md wiki page with quarterly data from ITRs + releases.
 2026-04-10 — ingest fato_relevante 1T25: sources/full/tenda/1T25/fato_relevante_859967.md, sources/digested/tenda_fatos_relevantes_batch_summary.md
 2026-04-10 — wiki update — tenda.md updated with fatos relevantes data (2T25–2T26). Added: 12a debentures (R$180M), cessao pro-soluto CRI Opea (R$293M em 3 integralizacoes), cronologia de liquidacoes de derivativos SWAP TRS (jun/25–abr/26), programa de recompra (2M acoes), dividendos 2025 (R$150M), governanca (renuncia conselheiro). Updated frontmatter sources (19 fatos relevantes), removed fatos relevantes from "Limitacoes" section.
+2026-04-10 — ingest itr 1T24: sources/full/direcional/1T24/itr.md, sources/structured/direcional/1T24/itr.json, sources/digested/direcional_itr_1T24_summary.md
+2026-04-10 — ingest itr 1T25: sources/full/direcional/1T25/itr.md, sources/structured/direcional/1T25/itr.json, sources/digested/direcional_itr_1T25_summary.md
+2026-04-10 — ingest dfp 2024: sources/full/direcional/2024/dfp.md, sources/structured/direcional/2024/dfp.json, sources/digested/direcional_dfp_2024_summary.md
+2026-04-10 — ingest dfp 2025: sources/full/direcional/2025/dfp.md, sources/structured/direcional/2025/dfp.json, sources/digested/direcional_dfp_2025_summary.md
+2026-04-10 — ingest itr 2T24: sources/full/direcional/2T24/itr.md, sources/structured/direcional/2T24/itr.json, sources/digested/direcional_itr_2T24_summary.md
+2026-04-10 — ingest itr 2T25: sources/full/direcional/2T25/itr.md, sources/structured/direcional/2T25/itr.json, sources/digested/direcional_itr_2T25_summary.md
+2026-04-10 — ingest itr 3T24: sources/full/direcional/3T24/itr.md, sources/structured/direcional/3T24/itr.json, sources/digested/direcional_itr_3T24_summary.md
+2026-04-10 — ingest itr 3T25: sources/full/direcional/3T25/itr.md, sources/structured/direcional/3T25/itr.json, sources/digested/direcional_itr_3T25_summary.md
+2026-04-10 — ingest itr 1T24: sources/full/direcional/1T24/itr.md, sources/structured/direcional/1T24/itr.json, sources/digested/direcional_itr_1T24_summary.md
+2026-04-10 — ingest itr 1T25: sources/full/direcional/1T25/itr.md, sources/structured/direcional/1T25/itr.json, sources/digested/direcional_itr_1T25_summary.md
+2026-04-10 — ingest dfp 2024: sources/full/direcional/2024/dfp.md, sources/structured/direcional/2024/dfp.json, sources/digested/direcional_dfp_2024_summary.md
+2026-04-10 — ingest dfp 2025: sources/full/direcional/2025/dfp.md, sources/structured/direcional/2025/dfp.json, sources/digested/direcional_dfp_2025_summary.md
+2026-04-10 — ingest itr 2T24: sources/full/direcional/2T24/itr.md, sources/structured/direcional/2T24/itr.json, sources/digested/direcional_itr_2T24_summary.md
+2026-04-10 — ingest itr 2T25: sources/full/direcional/2T25/itr.md, sources/structured/direcional/2T25/itr.json, sources/digested/direcional_itr_2T25_summary.md
+2026-04-10 — ingest itr 3T24: sources/full/direcional/3T24/itr.md, sources/structured/direcional/3T24/itr.json, sources/digested/direcional_itr_3T24_summary.md
+2026-04-10 — ingest itr 3T25: sources/full/direcional/3T25/itr.md, sources/structured/direcional/3T25/itr.json, sources/digested/direcional_itr_3T25_summary.md

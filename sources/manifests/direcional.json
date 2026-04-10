@@ -11,8 +11,170 @@
   "setor": "incorporadora",
   "setor_schema": "sources/structured/_schemas/incorporadora.json",
   "wiki_page": "direcional.md",
-  "sources": [],
-  "coverage": {},
+  "sources": [
+    {
+      "type": "itr",
+      "asof": "1T24",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/1T24/itr.md",
+      "structured": [
+        "sources/structured/direcional/1T24/itr.json"
+      ],
+      "digested": "sources/digested/direcional_itr_1T24_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "1T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/1T25/itr.md",
+      "structured": [
+        "sources/structured/direcional/1T25/itr.json"
+      ],
+      "digested": "sources/digested/direcional_itr_1T25_summary.md"
+    },
+    {
+      "type": "dfp",
+      "asof": "2024",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/2024/dfp.md",
+      "structured": [
+        "sources/structured/direcional/2024/dfp.json"
+      ],
+      "digested": "sources/digested/direcional_dfp_2024_summary.md"
+    },
+    {
+      "type": "dfp",
+      "asof": "2025",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/2025/dfp.md",
+      "structured": [
+        "sources/structured/direcional/2025/dfp.json"
+      ],
+      "digested": "sources/digested/direcional_dfp_2025_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "2T24",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/2T24/itr.md",
+      "structured": [
+        "sources/structured/direcional/2T24/itr.json"
+      ],
+      "digested": "sources/digested/direcional_itr_2T24_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "2T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/2T25/itr.md",
+      "structured": [
+        "sources/structured/direcional/2T25/itr.json"
+      ],
+      "digested": "sources/digested/direcional_itr_2T25_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "3T24",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/3T24/itr.md",
+      "structured": [
+        "sources/structured/direcional/3T24/itr.json"
+      ],
+      "digested": "sources/digested/direcional_itr_3T24_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "3T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/3T25/itr.md",
+      "structured": [
+        "sources/structured/direcional/3T25/itr.json"
+      ],
+      "digested": "sources/digested/direcional_itr_3T25_summary.md"
+    }
+  ],
+  "coverage": {
+    "1T24": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/direcional/1T24/itr.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/direcional/1T24/itr.json"
+      }
+    },
+    "1T25": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/direcional/1T25/itr.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/direcional/1T25/itr.json"
+      }
+    },
+    "2024": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/direcional/2024/dfp.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/direcional/2024/dfp.json"
+      }
+    },
+    "2025": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/direcional/2025/dfp.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/direcional/2025/dfp.json"
+      }
+    },
+    "2T24": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/direcional/2T24/itr.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/direcional/2T24/itr.json"
+      }
+    },
+    "2T25": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/direcional/2T25/itr.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/direcional/2T25/itr.json"
+      }
+    },
+    "3T24": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/direcional/3T24/itr.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/direcional/3T24/itr.json"
+      }
+    },
+    "3T25": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/direcional/3T25/itr.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/direcional/3T25/itr.json"
+      }
+    }
+  },
   "precedence": [],
   "caveats": [
     "cold-start — manifest criado por fetch agent, pendente ingest"
