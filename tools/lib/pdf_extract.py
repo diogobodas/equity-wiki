@@ -45,8 +45,13 @@ def try_opendataloader(pdf_path: Path, output_path: Path) -> bool:
             ],
             capture_output=True, text=True, timeout=300,
         )
-        if result.returncode == 0 and output_path.exists() and output_path.stat().st_size > 100:
+        # opendataloader may create a directory instead of a file — check is_file()
+        if result.returncode == 0 and output_path.is_file() and output_path.stat().st_size > 100:
             return True
+        # Clean up if it created a directory
+        if output_path.is_dir():
+            import shutil
+            shutil.rmtree(output_path, ignore_errors=True)
     except (subprocess.TimeoutExpired, FileNotFoundError):
         pass
     return False
