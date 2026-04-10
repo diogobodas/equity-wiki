@@ -53,7 +53,7 @@
       },
       "financeiro_ajustado": {
         "status": "filled",
-        "source": "sources/structured/tenda/4T25/data_pack.json"
+        "source": "sources/structured/tenda/4T25/release.json"
       }
     },
     "3T25": {
@@ -71,7 +71,7 @@
       },
       "financeiro_ajustado": {
         "status": "filled",
-        "source": "sources/structured/tenda/3T25/data_pack.json"
+        "source": "sources/structured/tenda/3T25/release.json"
       }
     },
     "2T25": {
@@ -89,7 +89,7 @@
       },
       "financeiro_ajustado": {
         "status": "filled",
-        "source": "sources/structured/tenda/2T25/data_pack.json"
+        "source": "sources/structured/tenda/2T25/release.json"
       }
     },
     "1T25": {
@@ -107,7 +107,7 @@
       },
       "financeiro_ajustado": {
         "status": "filled",
-        "source": "sources/structured/tenda/1T25/data_pack.json"
+        "source": "sources/structured/tenda/1T25/release.json"
       }
     },
     "2025": {
@@ -1557,6 +1557,46 @@
       "structured": [
         "sources/structured/tenda/3T25/itr.json"
       ]
+    },
+    {
+      "type": "release",
+      "asof": "1T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/tenda/1T25/release.md",
+      "digested": "sources/digested/tenda_release_1T25_summary.md",
+      "structured": [
+        "sources/structured/tenda/1T25/release.json"
+      ]
+    },
+    {
+      "type": "release",
+      "asof": "2T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/tenda/2T25/release.md",
+      "digested": "sources/digested/tenda_release_2T25_summary.md",
+      "structured": [
+        "sources/structured/tenda/2T25/release.json"
+      ]
+    },
+    {
+      "type": "release",
+      "asof": "3T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/tenda/3T25/release.md",
+      "digested": "sources/digested/tenda_release_3T25_summary.md",
+      "structured": [
+        "sources/structured/tenda/3T25/release.json"
+      ]
+    },
+    {
+      "type": "release",
+      "asof": "4T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/tenda/4T25/release.md",
+      "digested": "sources/digested/tenda_release_4T25_summary.md",
+      "structured": [
+        "sources/structured/tenda/4T25/release.json"
+      ]
     }
   ],
   "precedence": [
@@ -1599,6 +1639,11 @@
       "scope": "dre.* | bp.* at 1T25, 2T25, 3T25",
       "winner": "sources/structured/tenda/{period}/itr.json",
       "reason": "ITR auditada/revisada supersedes data_pack (gerencial) para DRE/BP trimestrais. DFC e notas explicativas só existem no ITR."
+    },
+    {
+      "scope": "financeiro_ajustado.* | operacional.* at 1T25, 2T25, 3T25, 4T25",
+      "winner": "sources/structured/tenda/{period}/release.json",
+      "reason": "Release de resultados é a fonte primária para métricas gerenciais/ajustadas e dados operacionais trimestrais."
     }
   ],
   "caveats": [
