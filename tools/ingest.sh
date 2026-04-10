@@ -6,6 +6,7 @@ usage() {
     echo "Usage: bash tools/ingest.sh <TICKER>"
     echo ""
     echo "Processes all files in sources/undigested/ for the given ticker."
+    echo "Accepts any PDF, ZIP, or XLSX — from fetch agent or dropped manually."
     echo "Produces full/, structured/, digested/, updates wiki pages, manifest, and log."
     exit 1
 }
@@ -52,22 +53,31 @@ echo ""
 HEAVY_ITR_DFP=()
 HEAVY_RELEASE=()
 LIGHT_FATOS=()
+HEAVY_OTHER=()
 
-for f in "$UNDIGESTED"/${TICKER}_*; do
+for f in "$UNDIGESTED"/*; do
     [[ -f "$f" ]] || continue
     fname=$(basename "$f")
     # Skip already-extracted files
     [[ "$fname" == *_extracted.md ]] && continue
     [[ "$fname" == *_extracted.txt ]] && continue
+    # Skip non-ingestable files
+    [[ "$fname" == *.json ]] && continue
 
-    if [[ "$fname" == *_itr.zip ]] || [[ "$fname" == *_dfp.zip ]] || [[ "$fname" == *_itr.pdf ]] || [[ "$fname" == *_dfp.pdf ]]; then
-        HEAVY_ITR_DFP+=("$f")
-    elif [[ "$fname" == *_release_*.pdf ]]; then
-        HEAVY_RELEASE+=("$f")
-    elif [[ "$fname" == *_fato_relevante_*.pdf ]]; then
-        LIGHT_FATOS+=("$f")
-    else
-        echo "WARN: Unknown file type, skipping: $fname"
+    # Match ticker-prefixed files (from fetch agent)
+    if [[ "$fname" == ${TICKER}_* ]]; then
+        if [[ "$fname" == *_itr.zip ]] || [[ "$fname" == *_dfp.zip ]] || [[ "$fname" == *_itr.pdf ]] || [[ "$fname" == *_dfp.pdf ]]; then
+            HEAVY_ITR_DFP+=("$f")
+        elif [[ "$fname" == *_release_*.pdf ]]; then
+            HEAVY_RELEASE+=("$f")
+        elif [[ "$fname" == *_fato_relevante_*.pdf ]]; then
+            LIGHT_FATOS+=("$f")
+        else
+            HEAVY_OTHER+=("$f")
+        fi
+    # Match any other PDF/XLSX/ZIP dropped manually
+    elif [[ "$fname" == *.pdf ]] || [[ "$fname" == *.xlsx ]] || [[ "$fname" == *.zip ]]; then
+        HEAVY_OTHER+=("$f")
     fi
 done
 
@@ -75,9 +85,11 @@ echo "Found:"
 echo "  ITR/DFP (heavy): ${#HEAVY_ITR_DFP[@]}"
 echo "  Releases (heavy): ${#HEAVY_RELEASE[@]}"
 echo "  Fatos relevantes (light): ${#LIGHT_FATOS[@]}"
+echo "  Other files (heavy): ${#HEAVY_OTHER[@]}"
 echo ""
 
-if [[ ${#HEAVY_ITR_DFP[@]} -eq 0 && ${#HEAVY_RELEASE[@]} -eq 0 && ${#LIGHT_FATOS[@]} -eq 0 ]]; then
+TOTAL=$((${#HEAVY_ITR_DFP[@]} + ${#HEAVY_RELEASE[@]} + ${#LIGHT_FATOS[@]} + ${#HEAVY_OTHER[@]}))
+if [[ $TOTAL -eq 0 ]]; then
     echo "Nothing to ingest. Exiting."
     exit 0
 fi
@@ -107,6 +119,14 @@ for f in "${LIGHT_FATOS[@]}"; do
     RESULT=$(python "$SCRIPT_DIR/lib/pdf_extract.py" "$f")
     OUTPUT=$(echo "$RESULT" | python -c "import sys,json; print(json.load(sys.stdin)['output'])")
     EXTRACTED_FATOS+=("$OUTPUT")
+done
+
+EXTRACTED_OTHER=()
+for f in "${HEAVY_OTHER[@]}"; do
+    echo "  Extracting: $(basename "$f")"
+    RESULT=$(python "$SCRIPT_DIR/lib/pdf_extract.py" "$f")
+    OUTPUT=$(echo "$RESULT" | python -c "import sys,json; print(json.load(sys.stdin)['output'])")
+    EXTRACTED_OTHER+=("$OUTPUT")
 done
 
 echo ""
@@ -243,6 +263,36 @@ if [[ ${#EXTRACTED_FATOS[@]} -gt 0 ]]; then
     echo ""
 fi
 
+# --- Step 5b: Ingest other files (heavy path) ---
+if [[ ${#EXTRACTED_OTHER[@]} -gt 0 ]]; then
+    echo "=== Ingesting other files (heavy path) ==="
+    FILE_LIST=$(build_file_list "${EXTRACTED_OTHER[@]}")
+
+    invoke_claude "$SCRIPT_DIR/prompts/ingest_heavy.md" \
+        "{{TICKER}}" "$TICKER" \
+        "{{EMPRESA}}" "$EMPRESA" \
+        "{{DOC_TYPE}}" "other" \
+        "{{SCHEMA_PATH}}" "$SCHEMA_PATH" \
+        "{{FILE_LIST}}" "$FILE_LIST"
+
+    for f in "${EXTRACTED_OTHER[@]}"; do
+        fname=$(basename "$f")
+        # For non-standard files, use the stem as identifier
+        stem="${fname%_extracted.*}"
+        stem="${stem%.*}"
+        digested="sources/digested/${EMPRESA}_other_${stem}_summary.md"
+        DIGESTED_FILES+=("$digested")
+
+        python "$SCRIPT_DIR/lib/manifest_update.py" \
+            --manifest "$MANIFEST_PATH" \
+            --type release --period "unknown" \
+            --full "sources/full/$EMPRESA/other/${stem}.md" \
+            --digested "$digested" \
+            --log "$REPO_ROOT/log.md" 2>/dev/null || true
+    done
+    echo ""
+fi
+
 # --- Step 6: Wiki update ---
 echo "=== Updating wiki pages ==="
 WIKI_PAGE="${EMPRESA}.md"
@@ -258,17 +308,17 @@ echo ""
 
 # --- Step 7: Cleanup ---
 echo "=== Cleanup ==="
-for f in "${HEAVY_ITR_DFP[@]}" "${HEAVY_RELEASE[@]}" "${LIGHT_FATOS[@]}"; do
+for f in "${HEAVY_ITR_DFP[@]}" "${HEAVY_RELEASE[@]}" "${LIGHT_FATOS[@]}" "${HEAVY_OTHER[@]}"; do
     rm -f "$f"
     echo "  Deleted: $(basename "$f")"
 done
-for f in "${EXTRACTED_ITR_DFP[@]}" "${EXTRACTED_RELEASE[@]}" "${EXTRACTED_FATOS[@]}"; do
+for f in "${EXTRACTED_ITR_DFP[@]}" "${EXTRACTED_RELEASE[@]}" "${EXTRACTED_FATOS[@]}" "${EXTRACTED_OTHER[@]}"; do
     rm -f "$f"
     echo "  Deleted: $(basename "$f")"
 done
 
 echo ""
 echo "=== Ingest complete ==="
-echo "  Processed: $((${#HEAVY_ITR_DFP[@]} + ${#HEAVY_RELEASE[@]} + ${#LIGHT_FATOS[@]})) files"
+echo "  Processed: $TOTAL files"
 echo "  Wiki updated: $WIKI_PAGE"
 echo "  Manifest updated: $MANIFEST_PATH"

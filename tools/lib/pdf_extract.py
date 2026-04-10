@@ -60,13 +60,14 @@ def try_opendataloader(pdf_path: Path, output_path: Path) -> bool:
 def extract_with_pdfplumber(pdf_path: Path, output_path: Path) -> int:
     """Extract text using pdfplumber. Returns page count."""
     import pdfplumber
-    pdf = pdfplumber.open(str(pdf_path))
-    pages = []
-    for i, page in enumerate(pdf.pages):
-        text = page.extract_text() or ''
-        pages.append(f'<!-- PAGE {i + 1} -->\n{text}')
+    with pdfplumber.open(str(pdf_path)) as pdf:
+        pages = []
+        for i, page in enumerate(pdf.pages):
+            text = page.extract_text() or ''
+            pages.append(f'<!-- PAGE {i + 1} -->\n{text}')
+        page_count = len(pdf.pages)
     output_path.write_text('\n\n'.join(pages), encoding='utf-8')
-    return len(pdf.pages)
+    return page_count
 
 
 def main():
@@ -112,7 +113,10 @@ def main():
     chars = output_path.stat().st_size
 
     if tmp_pdf:
-        tmp_pdf.unlink(missing_ok=True)
+        try:
+            tmp_pdf.unlink(missing_ok=True)
+        except PermissionError:
+            pass  # Windows file lock — temp will be cleaned by OS
 
     json_out({
         "status": "ok",
