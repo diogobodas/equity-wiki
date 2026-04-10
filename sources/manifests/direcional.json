@@ -91,6 +91,173 @@
         "sources/structured/direcional/3T25/itr.json"
       ],
       "digested": "sources/digested/direcional_itr_3T25_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "1T24",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/1T24/release.md",
+      "structured": [
+        "sources/structured/direcional/1T24/release.json"
+      ],
+      "digested": "sources/digested/direcional_release_1T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "1T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/1T25/release.md",
+      "structured": [
+        "sources/structured/direcional/1T25/release.json"
+      ],
+      "digested": "sources/digested/direcional_release_1T25_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "2T24",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/2T24/release.md",
+      "structured": [
+        "sources/structured/direcional/2T24/release.json"
+      ],
+      "digested": "sources/digested/direcional_release_2T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "2T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/2T25/release.md",
+      "structured": [
+        "sources/structured/direcional/2T25/release.json"
+      ],
+      "digested": "sources/digested/direcional_release_2T25_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "4T24",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/4T24/release.md",
+      "structured": [
+        "sources/structured/direcional/4T24/release.json"
+      ],
+      "digested": "sources/digested/direcional_release_4T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "4T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/4T25/release.md",
+      "structured": [
+        "sources/structured/direcional/4T25/release.json"
+      ],
+      "digested": "sources/digested/direcional_release_4T25_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "3T24",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/3T24/release.md",
+      "structured": [
+        "sources/structured/direcional/3T24/release.json"
+      ],
+      "digested": "sources/digested/direcional_release_3T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "3T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/3T25/release.md",
+      "structured": [
+        "sources/structured/direcional/3T25/release.json"
+      ],
+      "digested": "sources/digested/direcional_release_3T25_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "4T23",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/4T23/release.md",
+      "structured": [
+        "sources/structured/direcional/4T23/release.json"
+      ],
+      "digested": "sources/digested/direcional_release_4T23_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/1T25/fato_relevante_874223.md",
+      "digested": "sources/digested/direcional_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/2T25/fato_relevante_901482.md",
+      "digested": "sources/digested/direcional_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/2T25/fato_relevante_910132.md",
+      "digested": "sources/digested/direcional_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/2T25/fato_relevante_910146.md",
+      "digested": "sources/digested/direcional_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/2T25/fato_relevante_915858.md",
+      "digested": "sources/digested/direcional_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "3T24",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/3T24/fato_relevante_780235.md",
+      "digested": "sources/digested/direcional_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "3T24",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/3T24/fato_relevante_805974.md",
+      "digested": "sources/digested/direcional_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T24",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/4T24/fato_relevante_837816.md",
+      "digested": "sources/digested/direcional_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T24",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/4T24/fato_relevante_840875.md",
+      "digested": "sources/digested/direcional_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T24",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/4T24/fato_relevante_842848.md",
+      "digested": "sources/digested/direcional_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T25",
+      "ingested_on": "2026-04-10",
+      "full": "sources/full/direcional/4T25/fato_relevante_980371.md",
+      "digested": "sources/digested/direcional_fatos_relevantes_batch_summary.md"
     }
   ],
   "coverage": {
@@ -102,6 +269,14 @@
       "bp": {
         "status": "filled",
         "source": "sources/structured/direcional/1T24/itr.json"
+      },
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/direcional/1T24/release.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/direcional/1T24/release.json"
       }
     },
     "1T25": {
@@ -112,6 +287,14 @@
       "bp": {
         "status": "filled",
         "source": "sources/structured/direcional/1T25/itr.json"
+      },
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/direcional/1T25/release.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/direcional/1T25/release.json"
       }
     },
     "2024": {
@@ -142,6 +325,14 @@
       "bp": {
         "status": "filled",
         "source": "sources/structured/direcional/2T24/itr.json"
+      },
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/direcional/2T24/release.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/direcional/2T24/release.json"
       }
     },
     "2T25": {
@@ -152,6 +343,14 @@
       "bp": {
         "status": "filled",
         "source": "sources/structured/direcional/2T25/itr.json"
+      },
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/direcional/2T25/release.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/direcional/2T25/release.json"
       }
     },
     "3T24": {
@@ -162,6 +361,32 @@
       "bp": {
         "status": "filled",
         "source": "sources/structured/direcional/3T24/itr.json"
+      },
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/direcional/3T24/release.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/direcional/3T24/release.json"
+      }
+    },
+    "4T24": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/direcional/4T24/release.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/direcional/4T24/release.json"
+      },
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/direcional/4T24/release.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/direcional/4T24/release.json"
       }
     },
     "3T25": {
@@ -172,10 +397,45 @@
       "bp": {
         "status": "filled",
         "source": "sources/structured/direcional/3T25/itr.json"
+      },
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/direcional/3T25/release.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/direcional/3T25/release.json"
+      }
+    },
+    "4T25": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/direcional/4T25/release.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/direcional/4T25/release.json"
+      },
+      "operacional": {
+        "status": "filled",
+        "source": "sources/structured/direcional/4T25/release.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/direcional/4T25/release.json"
+      }
+    },
+    "4T23": {
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/direcional/4T23/release.json"
       }
     }
   },
-  "precedence": [],
+  "precedence": [
+    "operacional/financeiro_ajustado @ any period with release: release.json is the primary source (richer than ITR for operational metrics, EBITDA, REF, endividamento detail).",
+    "dre/bp @ any period: ITR/DFP supersedes release (audited IFRS statements)."
+  ],
   "caveats": [
     "cold-start — manifest criado por fetch agent, pendente ingest"
   ],
