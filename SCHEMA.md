@@ -270,12 +270,34 @@ Every factual claim must trace back to a source. Citation format depends on laye
 | `editorial` | Valor, InfoMoney, Bloomberg, Reuters | Medium — context |
 | `community` | Wikipedia, blogs, forums | Low — conceptual only |
 
+## PDF pre-processing
+
+PDF sources in `undigested/` are pre-processed with [opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) before the LLM ingest step. This eliminates extraction gaps in tables, DMPL, pareceres, and visual-heavy pages that the LLM struggles to read directly from PDF.
+
+```bash
+# Install (one-time)
+pip install -U opendataloader-pdf
+
+# Convert PDF to markdown (standard mode — Java required)
+opendataloader-pdf <file>.pdf --format markdown --use-struct-tree --table-method cluster
+
+# Optional: hybrid mode for image-heavy pages (OCR via docling)
+# Requires: pip install -U "opendataloader-pdf[hybrid]" && opendataloader-pdf-hybrid --port 5002
+# Then add: --hybrid docling-fast
+```
+
+- The output `.md` replaces the PDF as input for the LLM ingest steps below.
+- Both the original PDF and the intermediate `.md` are deleted from `undigested/` after ingest completes (same lifecycle as today — `undigested/` is an inbox).
+- Non-PDF sources (XLSX, notion, web) are unaffected.
+- **Known limitation:** pages rendered as images in the PDF (e.g., some DMPL tables) require hybrid mode for extraction. In standard mode these come out as image references — the LLM should note the gap and fill manually where possible (cross-referencing BP/DRE for reconciliation).
+
 ## Wiki Operations
 
 ### Ingest (file — ITR/DFP/release)
 
 The "heavy" path. Runs one source at a time.
 
+0. **If source is PDF**, run `opendataloader-pdf <file>.pdf --format markdown --use-struct-tree --table-method cluster` in `undigested/`. Use the resulting `.md` as input for steps 1–9.
 1. Read the source fully from `sources/undigested/`.
 2. **Generate `full/{empresa}/{periodo}/{tipo}.md`** — structured-but-uncut transcription. Headings as defined above. Tables in markdown. Notas explicativas as `## Nota N — título` headings, literal content.
 3. **Generate `structured/{empresa}/{periodo}/{tipo}.json`**:
@@ -293,12 +315,40 @@ The "heavy" path. Runs one source at a time.
 
 The "light" path — no `structured/`.
 
+0. **If source is PDF**, run `opendataloader-pdf` as described in "PDF pre-processing" above. Use the resulting `.md` as input.
 1. Read source from `undigested/`.
 2. Generate `full/{empresa}/{periodo}/{tipo}.md` — structured-but-uncut.
 3. Generate `digested/{name}_summary.md`.
 4. Update wiki pages.
 5. Update `sources/manifests/{empresa}.json` — add the source entry under `sources` (no coverage change since no structured/ is produced).
 6. Delete original. Update `sources/index.md` and `log.md`.
+
+### Ingest (file — data_pack, update)
+
+Data packs are sourced from RI-maintained XLSX spreadsheets that contain the full historical series plus the latest quarter. When a new spreadsheet arrives (e.g. as-of 2T26 replacing the prior as-of 1T26), the **entire spreadsheet is re-processed** — NOT just the new quarter. The spreadsheet is self-contained: it repeats all historical data by design.
+
+0. Convert XLSX → markdown via ephemeral script (openpyxl). The script re-processes ALL sheets/periods in the spreadsheet.
+1. Create `full/{empresa}/data_pack_{new_asof}.md`. The prior `full/{empresa}/data_pack_{old_asof}.md` is **NOT deleted** — it stays as a historical snapshot of what the RI reported at that point in time.
+2. **Delta detection** (BEFORE overwriting structured/):
+   For every period that already has a `structured/{empresa}/{period}/data_pack.json`:
+   a. Compare each canonical and company_specific leaf value: new vs. existing.
+   b. Flag as **restatement** if `|new − old| > 1%` of old OR `|new − old| > R$ 1 mm` (whichever threshold is hit first). Ignore `null→value` transitions (new data, not restatement).
+   c. Log all restatements in `log.md` as a summary table: empresa, period, block.key, old_value, new_value, Δ%.
+3. Write structured/:
+   a. **New periods** (e.g. 2T26): create `structured/{empresa}/{period}/data_pack.json`.
+   b. **Existing periods**: OVERWRITE with new values. Update `_source` and `_source_asof` to point to the new `full/` file.
+   c. Exception: blocks already superseded by DFP/ITR (per manifest precedence) — still overwrite `data_pack.json` (it's the data_pack's own record), but the manifest precedence already ensures DFP/ITR wins for consumers.
+4. Generate `digested/{empresa}_data_pack_{new_asof}_summary.md`. Include:
+   - What's new (new periods, new blocks filled).
+   - What changed (restatements detected in step 2).
+   - Prior digest stays as historical record.
+5. Update manifest:
+   a. Replace the `sources` entry for `type=data_pack`: new `asof`, new `ingested_on`, updated `structured_periods`.
+   b. Add coverage entries for new periods.
+   c. Review precedence — typically unchanged (DFP/ITR still wins where it existed).
+   d. Add caveats if restatements were material or structural.
+6. Update wiki pages with new-period data.
+7. Delete original XLSX from `undigested/`. Update `sources/index.md` and `log.md`.
 
 ### Ingest (web)
 

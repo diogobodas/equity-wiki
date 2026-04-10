@@ -40,8 +40,9 @@ Plus **wiki pages** (`*.md` at repo root) — entity/concept/sector/comparison/s
 
 ## Core operations (all defined in SCHEMA.md)
 
-- **Ingest (file — ITR/DFP/release)** — heavy path. Produces `full/` + `structured/` + `digested/` + wiki updates, then deletes original.
-- **Ingest (file — apresentação/fato relevante/outros)** — light path. Produces `full/` + `digested/` + wiki updates.
+- **Ingest (file — ITR/DFP/release)** — heavy path. Produces `full/` + `structured/` + `digested/` + wiki updates, then deletes original. **PDF sources are pre-processed with `opendataloader-pdf` (`pip install -U "opendataloader-pdf[hybrid]"`) to produce clean markdown before the LLM ingest step.** This eliminates extraction gaps in tables, DMPL, and visual pages. See SCHEMA.md §"PDF pre-processing".
+- **Ingest (file — apresentação/fato relevante/outros)** — light path. Same PDF pre-processing applies. Produces `full/` + `digested/` + wiki updates.
+- **Ingest (file — data_pack, update)** — when a new-quarter XLSX arrives, re-processes the entire spreadsheet with delta detection against existing structured/ files, flags restatements, overwrites structured/, preserves prior `full/` as historical snapshot. See SCHEMA.md §"Ingest (file — data_pack, update)".
 - **Ingest (web)** — WebSearch/WebFetch → classify reliability (`oficial`/`editorial`/`community`) → inline `(fonte: url, confiabilidade: nivel)`. No `full/` or `structured/`.
 - **Ingest (notion)** — via `mcp__claude_ai_Notion__*` → `digested/notion_{slug}.md` → update `notion_tracker.md`.
 - **Query** — search wiki first; drop into `structured/` for numeric claims; open `full/` for notas/MD&A context.
