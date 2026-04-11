@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with th
 
 ## What this is
 
-An LLM-maintained knowledge wiki **and modeling substrate** for Brazilian listed companies (bancos, incorporadoras, rental, etc.), following Karpathy's LLM-wiki pattern. This is also an Obsidian vault. There is **no code, no build, no tests** — operations are markdown/JSON reads and writes performed by the LLM.
+An LLM-maintained knowledge wiki **and modeling substrate** for Brazilian listed companies (bancos, incorporadoras, rental, etc.), following Karpathy's LLM-wiki pattern. This is also an Obsidian vault. The content layer is markdown + JSON — no build, no test suite — but there is a small orchestration layer under `tools/` (bash + Python) that drives CVM discovery, PDF extraction, and ingest by shelling out to `claude --print` with templated prompts. The LLM still does the semantic work; `tools/` just removes boilerplate.
 
 Two complementary uses:
 1. **Knowledge wiki** — entity / concept / sector / comparison / synthesis pages with citations.
@@ -66,3 +66,53 @@ Every operation appends an entry to `log.md`.
 - **Do not edit files in `sources/`** — sources are immutable. To correct, re-ingest.
 - **`log.md` is append-only.**
 - **One source at a time** during ingest so cross-linking stays coherent.
+
+## Tooling (`tools/`)
+
+Thin orchestration around the LLM. Every script is a bash/Python wrapper that prepares inputs, invokes `claude --print` with a templated prompt from `tools/prompts/`, then runs deterministic post-processing (manifest/log updates). Nothing here replaces the LLM's judgement — it just removes boilerplate.
+
+```
+tools/
+├── fetch.sh               # CVM discovery + download → sources/undigested/
+├── ingest.sh              # process undigested/ for a ticker → all wiki layers
+├── lib/
+│   ├── cvm_fetch.py       # CVM-API CLI (resolve/list/download), JSON out
+│   ├── pdf_extract.py     # PDF/ZIP → markdown (opendataloader-pdf → pdfplumber fallback)
+│   └── manifest_update.py # deterministic manifest/log/index writes (no LLM)
+└── prompts/
+    ├── fetch_system.md    # prompt used by fetch.sh normal mode
+    ├── fetch_discover.md  # prompt used by `fetch.sh --discover`
+    ├── ingest_heavy.md    # ITR/DFP/release — produces full/ + structured/ + digested/
+    ├── ingest_light.md    # fato relevante — produces full/ + digested/
+    └── ingest_wiki_update.md  # final wiki-page refresh step of ingest.sh
+```
+
+### Common commands
+
+```bash
+# 1. Discover what a new ticker publishes (one-time classification of doc types)
+bash tools/fetch.sh TEND3 --discover
+
+# 2. Fetch missing CVM filings into sources/undigested/
+bash tools/fetch.sh TEND3                              # default: 3y horizon, dfp+itr+release+fato_relevante
+bash tools/fetch.sh TEND3 --horizon 5y --types itr,release
+
+# 3. Ingest everything sitting in sources/undigested/ for that ticker
+bash tools/ingest.sh TEND3
+```
+
+`ingest.sh` expects an existing `sources/manifests/{empresa}.json` (created by the first `fetch` run or by hand) — it looks up the ticker inside each manifest to resolve `empresa`. It then classifies files in `undigested/` by filename convention (`{TICKER}_{periodo}_{tipo}_*.{pdf,zip}`), pre-extracts PDFs via `tools/lib/pdf_extract.py`, and dispatches to the heavy or light prompt accordingly. Files not matching the convention fall into a "heavy other" bucket.
+
+### Requirements
+
+- `claude` CLI on PATH (scripts shell out to `claude --print --allowedTools Bash --permission-mode bypassPermissions`).
+- Python 3 with `opendataloader-pdf` (preferred) and `pdfplumber` (fallback) for PDF extraction; `python-dateutil` for horizon math; whatever `cvm-api` needs for `cvm_fetch.py`.
+- `opendataloader-pdf` hybrid mode (OCR via docling) is optional — used when DMPL/visual pages come out as image refs in standard mode. See SCHEMA.md §"PDF pre-processing".
+
+### Non-obvious behaviors
+
+- `fetch.sh` searches `sources/manifests/*.json` for a manifest whose `aliases` contain the ticker. Cold-start (no manifest) resolves via `cvm_fetch.py resolve` and the empresa slug is derived from the first word of the CVM display name, lowercased, NFKD-stripped.
+- `ingest.sh` skips `*_extracted.md`, `*_extracted.txt`, and `*.json` in `undigested/` — those are intermediate artifacts from a prior/in-progress run.
+- `manifest_update.py` is intentionally LLM-free: it appends source entries, updates `coverage[period][block]`, and writes one-line log entries. Called from `ingest.sh` after each file, not from inside the prompt.
+- Prompts in `tools/prompts/` use `{{PLACEHOLDER}}` substitution done by inline Python in `fetch.sh`/`ingest.sh`. If you add a placeholder, make sure the caller passes it.
+- `docs/superpowers/{plans,specs}/` hold design notes for bigger changes to the tooling — read those before refactoring the pipeline.
