@@ -231,3 +231,6 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 2026-04-11 — ingest release unknown: sources/full/cury/other/CURY3_3T23_itr_131846.md, sources/digested/cury_other_CURY3_3T23_itr_131846_summary.md
 2026-04-11 — ingest release unknown: sources/full/cury/other/CURY3_3T24_itr_142960.md, sources/digested/cury_other_CURY3_3T24_itr_142960_summary.md
 2026-04-11 — ingest release unknown: sources/full/cury/other/CURY3_3T25_itr_152937.md, sources/digested/cury_other_CURY3_3T25_itr_152937_summary.md
+2026-04-11 — ingest previa_operacional 1T26: sources/full/cury/1T26/previa_operacional.md, sources/digested/cury_previa_operacional_1T26_summary.md
+
+## 2026-04-11 — wiki update — CURY3 entity + comparison created from 27 digested sources (4 DFPs, 12 releases 1T23-4T25, fatos relevantes batch, previa 1T26). Created cury.md (entity) and cury_vs_direcional.md (comparison). Updated incorporadoras.md to include Cury in players table with ROE 78,8 percent highlighted. Frontmatter source lists, citations format full/cury/... and structured/cury/... applied throughout.

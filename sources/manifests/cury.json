@@ -274,6 +274,13 @@
       "ingested_on": "2026-04-11",
       "full": "sources/full/cury/other/CURY3_3T25_itr_152937.md",
       "digested": "sources/digested/cury_other_CURY3_3T25_itr_152937_summary.md"
+    },
+    {
+      "type": "previa_operacional",
+      "asof": "1T26",
+      "ingested_on": "2026-04-11",
+      "full": "sources/full/cury/1T26/previa_operacional.md",
+      "digested": "sources/digested/cury_previa_operacional_1T26_summary.md"
     }
   ],
   "coverage": {
