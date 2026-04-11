@@ -38,6 +38,14 @@ python tools/lib/cvm_fetch.py download --num-sequencia <X> --num-versao <Y> --nu
 ```
 Downloads a filing to the specified path. The download response includes `original_filename` which you should use for classification.
 
+### batch-download
+```bash
+python tools/lib/cvm_fetch.py batch-download --concurrency 6 --docs-json '<JSON_ARRAY>'
+```
+Downloads multiple files concurrently. Input: JSON array where each element has `num_sequencia`, `num_versao`, `numero_protocolo`, `desc_tipo`, `output`. Returns a JSON array of results.
+
+**Use this instead of individual `download` calls.** Build the full list of gaps first, then download all at once.
+
 Output path for final files: `{{UNDIGESTED_PATH}}/{{TICKER}}_{periodo}_{tipo}_{num_sequencia}.{ext}`
 
 The extension depends on what the CVM returns:
@@ -58,19 +66,24 @@ Examples: `{{UNDIGESTED_PATH}}/TEND3_2025_dfp.zip`, `{{UNDIGESTED_PATH}}/TEND3_4
    - **Stop condition per type:** when you find a `periodo` that already exists in the manifest for that type, stop — everything older is assumed covered.
    - If `{{COLD_START}}` is `true`, there is no manifest to compare — everything up to `{{HORIZON_FROM}}` is a gap.
 
-4. **Download and filter** each gap:
+4. **Build download batch** — collect all gap documents into a JSON array for `batch-download`:
+   ```json
+   [
+     {"num_sequencia": "X", "num_versao": "Y", "numero_protocolo": "Z", "desc_tipo": "W", "output": "sources/undigested/TICKER_periodo_tipo_seq.ext"},
+     ...
+   ]
+   ```
+   Then download all at once:
+   ```bash
+   python tools/lib/cvm_fetch.py batch-download --concurrency 6 --docs-json '<JSON_ARRAY>'
+   ```
 
-   **For DFP/ITR (tipo = dfp or itr):** Always download directly to `{{UNDIGESTED_PATH}}/`. No filtering.
+5. **Post-download filtering** (releases/fatos only, if fetch_profile exists):
+   - For each downloaded release/fato, classify using fetch_profile categories.
+   - Delete files matching categories with `"action": "exclude"`.
+   - Report unclassified files as "included by default".
 
-   **For releases/fatos relevantes (tipo = release or fato_relevante):**
-   - Check if the manifest has a `fetch_profile` field.
-   - **If fetch_profile exists:** Download each doc, then classify it into one of the categories in `fetch_profile.categories` using the `description` and `sample_files` as reference. Check `original_filename` from the download response for clues (language, document type).
-     - If the matching category has `"action": "include"` → keep the file in `{{UNDIGESTED_PATH}}/`
-     - If the matching category has `"action": "exclude"` → delete the file and report it as filtered
-     - If no category matches → keep the file (include by default) and report as "unclassified"
-   - **If no fetch_profile:** Download everything to `{{UNDIGESTED_PATH}}/` (no filtering).
-
-5. **Cold-start manifest** — if `{{COLD_START}}` is `true`, create a skeleton manifest:
+6. **Cold-start manifest** — if `{{COLD_START}}` is `true`, create a skeleton manifest:
    ```bash
    cat > {{MANIFESTS_PATH}}/{{EMPRESA}}.json << 'SKELETON'
    {
@@ -90,7 +103,7 @@ Examples: `{{UNDIGESTED_PATH}}/TEND3_2025_dfp.zip`, `{{UNDIGESTED_PATH}}/TEND3_4
    ```
    Fill `display_name` from the resolve output. Set `setor` to `"unknown"` — the ingest step will correct it.
 
-6. **Report** — print a summary listing:
+7. **Report** — print a summary listing:
    - Documents downloaded (tipo, periodo, path, category if classified)
    - Documents filtered out (tipo, periodo, category, reason)
    - Documents unclassified (tipo, periodo — included by default)
