@@ -147,6 +147,47 @@ def cmd_download(args):
     asyncio.run(_download(args))
 
 
+async def _batch_download(args):
+    """Download multiple documents concurrently."""
+    docs = json.loads(args.docs_json)
+    concurrency = int(args.concurrency)
+    semaphore = asyncio.Semaphore(concurrency)
+
+    async def download_one(doc):
+        async with semaphore:
+            from cvm_api import baixar_documento
+            try:
+                file_bytes, filename, content_type = await baixar_documento(
+                    num_sequencia=doc["num_sequencia"],
+                    num_versao=doc["num_versao"],
+                    numero_protocolo=doc["numero_protocolo"],
+                    desc_tipo=doc["desc_tipo"],
+                )
+                output_path = Path(doc["output"])
+                output_path.parent.mkdir(parents=True, exist_ok=True)
+                output_path.write_bytes(file_bytes)
+                return {
+                    "status": "ok",
+                    "path": str(output_path),
+                    "size_bytes": len(file_bytes),
+                    "original_filename": filename,
+                    "content_type": content_type,
+                }
+            except Exception as e:
+                return {
+                    "status": "error",
+                    "path": doc.get("output", "?"),
+                    "message": str(e),
+                }
+
+    results = await asyncio.gather(*[download_one(d) for d in docs])
+    json_out(list(results))
+
+
+def cmd_batch_download(args):
+    asyncio.run(_batch_download(args))
+
+
 # --- CLI ---
 
 def main():
@@ -173,8 +214,15 @@ def main():
     p_dl.add_argument("--desc-tipo", required=True)
     p_dl.add_argument("--output", required=True, help="Output file path")
 
+    # batch-download
+    p_batch = sub.add_parser("batch-download", help="Download multiple documents concurrently")
+    p_batch.add_argument("--docs-json", required=True,
+                         help='JSON array of {num_sequencia, num_versao, numero_protocolo, desc_tipo, output}')
+    p_batch.add_argument("--concurrency", default="6", help="Max concurrent downloads (default: 6)")
+
     args = parser.parse_args()
-    {"resolve": cmd_resolve, "list": cmd_list, "download": cmd_download}[args.command](args)
+    {"resolve": cmd_resolve, "list": cmd_list, "download": cmd_download,
+     "batch-download": cmd_batch_download}[args.command](args)
 
 
 if __name__ == "__main__":
