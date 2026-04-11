@@ -392,6 +392,11 @@
           "CURY3_4T25_fato_relevante_977461.pdf",
           "CURY3_4T25_fato_relevante_981184.pdf"
         ]
+      },
+      "previa_operacional": {
+        "action": "include",
+        "description": "Previa operacional trimestral (IPE_6 na CVM)",
+        "sample_files": []
       }
     }
   },

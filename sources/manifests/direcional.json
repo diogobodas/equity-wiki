@@ -1,6 +1,6 @@
 {
   "_schema": "manifest/v1",
-  "_updated": "2026-04-10",
+  "_updated": "2026-04-11",
   "empresa": "direcional",
   "display_name": "Direcional Engenharia S.A.",
   "aliases": [
@@ -258,6 +258,13 @@
       "ingested_on": "2026-04-10",
       "full": "sources/full/direcional/4T25/fato_relevante_980371.md",
       "digested": "sources/digested/direcional_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "previa_operacional",
+      "asof": "1T26",
+      "ingested_on": "2026-04-11",
+      "full": "sources/full/direcional/1T26/previa_operacional.md",
+      "digested": "sources/digested/direcional_previa_operacional_1T26_summary.md"
     }
   ],
   "coverage": {
@@ -463,6 +470,11 @@
         "sample_files": [
           "DIRR3_4T25_fato_relevante_980371.pdf"
         ]
+      },
+      "previa_operacional": {
+        "action": "include",
+        "description": "Previa operacional trimestral (IPE_6 na CVM)",
+        "sample_files": []
       }
     }
   },

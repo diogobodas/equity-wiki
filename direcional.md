@@ -28,8 +28,9 @@ sources:
   - sources/full/direcional/2T25/fato_relevante_2.md
   - sources/full/direcional/2T25/fato_relevante_3.md
   - sources/full/direcional/4T25/fato_relevante_1.md
+  - sources/full/direcional/1T26/previa_operacional.md
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-11
 ---
 
 # Direcional
@@ -130,6 +131,39 @@ Fontes: (fonte: structured/direcional/1T25/release.json :: canonical.operacional
 ### Riva -- destaques 2025
 
 A Riva registrou receita anual de R$ 1,7 bi (+41% a/a), margem bruta ajustada de 41,0% e lucro liquido de R$ 458 mm (+64% a/a). No 3T25, a Riva atingiu recordes em lancamentos, vendas e receita (R$ 487 mm, +50% a/a), com margem bruta ajustada de 43,2% (fonte: full/direcional/3T25/release.md, full/direcional/4T25/release.md).
+
+## Previa Operacional 1T26
+
+Publicada em 09/04/2026, a prévia confirma aceleração operacional com lançamentos e vendas em recordes históricos para 1ºs trimestres (fonte: full/direcional/1T26/previa_operacional.md).
+
+### Lançamentos e Vendas 1T26
+
+| Metrica | 1T26 | 4T25 | 1T25 | a/a | t/t |
+|---|---:|---:|---:|---:|---:|
+| VGV lançado (R$ mm, 100%) | 1.005,8 | 1.900,9 | 901,2 | +12% | -47% |
+| Direcional | 704,7 | 1.079,8 | 671,5 | +5% | -35% |
+| Riva | 301,1 | 821,1 | 229,7 | +31% | -63% |
+| Unidades lançadas | 3.109 | 4.780 | 3.424 | -9% | -35% |
+| Vendas líquidas (R$ mm, 100%) | 1.582,0 | 1.517,5 | 1.326,5 | +19% | +4% |
+| Direcional | 979,9 | 793,3 | 843,8 | +16% | +24% |
+| Riva | 602,1 | 724,2 | 482,7 | +25% | -17% |
+| Unidades contratadas | 4.848 | 4.227 | 4.330 | +12% | +15% |
+| [[vso|VSO]] consolidada | 24% | 21% | 23% | +30 bps | +250 bps |
+| VSO Direcional | 24% | 19% | 23% | +110 bps | +480 bps |
+| VSO Riva | 23% | 24% | 24% | -110 bps | -70 bps |
+
+Fonte: (fonte: full/direcional/1T26/previa_operacional.md).
+
+A queda de lançamentos t/t (-47%) é estritamente sazonal — o 1T é historicamente o trimestre mais fraco em lançamentos. A/a, o crescimento de 12% em VGV lançado e de 19% em vendas líquidas demonstra ritmo sólido no início de 2026.
+
+### Destaques operacionais 1T26
+
+- **VSO recorde para 1T:** 24% consolidada, superando o patamar anterior de 23% no 1T25 e o mais alto já registrado para um 1º trimestre. A aceleração foi puxada pela Direcional (+480 bps t/t para 24%), com Riva estável em 23%.
+- **Estoque:** R$ 5,2 bi (14.120 unidades), com apenas 3% em unidades concluídas — sinal saudável de estoque em andamento.
+- **Banco de terrenos:** R$ 60,0 bi potencial (246 mil unidades), crescendo de R$ 58,5 bi no 4T25. Custo medio de 11% do VGV, 87% via permuta (fonte: full/direcional/1T26/previa_operacional.md).
+- **LTM:** Vendas líquidas de R$ 6,4 bi (+7% vs LTM 1T25); VGV lançado LTM de R$ 6,9 bi (+27%).
+- **Geração de caixa:** consumo contábil de R$ 76 mm no trimestre (geração operacional de +R$ 13 mm; consumo não operacional de R$ 89 mm por amortizações de cessão de recebíveis). Informações prévias não auditadas.
+- **Consolidação vs. equivalência:** 91% das vendas líquidas contribuem para a receita líquida consolidada; 9% via equivalência patrimonial (SPEs não controladas).
 
 ## Balanco e endividamento
 
