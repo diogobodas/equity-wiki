@@ -1,0 +1,53 @@
+{
+  "_schema": "manifest/v1",
+  "_updated": "2026-04-11",
+  "empresa": "cyrela",
+  "display_name": "Cyrela Brazil Realty S.A.",
+  "aliases": ["Cyrela", "CYRE3"],
+  "ticker": "CYRE3",
+  "setor": "incorporadora",
+  "setor_schema": "sources/structured/_schemas/incorporadora.json",
+  "wiki_page": "cyrela.md",
+  "sources": [],
+  "coverage": {},
+  "precedence": [],
+  "caveats": [
+    "cold-start — manifest criado por fetch agent, pendente ingest"
+  ],
+  "fetch_profile": {
+    "_created": "2026-04-11",
+    "_sample_period": "4T25",
+    "categories": {
+      "release_resultado_pt": {
+        "action": "include",
+        "description": "Earnings release trimestral em portugues (analise gerencial)",
+        "sample_files": ["CYRE3_4T25_release_1017320.pdf"]
+      },
+      "demonstracoes_financeiras_pt": {
+        "action": "include",
+        "description": "DFP/ITR auditada em portugues (notas explicativas completas)",
+        "sample_files": ["CYRE3_4T25_release_1017381.pdf"]
+      },
+      "demonstracoes_financeiras_en": {
+        "action": "exclude",
+        "description": "Convenience translation das demonstracoes financeiras em ingles (duplicata)",
+        "sample_files": ["CYRE3_4T25_release_1022041.pdf"]
+      },
+      "fato_relevante": {
+        "action": "include",
+        "description": "Fatos relevantes CVM (eventos corporativos, M&A, dividendos, bonificacoes)",
+        "sample_files": [
+          "CYRE3_4T25_fato_relevante_979819.pdf",
+          "CYRE3_4T25_fato_relevante_983472.pdf",
+          "CYRE3_4T25_fato_relevante_987621.pdf"
+        ]
+      },
+      "previa_operacional": {
+        "action": "include",
+        "description": "Previa operacional trimestral (IPE_6 na CVM)",
+        "sample_files": []
+      }
+    }
+  },
+  "related_digests": []
+}
