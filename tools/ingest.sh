@@ -3,20 +3,31 @@ set -euo pipefail
 
 # --- Usage ---
 usage() {
-    echo "Usage: bash tools/ingest.sh <TICKER>"
+    echo "Usage: bash tools/ingest.sh <TICKER> [--concurrency N]"
     echo ""
     echo "Processes all files in sources/undigested/ for the given ticker."
     echo "Accepts any PDF, ZIP, or XLSX — from fetch agent or dropped manually."
-    echo "Produces full/, structured/, digested/, updates wiki pages, manifest, and log."
+    echo ""
+    echo "Options:"
+    echo "  --concurrency, -j N   Max parallel ingest agents (default: 4)"
     exit 1
 }
 
 [[ $# -lt 1 ]] && usage
 TICKER="$1"; shift
 
+CONCURRENCY=4
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        --concurrency|-j) CONCURRENCY="$2"; shift 2 ;;
+        *) echo "Unknown arg: $1"; usage ;;
+    esac
+done
+
 # --- Paths ---
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+source "$SCRIPT_DIR/lib/parallel.sh"
 UNDIGESTED="$REPO_ROOT/sources/undigested"
 MANIFESTS="$REPO_ROOT/sources/manifests"
 
@@ -66,7 +77,7 @@ for f in "$UNDIGESTED"/*; do
 
     # Match ticker-prefixed files (from fetch agent)
     if [[ "$fname" == ${TICKER}_* ]]; then
-        if [[ "$fname" == *_itr.zip ]] || [[ "$fname" == *_dfp.zip ]] || [[ "$fname" == *_itr.pdf ]] || [[ "$fname" == *_dfp.pdf ]]; then
+        if [[ "$fname" =~ _itr[_.] ]] || [[ "$fname" =~ _dfp[_.] ]]; then
             HEAVY_ITR_DFP+=("$f")
         elif [[ "$fname" == *_release_*.pdf ]]; then
             HEAVY_RELEASE+=("$f")
@@ -170,128 +181,140 @@ open(sys.argv[-1], 'w', encoding='utf-8').write(template)
     rm -f "$prompt_file"
 }
 
-# --- Track produced digested files for wiki update ---
-DIGESTED_FILES=()
+# --- Helper: ingest one file (heavy path) ---
+ingest_one_heavy() {
+    local extracted_file="$1"
+    local doc_type="$2"
+    local log_prefix="[heavy:$(basename "$extracted_file")]"
 
-# --- Step 3: Ingest heavy ITR/DFP ---
-if [[ ${#EXTRACTED_ITR_DFP[@]} -gt 0 ]]; then
-    echo "=== Ingesting ITR/DFP (heavy path) ==="
-    FILE_LIST=$(build_file_list "${EXTRACTED_ITR_DFP[@]}")
-
-    invoke_claude "$SCRIPT_DIR/prompts/ingest_heavy.md" \
-        "{{TICKER}}" "$TICKER" \
-        "{{EMPRESA}}" "$EMPRESA" \
-        "{{DOC_TYPE}}" "itr/dfp" \
-        "{{SCHEMA_PATH}}" "$SCHEMA_PATH" \
-        "{{FILE_LIST}}" "$FILE_LIST"
-
-    # Collect digested files produced
-    for f in "${EXTRACTED_ITR_DFP[@]}"; do
-        fname=$(basename "$f")
-        # Parse period from filename: TEND3_3T25_itr_extracted.md → 3T25
-        period=$(echo "$fname" | sed -E 's/^[^_]+_([^_]+)_.*/\1/')
-        tipo=$(echo "$fname" | sed -E 's/^[^_]+_[^_]+_([^_]+)_.*/\1/')
-        digested="sources/digested/${EMPRESA}_${tipo}_${period}_summary.md"
-        DIGESTED_FILES+=("$digested")
-
-        # Update manifest
-        python "$SCRIPT_DIR/lib/manifest_update.py" \
-            --manifest "$MANIFEST_PATH" \
-            --type "$tipo" --period "$period" \
-            --full "sources/full/$EMPRESA/$period/${tipo}.md" \
-            --structured "sources/structured/$EMPRESA/$period/${tipo}.json" \
-            --digested "$digested" \
-            --log "$REPO_ROOT/log.md"
-    done
-    echo ""
-fi
-
-# --- Step 4: Ingest heavy releases ---
-if [[ ${#EXTRACTED_RELEASE[@]} -gt 0 ]]; then
-    echo "=== Ingesting releases (heavy path) ==="
-    FILE_LIST=$(build_file_list "${EXTRACTED_RELEASE[@]}")
+    echo "$log_prefix Starting..."
 
     invoke_claude "$SCRIPT_DIR/prompts/ingest_heavy.md" \
         "{{TICKER}}" "$TICKER" \
         "{{EMPRESA}}" "$EMPRESA" \
-        "{{DOC_TYPE}}" "release" \
+        "{{DOC_TYPE}}" "$doc_type" \
         "{{SCHEMA_PATH}}" "$SCHEMA_PATH" \
-        "{{FILE_LIST}}" "$FILE_LIST"
+        "{{FILE_LIST}}" "- $extracted_file"
 
-    for f in "${EXTRACTED_RELEASE[@]}"; do
-        fname=$(basename "$f")
-        period=$(echo "$fname" | sed -E 's/^[^_]+_([^_]+)_.*/\1/')
-        digested="sources/digested/${EMPRESA}_release_${period}_summary.md"
-        DIGESTED_FILES+=("$digested")
+    echo "$log_prefix Done."
+}
 
-        python "$SCRIPT_DIR/lib/manifest_update.py" \
-            --manifest "$MANIFEST_PATH" \
-            --type release --period "$period" \
-            --full "sources/full/$EMPRESA/$period/release.md" \
-            --structured "sources/structured/$EMPRESA/$period/release.json" \
-            --digested "$digested" \
-            --log "$REPO_ROOT/log.md"
-    done
-    echo ""
-fi
+# --- Helper: ingest one file (light path) ---
+ingest_one_light() {
+    local extracted_file="$1"
+    local log_prefix="[light:$(basename "$extracted_file")]"
 
-# --- Step 5: Ingest light fatos ---
-if [[ ${#EXTRACTED_FATOS[@]} -gt 0 ]]; then
-    echo "=== Ingesting fatos relevantes (light path) ==="
-    FILE_LIST=$(build_file_list "${EXTRACTED_FATOS[@]}")
+    echo "$log_prefix Starting..."
 
     invoke_claude "$SCRIPT_DIR/prompts/ingest_light.md" \
         "{{TICKER}}" "$TICKER" \
         "{{EMPRESA}}" "$EMPRESA" \
-        "{{FILE_LIST}}" "$FILE_LIST"
+        "{{FILE_LIST}}" "- $extracted_file"
 
-    FATOS_DIGESTED="sources/digested/${EMPRESA}_fatos_relevantes_batch_summary.md"
+    echo "$log_prefix Done."
+}
+
+export -f ingest_one_heavy ingest_one_light invoke_claude
+export TICKER EMPRESA SCHEMA_PATH SCRIPT_DIR
+
+# --- Track produced digested files for wiki update ---
+DIGESTED_FILES=()
+
+# --- Step 3: Parallel ingest ---
+echo "=== Parallel ingest (concurrency=$CONCURRENCY) ==="
+parallel_init "$CONCURRENCY"
+
+# Heavy: ITR/DFP
+for f in "${EXTRACTED_ITR_DFP[@]}"; do
+    parallel_add "ingest_one_heavy \"$f\" \"itr/dfp\""
+done
+
+# Heavy: releases
+for f in "${EXTRACTED_RELEASE[@]}"; do
+    parallel_add "ingest_one_heavy \"$f\" \"release\""
+done
+
+# Heavy: other
+for f in "${EXTRACTED_OTHER[@]}"; do
+    parallel_add "ingest_one_heavy \"$f\" \"other\""
+done
+
+# Light: fatos relevantes
+for f in "${EXTRACTED_FATOS[@]}"; do
+    parallel_add "ingest_one_light \"$f\""
+done
+
+parallel_wait
+echo "=== All ingest agents complete ==="
+echo ""
+
+# --- Step 4: Sequential manifest updates ---
+echo "=== Updating manifest ==="
+
+for f in "${EXTRACTED_ITR_DFP[@]}"; do
+    fname=$(basename "$f")
+    period=$(echo "$fname" | sed -E 's/^[^_]+_([^_]+)_.*/\1/')
+    tipo=$(echo "$fname" | sed -E 's/^[^_]+_[^_]+_([^_]+)_.*/\1/')
+    digested="sources/digested/${EMPRESA}_${tipo}_${period}_summary.md"
+    DIGESTED_FILES+=("$digested")
+
+    python "$SCRIPT_DIR/lib/manifest_update.py" \
+        --manifest "$MANIFEST_PATH" \
+        --type "$tipo" --period "$period" \
+        --full "sources/full/$EMPRESA/$period/${tipo}.md" \
+        --structured "sources/structured/$EMPRESA/$period/${tipo}.json" \
+        --digested "$digested" \
+        --log "$REPO_ROOT/log.md"
+done
+
+for f in "${EXTRACTED_RELEASE[@]}"; do
+    fname=$(basename "$f")
+    period=$(echo "$fname" | sed -E 's/^[^_]+_([^_]+)_.*/\1/')
+    digested="sources/digested/${EMPRESA}_release_${period}_summary.md"
+    DIGESTED_FILES+=("$digested")
+
+    python "$SCRIPT_DIR/lib/manifest_update.py" \
+        --manifest "$MANIFEST_PATH" \
+        --type release --period "$period" \
+        --full "sources/full/$EMPRESA/$period/release.md" \
+        --structured "sources/structured/$EMPRESA/$period/release.json" \
+        --digested "$digested" \
+        --log "$REPO_ROOT/log.md"
+done
+
+FATOS_DIGESTED="sources/digested/${EMPRESA}_fatos_relevantes_batch_summary.md"
+for f in "${EXTRACTED_FATOS[@]}"; do
+    fname=$(basename "$f")
+    period=$(echo "$fname" | sed -E 's/^[^_]+_([^_]+)_.*/\1/')
+    seq=$(echo "$fname" | sed -E 's/.*fato_relevante_([0-9]+).*/\1/')
     DIGESTED_FILES+=("$FATOS_DIGESTED")
 
-    for f in "${EXTRACTED_FATOS[@]}"; do
-        fname=$(basename "$f")
-        period=$(echo "$fname" | sed -E 's/^[^_]+_([^_]+)_.*/\1/')
-        seq=$(echo "$fname" | sed -E 's/.*fato_relevante_([0-9]+).*/\1/')
+    python "$SCRIPT_DIR/lib/manifest_update.py" \
+        --manifest "$MANIFEST_PATH" \
+        --type fato_relevante --period "$period" \
+        --full "sources/full/$EMPRESA/$period/fato_relevante_${seq}.md" \
+        --digested "$FATOS_DIGESTED" \
+        --log "$REPO_ROOT/log.md"
+done
 
-        python "$SCRIPT_DIR/lib/manifest_update.py" \
-            --manifest "$MANIFEST_PATH" \
-            --type fato_relevante --period "$period" \
-            --full "sources/full/$EMPRESA/$period/fato_relevante_${seq}.md" \
-            --digested "$FATOS_DIGESTED" \
-            --log "$REPO_ROOT/log.md"
-    done
-    echo ""
-fi
+for f in "${EXTRACTED_OTHER[@]}"; do
+    fname=$(basename "$f")
+    stem="${fname%_extracted.*}"
+    stem="${stem%.*}"
+    digested="sources/digested/${EMPRESA}_other_${stem}_summary.md"
+    DIGESTED_FILES+=("$digested")
 
-# --- Step 5b: Ingest other files (heavy path) ---
-if [[ ${#EXTRACTED_OTHER[@]} -gt 0 ]]; then
-    echo "=== Ingesting other files (heavy path) ==="
-    FILE_LIST=$(build_file_list "${EXTRACTED_OTHER[@]}")
+    python "$SCRIPT_DIR/lib/manifest_update.py" \
+        --manifest "$MANIFEST_PATH" \
+        --type release --period "unknown" \
+        --full "sources/full/$EMPRESA/other/${stem}.md" \
+        --digested "$digested" \
+        --log "$REPO_ROOT/log.md" 2>/dev/null || true
+done
 
-    invoke_claude "$SCRIPT_DIR/prompts/ingest_heavy.md" \
-        "{{TICKER}}" "$TICKER" \
-        "{{EMPRESA}}" "$EMPRESA" \
-        "{{DOC_TYPE}}" "other" \
-        "{{SCHEMA_PATH}}" "$SCHEMA_PATH" \
-        "{{FILE_LIST}}" "$FILE_LIST"
-
-    for f in "${EXTRACTED_OTHER[@]}"; do
-        fname=$(basename "$f")
-        # For non-standard files, use the stem as identifier
-        stem="${fname%_extracted.*}"
-        stem="${stem%.*}"
-        digested="sources/digested/${EMPRESA}_other_${stem}_summary.md"
-        DIGESTED_FILES+=("$digested")
-
-        python "$SCRIPT_DIR/lib/manifest_update.py" \
-            --manifest "$MANIFEST_PATH" \
-            --type release --period "unknown" \
-            --full "sources/full/$EMPRESA/other/${stem}.md" \
-            --digested "$digested" \
-            --log "$REPO_ROOT/log.md" 2>/dev/null || true
-    done
-    echo ""
-fi
+# Deduplicate DIGESTED_FILES
+DIGESTED_FILES=($(printf '%s\n' "${DIGESTED_FILES[@]}" | sort -u))
+echo ""
 
 # --- Step 6: Wiki update ---
 echo "=== Updating wiki pages ==="
