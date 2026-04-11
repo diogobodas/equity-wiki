@@ -12,6 +12,48 @@ Two complementary uses:
 
 **Always read `SCHEMA.md` before any wiki operation.** It is the operational contract (layers, page types, frontmatter, citation format, operation steps). `README.md` has the user-facing tutorial in Portuguese.
 
+## Commands
+
+### Fetch filings from CVM
+
+```bash
+# Normal mode — downloads missing filings to sources/undigested/
+bash tools/fetch.sh TEND3
+bash tools/fetch.sh TEND3 --horizon 5y --types dfp,itr,release
+
+# Discovery mode — downloads a sample quarter, classifies docs, creates fetch_profile
+bash tools/fetch.sh TEND3 --discover
+```
+
+Requires CVM-API running at localhost:8100 (`cd ../CVM-API && uvicorn main:app --reload --port 8100`).
+
+### Ingest files
+
+```bash
+# Processes all files in sources/undigested/ for the given ticker
+bash tools/ingest.sh TEND3
+```
+
+This orchestrates: PDF extraction → heavy/light ingest via `claude --print` agents → manifest update → wiki page update → cleanup. A manifest must exist for the ticker (created by `fetch.sh` or manually).
+
+### PDF extraction (standalone)
+
+```bash
+python tools/lib/pdf_extract.py <file.pdf>
+# Returns JSON: {"output": "path/to/extracted.md", ...}
+```
+
+### Manifest update (standalone)
+
+```bash
+python tools/lib/manifest_update.py --manifest sources/manifests/tenda.json \
+    --type itr --period 3T25 \
+    --full sources/full/tenda/3T25/itr.md \
+    --structured sources/structured/tenda/3T25/itr.json \
+    --digested sources/digested/tenda_itr_3T25_summary.md \
+    --log log.md
+```
+
 ## Architecture — five layers under `sources/`
 
 ```
@@ -29,40 +71,39 @@ sources/
 
 Plus **wiki pages** (`*.md` at repo root) — entity/concept/sector/comparison/synthesis/nota, with YAML frontmatter, `[[wikilinks]]`, and `(fonte: ...)` citations on every factual claim.
 
-### What each layer is for
+Layer details, field semantics, and manifest shape are defined in `SCHEMA.md`.
 
-- **`undigested/`** — inbox. User drops raw files, LLM ingests, LLM deletes original.
-- **`full/`** — content-lossless transcription (loses only PDF layout/images). Structured in headings (DRE, BP, FC, DMPL, DVA, Nota 1..N, MD&A). Uncut within each section. **Replaces keeping raw PDFs.** This is the floor the LLM reads when modeling or verifying a claim.
-- **`structured/`** — JSON with `canonical` (follows `_schemas/{setor}.json`) + `company_specific` (free-form). Generated only for ITR/DFP/earnings releases/data packs. Feeds the planilha; determinístico; cross-empresa comparable. Every file carries `_schema` (id) and `_schema_path` (filesystem path) — agents never have to infer schema location.
-- **`digested/`** — the wiki-facing TL;DR used to write entity pages. Editorial extract.
-- **`manifests/`** — **discovery layer**, one JSON per empresa. Lists available periods, coverage per canonical block (filled/empty/partial/na with reason), source inventory, precedence rules when multiple sources cover the same field, and caveats. **A cold-start modeling agent reads this file FIRST.** Generated/updated at the end of every heavy/light ingest.
-- **Wiki pages** — synthesis layer on top, with citations pointing into `full/` (qualitative) or `structured/` (numeric).
+## Tools architecture
 
-## Core operations (all defined in SCHEMA.md)
+```
+tools/
+├── fetch.sh                    # orchestrator: CVM fetch → sources/undigested/
+├── ingest.sh                   # orchestrator: undigested/ → full/ + structured/ + digested/ + wiki
+├── lib/
+│   ├── cvm_fetch.py            # CVM-API client (resolve ticker, list docs, download)
+│   ├── pdf_extract.py          # PDF → markdown via opendataloader-pdf
+│   └── manifest_update.py      # programmatic manifest updates (coverage, sources, precedence)
+└── prompts/
+    ├── fetch_system.md         # system prompt for fetch agent (normal mode)
+    ├── fetch_discover.md       # system prompt for fetch agent (discovery mode)
+    ├── ingest_heavy.md         # system prompt for heavy ingest (ITR/DFP/release)
+    ├── ingest_light.md         # system prompt for light ingest (fato relevante/apresentação)
+    └── ingest_wiki_update.md   # system prompt for wiki page update after ingest
+```
 
-- **Ingest (file — ITR/DFP/release)** — heavy path. Produces `full/` + `structured/` + `digested/` + wiki updates, then deletes original. **PDF sources are pre-processed with `opendataloader-pdf` (`pip install -U "opendataloader-pdf[hybrid]"`) to produce clean markdown before the LLM ingest step.** This eliminates extraction gaps in tables, DMPL, and visual pages. See SCHEMA.md §"PDF pre-processing".
-- **Ingest (file — apresentação/fato relevante/outros)** — light path. Same PDF pre-processing applies. Produces `full/` + `digested/` + wiki updates.
-- **Ingest (file — data_pack, update)** — when a new-quarter XLSX arrives, re-processes the entire spreadsheet with delta detection against existing structured/ files, flags restatements, overwrites structured/, preserves prior `full/` as historical snapshot. See SCHEMA.md §"Ingest (file — data_pack, update)".
-- **Ingest (web)** — WebSearch/WebFetch → classify reliability (`oficial`/`editorial`/`community`) → inline `(fonte: url, confiabilidade: nivel)`. No `full/` or `structured/`.
-- **Ingest (notion)** — via `mcp__claude_ai_Notion__*` → `digested/notion_{slug}.md` → update `notion_tracker.md`.
-- **Query** — search wiki first; drop into `structured/` for numeric claims; open `full/` for notas/MD&A context.
-- **Modeling (planilha)** — **start by reading `sources/manifests/{empresa}.json`** to discover available periods, coverage per block, and precedence rules. Then pull `canonical` series across periods as the deterministic spine; use `company_specific` for gerencial breakdowns; open `full/` to ground projection premises; cross-check wiki for thesis.
-- **`promote_nota`** — when a nota explicativa is referenced from 3+ pages, promote it to its own `type: nota` wiki page consolidating the nota across periods.
-- **Lint** — dead links, orphans, stale pages, missing cross-refs, contradictions, **schema drift** (`structured/` missing canonical keys), **unpromoted recurring notas**. Report in `log.md`.
-
-Every operation appends an entry to `log.md`.
+Both `fetch.sh` and `ingest.sh` invoke `claude --print` as sub-agents with specific prompts and `--permission-mode bypassPermissions`. The orchestrator handles file classification, PDF extraction, and manifest updates; the LLM agents handle content understanding (transcription, structuring, wiki writing).
 
 ## Non-obvious rules
 
 - **Filenames**: `snake_case`, lowercase, Portuguese when natural. **No ticker prefixes** on wiki pages (`itau.md`, not `ITUB4_itau.md`) — tickers go in `aliases`. Period codes: `1T25`, `2T25`, `3T25`, `4T25`, `2025` (annual). Source type tokens: `itr`, `dfp`, `release`, `apresentacao`, `fato_relevante`, `call_transcript`.
 - **Frontmatter is mandatory** on every wiki page: `type`, `sources` (paths into `sources/`), `created`, `updated` (and optional `aliases`).
-- **`full/` is structured-but-uncut.** Reorganize into headings; never summarize, cut, or paraphrase content within a section. Tables remounted in markdown. Images/layout dropped, but captions and chart underlying numbers kept.
-- **`structured/` shape**: `{_schema, _schema_path, _empresa, _periodo, _source, canonical, company_specific}`. `_schema_path` is mandatory (filesystem path to the sector schema). Missing canonical keys → `null`, never omit. Gerencial/idiossincrático → `company_specific`. Numbers as reported; normalizations belong to the modeling layer.
-- **`manifests/{empresa}.json` is mandatory** — every heavy/light ingest for an empresa MUST update its manifest (coverage matrix, sources list, precedence, caveats). A cold-start modeling agent reads this file first. See SCHEMA.md §"The manifests/ layer".
-- **Schemas setoriais created on demand.** First banco creates `_schemas/banco.json`. Versioned (`banco/v1`, `banco/v2`) on breaking changes. A key in `company_specific` that becomes recurrent across players gets promoted into `canonical` — log it.
+- **`full/` is structured-but-uncut.** Reorganize into headings; never summarize, cut, or paraphrase content within a section. Tables remounted in markdown.
+- **`structured/` shape**: `{_schema, _schema_path, _empresa, _periodo, _source, canonical, company_specific}`. Missing canonical keys → `null`, never omit. Numbers as reported; normalizations belong to the modeling layer.
+- **`manifests/{empresa}.json` is mandatory** — every heavy/light ingest MUST update it. A cold-start modeling agent reads this file first.
 - **Citations** — prefer `(fonte: full/itau/3T25/itr.md §nota_18)` for qualitative, `(fonte: structured/itau/3T25/itr.json :: canonical.dre.margem_financeira)` for numeric, `(fonte: url, confiabilidade: nivel)` for web.
-- **Never invent numbers** — every figure traces to `structured/`/`full/`/web/notion. Mark stale with `[stale: last verified YYYY-MM-DD]`. Flag contradictions explicitly.
-- **Wikilinks** only to pages that exist or should exist. First mention in a section gets linked; subsequent mentions do not. Wikilinks are wiki-layer only — `full/`/`structured/` use plain paths.
+- **Never invent numbers** — every figure traces to `structured/`/`full/`/web/notion. Mark stale with `[stale: last verified YYYY-MM-DD]`.
+- **Wikilinks** only to pages that exist or should exist. First mention in a section gets linked; subsequent mentions do not.
 - **Do not edit files in `sources/`** — sources are immutable. To correct, re-ingest.
-- **`log.md` is append-only.**
+- **`log.md` is append-only.** Every operation appends an entry.
 - **One source at a time** during ingest so cross-linking stays coherent.
+- **Write-through backfill**: when a query reads `full/` for a structurable fact not in `structured/`, backfill it into `company_specific` before responding (see SCHEMA.md §Query step 6).

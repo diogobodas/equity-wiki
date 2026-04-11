@@ -11,7 +11,7 @@ from pathlib import Path
 def main():
     parser = argparse.ArgumentParser(description="Update manifest, log, and index after ingest")
     parser.add_argument("--manifest", required=True, help="Path to manifest JSON")
-    parser.add_argument("--type", required=True, choices=["itr", "dfp", "release", "fato_relevante"],
+    parser.add_argument("--type", required=True, choices=["itr", "dfp", "release", "fato_relevante", "previa_operacional"],
                         help="Document type")
     parser.add_argument("--period", required=True, help="Period code (e.g. 3T25, 2025)")
     parser.add_argument("--full", required=True, help="Path to full/ file produced")

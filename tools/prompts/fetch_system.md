@@ -50,9 +50,9 @@ Output path for final files: `{{UNDIGESTED_PATH}}/{{TICKER}}_{periodo}_{tipo}_{n
 
 The extension depends on what the CVM returns:
 - DFP/ITR (EST documents) → `.zip` (contains XML/XBRL structured data)
-- Releases/Fatos relevantes (IPE documents) → `.pdf`
+- Releases/Fatos relevantes/Prévias operacionais (IPE documents) → `.pdf`
 
-Examples: `{{UNDIGESTED_PATH}}/TEND3_2025_dfp.zip`, `{{UNDIGESTED_PATH}}/TEND3_4T25_release_1010843.pdf`
+Examples: `{{UNDIGESTED_PATH}}/TEND3_2025_dfp.zip`, `{{UNDIGESTED_PATH}}/TEND3_4T25_release_1010843.pdf`, `{{UNDIGESTED_PATH}}/TEND3_1T26_previa_operacional_1027890.pdf`
 
 ## Algorithm
 

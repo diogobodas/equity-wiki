@@ -83,6 +83,8 @@ for f in "$UNDIGESTED"/*; do
             HEAVY_RELEASE+=("$f")
         elif [[ "$fname" == *_fato_relevante_*.pdf ]]; then
             LIGHT_FATOS+=("$f")
+        elif [[ "$fname" == *_previa_operacional_*.pdf ]]; then
+            LIGHT_FATOS+=("$f")
         else
             HEAVY_OTHER+=("$f")
         fi

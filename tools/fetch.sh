@@ -3,7 +3,7 @@ set -euo pipefail
 
 # --- Defaults ---
 HORIZON="3y"
-TYPES="dfp,itr,release,fato_relevante"
+TYPES="dfp,itr,release,fato_relevante,previa_operacional"
 DISCOVER="false"
 
 # --- Usage ---

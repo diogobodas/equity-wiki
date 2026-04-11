@@ -24,6 +24,7 @@ TYPE_TO_CVM = {
     "itr": "EST_3",
     "release": "IPE_7_-1_-1",
     "fato_relevante": "IPE_4_-1_-1",
+    "previa_operacional": "IPE_6_-1_-1",
 }
 
 
@@ -201,7 +202,7 @@ def main():
     # list
     p_list = sub.add_parser("list", help="List available documents from CVM")
     p_list.add_argument("ticker", help="e.g. TEND3")
-    p_list.add_argument("--types", default="dfp,itr,release,fato_relevante",
+    p_list.add_argument("--types", default="dfp,itr,release,fato_relevante,previa_operacional",
                         help="Comma-separated document types")
     p_list.add_argument("--from", dest="date_from", required=True,
                         help="Start date YYYY-MM-DD")
