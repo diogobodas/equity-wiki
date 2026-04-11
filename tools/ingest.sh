@@ -106,41 +106,41 @@ if [[ $TOTAL -eq 0 ]]; then
 fi
 
 # --- Pre-process all files ---
-echo "=== Pre-processing PDFs ==="
+echo "=== Pre-processing PDFs (concurrency=$CONCURRENCY) ==="
+parallel_init "$CONCURRENCY"
+
+for f in "${HEAVY_ITR_DFP[@]}" "${HEAVY_RELEASE[@]}" "${LIGHT_FATOS[@]}" "${HEAVY_OTHER[@]}"; do
+    echo "  Queued: $(basename "$f")"
+    parallel_add "python \"$SCRIPT_DIR/lib/pdf_extract.py\" \"$f\""
+done
+
+parallel_wait
+echo ""
+
+# Reconstruct extracted paths (pdf_extract.py uses {stem}_extracted.md by default)
 EXTRACTED_ITR_DFP=()
-EXTRACTED_RELEASE=()
-EXTRACTED_FATOS=()
-
 for f in "${HEAVY_ITR_DFP[@]}"; do
-    echo "  Extracting: $(basename "$f")"
-    RESULT=$(python "$SCRIPT_DIR/lib/pdf_extract.py" "$f")
-    OUTPUT=$(echo "$RESULT" | python -c "import sys,json; print(json.load(sys.stdin)['output'])")
-    EXTRACTED_ITR_DFP+=("$OUTPUT")
+    stem="${f%.*}"
+    EXTRACTED_ITR_DFP+=("${stem}_extracted.md")
 done
 
+EXTRACTED_RELEASE=()
 for f in "${HEAVY_RELEASE[@]}"; do
-    echo "  Extracting: $(basename "$f")"
-    RESULT=$(python "$SCRIPT_DIR/lib/pdf_extract.py" "$f")
-    OUTPUT=$(echo "$RESULT" | python -c "import sys,json; print(json.load(sys.stdin)['output'])")
-    EXTRACTED_RELEASE+=("$OUTPUT")
+    stem="${f%.*}"
+    EXTRACTED_RELEASE+=("${stem}_extracted.md")
 done
 
+EXTRACTED_FATOS=()
 for f in "${LIGHT_FATOS[@]}"; do
-    echo "  Extracting: $(basename "$f")"
-    RESULT=$(python "$SCRIPT_DIR/lib/pdf_extract.py" "$f")
-    OUTPUT=$(echo "$RESULT" | python -c "import sys,json; print(json.load(sys.stdin)['output'])")
-    EXTRACTED_FATOS+=("$OUTPUT")
+    stem="${f%.*}"
+    EXTRACTED_FATOS+=("${stem}_extracted.md")
 done
 
 EXTRACTED_OTHER=()
 for f in "${HEAVY_OTHER[@]}"; do
-    echo "  Extracting: $(basename "$f")"
-    RESULT=$(python "$SCRIPT_DIR/lib/pdf_extract.py" "$f")
-    OUTPUT=$(echo "$RESULT" | python -c "import sys,json; print(json.load(sys.stdin)['output'])")
-    EXTRACTED_OTHER+=("$OUTPUT")
+    stem="${f%.*}"
+    EXTRACTED_OTHER+=("${stem}_extracted.md")
 done
-
-echo ""
 
 # --- Helper: build file list for prompt ---
 build_file_list() {
