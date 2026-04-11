@@ -188,3 +188,46 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 2026-04-10 — ingest fato_relevante 4T25: sources/full/direcional/4T25/fato_relevante_980371.md, sources/digested/direcional_fatos_relevantes_batch_summary.md
 2026-04-10 — wiki update — created direcional.md entity page from 8 releases (1T24-4T25) + fatos relevantes. Covers DRE, operacional, balanco, REF, proventos, eventos-chave (Riva/Riza, reorganizacao societaria, MCMV Faixa 4). Cited structured/ and full/ sources throughout.
 2026-04-11 — wiki update — created concept/entity/comparison pages from tenda+direcional ingests. New: riva.md (entity, Direcional subsidiary), alea.md (entity, Tenda subsidiary), resultado_a_apropriar.md (concept, REF/margem backlog), swap_trs.md (concept, Total Return Swap sobre ações próprias). Updated: incorporadoras.md (sector, added Direcional with side-by-side 2025 table), tenda_vs_direcional.md (comparison, full DRE/operacional/balanço/REF/eventos). Cited structured/ and full/ throughout.
+2026-04-11 — ingest release 1T23: sources/full/cury/1T23/release.md, sources/structured/cury/1T23/release.json, sources/digested/cury_release_1T23_summary.md
+2026-04-11 — ingest release 1T24: sources/full/cury/1T24/release.md, sources/structured/cury/1T24/release.json, sources/digested/cury_release_1T24_summary.md
+2026-04-11 — ingest release 1T24: sources/full/cury/1T24/release.md, sources/structured/cury/1T24/release.json, sources/digested/cury_release_1T24_summary.md
+2026-04-11 — ingest release 1T25: sources/full/cury/1T25/release.md, sources/structured/cury/1T25/release.json, sources/digested/cury_release_1T25_summary.md
+2026-04-11 — ingest release 1T25: sources/full/cury/1T25/release.md, sources/structured/cury/1T25/release.json, sources/digested/cury_release_1T25_summary.md
+2026-04-11 — ingest release 1T25: sources/full/cury/1T25/release.md, sources/structured/cury/1T25/release.json, sources/digested/cury_release_1T25_summary.md
+2026-04-11 — ingest release 2T23: sources/full/cury/2T23/release.md, sources/structured/cury/2T23/release.json, sources/digested/cury_release_2T23_summary.md
+2026-04-11 — ingest release 2T24: sources/full/cury/2T24/release.md, sources/structured/cury/2T24/release.json, sources/digested/cury_release_2T24_summary.md
+2026-04-11 — ingest release 2T24: sources/full/cury/2T24/release.md, sources/structured/cury/2T24/release.json, sources/digested/cury_release_2T24_summary.md
+2026-04-11 — ingest release 2T25: sources/full/cury/2T25/release.md, sources/structured/cury/2T25/release.json, sources/digested/cury_release_2T25_summary.md
+2026-04-11 — ingest release 3T23: sources/full/cury/3T23/release.md, sources/structured/cury/3T23/release.json, sources/digested/cury_release_3T23_summary.md
+2026-04-11 — ingest release 3T24: sources/full/cury/3T24/release.md, sources/structured/cury/3T24/release.json, sources/digested/cury_release_3T24_summary.md
+2026-04-11 — ingest release 3T25: sources/full/cury/3T25/release.md, sources/structured/cury/3T25/release.json, sources/digested/cury_release_3T25_summary.md
+2026-04-11 — ingest release 4T22: sources/full/cury/4T22/release.md, sources/structured/cury/4T22/release.json, sources/digested/cury_release_4T22_summary.md
+2026-04-11 — ingest release 4T22: sources/full/cury/4T22/release.md, sources/structured/cury/4T22/release.json, sources/digested/cury_release_4T22_summary.md
+2026-04-11 — ingest release 4T23: sources/full/cury/4T23/release.md, sources/structured/cury/4T23/release.json, sources/digested/cury_release_4T23_summary.md
+2026-04-11 — ingest release 4T23: sources/full/cury/4T23/release.md, sources/structured/cury/4T23/release.json, sources/digested/cury_release_4T23_summary.md
+2026-04-11 — ingest release 4T23: sources/full/cury/4T23/release.md, sources/structured/cury/4T23/release.json, sources/digested/cury_release_4T23_summary.md
+2026-04-11 — ingest release 4T23: sources/full/cury/4T23/release.md, sources/structured/cury/4T23/release.json, sources/digested/cury_release_4T23_summary.md
+2026-04-11 — ingest release 4T24: sources/full/cury/4T24/release.md, sources/structured/cury/4T24/release.json, sources/digested/cury_release_4T24_summary.md
+2026-04-11 — ingest release 4T24: sources/full/cury/4T24/release.md, sources/structured/cury/4T24/release.json, sources/digested/cury_release_4T24_summary.md
+2026-04-11 — ingest release 4T24: sources/full/cury/4T24/release.md, sources/structured/cury/4T24/release.json, sources/digested/cury_release_4T24_summary.md
+2026-04-11 — ingest release 4T25: sources/full/cury/4T25/release.md, sources/structured/cury/4T25/release.json, sources/digested/cury_release_4T25_summary.md
+2026-04-11 — ingest release 4T25: sources/full/cury/4T25/release.md, sources/structured/cury/4T25/release.json, sources/digested/cury_release_4T25_summary.md
+2026-04-11 — ingest fato_relevante 1T26: sources/full/cury/1T26/fato_relevante_1015615.md, sources/digested/cury_fatos_relevantes_batch_summary.md
+2026-04-11 — ingest fato_relevante 2T25: sources/full/cury/2T25/fato_relevante_889685.md, sources/digested/cury_fatos_relevantes_batch_summary.md
+2026-04-11 — ingest fato_relevante 3T25: sources/full/cury/3T25/fato_relevante_932870.md, sources/digested/cury_fatos_relevantes_batch_summary.md
+2026-04-11 — ingest fato_relevante 4T24: sources/full/cury/4T24/fato_relevante_841950.md, sources/digested/cury_fatos_relevantes_batch_summary.md
+2026-04-11 — ingest fato_relevante 4T25: sources/full/cury/4T25/fato_relevante_977461.md, sources/digested/cury_fatos_relevantes_batch_summary.md
+2026-04-11 — ingest fato_relevante 4T25: sources/full/cury/4T25/fato_relevante_981184.md, sources/digested/cury_fatos_relevantes_batch_summary.md
+2026-04-11 — ingest release unknown: sources/full/cury/other/CURY3_1T23_itr_126022.md, sources/digested/cury_other_CURY3_1T23_itr_126022_summary.md
+2026-04-11 — ingest release unknown: sources/full/cury/other/CURY3_1T24_itr_136591.md, sources/digested/cury_other_CURY3_1T24_itr_136591_summary.md
+2026-04-11 — ingest release unknown: sources/full/cury/other/CURY3_1T25_itr_147489.md, sources/digested/cury_other_CURY3_1T25_itr_147489_summary.md
+2026-04-11 — ingest release unknown: sources/full/cury/other/CURY3_2022_dfp_130992.md, sources/digested/cury_other_CURY3_2022_dfp_130992_summary.md
+2026-04-11 — ingest release unknown: sources/full/cury/other/CURY3_2023_dfp_134624.md, sources/digested/cury_other_CURY3_2023_dfp_134624_summary.md
+2026-04-11 — ingest release unknown: sources/full/cury/other/CURY3_2024_dfp_145292.md, sources/digested/cury_other_CURY3_2024_dfp_145292_summary.md
+2026-04-11 — ingest release unknown: sources/full/cury/other/CURY3_2025_dfp_155237.md, sources/digested/cury_other_CURY3_2025_dfp_155237_summary.md
+2026-04-11 — ingest release unknown: sources/full/cury/other/CURY3_2T23_itr_129820.md, sources/digested/cury_other_CURY3_2T23_itr_129820_summary.md
+2026-04-11 — ingest release unknown: sources/full/cury/other/CURY3_2T24_itr_140423.md, sources/digested/cury_other_CURY3_2T24_itr_140423_summary.md
+2026-04-11 — ingest release unknown: sources/full/cury/other/CURY3_2T25_itr_150599.md, sources/digested/cury_other_CURY3_2T25_itr_150599_summary.md
+2026-04-11 — ingest release unknown: sources/full/cury/other/CURY3_3T23_itr_131846.md, sources/digested/cury_other_CURY3_3T23_itr_131846_summary.md
+2026-04-11 — ingest release unknown: sources/full/cury/other/CURY3_3T24_itr_142960.md, sources/digested/cury_other_CURY3_3T24_itr_142960_summary.md
+2026-04-11 — ingest release unknown: sources/full/cury/other/CURY3_3T25_itr_152937.md, sources/digested/cury_other_CURY3_3T25_itr_152937_summary.md
