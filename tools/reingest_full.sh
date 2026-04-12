@@ -92,8 +92,21 @@ echo ""
 echo "=== Step 1: Listing documents from CVM ==="
 LIST_JSON=$(python "$SCRIPT_DIR/lib/cvm_fetch.py" list "$TICKER" --types "$TYPES" --from "$HORIZON_FROM" 2>&1)
 
+# Deduplicate: keep only the latest version per (tipo, periodo)
+LIST_JSON=$(echo "$LIST_JSON" | python -c "
+import sys, json
+docs = json.load(sys.stdin)
+seen = {}
+for doc in docs:
+    key = (doc['tipo'], doc['periodo'])
+    if key not in seen:
+        seen[key] = doc  # list is already sorted most-recent-first
+deduped = list(seen.values())
+print(json.dumps(deduped, ensure_ascii=False))
+")
+
 DOC_COUNT=$(echo "$LIST_JSON" | python -c "import sys,json; print(len(json.load(sys.stdin)))")
-echo "  Found $DOC_COUNT documents"
+echo "  Found $DOC_COUNT documents (deduplicated by tipo+periodo)"
 
 if [[ "$DOC_COUNT" == "0" ]]; then
     echo "Nothing to re-ingest."
@@ -104,41 +117,8 @@ fi
 echo "=== Step 2: Downloading $DOC_COUNT documents ==="
 mkdir -p "$UNDIGESTED"
 
-# Build batch-download JSON: [{num_sequencia, num_versao, numero_protocolo, desc_tipo, output}, ...]
-BATCH_JSON=$(echo "$LIST_JSON" | python -c "
-import sys, json
-
-docs = json.load(sys.stdin)
-ticker = '$TICKER'
-undigested = '$UNDIGESTED'
-
-batch = []
-for doc in docs:
-    tipo = doc['tipo']
-    periodo = doc['periodo']
-    seq = doc.get('num_sequencia', 'unknown')
-    fname = f'{ticker}_{periodo}_{tipo}_{seq}'
-
-    # Determine extension based on doc type
-    if tipo in ('itr', 'dfp'):
-        ext = '.zip'
-    else:
-        ext = '.pdf'
-
-    batch.append({
-        'num_sequencia': str(doc.get('num_sequencia', '')),
-        'num_versao': str(doc.get('num_versao', '')),
-        'numero_protocolo': str(doc.get('numero_protocolo', '')),
-        'desc_tipo': str(doc.get('desc_tipo', '')),
-        'output': f'{undigested}/{fname}{ext}',
-    })
-
-print(json.dumps(batch))
-")
-
-python "$SCRIPT_DIR/lib/cvm_fetch.py" batch-download \
-    --docs-json "$BATCH_JSON" \
-    --concurrency 6
+# Download all documents (uses separate Python script to avoid MSYS path issues)
+echo "$LIST_JSON" | python "$SCRIPT_DIR/lib/reingest_download.py" "$TICKER" "$UNDIGESTED"
 
 echo ""
 
