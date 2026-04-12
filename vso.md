@@ -8,7 +8,9 @@ updated: 2026-04-08
 
 # VSO
 
-**Velocidade Sobre Oferta** — indicador de absorção de oferta de uma incorporadora em um período. Conceitualmente: do total ofertado (estoque inicial + lançamentos do período), que percentual foi vendido no período.
+**Velocidade Sobre Oferta** — indicador de absorção de oferta de uma incorporadora em um período.
+
+**Fórmula:** VSO = Vendas do trimestre / (Estoque do trimestre anterior + Lançamentos do trimestre)
 
 Reportada em dois recortes:
 
@@ -27,6 +29,6 @@ No 1T26, a [[tenda]] reportou (fonte: structured/tenda/1T26/previa_operacional.j
 - **Alea (SBPE):** VSO bruta 48,2%, VSO líquida 41,6% (+23,6 p.p. vs 1T25).
 - **Consolidado:** VSO bruta 30,6%, VSO líquida 27,6%.
 
-**Nota definicional:** a definição exata de VSO (numerador de vendas do período, denominador de oferta disponível) varia ligeiramente entre incorporadoras. Ao comparar cross-empresa, verificar nota metodológica do release.
+**Nota definicional:** o denominador é sempre Estoque(t-1) + Lançamentos(t). O numerador varia: vendas brutas (VSO bruta) ou vendas líquidas (VSO líquida). Algumas empresas reportam VSO UDM (últimos doze meses) que suaviza sazonalidade. Ao comparar cross-empresa, verificar nota metodológica do release.
 
 Relacionado: [[vgv]], [[distrato]], [[incorporadoras]]
