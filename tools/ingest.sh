@@ -162,6 +162,19 @@ build_file_list() {
     echo "$list"
 }
 
+# --- Helper: copy extracted file to full/ ---
+copy_to_full() {
+    local extracted_file="$1"
+    local empresa="$2"
+    local period="$3"
+    local tipo="$4"
+
+    local full_dir="$REPO_ROOT/sources/full/$empresa/$period"
+    mkdir -p "$full_dir"
+    cp "$extracted_file" "$full_dir/${tipo}.md"
+    echo "  Copied → sources/full/$empresa/$period/${tipo}.md"
+}
+
 # --- Helper: build and invoke claude ---
 invoke_claude() {
     local template="$1"
@@ -193,9 +206,9 @@ open(sys.argv[-1], 'w', encoding='utf-8').write(template)
 
 # --- Helper: ingest one file (heavy path) ---
 ingest_one_heavy() {
-    local extracted_file="$1"
+    local full_path="$1"
     local doc_type="$2"
-    local log_prefix="[heavy:$(basename "$extracted_file")]"
+    local log_prefix="[heavy:$(basename "$full_path")]"
 
     echo "$log_prefix Starting..."
 
@@ -204,54 +217,115 @@ ingest_one_heavy() {
         "{{EMPRESA}}" "$EMPRESA" \
         "{{DOC_TYPE}}" "$doc_type" \
         "{{SCHEMA_PATH}}" "$SCHEMA_PATH" \
-        "{{FILE_LIST}}" "- $extracted_file"
+        "{{FULL_PATH}}" "$full_path"
 
     echo "$log_prefix Done."
 }
 
 # --- Helper: ingest one file (light path) ---
 ingest_one_light() {
-    local extracted_file="$1"
-    local log_prefix="[light:$(basename "$extracted_file")]"
+    local full_path="$1"
+    local log_prefix="[light:$(basename "$full_path")]"
 
     echo "$log_prefix Starting..."
 
     invoke_claude "$SCRIPT_DIR/prompts/ingest_light.md" \
         "{{TICKER}}" "$TICKER" \
         "{{EMPRESA}}" "$EMPRESA" \
-        "{{FILE_LIST}}" "- $extracted_file"
+        "{{FULL_PATH}}" "$full_path"
 
     echo "$log_prefix Done."
 }
 
-export -f ingest_one_heavy ingest_one_light invoke_claude
-export TICKER EMPRESA SCHEMA_PATH SCRIPT_DIR
+export -f ingest_one_heavy ingest_one_light invoke_claude copy_to_full
+export TICKER EMPRESA SCHEMA_PATH SCRIPT_DIR REPO_ROOT
+
+# --- Step 2b: Copy extracted files to full/ ---
+echo "=== Copying extracted files to full/ ==="
+
+for f in "${EXTRACTED_ITR_DFP[@]}"; do
+    fname=$(basename "$f")
+    period=$(echo "$fname" | sed -E 's/^[^_]+_([^_]+)_.*/\1/')
+    tipo=$(echo "$fname" | sed -E 's/^[^_]+_[^_]+_([^_]+)_.*/\1/')
+    copy_to_full "$f" "$EMPRESA" "$period" "$tipo"
+done
+
+for f in "${EXTRACTED_RELEASE[@]}"; do
+    fname=$(basename "$f")
+    period=$(echo "$fname" | sed -E 's/^[^_]+_([^_]+)_.*/\1/')
+    copy_to_full "$f" "$EMPRESA" "$period" "release"
+done
+
+for f in "${EXTRACTED_FATOS[@]}"; do
+    fname=$(basename "$f")
+    period=$(echo "$fname" | sed -E 's/^[^_]+_([^_]+)_.*/\1/')
+    if [[ "$fname" == *_fato_relevante_* ]]; then
+        seq=$(echo "$fname" | sed -E 's/.*fato_relevante_([0-9]+).*/\1/')
+        copy_to_full "$f" "$EMPRESA" "$period" "fato_relevante_${seq}"
+    elif [[ "$fname" == *_previa_operacional_* ]]; then
+        copy_to_full "$f" "$EMPRESA" "$period" "previa_operacional"
+    else
+        copy_to_full "$f" "$EMPRESA" "$period" "fato_relevante"
+    fi
+done
+
+for f in "${EXTRACTED_OTHER[@]}"; do
+    fname=$(basename "$f")
+    period=$(echo "$fname" | sed -E 's/^[^_]+_([^_]+)_.*/\1/')
+    stem="${fname%_extracted.*}"
+    stem="${stem%.*}"
+    copy_to_full "$f" "$EMPRESA" "$period" "$stem"
+done
+
+echo ""
 
 # --- Track produced digested files for wiki update ---
 DIGESTED_FILES=()
 
-# --- Step 3: Parallel ingest ---
+# --- Step 3: Parallel ingest (LLM produces structured + digested only) ---
 echo "=== Parallel ingest (concurrency=$CONCURRENCY) ==="
 parallel_init "$CONCURRENCY"
 
 # Heavy: ITR/DFP
 for f in "${EXTRACTED_ITR_DFP[@]}"; do
-    parallel_add "ingest_one_heavy \"$f\" \"itr/dfp\""
+    fname=$(basename "$f")
+    period=$(echo "$fname" | sed -E 's/^[^_]+_([^_]+)_.*/\1/')
+    tipo=$(echo "$fname" | sed -E 's/^[^_]+_[^_]+_([^_]+)_.*/\1/')
+    full_path="$REPO_ROOT/sources/full/$EMPRESA/$period/${tipo}.md"
+    parallel_add "ingest_one_heavy \"$full_path\" \"itr/dfp\""
 done
 
 # Heavy: releases
 for f in "${EXTRACTED_RELEASE[@]}"; do
-    parallel_add "ingest_one_heavy \"$f\" \"release\""
+    fname=$(basename "$f")
+    period=$(echo "$fname" | sed -E 's/^[^_]+_([^_]+)_.*/\1/')
+    full_path="$REPO_ROOT/sources/full/$EMPRESA/$period/release.md"
+    parallel_add "ingest_one_heavy \"$full_path\" \"release\""
 done
 
 # Heavy: other
 for f in "${EXTRACTED_OTHER[@]}"; do
-    parallel_add "ingest_one_heavy \"$f\" \"other\""
+    fname=$(basename "$f")
+    period=$(echo "$fname" | sed -E 's/^[^_]+_([^_]+)_.*/\1/')
+    stem="${fname%_extracted.*}"
+    stem="${stem%.*}"
+    full_path="$REPO_ROOT/sources/full/$EMPRESA/$period/${stem}.md"
+    parallel_add "ingest_one_heavy \"$full_path\" \"other\""
 done
 
-# Light: fatos relevantes
+# Light: fatos relevantes / prévias
 for f in "${EXTRACTED_FATOS[@]}"; do
-    parallel_add "ingest_one_light \"$f\""
+    fname=$(basename "$f")
+    period=$(echo "$fname" | sed -E 's/^[^_]+_([^_]+)_.*/\1/')
+    if [[ "$fname" == *_fato_relevante_* ]]; then
+        seq=$(echo "$fname" | sed -E 's/.*fato_relevante_([0-9]+).*/\1/')
+        full_path="$REPO_ROOT/sources/full/$EMPRESA/$period/fato_relevante_${seq}.md"
+    elif [[ "$fname" == *_previa_operacional_* ]]; then
+        full_path="$REPO_ROOT/sources/full/$EMPRESA/$period/previa_operacional.md"
+    else
+        full_path="$REPO_ROOT/sources/full/$EMPRESA/$period/fato_relevante.md"
+    fi
+    parallel_add "ingest_one_light \"$full_path\""
 done
 
 parallel_wait
