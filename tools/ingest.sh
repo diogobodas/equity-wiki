@@ -84,6 +84,14 @@ for f in "$UNDIGESTED"/*; do
         elif [[ "$fname" == *_fato_relevante_*.pdf ]]; then
             LIGHT_FATOS+=("$f")
         elif [[ "$fname" == *_previa_operacional_*.pdf ]]; then
+            # Prévia is a subset of release — skip if release exists for this period
+            previa_period=$(echo "$fname" | sed -E 's/^[^_]+_([^_]+)_.*/\1/')
+            if [[ -f "$REPO_ROOT/sources/full/$EMPRESA/$previa_period/release.md" ]] || \
+               ls "$UNDIGESTED"/${TICKER}_${previa_period}_release_*.pdf >/dev/null 2>&1; then
+                echo "  Skipping prévia $fname (release exists for $previa_period)"
+                rm -f "$f"
+                continue
+            fi
             LIGHT_FATOS+=("$f")
         else
             HEAVY_OTHER+=("$f")

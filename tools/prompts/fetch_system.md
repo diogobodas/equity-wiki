@@ -61,10 +61,11 @@ Examples: `{{UNDIGESTED_PATH}}/TEND3_2025_dfp.zip`, `{{UNDIGESTED_PATH}}/TEND3_4
 2. **List** available documents via `cvm_fetch.py list`.
 
 3. **Detect gaps** — compare the list against the manifest:
-   - For each document type (dfp, itr, release, fato_relevante), iterate from most recent to oldest.
+   - For each document type (dfp, itr, release, fato_relevante, previa_operacional), iterate from most recent to oldest.
    - A document is a **gap** if its `periodo` + `tipo` combination does not appear in the manifest's `sources[]` array (match on `type` and `asof` fields).
    - **Stop condition per type:** when you find a `periodo` that already exists in the manifest for that type, stop — everything older is assumed covered.
    - If `{{COLD_START}}` is `true`, there is no manifest to compare — everything up to `{{HORIZON_FROM}}` is a gap.
+   - **Prévia deduplication rule:** a prévia operacional is a subset of the release — the release contains all the data the prévia has. Therefore, **only download prévias for periods that have NO release** (neither in the manifest nor in the current download batch). If a release exists or will be downloaded for that period, skip the prévia. Typically this means only the most recent quarter (where the prévia is out but the release hasn't been published yet) will have a prévia downloaded.
 
 4. **Build download batch** — collect all gap documents into a JSON array for `batch-download`:
    ```json
