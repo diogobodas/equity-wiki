@@ -1,690 +1,3057 @@
-# Release de Resultados 3T25 — Direcional
+<!-- PAGE 1 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+Belo Horizonte, 12 de novembro de 2025 - A Direcional Engenharia S/A, uma das maiores incorporadoras e construtoras do Brasil, com foco
+no desenvolvimento de empreendimentos populares e de médio padrão, com atuação em diversas regiões do território Nacional, divulga
+seus resultados operacionais e financeiros referentes ao 3º trimestre de 2025 (3T25). Exceto quando indicado de outra forma, as informações
+deste documento estão expressas em moeda corrente nacional (em Reais) e o Valor Geral de Vendas (“VGV”) demonstra o valor consolidado
+(100%). As demonstrações financeiras consolidadas da Companhia são elaboradas de acordo com as práticas contábeis adotadas no Brasil,
+baseadas na Lei das Sociedades por Ações e nas regulamentações da CVM.
+DIVULGAÇÃO DE RESULTADOS 3T25
+✓ MAIOR MARGEM BRUTA AJUSTADA1 DA HISTÓRIA: 42,1% NO 3T25, CRESCENDO 40 BPS SOBRE O
+2T25 E 350 BPS SOBRE O 3T24
+✓ RECEITA LÍQUIDA DE R$ 1,2 BILHÃO NO 3T25, 27% ACIMA DO 3T24 E 9% ACIMA DO ANTIGO
+RECORDE (2T25)
+✓ MARGEM REF ATINGE 45,2%, INCREMENTO DE 30 BPS SOBRE O 2T25 E DE 180 BPS SOBRE O 3T24
+✓ LUCRO LÍQUIDO DE R$ 230 MILHÕES NO TRIMESTRE, CRESCENDO 25% EM RELAÇÃO AO 2T25 E
+43% EM RELAÇÃO AO 3T24
+✓ ROE ANUALIZADO2 DE 35% NO 3T25, MAIS UM RECORDE PARA O INDICADOR
+OUTROS DESTAQUES
+▪ Receita Líquida de R$ 3,1 bilhões no acumulado do ano até setembro (9M25), um crescimento de
+29% em comparação ao 9M24.
+▪ Receita Líquida Total3 atinge R$ 1,5 bilhão no 3T25 e R$ 5,2 bilhões nos últimos 12 meses (3T25 LTM).
+▪ No 3T25, Lucro Líquido Operacional2 (100%) de R$ 258 milhões, crescendo 17% sobre o 2T25 e 43% sobre
+o 3T24, com Margem Líquida Operacional2 de 22,3%.
+▪ Índice de alavancagem (Dívida Líquida/PL) de 3,8% no final do 3T25.
+▪ Receita a Apropriar (REF) encerrou o trimestre em R$ 3,7 bilhões.
+▪ Geração de Caixa de R$ 113 milhões no 3T25 e de R$ 493 milhões no 9M25.
+1 - Ajuste excluindo os juros capitalizados no custo.
+2 - Ajuste excluindo resultado não recorrente alocado na linha de “Outras Receitas e Despesas Operacionais” e resultado de swap de ações, conforme o caso.
+3 - Inclui a receita de SPEs não consolidadas no resultado (SPEs não controladas e controladas em conjunto).
+1
 
-## Mensagem da Administração
+<!-- PAGE 2 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+ÍNDICE
+MENSAGEM DA ADMINISTRAÇÃO ........................................................................................................................................................................ 3
+PRINCIPAIS INDICADORES .................................................................................................................................................................................... 5
+LANÇAMENTOS ....................................................................................................................................................................................................... 6
+VENDAS CONTRATADAS ....................................................................................................................................................................................... 7
+VELOCIDADE DE VENDAS (VSO) .......................................................................................................................................................................... 8
+Distratos ................................................................................................................................................................................................................ 9
+ESTOQUE ................................................................................................................................................................................................................. 9
+REPASSES ............................................................................................................................................................................................................. 10
+EMPREENDIMENTOS ENTREGUES..................................................................................................................................................................... 10
+BANCO DE TERRENOS ........................................................................................................................................................................................ 11
+Aquisições de Terrenos ..................................................................................................................................................................................... 11
+DESEMPENHO ECONÔMICO-FINANCEIRO ........................................................................................................................................................ 12
+Receita Líquida ................................................................................................................................................................................................... 12
+Lucro Bruto ......................................................................................................................................................................................................... 12
+Despesas Gerais e Administrativas (G&A)....................................................................................................................................................... 13
+Despesas Comerciais ......................................................................................................................................................................................... 14
+Resultado de Equivalência Patrimonial ............................................................................................................................................................ 14
+Outras Receitas e Despesas Operacionais ...................................................................................................................................................... 14
+EBITDA................................................................................................................................................................................................................. 15
+Resultado Financeiro ......................................................................................................................................................................................... 15
+Participantes não controladores em SPE e SCP (“Minoritários”) .................................................................................................................. 16
+Lucro Líquido ...................................................................................................................................................................................................... 16
+Resultado a Apropriar de Vendas de Imóveis.................................................................................................................................................. 17
+DESTAQUES DO BALANÇO PATRIMONIAL ....................................................................................................................................................... 18
+Caixa e Equivalentes de Caixa e Aplicações Financeiras .............................................................................................................................. 18
+Contas a Receber................................................................................................................................................................................................ 18
+Endividamento .................................................................................................................................................................................................... 19
+Geração de Caixa ................................................................................................................................................................................................ 20
+BALANÇO PATRIMONIAL CONSOLIDADO ......................................................................................................................................................... 22
+DEMONSTRAÇÃO DE RESULTADOS CONSOLIDADA ...................................................................................................................................... 23
+DEMONSTRAÇÃO DE FLUXO DE CAIXA CONSOLIDADA ................................................................................................................................ 24
+BALANÇO PATRIMONIAL CONSOLIDADO - RIVA ............................................................................................................................................. 25
+DEMONSTRAÇÃO DE RESULTADOS CONSOLIDADA - RIVA .......................................................................................................................... 26
+GLOSSÁRIO ........................................................................................................................................................................................................... 27
+2
 
-Temos o grande prazer de compartilhar com nossos acionistas os resultados do 3º trimestre de 2025 (3T25), expressão concreta de todo o trabalho e esforço que diariamente dedicamos ao nosso negócio, a fim de levarmos o nome do Grupo Direcional cada vez mais longe. Continuamos caminhando a passos firmes em direção aos objetivos que traçamos para o ano, preservando o mesmo entusiasmo e o mesmo empenho que orientaram o início desta jornada.
+<!-- PAGE 3 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+MENSAGEM DA ADMINISTRAÇÃO
+Temos o grande prazer de compartilhar com nossos acionistas os resultados do 3º trimestre de 2025 (3T25), expressão concreta
+de todo o trabalho e esforço que diariamente dedicamos ao nosso negócio, a fim de levarmos o nome do Grupo Direcional cada
+vez mais longe. Continuamos caminhando a passos firmes em direção aos objetivos que traçamos para o ano, preservando o
+mesmo entusiasmo e o mesmo empenho que orientaram o início desta jornada.
+Alinhado às expectativas que tínhamos para a demanda nos segmentos de habitação popular e de médio padrão, vimos a
+ampliação do mercado endereçável e o aumento do poder de compra das famílias serem refletidos em mais um trimestre de
+fortes alcances nas principais métricas operacionais. Nessa linha, vale destacarmos a imediata disponibilidade de produtos em
+estoque e em pipeline enquadráveis na Faixa 4 do Minha Casa, Minha Vida – principalmente no portfólio da Riva. Seguimos
+enxergando excelentes possibilidades à nossa frente.
+Lançamos o maior volume trimestral de nossa história, totalizando R$ 2,2 bilhões (R$ 2,0 bilhões % Companhia), com Vendas
+Brutas de R$ 1,9 bilhão (R$ 1,6 bilhão % Companhia) e Vendas Líquidas de R$ 1,6 bilhão (1,4 bilhão % Companhia), traduzindo-
+se em uma VSO de 24% no 3T25. Vale ressaltar a destacada performance da Riva no período, que contribuiu de maneira
+relevante para os resultados do Grupo Direcional e registrou recordes em todas essas métricas no trimestre. Igualmente
+importante foi a evolução da participação da Companhia nos projetos, tanto em termos de lançamentos, quanto de vendas,
+atingindo respectivamente, 94% e 87%.
+No acumulado até setembro de 2025 (9M25), os Lançamentos alcançaram R$ 5,0 bilhões (R$ 4,2 bilhões % Companhia) e as
+Vendas Líquidas foram de R$ 4,6 bilhões (R$ 3,8 bilhões % Companhia), sinalizando que estamos no caminho certo para
+entregarmos, mais uma vez, nosso melhor ano.
+Assim como nos indicadores operacionais, alcançamos números expressivos também no que se refere ao resultado financeiro,
+com recordes absolutos nas principais linhas. A Receita Líquida atingiu R$ 1,2 bilhão, crescendo 27% em relação ao 3T24 e 9%
+em relação ao 2T25. Com isso, no 9M25, observamos um total de R$ 3,1 bilhões em receita, 29% acima do que havíamos
+registrado um ano antes.
+Considerando a receita reconhecida em SPEs que não são consolidadas em nosso balanço (por serem controladas em conjunto
+com parceiros ou não controladas por nós), a Receita Líquida Total1 alcançou R$ 1,5 bilhão no trimestre e R$ 4,0 bilhões no
+acumulado do ano até setembro. Apesar de não haver a consolidação contábil da receita dessas SPEs, o resultado líquido dos
+projetos é reconhecido na linha de Resultado com Equivalência Patrimonial, de acordo com a nossa participação em cada
+empresa.
+A Margem Bruta Ajustada2 também alcançou seu maior patamar histórico, chegando a expressivos 42,1% no 3T25, 40 bps acima
+do antigo recorde, que havia sido atingido no trimestre anterior, e 350 bps acima do mesmo trimestre do ano anterior. A
+resiliência da rentabilidade que temos entregado a cada trimestre reflete a diligência e a disciplina que norteiam nosso jeito de
+conduzir o negócio, numa busca contínua por eficiência operacional e ganhos de produtividade.
+Não por acaso, a nossa margem referente ao resultado a apropriar por venda de imóveis (Margem REF) foi de significativos
+45,2%. Ao todo, a receita a apropriar somou o montante de R$ 3,7 bilhões ao final do 3T25, valor já contratado e a ser
+reconhecido ao longo dos próximos trimestres, de acordo com a evolução física das obras.
+No 3T25, vimos o Lucro Líquido antes de minoritários alcançar R$ 283 milhões, totalizando R$ 695 milhões no 9M25. Cabe
+evidenciar que, no decorrer do trimestre, realizamos a venda de participação em uma SPE, com a finalidade de capturar valor
+para nosso acionista, sobretudo por meio da geração de caixa. A operação de venda de participação impactou de maneira não
+recorrente o resultado do período, conforme descrito no tópico de Outras Receitas e Despesas Operacionais. Com isso, o Lucro
+Líquido Operacional3 antes dos minoritários atingiu R$ 258 milhões, com Margem Líquida Operacional3 de 22,3%, mais um
+marco histórico para o Grupo Direcional.
+O Lucro Líquido (% Direcional) atingiu R$ 230 milhões no trimestre, com uma Margem Líquida de 19,8%, e R$ 578 milhões nos
+primeiros nove meses de 2025, com Margem Líquida de 18,5%. Desse modo, o Lucro Líquido Operacional3 (% Direcional) chegou
+a R$ 205 milhões no trimestre, representando um crescimento de 11% sobre o 2T25 e de 31% sobre o 3T24. A Margem Líquida
+Operacional3 (% Direcional) do período, portanto, foi de 17,7%, um incremento de 50 bps em relação ao trimestre anterior e de
+60 bps na comparação com o mesmo trimestre do ano anterior. Assim, o ROE Anualizado Ajustado3 também atingiu seu maior
+3
 
-Alinhado às expectativas que tínhamos para a demanda nos segmentos de habitação popular e de médio padrão, vimos a ampliação do mercado endereçável e o aumento do poder de compra das famílias serem refletidos em mais um trimestre de fortes alcances nas principais métricas operacionais. Nessa linha, vale destacarmos a imediata disponibilidade de produtos em estoque e em pipeline enquadráveis na Faixa 4 do Minha Casa, Minha Vida – principalmente no portfólio da Riva. Seguimos enxergando excelentes possibilidades à nossa frente.
-
-Lançamos o maior volume trimestral de nossa história, totalizando R$ 2,2 bilhões (R$ 2,0 bilhões % Companhia), com Vendas Brutas de R$ 1,9 bilhão (R$ 1,6 bilhão % Companhia) e Vendas Líquidas de R$ 1,6 bilhão (1,4 bilhão % Companhia), traduzindo-se em uma VSO de 24% no 3T25. Vale ressaltar a destacada performance da Riva no período, que contribuiu de maneira relevante para os resultados do Grupo Direcional e registrou recordes em todas essas métricas no trimestre. Igualmente importante foi a evolução da participação da Companhia nos projetos, tanto em termos de lançamentos, quanto de vendas, atingindo respectivamente, 94% e 87%.
-
-No acumulado até setembro de 2025 (9M25), os Lançamentos alcançaram R$ 5,0 bilhões (R$ 4,2 bilhões % Companhia) e as Vendas Líquidas foram de R$ 4,6 bilhões (R$ 3,8 bilhões % Companhia), sinalizando que estamos no caminho certo para entregarmos, mais uma vez, nosso melhor ano.
-
-Assim como nos indicadores operacionais, alcançamos números expressivos também no que se refere ao resultado financeiro, com recordes absolutos nas principais linhas. A Receita Líquida atingiu R$ 1,2 bilhão, crescendo 27% em relação ao 3T24 e 9% em relação ao 2T25. Com isso, no 9M25, observamos um total de R$ 3,1 bilhões em receita, 29% acima do que havíamos registrado um ano antes.
-
-Considerando a receita reconhecida em SPEs que não são consolidadas em nosso balanço (por serem controladas em conjunto com parceiros ou não controladas por nós), a Receita Líquida Total alcançou R$ 1,5 bilhão no trimestre e R$ 4,0 bilhões no acumulado do ano até setembro. Apesar de não haver a consolidação contábil da receita dessas SPEs, o resultado líquido dos projetos é reconhecido na linha de Resultado com Equivalência Patrimonial, de acordo com a nossa participação em cada empresa.
-
-A Margem Bruta Ajustada também alcançou seu maior patamar histórico, chegando a expressivos 42,1% no 3T25, 40 bps acima do antigo recorde, que havia sido atingido no trimestre anterior, e 350 bps acima do mesmo trimestre do ano anterior. A resiliência da rentabilidade que temos entregado a cada trimestre reflete a diligência e a disciplina que norteiam nosso jeito de conduzir o negócio, numa busca contínua por eficiência operacional e ganhos de produtividade.
-
-Não por acaso, a nossa margem referente ao resultado a apropriar por venda de imóveis (Margem REF) foi de significativos 45,2%. Ao todo, a receita a apropriar somou o montante de R$ 3,7 bilhões ao final do 3T25, valor já contratado e a ser reconhecido ao longo dos próximos trimestres, de acordo com a evolução física das obras.
-
-No 3T25, vimos o Lucro Líquido antes de minoritários alcançar R$ 283 milhões, totalizando R$ 695 milhões no 9M25. Cabe evidenciar que, no decorrer do trimestre, realizamos a venda de participação em uma SPE, com a finalidade de capturar valor para nosso acionista, sobretudo por meio da geração de caixa. A operação de venda de participação impactou de maneira não recorrente o resultado do período, conforme descrito no tópico de Outras Receitas e Despesas Operacionais. Com isso, o Lucro Líquido Operacional antes dos minoritários atingiu R$ 258 milhões, com Margem Líquida Operacional de 22,3%, mais um marco histórico para o Grupo Direcional.
-
-O Lucro Líquido (% Direcional) atingiu R$ 230 milhões no trimestre, com uma Margem Líquida de 19,8%, e R$ 578 milhões nos primeiros nove meses de 2025, com Margem Líquida de 18,5%. Desse modo, o Lucro Líquido Operacional (% Direcional) chegou a R$ 205 milhões no trimestre, representando um crescimento de 11% sobre o 2T25 e de 31% sobre o 3T24. A Margem Líquida Operacional (% Direcional) do período, portanto, foi de 17,7%, um incremento de 50 bps em relação ao trimestre anterior e de 60 bps na comparação com o mesmo trimestre do ano anterior. Assim, o ROE Anualizado Ajustado também atingiu seu maior nível, chegando a 35% no 3T25. No acumulado do ano até setembro, o Lucro Líquido Operacional (% Direcional) totalizou R$ 546 milhões e a Margem Líquida Operacional (% Direcional) foi de 17,5%.
-
-A geração de caixa do trimestre foi de R$ 113 milhões, perfazendo um total gerado de R$ 493 milhões no ano até o encerramento de setembro. Assim, finalizamos o período com uma dívida líquida de R$ 104 milhões, representando um índice de alavancagem (dado pela Dívida Líquida/Patrimônio Líquido) de 3,8%. A contínua atenção à solidez da estrutura de capital nos permite atuar de modo a promover o crescimento saudável das operações, ao mesmo tempo em que mantemos continuamente o olhar voltado para a maximização de retorno de capital para nossos acionistas. Importante mencionar que no 3T25 tivemos resultados não operacionais que, de maneira líquida, impactaram positivamente a geração de caixa do trimestre em R$ 67 milhões. Desta forma, a geração de caixa operacional, desconsiderando tais eventos totalizou o valor de R$ 46 milhões, conforme detalhado na tabela a seguir:
-
-| Recomposição Geração de Caixa Operacional (R$ milhões) | 3T25 |
-|---|---|
-| (a) Originações e Amortizações Cessão de Recebíveis (líquido) | -16,9 |
-| (b) Monetização de Ativos - SPEs (líquido) | 128,6 |
-| (c) Custo de Estruturação CRI | -24,0 |
-| (d) Delta bloqueio CEF | -20,7 |
-| (e) = (a)+(b)+(c)+(d) Subtotal | 67,0 |
-| (f) Geração de Caixa contábil | 112,8 |
-| (g) = (f)-(e) Geração de Caixa "Operacional" | 45,7 |
-
-A sustentabilidade do negócio também passa pelas iniciativas voltadas à agenda ESG, através das quais mostramos um pouco mais a nossa visão e os valores que nos impulsionam a alcançar resultados cada vez melhores. Nesse contexto, publicamos no decorrer do trimestre, o nosso 4º Relatório Anual de Sustentabilidade, elaborado em conformidade com as diretrizes da Global Reporting Initiative (GRI) e os requisitos setoriais do Sustainability Accounting Standards Board (SASB), reafirmando nosso compromisso com a transparência e a integridade na comunicação com todos os stakeholders da Companhia.
-
-Notas:
+<!-- PAGE 4 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+nível, chegando a 35% no 3T25. No acumulado do ano até setembro, o Lucro Líquido Operacional3 (% Direcional) totalizou R$
+546 milhões e a Margem Líquida Operacional3 (% Direcional) foi de 17,5%.
+A geração de caixa do trimestre foi de R$ 113 milhões, perfazendo um total gerado de R$ 493 milhões no ano até o encerramento
+de setembro. Assim, finalizamos o período com uma dívida líquida4 de R$ 104 milhões, representando um índice de alavancagem
+(dado pela Dívida Líquida/Patrimônio Líquido) de 3,8%. A contínua atenção à solidez da estrutura de capital nos permite atuar
+de modo a promover o crescimento saudável das operações, ao mesmo tempo em que mantemos continuamente o olhar
+voltado para a maximização de retorno de capital para nossos acionistas. Importante mencionar que no 3T25 tivemos resultados
+não operacionais que, de maneira líquida, impactaram positivamente a geração de caixa do trimestre em R$ 67 milhões. Desta
+forma, a geração de caixa operacional, desconsiderando tais eventos totalizou o valor de R$ 46 milhões, conforme detalhado
+na tabela a seguir:
+Recomposição Geração de Caixa Operacional (R$ milhões) 3T25
+(a) Originações e Amortizações Cessão de Recebíveis (líquido)5 -16,9
+(b) Monetização de Ativos - SPEs (líquido) 128,6
+(c) Custo de Estruturação CRI -24,0
+(d) Delta bloqueio CEF -20,7
+(e) = (a)+(b)+(c)+(d) Subtotal 67,0
+(f) Geração de Caixa contábil 112,8
+(g) = (f)-(e) Geração de Caixa "Operacional" 45,7
+A sustentabilidade do negócio também passa pelas iniciativas voltadas à agenda ESG, através das quais mostramos um pouco
+mais a nossa visão e os valores que nos impulsionam a alcançar resultados cada vez melhores. Nesse contexto, publicamos no
+decorrer do trimestre, o nosso 4º Relatório Anual de Sustentabilidade, elaborado em conformidade com as diretrizes da Global
+Reporting Initiative (GRI) e os requisitos setoriais do Sustainability Accounting Standards Board (SASB), reafirmando nosso
+compromisso com a transparência e a integridade na comunicação com todos os stakeholders da Companhia. Convidamos você
+a conhecer um pouco mais da nossa atuação, acessando o relatório aqui.
+Antes de concluir a nossa mensagem, gostaríamos de agradecer imensamente a cada um dos inúmeros colaboradores que
+fazem parte do Grupo Direcional. Dedicação e profissionalismo são características que nos unem ao redor do mesmo propósito
+e continuarão a nos levar cada vez mais longe.
+Muito obrigado,
+Administração Direcional Engenharia S/A
 1 - Ajuste incluindo a receita de SPEs não consolidadas no resultado (SPEs não controladas e controladas em conjunto).
 2 - Ajuste excluindo os juros capitalizados no custo.
-3 - Ajuste excluindo resultado não recorrente alocado na linha de "Outras Receitas e Despesas Operacionais" e resultado de swap de ações, conforme o caso.
-4 - Saldo total das linhas de Empréstimos e Financiamentos reduzido pelo saldo de Caixa e Equivalentes de Caixa e Aplicações Financeiras e somado ao saldo das posições em aberto de contratos de swaps para proteção de flutuações de taxas de juros.
+3 - Ajuste excluindo resultado não recorrente alocado na linha de “Outras Receitas e Despesas Operacionais” e resultado de swap de ações, conforme o caso.
+4 - Saldo total das linhas de Empréstimos e Financiamentos reduzido pelo saldo de Caixa e Equivalentes de Caixa e Aplicações Financeiras e somado ao saldo das posições em aberto de contratos de swaps
+para proteção de flutuações de taxas de juros.
 5 - Considera também os repasses ocorridos por meio de operações true sale, que totalizaram R$ 13,0 milhões no trimestre.
+4
 
-## Principais Indicadores
-
-| Indicadores Financeiros (R$ milhões, exceto %) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a | 9M25 | 9M24 | Δ a/a |
-|---|---|---|---|---|---|---|---|---|
-| Receita Líquida | 1.157,8 | 1.065,2 | 910,6 | 8,7% | 27,1% | 3.117,2 | 2.424,3 | 28,6% |
-| Lucro Bruto | 463,8 | 414,2 | 332,7 | 12,0% | 39,4% | 1.223,3 | 875,9 | 39,7% |
-| Margem Bruta | 40,1% | 38,9% | 36,5% | 1 p.p. | 4 p.p. | 39,2% | 36,1% | 3 p.p. |
-| Lucro Bruto Ajustado | 487,1 | 443,9 | 350,9 | 9,7% | 38,8% | 1.302,2 | 919,6 | 41,6% |
-| Margem Bruta Ajustada | 42,1% | 41,7% | 38,5% | 0 p.p. | 4 p.p. | 41,8% | 37,9% | 4 p.p. |
-| Lucro Líquido (% Direcional) | 229,7 | 183,7 | 160,5 | 25,0% | 43,1% | 577,9 | 456,9 | 26,5% |
-| Margem Líquida (% Direcional) | 19,8% | 17,2% | 17,6% | 3 p.p. | 2 p.p. | 18,5% | 18,8% | 0 p.p. |
-| Lucro Líquido Operacional | 204,7 | 183,7 | 155,8 | 11,4% | 31,4% | 546,4 | 411,0 | 32,9% |
-| Margem Líquida Operacional | 17,7% | 17,2% | 17,1% | 0 p.p. | 1 p.p. | 17,5% | 17,0% | 1 p.p. |
-
-| Lançamentos (R$ milhões, exceto unidades e %) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a | 9M25 | 9M24 | Δ a/a |
-|---|---|---|---|---|---|---|---|---|
-| VGV Lançado (VGV 100%) | 2.151,6 | 1.903,9 | 1.393,3 | 13,0% | 54,4% | 4.956,6 | 3.650,5 | 35,8% |
-| Direcional | 962,7 | 1.062,0 | 978,2 | -9,3% | -1,6% | 2.696,1 | 2.177,7 | 23,8% |
-| Riva | 1.188,9 | 841,9 | 415,1 | 41,2% | 186,4% | 2.260,5 | 1.472,8 | 53,5% |
-| VGV Lançado (% Companhia) | 2.017,6 | 1.393,0 | 1.308,7 | 44,8% | 54,2% | 4.213,0 | 3.158,9 | 33,4% |
-| Direcional | 888,8 | 880,2 | 893,6 | 1,0% | -0,5% | 2.409,9 | 1.939,1 | 24,3% |
-| Riva | 1.128,8 | 512,8 | 415,1 | 120,1% | 171,9% | 1.803,1 | 1.219,8 | 47,8% |
-| Unidades Lançadas | 6.449 | 5.096 | 4.638 | 26,6% | 39,0% | 14.969 | 11.063 | 35,3% |
-| Direcional | 3.811 | 3.661 | 3.421 | 4,1% | 11,4% | 10.369 | 7.682 | 35,0% |
-| Riva | 2.638 | 1.435 | 1.217 | 83,8% | 116,8% | 4.600 | 3.381 | 36,1% |
-
-| Vendas (R$ milhões, exceto unidades e %) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a | 9M25 | 9M24 | Δ a/a |
-|---|---|---|---|---|---|---|---|---|
-| VGV Líquido Contratado (VGV 100%) | 1.641,8 | 1.677,3 | 1.494,1 | -2,1% | 9,9% | 4.645,6 | 4.420,5 | 5,1% |
-| Direcional | 818,5 | 996,5 | 938,1 | -17,9% | -12,7% | 2.658,8 | 2.662,4 | -0,1% |
-| Riva | 823,3 | 680,8 | 555,9 | 20,9% | 48,1% | 1.986,8 | 1.758,1 | 13,0% |
-| VGV Líquido Contratado (% Companhia) | 1.435,3 | 1.296,4 | 1.237,5 | 10,7% | 16,0% | 3.831,4 | 3.501,8 | 9,4% |
-| Direcional | 716,2 | 852,8 | 789,9 | -16,0% | -9,3% | 2.256,2 | 2.164,7 | 4,2% |
-| Riva | 719,0 | 443,6 | 447,6 | 62,1% | 60,6% | 1.575,3 | 1.337,1 | 17,8% |
-| Unidades Contratadas | 4.857 | 5.176 | 4.984 | -6,2% | -2,5% | 14.363 | 14.565 | -1,4% |
-| Direcional | 3.048 | 3.781 | 3.623 | -19,4% | -15,9% | 10.089 | 10.318 | -2,2% |
-| Riva | 1.809 | 1.395 | 1.361 | 29,7% | 32,9% | 4.274 | 4.247 | 0,6% |
-| VSO (VGV 100%) | 24% | 26% | 25% | -2 p.p. | -1 p.p. | 48% | 50% | -2 p.p. |
-| Direcional | 21% | 26% | 25% | -5 p.p. | -4 p.p. | 46% | 49% | -3 p.p. |
-| Riva | 27% | 27% | 25% | 0 p.p. | 2 p.p. | 50% | 52% | -2 p.p. |
-
-| Outros Indicadores (R$ milhões, exceto %) | 3T25 | 2T25 | 1T25 | 4T24 | 3T24 | 2T24 | 1T24 | 4T23 |
-|---|---|---|---|---|---|---|---|---|
-| ROE Anualizado Ajustado | 35% | 34% | 30% | 33% | 29% | 25% | 24% | 20% |
-| Dívida Líquida (Caixa Líquido) | 104,1 | -137,5 | 257,4 | -68,2 | 91,3 | -153,0 | 66,1 | -72,1 |
-| Patrimônio Líquido | 2.720,2 | 2.470,7 | 2.366,7 | 2.223,8 | 2.245,5 | 2.438,6 | 2.271,2 | 2.110,6 |
-| Dívida Líquida / Patrimônio Líquido | 3,8% | -5,6% | 10,9% | -3,1% | 4,1% | -6,3% | 2,9% | -3,4% |
-| Geração de Caixa | 112,8 | 394,9 | -14,9 | 159,5 | 32,9 | 219,0 | -57,0 | -15,5 |
-| Estoque (VGV 100%) | 5.296,3 | 4.716,0 | 4.457,9 | 4.787,1 | 4.491,8 | 4.591,7 | 4.777,6 | 5.146,3 |
-| Landbank (VGV 100%) | 51.251,9 | 49.901,3 | 46.253,3 | 46.239,9 | 43.238,9 | 39.678,3 | 37.282,6 | 36.301,4 |
-
-Notas:
+<!-- PAGE 5 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+PRINCIPAIS INDICADORES
+3T25 2T25 3T24     9M25 9M24  
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Indicadores Financeiros (R$ milhões, exceto %)
+Receita Líquida 1.157,8 1.065,2 910,6 8,7% 27,1% 3.117,2 2.424,3 28,6%
+Lucro Bruto 463,8 414,2 332,7 12,0% 39,4% 1.223,3 875,9 39,7%
+Margem Bruta 40,1% 38,9% 36,5% 1 p.p. 4 p.p. 39,2% 36,1% 3 p.p.
+Lucro Bruto Ajustado1 487,1 443,9 350,9 9,7% 38,8% 1.302,2 919,6 41,6%
+Margem Bruta Ajustada1 42,1% 41,7% 38,5% 0 p.p. 4 p.p. 41,8% 37,9% 4 p.p.
+Lucro Líquido (% Direcional) 229,7 183,7 160,5 25,0% 43,1% 577,9 456,9 26,5%
+Margem Líquida (% Direcional) 19,8% 17,2% 17,6% 3 p.p. 2 p.p. 18,5% 18,8% 0 p.p.
+Lucro Líquido Operacional2 204,7 183,7 155,8 11,4% 31,4% 546,4 411,0 32,9%
+Margem Líquida Operacional2 17,7% 17,2% 17,1% 0 p.p. 1 p.p. 17,5% 17,0% 1 p.p.
+Lançamentos3 (R$ milhões, exceto unidades e %)
+VGV Lançado (VGV 100%) 2.151,6 1.903,9 1.393,3 13,0% 54,4% 4.956,6 3.650,5 35,8%
+Direcional 962,7 1.062,0 978,2 -9,3% -1,6% 2.696,1 2.177,7 23,8%
+Riva 1.188,9 841,9 415,1 41,2% 186,4% 2.260,5 1.472,8 53,5%
+VGV Lançado (% Companhia) 2.017,6 1.393,0 1.308,7 44,8% 54,2% 4.213,0 3.158,9 33,4%
+Direcional 888,8 880,2 893,6 1,0% -0,5% 2.409,9 1.939,1 24,3%
+Riva 1.128,8 512,8 415,1 120,1% 171,9% 1.803,1 1.219,8 47,8%
+Unidades Lançadas 6.449 5.096 4.638 26,6% 39,0% 14.969 11.063 35,3%
+Direcional 3.811 3.661 3.421 4,1% 11,4% 10.369 7.682 35,0%
+Riva 2.638 1.435 1.217 83,8% 116,8% 4.600 3.381 36,1%
+Vendas3 (R$ milhões, exceto unidades e %)
+VGV Líquido Contratado (VGV 100%) 1.641,8 1.677,3 1.494,1 -2,1% 9,9% 4.645,6 4.420,5 5,1%
+Direcional 818,5 996,5 938,1 -17,9% -12,7% 2.658,8 2.662,4 -0,1%
+Riva 823,3 680,8 555,9 20,9% 48,1% 1.986,8 1.758,1 13,0%
+VGV Líquido Contratado (% Companhia) 1.435,3 1.296,4 1.237,5 10,7% 16,0% 3.831,4 3.501,8 9,4%
+Direcional 716,2 852,8 789,9 -16,0% -9,3% 2.256,2 2.164,7 4,2%
+Riva 719,0 443,6 447,6 62,1% 60,6% 1.575,3 1.337,1 17,8%
+Unidades Contratadas 4.857 5.176 4.984 -6,2% -2,5% 14.363 14.565 -1,4%
+Direcional 3.048 3.781 3.623 -19,4% -15,9% 10.089 10.318 -2,2%
+Riva 1.809 1.395 1.361 29,7% 32,9% 4.274 4.247 0,6%
+VSO (Vendas Sobre Oferta) em VGV 100% 24% 26% 25% -2 p.p. -1 p.p. 48% 50% -2 p.p.
+Direcional 21% 26% 25% -5 p.p. -4 p.p. 46% 49% -3 p.p.
+Riva 27% 27% 25% 0 p.p. 2 p.p. 50% 52% -2 p.p.
+Outros Indicadores (R$ milhões, exceto %) 3T25 2T25 1T25 4T24 3T24 2T24 1T24 4T23
+ROE Anualizado Ajustado2 35% 34% 30% 33% 29% 25% 24% 20%
+Dívida Líquida (Caixa Líquido)4 104,1 -137,5 257,4 -68,2 91,3 -153,0 66,1 -72,1
+Patrimônio Líquido 2.720,2 2.470,7 2.366,7 2.223,8 2.245,5 2.438,6 2.271,2 2.110,6
+Dívida Líquida / Patrimônio Líquido 3,8% -5,6% 10,9% -3,1% 4,1% -6,3% 2,9% -3,4%
+Geração de Caixa5 112,8 394,9 -14,9 159,5 32,9 219,0 -57,0 -15,5
+Estoque (VGV 100%) 5.296,3 4.716,0 4.457,9 4.787,1 4.491,8 4.591,7 4.777,6 5.146,3
+Landbank (VGV 100%) 51.251,9 49.901,3 46.253,3 46.239,9 43.238,9 39.678,3 37.282,6 36.301,4
 1 - Ajuste excluindo os juros capitalizados no custo.
-2 - Ajuste excluindo resultado não recorrente alocado na linha de "Outras Receitas e Despesas Operacionais" e resultado de swap de ações, conforme o caso.
+2 - Ajuste excluindo resultado não recorrente alocado na linha de “Outras Receitas e Despesas Operacionais” e resultado de swap de ações, conforme o caso.
 3 - Desconsiderando o projeto vendido no âmbito do Programa Pode Entrar, no 3T24.
-4 - Saldo total das linhas de Empréstimos e Financiamentos reduzido pelo saldo de Caixa e Equivalentes de Caixa e Aplicações Financeiras e somado ao saldo das posições em aberto de contratos de swaps para proteção de flutuações de taxas de juros.
+4 - Saldo total das linhas de Empréstimos e Financiamentos reduzido pelo saldo de Caixa e Equivalentes de Caixa e Aplicações Financeiras e somado ao saldo das posições em aberto de contratos de
+swaps para proteção de flutuações de taxas de juros.
 5 - Variação da dívida líquida ajustada por pagamento de dividendos, recompra de ações e variação no saldo de contratos de operações de swap de juros.
-
-## Lançamentos
-
-O Grupo Direcional lançou um VGV de R$ 2,2 bilhões (R$ 2,0 bilhões % Companhia) no 3º trimestre de 2025, correspondendo a um crescimento de 54% sobre o 3T24 e de 13% em relação ao 2T25. Desse modo, o volume foi o maior já lançado em um único trimestre pela Companhia. Vale destacar o significativo aumento de participação da Companhia no VGV lançado, que atingiu 94%. Nesse sentido, levando em conta o volume lançado no % Companhia, o crescimento foi de 54% em relação ao 3T24 e de 45% na comparação com o 2T25.
-
-Nos 9 primeiros meses de 2025 (9M25), os Lançamentos totalizaram R$ 5,0 bilhões (R$ 4,2 bilhões % Companhia), o que configurou um aumento de 36% quando comparado ao 9M24. No período de 12 meses encerrados no 3T25 (3T25 LTM), o VGV lançado somou R$ 6,8 bilhões (R$ 5,6 bilhões % Companhia), 40% de incremento em relação ao 3T24 LTM.
-
-| Lançamentos (R$ milhões, exceto unidades e %) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a | 9M25 | 9M24 | Δ a/a |
-|---|---|---|---|---|---|---|---|---|
-| VGV Lançado (VGV 100%) | 2.151,6 | 1.903,9 | 1.393,3 | 13,0% | 54,4% | 4.956,6 | 3.650,5 | 35,8% |
-| Direcional | 962,7 | 1.062,0 | 978,2 | -9,3% | -1,6% | 2.696,1 | 2.177,7 | 23,8% |
-| Riva | 1.188,9 | 841,9 | 415,1 | 41,2% | 186,4% | 2.260,5 | 1.472,8 | 53,5% |
-| VGV Lançado (% Companhia) | 2.017,6 | 1.393,0 | 1.308,7 | 44,8% | 54,2% | 4.213,0 | 3.158,9 | 33,4% |
-| Direcional | 888,8 | 880,2 | 893,6 | 1,0% | -0,5% | 2.409,9 | 1.939,1 | 24,3% |
-| Riva | 1.128,8 | 512,8 | 415,1 | 120,1% | 171,9% | 1.803,1 | 1.219,8 | 47,8% |
-| Unidades Lançadas | 6.449 | 5.096 | 4.638 | 26,6% | 39,0% | 14.969 | 11.063 | 35,3% |
-| Direcional | 3.811 | 3.661 | 3.421 | 4,1% | 11,4% | 10.369 | 7.682 | 35,0% |
-| Riva | 2.638 | 1.435 | 1.217 | 83,8% | 116,8% | 4.600 | 3.381 | 36,1% |
-| % Companhia Médio | 93,8% | 73,2% | 93,9% | 21 p.p. | 0 p.p. | 85,0% | 86,5% | -2 p.p. |
-
-## Vendas Contratadas
-
-No 3T25, as Vendas Brutas alcançaram R$ 1,9 bilhão (R$ 1,6 bilhão % Companhia), tendo o mês de setembro sido o melhor mês da história da Companhia, com um total de R$ 832 milhões (R$ 721 milhões % Companhia), evidenciando a resiliência da demanda que vem sendo observada ao longo de todo o ano. Desse modo, as Vendas Líquidas foram de R$ 1,6 bilhão no trimestre (R$ 1,4 bilhão % Companhia), crescimento de 10% comparado ao 3T24.
-
-Assim como ocorreu em relação aos Lançamentos, vale destacar a evolução da participação da Companhia no VGV líquido contratado no trimestre, que chegou a 87%. Observando-se, portanto, as Vendas Líquidas no % Companhia, houve crescimento de 16% em relação ao 3T24 e de 11% em relação ao 2T25.
-
-Analisando o mix de vendas, os produtos da marca Direcional representaram 50% do VGV líquido contratado no 3T25, e consequentemente os produtos da Riva responderam pelos 50% restantes. Com isso, ressalta-se a destacada performance da Riva no período, que registrou seu melhor desempenho trimestral da história, crescendo 48% sobre o 3T24 e 21% sobre o 2T25. Já as vendas referentes a produtos da Direcional foram impactadas pela incidência de lançamentos tardios no trimestre – aproximadamente 45% dos lançamentos foram realizados nas últimas semanas de setembro.
-
-As Vendas Líquidas do 9M25 somaram R$ 4,6 bilhões (R$ 3,8 bilhões % Companhia), enquanto no 3T25 LTM, o total líquido vendido foi de R$ 6,2 bilhões (R$ 5,1 bilhões % Companhia).
-
-É sempre importante evidenciar que parte das vendas do trimestre foi originada a partir de projetos desenvolvidos em SPEs não controladas ou controladas em conjunto com parceiros. A receita proveniente dessas vendas, portanto, não é consolidada diretamente na receita contábil da Companhia. Com isso, do VGV líquido contratado no 3T25, 89% são referentes a projetos que contribuem com a linha de Receita Líquida da Companhia, enquanto 11% irão impactar o resultado por meio da linha de Equivalência Patrimonial, considerando o percentual detido pelo Grupo Direcional em cada uma dessas SPEs.
-
-| Vendas Líquidas Contratadas (R$ milhões, exceto unidades e %) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a | 9M25 | 9M24 | Δ a/a |
-|---|---|---|---|---|---|---|---|---|
-| VGV Líquido Contratado (VGV 100%) | 1.641,8 | 1.677,3 | 1.494,1 | -2,1% | 9,9% | 4.645,6 | 4.420,5 | 5,1% |
-| Direcional | 818,5 | 996,5 | 938,1 | -17,9% | -12,7% | 2.658,8 | 2.662,4 | -0,1% |
-| Riva | 823,3 | 680,8 | 555,9 | 20,9% | 48,1% | 1.986,8 | 1.758,1 | 13,0% |
-| VGV Líquido Contratado (% Companhia) | 1.435,3 | 1.296,4 | 1.237,5 | 10,7% | 16,0% | 3.831,4 | 3.501,8 | 9,4% |
-| Direcional | 716,2 | 852,8 | 789,9 | -16,0% | -9,3% | 2.256,2 | 2.164,7 | 4,2% |
-| Riva | 719,0 | 443,6 | 447,6 | 62,1% | 60,6% | 1.575,3 | 1.337,1 | 17,8% |
-| Unidades Contratadas | 4.857 | 5.176 | 4.984 | -6,2% | -2,5% | 14.363 | 14.565 | -1,4% |
-| Direcional | 3.048 | 3.781 | 3.623 | -19,4% | -15,9% | 10.089 | 10.318 | -2,2% |
-| Riva | 1.809 | 1.395 | 1.361 | 29,7% | 32,9% | 4.274 | 4.247 | 0,6% |
-| VSO (VGV 100%) | 24% | 26% | 25% | -2 p.p. | -1 p.p. | 48% | 50% | -2 p.p. |
-| Direcional | 21% | 26% | 25% | -5 p.p. | -4 p.p. | 46% | 49% | -3 p.p. |
-| Riva | 27% | 27% | 25% | 0 p.p. | 2 p.p. | 50% | 52% | -2 p.p. |
-
-## Velocidade de Vendas (VSO)
-
-No 3T25, a Velocidade de Vendas consolidada – dada pelo indicador VSO (Vendas Líquidas Sobre Oferta) – foi de 24%, influenciada positivamente pelo desempenho de vendas da Riva, conforme mencionado anteriormente, tendo a VSO do segmento atingido 27% no período.
-
-Já a VSO dos projetos da Direcional foi de 21% no trimestre, impactada pela já comentada concentração de lançamentos nas últimas semanas de setembro. Vale comentar que, a VSO de Estoque desse segmento foi de 25% no período, em linha com o que tem sido observado.
-
-## Distratos
-
-No 3T25, o VGV distratado foi de R$ 267 milhões (R$ 207 milhões % Companhia), resultando em um índice de vendas canceladas sobre vendas brutas de 14,0%.
-
-Já no acumulado de nove meses em 2025, os distratos alcançaram R$ 642 milhões (R$ 495 milhões % Companhia), correspondendo a um índice de cancelamento de 12,1% sobre o VGV bruto contratado no período.
-
-| Distratos (R$ milhões, exceto %) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a | 9M25 | 9M24 | Δ a/a |
-|---|---|---|---|---|---|---|---|---|
-| Distratos (VGV 100%) | -266,5 | -233,0 | -183,9 | 14,4% | 44,9% | -641,6 | -397,6 | 61,4% |
-| Vendas Brutas (VGV 100%) | 1.908,3 | 1.910,3 | 1.678,0 | -0,1% | 13,7% | 5.287,3 | 4.818,1 | 9,7% |
-| % Distratos / Vendas Brutas | 14,0% | 12,2% | 11,0% | 1,8 p.p. | 3,0 p.p. | 12,1% | 8,3% | 3,9 p.p. |
-| Distratos (% Companhia) | -207,0 | -176,7 | -146,5 | 17,1% | 41,3% | -494,9 | -315,4 | 56,9% |
-| Vendas Brutas (% Companhia) | 1.642,2 | 1.473,1 | 1.384,0 | 11,5% | 18,7% | 4.326,3 | 3.817,2 | 13,3% |
-| % Distratos / Vendas Brutas | 12,6% | 12,0% | 10,6% | 0,6 p.p. | 2,0 p.p. | 11,4% | 8,3% | 3,2 p.p. |
-
-## Estoque
-
-O Grupo Direcional encerrou o trimestre com um VGV em Estoque de R$ 5,3 bilhões (R$ 4,5 bilhões % Companhia), o que correspondeu a um total de 15,3 mil unidades. Cerca de 3% do VGV total em Estoque é referente a unidades concluídas.
-
-| VGV Total | Direcional | Riva | Total |
-|---|---|---|---|
-| Em andamento (R$ milhões) | 2.952 | 2.168 | 5.120 |
-| % Total | 56% | 41% | 97% |
-| Concluído (R$ milhões) | 144 | 32 | 176 |
-| % Total | 3% | 1% | 3% |
-| Total (R$ milhões) | 3.096 | 2.200 | 5.296 |
-| % Total | 58% | 42% | 100% |
-| Total Unidades | 10.923 | 4.361 | 15.284 |
-
-| VGV % Companhia | Direcional | Riva | Total |
-|---|---|---|---|
-| Em andamento (R$ milhões) | 2.661 | 1.718 | 4.379 |
-| % Total | 59% | 38% | 97% |
-| Concluído (R$ milhões) | 98 | 20 | 118 |
-| % Total | 2% | 0% | 3% |
-| Total (R$ milhões) | 2.759 | 1.738 | 4.497 |
-| % Total | 61% | 39% | 100% |
-
-Cerca de 80% do VGV em Estoque está em projetos lançados a partir de 2024.
-
-## Repasses
-
-No 3T25, o VGV das unidades repassadas somou R$ 1,1 bilhão, marcando um crescimento de 20% em relação ao mesmo período do ano anterior.
-
-Por sua vez, o VGV repassado ao longo dos nove primeiros meses do ano totalizou R$ 3,0 bilhões, alcançando também 20% de crescimento frente ao montante repassado durante o 9M24. O desempenho endossa o aumento do ritmo de repasses, em conformidade com a expansão operacional da Companhia.
-
-## Empreendimentos Entregues
-
-A Companhia concluiu a entrega de 9 empreendimentos/etapas no terceiro trimestre de 2025, totalizando 3.569 unidades. Desse total, 82% correspondem a projetos lançados sob a marca Direcional, voltada ao segmento de habitação popular, enquanto os 18% restantes referem-se a produtos Riva.
-
-No 9M25, um total de 27 empreendimentos/etapas foram entregues pela Companhia, perfazendo ao todo 9.515 unidades. Desse total, 69% referem-se ao segmento Direcional e 31% ao segmento Riva.
-
-## Banco de Terrenos
-
-Ao final do 3T25, o banco de terrenos do Grupo Direcional totalizou um VGV de R$ 51,3 bilhões (R$ 46,2 bilhões % Companhia), correspondendo a um potencial de desenvolvimento de aproximadamente 220 mil unidades.
-
-O custo médio de aquisição do landbank é de 11% do VGV potencial, com 86% sendo pagos via permuta, o que se traduz em um reduzido impacto no caixa antes do início do desenvolvimento dos empreendimentos.
-
-| Evolução do Banco de Terrenos (R$ milhões) | Terrenos 2024 | Aquisições 9M25 | Lançamentos 9M25 | Ajustes 9M25 | Terrenos 9M25 | VGV % Cia. | Unidades |
-|---|---|---|---|---|---|---|---|
-| Direcional | 33.172 | 5.171 | (2.696) | 411 | 36.058 | 32.900 | 181.099 |
-| Riva | 13.068 | 3.468 | (2.260) | 919 | 15.194 | 13.309 | 39.168 |
-| PSV Total | 46.240 | 8.638 | (4.957) | 1.330 | 51.252 | 46.209 | 220.267 |
-
-### Aquisições de Terrenos
-
-Foram adquiridos 12 terrenos ao longo do 3T25, correspondendo a um potencial construtivo de aproximadamente 8,4 mil unidades e um VGV de R$ 2,7 bilhões (R$ 2,7 bilhões % Companhia). O custo médio de aquisição no trimestre foi de 10% do VGV, com 71% do pagamento a ocorrer por meio de permuta.
-
-Desse modo, as aquisições do acumulado do ano até setembro totalizaram um VGV potencial de R$ 8,6 bilhões (R$ 7,9 bilhões % Companhia), a um custo médio de aquisição de 12%, sendo que 83% do pagamento se dará via permuta.
-
-## Receita Líquida
-
-A Receita Líquida do Grupo Direcional totalizou R$ 1,2 bilhão no 3T25, superando em 27% o montante observado no 3T24 e em 9% o recorde anterior, que havia sido registrado no 2T25. No acumulado do ano até setembro, a Receita Líquida foi de R$ 3,1 bilhões, um crescimento de 29% sobre o 9M24.
-
-Considerando a Receita Líquida Total – que adiciona à receita contábil também a receita apropriada nas SPEs controladas em conjunto ou não controladas – o montante somou R$ 1,5 bilhão no trimestre, 4% acima do 2T25 e 25% acima do 3T24. No 9M25, a Receita Líquida Total atingiu R$ 4,0 bilhões, superando em 23% o valor registrado no 9M24. Nos últimos 12 meses (3T25 LTM), o indicador alcançou R$ 5,2 bilhões.
-
-| Receita Líquida Total (R$ milhões, exceto %) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a | 9M25 | 9M24 | Δ a/a |
-|---|---|---|---|---|---|---|---|---|
-| Receita Líquida Total | 1.455,9 | 1.406,1 | 1.163,9 | 3,5% | 25,1% | 4.012,4 | 3.245,3 | 23,6% |
-| Receita Líquida | 1.157,8 | 1.065,2 | 910,6 | 8,7% | 27,1% | 3.117,2 | 2.424,3 | 28,6% |
-| Receita Líquida de SPEs não Consolidadas | 298,0 | 340,9 | 253,3 | -12,6% | 17,7% | 895,2 | 821,1 | 9,0% |
-
-## Lucro Bruto
-
-No 3T25, o Lucro Bruto Ajustado somou R$ 487 milhões, crescendo 10% frente ao trimestre anterior e 39% frente ao 3º trimestre de 2024. A reconhecida eficiência operacional e o notável ganho de produtividade que a Companhia vem demonstrando trimestre após trimestre impulsionaram, mais uma vez, a Margem Bruta Ajustada a um novo recorde histórico, alcançando 42,1%, 40 bps acima do 2T25 e 350 bps acima do 3T24.
-
-Por sua vez, no 9M25, o Lucro Bruto Ajustado atingiu R$ 1,3 bilhão, superando em 42% o 9M24. A Margem Bruta Ajustada do período foi de 41,8%, representando uma expansão de 380 bps na comparação anual.
-
-| Lucro Bruto Ajustado (R$ milhões, exceto %) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a | 9M25 | 9M24 | Δ a/a |
-|---|---|---|---|---|---|---|---|---|
-| Lucro Bruto | 463,8 | 414,2 | 332,7 | 12,0% | 39,4% | 1.223,3 | 875,9 | 39,7% |
-| (+) Juros Capitalizados | 23,3 | 29,6 | 18,2 | -21,4% | 28,1% | 78,9 | 43,7 | 80,6% |
-| Lucro Bruto Ajustado | 487,1 | 443,9 | 350,9 | 9,7% | 38,8% | 1.302,2 | 919,6 | 41,6% |
-| Margem Bruta Ajustada | 42,1% | 41,7% | 38,5% | 0,4 p.p. | 3,5 p.p. | 41,8% | 37,9% | 3,8 p.p. |
-
-## Despesas Gerais e Administrativas (G&A)
-
-As Despesas Gerais e Administrativas (G&A) somaram R$ 69 milhões no 3T25, 13% acima do 2T25 e 31% acima do 3T24. A representatividade sobre a Receita Líquida foi de 5,9% no trimestre. O aumento observado deveu-se, sobretudo, a um provisionamento um pouco maior que o recorrente no decorrer do trimestre para o pagamento de PLR.
-
-Quando considerada a Receita Líquida Total – que contempla os projetos não consolidados na receita contábil da Companhia –, a representatividade do G&A foi de 4,7%.
-
-Considerado o acumulado do ano até setembro, o G&A totalizou R$ 184 milhões, um incremento de 20% sobre o 9M24. Ainda assim, a linha apresentou diluição em ambas as bases de comparação — redução de 40 bps sobre a Receita Líquida e de 10 bps sobre a Receita Líquida Total.
-
-## Despesas Comerciais
-
-A linha de Despesas Comerciais – composta, principalmente, por gastos com comissões, marketing e manutenção de pontos de venda – atingiu um total R$ 114 milhões no 3T25. Vale observar que os volumes recordes de lançamentos registrados nos últimos trimestres contribuem para o incremento dessa linha, uma vez que determinadas despesas, como gastos com marketing, por exemplo, concentram-se no momento do lançamento do produto, sendo apropriadas antecipadamente ao reconhecimento da receita, que é apropriada conforme venda da unidade e evolução de obra.
-
-Assim, a rubrica somou R$ 292 milhões no 9M25, representando 9,4% da Receita Líquida no período.
-
-## Resultado de Equivalência Patrimonial
-
-No 3T25, o Resultado de Equivalência Patrimonial foi de R$ 16 milhões, ficando 8% acima do observado no trimestre anterior. No acumulado do ano até setembro, a linha somou um resultado positivo de R$ 43 milhões, queda de 33% frente ao mesmo período de 2024.
-
-A redução observada reflete a já esperada menor participação no mix de vendas de projetos não consolidados no balanço da Companhia – SPEs controladas em conjunto com parceiros ou não controladas pela Direcional. Sob a ótica contábil, esses empreendimentos não impactam diretamente a Receita Líquida, sendo reconhecidos apenas via Resultado de Equivalência Patrimonial, conforme participação detida nas SPEs.
-
-## Outras Receitas e Despesas Operacionais
-
-As Outras Receitas e Despesas Operacionais apresentaram um resultado líquido negativo de R$ 14 milhões no 3T25. Convém ressaltar que houve um efeito positivo na rubrica, advindo de um resultado não recorrente de transações societárias, no valor líquido de R$ 25 milhões, composto por uma receita de R$ 36 milhões e de despesas relacionadas à operação que somaram R$ 11 milhões.
-
-Além disso, outros impactos nessa linha decorreram, principalmente, de: (i) constituições e reversões de provisões, que resultaram em um efeito líquido negativo de R$ 29 milhões; e (ii) despesas jurídicas recorrentes e afins, que totalizaram R$ 13 milhões.
-
-Nesse sentido, desconsiderando o efeito não recorrente com transações societárias, as Outras Despesas e Receitas Operacionais teriam somado um valor líquido negativo de R$ 39,3 milhões no trimestre, correspondendo a uma representatividade de 3,4% da Receita Líquida.
-
-## EBITDA
-
-No 3T25, o EBITDA Ajustado chegou em seu maior patamar histórico, alcançando R$ 302 milhões, um crescimento de 10% em comparação ao trimestre anterior e de 36% em relação ao mesmo trimestre de 2024. Diante disso, a Margem EBITDA Ajustada foi de 26,1% no trimestre, um incremento de 30 bps em relação ao 2T25 e de 170 bps sobre o 3T24.
-
-Vale destacar que o referido ajuste exclui os juros capitalizados na linha de Custos e os resultados não recorrentes alocados na linha de Outras Receitas e Despesas Operacionais.
-
-O EBITDA Ajustado totalizou R$ 810 milhões no 9M25, configurando um crescimento de 37% sobre o 9M24. A Margem EBITDA Ajustada do período atingiu 26,0%, 150 bps superior à margem do 9M24.
-
-| Recomposição do EBITDA (R$ milhões, exceto %) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a | 9M25 | 9M24 | Δ a/a |
-|---|---|---|---|---|---|---|---|---|
-| Lucro Líquido do Período | 229,7 | 183,7 | 160,5 | 25,0% | 43,1% | 577,9 | 456,9 | 26,5% |
-| (+) Depreciação e amortização | 20,3 | 19,7 | 16,3 | 2,9% | 24,9% | 58,1 | 51,0 | 13,7% |
-| (+) Imposto de renda e contribuição social | 27,4 | 22,5 | 19,8 | 21,6% | 38,7% | 71,0 | 47,1 | 50,9% |
-| (+) Participação dos acionistas minoritários | 53,3 | 36,9 | 24,2 | 44,5% | 120,1% | 117,2 | 66,7 | 75,7% |
-| (+/-) Resultado financeiro | (27,3) | (18,2) | (17,4) | 50,2% | 56,6% | (61,6) | (44,1) | 39,5% |
-| EBITDA | 303,4 | 244,7 | 203,3 | 24,0% | 49,2% | 762,6 | 577,6 | 32,0% |
-| Margem EBITDA | 26,2% | 23,0% | 22,3% | 3,2 p.p. | 3,9 p.p. | 24,5% | 23,8% | 0,6 p.p. |
-| (+) Custo financiamento à produção | 23,3 | 29,6 | 18,2 | -21,4% | 28,1% | 78,9 | 43,7 | 80,6% |
-| (-) Ajuste resultado não recorrente | (24,9) | - | - | n/a | n/a | (31,5) | (28,4) | 11,0% |
-| EBITDA Ajustado | 301,7 | 274,4 | 221,5 | 10,0% | 36,2% | 809,9 | 592,8 | 36,6% |
-| Margem EBITDA Ajustada | 26,1% | 25,8% | 24,3% | 0,3 p.p. | 1,7 p.p. | 26,0% | 24,5% | 1,5 p.p. |
-
-## Resultado Financeiro
-
-De maneira líquida, o Resultado Financeiro do trimestre foi positivo em R$ 27 milhões. Os principais fatores que impactaram a linha foram: (i) resultado líquido positivo de R$ 34 milhões, decorrente da receita de aplicações financeiras, das despesas com juros e tarifas bancárias e da atualização do passivo de cessão; (ii) resultado recorrente positivo de R$ 22 milhões, oriundo de atualizações monetárias e juros contratuais, majoritariamente vinculados a contas a receber de clientes; (iii) resultado negativo de R$ 14 milhões relacionado aos instrumentos derivativos utilizados para proteção contra variações de taxas de juros; e (iv) despesas decorrentes de vendas de recebíveis, no valor de R$ 4 milhões.
-
+5
+
+<!-- PAGE 6 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+LANÇAMENTOS
+O Grupo Direcional lançou um VGV de R$ 2,2 bilhões (R$ 2,0 bilhões % Companhia) no 3º trimestre de 2025, correspondendo a
+um crescimento de 54% sobre o 3T24 e de 13% em relação ao 2T25. Desse modo, o volume foi o maior já lançado em um único
+trimestre pela Companhia. Vale destacar o significativo aumento de participação da Companhia no VGV lançado, que atingiu
+94%. Nesse sentido, levando em conta o volume lançado no % Companhia, o crescimento foi de 54% em relação ao 3T24 e de
+45% na comparação com o 2T25.
+Nos 9 primeiros meses de 2025 (9M25), os Lançamentos totalizaram R$ 5,0 bilhões (R$ 4,2 bilhões % Companhia), o que
+configurou um aumento de 36% quando comparado ao 9M24. No período de 12 meses encerrados no 3T25 (3T25 LTM), o VGV
+lançado somou R$ 6,8 bilhões (R$ 5,6 bilhões % Companhia), 40% de incremento em relação ao 3T24 LTM.
+Lançamentos¹ -VGV 100% Lançamentos¹ -% Companhia
+(R$ milhões) (R$ milhões)
++36%
+4.957
++33%
+4.213
+3.650 2.260
+3.159 1.803
++54% 1.473
++54%
+1.220
+2.152
+2.018
+1.904
++13%
+1.393 842 1.189 2.696 1.309 1.393 1.129 +45%
+415 2.178 415 513 2.410
+1.939
+978 1.062 963 894 880 889
+3T24 2T25 3T25 9M24 9M25 3T24 2T25 3T25 9M24 9M25
+Riva Direcional
+Lançamentos 1 3T25 2T25 3T24     9M25 9M24  
+(R$ milhões, exceto unidades e %) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+VGV Lançado (VGV 100%) 2.151,6 1.903,9 1.393,3 13,0% 54,4% 4.956,6 3.650,5 35,8%
+Direcional 962,7 1.062,0 978,2 -9,3% -1,6% 2.696,1 2.177,7 23,8%
+Riva 1.188,9 841,9 415,1 41,2% 186,4% 2.260,5 1.472,8 53,5%
+VGV Lançado (% Companhia) 2.017,6 1.393,0 1.308,7 44,8% 54,2% 4.213,0 3.158,9 33,4%
+Direcional 888,8 880,2 893,6 1,0% -0,5% 2.409,9 1.939,1 24,3%
+Riva 1.128,8 512,8 415,1 120,1% 171,9% 1.803,1 1.219,8 47,8%
+Unidades Lançadas 6.449 5.096 4.638 26,6% 39,0% 14.969 11.063 35,3%
+Direcional 3.811 3.661 3.421 4,1% 11,4% 10.369 7.682 35,0%
+Riva 2.638 1.435 1.217 83,8% 116,8% 4.600 3.381 36,1%
+% Companhia Médio 93,8% 73,2% 93,9% 21 p.p. 0 p.p. 85,0% 86,5% -2 p.p.
+1 - Desconsiderando o projeto vendido no âmbito do Programa Pode Entrar, no 3T24.
+6
+
+<!-- PAGE 7 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+VENDAS CONTRATADAS
+No 3T25, as Vendas Brutas alcançaram R$ 1,9 bilhão (R$ 1,6 bilhão % Companhia), tendo o mês de setembro sido o melhor mês
+da história da Companhia, com um total de R$ 832 milhões (R$ 721 milhões % Companhia), evidenciando a resiliência da
+demanda que vem sendo observada ao longo de todo o ano. Desse modo, as Vendas Líquidas foram de R$ 1,6 bilhão no trimestre
+(R$ 1,4 bilhão % Companhia), crescimento de 10% comparado ao 3T241.
+Assim como ocorreu em relação aos Lançamentos, vale destacar a evolução da participação da Companhia no VGV líquido
+contratado no trimestre, que chegou a 87%. Observando-se, portanto, as Vendas Líquidas no % Companhia, houve crescimento
+de 16% em relação ao 3T24 e de 11% em relação ao 2T25.
+Analisando o mix de vendas, os produtos da marca Direcional representaram 50% do VGV líquido contratado no 3T25, e
+consequentemente os produtos da Riva responderam pelos 50% restantes. Com isso, ressalta-se a destacada performance da
+Riva no período, que registrou seu melhor desempenho trimestral da história, crescendo 48% sobre o 3T24 e 21% sobre o 2T25.
+Já as vendas referentes a produtos da Direcional foram impactadas pela incidência de lançamentos tardios no trimestre –
+aproximadamente 45% dos lançamentos foram realizados nas últimas semanas de setembro.
+As Vendas Líquidas do 9M25 somaram R$ 4,6 bilhões (R$ 3,8 bilhões % Companhia), enquanto no 3T25 LTM, o total líquido
+vendido foi de R$ 6,2 bilhões (R$ 5,1 bilhões % Companhia).
+É sempre importante evidenciar que parte das vendas do trimestre foi originada a partir de projetos desenvolvidos em SPEs não
+controladas ou controladas em conjunto com parceiros. A receita proveniente dessas vendas, portanto, não é consolidada
+diretamente na receita contábil da Companhia. Com isso, do VGV líquido contratado no 3T25, 89% são referentes a projetos
+que contribuem com a linha de Receita Líquida da Companhia, enquanto 11% irão impactar o resultado por meio da linha de
+Equivalência Patrimonial, considerando o percentual detido pelo Grupo Direcional em cada uma dessas SPEs.
+Vendas Líquidas¹ -VGV 100% Vendas Líquidas¹ -% Companhia
+(R$ milhões) (R$ milhões)
++5%
+4.646
+4.421 +9%
+3.831
+1.987 3.502
+1.758
+1.575
+1.337
++10%
++16%
+1.677 1.642
+1.494 -2% 1.435
+556 681 823 2.662 2.659 1 4 .2 4 3 8 7 1 4 .2 4 9 4 6 719 +11% 2.165 2.256
+938 997 819 790 853 716
+3T24 2T25 3T25 9M24 9M25 3T24 2T25 3T25 9M24 9M25
+Riva Direcional
+7
+
+<!-- PAGE 8 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+Vendas Líquidas Contratadas 1 3T25 2T25 3T24     9M25 9M24  
+(R$ milhões, exceto unidades e %) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+VGV Líquido Contratado (VGV 100%) 1.641,8 1.677,3 1.494,1 -2,1% 9,9% 4.645,6 4.420,5 5,1%
+Direcional 818,5 996,5 938,1 -17,9% -12,7% 2.658,8 2.662,4 -0,1%
+Riva 823,3 680,8 555,9 20,9% 48,1% 1.986,8 1.758,1 13,0%
+VGV Líquido Contratado (% Companhia) 1.435,3 1.296,4 1.237,5 10,7% 16,0% 3.831,4 3.501,8 9,4%
+Direcional 716,2 852,8 789,9 -16,0% -9,3% 2.256,2 2.164,7 4,2%
+Riva 719,0 443,6 447,6 62,1% 60,6% 1.575,3 1.337,1 17,8%
+Unidades Contratadas 4.857 5.176 4.984 -6,2% -2,5% 14.363 14.565 -1,4%
+Direcional 3.048 3.781 3.623 -19,4% -15,9% 10.089 10.318 -2,2%
+Riva 1.809 1.395 1.361 29,7% 32,9% 4.274 4.247 0,6%
+VSO (Vendas Sobre Oferta) em VGV 100% 24% 26% 25% -2 p.p. -1 p.p. 48% 50% -2 p.p.
+Direcional 21% 26% 25% -5 p.p. -4 p.p. 46% 49% -3 p.p.
+Riva 27% 27% 25% 0 p.p. 2 p.p. 50% 52% -2 p.p.
+1 - Desconsiderando o projeto vendido no âmbito do Programa Pode Entrar, no 3T24.
+VELOCIDADE DE VENDAS (VSO)
+No 3T25, a Velocidade de Vendas consolidada – dada pelo indicador VSO (Vendas Líquidas Sobre Oferta) – foi de 24%,
+influenciada positivamente pelo desempenho de vendas da Riva, conforme mencionado anteriormente, tendo a VSO do
+segmento atingido 27% no período.
+Já a VSO dos projetos da Direcional foi de 21% no trimestre, impactada pela já comentada concentração de lançamentos nas
+últimas semanas de setembro. Vale comentar que, a VSO de Estoque desse segmento foi de 25% no período, em linha com o
+que tem sido observado.
+8
+2 5
+3 T
+%
+2 4
+V e n d
+2 5 %
+4 T 2 4
+a s S o
+(V
+b r e O
+G V 1 0
+2 3 %
+1 T 2 5
+f e
+0 %
+r t) a ( V S O
+2 6 %
+2 T 2 5
+)
+2 4
+3 T
+%
+2 5
+
+<!-- PAGE 9 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+Distratos
+No 3T25, o VGV distratado foi de R$ 267 milhões (R$ 207 milhões % Companhia), resultando em um índice de vendas canceladas
+sobre vendas brutas de 14,0%.
+Já no acumulado de nove meses em 2025, os distratos alcançaram R$ 642 milhões (R$ 495 milhões % Companhia),
+correspondendo a um índice de cancelamento de 12,1% sobre o VGV bruto contratado no período.
+A tabela abaixo apresenta maiores detalhes sobre os Distratos no período:
+Distratos1 3T25 2T25 3T24     9M25 9M24  
+(R$ milhões, exceto %) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Distratos (VGV 100%) -266,5 -233,0 -183,9 14,4% 44,9% -641,6 -397,6 61,4%
+Vendas Brutas (VGV 100%) 1.908,3 1.910,3 1.678,0 -0,1% 13,7% 5.287,3 4.818,1 9,7%
+% Distratos / Vendas Brutas 14,0% 12,2% 11,0% 1,8 p.p. 3,0 p.p. 12,1% 8,3% 3,9 p.p.
+Distratos (% Companhia) -207,0 -176,7 -146,5 17,1% 41,3% -494,9 -315,4 56,9%
+Vendas Brutas (% Companhia) 1.642,2 1.473,1 1.384,0 11,5% 18,7% 4.326,3 3.817,2 13,3%
+% Distratos / Vendas Brutas 12,6% 12,0% 10,6% 0,6 p.p. 2,0 p.p. 11,4% 8,3% 3,2 p.p.
+1 - No VGV distratado, desconsideram-se as transferências de crédito de clientes da unidade originalmente adquirida para outra unidade de nosso estoque.
+ESTOQUE
+O Grupo Direcional encerrou o trimestre com um VGV em Estoque de R$ 5,3 bilhões (R$ 4,5 bilhões % Companhia), o que
+correspondeu a um total de 15,3 mil unidades. Cerca de 3% do VGV total em Estoque é referente a unidades concluídas.
+A tabela a seguir apresenta o Estoque a valor de mercado, com abertura por estágio de construção e por tipo de produto.
+VGV Total VGV % Companhia
+Estoque a Valor de Mercado Direcional Riva Total Direcional Riva Total
+Em andamento (R$ milhões) 2.952 2.168 5.120 2.661 1.718 4.379
+% Total 56% 41% 97% 59% 38% 97%
+Concluído (R$ milhões) 144 32 176 98 20 118
+% Total 3% 1% 3% 2% 0% 3%
+Total (R$ milhões) 3.096 2.200 5.296 2.759 1.738 4.497
+% Total 58% 42% 100% 61% 39% 100%
+Total Unidades 10.923 4.361 15.284 10.923 4.361 15.284
+% Total Unidades 71% 29% 100% 71% 29% 100%
+Os gráficos a seguir apresentam maior detalhamento sobre o Estoque e sua segmentação. Cabe destacar que cerca de 80% do
+VGV em Estoque está em projetos lançados a partir de 2024.
+9
+
+<!-- PAGE 10 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+REPASSES
+No 3T25, o VGV das unidades repassadas somou R$ 1,1 bilhão, marcando um crescimento de 20% em relação ao mesmo período
+do ano anterior.
+Por sua vez, o VGV repassado ao longo dos nove primeiros meses do ano totalizou R$ 3,0 bilhões, alcançando também 20% de
+crescimento frente ao montante repassado durante o 9M24. O desempenho endossa o aumento do ritmo de repasses, em
+conformidade com a expansão operacional da Companhia.
+EMPREENDIMENTOS ENTREGUES
+A Companhia concluiu a entrega de 9 empreendimentos/etapas no terceiro trimestre de 2025, totalizando 3.569 unidades.
+Desse total, 82% correspondem a projetos lançados sob a marca Direcional, voltada ao segmento de habitação popular,
+enquanto os 18% restantes referem-se a produtos Riva.
+No 9M25, um total de 27 empreendimentos/etapas foram entregues pela Companhia, perfazendo ao todo 9.515 unidades.
+Desse total, 69% referem-se ao segmento Direcional e 31% ao segmento Riva.
+10
+C o n
+<
+c
+2 0 2
+2 0 2
+2 0 2
+lu íd
+5
+4
+4
+o
+3
+1%
+8
+%
+%
+E s
+3 %
+t
+2
+o
+1
+D
+q u
+2 7
+%
+9 %
+ir e
+e
+%
+c
+p
+io
+o r a n
+(% V G V
+1 7 %
+n a l
+o d e L a n
+- 1 0 0 % )
+1 0 %
+R iv a
+8 9 9
+3 T 2 4
+ç
+3
+a
+1
+m
+%
++
+1
+2
+e n t
+2 2 %
+2 0 %
+.1 2 9
+T 2 5
+o
+(V G
+R e p
+V 1 0 0 %
+1 .0 7 5
+3 T 2 5
+4
+a
+-
+9
+sR
+%
+s e s
+$ m
+-5 %
+ilh õ e s )
+2
+9
+.4
+M
+7
+2
++
+6
+4
+2 0 %
+D
+2
+9
+ir
+.9
+M
+e
+7
+2
+c
+9
+5
+io n a l
+5
+A
+8 %
+b e r t
+(%
+uV r aG d o
+V -
+E
+1 0
+s0 t% o) q u
+4
+e
+2 %
+R iv a
+
+<!-- PAGE 11 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+BANCO DE TERRENOS
+Ao final do 3T25, o banco de terrenos do Grupo Direcional totalizou um VGV de R$ 51,3 bilhões (R$ 46,2 bilhões % Companhia),
+correspondendo a um potencial de desenvolvimento de aproximadamente 220 mil unidades.
+O custo médio de aquisição do landbank é de 11% do VGV potencial, com 86% sendo pagos via permuta, o que se traduz em
+um reduzido impacto no caixa antes do início do desenvolvimento dos empreendimentos.
+Evolução do Banco de Terrenos Terrenos Aquisições Lançamentos Terrenos VGV % Cia.
+Ajustes 1 Unidades
+(R$ milhões) 2024 9M25 9M25 9M25 9M25
+Direcional 33.172 5.171 (2.696) 411 36.058 32.900 181.099
+Riva 13.068 3.468 (2.260) 919 15.194 13.309 39.168
+PSV Total 46.240 8.638 (4.957) 1.330 51.252 46.209 220.267
+1 - Ajuste: atualização do preço de venda; distratos e permuta.
+Aquisições de Terrenos
+Foram adquiridos 12 terrenos ao longo do 3T25, correspondendo a um potencial construtivo de aproximadamente 8,4 mil
+unidades e um VGV de R$ 2,7 bilhões (R$ 2,7 bilhões % Companhia). O custo médio de aquisição no trimestre foi de 10% do
+VGV, com 71% do pagamento a ocorrer por meio de permuta.
+Desse modo, as aquisições do acumulado do ano até setembro totalizaram um VGV potencial de R$ 8,6 bilhões (R$ 7,9 bilhões
+% Companhia), a um custo médio de aquisição de 12%, sendo que 83% do pagamento se dará via permuta.
+11
+
+<!-- PAGE 12 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+DESEMPENHO ECONÔMICO-FINANCEIRO
+Receita Líquida
+A Receita Líquida do Grupo Direcional totalizou R$ 1,2 bilhão no 3T25, superando em 27% o montante observado no 3T24 e em
+9% o recorde anterior, que havia sido registrado no 2T25. No acumulado do ano até setembro, a Receita Líquida foi de R$ 3,1
+bilhões, um crescimento de 29% sobre o 9M24.
+Considerando a Receita Líquida Total1 – que adiciona à receita contábil também a receita apropriada nas SPEs controladas em
+conjunto ou não controladas – o montante somou R$ 1,5 bilhão no trimestre, 4% acima do 2T25 e 25% acima do 3T24. No
+9M25, a Receita Líquida Total1 atingiu R$ 4,0 bilhões, superando em 23% o valor registrado no 9M24. Nos últimos 12 meses
+(3T25 LTM), o indicador alcançou R$ 5,2 bilhões.
+Vale lembrar que o impacto contábil dos valores referentes a essas SPEs não consolidadas se dá efetivamente no Resultado de
+Equivalência Patrimonial, e não diretamente na linha de Receita Líquida.
+Receita Líquida Evolução Receita Líquida Total¹ -LTM
+(R$ milhões) (R$ bilhões)
++29%
+5,2
+5,0
++27% 3.117 4,1 4,5 4,7
++9% 2.424 3,2 3,5 3,8
+2,9
+911 1.065 1.158
+3T24 2T25 3T25 9M24 9M25 3T23 4T23 1T24 2T24 3T24 4T24 1T25 2T25 3T25
+LTM LTM LTM LTM LTM LTM LTM LTM LTM
+A tabela abaixo apresenta a composição da Receita Líquida Total1, segregada entre a Receita Líquida contábil e a receita apurada
+nas SPEs não consolidadas pela Companhia.
+Receita Líquida Total 3T25 2T25 3T24     9M25 9M24  
+(R$ milhões, exceto %) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Receita Líquida Total¹ 1.455,9 1.406,1 1.163,9 3,5% 25,1% 4.012,4 3.245,3 23,6%
+Receita Líquida 1.157,8 1.065,2 910,6 8,7% 27,1% 3.117,2 2.424,3 28,6%
+Receita Líquida de SPEs não Consolidadas 298,0 340,9 253,3 -12,6% 17,7% 895,2 821,1 9,0%
+1 - Receita Líquida Total: ajuste incluindo a receita líquida de SPEs não consolidadas no resultado (controladas em conjunto ou não controladas).
+Lucro Bruto
+No 3T25, o Lucro Bruto Ajustado1 somou R$ 487 milhões, crescendo 10% frente ao trimestre anterior e 39% frente ao 3º
+trimestre de 2024. A reconhecida eficiência operacional e o notável ganho de produtividade que a Companhia vem
+demonstrando trimestre após trimestre impulsionaram, mais uma vez, a Margem Bruta Ajustada1 a um novo recorde histórico,
+alcançando 42,1%, 40 bps acima do 2T25 e 350 bps acima do 3T24.
+Por sua vez, no 9M25, o Lucro Bruto Ajustado1 atingiu R$ 1,3 bilhão, superando em 42% o 9M24. A Margem Bruta Ajustada1 do
+período foi de 41,8%, representando uma expansão de 380 bps na comparação anual.
+12
+
+<!-- PAGE 13 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+Lucro Bruto Ajustado¹ Evolução da Margem Bruta Ajustada¹
+(R$ milhões e %) (R$ milhões e %)
+42,1%
+41,7% 42,1% 41,8% 41,5% 41,7%
+38,5% 37,9%
+39,4%
+38,5%
+37,8%
++42%
+487
+444
++39% 1.302
+351 364 371
++10% 920 319
+444 487
+351
+3T24 2T25 3T25 9M24 9M25 2T24 3T24 4T24 1T25 2T25 3T25
+Lucro Bruto Ajustado¹ Margem Bruta Ajustada¹ Lucro Bruto Ajustado¹ Margem Bruta Ajustada¹
+Lucro Bruto Ajustado1 3T25 2T25 3T24     9M25 9M24  
+(R$ milhões, exceto %) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Lucro Bruto 463,8 414,2 332,7 12,0% 39,4% 1.223,3 875,9 39,7%
+(+) Juros Capitalizados 23,3 29,6 18,2 -21,4% 28,1% 78,9 43,7 80,6%
+Lucro Bruto Ajustado¹ 487,1 443,9 350,9 9,7% 38,8% 1.302,2 919,6 41,6%
+Margem Bruta Ajustada¹ 42,1% 41,7% 38,5% 0,4 p.p. 3,5 p.p. 41,8% 37,9% 3,8 p.p.
+1 - Lucro Bruto e Margem Bruta ajustados: excluindo os juros capitalizados no custo.
+Despesas Gerais e Administrativas (G&A)
+Despesas Gerais e Administrativas (G&A)
+(R$ milhões e %)
+As Despesas Gerais e Administrativas (G&A) somaram R$ 69 milhões no
+3T25, 13% acima do 2T25 e 31% acima do 3T24. A representatividade 5,7% 5,7% 5,9% 6,3% 5,9%
+sobre a Receita Líquida foi de 5,9% no trimestre. O aumento observado
+deveu-se, sobretudo, a um provisionamento um pouco maior que o 4,5% 4,3% 4,7% 4,7% 4,6%
+recorrente no decorrer do trimestre para o pagamento de PLR.
++20%
+Quando considerada a Receita Líquida Total1 – que contempla os
+projetos não consolidados na receita contábil da Companhia –, a
++31%
+representatividade do G&A foi de 4,7%. 184
+154
++13%
+Considerado o acumulado do ano até setembro, o G&A totalizou R$ 184 52 61 69
+milhões, um incremento de 20% sobre o 9M24. Ainda assim, a linha 3T24 2T25 3T25 9M24 9M25
+apresentou diluição em ambas as bases de comparação — redução de
+Despesas Gerais e Administrativas
+40 bps sobre a Receita Líquida e de 10 bps sobre a Receita Líquida Total1.
+% Receita Líquida
+% Receita Líquida Total¹
+1 - Receita Líquida Total: ajuste incluindo a receita líquida de SPEs não consolidadas no resultado (controladas em conjunto ou não controladas).
+13
+
+<!-- PAGE 14 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+Despesas Comerciais Despesas Comerciais
+(R$ milhões e %)
+A linha de Despesas Comerciais – composta, principalmente, por gastos 8,8% 9,1% 9,8% 8,5% 9,4%
+com comissões, marketing e manutenção de pontos de venda – atingiu
+um total R$ 114 milhões no 3T25. Vale observar que os volumes recordes
++41%
+de lançamentos registrados nos últimos trimestres contribuem para o
+incremento dessa linha, uma vez que determinadas despesas, como
+gastos com marketing, por exemplo, concentram-se no momento do
+lançamento do produto, sendo apropriadas antecipadamente ao +42% 292
++18% 207
+reconhecimento da receita, que é apropriada conforme venda da unidade
+80 97 114
+e evolução de obra.
+3T24 2T25 3T25 9M24 9M25
+Assim, a rubrica somou R$ 292 milhões no 9M25, representando 9,4% da
+Receita Líquida no período. Despesas Comerciais % Receita Líquida
+Resultado de Equivalência Patrimonial
+Resultado de Equivalência Patrimonial
+(R$ milhões)
+No 3T25, o Resultado de Equivalência Patrimonial foi de R$ 16 milhões,
+ficando 8% acima do observado no trimestre anterior. No acumulado do -33%
+ano até setembro, a linha somou um resultado positivo de R$ 43 milhões,
+queda de 33% frente ao mesmo período de 2024.
+A redução observada reflete a já esperada menor participação no mix de
+vendas de projetos não consolidados no balanço da Companhia – SPEs 64
+controladas em conjunto com parceiros ou não controladas pela -13% 43
+Direcional. Sob a ótica contábil, esses empreendimentos não impactam +8%
+diretamente a Receita Líquida, sendo reconhecidos apenas via Resultado 19 15 16
+de Equivalência Patrimonial, conforme participação detida nas SPEs.
+3T24 2T25 3T25 9M24 9M25
+Outras Receitas e Despesas Operacionais
+As Outras Receitas e Despesas Operacionais apresentaram um resultado líquido negativo de R$ 14 milhões no 3T25. Convém
+ressaltar que houve um efeito positivo na rubrica, advindo de um resultado não recorrente de transações societárias, no valor
+líquido de R$ 25 milhões, composto por uma receita de R$ 36 milhões e de despesas relacionadas à operação que somaram R$
+11 milhões.
+Além disso, outros impactos nessa linha decorreram, principalmente, de: (i) constituições e reversões de provisões, que
+resultaram em um efeito líquido negativo de R$ 29 milhões; e (ii) despesas jurídicas recorrentes e afins, que totalizaram R$ 13
+milhões.
+Nesse sentido, desconsiderando o efeito não recorrente com transações societárias, as Outras Despesas e Receitas Operacionais
+teriam somado um valor líquido negativo de R$ 39,3 milhões no trimestre, correspondendo a uma representatividade de 3,4%
+da Receita Líquida.
+14
+
+<!-- PAGE 15 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+EBITDA
+No 3T25, o EBITDA Ajustado1 chegou em seu maior patamar histórico,
+alcançando R$ 302 milhões, um crescimento de 10% em comparação ao
+trimestre anterior e de 36% em relação ao mesmo trimestre de 2024.
+Diante disso, a Margem EBITDA Ajustada1 foi de 26,1% no trimestre, um
+incremento de 30 bps em relação ao 2T25 e de 170 bps sobre o 3T24.
+Vale destacar que o referido ajuste exclui os juros capitalizados na linha
+de Custos e os resultados não recorrentes alocados na linha de Outras
+Receitas e Despesas Operacionais.
+O EBITDA Ajustado1 totalizou R$ 810 milhões no 9M25, configurando um
+crescimento de 37% sobre o 9M24. A Margem EBITDA Ajustada1 do
+período atingiu 26,0%, 150 bps superior à margem do 9M24.
+A seguir, a tabela detalha a recomposição do EBITDA e do EBITDA
+Ajustado1 e as respectivas margens:
+Recomposição do EBITDA 3T25 2T25 3T24     9M25 9M24  
+(R$ milhões, exceto %) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Lucro Líquido do Período 229,7 183,7 160,5 25,0% 43,1% 577,9 456,9 26,5%
+(+) Depreciação e amortização 20,3 19,7 16,3 2,9% 24,9% 58,1 51,0 13,7%
+(+) Imposto de renda e contribuição social 27,4 22,5 19,8 21,6% 38,7% 71,0 47,1 50,9%
+(+) Participação dos acionistas minoritários 53,3 36,9 24,2 44,5% 120,1% 117,2 66,7 75,7%
+(+/-) Resultado financeiro (27,3) (18,2) (17,4) 50,2% 56,6% (61,6) (44,1) 39,5%
+EBITDA 303,4 244,7 203,3 24,0% 49,2% 762,6 577,6 32,0%
+Margem EBITDA 26,2% 23,0% 22,3% 3,2 p.p. 3,9 p.p. 24,5% 23,8% 0,6 p.p.
+(+) Custo financiamento à produção 23,3 29,6 18,2 -21,4% 28,1% 78,9 43,7 80,6%
+(-) Ajuste resultado não recorrente (24,9) - - n/a n/a (31,5) (28,4) 11,0%
+EBITDA Ajustado¹ 301,7 274,4 221,5 10,0% 36,2% 809,9 592,8 36,6%
+Margem EBITDA Ajustada¹ 26,1% 25,8% 24,3% 0,3 p.p. 1,7 p.p. 26,0% 24,5% 1,5 p.p.
+1 - EBITDA e Margem EBITDA ajustados: excluindo os juros capitalizados no custo e o resultado não recorrente alocado na linha de Outras Receitas e Despesas Operacionais.
+Resultado Financeiro
+De maneira líquida, o Resultado Financeiro do trimestre foi positivo em R$ 27 milhões. Os principais fatores que impactaram a
+linha foram: (i) resultado líquido positivo de R$ 34 milhões, decorrente da receita de aplicações financeiras, das despesas com
+juros e tarifas bancárias e da atualização do passivo de cessão; (ii) resultado recorrente positivo de R$ 22 milhões, oriundo de
+atualizações monetárias e juros contratuais, majoritariamente vinculados a contas a receber de clientes; (iii) resultado negativo
+de R$ 14 milhões relacionado aos instrumentos derivativos utilizados para proteção contra variações de taxas de juros; e (iv)
+despesas decorrentes de vendas de recebíveis, no valor de R$ 4 milhões.
 Com isso, no acumulado do ano até setembro, o Resultado Financeiro apresentou saldo líquido positivo de R$ 62 milhões.
+15
+2 4 ,3 %
+2 2 1
+3 T 2 4
+E B IT
+2 5 ,8 %
++ 3 6 %
+2 7 4
+2 T 2 5
+D A A ju s
+E
+ta
+B IT D A
+(R $ m
+2 6 ,1 %
+3 0 2
+3 T 2 5
+d o ¹
+A
+ilh
+ju s t a d o
+õ e s e % )
++ 1 0 %
+M a rg e m
+¹
+E
+2
+9
+B
+4 ,5 %
++ 3
+5 9 3
+M 2 4
+IT D A A
+2 6 ,0 %
+7 %
+8 1 0
+9 M 2 5
+ju s ta d a ¹
 
-## Participantes não controladores em SPE e SCP ("Minoritários")
+<!-- PAGE 16 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+Participantes não controladores em SPE e SCP (“Minoritários”)
+No 3T25, o lucro atribuído a sócios minoritários em SPEs e SCPs totalizou R$ 53 milhões, representando um crescimento de 44%
+em relação ao trimestre anterior. No 9M25, o resultado destinado aos minoritários somou R$ 117 milhões.
+Vale recordar que, no 2T25, houve a entrada de um novo sócio no capital social da Riva, que na ocasião havia adquirido 9,98%
+de participação, conforme amplamente divulgado ao mercado. Posteriormente, já após o encerramento do 3T25, ocorreu a
+conclusão da alienação de participação na Riva, na qual o sócio passou a deter 15% do capital social da subsidiária, conforme
+divulgado ao mercado em 22 de outubro de 2025.
+Entretanto, a Companhia destaca que seu pipeline de produtos tem refletido, de forma crescente, um número cada vez maior
+de empreendimentos desenvolvidos integralmente pelo Grupo Direcional, isto é, com menor presença de sócios minoritários
+nos projetos.
+Lucro Líquido
+Em mais um trimestre, o Lucro Líquido da Companhia alcançou novo recorde, chegando a R$ 230 milhões, representando um
+crescimento de 25% sobre o recorde anterior, registrado no 2T25, e de 43% em relação ao 3T24. A Margem Líquida do 3T25 foi
+de 19,8%, um ganho de 260 bps sobre o 2T25 e de 220 bps sobre o 3T24. No acumulado de nove meses, o Lucro Líquido somou
+R$ 578 milhões, 27% de crescimento em comparação ao 9M24, com uma Margem Líquida de 18,5%.
+Excluindo efeitos não recorrentes ocorridos no trimestre – alocados na linha de “Outras Receitas e Despesas Operacionais” – o
+Lucro Líquido Operacional1 foi de R$ 205 milhões, crescendo 11% em relação ao 2T25 e 31% sobre o 3T24, também configurando
+o maior patamar histórico nessa métrica. Nesse cenário, a Margem Líquida Operacional1 foi de 17,7%, 50 bps acima do 2T25 e
+60 bps acima do 3T24. Com isso, o ROE Anualizado Ajustado1 também atingiu sua maior marca, encerrando o 3T25 em 35%.
+No 9M25, o Lucro Líquido Operacional1 totalizou R$ 546 milhões, montante 33% superior ao que havia sido observado no 9M24.
+A Margem Líquida Operacional1 foi de 17,5%, um incremento de 50 bps no período comparativo.
+Lucro Líquido Lucro Líquido Operacional¹
+(R$ milhões e %) (R$ milhões e %)
+17,6% 17,2% 19,8% 18,8% 18,5% 17,1% 17,2% 17,7% 17,0% 17,5%
++26%
++33%
++43% 578 +31% 546
+457
++25% +11% 411
+160 184 230 156 184 205
+3T24 2T25 3T25 9M24 9M25 3T24 2T25 3T25 9M24 9M25
+Lucro Líquido Margem Líquida Lucro Líquido Operacional¹ Margem Líquida Operacional¹
+16
 
-No 3T25, o lucro atribuído a sócios minoritários em SPEs e SCPs totalizou R$ 53 milhões, representando um crescimento de 44% em relação ao trimestre anterior. No 9M25, o resultado destinado aos minoritários somou R$ 117 milhões.
+<!-- PAGE 17 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+A tabela a seguir mostra o Lucro Líquido do período, bem como a recomposição do Lucro Líquido Operacional1:
+Lucro Líquido Operacional1 3T25 2T25 3T24     9M25 9M24  
+(R$ milhões, exceto %) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Lucro Líquido 230 184 160 25,0% 43,1% 578 457 26,5%
+(+/-) Resultado com swap de ações - - -5 n/a -100% - -17 -100%
+(+/-) Outras despesas (receitas) não recorrentes -25 - - n/a n/a -32 -28 11%
+Lucro Líquido Operacional¹ 205 184 156 11,4% 31,4% 546 411 32,9%
+Margem Líquida Operacional¹ 17,7% 17,2% 17,1% 0,5 p.p. 0,6 p.p. 17,5% 17,0% 0,5 p.p.
+1 – Lucro Líquido e Margem Líquida Operacional: ajuste pelo resultado não recorrente alocado na rubrica “Outras Receitas e Despesas Operacionais” e resultado de swap de ações, conforme o caso.
+Resultado a Apropriar de Vendas de Imóveis
+A Receita a Apropriar (REF) por vendas de imóveis do Grupo Direcional Receita a Apropriar de Vendas de Imóveis
+encerrou o 3T25 em R$ 3,7 bilhões, saldo 8% maior que o do trimestre (R$ milhões e %)
+anterior e 41% maior que um ano antes. A Margem REF cresceu 30 bps
+em relação ao 2T25 e 180 bps frente ao 3T24, atingindo 45,2%. 43,4% 43,9% 44,1% 44,9% 45,2%
+Segmentando a Receita REF, observa-se que o saldo referente aos
++41%
+projetos da Riva foi de R$ 1,7 bilhão ao final do 3T25, 14% acima do 2T25.
++8%
+Por sua vez, a Margem REF da subsidiária alcançou 46,0%, em linha com a
+margem do trimestre anterior.
+Mais uma vez, o resultado corrobora a sólida performance do Grupo
+3.686
+3.398
+Direcional trimestre após trimestre, pautada por uma execução 3.116
+2.618 2.845
+responsável nos canteiros, eficiência de processos e foco em
+rentabilidade.
+A tabela a seguir apresenta maior detalhamento do Resultado a Apropriar 3T24 4T24 1T25 2T25 3T25
+de Vendas de Imóveis:
+Receita a Apropriar (REF) Margem REF
+Resultado a Apropriar de Vendas de Imóveis 3T25 2T25 3T24    
+(R$ milhões, exceto %) (a) (b) (c) (a/b) (a/c)
+Receitas a Apropriar de Vendas de Imóveis 3.686,2 3.398,1 2.618,3 8,5% 40,8%
+Custo a Incorrer -2.020,4 -1.873,5 -1.482,6 7,8% 36,3%
+Resultado a Apropriar Incorporação 1.665,8 1.524,6 1.135,7 9,3% 46,7%
+Margem Resultado de Exercícios Futuros (REF) 45,2% 44,9% 43,4% 0,3 p.p. 1,8 p.p.
+17
 
-Vale recordar que, no 2T25, houve a entrada de um novo sócio no capital social da Riva, que na ocasião havia adquirido 9,98% de participação, conforme amplamente divulgado ao mercado. Posteriormente, já após o encerramento do 3T25, ocorreu a conclusão da alienação de participação na Riva, na qual o sócio passou a deter 15% do capital social da subsidiária, conforme divulgado ao mercado em 22 de outubro de 2025.
+<!-- PAGE 18 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+DESTAQUES DO BALANÇO PATRIMONIAL
+Caixa e Equivalentes de Caixa e Aplicações Financeiras
+A Companhia encerrou o trimestre com um saldo de Caixa e Equivalentes de Caixa e Aplicações Financeiras de R$ 2,4 bilhões,
+um incremento de 15% sobre o trimestre anterior e de 59% sobre o mesmo trimestre do ano anterior. Parte desse aumento
+deveu-se a mais uma bem-sucedida oferta pública de Certificados de Recebíveis Imobiliários (CRI), com uma captação total de
+R$ 600 milhões, reforçando ainda mais a posição de caixa e a liquidez da Companhia, permitindo a manutenção de um olhar
+voltado para o crescimento das operações e a geração de valor aos acionistas.
+Caixa e Equivalentes e Aplicações Financeiras 3T25 2T25 3T24    
+(R$ milhões, exceto %) (a) (b) (c) (a/b) (a/c)
+Caixa e Equivalentes de Caixa 1.575,5 1.251,7 858,2 25,9% 83,6%
+Aplicações Financeiras 874,0 872,9 687,6 0,1% 27,1%
+Total 2.449,5 2.124,6 1.545,8 15,3% 58,5%
+Contas a Receber
+Ao final do 3T25, o saldo contábil de Contas a Receber1 era de R$ 2,6 bilhões, considerando as parcelas circulante e não
+circulante. É válido dizer que a Companhia realiza, de maneira estratégica, algumas operações estruturadas de cessão de
+recebíveis imobiliários, com a única finalidade de buscar a contínua eficiência na gestão do capital de giro. Embora ocorra a
+cessão dos recebíveis, o ativo cedido permanece contabilizado na rubrica de Contas a Receber. Desse modo, o recebimento de
+caixa em virtude da venda de carteira tem como contrapartida, portanto, a constituição de uma conta passiva conhecida como
+Passivo de Cessão.
+Considerando o valor líquido de Contas a Receber por vendas de imóveis – isto é, já descontado o respectivo passivo –, observa-
+se um saldo equivalente a R$ 1,7 bilhão. Com base nesse montante e na Receita Líquida proveniente de vendas de imóveis, o
+indicador de Dias de Contas a Receber² foi de 131 dias.
+Contas a Receber¹ 3T25 2T25 3T24    
+(R$ milhões, exceto %) (a) (a) (c) (a/b) (a/c)
+Venda de Imóveis 2.567,2 2.362,2 1.594,4 8,7% 61,0%
+Prestação de Serviços 47,4 17,3 15,1 174,5% 213,0%
+Venda de Terreno 5,4 5,2 5,4 5,0% -0,7%
+Total 2.619,9 2.384,7 1.615,0 9,9% 62,2%
+Parcela Circulante 1.348,0 1.280,5 844,4 5,3% 59,6%
+Parcela Não-Circulante 1.271,9 1.104,1 770,6 15,2% 65,1%
+Contas a Receber (Venda de Imóveis) 2.567,2 2.362,2 1.594,4 8,7% 61,0%
+Passivo de Cessão 907,3 877,1 509,8 3,4% 78,0%
+Contas a Receber líquido de Passivo de Cessão 1.659,9 1.485,2 1.084,6 11,8% 53,0%
+Receita Líquida com Venda de Imóveis 1.136,4 1.045,7 889,0 8,7% 27,8%
+Dias de Contas a Receber² 131 128 110 2,9% 19,7%
+1 - O Contas a Receber contábil de curto prazo é composto pelos saldos devedores dos clientes corrigidos e reconhecidos no resultado proporcionalmente ao PoC (Percentage of Completion),
+considerando a data do habite-se para o pagamento da parcela de financiamento pelos clientes à Direcional, mais a receita reconhecida dos projetos de empreitada.
+2 - Dias de Contas a Receber calculado como Contas a Receber por Venda de Imóveis, líquido de Passivo de Cessão, sobre Receita Líquida com Venda de Imóveis no trimestre, multiplicado por 90
+(número de dias em um trimestre).
+18
 
-Entretanto, a Companhia destaca que seu pipeline de produtos tem refletido, de forma crescente, um número cada vez maior de empreendimentos desenvolvidos integralmente pelo Grupo Direcional, isto é, com menor presença de sócios minoritários nos projetos.
+<!-- PAGE 19 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+É importante evidenciar que, pelas regras contábeis atuais, o reconhecimento de contas a receber é proporcional ao índice de
+execução das respectivas obras (Percentage of Completion - PoC). Sendo assim, o saldo de Contas a Receber das unidades
+vendidas e ainda não construídas não está integralmente refletido nas Demonstrações Financeiras. Diante disso, o saldo total
+de Contas a Receber da Companhia ao final do 3T25 era de R$ 6,3 bilhões.
+Desse total, os recebíveis relacionados às operações de financiamento direto ao cliente – seja por meio de tabela direta (em
+que a Companhia financia integralmente o valor do imóvel ao comprador) ou via crédito pró-soluto (ou seja, quando se considera
+apenas a parcela não financiada por instituições financeiras) – totalizaram R$ 2,7 bilhões ao final do 3T25. A tabela abaixo
+detalha essa carteira gerencial, levando em consideração apenas os recebíveis referentes às SPEs que são consolidadas no
+balanço da Companhia:
+Composição da Carteira Gerencial 3T25 2T25 3T24 Δ % Δ %
+(R$ milhões, exceto %) (a) (b) (c) (a/b) (a/c)
+Tabela Direta 1.863 1.534 1.101 21% 69%
+Pré-chaves 614 471 387 30% 59%
+Pós-chaves 1.249 1.063 714 18% 75%
+Pró-Soluto 833 763 600 9% 39%
+Pré-chaves 265 237 183 12% 45%
+Pós-chaves 568 526 416 8% 36%
+Carteira Total 2.696 2.298 1.701 17% 59%
+Por fim, destaca-se que, ao término do 3T25, o saldo do Passivo de Cessão consolidado no balanço da Companhia era de R$ 907
+milhões. Desse montante, R$ 643 milhões referem-se a cessão de recebíveis cujos créditos contam com a garantia do imóvel,
+sendo que, após a conclusão das obras e a formalização da alienação fiduciária, a Companhia não mantém qualquer coobrigação
+em relação aos créditos. Por sua vez, os recebíveis em caráter pró-soluto totalizaram R$ 227 milhões no encerramento do
+período.
+Vale ressaltar que, em determinadas operações, há investimentos realizados pela própria Companhia na forma de cotas
+subordinadas, as quais são contabilizadas no Ativo Não Circulante. Ao final do 3T25, o saldo das cotas subordinadas era de R$
+168 milhões, resultando, assim, em uma exposição líquida em Passivo de Cessão de R$ 739 milhões. É muito importante frisar
+que essa subordinação se dá no âmbito de operações de cessão de recebíveis cujos créditos contam com garantia real, por meio
+de alienação fiduciária das unidades imobiliárias em favor do credor.
+Endividamento
+O Grupo Direcional encerrou o 3T25 com um saldo de Empréstimos e Financiamentos de R$ 2,6 bilhões, dos quais 91% referem-
+se a obrigações de longo prazo (passivo não circulante). O prazo médio ponderado de vencimento do endividamento foi de 67
+meses.
+Levando em conta os saldos de (i) Empréstimos e Financiamentos; (ii) Caixa e Equivalentes de Caixa e Aplicações Financeiras; e
+(iii) a posição dos contratos de swaps de juros a receber ou a pagar, a Companhia encerrou o trimestre com dívida líquida de R$
+104 milhões. O índice de alavancagem, dado pela razão entre Dívida Líquida1 e Patrimônio Líquido, foi de 3,8% ao final do
+período. Desse modo, o perfil conservador de alavancagem financeira continua permitindo à Companhia manter o equilíbrio de
+sua estrutura de capital e seguir atenta aos diversos cenários que se colocam adiante.
+Abaixo, está a abertura do endividamento por modalidade e indexador ao final do 3T25, além do cronograma de amortização.
+19
 
-## Lucro Líquido
+<!-- PAGE 20 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+Endividamento 3T25 2T25 3T24    
+(R$ milhões, exceto %) (a) (b) (c) (a/b) (a/c)
+Empréstimos e Financiamentos 2.579,6 2.026,9 1.680,6 27,3% 53,5%
+CRI 2.065,4 1.523,0 1.260,1 35,6% 63,9%
+Debêntures 0,0 0,0 104,9 0,0% -100,0%
+Financiamento à Produção 513,3 502,8 313,8 2,1% 63,6%
+FINAME e Leasing 1,0 1,1 1,9 -14,7% -50,9%
+Caixa e Equivalentes 2.449,5 2.124,6 1.545,8 15,3% 58,5%
+Dívida Líquida (Caixa Líquido) antes dos swaps 130,1 -97,7 134,9 -233,2% -3,5%
+Posição de contratos de swaps 26,0 39,8 43,5 -34,6% -40,2%
+Dívida Líquida (Caixa Líquido)1 104,1 -137,5 91,3 -175,7% 14,0%
+Dívida Líquida1 / Patrimônio Líquido 3,8% -5,6% 4,1% 9 p.p. 0 p.p.
+Empréstimos e Financiamentos por indexador 2.579,6 2.026,9 1.680,6 27,3% 53,5%
+TR 513,3 502,8 313,8 2,1% 63,6%
+IPCA2 1.020,9 808,9 810,6 26,2% 25,9%
+CDI 680,3 531,3 490,2 28,0% 38,8%
+Prefixado2 365,1 183,9 66,1 98,6% 452,3%
+1 - Dívida Líquida (Caixa Líquido): Saldo total das linhas de Empréstimos e Financiamentos reduzido pelo saldo de Caixa e Equivalentes de Caixa e Aplicações Financeiras e somado ao saldo das posições
+em aberto de contratos de swaps para proteção de flutuações de taxas de juros.
+2 - Para os títulos indexados ao IPCA e prefixados, foram contratados instrumentos de swap de taxa de juros para trocar a indexação para CDI.
+Geração de Caixa
+O Grupo Direcional apresentou uma geração de caixa1 de R$ 113 milhões no 3T25. Desse modo, o montante total gerado nos
+nove primeiros meses do ano chegou a R$ 493 milhões.
+1 - Geração de caixa: variação da dívida líquida ajustada por pagamento de dividendos, recompra de ações e variação no saldo de contratos de operações de swap de juros.
+20
+Am
+F in a n c ia m
+L e a s in g
+M e rc a d o d
+S a ld o d e S
+2 3 8 1 4 7
+té 1 2 1 3 -2 4
+e s e s m e s e s
+C r o n o g r a m
+e n to à P ro d u ç ã
+e C a p ita is
+w a p
+5 3 1
+2 9 7
+2 5 -3 6 3 7 -4 8
+m e s e s m e s e s
+a d e A
+(R $
+o - S F H
+1 5 7
+4 9 -6 0
+m e s e s
+m o r tiz
+m ilh õ e s
+1 8 7
+6 1 -7 2
+m e s e s
+a) ç
+7m
+ã o d a
+2 6 8
+3 -8 4
+e s e s
+D
+8m
+ív id a
+2 3 1
+5 -9 6
+e s e s
+9m
+2 3 1
+7 -1 0
+e s e
+8s >m
+2 9 3
+1 0 8
+e s e s
+2 .5 5 4
+5 1 3
+1
+2 .0 6 5
+-2 6
+S a ld o
+T o ta l
+B r e a k d o w n E m p r é(% s tim o
+d o S a
+C R I
+8 0 %
+2 0 %
+S F H
+sld e F
+o )
+0
+in a
+%
+L e
+n
+a
+c
+s
+ia
+in
+m
+g
+e n to s
+Geração de Caixa
+(R$ milhões)
+493
+395
+159
+113
+-15
+4T24 1T25 2T25 3T25 9M25
 
-Em mais um trimestre, o Lucro Líquido da Companhia alcançou novo recorde, chegando a R$ 230 milhões, representando um crescimento de 25% sobre o recorde anterior, registrado no 2T25, e de 43% em relação ao 3T24. A Margem Líquida do 3T25 foi de 19,8%, um ganho de 260 bps sobre o 2T25 e de 220 bps sobre o 3T24. No acumulado de nove meses, o Lucro Líquido somou R$ 578 milhões, 27% de crescimento em comparação ao 9M24, com uma Margem Líquida de 18,5%.
+<!-- PAGE 21 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+Declarações contidas neste comunicado relativas às perspectivas dos negócios, projeções de resultados operacionais e
+financeiros e referências ao potencial de crescimento da Companhia, constituem meras previsões e foram baseadas nas
+expectativas e estimativas da Administração em relação ao desempenho futuro da Companhia. Embora a Companhia acredite
+que tais previsões sejam baseadas em suposições razoáveis, ela não assegura que elas sejam alcançadas. As expectativas e
+estimativas que baseiam as perspectivas futuras da Companhia são altamente dependentes do comportamento do mercado,
+da situação econômica e política do Brasil, de regulações estatais existentes e futuras, da indústria e dos mercados
+internacionais e, portanto, estão sujeitas a mudanças que fogem ao controle da Companhia e de sua Administração. A
+Companhia não se compromete a publicar atualizações ou revisar as expectativas, estimativas e previsões contidas neste
+comunicado decorrentes de informações ou eventos futuros.
+CÓDIGO DA AÇÃO: DIRR3
+CONFERÊNCIA DE RESULTADOS CONTATOS
+Cotação em 30/09/2025: R$ 16,17
+Data: 13/11/2025 – Quinta-feira
+Equipe de RI
+09:00 - Horário de Brasília
+Número de Ações (Ex-Tesouraria): (31) 3431-5509 | (31) 3431-5512
+07:00 - Horário de Nova Iorque
+520 milhões ri@direcional.com.br
+ri.direcional.com.br
+Valor de Mercado:
+R$ 8,4 bilhões / US$ 1,6 bilhão Dados para Conexão:
+Site Institucional
+Free Float: Zoom www.direcional.com.br
+62% https://us06web.zoom.us/webinar/register/W
+N_XwQXLWN8SHK_BBqND-FPOQ
+Endereço
+Volume médio diário 3T25: Rua dos Otoni, 177 - 14º andar
+3,0 milhões de ações YouTube Belo Horizonte - MG
+R$ 61,3 milhões https://www.youtube.com/live/gpJAQUS0VqA CEP: 30.150-270
+10.317 negócios
+21
 
-Excluindo efeitos não recorrentes ocorridos no trimestre – alocados na linha de "Outras Receitas e Despesas Operacionais" – o Lucro Líquido Operacional foi de R$ 205 milhões, crescendo 11% em relação ao 2T25 e 31% sobre o 3T24, também configurando o maior patamar histórico nessa métrica. Nesse cenário, a Margem Líquida Operacional foi de 17,7%, 50 bps acima do 2T25 e 60 bps acima do 3T24. Com isso, o ROE Anualizado Ajustado também atingiu sua maior marca, encerrando o 3T25 em 35%.
+<!-- PAGE 22 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+BALANÇO PATRIMONIAL CONSOLIDADO
+Balanço Patrimonial - Consolidado (RS Mil) 30/09/2025 31/12/2024  
+Ativo circulante 5.613.159 4.571.386 23%
+Caixa e equivalentes de caixa e aplicações financeiras 2.449.506 1.615.181 52%
+Contas a receber 1.348.006 992.821 36%
+Estoques 1.442.734 1.643.111 -12%
+Crédito com partes relacionadas 80.933 71.054 14%
+Tributos a recuperar 38.964 37.062 5%
+Contas a receber por alienação de investimentos 2.744 5.833 -53%
+Outros créditos 250.272 206.324 21%
+Ativo não circulante 6.802.575 5.496.020 24%
+Aplicações financeiras 168.215 99.714 69%
+Contas a receber 1.271.939 846.706 50%
+Estoques 4.761.035 3.888.979 22%
+Depósitos judiciais 23.484 21.555 9%
+Tributos a recuperar 9.461 20.611 -54%
+Contas a receber por alienação de investimentos 5.799 7.630 -24%
+Outros créditos 150.924 143.513 5%
+Investimentos 105.527 212.504 -50%
+Imobilizado 266.560 220.762 21%
+Intangível 39.631 34.046 16%
+Total do ativo 12.415.734 10.067.406 23%
+31/12/2023
+Balanço Patrimonial - Consolidado (RS Mil) 30/09/2025 31/12/2024  
+Passivo circulante 1.427.396 1.508.358 -5%
+Empréstimos, financiamentos e debêntures 238.164 202.562 18%
+Passivo de cessão 198.428 169.847 17%
+Fornecedores 170.298 128.837 32%
+Fornecedores - Risco Sacado 15.862 7.576 109%
+Obrigações trabalhistas 103.684 68.360 52%
+Obrigações tributárias 58.012 55.567 4%
+Financiamento por arrendamento 10.120 7.911 28%
+Credores por imóveis compromissados 127.395 194.059 -34%
+Adiantamento de clientes 96.239 66.546 45%
+Outras contas a pagar 203.389 184.636 10%
+Dividendos propostos 0 299.399 -100%
+Provisão para garantia 23.488 21.964 7%
+Débitos com partes relacionadas 182.317 101.094 80%
+Passivo não circulante 8.268.156 6.335.297 31%
+Empréstimos, financiamentos e debêntures 2.341.473 1.347.099 74%
+Passivo de cessão 708.838 524.452 35%
+Fornecedores 13.970 11.116 26%
+Provisão para garantia 25.483 21.072 21%
+Obrigações tributárias 59.310 28.523 108%
+Financiamento por arrendamento 77.318 75.773 2%
+Credores por imóveis compromissados 4.287.585 3.655.700 17%
+Adiantamento de clientes 632.661 568.086 11%
+Provisão para riscos tributários, trabalhistas e cíveis 39.713 34.319 16%
+Outras contas a pagar 81.805 69.157 18%
+Patrimônio líquido 2.720.182 2.223.751 22%
+Capital social 1.181.857 1.181.857 -
+Gastos com emissões de ações -21.994 -21.994 -
+Ações em tesouraria -8.042 -9.536 -16%
+Reservas de capital 185.857 185.178 0%
+Ajuste de avaliação patrimonial 167.444 -31.759 -
+Reservas de lucro 362.661 711.711 -49%
+Lucro no período 577.910 -
+2.445.693 2.015.457 21%
+Participação de não controladores 274.489 208.294 32%
+Total do passivo e patrimônio líquido 12.415.734 10.067.406 23%
+22
 
-No 9M25, o Lucro Líquido Operacional totalizou R$ 546 milhões, montante 33% superior ao que havia sido observado no 9M24. A Margem Líquida Operacional foi de 17,5%, um incremento de 50 bps no período comparativo.
+<!-- PAGE 23 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+DEMONSTRAÇÃO DE RESULTADOS CONSOLIDADA
+Demonstração de Resultados - Consolidado (R$ Mil) 3T25 2T25 3T24     9M25 9M24  
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Receita operacional líquida 1.157.823 1.065.210 910.598 8,7% 27,1% 3.117.165 2.424.260 28,6%
+Custo da venda de imóveis e serviços prestados -694.023 -650.982 -577.881 6,6% 20,1% -1.893.856 -1.548.313 22,3%
+Lucro bruto 463.800 414.228 332.717 12,0% 39,4% 1.223.309 875.947 39,7%
+Despesas gerais e administrativas -68.636 -60.634 -52.276 13,2% 31,3% -184.403 -153.761 19,9%
+Despesas comerciais -113.940 -96.860 -80.402 17,6% 41,7% -291.785 -206.706 41,2%
+Resultado com equivalência patrimonial 16.173 14.911 18.500 8,5% -12,6% 43.452 64.376 -32,5%
+Outras receitas e despesas operacionais -14.319 -46.633 -31.522 -69,3% -54,6% -86.033 -53.320 61,4%
+Receitas (despesas) operacionais -180.722 -189.216 -145.700 -4,5% 24,0% -518.769 -349.411 48,5%
+Despesas financeiras -92.014 -79.992 -59.330 15,0% 55,1% -233.296 -165.286 41,1%
+Receitas financeiras 119.310 98.161 76.764 21,5% 55,4% 294.872 209.434 40,8%
+Resultado financeiro 27.296 18.169 17.434 50,2% 56,6% 61.576 44.148 39,5%
+Resultado antes do imposto de renda e CSLL 310.374 243.181 204.451 27,6% 51,8% 766.116 570.684 34,2%
+IR e CSLL - corrente e diferido -27.400 -22.538 -19.761 21,6% 38,7% -71.047 -47.085 50,9%
+Resultado líquido antes de participantes em SCPs e SPEs 282.974 220.643 184.690 28,2% 53,2% 695.069 523.599 32,7%
+Participantes em SCPs e SPEs -53.322 -36.901 -24.226 44,5% 120,1% -117.159 -66.682 75,7%
+Lucro líquido do período 229.652 183.742 160.464 25,0% 43,1% 577.910 456.917 26,5%
+Margem Bruta 40,1% 38,9% 36,5% 1,2 p.p. 3,5 p.p. 39,2% 36,1% 3,1 p.p.
+Margem Bruta Ajustada1 42,1% 41,7% 38,5% 0,4 p.p. 3,5 p.p. 41,8% 37,9% 3,8 p.p.
+Margem Líquida 19,8% 17,2% 17,6% 2,6 p.p. 2,2 p.p. 18,5% 18,8% -0,3 p.p.
+1 - Margem Bruta ajustada: excluindo os juros capitalizados no custo.
+23
 
-| Lucro Líquido Operacional (R$ milhões, exceto %) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a | 9M25 | 9M24 | Δ a/a |
-|---|---|---|---|---|---|---|---|---|
-| Lucro Líquido | 230 | 184 | 160 | 25,0% | 43,1% | 578 | 457 | 26,5% |
-| (+/-) Resultado com swap de ações | - | - | -5 | n/a | -100% | - | -17 | -100% |
-| (+/-) Outras despesas (receitas) não recorrentes | -25 | - | - | n/a | n/a | -32 | -28 | 11% |
-| Lucro Líquido Operacional | 205 | 184 | 156 | 11,4% | 31,4% | 546 | 411 | 32,9% |
-| Margem Líquida Operacional | 17,7% | 17,2% | 17,1% | 0,5 p.p. | 0,6 p.p. | 17,5% | 17,0% | 0,5 p.p. |
+<!-- PAGE 24 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+DEMONSTRAÇÃO DE FLUXO DE CAIXA CONSOLIDADA
+Demonstração de Fluxo de Caixa - Consolidado (RS Mil) 30/09/2025 30/09/2024
+Fluxo de caixa das atividades operacionais
+Lucro antes do imposto de renda e da contribuição social 766.116 570.684
+Ajustes para conciliar o resultado às disponibilidades geradas pelas atividades operacionais
+Depreciações e amortizações 58.052 51.036
+Resultado de equivalência patrimonial -43.452 -64.376
+Receita de aplicações financeiras -75.355 -18.214
+Provisão para garantia 24.403 15.149
+Juros sobre encargos e financiamentos 195.788 154.375
+Hedge accounting - Valor justo 13.964 -25.580
+Resultado com derivativos 106 2.189
+Provisão para riscos tributários, trabalhistas e cíveis 19.847 16.144
+Resultado com permuta física -38.385 -45.350
+Alienação de investimentos -49.637 -28.644
+Amortização de Mais Valia 13.491 -
+Correção do contas a receber por aquisição de participações societárias -80 -
+Baixa de arrendamentos - -2.898
+Ajuste a valor presente sobre contas a receber 29.064 26.693
+Ajuste a valor presente sobre financiamento por arrendamento 5.072 4.208
+Despesas com cessão de recebíveis 10.224 4.721
+Ajuste ao valor realizável líquido de estoque concluído 5 -1
+Correção passivo de cessão 40.265 23.178
+Provisão para perdas de contas a receber 69.053 38.539
+Provisão para plano de opções de ações 11.506 5.113
+Provisão para participação nos Lucros 14.162 17.764
+Acréscimos (decréscimo) em ativos
+Contas a receber -852.413 -666.252
+Estoques 143.599 148.917
+Créditos diversos -41.528 2.704
+Partes relacionadas 44.250 -32.559
+Depósitos judiciais -1.929 -3.608
+Tributos a recuperar 9.248 -7.302
+(Decréscimo) acréscimo em passivos
+Fornecedores 12.421 34.832
+Obrigações trabalhistas 21.162 12.863
+Obrigações tributárias 17.617 11.810
+Credores por imóveis compromissados -173.639 -145.994
+Adiantamento de clientes 8.913 41.861
+Contas a pagar -1.317 -13.740
+Provisão para riscos tributários, trabalhistas e cíveis -14.453 -16.660
+Partes relacionadas 81.223 13.279
+Garantia de obra -18.468 -14.680
+Outros Passivos 21.410 -
+Imposto de renda e contribuição social pagos -51.525 -33.241
+Caixa líquido gerado pelas (aplicado nas) atividades operacionais 268.780 76.960
+Fluxo de caixa das atividades de investimento
+Acréscimo (decréscimo) de investimentos (SCPs e SPEs) -33.348 -83.608
+Dividendos recebidos 39.953 14.120
+Alienação de investimentos 199.491 124.271
+Aportes e Mútuos -12.376 21.438
+Acréscimo do imobilizado -51.286 -30.404
+Acréscimo de intangível -18.119 -32.825
+A plicações financeiras (resgate e aportes, líquidos) -44.002 -31.035
+Caixa líquido gerado (aplicado) nas atividades de investimento 80.313 -18.043
+Fluxo de caixa das atividades de financiamento
+Alienação de ações em tesouraria -7 -
+Dividendos pagos -646.063 -358.370
+Ingresso de cessão de recebíveis 313.636 359.423
+Pagamento de cessão de recebíveis -160.855 -64.685
+Recompra de ações -18.960 -
+Amortização do financiamento por arrendamento -7.813 -6.330
+Juros pagos sobre arrendamento -934 -297
+Ingressos de empréstimos 1.474.078 722.901
+Pagamento de custos de estruturação de dividas -39.517 -9.172
+Amortizações dos empréstimos -494.323 -366.319
+Juros pagos -133.105 -74.944
+Dividendos pagos a sócios não controladores -74.217 -40.009
+Aumento (redução) de capital por não controladores 222.456 3.076
+Caixa líquido gerado (aplicado) nas atividades de financiamento 434.376 165.274
+Aumento (redução) de caixa e equivalentes de caixa, líquidos 783.469 224.191
+Caixa e equivalentes de caixa
+No início do período 792.054 633.978
+No final do período 1.575.523 858.169
+24
 
-## Resultado a Apropriar de Vendas de Imóveis
+<!-- PAGE 25 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+BALANÇO PATRIMONIAL CONSOLIDADO - RIVA
+Balanço Patrimonial - Consolidado (RS Mil) 30/09/2025 31/12/2024  
+Ativo circulante 1.677.441 1.209.474 39%
+Caixa, equivalentes de caixa e aplicações financeiras 562.486 269.760 109%
+Contas a receber 491.479 357.416 38%
+Estoques 473.924 501.234 -5%
+Crédito com partes relacionadas 42.366 32.824 29%
+Tributos a recuperar 7.381 5.085 45%
+Outros créditos 99.805 43.155 131%
+Ativo não circulante 2.433.273 1.889.165 29%
+Aplicações financeiras 34.290 55.493 -38%
+Contas a receber 683.389 451.198 51%
+Estoques 1.622.109 1.267.155 28%
+Depósitos judiciais 2.159 2.132 1%
+Tributos a recuperar 552 712 -22%
+Contas a receber por alienação de investimentos 5.298 7.129 -26%
+Outros créditos 22.961 19.917 15%
+Investimentos 31.200 67.062 -53%
+Imobilizado 31.230 18.253 71%
+Intangível 85 114 -25%
+Total do ativo 4.110.714 3.098.639 33%
+31/12/2023
+Balanço Patrimonial - Consolidado (RS Mil) 30/09/2025 31/12/2024  
+Passivo circulante 443.186 305.824 45%
+Empréstimos, financiamentos e debêntures 21.807 17.118 27%
+Fornecedores 49.421 38.660 28%
+Fornecedores - Risco Sacado 12.162 2.885 322%
+Obrigações trabalhistas 23.491 10.596 122%
+Obrigações tributárias 22.843 22.192 3%
+Financiamento por arrendamento 100 96 4%
+Credores por imóveis compromissados 46.409 53.099 -13%
+Adiantamento de clientes 60.365 30.298 99%
+Outras contas a pagar 55.075 23.406 135%
+Passivo de cessão 101.364 69.246 46%
+Provisão para garantia 6.181 4.208 47%
+Débitos com partes relacionadas 43.968 34.020 29%
+Passivo não circulante 2.878.810 2.018.670 43%
+Empréstimos, financiamentos e debêntures 441.567 141.702 212%
+Fornecedores 4.878 4.017 21%
+Provisão para garantia 10.849 9.041 20%
+Tributos correntes com recolhimento diferido 32.215 16.284 98%
+Credores por imóveis compromissados 1.583.329 1.220.274 30%
+Adiantamento de clientes 236.225 242.354 -3%
+Provisão para riscos tributários, trabalhistas e cíveis 1.612 360 348%
+Outras contas a pagar 69.129 69.129 -
+Passivo de cessão 499.006 315.509 58%
+Patrimônio líquido 788.718 774.145 2%
+Patrimônio líquido atribuível aos acionistas 753.263 735.659 2%
+Participação dos não controladores 35.455 38.486 -8%
+Total do passivo e patrimônio líquido 4.110.714 3.098.639 33%
+25
 
-A Receita a Apropriar (REF) por vendas de imóveis do Grupo Direcional encerrou o 3T25 em R$ 3,7 bilhões, saldo 8% maior que o do trimestre anterior e 41% maior que um ano antes. A Margem REF cresceu 30 bps em relação ao 2T25 e 180 bps frente ao 3T24, atingindo 45,2%.
+<!-- PAGE 26 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+DEMONSTRAÇÃO DE RESULTADOS CONSOLIDADA - RIVA
+Demonstração de Resultados - Consolidado (R$ Mil) 3T25 2T25 3T24     9M25 9M24  
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Receita operacional líquida 487.159 365.306 323.832 33,4% 50,4% 1.178.199 846.802 39,1%
+Custo da venda de imóveis e serviços prestados -283.814 -222.903 -202.753 27,3% 40,0% -701.536 -541.858 29,5%
+Lucro bruto 203.345 142.403 121.079 42,8% 67,9% 476.663 304.944 56,3%
+Despesas comerciais, gerais e administrativas -44.833 -30.934 -25.524 44,9% 75,7% -108.025 -61.990 74,3%
+Resultado com equivalência patrimonial 6.556 5.157 9.035 27,1% -27,4% 19.810 20.256 -2,2%
+Outras receitas e despesas operacionais -3.351 -3.600 -3.246 -6,9% 3,2% -8.381 -10.624 -21,1%
+Receitas (despesas) operacionais -41.628 -29.377 -19.735 41,7% 110,9% -96.596 -52.358 84,5%
+Resultado financeiro 4.610 -5.849 -8.741 -178,8% -152,7% -5.885 -11.980 -50,9%
+Resultado antes do imposto de renda e CSLL 166.327 107.177 92.603 55,2% 79,6% 374.182 240.606 55,5%
+IR e CSLL - corrente e diferido -12.063 -7.609 -7.553 58,5% 59,7% -26.880 -18.958 41,8%
+Resultado líquido antes de participantes em SCPs e SPEs 154.264 99.568 85.050 54,9% 81,4% 347.302 221.648 56,7%
+Participantes em SCPs e SPEs -13.755 -8.943 -1.813 53,8% 658,7% -32.020 -14.410 122,2%
+Lucro líquido do período 140.509 90.625 83.237 55,0% 68,8% 315.282 207.238 52,1%
+Margem Bruta 41,7% 39,0% 37,4% 2,8 p.p. 4,4 p.p. 40,5% 36,0% 4,4 p.p.
+Margem Bruta Ajustada1 43,2% 41,0% 38,7% 2,2 p.p. 4,5 p.p. 42,3% 37,4% 4,9 p.p.
+Margem Líquida 28,8% 24,8% 25,7% 4,0 p.p. 3,1 p.p. 26,8% 24,5% 2,3 p.p.
+1 - Margem Bruta ajustada: excluindo os juros capitalizados no custo.
+26
 
-Segmentando a Receita REF, observa-se que o saldo referente aos projetos da Riva foi de R$ 1,7 bilhão ao final do 3T25, 14% acima do 2T25. Por sua vez, a Margem REF da subsidiária alcançou 46,0%, em linha com a margem do trimestre anterior.
+<!-- PAGE 27 -->
+3T25
+DIVULGAÇÃO DE RESULTADOS
+GLOSSÁRIO
+Classificação dos empreendimentos pelo Grupo Direcional, conforme o segmento econômico ao qual se destinam:
+Direcional Empreendimentos residenciais com preço médio por unidade de até R$ 350 mil, geralmente enquadrados no Programa
+Minha Casa, Minha Vida – Faixas 1, 2 e 3.
+Riva Empreendimentos residenciais destinados a clientes de média renda, desenvolvidos nas SPEs objeto de aporte de ativos na
+subsidiária integral da Direcional denominada Riva Incorporadora S.A. Geralmente, os empreendimentos são enquadrados
+no Programa Minha Casa, Minha Vida – Faixa 4 (preço médio por unidade de até R$ 500 mil), ou vendidos fora do Programa
+(com preço médio por unidade acima dos R$ 500 mil).
+Legado Empreendimentos do segmento MAC (Médio Padrão, Médio-Alto Padrão e Comercial), desenvolvidos no modelo de
+incorporação e construção anterior.
+Novo Modelo Modelo de negócios consolidado a partir de 2015 para desenvolvimento dos empreendimentos residenciais da Companhia.
+Tem como principais características a possibilidade de repasses na planta e a adoção de construção industrializada.
+Banco de Terrenos (Landbank) – Terrenos mantidos em estoque com a estimativa de VGV futuro dos mesmos.
+EBITDA Ajustado - EBITDA Ajustado é igual ao EBITDA (lucro antes do resultado financeiro, dos encargos financeiros incluídos na rubrica de custos dos
+imóveis vendidos, do Imposto de Renda e da Contribuição Social, das despesas de depreciação e amortização) menos a participação dos acionistas não
+controladores e menos resultados não recorrentes, geralmente alocados na linha de Outras Receitas e Despesas Operacionais. Entendemos que o ajuste
+a valor presente das contas a receber de unidades vendidas e não entregues registradas como receita (despesa) operacional bruta fazem parte das
+nossas atividades operacionais e, portanto, não excluímos esta receita (despesa) no cálculo do EBITDA Ajustado. O EBITDA Ajustado não é uma medida
+de desempenho financeiro segundo as Práticas Contábeis Adotadas no Brasil, tampouco deve ser considerado isoladamente, ou como alternativa ao
+lucro líquido, como medida de desempenho operacional, ou alternativa aos fluxos de caixa operacionais, ou como medida de liquidez. O EBITDA Ajustado
+funciona como indicador de nosso desempenho econômico geral, que não é afetado por flutuações nas taxas de juros, alterações da carga tributária do
+Imposto de Renda e da Contribuição Social ou dos níveis de depreciação e amortização.
+LTM - Período que compreende os últimos 12 meses (Last Twelve Months, na sigla em inglês).
+Método PoC – De acordo com o IFRS, as receitas, custos e despesas relacionadas a empreendimentos imobiliários, são apropriadas com base no método
+contábil do custo incorrido (“Percentage of Completion - PoC”), medindo-se o progresso da obra pelos custos reais incorridos versus os gastos totais
+orçados para cada fase do empreendimento.
+Permuta Financeira – Sistema de compra de terreno pelo qual o proprietário do terreno recebe o pagamento em dinheiro, em geral calculado como um
+percentual do VGV do empreendimento, a ser pago de acordo com a apuração de receita das vendas das unidades do projeto.
+Permuta Física – Sistema de compra de terreno pelo qual o proprietário do terreno recebe em pagamento um determinado número de unidades do
+empreendimento a ser construído no mesmo.
+Programa Minha Casa, Minha Vida (MCMV) – Atual denominação atribuída ao programa de incentivo à habitação popular (anteriormente, Programa
+Casa Verde e Amarela).
+Recursos do SFH – Recursos do Sistema Financeiro da Habitação (SFH) são originados do Fundo de Garantia por Tempo de Serviço (FGTS) e dos depósitos
+de caderneta de poupança.
+Resultado a Apropriar – Resultado do saldo de transações de vendas de imóveis já contratadas (decorrente dos imóveis cuja construção não foi ainda
+concluída) e seus respectivos custos orçados a incorrer.
+Vendas Líquidas Contratadas – VGV decorrente de todos os contratos de venda de imóveis celebrados em determinado período, incluindo a venda de
+unidades lançadas no período e a venda de unidades em estoque, líquida de distratos.
+VGV – Valor Geral de Vendas. Valor total a ser potencialmente obtido pela venda de todas as unidades de determinado empreendimento imobiliário ao
+preço de lançamento. Há possibilidade de o VGV lançado não ser realizado ou diferir significativamente do valor das Vendas Contratadas, uma vez que
+a quantidade de Unidades efetivamente vendidas poderá ser diferente da quantidade de unidades lançadas e/ou o preço efetivo de venda de cada
+unidade poderá divergir do preço de lançamento.
+VGV Lançado - Valor Geral de Vendas das unidades lançadas em determinado período.
+27
 
-| Resultado a Apropriar (R$ milhões, exceto %) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a |
-|---|---|---|---|---|---|
-| Receitas a Apropriar de Vendas de Imóveis | 3.686,2 | 3.398,1 | 2.618,3 | 8,5% | 40,8% |
-| Custo a Incorrer | -2.020,4 | -1.873,5 | -1.482,6 | 7,8% | 36,3% |
-| Resultado a Apropriar Incorporação | 1.665,8 | 1.524,6 | 1.135,7 | 9,3% | 46,7% |
-| Margem Resultado de Exercícios Futuros (REF) | 45,2% | 44,9% | 43,4% | 0,3 p.p. | 1,8 p.p. |
+<!-- PAGE 28 -->
+3Q25
+EARNINGS RELEASE
+Belo Horizonte, November 12, 2025 - Direcional Engenharia S/A one of the largest homebuilders and real estate development companies
+in Brazil, focused on the development of low-income and medium-income projects, and operating in several regions of the Brazilian Territory,
+discloses here its operating and financial statements for the third quarter of 2025 (3Q25). Unless otherwise expressed, the information in
+this document is expressed in the national currency (Brazilian Reais - BRL or R$) and the Potential Sales Value (PSV) demonstrates the
+consolidated value (100%). The Company’s consolidated financial statements are prepared in accordance with accounting practices adopted
+in Brazil, which are based on Brazilian Corporate Law and on the regulations issued by the Brazilian Securities Commission (CVM).
+3Q25 EARNINGS RELEASE
+✓ RECORD-HIGH ADJUSTED GROSS MARGIN1: 42.1% IN 3Q25, A 40-BPS GROWTH VERSUS 2Q25
+AND A 350-BPS GROWTH VERSUS 3Q24
+✓ NET REVENUE OF BRL 1.2 BILLION IN 3Q25, UP 27% FROM 3Q24 AND 9% ABOVE THE PREVIOUS
+RECORD (2Q25)
+✓ BACKLOG MARGIN REACHED 45.2%, EXPANDING 30 BPS FROM 2Q25 AND 180 BPS FROM 3Q24
+✓ NET INCOME TOTALED BRL 230 MILLION IN THE QUARTER, GROWING 25% VERSUS 2Q25 AND
+43% VERSUS 3Q24
+✓ ANNUALIZED ROE2 OF 35% IN 3Q25, ANOTHER RECORD FOR THE METRIC
+OTHER HIGHLIGHTS
+▪ Net Revenue of BRL 3.1 billion in the year to September (9M25), up 29% from 9M24.
+▪ Total Net Revenue3 reached BRL 1.5 billion in 3Q25 and BRL 5.2 billion in the last twelve months (3Q25
+LTM).
+▪ In 3Q25, Operating Net Income2 (100%) of BRL 258 million, growing 17% versus 2Q25 and 43% versus 3T24,
+with an Operating Net Margin2 of 22.3%.
+▪ Leverage ratio (Net Debt-to-Equity) of 3.8% at the end of 3Q25.
+▪ Deferred (Backlog) Revenue totaled BRL 3.7 billion at the end of the quarter.
+▪ Cash Generation of BRL 113 million in 3Q25 and BRL 493 million in 9M25.
+1 - Adjustment excluding capitalized interest.
+2 - Adjustment excluding non-recurring results under “Other Operating Income and Expenses” and equity swap results, as applicable.
+3 - Adjustment including revenue from non-consolidated SPVs (non-controlled SPVs or jointly controlled with partners).
+1
 
-## Caixa e Equivalentes de Caixa e Aplicações Financeiras
+<!-- PAGE 29 -->
+3Q25
+EARNINGS RELEASE
+TABLE OF CONTENTS
+MESSAGE FROM THE BOARD ............................................................................................................................................................................... 3
+KEY FIGURES .......................................................................................................................................................................................................... 5
+LAUNCHES ............................................................................................................................................................................................................... 6
+NET SALES .............................................................................................................................................................................................................. 7
+NET SALES SPEED (VSO INDEX) .......................................................................................................................................................................... 8
+Canceled Sales...................................................................................................................................................................................................... 9
+INVENTORY .............................................................................................................................................................................................................. 9
+TRANSFERS ........................................................................................................................................................................................................... 10
+PROJECTS DELIVERED ........................................................................................................................................................................................ 10
+LANDBANK ............................................................................................................................................................................................................ 11
+Land Acquisition ................................................................................................................................................................................................. 11
+ECONOMIC AND FINANCIAL PERFORMANCE .................................................................................................................................................. 12
+Net Revenue ........................................................................................................................................................................................................ 12
+Gross Profit ......................................................................................................................................................................................................... 12
+General and Administrative Expenses (G&A) .................................................................................................................................................. 13
+Selling Expenses ................................................................................................................................................................................................ 14
+Equity Income ..................................................................................................................................................................................................... 14
+Other Operating Income and Expenses............................................................................................................................................................ 14
+EBITDA................................................................................................................................................................................................................. 15
+Financial Result .................................................................................................................................................................................................. 15
+Non-controlling Interest in SPVs and SCPs (“Minority Interest”) .................................................................................................................. 16
+Net Income........................................................................................................................................................................................................... 16
+Deferred Results from Real Estate Sales ......................................................................................................................................................... 17
+BALANCE SHEET HIGHLIGHTS ........................................................................................................................................................................... 18
+Cash and Cash Equivalents and Short-Term Investments ............................................................................................................................. 18
+Accounts Receivable .......................................................................................................................................................................................... 18
+Indebtedness ....................................................................................................................................................................................................... 19
+Cash Generation ................................................................................................................................................................................................. 20
+CONSOLIDATED BALANCE SHEET .................................................................................................................................................................... 22
+CONSOLIDATED INCOME STATEMENT ............................................................................................................................................................. 23
+CONSOLIDATED CASH FLOW STATEMENT ...................................................................................................................................................... 24
+CONSOLIDATED BALANCE SHEET - RIVA......................................................................................................................................................... 25
+CONSOLIDATED INCOME STATEMENT - RIVA .................................................................................................................................................. 26
+GLOSSARY ............................................................................................................................................................................................................ 27
+2
 
-A Companhia encerrou o trimestre com um saldo de Caixa e Equivalentes de Caixa e Aplicações Financeiras de R$ 2,4 bilhões, um incremento de 15% sobre o trimestre anterior e de 59% sobre o mesmo trimestre do ano anterior. Parte desse aumento deveu-se a mais uma bem-sucedida oferta pública de Certificados de Recebíveis Imobiliários (CRI), com uma captação total de R$ 600 milhões, reforçando ainda mais a posição de caixa e a liquidez da Companhia.
+<!-- PAGE 30 -->
+3Q25
+EARNINGS RELEASE
+MESSAGE FROM THE BOARD
+We are pleased to share with our shareholders the results for the third quarter of 2025 (3Q25), a tangible reflection of the
+dedication and effort we bring to our business every day in order to take the Direcional Group’s name further. We continue to
+make steady progress toward the goals we set for the year, maintaining the same enthusiasm and commitment that have guided
+us from the very beginning of this journey.
+In line with our expectations for demand in the affordable and mid-income housing segments, we saw both the expansion of
+the addressable market and the increase in household purchasing power reflected in another quarter of strong performance
+across key operational metrics. In this context, it is worth highlighting the immediate availability of products in inventory and in
+the pipeline that qualify for Tier 4 of the Minha Casa, Minha Vida program – particularly within Riva’s portfolio. We continue to
+see excellent opportunities ahead.
+We launched the largest quarterly volume in our history, totaling BRL 2.2 billion (BRL 2.0 billion % Company), with Gross Sales
+of BRL 1.9 billion (BRL 1.6 billion % Company) and Net Sales of BRL 1.6 billion (1.4 billion % Company), resulting in a Net Sales
+Speed (VSO index) of 24% in 3Q25. It is worth highlighting Riva’s outstanding performance during the period, which made a
+significant contribution to Direcional Group’s results and set records across all these metrics for the quarter. Equally notable
+was the increase in the Company’s stake in projects, both in terms of launches and sales, reaching 94% and 87%, respectively.
+In the year to September (9M25), Lauches reached BRL 5.0 billion (BRL 4.2 billion % Company) and Net Sales totaled BRL 4.6
+billion (BRL 3.8 billion % Company), signaling that we are on track to deliver, once again, our best year yet.
+As with our operational metrics, we also achieved strong results on the financial side, setting record highs across key lines. Net
+Revenue reached BRL 1.2 billion, up 27% from 3Q24 and 9% from 2Q25. As a result, in 9M25, we recognized an amount of BRL
+3.1 billion in terms of revenue, 29% higher than the year-ago period.
+Considering revenue recognized from SPVs that are not consolidated in our balance sheet (either because they are jointly
+controlled with partners or not controlled by us), Total Net Revenue1 reached BRL 1.5 billion in the quarter and BRL 4.0 billion
+in the year to September. Although the revenue from these SPVs is not consolidated for accounting purposes, the net result of
+the projects is recognized under Equity Income, in accordance with our ownership stake in each entity.
+Adjusted Gross Margin2 also reached its highest level ever, hitting an impressive 42.1% in 3Q25, 40 bps above the previous
+record – set in the prior quarter – and 350 bps higher than the same quarter last year. The resilience in the profitability we
+deliver each quarter reflects the diligence and discipline that guide the way we run our business, in a continuous pursuit of
+operational efficiency and productivity gains.
+Not surprisingly, our margin related to revenue to be recognized from our sales (Backlog Margin) was a significant 45.2%. In
+total, the Deferred Revenue amounted to BRL 3.7 billion at the end of 3Q25, representing amounts already contracted and to
+be recognized over the coming quarters, in line with the physical progress of the projects.
+In 3Q25, Net Income before non-controlling interests reached R$ 283 million, totaling R$ 695 million in 9M25. It is worth noting
+that during the quarter we sold our stake in an SPV, aiming to capture value for our shareholders, primarily through cash
+generation. This equity sale had a non-recurring impact on the quarter’s results, as detailed under “Other Operating Income and
+Expenses”. As a result, Operating Net Income³ before non-controlling interests totaled BRL 258 million, with an Operating Net
+Margin³ of 22.3%, marking yet another historical milestone for Direcional Group.
+Net Income (% Direcional) reached BRL 230 million in the quarter, with a Net Margin of 19.8%, and BRL 578 million in the first
+nine months of 2025, with a Net Margin of 18.5%. Accordingly, Operating Net Income3 (% Direcional) came in at BRL 205 million
+in the quarter, representing an 11% growth versus 2Q25 and a 31% growth versus 3Q24. Operating Net Margin3 (% Direcional)
+for the period was 17.7%, expanding 50 bps compared with the previous quarter and 60 bps compared with the year-ago period.
+Thus, Adjusted Annualized ROE3 also reached its highest level ever: 35% in 3Q25. In the year to September, Operating Net
+Income3 (% Direcional) totaled BRL 546 million, with an Operating Net Margin3 (% Direcional) of 17.5%.
+Cash generation for the quarter amounted to BRL 113 million, bringing total cash generated in the year-to-date to BRL 493
+million. As a result, we ended 3Q25 with net debt4 of BRL 104 million, representing a leverage ratio (Net Debt-to-Equity) of 3.8%.
+Our continued focus on maintaining a strong capital structure allows us to foster healthy operational growth while keeping a
+constant focus on maximizing capital returns for our shareholders. It is important to note that in 3Q25 we recorded non-
+3
 
-| Caixa e Equivalentes e Aplicações Financeiras (R$ milhões) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a |
-|---|---|---|---|---|---|
-| Caixa e Equivalentes de Caixa | 1.575,5 | 1.251,7 | 858,2 | 25,9% | 83,6% |
-| Aplicações Financeiras | 874,0 | 872,9 | 687,6 | 0,1% | 27,1% |
-| Total | 2.449,5 | 2.124,6 | 1.545,8 | 15,3% | 58,5% |
+<!-- PAGE 31 -->
+3Q25
+EARNINGS RELEASE
+operating results that, on a net basis, positively impacted quarterly cash generation by BRL 67 million. Accordingly operating
+cash generation – i.e. excluding these items – totaled BRL 46 million, as detailed in the table below:
+Cash Generation Breakdown (BRL million) 3Q25
+(a) Originations and Amortizations of Sales of Receivables (net)5 -16.9
+(b) Asset Monetization - SPVs (net) 128.6
+(c) Real Estate Receivables Certificate (CRI) Structuring Cost -24.0
+(d) Change in Caixa Econômica Federal’s restricted cash -20.7
+(e) = (a)+(b)+(c)+(d) Subtotal 67.0
+(f) Total Cash Generation in the quarter 112.8
+(g) = (f)-(e) "Operating" Cash Generation 45.7
+The sustainability of our business is also reflected in initiatives aligned with our ESG agenda, through which we share more of
+our vision and the values that drive us to achieve ever-better results. In this context, during the quarter we published our fourth
+Annual Sustainability Report, prepared in compliance with the Global Reporting Initiative (GRI) framework and the sector-
+specific requirements of the Sustainability Accounting Standards Board (SASB), reaffirming our commitment to transparency
+and integrity in communication with all of the Company’s stakeholders. We invite you to learn more about our initiatives by
+accessing the report (in Portuguese only).
+Before concluding our message, we would like to sincerely thank each of the many employees who are part of the Direcional
+Group. Dedication and professionalism are qualities that unite us around the same purpose and will continue to drive us ever
+further.
+Thank you,
+The Management - Direcional Engenharia S/A
+1 - Adjustment including revenue from non-consolidated SPVs (non-controlled SPVs or jointly controlled with partners).
+2 - Adjustment excluding capitalized interest.
+3 - Adjustment excluding non-recurring results under “Other Operating Income and Expenses” and equity swap results, as applicable.
+4 - Loans and Financing Operations reduced by Cash and Cash Equivalents and Short-term Investments plus the balance of interest rate swap contracts.
+5 - Also includes transfers carried out through true sale transactions, which totaled BRL 13.0 million in the quarter.
+4
 
-## Contas a Receber
+<!-- PAGE 32 -->
+3Q25
+EARNINGS RELEASE
+KEY FIGURES
+3Q25 2Q25 3Q24     9M25 9M24  
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Main Financial Figures (BRL million, except %)
+Net Revenue 1,157.8 1,065.2 910.6 8.7% 27.1% 3,117.2 2,424.3 28.6%
+Gross Profit 463.8 414.2 332.7 12.0% 39.4% 1,223.3 875.9 39.7%
+Gross Margin 40.1% 38.9% 36.5% 1 p.p. 4 p.p. 39.2% 36.1% 3 p.p.
+Adjusted Gross Profit1 487.1 443.9 350.9 9.7% 38.8% 1,302.2 919.6 41.6%
+Adjusted Gross Margin1 42.1% 41.7% 38.5% 0 p.p. 4 p.p. 41.8% 37.9% 4 p.p.
+Net Income (% Direcional) 229.7 183.7 160.5 25.0% 43.1% 577.9 456.9 26.5%
+Net Margin (% Direcional) 19.8% 17.2% 17.6% 3 p.p. 2 p.p. 18.5% 18.8% 0 p.p.
+Operating Net Income2 204.7 183.7 155.8 11.4% 31.4% 546.4 411.0 32.9%
+Operating Net Margin2 17.7% 17.2% 17.1% 0 p.p. 1 p.p. 17.5% 17.0% 1 p.p.
+Launches3 (BRL million, except units and %)
+PSV Launched - 100% 2,151.6 1,903.9 1,393.3 13.0% 54.4% 4,956.6 3,650.5 35.8%
+Direcional 962.7 1,062.0 978.2 -9.3% -1.6% 2,696.1 2,177.7 23.8%
+Riva 1,188.9 841.9 415.1 41.2% 186.4% 2,260.5 1,472.8 53.5%
+PSV Launched - % Company 2,017.6 1,393.0 1,308.7 44.8% 54.2% 4,213.0 3,158.9 33.4%
+Direcional 888.8 880.2 893.6 1.0% -0.5% 2,409.9 1,939.1 24.3%
+Riva 1,128.8 512.8 415.1 120.1% 171.9% 1,803.1 1,219.8 47.8%
+Launched Units 6,449 5,096 4,638 26.6% 39.0% 14,969 11,063 35.3%
+Direcional 3,811 3,661 3,421 4.1% 11.4% 10,369 7,682 35.0%
+Riva 2,638 1,435 1,217 83.8% 116.8% 4,600 3,381 36.1%
+Net Sales3 (BRL million, except units and %)
+Net Sales - PSV 100% 1,641.8 1,677.3 1,494.1 -2.1% 9.9% 4,645.6 4,420.5 5.1%
+Direcional 818.5 996.5 938.1 -17.9% -12.7% 2,658.8 2,662.4 -0.1%
+Riva 823.3 680.8 555.9 20.9% 48.1% 1,986.8 1,758.1 13.0%
+Net Sales - PSV % Company 1,424.4 1,296.4 1,237.5 9.9% 15.1% 3,820.6 3,501.8 9.1%
+Direcional 705.3 852.8 789.9 -17.3% -10.7% 2,245.3 2,164.7 3.7%
+Riva 719.0 443.6 447.6 62.1% 60.6% 1,575.3 1,337.1 17.8%
+Contracted Units 4,857 5,176 4,984 -6.2% -2.5% 14,363 14,565 -1.4%
+Direcional 3,048 3,781 3,623 -19.4% -15.9% 10,089 10,318 -2.2%
+Riva 1,809 1,395 1,361 29.7% 32.9% 4,274 4,247 0.6%
+Net Sales Speed (VSO index) in PSV 100% 24% 26% 25% -2 p.p. -1 p.p. 48% 50% -2 p.p.
+Direcional 21% 26% 25% -5 p.p. -4 p.p. 46% 49% -3 p.p.
+Riva 27% 27% 25% 0 p.p. 2 p.p. 50% 52% -2 p.p.
+Other Indicators (BRL million, except %) 3Q25 2Q25 1Q25 4Q24 3Q24 2Q24 1Q24 4Q23
+Adjusted Annualized ROE2 35% 34% 30% 33% 29% 25% 24% 20%
+Net Debt (Net Cash)4 104.1 -137.5 257.4 -68.2 91.3 -153.0 66.1 -72.1
+Equity 2,720.2 2,470.7 2,366.7 2,223.8 2,245.5 2,438.6 2,271.2 2,110.6
+Net Debt / Equity 3.8% -5.6% 10.9% -3.1% 4.1% -6.3% 2.9% -3.4%
+Cash Generation5 112.8 394.9 -14.9 159.5 32.9 219.0 -57.0 -15.5
+Inventory (PSV 100%) 5,296.3 4,716.0 4,457.9 4,787.1 4,491.8 4,591.7 4,777.6 5,146.3
+Landbank (PSV 100%) 51,251.9 49,901.3 46,253.3 46,239.9 43,238.9 39,678.3 37,282.6 36,301.4
+1 - Adjustment excluding capitalized interest.
+2 - Adjustment excluding non-recurring results under “Other Operating Income and Expenses” and equity swap results, as applicable.
+3 - Disregarding the project sold under the Pode Entrar Program in 3Q24.
+4 - Loans and Financing Operations reduced by Cash and Cash Equivalents and Short-term Investments plus the balance of interest rate swap contracts.
+5 - Change in net debt adjusted by payment of dividends, share buybacks and the change in the balance of interest rate swap contracts.
+5
 
-Ao final do 3T25, o saldo contábil de Contas a Receber era de R$ 2,6 bilhões, considerando as parcelas circulante e não circulante. A Companhia realiza, de maneira estratégica, algumas operações estruturadas de cessão de recebíveis imobiliários, com a única finalidade de buscar a contínua eficiência na gestão do capital de giro. Embora ocorra a cessão dos recebíveis, o ativo cedido permanece contabilizado na rubrica de Contas a Receber. Desse modo, o recebimento de caixa em virtude da venda de carteira tem como contrapartida a constituição de uma conta passiva conhecida como Passivo de Cessão.
+<!-- PAGE 33 -->
+3Q25
+EARNINGS RELEASE
+LAUNCHES
+Direcional Group launched a PSV of BRL 2.2 billion (BRL 2.0 billion % Company) in the third quarter of 2025, representing a 54%
+growth compared to 3Q24 and 13% compared to 2Q25. Accordingly, this was the highest volume ever launched in a single
+quarter by the Company. It is worth highlighting the significant increase in the Company’s stake of the launched PSV, which
+reached 94%. On this basis, considering the volume launched at the Company’s stake, the growth rate reached 54% versus 3Q24
+and 45% versus 2Q25.
+In the first nine months of 2025 (9M25), Launches totaled BRL 5.0 billion (BRL 4.2 billion % Company), representing a 36%
+increase compared to 9M24. In the 12 months ended in 3Q25 (3Q25 LTM), launched PSV amounted to BRL 6.8 billion (BRL 5.6
+billion % Company), a 40% increase compared to 3Q24 LTM.
+Launches 1 3Q25 2Q25 3Q24     9M25 9M24  
+(BRL million, except units and %) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+PSV Launched (100% PSV) 2,151.6 1,903.9 1,393.3 13.0% 54.4% 4,956.6 3,650.5 35.8%
+Direcional 962.7 1,062.0 978.2 -9.3% -1.6% 2,696.1 2,177.7 23.8%
+Riva 1,188.9 841.9 415.1 41.2% 186.4% 2,260.5 1,472.8 53.5%
+PSV Launched (% Company) 2,017.6 1,393.0 1,308.7 44.8% 54.2% 4,213.0 3,158.9 33.4%
+Direcional 888.8 880.2 893.6 1.0% -0.5% 2,409.9 1,939.1 24.3%
+Riva 1,128.8 512.8 415.1 120.1% 171.9% 1,803.1 1,219.8 47.8%
+Launched Units 6,449 5,096 4,638 26.6% 39.0% 14,969 11,063 35.3%
+Direcional 3,811 3,661 3,421 4.1% 11.4% 10,369 7,682 35.0%
+Riva 2,638 1,435 1,217 83.8% 116.8% 4,600 3,381 36.1%
+Average % Company 93.8% 73.2% 93.9% 21 p.p. 0 p.p. 85.0% 86.5% -2 p.p.
+1 - Disregarding the project sold under the Pode Entrar Program in 3Q24.
+6
+1
+3
+,3
+4 1
+9 7
+Q
+9
+5
+8
+2
+3
+4
++
+1
+1
+2
+L
+5 4 %
+,9 0 4
+8 4 2
+,0 6 2
+Q 2 5
+a u n c h e s ¹ -
+(B R L m
+2 ,1 5 2
+1 ,1 8 9
+9 6 3
+3 Q 2 5
+P S
+illio
++
+Vn
+1
+1
+)
+3 %
+0 0 %
+3
+1
+2
+9
+,6
+,4
+,1
+M
+5
+7
+7
+2
++
+0
+3
+8
+4
+3 6 %
+4
+2
+2
+9
+,9
+,2
+,6
+M
+5
+6
+9
+2
+7
+0
+6
+5
+R iv a D
+1 ,3 0 9
+4 1 5
+8 9 4
+3 Q 2 4
+ire c io n a l
++
+1
+2
+L a
+5 4 %
+,3 9 3
+5 1 3
+8 8 0
+Q 2 5
+u n c h e(B
+2 ,0
+1 ,1
+8 8
+3 Q
+sR
+1
+2
+9
+2
+¹L
+8
+9
+5
+-
+m
+% C
+illio
++
+on
+4
+m)
+5 %
+p a n y
+3
+1
+1
+9
+,1
+,2
+,9
+M
+5
+2
+3
+2
++
+9
+0
+9
+4
+3 3 %
+4
+1
+2
+9
+,2
+,8
+,4
+M
+1
+0
+1
+2
+3
+3
+0
+5
 
-Considerando o valor líquido de Contas a Receber por vendas de imóveis – isto é, já descontado o respectivo passivo –, observa-se um saldo equivalente a R$ 1,7 bilhão. Com base nesse montante e na Receita Líquida proveniente de vendas de imóveis, o indicador de Dias de Contas a Receber foi de 131 dias.
+<!-- PAGE 34 -->
+3Q25
+EARNINGS RELEASE
+NET SALES
+In 3Q25, Gross Sales reached BRL 1.9 billion (BRL 1.6 billion % Company), with September marking the best sales month in the
+Company’s history, totaling BRL 832 million (BRL 721 million % Company), highlighting the resilience of demand observed
+throughout the year. Accordingly, Net Sales amounted to BRL 1.6 billion in the quarter (BRL 1.4 billion % Company), growing
+10% versus 3Q241.
+As with Launches, it is worth highlighting the increase in the Company’s stake in the projects sold in the quarter, which reached
+87%. Thus, considering Net Sales on a Company’s stake basis, growth was 16% compared to 3Q24 and 11% compared to 2Q25.
+Analyzing the sales mix, Direcional-branded products accounted for 50% of contracted net PSV in 3Q25, with Riva-branded
+products representing the remaining 50%. This highlights Riva’s outstanding performance during the period, recording its best
+quarterly result ever, with growth of 48% compared to 3Q24 and 21% versus 2Q25. Sales of Direcional products were affected
+by the timing of launches during the quarter, as approximately 45% of launches took place in the final weeks of September.
+Net Sales for 9M25 totaled BRL 4.6 billion (BRL 3.8 billion % Company), while in 3Q25 LTM, Net Sales reached BRL 6.2 billion
+(BRL 5.1 billion % Company).
+It is always important to highlight that part of the quarter’s sales was originated from projects developed through SPVs that are
+either unconsolidated or jointly controlled with partners. Revenue from these sales is therefore not directly consolidated in the
+Company’s reported revenue. As a result, 89% of the contracted Net Sales in 3Q25 comes from projects that contribute to the
+Company’s Net Revenue line, while 11% will impact results through the Equity Income, based on Direcional Group’s stake in
+each of these SPVs.
+Net Sales¹ -PSV 100% Net Sales¹ -% Company
+(BRLmillion) (BRL million)
++5%
+4,646
+4,421 +9%
+3,821
+1,987 3,502
+1,758
+1,575
+1,337
++10%
++15%
+1,677 1,642
+1,494 -2% 1,424
+1,237 1,296
+681 2,662 2,659 +10%
+556 823 448 444 719 2,165 2,245
+938 997 819 790 853 705
+3Q24 2Q25 3Q25 9M24 9M25 3Q24 2Q25 3Q25 9M24 9M25
+Riva Direcional
+7
 
-| Contas a Receber (R$ milhões) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a |
-|---|---|---|---|---|---|
-| Venda de Imóveis | 2.567,2 | 2.362,2 | 1.594,4 | 8,7% | 61,0% |
-| Prestação de Serviços | 47,4 | 17,3 | 15,1 | 174,5% | 213,0% |
-| Venda de Terreno | 5,4 | 5,2 | 5,4 | 5,0% | -0,7% |
-| Total | 2.619,9 | 2.384,7 | 1.615,0 | 9,9% | 62,2% |
-| Parcela Circulante | 1.348,0 | 1.280,5 | 844,4 | 5,3% | 59,6% |
-| Parcela Não-Circulante | 1.271,9 | 1.104,1 | 770,6 | 15,2% | 65,1% |
-| Contas a Receber (Venda de Imóveis) | 2.567,2 | 2.362,2 | 1.594,4 | 8,7% | 61,0% |
-| Passivo de Cessão | 907,3 | 877,1 | 509,8 | 3,4% | 78,0% |
-| Contas a Receber líquido de Passivo de Cessão | 1.659,9 | 1.485,2 | 1.084,6 | 11,8% | 53,0% |
-| Receita Líquida com Venda de Imóveis | 1.136,4 | 1.045,7 | 889,0 | 8,7% | 27,8% |
-| Dias de Contas a Receber | 131 | 128 | 110 | 2,9% | 19,7% |
+<!-- PAGE 35 -->
+3Q25
+EARNINGS RELEASE
+Contracted Net Sales 1 3Q25 2Q25 3Q24     9M25 9M24  
+(BRL million, except units and %) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Net Sales (100% PSV) 1,641.8 1,677.3 1,494.1 -2.1% 9.9% 4,645.6 4,420.5 5.1%
+Direcional 818.5 996.5 938.1 -17.9% -12.7% 2,658.8 2,662.4 -0.1%
+Riva 823.3 680.8 555.9 20.9% 48.1% 1,986.8 1,758.1 13.0%
+Net Sales (% Company) 1,435.3 1,296.4 1,237.5 10.7% 16.0% 3,831.4 3,501.8 9.4%
+Direcional 716.2 852.8 789.9 -16.0% -9.3% 2,256.2 2,164.7 4.2%
+Riva 719.0 443.6 447.6 62.1% 60.6% 1,575.3 1,337.1 17.8%
+Contracted Units 4,857 5,176 4,984 -6.2% -2.5% 14,363 14,565 -1.4%
+Direcional 3,048 3,781 3,623 -19.4% -15.9% 10,089 10,318 -2.2%
+Riva 1,809 1,395 1,361 29.7% 32.9% 4,274 4,247 0.6%
+Net Sales Speed (VSO index) in PSV 24% 26% 25% -2 p.p. -1 p.p. 48% 50% -2 p.p.
+Direcional 21% 26% 25% -5 p.p. -4 p.p. 46% 49% -3 p.p.
+Riva 27% 27% 25% 0 p.p. 2 p.p. 50% 52% -2 p.p.
+1 - Disregarding the project sold under the Pode Entrar Program in 3Q24.
+NET SALES SPEED (VSO INDEX)
+In 3Q25, the consolidated Net Sales Speed – measured by the VSO index (Sales Over Supply ratio) – was 24%, positively
+influenced by Riva’s sales performance, as previously mentioned, with the segment’s VSO reaching 27%.
+For Direcional projects, the VSO was 21% in the quarter, impacted by the aforementioned concentration of launches in the final
+weeks of September. It is worth noting that the Inventory VSO for this segment was 25% in the quarter, consistent with recent
+trends.
+Net Sales Speed(VSO index)
+(PSV 100%)
+26%
+25% 25% 23% 24%
+3Q24 4Q24 1Q25 2Q25 3Q25
+8
 
-O saldo total de Contas a Receber da Companhia ao final do 3T25 era de R$ 6,3 bilhões (incluindo off-balance).
+<!-- PAGE 36 -->
+3Q25
+EARNINGS RELEASE
+Canceled Sales
+In 3Q25, the canceled PSV was BRL 267 million (BRL 207 million % Company), resulting in a Canceled Sales-to-Gross Sales ratio
+of 14.0%.
+In the first nine months of 2025, cancellations reached BRL 642 million (BRL 495 million % Company), corresponding to a
+cancellation rate of 12.1% over the Gross Sales in the period.
+The table below provides further details on the cancellations during the period:
+Canceled Sales 1 3Q25 2Q25 3Q24     9M25 9M24  
+(BRL million, except %) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Canceled Sales (PSV 100%) -266.5 -233.0 -183.9 14.4% 44.9% -641.6 -397.6 61.4%
+Gross Sales 1,908.3 1,910.3 1,678.0 -0.1% 13.7% 5,287.3 4,818.1 9.7%
+% Canceled Sales / Gross Sales 14.0% 12.2% 11.0% 1.8 p.p. 3.0 p.p. 12.1% 8.3% 3.9 p.p.
+Canceled Sales (% Company) -207.0 -176.7 -146.5 17.1% 41.3% -494.9 -315.4 56.9%
+Gross Sales 1,642.2 1,473.1 1,384.0 11.5% 18.7% 4,326.3 3,817.2 13.3%
+% Canceled Sales / Gross Sales 12.6% 12.0% 10.6% 0.6 p.p. 2.0 p.p. 11.4% 8.3% 3.2 p.p.
+1 - In canceled PSV, transfers of credit from customers of the unit originally acquired to another unit of our inventory are disregarded.
+INVENTORY
+Direcional Group ended the quarter with a PSV of BRL 5.3 billion in its Inventory (BRL 4.5 billion % Company), corresponding to
+a total of 15,284 units. Approximately 3% of the PSV in Inventory refers to completed units.
+The table below presents the Inventory at market value, broken down by construction stage and product type.
+Total PSV % Company PSV
+Breakdown of Inventory at Market Value
+Direcional Riva Total Direcional Riva Total
+(BRL million, except units and %)
+In progress (BRL million) 2,952 2,168 5,120 2,661 1,718 4,379
+% Total 56% 41% 97% 59% 38% 97%
+Completed (BRL million) 144 32 176 98 20 118
+% Total 3% 1% 3% 2% 0% 3%
+Total (BRL million) 3,096 2,200 5,296 2,759 1,738 4,497
+% Total 58% 42% 100% 61% 39% 100%
+Total Units 10,923 4,361 15,284 10,923 4,361 15,284
+% Total Units 71% 29% 100% 71% 29% 100%
+The following charts provide additional information on the Inventory and its breakdown. Notably, 80% of the PSV in Inventory
+corresponds to projects launched from 2024 onward.
+9
 
-| Composição da Carteira Gerencial (R$ milhões) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a |
-|---|---|---|---|---|---|
-| Tabela Direta | 1.863 | 1.534 | 1.101 | 21% | 69% |
-| Pré-chaves | 614 | 471 | 387 | 30% | 59% |
-| Pós-chaves | 1.249 | 1.063 | 714 | 18% | 75% |
-| Pró-Soluto | 833 | 763 | 600 | 9% | 39% |
-| Pré-chaves | 265 | 237 | 183 | 12% | 45% |
-| Pós-chaves | 568 | 526 | 416 | 8% | 36% |
-| Carteira Total | 2.696 | 2.298 | 1.701 | 17% | 59% |
+<!-- PAGE 37 -->
+3Q25
+EARNINGS RELEASE
+TRANSFERS
+In 3Q25, the PSV of transferred units totaled BRL 1.1 billion, representing an increase of 20% compared to the year-ago period.
+In turn, the PSV transferred during the first nine months of fiscal 2025 totaled BRL 3.0 billion, also representing a 20% increase
+compared to the amount transferred during 9M24. This performance reinforces the acceleration in the pace of transfers, in line
+with the Company’s operational expansion.
+PROJECTS DELIVERED
+The Company completed the delivery of 9 projects/phases in the third quarter of 2025, totaling 3,569 units. Of this amount,
+82% correspond to projects launched under the Direcional brand, focused on the affordable housing segment, while the
+remaining 18% refer to Riva products.
+In 9M25, the Company delivered 27 projects/phases, comprising 9,515 units. Of this total, 69% were in the Direcional segment
+and 31% in the Riva segment.
+10
+C o m
+<
+p
+2 0 2
+2 0 2
+2 0 2
+le te
+5
+4
+4
+d
+3
+1%
+8
+%
+%
+3 %
+In v e n t o
+2 7 %
+2 1 %
+9 %
+D ire c io
+r
+n
+y b
+(P
+1 7
+a l
+yS
+%
+V
+Y e a r o
+1 0 0 % )
+1 0 %
+R iv a
+8 9 9
+3 Q 2 4
+f L a u
+3 1 %
++
+1
+2
+n c h
+2 2 %
+2 0 %
+,1 2 9
+Q 2 5
+(P S V
+T r a
+1 0 0 %
+1 ,0 7 5
+3 Q 2 5
+4 9 %
+n s f e r
+- B R L
+-5
+s
+m
+%
+illio n )
+2
+9
+,4
+M
+7
+2
++
+6
+4
+2 0 %
+D
+2
+9
+ire
+,9 7
+M 2
+c
+9
+5
+io n a l
+5
+In
+8 %
+v e n t o(P rS yV B
+1
+r0 e0 a% k) d o w
+4
+n
+2 %
+R iv a
 
-Ao término do 3T25, o saldo do Passivo de Cessão consolidado no balanço da Companhia era de R$ 907 milhões. Desse montante, R$ 643 milhões referem-se a cessão de recebíveis cujos créditos contam com a garantia do imóvel. Os recebíveis em caráter pró-soluto totalizaram R$ 227 milhões no encerramento do período. O saldo das cotas subordinadas era de R$ 168 milhões, resultando em uma exposição líquida em Passivo de Cessão de R$ 739 milhões.
+<!-- PAGE 38 -->
+3Q25
+EARNINGS RELEASE
+LANDBANK
+At the end of 3Q25, Direcional Group’s landbank totaled a PSV of BRL 51.3 billion (BRL 46.2 billion % Company), representing a
+development potential of approximately 220,267 units.
+The average acquisition cost of the landbank stands at 11% of the total PSV, with 86% paid through swaps, resulting in minimal
+cash outflow prior to the start of development.
+Landbank Evolution 2024 9M25 9M25 9M25 9M25
+Adjustment1 Units
+(BRL million) Landbank Acquisitions Launches Landbank (PSV % Co.)
+Direcional 33,172 5,171 (2,696) 411 36,058 32,900 181,099
+Riva 13,068 3,468 (2,260) 919 15,194 13,309 39,168
+PSV Total 46,240 8,638 (4,957) 1,330 51,252 46,209 220,267
+1 - Adjustments: update of sales price, canceled sales and swaps.
+Land Acquisition
+A total of 12 land plots were acquired throughout 3Q25, corresponding to a construction potential of approximately 8.4
+thousand units and a PSV of BRL 2.7 billion (BRL 2.7 billion % Company). The average acquisition cost in the quarter was 10% of
+the PSV, with 71% of the payment to be made through land swaps.
+Accordingly, acquisitions in 9M25 totaled a PSV of BRL 8.6 billion (BRL 7.9 billion % Company), at an average acquisition cost of
+12%, with 83% of the payment structured as land swaps.
+11
 
-## Endividamento
+<!-- PAGE 39 -->
+3Q25
+EARNINGS RELEASE
+ECONOMIC AND FINANCIAL PERFORMANCE
+Net Revenue
+Direcional Group’s Net Revenue totaled BRL 1.2 billion in 3Q25, up 27% from 3Q24 and 9% above the previous record, which
+had been set in 2Q25. In the year to September, Net Revenue came in at BRL 3.1 billion, representing a 29% growth compared
+to 9M24.
+Considering Total Net Revenue1 – which adds to the reported revenue the portion recognized in jointly controlled or non-
+controlled SPVs – the amount totaled BRL 1.5 billion in the quarter, 4% higher than in 2Q25 and 25% above 3Q24. In 9M25,
+Total Net Revenue1 reached BRL 4.0 billion, a 23% increase versus 9M24. Over the last 12 months (3Q25 LTM), the indicator
+reached BRL 5.2 billion.
+It is worth noting that the accounting impact of the amounts related to these non-consolidated SPVs is effectively recognized
+under the Equity Income line, rather than directly in Net Revenue.
+The table below presents the breakdown of Total Net Revenue1, separated into reported Net Revenue and the revenue from
+non-consolidated SPVs.
+Total Net Revenue1 3Q25 2Q25 3Q24     9M25 9M24  
+(BRL million, except %) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Total Net Revenue1 1,455.9 1,406.1 1,163.9 3.5% 25.1% 4,012.4 3,245.3 23.6%
+Net Revenue 1,157.8 1,065.2 910.6 8.7% 27.1% 3,117.2 2,424.3 28.6%
+Net Revenue from non-consolidated SPVs 298.0 340.9 253.3 -12.6% 17.7% 895.2 821.1 9.0%
+1 - Total Net Revenue: including Net Revenue from non-consolidated SPVs (jointly controlled or non-controlled entities).
+Gross Profit
+In 3Q25, the Adjusted Gross Profit1 reached BRL 487 million, up 10% from the previous quarter and up 39% from a year ago.
+The Company’s recognized operational efficiency and remarkable productivity gains, consistently demonstrated quarter after
+quarter, once again drove the Adjusted Gross Margin1 to a new all-time record, reaching 42.1%, 40 bps higher than in 2Q25 and
+350 bps above 3Q24.
+In turn, in 9M25, Adjusted Gross Profit1 reached BRL 1.3 billion, representing a 42% increase compared to 9M24. The Adjusted
+Gross Margin1 for the period was 41.8%, reflecting an expansion of 380 bps year over year.
+12
+9 1 1
+3 Q 2 4
++
+1
+2
+2
+,0
+Q
+7
+6
+2
+%
+5
+5
+N e(B
+1 ,1 5
+3 Q 2
+t R
+R L
+8
+5
+e
+m
+v e n
+illio
++ 9 %
+un e)
+2
+9
+,4
+M
+2
+2
++
+4
+4
+2 9 %
+3
+9
+,1
+M
+1
+2
+7
+5
+2 .9
+3 Q 2
+L T M
+3
+T o t a
+3 .2
+4 Q 2 3
+L T M
+l N e t R
+3 .5
+1 Q 2 4
+L T M
+e v e n u e ¹ T r a
+(B R L b illio
+4 .1
+3 .8
+2 Q 2 4 3 Q 2 4
+L T M L T M
+c k R
+n )
+4 .5
+4 Q 2
+L T M
+e
+4
+c o r d
+4 .7
+1 Q 2
+L T M
+-
+5
+L T M
+5 .0
+2 Q 2
+L T M
+5
+5 .2
+3 Q 2
+L T M
+5
 
-O Grupo Direcional encerrou o 3T25 com um saldo de Empréstimos e Financiamentos de R$ 2,6 bilhões, dos quais 91% referem-se a obrigações de longo prazo (passivo não circulante). O prazo médio ponderado de vencimento do endividamento foi de 67 meses.
+<!-- PAGE 40 -->
+3Q25
+EARNINGS RELEASE
+Adjusted Gross Profit1 3Q25 2Q25 3Q24     9M25 9M24  
+(BRL million, except %) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Gross Profit 463.8 414.2 332.7 12.0% 39.4% 1,223.3 875.9 39.7%
+(+) Capitalized Interest 23.3 29.6 18.2 -21.4% 28.1% 78.9 43.7 80.6%
+Adjusted Gross Profit1 487.1 443.9 350.9 9.7% 38.8% 1,302.2 919.6 41.6%
+Adjusted Gross Margin1 42.1% 41.7% 38.5% 0.4 p.p. 3.5 p.p. 41.8% 37.9% 3.8 p.p.
+1 - Adjusted Gross Profit and Margin: excluding capitalized interest in COGS.
+General and Administrative Expenses (G&A)
+General and Administrative Expenses (G&A) totaled BRL 69 million in
+3Q25, 13% above 2Q25 and 31% above 3Q24. G&A-over-Net Revenue
+ratio was 5.9% in the quarter. The increase was mainly due to slightly
+higher-than-usual provisions during the period for performance-based
+bonus accruals.
+When considering Total Net Revenue1 – which includes projects not
+consolidated in the Company’s reported revenue – the representativeness
+of G&A was 4.7%.
+Considering the year-to-date period, G&A totaled BRL 184 million, an
+increase of 20% versus 9M24. Nevertheless, a dilution was observed on
+both bases of comparison – a 40-bps decline relative to Net Revenue and
+a 10-bps decline relative to Total Net Revenue1.
+1 - Total Net Revenue: including net revenue from non-consolidated SPVs (jointly controlled or non-controlled entities).
+13
+3 8 .5 %
+3 5 1
+3 Q 2 4
+A d ju s
+A
+4 1 .7 %
++ 3 9 %
+4 4 4
+2 Q 2 5
+te d G ro
+d
+s s
+ju s t e d G r o s s P
+(B R L m illio n a n d
+4 2 .1 %
++ 1 0 %
+4 8 7
+3 Q 2 5
+P ro fit¹ A
+r o f it ¹
+% )
+3 7 .9 %
++ 4 2 %
+9 2 0
+9 M 2 4
+d ju s te d G ro s s M
+4 1 .8 %
+1 ,3 0 2
+9 M 2 5
+a rg in ¹
+3 7 .8 %
+3 1 9
+2 Q 2 4
+A d
+A
+ju
+d ju s t e d
+3 8 .5 %
+3 5 1
+3 Q 2 4
+s te d G ro
+5 .7 %
+4 .5 %
+5 2
+3 Q 2 4
+G & A
+G r o s s M a r g in ¹ T r a c
+(B R L m illio n a n d % )
+4 1 .5 %
+3 9 .4 %
+3 7 1 3 6 4
+4 Q 2 4 1 Q 2 5
+s s P ro fit¹ A d ju s
+G & A E x p e
+(B R L m illio n
+5 .9 % 5 .7 %
+4 .7 % 4 .3 %
++ 3 1 %
+6 9 6 1
+2 Q 2 5 3 Q 2 5
+% N e t R e v e n u e
+k R e c o
+4 1 .7 %
+4 4 4
+2 Q 2 5
+te d G ro
+n s e s
+a n d % )
++ 1 3 %
+%
+r d
+4 2 .1 %
+4 8 7
+3 Q 2 5
+s s M a rg in ¹
+6 .3 %
+4 .7 %
++ 2 0
+1 5 4
+9 M 2 4
+T o ta l N e t R
+5 .9 %
+4 .6 %
+%
+1 8 4
+9 M 2 5
+e v e n u e ¹
 
-Levando em conta os saldos de (i) Empréstimos e Financiamentos; (ii) Caixa e Equivalentes de Caixa e Aplicações Financeiras; e (iii) a posição dos contratos de swaps de juros a receber ou a pagar, a Companhia encerrou o trimestre com dívida líquida de R$ 104 milhões. O índice de alavancagem, dado pela razão entre Dívida Líquida e Patrimônio Líquido, foi de 3,8% ao final do período.
+<!-- PAGE 41 -->
+3Q25
+EARNINGS RELEASE
+Selling Expenses
+Selling Expenses – composed mainly of commissions, marketing expenses,
+and the maintenance of sales points – totaled BRL 114 million in 3Q25. It is
+worth noting that the record-high launch volumes recorded in recent
+quarters have contributed to the increase in this line, as certain expenses
+– such as marketing costs – are concentrated at the time of a product
+launch and are therefore recognized in advance of revenue, which is
+booked progressively as units are sold and construction advances.
+As a result, this item amounted to BRL 292 million in 9M25, representing
+9.4% of Net Revenue for the period.
+Equity Income
+In 3Q25, Equity Income totaled BRL 16 million, up 8% from the previous
+quarter. In the year-to-date period, there was a positive result of BRL 43
+million, representing a 33% decrease compared to the same period in
+2024.
+The reduction reflects the expected lower representativeness of non-
+consolidated projects in the Company’s sales mix – SPVs jointly controlled
+with partners or not controlled by Direcional. From an accounting
+standpoint, these projects do not directly impact Net Revenue, as their
+results are recognized solely through Equity Income, in proportion to the
+Company’s ownership in the SPVs.
+Other Operating Income and Expenses
+Other Operating Income and Expenses reported a net loss of BRL 14 million in 3Q25. It is worth highlighting that this line was
+positively impacted by a non-recurring gain from corporate transactions, with a net effect of BRL 25 million, comprising BRL 36
+million in revenue and BRL 11 million in transaction-related expenses.
+In addition, other impacts on Other Operating Income and Expenses line were mainly due to: (i) the recognition and reversal of
+provisions, which resulted in a net loss of BRL 29 million; and (ii) recurring legal and related expenses, totaling BRL 13 million.
+In this context, excluding the non-recurring effect from corporate transactions, the line would have totaled a negative amount
+of BRL 39.3 million in the quarter, which would have accounted for approximately 3.4% of Net Revenue.
+14
+3
+8
+3
+1
+Q
+.8 %
+8 0
+Q 2 4
+9
+2 4
+9 .1 %
++ 4 2 %
+9 7
+2 Q 2 5
+S e llin
+-1 3 %
+1 5
+2 Q 2 5
+g
+S e llin g E x p e n s e
+(B R L m illio n a n d %
+9 .8 %
++ 1 8 %
+1 1 4
+3 Q 2 5
+E x p e n s e s %
+E q u it y In c o m e
+(B R L m illio n )
++ 8 %
+1 6
+3 Q 2 5
+s)
+N e
+9
+8 .5 %
++
+2 0 7
+9 M 2 4
+t R e v e
+-3
+6 4
+M 2 4
+4
+n
+3
+1 %
+u e
+%
+9
+9 .4
+2 9
+9 M
+4 3
+M 2
+%
+2
+2
+5
+5
 
-| Endividamento (R$ milhões, exceto %) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a |
-|---|---|---|---|---|---|
-| Empréstimos e Financiamentos | 2.579,6 | 2.026,9 | 1.680,6 | 27,3% | 53,5% |
-| CRI | 2.065,4 | 1.523,0 | 1.260,1 | 35,6% | 63,9% |
-| Debêntures | 0,0 | 0,0 | 104,9 | 0,0% | -100,0% |
-| Financiamento à Produção | 513,3 | 502,8 | 313,8 | 2,1% | 63,6% |
-| FINAME e Leasing | 1,0 | 1,1 | 1,9 | -14,7% | -50,9% |
-| Caixa e Equivalentes | 2.449,5 | 2.124,6 | 1.545,8 | 15,3% | 58,5% |
-| Dívida Líquida antes dos swaps | 130,1 | -97,7 | 134,9 | -233,2% | -3,5% |
-| Posição de contratos de swaps | 26,0 | 39,8 | 43,5 | -34,6% | -40,2% |
-| Dívida Líquida | 104,1 | -137,5 | 91,3 | -175,7% | 14,0% |
-| Dívida Líquida / Patrimônio Líquido | 3,8% | -5,6% | 4,1% | 9 p.p. | 0 p.p. |
+<!-- PAGE 42 -->
+3Q25
+EARNINGS RELEASE
+EBITDA
+In 3Q25, Adjusted EBITDA1 reached its highest level in the Company’s
+history, totaling BRL 302 million, up 10% from the previous quarter and up
+36% from the year-ago period. Accordingly, the Adjusted EBITDA Margin1
+rose to 26.1% in the quarter, an expansion of 30 bps versus 2Q25 and 170
+bps versus 3Q24.
+It’s worth noting that this adjustment excludes capitalized interest
+included in Cost of Goods Sold and any non-recurring items recorded in
+Other Operating Income and Expenses.
+Adjusted EBITDA1 totaled BRL 810 million in 9M25, representing a 37%
+growth compared to 9M24. The Adjusted EBITDA Margin1 for the period
+reached 26.0%, 150 bps higher than the margin recorded in 9M24.
+The table below details the breakdown of EBITDA and Adjusted EBITDA1,
+along with their respective margins:
+EBITDA and Adjusted EBITDA1 3Q25 2Q25 3Q24     9M25 9M24  
+(BRL million, except %) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Net Income 229.7 183.7 160.5 25.0% 43.1% 577.9 456.9 26.5%
+(+) Depreciation and amortization 20.3 19.7 16.3 2.9% 24.9% 58.1 51.0 13.7%
+(+) Income Tax and Social Contribution 27.4 22.5 19.8 21.6% 38.7% 71.0 47.1 50.9%
+(+) Minority interest 53.3 36.9 24.2 44.5% 120.1% 117.2 66.7 75.7%
+(+/-) Financial results (27.3) (18.2) (17.4) 50.2% 56.6% (61.6) (44.1) 39.5%
+EBITDA 303.4 244.7 203.3 24.0% 49.2% 762.6 577.6 32.0%
+EBITDA Margin 26.2% 23.0% 22.3% 3.2 p.p. 3.9 p.p. 24.5% 23.8% 0.6 p.p.
+(+) Capitalized interest 23.3 29.6 18.2 -21.4% 28.1% 78.9 43.7 80.6%
+(-) Non-recurring result adjustment (24.9) - - n/a n/a (31.5) (28.4) 11.0%
+Adjusted EBITDA1 301.7 274.4 221.5 10.0% 36.2% 809.9 592.8 36.6%
+Adjusted EBITDA Margin1 26.1% 25.8% 24.3% 0.3 p.p. 1.7 p.p. 26.0% 24.5% 1.5 p.p.
+1 - Adjusted EBITDA and EBITDA Margin: excluding capitalized interest in COGS and non-recurring items recorded in Other Operating Income and Expenses, as applicable.
+Financial Result
+On a net basis, the Financial Result for the quarter was positive at BRL 27 million. The line’s performance was mainly driven by
+the following factors: (i) a net positive result of BRL 34 million, arising from financial investments, expenses with interest and
+banking fees, and costs related to the monetary adjustment of the balance of Assignment Liability; (ii) a recurring positive result
+of BRL 22 million from monetary adjustments and contractual interest, mostly related to accounts receivable from customers;
+(iii) a negative result of BRL 14 million related to derivative instruments held to hedge interest rate fluctuations; and (iv) expenses
+related to portfolio sales, totaling approximately BRL 4 million.
+As a result, in the year to September, the Financial Results line recorded a net gain of BRL 62 million.
+15
+2 4 .3 %
+2 2 1
+3 Q 2 4
+A d ju
+2 5 .8 %
++ 3 6 %
+2 7 4
+2 Q 2 5
+s te d E B
+A
+IT D
+d ju s t
+(R $ m
+2 6 .1 %
+3 0 2
+3 Q 2 5
+A ¹
+e dilh E B IT D
+õ e s e %
++ 1 0 %
+A d ju s
+A)
+te
+¹
+d E
+2
+9
+B
+4 .5 %
++
+5 9 3
+M 2 4
+IT D A
+3
+M
+7 %
+a
+2 6 .0 %
+8 1 0
+9 M 2 5
+rg in ¹
 
-| Empréstimos por indexador | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a |
-|---|---|---|---|---|---|
-| TR | 513,3 | 502,8 | 313,8 | 2,1% | 63,6% |
-| IPCA | 1.020,9 | 808,9 | 810,6 | 26,2% | 25,9% |
-| CDI | 680,3 | 531,3 | 490,2 | 28,0% | 38,8% |
-| Prefixado | 365,1 | 183,9 | 66,1 | 98,6% | 452,3% |
+<!-- PAGE 43 -->
+3Q25
+EARNINGS RELEASE
+Non-controlling Interest in SPVs and SCPs (“Minority Interest”)
+In 3Q25, profit attributable to Minority Interest in SPVs and SCPs totaled BRL 53 million, representing a 44% increase over the
+previous quarter. In 9M25, the amount attributable to non-controlling interest totaled BRL 117 million.
+It is worth recalling that in 2Q25 a new partner joined Riva’s share capital, acquiring a 9.98% stake at the time, as widely disclosed
+to the market. Subsequently, after the close of 3Q25, the sale of an additional stake in Riva was completed, resulting in the
+partner holding 15% of the subsidiary’s share capital, as disclosed to the market on October 22, 2025.
+However, the Company emphasizes that its product pipeline has increasingly reflected a growing number of projects developed
+entirely by the Direcional Group, that is, with a smaller presence of minority partners in the ventures.
+Net Income
+For another consecutive quarter, the Company’s Net Income reached a new record of BRL 230 million, up 25% from the previous
+record set in 2Q25, and up 43% year-over-year. The Net Margin came in at 19.8% in the quarter, a 260-bps gain versus 2Q25
+and a 220-bps gain versus 3Q24. In 9M25, Net Income totaled BRL 578 million, a 27% growth compared to 9M24, with a Net
+Margin of 18.5%.
+Excluding non-recurring effects recorded in the quarter – booked in the Other Operating Income and Expenses line – Operating
+Net Income1 totaled BRL 205 million, growing 11% over 2Q25 and 31% over 3Q24, also marking the highest level ever recorded
+for this metric. In this context, the Operating Net Margin1 was 17.7%, 50 bps higher than in 2Q25 and 60 bps higher than in
+3Q24. As a result, the Adjusted Annualized ROE1 also reached its highest level, closing 3Q25 at 35%.
+In 9M25, Operating Net Income1 totaled BRL 546 million, up 33% from 9M24. The Operating Net Margin1 was 17.5%, a 50-bps
+expansion in the comparative period.
+16
+1 7 .6 %
+1 6 0
+3 Q 2 4
+1 7 .2 %
++ 4 3 %
+1 8 4
+2 Q 2 5
+N
+N e t In c o m
+(B R L m illio n a n
+1 9 .8 %
++ 2 5
+2 3 0
+3 Q 2 5
+e t In c o m e
+ed
+%
+%
+N
+)
+e t M
+1 8 .8 %
++
+4 5 7
+9 M 2 4
+a rg in
+2 6 %
+1
+9
+8
+5
+M
+.5 %
+7 8
+2 5
+1 7 .1 %
+1 5 6
+3 Q 2 4
+O p e
+O
+1 7 .2 %
++ 3 1 %
+1 8 4
+2 Q 2 5
+ra tin g N
+p e r a t in g N e t In c o
+(B R L m illio n a n d %
+1 7 .7 %
++ 1 1 %
+2 0 5
+3 Q 2 5
+e t In c o m e ¹ O
+m)
+p e
+e ¹
+1 7 .0 %
++
+4 1 1
+9 M 2 4
+ra tin g N
+3
+e
+3 %
+t M
+1 7 .5 %
+5 4 6
+9 M 2 5
+a rg in ¹
 
-Nota: Para os títulos indexados ao IPCA e prefixados, foram contratados instrumentos de swap de taxa de juros para trocar a indexação para CDI.
+<!-- PAGE 44 -->
+3Q25
+EARNINGS RELEASE
+The table below presents the Net Income for the period, along with the breakdown of the Operating Net Income1:
+Operating Net Income1 3Q25 2Q25 3Q24     9M25 9M24  
+(BRL million, except %) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Net Income 230 184 160 25.0% 43.1% 578 457 26.5%
+(+/-) Result with equity swap - - -5 n/a -100% - -17 -100%
+(+/-) Other non-recurring expenses (revenue) -25 - - n/a n/a -32 -28 11%
+Operating Net Income1 205 184 156 11.4% 31.4% 546 411 32.9%
+Operating Net Margin1 17.7% 17.2% 17.1% 0.5 p.p. 0.6 p.p. 17.5% 17.0% 0.5 p.p.
+1 - Operating Net Income and Operating Net Margin: adjustment excluding non-recurring result allocated to “Other Operating Income and Expenses” and equity swap results, as applicable.
+Deferred Results from Real Estate Sales
+The Deferred revenue (Backlog Revenue) related to the real estate sales
+segment ended the quarter at BRL 3.7 billion, up 8% from the previous
+quarter and 41% from the same quarter last year. The Backlog Margin
+expanded 30 bps compared to 2Q25 and 180 bps compared to 3Q24,
+reaching 45.2%.
+Breaking down the Backlog Revenue, the balance related to Riva’s projects
+came in at BRL 1.7 billion at the closing of 3Q25, growing 14% versus 2Q25.
+Accordingly, the subsidiary’s Backlog Margin reached 46.0%, in line with
+the margin reported in the previous quarter.
+Once again, the results underscore Direcional Group’s consistently strong
+performance quarter after quarter, driven by disciplined execution on
+construction sites, process efficiency, and a focus on profitability.
+The table below provides a more detailed breakdown of the Deferred
+Revenue from Real Estate Sales:
+Deferred Results from Real Estate Sales 3Q25 2Q25 3Q24    
+(BRL million, except %) (a) (b) (c) (a/b) (a/c)
+Deferred Revenue from Real Estate Sales 3,686.2 3,398.1 2,618.3 8.5% 40.8%
+Deferred Costs from Real Estate Sales -2,020.4 -1,873.5 -1,482.6 7.8% 36.3%
+Deferred Results from Real Estate Sales 1,665.8 1,524.6 1,135.7 9.3% 46.7%
+Backlog Margin 45.2% 44.9% 43.4% 0.3 p.p. 1.8 p.p.
+17
+D e f e
+4 3 .4 %
+2 ,6 1 8
+3 Q 2 4
+D
+B
+r
+e
+a
+r e
+f e
+c k
+d R e v e(B
+4 3 .9 %
+2 ,8 4 5
+4 Q 2 4
+rre d R e
+lo g M a
+n u e
+R L m
+v e n u
+rg in
+f r o m
+illio n
+4 4 .1 %
++ 4 1 %
+3 ,1 1 6
+1 Q 2 5
+e (B a
+Ra
+n
+c k
+ed
+lo
+a l E s t a
+% )
+4 4 .9 %
+3 ,3 9 8
+2 Q 2 5
+g R e v e
+t
+n
+e
+u
+S a
+4
+3
+3
+e )
+le s
+5 .2
+,6 8
+Q 2
+%
+6
+5
++ 8 %
 
-## Geração de Caixa
+<!-- PAGE 45 -->
+3Q25
+EARNINGS RELEASE
+BALANCE SHEET HIGHLIGHTS
+Cash and Cash Equivalents and Short-Term Investments
+The Company held a balance of Cash and Cash Equivalents and Short-term Investments of BRL 2.4 billion at the close of 3Q25,
+a 15% increase from the previous quarter and 59% from the year-ago period. Part of this increase resulted from another
+successful public offering of Real Estate Receivables Certificates (CRI), which raised a total of BRL 600 million, further
+strengthening the Company’s cash position and liquidity, and allowing it to remain focused on operational growth and long-
+term value creation for shareholders.
+Cash and Cash Equivalents and Short-term Investments 3Q25 2Q25 3Q24    
+(BRL million, except %) (a) (b) (c) (a/b) (a/c)
+Cash and Cash Equivalents 1,575.5 1,251.7 858.2 25.9% 83.6%
+Short-term Investments 874.0 872.9 687.6 0.1% 27.1%
+Total 2,449.5 2,124.6 1,545.8 15.3% 58.5%
+Accounts Receivable
+At the end of 3Q25, the accounting balance of Accounts Receivable1 was BRL 2.6 billion, considering both current and non-
+current assets. It is worth noting that the Company strategically carries out structured real estate receivables assignment
+operations, solely aimed at continuously improving working capital management efficiency. Although these assets are assigned,
+they remain recorded under Accounts Receivable, with a corresponding liability recognized under Assignment Liability.
+Considering the net value of Accounts Receivables – i.e., excluding the aforementioned liability – the balance stood at BRL 1.7
+billion. Based on this amount and the Net Revenue from real estate sales, the Days Sales Outstanding2 indicator was 131 days.
+Accounts Receivable¹ 3Q25 2Q25 3Q24    
+(BRL million, except %) (a) (a) (c) (a/b) (a/c)
+Real Estate Sales 2,567.2 2,362.2 1,594.4 8.7% 61.0%
+Services 47.4 17.3 15.1 174.5% 213.0%
+Land Sales 5.4 5.2 5.4 5.0% -0.7%
+Total 2,619.9 2,384.7 1,615.0 9.9% 62.2%
+Current 1,348.0 1,280.5 844.4 5.3% 59.6%
+Non-current 1,271.9 1,104.1 770.6 15.2% 65.1%
+Accounts Receivable – Real Estate Sales 2,567.2 2,362.2 1,594.4 8.7% 61.0%
+Assignment liability 907.3 877.1 509.8 3.4% 78.0%
+Accounts Receivable Net of Assignment Liability 1,659.9 1,485.2 1,084.6 11.8% 53.0%
+Net Revenue – Real Estate Sales 1,136.4 1,045.7 889.0 8.7% 27.8%
+Days Sales Outstanding² 131 128 110 2.9% 19.7%
+1 - Short-term accounts receivable is composed of the debit balance of customers corrected and recognized in the income proportionally to the PoC (Percentage of Completion), considering the date
+of permission for occupancy for payment of the financing installment by part of customers to Direcional, plus the recognized revenue of contract works.
+2 - Days Sales Outstanding: calculated as Accounts Receivable from Real Estate Sales, net of Assignment Liability, divided by Net Revenue from Real Estate Sales in the quarter, multiplied by 90 (number
+of days in one quarter).
+It is important to highlight that, according to current accounting rules, the recognition of accounts receivable is proportional to
+the execution rate of the respective works (Percentage of Completion, PoC). In turn, the balance of Accounts Receivable for
+units sold and not yet built is not fully reflected in the Financial Statements. The total balance of the Company’s Accounts
+Receivable at the end of 3Q25 reached BRL 6.3 billion.
+Of this total, receivables relating to direct financing installments with customers – either through Direct Method (Tabela Direta,
+in Portuguese), i.e. when the Company fully finances the value of the property for the client; or through Pro-Soluto credit, i.e.
+considering only the portion that is not financed by financial institutions – totaled approximately BRL 2.7 billion at the end of
+3Q25. The table below provides a breakdown of this management portfolio, considering only the receivables related to the SPVs
+that are consolidated in the Company’s balance sheet:
+18
 
-O Grupo Direcional apresentou uma geração de caixa de R$ 113 milhões no 3T25. Desse modo, o montante total gerado nos nove primeiros meses do ano chegou a R$ 493 milhões.
+<!-- PAGE 46 -->
+3Q25
+EARNINGS RELEASE
+Management Portfolio Breakdown 3Q25 2Q25 3Q24 Δ % Δ %
+(BRL million, except %) (a) (b) (c) (a/b) (a/c)
+Direct Method (Tabela Direta) 1,863 1,534 1,101 21% 69%
+Projects in progress 614 471 387 30% 59%
+Completed Projects 1,249 1,063 714 18% 75%
+Pro-Soluto 833 763 600 9% 39%
+Projects in progress 265 237 183 12% 45%
+Completed Projects 568 526 416 8% 36%
+Total Portfolio 2,696 2,298 1,701 17% 59%
+Lastly, it is worth noting that, at the end of 3Q25 the balance of Assignment Liability consolidated in the Company’s balance
+sheet was BRL 907 million. Of this total, BRL 643 million refers to the assignment of receivables whose credits are secured by
+the unit itself, and after completion of the works and formalization of the fiduciary transfer of the unit in favor of the creditor,
+the Company does not maintain any co-obligation regarding the credits. In turn, receivables on a pro-soluto basis totaled BRL
+227 million at the end of the quarter.
+It is worth to emphasize that, in certain transactions, there are investments made by the Company itself in the form of
+subordinated quotas, which are recorded under Non-Current Assets. At the end of 3Q25, the balance of subordinated quotas
+was BRL 168 million, resulting in a net exposure in Assignment Liability of BRL 739 million. In this regard, it is very important to
+note that this subordination occurs within the context of receivables assignment transactions, where the underlying credits are
+backed by real collateral through fiduciary transfer of the real estate units in favor of the creditor.
+Indebtedness
+Direcional Group ended the quarter with a balance of Loans and Financing totaling BRL 2.6 billion, of which 91% correspond to
+long-term obligations (non-current liabilities). The weighted average maturity of debt was 67 months, the longest in the industry.
+Taking into account the balances of (i) Loans and Financing; (ii) Cash and Cash Equivalents and Short-term Investments; and (iii)
+the position of interest rate swap contracts, whether receivable or payable, the Company ended the quarter with a net debt
+position of BRL 104 million. The leverage ratio – calculated as the Net Debt-to-Equity ratio – was 3.8% at the end of the period.
+Accordingly, the Company’s conservative financial leverage profile continues to support a balanced capital structure and allows
+it to remain attentive to the various scenarios ahead.
+Below is the breakdown of debt by type and applicable indexation as of the end of 3Q25, along with the amortization schedule:
+Indebtedness 3Q25 2Q25 3Q24    
+(BRL million, except %) (a) (b) (c) (a/b) (a/c)
+Loans and Financing Operations 2,579.6 2,026.9 1,680.6 27.3% 53.5%
+Real Estate Receivables Certificates (CRI) 2,065.4 1,523.0 1,260.1 35.6% 63.9%
+Debentures 0.0 0.0 104.9 0.0% -100.0%
+Construction Financing 513.3 502.8 313.8 2.1% 63.6%
+Leasing 1.0 1.1 1.9 -14.7% -50.9%
+Cash and Cash Equivalents and Short-Term Investments 2,449.5 2,124.6 1,545.8 15.3% 58.5%
+Net Debt (Net Cash) before swap 130.1 -97.7 134.9 -233.2% -3.5%
+Interest rate swap contracts 26.0 39.8 43.5 -34.6% -40.2%
+Net Debt1 (Net Cash) 104.1 -137.5 91.3 -175.7% 14.0%
+Net Debt1 / Equity 3.8% -5.6% 4.1% 9 p.p. 0 p.p.
+Loans and Financing Operations by index 2,579.6 2,026.9 1,680.6 27.3% 53.5%
+TR 513.3 502.8 313.8 2.1% 63.6%
+IPCA2 1,020.9 808.9 810.6 26.2% 25.9%
+CDI 680.3 531.3 490.2 28.0% 38.8%
+Fixed interest rate2 365.1 183.9 66.1 98.6% 452.3%
+1 - Loans and Financing Operations reduced by Cash and Cash Equivalents and Short-term Investments plus the balance of interest rate swap contracts.
+2 - For all bonds indexed to the IPCA (Brazil’s Consumer Price Index) and with fixed interest rate, the Company has interest rate swap contracts, in order to exchange the interest rate into CDI.
+19
 
-Nota: Geração de caixa = variação da dívida líquida ajustada por pagamento de dividendos, recompra de ações e variação no saldo de contratos de operações de swap de juros.
+<!-- PAGE 47 -->
+3Q25
+EARNINGS RELEASE
+DebtAmortizationSchedule LoansandFinancingBreakdown
+(BRL million) (% ofTotal Debt)
+2,554
+Construction Financing -SFH
+513 CRI
+Leasing
+1 80%
+Capital Markets
+Interest Rate Swap
+2,065
+531
+238 147 297 157 187 268 231 231 293 0%
+20% Leasing
+-26
+SFH
+≤ 12 13-24 25-36 37-48 49-60 61-72 73-84 85-96 97-108 > 108 Total
+monthsmonthsmonthsmonthsmonthsmonthsmonthsmonthsmonthsmonths
+Cash Generation
+Direcional Group recorded a cash generation1 of BRL 113 million in 3Q25. As a result, the total amount generated in the first nine
+months of the year reached BRL 493 million.
+Cash Generation
+(BRL million)
+493
+395
+159
+113
+-15
+4Q24 1Q25 2Q25 3Q25 9M25
+1 - Cash Generation: change in net debt adjusted by payment of dividends, share buybacks and the change in the balance of interest rate swap contracts.
+20
 
-## Balanço Patrimonial Consolidado
+<!-- PAGE 48 -->
+3Q25
+EARNINGS RELEASE
+Statements contained in this notice regarding business perspectives, operational and financial projection results, and references
+to the Company’s potential of growth constitute mere estimates and were based on the Board’s expectations and estimates
+regarding the Company’s future performance. Although the Company believes that such estimates are based on reasonable
+assumptions, Company does not ensure they are achievable. The expectations and estimates underlying the Company's future
+perspectives are highly dependent on the market behavior, the Brazil's economic and political situation, the current and future
+state regulations, the industry and international markets, and are therefore subject to changes which are beyond control by
+part of the Company and its Board. The Company shall not commit to publish updates neither to revise the expectations,
+estimates, and provisions contained herein arising from future information or events.
+STOCK TICKER: DIRR3 CONFERENCE CALL CONTACTS
+Stock price on 09/30/2025: BRL 16.17 Date: 11/13/2025 – Thursday
+7:00 a.m. (EST) IR Team
+(+55 31) 3431-5509 | (+55 31) 3431-5512
+Number of Shares (Ex-Treasury Shares): 9:00 a.m. (BRT)
+ri@direcional.com.br
+520 million 12:00 p.m. (GMT)
+ri.direcional.com.br/en
+Market Cap:
+BRL 8.4 billion / US$ 1.6 billion
+Access Info: Institutional Website
+www.direcional.com.br
+Free Float:
+Zoom
+62%
+https://us06web.zoom.us/webinar/register/W
+Address
+N_XwQXLWN8SHK_BBqND-FPOQ
+3Q25 ADTV: 177 Rua dos Otoni - 14th floor
+3.0 million shares
+Belo Horizonte - MG
+YouTube Zip Code: 30.150-270
+BRL 61.3 million
+https://www.youtube.com/live/gpJAQUS0VqA
+10,317 transactions
+21
 
-| Ativo (R$ Mil) | 30/09/2025 | 31/12/2024 | Δ% |
-|---|---|---|---|
-| Ativo circulante | 5.613.159 | 4.571.386 | 23% |
-| Caixa e equivalentes de caixa e aplicações financeiras | 2.449.506 | 1.615.181 | 52% |
-| Contas a receber | 1.348.006 | 992.821 | 36% |
-| Estoques | 1.442.734 | 1.643.111 | -12% |
-| Crédito com partes relacionadas | 80.933 | 71.054 | 14% |
-| Tributos a recuperar | 38.964 | 37.062 | 5% |
-| Contas a receber por alienação de investimentos | 2.744 | 5.833 | -53% |
-| Outros créditos | 250.272 | 206.324 | 21% |
-| Ativo não circulante | 6.802.575 | 5.496.020 | 24% |
-| Aplicações financeiras | 168.215 | 99.714 | 69% |
-| Contas a receber | 1.271.939 | 846.706 | 50% |
-| Estoques | 4.761.035 | 3.888.979 | 22% |
-| Depósitos judiciais | 23.484 | 21.555 | 9% |
-| Tributos a recuperar | 9.461 | 20.611 | -54% |
-| Contas a receber por alienação de investimentos | 5.799 | 7.630 | -24% |
-| Outros créditos | 150.924 | 143.513 | 5% |
-| Investimentos | 105.527 | 212.504 | -50% |
-| Imobilizado | 266.560 | 220.762 | 21% |
-| Intangível | 39.631 | 34.046 | 16% |
-| Total do ativo | 12.415.734 | 10.067.406 | 23% |
+<!-- PAGE 49 -->
+3Q25
+EARNINGS RELEASE
+CONSOLIDATED BALANCE SHEET
+Consolidated Balance Sheet (BRL ‘000) 09/30/2025 12/31/2024  
+Current Assets 5,613,159 4,571,386 23%
+Cash and cash equivalents and short-term investments 2,449,506 1,615,181 52%
+Accounts receivable 1,348,006 992,821 36%
+Inventories 1,442,734 1,643,111 -12%
+Receivables from related parties 80,933 71,054 14%
+Taxes recoverable 38,964 37,062 5%
+Accounts receivable from divestitures 2,744 5,833 -53%
+Other receivables 250,272 206,324 21%
+Non-Current Assets 6,802,575 5,496,020 24%
+Short-term investments 168,215 99,714 69%
+Accounts receivable 1,271,939 846,706 50%
+Inventories 4,761,035 3,888,979 22%
+Judicial deposits 23,484 21,555 9%
+Taxes recoverable 9,461 20,611 -54%
+Accounts receivable from divestitures 5,799 7,630 -24%
+Other receivables 150,924 143,513 5%
+Investments 105,527 212,504 -50%
+Property and equipment 266,560 220,762 21%
+Intangible assets 39,631 34,046 16%
+Total Assets 12,415,734 10,067,406 23%
+31/12/2023
+Consolidated Balance Sheet (BRL ‘000) 09/30/2025 12/31/2024  
+Current Liabilities 1,427,396 1,508,358 -5%
+Debts and debentures 238,164 202,562 18%
+Assignment liability 198,428 169,847 17%
+Trade payables 170,298 128,837 32%
+Trade payables - forfait 15,862 7,576 109%
+Labor obligations 103,684 68,360 52%
+Tax obligations 58,012 55,567 4%
+Lease financing 10,120 7,911 28%
+Real estate commitments payable 127,395 194,059 -34%
+Advances from customers 96,239 66,546 45%
+Other accounts payable 203,389 184,636 10%
+Dividends payable 0 299,399 -100%
+Provision for warranties 23,488 21,964 7%
+Payables to related parties 182,317 101,094 80%
+Non-Current Liabilities 8,268,156 6,335,297 31%
+Debts and debentures 2,341,473 1,347,099 74%
+Assignment liability 708,838 524,452 35%
+Trade payables 13,970 11,116 26%
+Provision for warranties 25,483 21,072 21%
+Tax obligations 59,310 28,523 108%
+Lease financing 77,318 75,773 2%
+Real estate commitments payable 4,287,585 3,655,700 17%
+Advances from customers 632,661 568,086 11%
+Provisions for tax, labor and civil contingencies 39,713 34,319 16%
+Other accounts payable 81,805 69,157 18%
+Shareholder’s Equity 2,720,182 2,223,751 22%
+Capital 1,181,857 1,181,857 -
+Share issuance expenses -21,994 -21,994 -
+Treasury shares -8,042 -9,536 -16%
+Capital reserves 185,857 185,178 0%
+Carrying amount adjustments 167,444 -31,759 -
+Income reserves 362,661 711,711 -49%
+Current results 577,910 -
+2,445,693 2,015,457 21%
+Non-controlling interest 274,489 208,294 32%
+Total Liabilities and Shareholder’s Equity 12,415,734 10,067,406 23%
+22
 
-| Passivo e PL (R$ Mil) | 30/09/2025 | 31/12/2024 | Δ% |
-|---|---|---|---|
-| Passivo circulante | 1.427.396 | 1.508.358 | -5% |
-| Empréstimos, financiamentos e debêntures | 238.164 | 202.562 | 18% |
-| Passivo de cessão | 198.428 | 169.847 | 17% |
-| Fornecedores | 170.298 | 128.837 | 32% |
-| Fornecedores - Risco Sacado | 15.862 | 7.576 | 109% |
-| Obrigações trabalhistas | 103.684 | 68.360 | 52% |
-| Obrigações tributárias | 58.012 | 55.567 | 4% |
-| Financiamento por arrendamento | 10.120 | 7.911 | 28% |
-| Credores por imóveis compromissados | 127.395 | 194.059 | -34% |
-| Adiantamento de clientes | 96.239 | 66.546 | 45% |
-| Outras contas a pagar | 203.389 | 184.636 | 10% |
-| Dividendos propostos | 0 | 299.399 | -100% |
-| Provisão para garantia | 23.488 | 21.964 | 7% |
-| Débitos com partes relacionadas | 182.317 | 101.094 | 80% |
-| Passivo não circulante | 8.268.156 | 6.335.297 | 31% |
-| Empréstimos, financiamentos e debêntures | 2.341.473 | 1.347.099 | 74% |
-| Passivo de cessão | 708.838 | 524.452 | 35% |
-| Fornecedores | 13.970 | 11.116 | 26% |
-| Provisão para garantia | 25.483 | 21.072 | 21% |
-| Obrigações tributárias | 59.310 | 28.523 | 108% |
-| Financiamento por arrendamento | 77.318 | 75.773 | 2% |
-| Credores por imóveis compromissados | 4.287.585 | 3.655.700 | 17% |
-| Adiantamento de clientes | 632.661 | 568.086 | 11% |
-| Provisão para riscos tributários, trabalhistas e cíveis | 39.713 | 34.319 | 16% |
-| Outras contas a pagar | 81.805 | 69.157 | 18% |
-| Patrimônio líquido | 2.720.182 | 2.223.751 | 22% |
-| Capital social | 1.181.857 | 1.181.857 | - |
-| Gastos com emissões de ações | -21.994 | -21.994 | - |
-| Ações em tesouraria | -8.042 | -9.536 | -16% |
-| Reservas de capital | 185.857 | 185.178 | 0% |
-| Ajuste de avaliação patrimonial | 167.444 | -31.759 | - |
-| Reservas de lucro | 362.661 | 711.711 | -49% |
-| Lucro no período | 577.910 | - | - |
-| PL atribuível aos controladores | 2.445.693 | 2.015.457 | 21% |
-| Participação de não controladores | 274.489 | 208.294 | 32% |
-| Total do passivo e patrimônio líquido | 12.415.734 | 10.067.406 | 23% |
+<!-- PAGE 50 -->
+3Q25
+EARNINGS RELEASE
+CONSOLIDATED INCOME STATEMENT
+Consolidated Income Statement (BRL ‘000) 3Q25 2Q25 3Q24     9M25 9M24  
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Net Revenue 1,157,823 1,065,210 910,598 8.7% 27.1% 3,117,165 2,424,260 28.6%
+Cost of units sold and services rendered -694,023 -650,982 -577,881 6.6% 20.1% -1,893,856 -1,548,313 22.3%
+Gross Profit 463,800 414,228 332,717 12.0% 39.4% 1,223,309 875,947 39.7%
+General and administrative expenses -68,636 -60,634 -52,276 13.2% 31.3% -184,403 -153,761 19.9%
+Selling expenses -113,940 -96,860 -80,402 17.6% 41.7% -291,785 -206,706 41.2%
+Equity income 16,173 14,911 18,500 8.5% -12.6% 43,452 64,376 -32.5%
+Other operating income and expenses -14,319 -46,633 -31,522 -69.3% -54.6% -86,033 -53,320 61.4%
+Operating Income (Expenses) -180,722 -189,216 -145,700 -4.5% 24.0% -518,769 -349,411 48.5%
+Financial expenses -92,014 -79,992 -59,330 15.0% 55.1% -233,296 -165,286 41.1%
+Financial income 119,310 98,161 76,764 21.5% 55.4% 294,872 209,434 40.8%
+Financial Result, net 27,296 18,169 17,434 50.2% 56.6% 61,576 44,148 39.5%
+Income before Income and Social Contribution Taxes 310,374 243,181 204,451 27.6% 51.8% 766,116 570,684 34.2%
+Income and Social Contribution taxes -27,400 -22,538 -19,761 21.6% 38.7% -71,047 -47,085 50.9%
+Net Income before Interest in SPVs and SCPs 282,974 220,643 184,690 28.2% 53.2% 695,069 523,599 32.7%
+Interest in SPVs and SCPs (Minority Interest) -53,322 -36,901 -24,226 44.5% 120.1% -117,159 -66,682 75.7%
+Net Income 229,652 183,742 160,464 25.0% 43.1% 577,910 456,917 26.5%
+Gross Margin 40.1% 38.9% 36.5% 1.2 p.p. 3.5 p.p. 39.2% 36.1% 3.1 p.p.
+Adjusted Gross Margin1 42.1% 41.7% 38.5% 0.4 p.p. 3.5 p.p. 41.8% 37.9% 3.8 p.p.
+Net Margin 19.8% 17.2% 17.6% 2.6 p.p. 2.2 p.p. 18.5% 18.8% -0.3 p.p.
+1 – Adjusted Margin: excluding capitalized interest in COGS.
+23
 
-## Demonstração de Resultados Consolidada
+<!-- PAGE 51 -->
+3Q25
+EARNINGS RELEASE
+CONSOLIDATED CASH FLOW STATEMENT
+Consolidated Cash Flow Statement (BRL ‘000) 09/30/2025 09/30/2024
+Cash Flow from Operating Activities
+Income before income and social contribution taxes 766,116 570,684
+Adjustments to reconcile profit or loss with available funds from operating activities
+Depreciation and amortization 58,052 51,036
+Equity income -43,452 -64,376
+Income from financial investments arising from cash and cash equivalents balances -75,355 -18,214
+Provision for guarantee 24,403 15,149
+Interest on charges and financing and assignment liability 195,788 154,375
+Hedge accounting – fair value 13,964 -25,580
+Gains (losses) from derivatives 106 2,189
+Provision for labor, tax, and civil contingencies 19,847 16,144
+Gains (losses) on barter transactions -38,385 -45,350
+Sale of investments -49,637 -28,644
+Amortization of Capital Gains 13,491 -
+AmortizAadtijounst omf eCnatp titoa al cGcaoinusnAts receivable from acquisition of equity interests -80 -
+AWmriotert-iozfaft lieoans oefs Capital Gains - -2,898
+APrmesoerntitz avtaiolune oafd Cjuasptimtael nGta oinf sa ccounts receivable 29,064 26,693
+Present value adjustment on lease financing 5,072 4,208
+Expenses on receivables assignment 10,224 4,721
+Adjustment to net realizable amount of finished inventory 5 -1
+Adjustment of assignment liability 40,265 23,178
+Provision for losses on accounts receivable 69,053 38,539
+Provision for stock option plan 11,506 5,113
+Provision for profit sharing 14,162 17,764
+Increase (decrease) in assets
+Accounts receivable -852,413 -666,252
+Inventories 143,599 148,917
+Sundry receivables -41,528 2,704
+Related parties 44,250 -32,559
+Judicial deposits -1,929 -3,608
+Taxes recoverable 9,248 -7,302
+(Decrease) increase in liabilities
+Suppliers 12,421 34,832
+Labor obligations 21,162 12,863
+Tax liabilities 17,617 11,810
+Real estate commitments payable -173,639 -145,994
+Advances from clients 8,913 41,861
+Accounts payable -1,317 -13,740
+Provision for labor, tax, and civil contingencies -14,453 -16,660
+Related parties 81,223 13,279
+Construction collateral -18,468 -14,680
+Other Liabilities 21,410 -
+Income and social contribution taxes paid -51,525 -33,241
+Net Cash generated (applied) in Operating Activities 268,780 76,960
+Cash Flow from Investment Activities
+Increase (Decrease) in investments (SCPs and SPVs) -33,348 -83,608
+Dividends received 39,953 14,120
+Proceeds from the sale of investments 199,491 124,271
+Contributions and loans -12,376 21,438
+Acquisition of fixed assets -51,286 -30,404
+Acquisition of intangibles -18,119 -32,825
+Changes in financial investments -44,002 -31,035
+Net Cash generated (applied) in Investment Activities 80,313 -18,043
+Cash Flow from Financing Activities
+Disposal of treasury shares -7 -
+Dividends paid out -646,063 -358,370
+Entry of assignment of receivables 313,636 359,423
+Payment of assignment of receivables -160,855 -64,685
+Share buybacks -18,960 -
+Amortization of lease financing -7,813 -6,330
+Interest paid on lease -934 -297
+Loans taken out 1,474,078 722,901
+Payment of debt structuring costs -39,517 -9,172
+Loans amortization -494,323 -366,319
+Interest paid -133,105 -74,944
+Dividends paid to non-controlling interest -74,217 -40,009
+Capital increase / decrease by non-controlling interest 222,456 3,076
+Net cash generated (applied) in Financing Activities 434,376 165,274
+Increase of Cash and Cash Equivalents 783,469 224,191
+Cash and Cash Equivalents
+At the beginning of the period 792,054 633,978
+At the end of the period 1,575,523 858,169
+24
 
-| DRE Consolidado (R$ Mil) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a | 9M25 | 9M24 | Δ a/a |
-|---|---|---|---|---|---|---|---|---|
-| Receita operacional líquida | 1.157.823 | 1.065.210 | 910.598 | 8,7% | 27,1% | 3.117.165 | 2.424.260 | 28,6% |
-| Custo da venda de imóveis e serviços prestados | -694.023 | -650.982 | -577.881 | 6,6% | 20,1% | -1.893.856 | -1.548.313 | 22,3% |
-| Lucro bruto | 463.800 | 414.228 | 332.717 | 12,0% | 39,4% | 1.223.309 | 875.947 | 39,7% |
-| Despesas gerais e administrativas | -68.636 | -60.634 | -52.276 | 13,2% | 31,3% | -184.403 | -153.761 | 19,9% |
-| Despesas comerciais | -113.940 | -96.860 | -80.402 | 17,6% | 41,7% | -291.785 | -206.706 | 41,2% |
-| Resultado com equivalência patrimonial | 16.173 | 14.911 | 18.500 | 8,5% | -12,6% | 43.452 | 64.376 | -32,5% |
-| Outras receitas e despesas operacionais | -14.319 | -46.633 | -31.522 | -69,3% | -54,6% | -86.033 | -53.320 | 61,4% |
-| Receitas (despesas) operacionais | -180.722 | -189.216 | -145.700 | -4,5% | 24,0% | -518.769 | -349.411 | 48,5% |
-| Despesas financeiras | -92.014 | -79.992 | -59.330 | 15,0% | 55,1% | -233.296 | -165.286 | 41,1% |
-| Receitas financeiras | 119.310 | 98.161 | 76.764 | 21,5% | 55,4% | 294.872 | 209.434 | 40,8% |
-| Resultado financeiro | 27.296 | 18.169 | 17.434 | 50,2% | 56,6% | 61.576 | 44.148 | 39,5% |
-| Resultado antes do IR e CSLL | 310.374 | 243.181 | 204.451 | 27,6% | 51,8% | 766.116 | 570.684 | 34,2% |
-| IR e CSLL - corrente e diferido | -27.400 | -22.538 | -19.761 | 21,6% | 38,7% | -71.047 | -47.085 | 50,9% |
-| Resultado líquido antes de participantes em SCPs e SPEs | 282.974 | 220.643 | 184.690 | 28,2% | 53,2% | 695.069 | 523.599 | 32,7% |
-| Participantes em SCPs e SPEs | -53.322 | -36.901 | -24.226 | 44,5% | 120,1% | -117.159 | -66.682 | 75,7% |
-| Lucro líquido do período | 229.652 | 183.742 | 160.464 | 25,0% | 43,1% | 577.910 | 456.917 | 26,5% |
-| Margem Bruta | 40,1% | 38,9% | 36,5% | 1,2 p.p. | 3,5 p.p. | 39,2% | 36,1% | 3,1 p.p. |
-| Margem Bruta Ajustada | 42,1% | 41,7% | 38,5% | 0,4 p.p. | 3,5 p.p. | 41,8% | 37,9% | 3,8 p.p. |
-| Margem Líquida | 19,8% | 17,2% | 17,6% | 2,6 p.p. | 2,2 p.p. | 18,5% | 18,8% | -0,3 p.p. |
+<!-- PAGE 52 -->
+3Q25
+EARNINGS RELEASE
+CONSOLIDATED BALANCE SHEET - RIVA
+Consolidated Balance Sheet (BRL ‘000) 09/30/2025 12/31/2024  
+Current Assets 1,677,441 1,209,474 39%
+Cash and cash equivalents and short-term investments 562,486 269,760 109%
+Accounts receivable 491,479 357,416 38%
+Inventories 473,924 501,234 -5%
+Receivables from related parties 42,366 32,824 29%
+Taxes recoverable 7,381 5,085 45%
+Other receivables 99,805 43,155 131%
+Non-Current Assets 2,433,273 1,889,165 29%
+Short-term investments 34,290 55,493 -38%
+Accounts receivable 683,389 451,198 51%
+Inventories 1,622,109 1,267,155 28%
+Judicial deposits 2,159 2,132 1%
+Taxes recoverable 552 712 -22%
+Accounts receivable from divestitures 5,298 7,129 -26%
+Other receivables 22,961 19,917 15%
+Investments 31,200 67,062 -53%
+Property and equipment 31,230 18,253 71%
+Intangible assets 85 114 -25%
+Total Assets 4,110,714 3,098,639 33%
+31/12/2023
+Consolidated Balance Sheet (BRL ‘000) 09/30/2025 12/31/2024  
+Current Liabilities 443,186 305,824 45%
+Debts and debentures 21,807 17,118 27%
+Trade payables 49,421 38,660 28%
+Trade payables - forfait 12,162 2,885 322%
+Labor obligations 23,491 10,596 122%
+Tax obligations 22,843 22,192 3%
+Lease financing 100 96 4%
+Real estate commitments payable 46,409 53,099 -13%
+Advances from customers 60,365 30,298 99%
+Other accounts payable 55,075 23,406 135%
+Assignment liability 101,364 69,246 46%
+Provision for warranties 6,181 4,208 47%
+Payables to related parties 43,968 34,020 29%
+Non-Current Liabilities 2,878,810 2,018,670 43%
+Debts and debentures 441,567 141,702 212%
+Trade payables 4,878 4,017 21%
+Provision for warranties 10,849 9,041 20%
+Current taxes with deferred payment 32,215 16,284 98%
+Real estate commitments payable 1,583,329 1,220,274 30%
+Advances from customers 236,225 242,354 -3%
+Provisions for tax, labor and civil contingencies 1,612 360 348%
+Other accounts payable 69,129 69,129 -
+Assignment Liability 499,006 315,509 58%
+Equity 788,718 774,145 2%
+Equity attributable to shareholders 753,263 735,659 2%
+Non-controlling interest 35,455 38,486 -8%
+Total Liabilities and Shareholder’s Equity 4,110,714 3,098,639 33%
+25
 
-## Demonstração de Fluxo de Caixa Consolidada
+<!-- PAGE 53 -->
+3Q25
+EARNINGS RELEASE
+CONSOLIDATED INCOME STATEMENT - RIVA
+Consolidated Income Statement (BRL ‘000) 3Q25 2Q25 3Q24     9M25 9M24  
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Net Revenue 487,159 365,306 323,832 33.4% 50.4% 1,178,199 846,802 39.1%
+Cost of units sold and services rendered -283,814 -222,903 -202,753 27.3% 40.0% -701,536 -541,858 29.5%
+Gross Profit 203,345 142,403 121,079 42.8% 67.9% 476,663 304,944 56.3%
+Selling, general and administrative expenses -44,833 -30,934 -25,524 44.9% 75.7% -108,025 -61,990 74.3%
+Equity income 6,556 5,157 9,035 27.1% -27.4% 19,810 20,256 -2.2%
+Other operating income and expenses -3,351 -3,600 -3,246 -6.9% 3.2% -8,381 -10,624 -21.1%
+Operating Income (Expenses) -41,628 -29,377 -19,735 41.7% 110.9% -96,596 -52,358 84.5%
+Financial Result, net 4,610 -5,849 -8,741 -178.8% -152.7% -5,885 -11,980 -50.9%
+Income before Income and Social Contribution Taxes 166,327 107,177 92,603 55.2% 79.6% 374,182 240,606 55.5%
+Income and Social Contribution taxes -12,063 -7,609 -7,553 58.5% 59.7% -26,880 -18,958 41.8%
+Net Income before Interest in SPVs and SCPs 154,264 99,568 85,050 54.9% 81.4% 347,302 221,648 56.7%
+Interest in SPVs and SCPs (Minority Interest) -13,755 -8,943 -1,813 53.8% 658.7% -32,020 -14,410 122.2%
+Net Income 140,509 90,625 83,237 55.0% 68.8% 315,282 207,238 52.1%
+Gross Margin 41.7% 39.0% 37.4% 2.8 p.p. 4.4 p.p. 40.5% 36.0% 4.4 p.p.
+Adjusted Gross Margin1 43.2% 41.0% 38.7% 2.2 p.p. 4.5 p.p. 42.3% 37.4% 4.9 p.p.
+Net Margin 28.8% 24.8% 25.7% 4.0 p.p. 3.1 p.p. 26.8% 24.5% 2.3 p.p.
+1 – Adjusted Margin: excluding capitalized interest in COGS.
+26
 
-| Fluxo de Caixa Consolidado (R$ Mil) | 9M25 | 9M24 |
-|---|---|---|
-| **Atividades Operacionais** | | |
-| Lucro antes do IR e CSLL | 766.116 | 570.684 |
-| Depreciações e amortizações | 58.052 | 51.036 |
-| Resultado de equivalência patrimonial | -43.452 | -64.376 |
-| Receita de aplicações financeiras | -75.355 | -18.214 |
-| Provisão para garantia | 24.403 | 15.149 |
-| Juros sobre encargos e financiamentos | 195.788 | 154.375 |
-| Hedge accounting - Valor justo | 13.964 | -25.580 |
-| Resultado com derivativos | 106 | 2.189 |
-| Provisão para riscos tributários, trabalhistas e cíveis | 19.847 | 16.144 |
-| Resultado com permuta física | -38.385 | -45.350 |
-| Alienação de investimentos | -49.637 | -28.644 |
-| Amortização de Mais Valia | 13.491 | - |
-| Correção do contas a receber por aquisição de participações societárias | -80 | - |
-| Baixa de arrendamentos | - | -2.898 |
-| Ajuste a valor presente sobre contas a receber | 29.064 | 26.693 |
-| Ajuste a valor presente sobre financiamento por arrendamento | 5.072 | 4.208 |
-| Despesas com cessão de recebíveis | 10.224 | 4.721 |
-| Ajuste ao valor realizável líquido de estoque concluído | 5 | -1 |
-| Correção passivo de cessão | 40.265 | 23.178 |
-| Provisão para perdas de contas a receber | 69.053 | 38.539 |
-| Provisão para plano de opções de ações | 11.506 | 5.113 |
-| Provisão para participação nos Lucros | 14.162 | 17.764 |
-| Contas a receber | -852.413 | -666.252 |
-| Estoques | 143.599 | 148.917 |
-| Créditos diversos | -41.528 | 2.704 |
-| Partes relacionadas | 44.250 | -32.559 |
-| Depósitos judiciais | -1.929 | -3.608 |
-| Tributos a recuperar | 9.248 | -7.302 |
-| Fornecedores | 12.421 | 34.832 |
-| Obrigações trabalhistas | 21.162 | 12.863 |
-| Obrigações tributárias | 17.617 | 11.810 |
-| Credores por imóveis compromissados | -173.639 | -145.994 |
-| Adiantamento de clientes | 8.913 | 41.861 |
-| Contas a pagar | -1.317 | -13.740 |
-| Provisão para riscos - pagamentos | -14.453 | -16.660 |
-| Partes relacionadas (passivo) | 81.223 | 13.279 |
-| Garantia de obra | -18.468 | -14.680 |
-| Outros Passivos | 21.410 | - |
-| IR e CSLL pagos | -51.525 | -33.241 |
-| **Caixa líquido gerado pelas atividades operacionais** | **268.780** | **76.960** |
-| **Atividades de Investimento** | | |
-| Acréscimo (decréscimo) de investimentos (SCPs e SPEs) | -33.348 | -83.608 |
-| Dividendos recebidos | 39.953 | 14.120 |
-| Alienação de investimentos | 199.491 | 124.271 |
-| Aportes e Mútuos | -12.376 | 21.438 |
-| Acréscimo do imobilizado | -51.286 | -30.404 |
-| Acréscimo de intangível | -18.119 | -32.825 |
-| Aplicações financeiras (resgate e aportes, líquidos) | -44.002 | -31.035 |
-| **Caixa líquido gerado (aplicado) nas atividades de investimento** | **80.313** | **-18.043** |
-| **Atividades de Financiamento** | | |
-| Alienação de ações em tesouraria | -7 | - |
-| Dividendos pagos | -646.063 | -358.370 |
-| Ingresso de cessão de recebíveis | 313.636 | 359.423 |
-| Pagamento de cessão de recebíveis | -160.855 | -64.685 |
-| Recompra de ações | -18.960 | - |
-| Amortização do financiamento por arrendamento | -7.813 | -6.330 |
-| Juros pagos sobre arrendamento | -934 | -297 |
-| Ingressos de empréstimos | 1.474.078 | 722.901 |
-| Pagamento de custos de estruturação de dívidas | -39.517 | -9.172 |
-| Amortizações dos empréstimos | -494.323 | -366.319 |
-| Juros pagos | -133.105 | -74.944 |
-| Dividendos pagos a sócios não controladores | -74.217 | -40.009 |
-| Aumento de capital por não controladores | 222.456 | 3.076 |
-| **Caixa líquido gerado nas atividades de financiamento** | **434.376** | **165.274** |
-| **Aumento de caixa e equivalentes** | **783.469** | **224.191** |
-| Caixa no início do período | 792.054 | 633.978 |
-| Caixa no final do período | 1.575.523 | 858.169 |
-
-## Balanço Patrimonial Consolidado — Riva
-
-| Ativo Riva (R$ Mil) | 30/09/2025 | 31/12/2024 | Δ% |
-|---|---|---|---|
-| Ativo circulante | 1.677.441 | 1.209.474 | 39% |
-| Caixa, equivalentes de caixa e aplicações financeiras | 562.486 | 269.760 | 109% |
-| Contas a receber | 491.479 | 357.416 | 38% |
-| Estoques | 473.924 | 501.234 | -5% |
-| Crédito com partes relacionadas | 42.366 | 32.824 | 29% |
-| Tributos a recuperar | 7.381 | 5.085 | 45% |
-| Outros créditos | 99.805 | 43.155 | 131% |
-| Ativo não circulante | 2.433.273 | 1.889.165 | 29% |
-| Aplicações financeiras | 34.290 | 55.493 | -38% |
-| Contas a receber | 683.389 | 451.198 | 51% |
-| Estoques | 1.622.109 | 1.267.155 | 28% |
-| Depósitos judiciais | 2.159 | 2.132 | 1% |
-| Tributos a recuperar | 552 | 712 | -22% |
-| Contas a receber por alienação de investimentos | 5.298 | 7.129 | -26% |
-| Outros créditos | 22.961 | 19.917 | 15% |
-| Investimentos | 31.200 | 67.062 | -53% |
-| Imobilizado | 31.230 | 18.253 | 71% |
-| Intangível | 85 | 114 | -25% |
-| Total do ativo | 4.110.714 | 3.098.639 | 33% |
-
-| Passivo Riva (R$ Mil) | 30/09/2025 | 31/12/2024 | Δ% |
-|---|---|---|---|
-| Passivo circulante | 443.186 | 305.824 | 45% |
-| Empréstimos, financiamentos e debêntures | 21.807 | 17.118 | 27% |
-| Fornecedores | 49.421 | 38.660 | 28% |
-| Fornecedores - Risco Sacado | 12.162 | 2.885 | 322% |
-| Obrigações trabalhistas | 23.491 | 10.596 | 122% |
-| Obrigações tributárias | 22.843 | 22.192 | 3% |
-| Financiamento por arrendamento | 100 | 96 | 4% |
-| Credores por imóveis compromissados | 46.409 | 53.099 | -13% |
-| Adiantamento de clientes | 60.365 | 30.298 | 99% |
-| Outras contas a pagar | 55.075 | 23.406 | 135% |
-| Passivo de cessão | 101.364 | 69.246 | 46% |
-| Provisão para garantia | 6.181 | 4.208 | 47% |
-| Débitos com partes relacionadas | 43.968 | 34.020 | 29% |
-| Passivo não circulante | 2.878.810 | 2.018.670 | 43% |
-| Empréstimos, financiamentos e debêntures | 441.567 | 141.702 | 212% |
-| Fornecedores | 4.878 | 4.017 | 21% |
-| Provisão para garantia | 10.849 | 9.041 | 20% |
-| Tributos correntes com recolhimento diferido | 32.215 | 16.284 | 98% |
-| Credores por imóveis compromissados | 1.583.329 | 1.220.274 | 30% |
-| Adiantamento de clientes | 236.225 | 242.354 | -3% |
-| Provisão para riscos tributários, trabalhistas e cíveis | 1.612 | 360 | 348% |
-| Outras contas a pagar | 69.129 | 69.129 | - |
-| Passivo de cessão | 499.006 | 315.509 | 58% |
-| Patrimônio líquido | 788.718 | 774.145 | 2% |
-| PL atribuível aos acionistas | 753.263 | 735.659 | 2% |
-| Participação dos não controladores | 35.455 | 38.486 | -8% |
-| Total do passivo e patrimônio líquido | 4.110.714 | 3.098.639 | 33% |
-
-## Demonstração de Resultados Consolidada — Riva
-
-| DRE Riva (R$ Mil) | 3T25 | 2T25 | 3T24 | Δ t/t | Δ a/a | 9M25 | 9M24 | Δ a/a |
-|---|---|---|---|---|---|---|---|---|
-| Receita operacional líquida | 487.159 | 365.306 | 323.832 | 33,4% | 50,4% | 1.178.199 | 846.802 | 39,1% |
-| Custo da venda de imóveis e serviços prestados | -283.814 | -222.903 | -202.753 | 27,3% | 40,0% | -701.536 | -541.858 | 29,5% |
-| Lucro bruto | 203.345 | 142.403 | 121.079 | 42,8% | 67,9% | 476.663 | 304.944 | 56,3% |
-| Despesas comerciais, gerais e administrativas | -44.833 | -30.934 | -25.524 | 44,9% | 75,7% | -108.025 | -61.990 | 74,3% |
-| Resultado com equivalência patrimonial | 6.556 | 5.157 | 9.035 | 27,1% | -27,4% | 19.810 | 20.256 | -2,2% |
-| Outras receitas e despesas operacionais | -3.351 | -3.600 | -3.246 | -6,9% | 3,2% | -8.381 | -10.624 | -21,1% |
-| Receitas (despesas) operacionais | -41.628 | -29.377 | -19.735 | 41,7% | 110,9% | -96.596 | -52.358 | 84,5% |
-| Resultado financeiro | 4.610 | -5.849 | -8.741 | -178,8% | -152,7% | -5.885 | -11.980 | -50,9% |
-| Resultado antes do IR e CSLL | 166.327 | 107.177 | 92.603 | 55,2% | 79,6% | 374.182 | 240.606 | 55,5% |
-| IR e CSLL - corrente e diferido | -12.063 | -7.609 | -7.553 | 58,5% | 59,7% | -26.880 | -18.958 | 41,8% |
-| Resultado líquido antes de participantes em SCPs e SPEs | 154.264 | 99.568 | 85.050 | 54,9% | 81,4% | 347.302 | 221.648 | 56,7% |
-| Participantes em SCPs e SPEs | -13.755 | -8.943 | -1.813 | 53,8% | 658,7% | -32.020 | -14.410 | 122,2% |
-| Lucro líquido do período | 140.509 | 90.625 | 83.237 | 55,0% | 68,8% | 315.282 | 207.238 | 52,1% |
-| Margem Bruta | 41,7% | 39,0% | 37,4% | 2,8 p.p. | 4,4 p.p. | 40,5% | 36,0% | 4,4 p.p. |
-| Margem Bruta Ajustada | 43,2% | 41,0% | 38,7% | 2,2 p.p. | 4,5 p.p. | 42,3% | 37,4% | 4,9 p.p. |
-| Margem Líquida | 28,8% | 24,8% | 25,7% | 4,0 p.p. | 3,1 p.p. | 26,8% | 24,5% | 2,3 p.p. |
-
-## Glossário
-
-**Direcional** — Empreendimentos residenciais com preço médio por unidade de até R$ 350 mil, geralmente enquadrados no Programa Minha Casa, Minha Vida – Faixas 1, 2 e 3.
-
-**Riva** — Empreendimentos residenciais destinados a clientes de média renda, desenvolvidos nas SPEs objeto de aporte de ativos na subsidiária integral da Direcional denominada Riva Incorporadora S.A. Geralmente, os empreendimentos são enquadrados no Programa Minha Casa, Minha Vida – Faixa 4 (preço médio por unidade de até R$ 500 mil), ou vendidos fora do Programa (com preço médio por unidade acima dos R$ 500 mil).
-
-**Legado** — Empreendimentos do segmento MAC (Médio Padrão, Médio-Alto Padrão e Comercial), desenvolvidos no modelo de incorporação e construção anterior.
-
-**Novo Modelo** — Modelo de negócios consolidado a partir de 2015 para desenvolvimento dos empreendimentos residenciais da Companhia. Tem como principais características a possibilidade de repasses na planta e a adoção de construção industrializada.
-
-**Banco de Terrenos (Landbank)** — Terrenos mantidos em estoque com a estimativa de VGV futuro dos mesmos.
-
-**EBITDA Ajustado** — EBITDA (lucro antes do resultado financeiro, dos encargos financeiros incluídos na rubrica de custos dos imóveis vendidos, do Imposto de Renda e da Contribuição Social, das despesas de depreciação e amortização) menos a participação dos acionistas não controladores e menos resultados não recorrentes, geralmente alocados na linha de Outras Receitas e Despesas Operacionais. O ajuste a valor presente das contas a receber de unidades vendidas e não entregues registradas como receita (despesa) operacional bruta faz parte das atividades operacionais e, portanto, não é excluído no cálculo do EBITDA Ajustado.
-
-**LTM** — Período que compreende os últimos 12 meses (Last Twelve Months).
-
-**Método PoC** — As receitas, custos e despesas relacionadas a empreendimentos imobiliários são apropriadas com base no método contábil do custo incorrido (Percentage of Completion - PoC), medindo-se o progresso da obra pelos custos reais incorridos versus os gastos totais orçados para cada fase do empreendimento.
-
-**Permuta Financeira** — Sistema de compra de terreno pelo qual o proprietário do terreno recebe o pagamento em dinheiro, em geral calculado como um percentual do VGV do empreendimento.
-
-**Permuta Física** — Sistema de compra de terreno pelo qual o proprietário do terreno recebe em pagamento um determinado número de unidades do empreendimento a ser construído no mesmo.
-
-**Programa Minha Casa, Minha Vida (MCMV)** — Atual denominação atribuída ao programa de incentivo à habitação popular.
-
-**Recursos do SFH** — Recursos do Sistema Financeiro da Habitação (SFH) são originados do FGTS e dos depósitos de caderneta de poupança.
-
-**Resultado a Apropriar** — Resultado do saldo de transações de vendas de imóveis já contratadas (decorrente dos imóveis cuja construção não foi ainda concluída) e seus respectivos custos orçados a incorrer.
-
-**Vendas Líquidas Contratadas** — VGV decorrente de todos os contratos de venda de imóveis celebrados em determinado período, incluindo a venda de unidades lançadas no período e a venda de unidades em estoque, líquida de distratos.
-
-**VGV** — Valor Geral de Vendas. Valor total a ser potencialmente obtido pela venda de todas as unidades de determinado empreendimento imobiliário ao preço de lançamento.
-
-**VGV Lançado** — Valor Geral de Vendas das unidades lançadas em determinado período.
+<!-- PAGE 54 -->
+3Q25
+EARNINGS RELEASE
+GLOSSARY
+Classification of the projects by Direcional Group, according to the target economic segment:
+Direcional Residential projects with an average price per unit of up to BRL 350 thousand under the “Minha Casa, Minha Vida” housing
+program – tier 1, 2 and 3.
+Riva Residential projects destined to middle-income customers, developed at the SPVs of the wholly owned subsidiary of Direcional
+called Riva Incorporadora S.A. Projects are typically classified under the “Minha Casa, Minha Vida” program – tier 4 (with an
+average unit price of up to BRL 500 thousand), or sold outside the program (average unit price above BRL 500 thousand).
+Old Harvest Projects of the MUC segment (Middle-income, Upper-middle income, and Commercial), developed under the previous
+development and building model.
+New Model A business model consolidated in 2015 for the development of the Company’s residential projects. One of its main characteristics
+is the possibility of off-plan transfer and the adoption of an industrialized construction model.
+Adjusted EBITDA - Adjusted EBITDA is equal to EBITDA (earnings before financial result, Income Tax and Social Contribution, depreciation and amortization
+expenses) less the participation of non-controlling stockholders and less the financial charges included in cost of units sold. We understand that the
+adjustment to present value of accounts receivable of units sold and not delivered recorded as gross operating revenue (expense) is part of our operating
+activities and, therefore, we do not exclude this revenue (expense) in the calculation of Adjusted EBITDA. Adjusted EBITDA is not a measure of financial
+performance under Brazilian Accounting Practices, nor should it be considered in isolation or as an alternative to net income as an operational performance
+measure or alternative to operating Cash Burns or as a liquidity measure. Adjusted EBITDA is an indicator of our overall economic performance, which is
+not affected by fluctuations in interest rates, changes in the tax burden of Income Tax and Social Contribution or depreciation and amortization levels.
+Contracted Net Sales - PSV arising from all contracts for the sale of properties entered into in a given period, including the sale of units launched in the
+period and the sale of units in stock, net from rescissions.
+Deferred Results - The result of the balance of real estate sales transactions already contracted (arising from units whose construction has not yet been
+completed) and their respective budgeted costs to be appropriated.
+Financial Swap – Land purchase system whereby the owner of the land receives the payment, in cash, calculated as a percentage of the PSV of the project,
+to be paid according to the determination of the revenue from the sales of units of the project.
+Landbank - lands maintained in inventory with an estimate of a future PSV for such.
+Launched PSV – Total Potential Sales Value of the units launched in a determined period.
+LTM – Last twelve months.
+Novo Mercado - B3's special listing segment, where companies adopt differentiated practices of corporate governance, which exceed the requirements of
+the traditional segment. Direcional joined Novo Mercado in November 19th, 2009.
+Physical Swap - Land purchase system whereby the owner of the land receives in payment a certain number of units of the project to be built in it.
+PoC Method - Under IFRS, revenues, costs and expenses related to real estate projects are appropriated based on the accounting method of the cost
+incurred ("PoC"), by measuring the progress of the work by the actual costs incurred versus the total budgeted expenses for each stage of the project.
+Minha Casa, Minha Vida Program (MCMV) - Current name given to the government’s social housing program (previously known as Programa Casa Verde
+e Amarela).
+PSV - Potential Sales Value. Total amount to be potentially obtained from the sale of all units of a given real estate development at the launch price. There
+is a possibility that the PSV launched shall not be realized or differ significantly from the value of Contracted Sales, since the quantity of Units actually sold
+may differ from the number of units launched and/or the actual selling price of each unit may differ from the launch price.
+SFH Resources - Housing Financial System (SFH) resources originated from the FGTS and savings account deposits.
+Tier 1 (FAR) - Low-income projects made as contract works within the “Minha Casa, Minha Vida” (MCMV) housing program, contracted directly with the
+Financing Agent, destined to families with a monthly income up to BRL 1,800. Properties of this segment has their final price determined by the Financing
+Agent, pursuant to the ordinance No. 435/2012 of the Ministry of Cities, and their acquisition may be subsidized by the government.
+27

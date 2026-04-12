@@ -1,632 +1,3467 @@
-# Release de Resultados 3T24 — Direcional
+<!-- PAGE 1 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+Belo Horizonte, 07 de novembro de 2024 - A Direcional Engenharia S/A, uma das maiores incorporadoras e construtoras do Brasil, com foco
+no desenvolvimento de empreendimentos populares e de médio padrão e atuação em diversas regiões do território Nacional, divulga seus
+resultados operacionais e financeiros referentes ao 3º trimestre de 2024 (3T24). Exceto quando indicado de outra forma, as informações
+deste documento estão expressas em moeda corrente nacional (em Reais) e o Valor Geral de Vendas (“VGV”) demonstra o valor consolidado
+(100%). As demonstrações financeiras consolidadas da Companhia são elaboradas de acordo com as práticas contábeis adotadas no Brasil,
+baseadas na Lei das Sociedades por Ações e nas regulamentações da CVM.
+DIVULGAÇÃO DE RESULTADOS 3T24
+✓ MAIOR LUCRO LÍQUIDO PARA UM TRIMESTRE: R$ 160 MILHÕES NO 3T24, CRESCIMENTO DE 133%
+SOBRE O 3T23 E DE 10% SOBRE O 2T24, COM MARGEM LÍQUIDA DE 17,6%
+✓ NO 9M24, LUCRO LÍQUIDO DE R$ 457 MILHÕES, CRESCENDO 97% EM RELAÇÃO AO 9M23
+✓ RECEITA LÍQUIDA ATINGIU SEU MAIOR NÍVEL HISTÓRICO: R$ 911 MILHÕES NO 3T24, 63% ACIMA DO
+3T23 E 8% ACIMA DO 2T24
+✓ MARGEM BRUTA AJUSTADA1 DE 38,7% NO 3T24, +170 BPS SOBRE O 3T23 E +60 BPS SOBRE O 2T24
+✓ ROE ANUALIZADO AJUSTADO2 ATINGE 29% NO 3T24
+OUTROS DESTAQUES
+▪ Vendas Líquidas totalizaram R$ 1,8 bilhão no 3T24, um crescimento de 76% sobre o 3T23.
+▪ Receita Líquida Total3 atingiu R$ 4,1 bilhões nos últimos 12 meses (3T24 LTM).
+▪ Diluição de 220 bps do G&A sobre a Receita Bruta em comparação ao 3T23 e de 50 bps em relação ao 2T24.
+▪ Receita a Apropriar (REF) alcançou R$ 2,6 bilhões ao final do 3T24, com Margem REF de 43,4%.
+▪ Geração de caixa de R$ 33 milhões no 3T24, somando R$ 195 milhões no 9M24.
+▪ Nova distribuição de dividendos: R$ 80 milhões (R$ 0,46 por ação), totalizando R$ 357 milhões anunciados no
+3T24 (correspondendo a R$ 2,06 por ação).
+1 - Ajuste excluindo os juros capitalizados no custo e o efeito do Programa Pode Entrar.
+2 - Ajuste excluindo resultado de swap de ações.
+3 - Ajuste incluindo a receita de SPEs não consolidadas no resultado (SPEs não controladas e controladas em conjunto).
+1
 
-**Fonte**: DIRR3_3T24_release_824945.pdf
-**Data de divulgação**: 07 de novembro de 2024
+<!-- PAGE 2 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+ÍNDICE
+MENSAGEM DA ADMINISTRAÇÃO ........................................................................................................................................................................ 3
+PRINCIPAIS INDICADORES .................................................................................................................................................................................... 6
+LANÇAMENTOS ....................................................................................................................................................................................................... 7
+VENDAS CONTRATADAS ....................................................................................................................................................................................... 8
+VELOCIDADE DE VENDAS (VSO) .......................................................................................................................................................................... 9
+Distratos .............................................................................................................................................................................................................. 10
+ESTOQUE ............................................................................................................................................................................................................... 10
+REPASSES ............................................................................................................................................................................................................. 11
+EMPREENDIMENTOS ENTREGUES..................................................................................................................................................................... 11
+BANCO DE TERRENOS ........................................................................................................................................................................................ 12
+Aquisições de Terrenos ..................................................................................................................................................................................... 12
+DESEMPENHO ECONÔMICO-FINANCEIRO ........................................................................................................................................................ 13
+Receita Bruta ....................................................................................................................................................................................................... 13
+Receita com Vendas de Imóveis ....................................................................................................................................................................... 13
+Receita com Prestação de Serviços ................................................................................................................................................................. 14
+Receita Líquida ................................................................................................................................................................................................... 14
+Lucro Bruto ......................................................................................................................................................................................................... 15
+Despesas Gerais e Administrativas (G&A)....................................................................................................................................................... 16
+Despesas Comerciais ......................................................................................................................................................................................... 16
+Resultado de Equivalência Patrimonial ............................................................................................................................................................ 17
+Outras Receitas e Despesas Operacionais ...................................................................................................................................................... 17
+EBITDA................................................................................................................................................................................................................. 17
+Resultado Financeiro ......................................................................................................................................................................................... 18
+Participantes não controladores em SPE e SCP (“Minoritários”) .................................................................................................................. 18
+Lucro Líquido ...................................................................................................................................................................................................... 19
+Resultado a Apropriar de Vendas de Imóveis.................................................................................................................................................. 20
+DESTAQUES DO BALANÇO PATRIMONIAL ....................................................................................................................................................... 21
+Caixa e Equivalentes de Caixa e Aplicações Financeiras .............................................................................................................................. 21
+Contas a Receber................................................................................................................................................................................................ 21
+Endividamento .................................................................................................................................................................................................... 22
+Geração de Caixa ................................................................................................................................................................................................ 23
+DIVIDENDOS .......................................................................................................................................................................................................... 23
+BALANÇO PATRIMONIAL CONSOLIDADO ......................................................................................................................................................... 25
+DEMONSTRAÇÃO DE RESULTADOS CONSOLIDADA ...................................................................................................................................... 26
+DEMONSTRAÇÃO DE FLUXO DE CAIXA CONSOLIDADA ................................................................................................................................ 27
+GLOSSÁRIO ........................................................................................................................................................................................................... 28
+2
 
----
+<!-- PAGE 3 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+MENSAGEM DA ADMINISTRAÇÃO
+O desempenho notável que reportamos neste 3º trimestre ratifica ainda mais a posição de relevância que o Grupo Direcional
+tem ocupado no mercado imobiliário e nos mantém confiantes em relação aos objetivos que ainda temos traçado para o ano
+de 2024. Estamos orgulhosos em compartilhar com nossos acionistas e demais stakeholders as relevantes conquistas que
+alcançamos no período, as quais destacamos a seguir.
+Lançamos um total de R$ 1,7 bilhão em Valor Geral de Vendas no 3T24 (R$ 1,4 bilhão % Companhia), representando
+aproximadamente 6 mil novas unidades habitacionais. No acumulado do ano até setembro, foram R$ 3,9 bilhões em termos de
+VGV lançado (R$ 3,3 bilhões % Companhia), e considerando os últimos 12 meses (3T24 LTM), o montante somou R$ 5,3 bilhões
+(R$ 4,6 bilhões % Companhia).
+A assertividade desses produtos vem sendo refletida, trimestre após trimestre, nos fortes números que temos reportado em
+termos de vendas. No 3T24, o VGV líquido contratado alcançou R$ 1,8 bilhão (R$ 1,4 bilhão % Companhia), crescendo 9% sobre
+o último trimestre e 76% sobre o mesmo período de 2023. Com isso, são R$ 4,7 bilhões de Vendas Líquidas no 9M24 (R$ 3,6
+bilhões % Companhia) e expressivos R$ 5,9 bilhões no 3T24 LTM (R$ 4,6 bilhões % Companhia). É fundamental notar que o forte
+crescimento das operações do Grupo Direcional tem ocorrido de maneira relevante tanto pelas vendas de produtos da
+Direcional, quanto da Riva. O gráfico a seguir ilustra a evolução trimestral da métrica nos últimos dois anos:
+Contribuindo para essa expansão, ressaltamos também a assinatura de mais um contrato no Programa Pode Entrar, junto à
+Companhia Metropolitana de Habitação de São Paulo, ocorrido no mês de setembro. Esse projeto, no qual a Direcional possui
+50% de participação, conta com 1.309 unidades residenciais ao todo e possui um valor global de R$ 271,0 milhões (R$ 135,5
+milhões % Companhia). Com isso, foram 2.299 unidades vendidas no âmbito do Pode Entrar, totalizando R$ 341,4 milhões,
+considerando apenas a nossa participação.
+Não apenas as métricas operacionais foram motivo de destaque no período. A consistência dessas entregas gera impactos
+importantes em nossos resultados financeiros. Nesse sentido, no 3T24, reportamos a maior Receita Líquida de toda a nossa
+história: R$ 911 milhões. Esse alcance representa um crescimento de 63% em comparação ao mesmo trimestre de 2023. Trata-
+se do quarto trimestre seguido de recorde nessa linha. No acumulado do ano até setembro, foram R$ 2,4 bilhões, um montante
+41% superior ao observado no 9M23.
+Considerando também a receita proveniente de empreendimentos que não são consolidados no nosso balanço (SPEs não
+controladas ou controladas em conjunto com parceiros), a Receita Líquida Total1 atingiu R$ 1,2 bilhão no trimestre e R$ 3,2
+bilhões no 9M24. Desse modo, no período de 12 meses encerrado em setembro, a linha chegou a R$ 4,1 bilhões. Impulsionados
+pelos sólidos volumes de Lançamentos e Vendas que temos consistentemente reportado, esses alcances evidenciam o
+crescimento contratado para a linha de receita e sua convergência gradual para o mesmo nível dessas métricas operacionais.
+Nesse mesmo contexto, em adição à trajetória crescente da Receita Líquida, também a Receita a Apropriar (REF) do Grupo
+Direcional tem caminhado nessa direção ascendente. O REF do segmento de vendas de imóveis totalizou R$ 2,6 bilhões no
+encerramento do 3T24, um incremento de 12% em relação ao 2T24 e de 96% em relação ao 3T23. Nesse caso, o crescimento
+nominal da linha foi de R$ 1,3 bilhão nos últimos 12 meses. Destacamos também a Margem REF, que foi de 43,4% ao final do
+trimestre, 70 bps acima do 3T23 e em linha com o 2T24, corroborando a solidez da rentabilidade que temos apresentado.
+3
+6 9 4
+4 T 2 2
+8 0 3
+1 T 2 3
+E v o lu
+9 6 2
+2 T 2 3
+ç ã o(V TG r im
+V 1
+1 .0
+3 T
+e s tr a l V
+0 0 % - R $
+0 5
+2 3
+e n d a
+m ilh õ
+1 .2 2 1
+4 T 2 3
+se Ls
+)
+íq u id
+1 .3
+1 T
+a
+0
+2
+s
+8
+4
+1
+2
+.6
+T
+1
+2
+9
+4
+1
+3
+.7
+T
+6
+2
+5
+4
 
-## Mensagem da Administração
+<!-- PAGE 4 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+Não por acaso, vimos nossa Margem Bruta Ajustada2 atingir 38,7% no 3T24, seu maior nível histórico até aqui. Nesse contexto,
+o incremento foi de 60 bps em comparação ao último trimestre e de 170 bps em comparação ao mesmo trimestre do ano
+passado. O Lucro Bruto Ajustado2 do período foi de R$ 351 milhões, 60% maior que no 3T23, enquanto no 9M24, o indicador
+somou R$ 920 milhões, com Margem Bruta Ajustada2 de 38,1% (+150 bps em relação ao 9M23).
+Ainda em alinhamento à estratégia de capturar os benefícios decorrentes do crescimento da operação, vimos novamente as
+Despesas Gerais e Administrativas (G&A) do trimestre apresentando diluição em relação à Receita Bruta, passando de 6,0% no
+2T24 para 5,5% no 3T24. Em comparação ao 3T23, a redução da representatividade foi ainda mais expressiva, chegando a 220
+bps de diluição e contribuindo de maneira importante para seguirmos colhendo os frutos da alavancagem operacional.
+Por sua vez, as Despesas Comerciais – que possuem uma componente variável relacionada à receita – totalizaram R$ 80 milhões
+no 3T24. No acumulado do ano até setembro, a rubrica somou R$ 207 milhões. Com isso, conseguimos manter a
+representatividade dessa linha sobre a Receita Bruta com vendas de imóveis em 8,4%, mesmo patamar que havíamos registrado
+exatamente um ano antes.
+Outro acontecimento que vale ser destacado foi a liquidação integral do swap referenciado em nossas ações, ocorrida no
+decorrer do 3T24. A contratação do instrumento derivativo havia ocorrido em dezembro de 2021, tendo sido renovada em abril
+de 2023, conforme os Fatos Relevantes publicados em 27 de dezembro de 2021 e 11 de abril de 2023, respectivamente. Com
+isso, houve um resultado líquido positivo no trimestre de aproximadamente R$ 5 milhões, já líquido dos impostos incidentes.
+Obtivemos, assim, um Lucro Líquido de R$ 160 milhões no 3T24, rompendo mais um recorde absoluto para o Grupo Direcional
+e demonstrando um significativo crescimento de 133% em comparação ao 3T23. A Margem Líquida alcançou 17,6% no período,
+um ganho de 530 bps quando comparado ao 3T23 e de 30 bps em relação ao 2T24. Em 9 meses, a linha totalizou R$ 457 milhões,
+crescendo 97% sobre o 9M23. A Margem Líquida resultante foi de 18,8%, 540 bps a mais que no 9M23.
+Quando levamos em consideração o ajuste pelo resultado líquido da operação de equity swap, nosso Lucro Líquido Operacional3
+foi de R$ 156 milhões no trimestre, com uma Margem Líquida Operacional3 de 17,1% (+230 bps versus o 3T23 e +110 bps versus
+o 2T24). Nesse contexto, o ROE Anualizado Ajustado3 também atingiu seu maior patamar histórico, alcançando 29%. No gráfico
+abaixo, evidenciamos como essas métricas vêm evoluindo ao longo do tempo, traduzindo em números todo o caminho de
+crescimento que o Grupo Direcional tem trilhado no período.
+Evolução do Lucro Líquido Operacional³e do ROE Anualizado³
+(R$ milhões e %)
+29%
+24% 25%
+21% 21% 20% 20%
+16%
+15% 15% 18% 16% 17%
+13% 12%
+10%
+120 135 156
+53 70 74 83 98
+4T22 1T23 2T23 3T23 4T23 1T24 2T24 3T24
+Lucro Líquido Operacional Margem Liquida Operacional ROE Anualizado
+No trimestre passado, havíamos destacado a volta da geração de caixa após um importante cenário de aceleração das nossas
+operações. De maneira similar, reportamos R$ 33 milhões em geração de caixa no 3T24, totalizando R$ 195 milhões no
+acumulado do ano até setembro.
+Diante dos grandes alcances apresentados, e reafirmando nosso perfil de relevante expoente da bolsa no que se refere à geração
+de valor para os acionistas, realizamos no início do trimestre o pagamento de R$ 277 milhões em dividendos intermediários,
+correspondendo a R$ 1,60 por ação. Adicionalmente, em decorrência do resultado positivo obtido com a liquidação do equity
+swap, foi aprovada uma nova distribuição, equivalente a R$ 0,46 por ação – perfazendo um valor estimado de aproximadamente
+R$ 80 milhões, ainda a serem pagos aos acionistas, conforme Fato Relevante publicado em 11 de setembro. Assim, considerando
+as duas distribuições, foram anunciados cerca de R$ 357 milhões em proventos, correspondendo a R$ 2,06 por ação.
+4
 
-O desempenho notável que reportamos neste 3º trimestre ratifica ainda mais a posição de relevância que o Grupo Direcional tem ocupado no mercado imobiliário e nos mantém confiantes em relação aos objetivos que ainda temos traçado para o ano de 2024. Estamos orgulhosos em compartilhar com nossos acionistas e demais stakeholders as relevantes conquistas que alcançamos no período, as quais destacamos a seguir.
+<!-- PAGE 5 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+Encerramos o trimestre com uma Dívida Líquida4 de R$ 91 milhões e um índice de alavancagem (medido pela Dívida Líquida4
+sobre o Patrimônio Líquido) de 4,1%, corroborando o equilíbrio da nossa estrutura de capital e a nossa responsabilidade em
+relação ao crescimento estruturado das nossas operações. Vale ressaltar também que o nosso prazo médio de vencimento do
+endividamento está em 53 meses, um dos mais alongados do setor, e que a nossa posição de caixa mostra-se mais do que
+suficiente para cobrir os próximos 7 anos de amortização da dívida.
+Resultados como os que apresentamos aqui, sempre embasados em nosso foco em eficiência e rentabilidade, além da busca
+incessante pela excelência, nos indicam que estamos no caminho certo e, ao mesmo tempo, ainda temos muito a conquistar.
+Continuamos avançando na execução dos nossos objetivos com a mesma disposição e o mesmo empenho com os quais
+iniciamos o ano. Agradecemos imensamente a todos aqueles que têm desempenhado um papel primordial para que, passo a
+passo, cheguemos cada vez mais longe. Seguimos juntos para continuar fazendo de 2024 o melhor ano de nossa história!
+Muito obrigado,
+Administração Direcional Engenharia S/A
+1 - Ajuste incluindo a receita de SPEs não consolidadas no resultado (SPEs não controladas e controladas em conjunto).
+2 - Ajuste excluindo os juros capitalizados no custo e o efeito do Programa Pode Entrar.
+3 - Ajuste excluindo resultado de swap de ações, resultado não recorrente alocado na linha de “Outras Receitas e Despesas Operacionais” e despesas de cessão de recebíveis, conforme o caso.
+4 - Saldo total das linhas de Empréstimos e Financiamentos reduzido pelo saldo de Caixa e Equivalentes de Caixa e Aplicações Financeiras e somado ao saldo das posições em aberto de contratos de swaps
+para proteção de flutuações de taxas de juros.
+5
 
-Lançamos um total de R$ 1,7 bilhão em Valor Geral de Vendas no 3T24 (R$ 1,4 bilhão % Companhia), representando aproximadamente 6 mil novas unidades habitacionais. No acumulado do ano até setembro, foram R$ 3,9 bilhões em termos de VGV lançado (R$ 3,3 bilhões % Companhia), e considerando os últimos 12 meses (3T24 LTM), o montante somou R$ 5,3 bilhões (R$ 4,6 bilhões % Companhia).
+<!-- PAGE 6 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+PRINCIPAIS INDICADORES
+3T24 2T24 3T23     9M24 9M23  
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Indicadores Financeiros
+Receita Líquida (R$ milhões) 910,6 844,2 557,7 7,9% 63,3% 2.424,3 1.720,3 40,9%
+Lucro Bruto (R$ milhões) 332,7 302,6 192,4 9,9% 73,0% 875,9 595,4 47,1%
+Margem Bruta Ajustada¹ 38,5% 37,8% 37,0% 0,8 p.p. 1,6 p.p. 37,9% 36,6% 1,3 p.p.
+Margem Bruta Ajustada¹ - Ex-Pode Entrar 38,7% 38,1% 37,0% 0,6 p.p. 1,7 p.p. 38,1% 36,6% 1,5 p.p.
+Lucro Líquido Operacional2 (R$ milhões) 155,8 135,1 82,7 15,4% 88,5% 411,0 226,7 81,3%
+Margem Líquida Operacional2 17,1% 16,0% 14,8% 1,1 p.p. 2,3 p.p. 17,0% 13,2% 3,8 p.p.
+Lançamentos
+VGV Lançado - 100% (R$ milhões) 1.664,4 1.360,7 1.399,4 22,3% 18,9% 3.921,5 3.467,3 13,1%
+Direcional 978,2 867,2 813,5 12,8% 20,2% 2.177,7 2.171,1 0,3%
+Riva 415,1 493,5 585,9 -15,9% -29,1% 1.472,8 1.296,2 13,6%
+Pode Entrar 271,1 - - n/a n/a 271,1 - n/a
+VGV Lançado - % Cia (R$ milhões) 1.444,2 1.196,8 1.259,3 20,7% 14,7% 3.294,5 2.958,7 11,3%
+Direcional 893,6 786,5 725,3 13,6% 23,2% 1.939,1 1.913,0 1,4%
+Riva 415,1 410,2 534,1 1,2% -22,3% 1.219,8 1.045,7 16,7%
+Pode Entrar 135,5 - - n/a n/a 135,5 - n/a
+Unidades Lançadas 5.947 4.187 4.152 42,0% 43,2% 12.372 12.182 1,6%
+Direcional 3.421 3.343 3.106 2,3% 10,1% 7.682 9.089 -15,5%
+Riva 1.217 844 1.046 44,2% 16,3% 3.381 3.093 9,3%
+Pode Entrar 1.309 - - n/a n/a 1.309 - n/a
+Vendas
+VGV Líquido Contratado - 100% (R$ milhões) 1.765,1 1.618,8 1.004,6 9,0% 75,7% 4.691,6 2.770,4 69,3%
+Direcional 934,4 966,0 560,7 -3,3% 66,6% 2.657,4 1.712,7 55,2%
+Riva 555,9 651,5 441,2 -14,7% 26,0% 1.758,1 1.055,5 66,6%
+Legado3 3,7 1,3 2,7 185,3% 38,6% 5,0 2,2 124,2%
+Pode Entrar 271,1 - - n/a n/a 271,1 - n/a
+VGV Líquido Contratado - % Cia (R$ milhões) 1.373,0 1.260,1 751,4 9,0% 82,7% 3.637,3 2.128,2 70,9%
+Direcional 787,1 786,8 427,2 0,0% 84,3% 2.161,2 1.358,1 59,1%
+Riva 447,6 472,6 322,3 -5,3% 38,9% 1.337,1 768,1 74,1%
+Legado 2,7 0,7 2,0 292,0% 38,4% 3,4 2,0 75,4%
+Pode Entrar 135,5 - - n/a n/a 135,5 - n/a
+Unidades Contratadas 6.293 5.354 3.458 17,5% 82,0% 15.874 10.279 54,4%
+Direcional 3.611 3.829 2.344 -5,7% 54,1% 10.304 7.334 40,5%
+Riva 1.361 1.523 1.109 -10,6% 22,7% 4.247 2.941 44,4%
+Legado 12 2 5 500,0% 140,0% 14 4 250,0%
+Pode Entrar 1.309 - - n/a n/a 1.309 - n/a
+VSO (Vendas Sobre Oferta) em VGV 28% 26% 17% 1,8 p.p. 11,4 p.p. 52% 39% 13,8 p.p.
+Direcional 25% 26% 15% -1,3 p.p. 9,6 p.p. 50% 39% 11,2 p.p.
+Riva 25% 27% 19% -1,7 p.p. 6,0 p.p. 53% 39% 13,9 p.p.
+Legado 12% 4% 7% 7,7 p.p. 4,9 p.p. 14% 6% 7,7 p.p.
+VSO Consolidada sem Pode Entrar 25% 26% 17% -1,4 p.p. 8,2 p.p. 51% 39% 12,3 p.p.
+Outros Indicadores 3T24 2T24 1T24 4T23 3T23 2T23 1T23 4T22
+ROE Anualizado Ajustado2 29% 25% 24% 20% 20% 21% 21% 17%
+Dívida Líquida4 (R$ milhões) 91,3 -153,0 66,1 -72,1 -88,8 268,2 289,9 193,4
+Geração de Caixa5 (R$ milhões) 32,9 219,0 -57,0 -15,5 -51,1 21,7 7,8 98,2
+Dívida Líquida4 / Patrimônio Líquido 4,1% -6,3% 2,9% -3,4% -4,2% 16,7% 19,2% 13,3%
+Estoque - VGV 100 % (R$ milhões) 4.491,8 4.591,7 4.777,6 5.146,3 5.021,4 4.582,8 4.042,6 4.203,2
+Landbank - VGV 100 % (R$ milhões) 43.238,9 39.678,3 37.282,6 36.301,4 35.769,6 35.133,5 32.505,3 32.458,5
+1 - Ajuste excluindo os juros capitalizados no custo.
+2 - Ajuste excluindo resultado de swap de ações, resultado não recorrente alocado na linha de “Outras Receitas e Despesas Operacionais” e despesas de cessão de recebíveis, conforme o caso.
+3 - Compreende os empreendimentos dos segmentos Médio-Padrão, Médio-Alto Padrão e Comercial, desenvolvidos no modelo antigo.
+4 - Saldo total das linhas de Empréstimos e Financiamentos reduzido pelo saldo de Caixa e Equivalentes de Caixa e Aplicações Financeiras e somado ao saldo das posições em aberto de contratos de
+swaps para proteção de flutuações de taxas de juros.
+5 - Variação da dívida líquida ajustada por pagamento de dividendos, recompra de ações e variação no saldo de contratos de operações de swap de juros.
+6
 
-A assertividade desses produtos vem sendo refletida, trimestre após trimestre, nos fortes números que temos reportado em termos de vendas. No 3T24, o VGV líquido contratado alcançou R$ 1,8 bilhão (R$ 1,4 bilhão % Companhia), crescendo 9% sobre o último trimestre e 76% sobre o mesmo período de 2023. Com isso, são R$ 4,7 bilhões de Vendas Líquidas no 9M24 (R$ 3,6 bilhões % Companhia) e expressivos R$ 5,9 bilhões no 3T24 LTM (R$ 4,6 bilhões % Companhia). É fundamental notar que o forte crescimento das operações do Grupo Direcional tem ocorrido de maneira relevante tanto pelas vendas de produtos da Direcional, quanto da Riva.
+<!-- PAGE 7 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+LANÇAMENTOS
+No 3º trimestre de 2024 (3T24), o Grupo Direcional lançou 15 novos empreendimentos/etapas, totalizando um Valor Geral de
+Vendas (VGV) de R$ 1,7 bilhão (R$ 1,4 bilhão % Companhia), representando um crescimento de 22% em relação ao trimestre
+anterior e de 19% em comparação ao mesmo trimestre do ano anterior.
+Levando em consideração o período de 9 meses encerrados em setembro de 2024 (9M24), os Lançamentos somaram R$ 3,9
+bilhões (R$ 3,3 bilhões % Companhia). Nesse sentido, o VGV lançado no período apresentou crescimento de 13% sobre o 9M23.
+É importante ressaltar que, conforme Comunicado ao Mercado publicado em 27 de setembro de 2024, a Direcional firmou mais
+um contrato com a Companhia Metropolitana de Habitação de São Paulo para a venda de 1.309 unidades residenciais no âmbito
+do programa Pode Entrar. Nesse projeto, a Companhia possui uma participação de 50%, o que representa um valor contratado
+de R$ 135,5 milhões de um valor global de R$ 271,0 milhões.
+No período de 12 meses encerrado no 3T24 (3T24 LTM), os Lançamentos alcançaram R$ 5,3 bilhões (R$ 4,6 bilhões %
+Companhia).
+Lançamentos Evolução Lançamentos
+(VGV 100% -R$ milhões) (VGV 100% -R$ milhões)
++13%
+3.922 5.312
+Pode Entrar
+271 4.857
+Riva 3.467 CAGR:
+Direcional
++28%
+1.296 1.473 3.636
+3.138
++19%
+1.664
+1.399 1.361 271 +22% 1.681 1.946 1.763
+586 493 415 2.171 2.178
+925
+814 867 978
+3T23 2T24 3T24 9M23 9M24 2017 2018 2019 2020 2021 2022 2023 3T24
+LTM
+3T24 2T24 3T23     9M24 9M23  
+Lançamentos
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+VGV Lançado - 100% (R$ milhões) 1.664,4 1.360,7 1.399,4 22,3% 18,9% 3.921,5 3.467,3 13,1%
+Direcional 978,2 867,2 813,5 12,8% 20,2% 2.177,7 2.171,1 0,3%
+Riva 415,1 493,5 585,9 -15,9% -29,1% 1.472,8 1.296,2 13,6%
+Pode Entrar 271,1 - - n/a n/a 271,1 - n/a
+VGV Lançado - % Cia (R$ milhões) 1.444,2 1.196,8 1.259,3 20,7% 14,7% 3.294,5 2.958,7 11,3%
+Direcional 893,6 786,5 725,3 13,6% 23,2% 1.939,1 1.913,0 1,4%
+Riva 415,1 410,2 534,1 1,2% -22,3% 1.219,8 1.045,7 16,7%
+Pode Entrar 135,5 - - n/a n/a 135,5 - n/a
+Unidades Lançadas 5.947 4.187 4.152 42,0% 43,2% 12.372 12.182 1,6%
+Direcional 3.421 3.343 3.106 2,3% 10,1% 7.682 9.089 -15,5%
+Riva 1.217 844 1.046 44,2% 16,3% 3.381 3.093 9,3%
+Pode Entrar 1.309 - - n/a n/a 1.309 - n/a
+% Companhia Médio 86,8% 88,0% 90,0% -1 p.p. -3 p.p. 84,0% 85,3% -1 p.p.
+7
 
-Contribuindo para essa expansão, ressaltamos também a assinatura de mais um contrato no Programa Pode Entrar, junto à Companhia Metropolitana de Habitação de São Paulo, ocorrido no mês de setembro. Esse projeto, no qual a Direcional possui 50% de participação, conta com 1.309 unidades residenciais ao todo e possui um valor global de R$ 271,0 milhões (R$ 135,5 milhões % Companhia). Com isso, foram 2.299 unidades vendidas no âmbito do Pode Entrar, totalizando R$ 341,4 milhões, considerando apenas a nossa participação.
-
-Não apenas as métricas operacionais foram motivo de destaque no período. A consistência dessas entregas gera impactos importantes em nossos resultados financeiros. Nesse sentido, no 3T24, reportamos a maior Receita Líquida de toda a nossa história: R$ 911 milhões. Esse alcance representa um crescimento de 63% em comparação ao mesmo trimestre de 2023. Trata-se do quarto trimestre seguido de recorde nessa linha. No acumulado do ano até setembro, foram R$ 2,4 bilhões, um montante 41% superior ao observado no 9M23.
-
-Considerando também a receita proveniente de empreendimentos que não são consolidados no nosso balanço (SPEs não controladas ou controladas em conjunto com parceiros), a Receita Líquida Total atingiu R$ 1,2 bilhão no trimestre e R$ 3,2 bilhões no 9M24. Desse modo, no período de 12 meses encerrado em setembro, a linha chegou a R$ 4,1 bilhões. Impulsionados pelos sólidos volumes de Lançamentos e Vendas que temos consistentemente reportado, esses alcances evidenciam o crescimento contratado para a linha de receita e sua convergência gradual para o mesmo nível dessas métricas operacionais.
-
-Nesse mesmo contexto, em adição à trajetória crescente da Receita Líquida, também a Receita a Apropriar (REF) do Grupo Direcional tem caminhado nessa direção ascendente. O REF do segmento de vendas de imóveis totalizou R$ 2,6 bilhões no encerramento do 3T24, um incremento de 12% em relação ao 2T24 e de 96% em relação ao 3T23. Nesse caso, o crescimento nominal da linha foi de R$ 1,3 bilhão nos últimos 12 meses. Destacamos também a Margem REF, que foi de 43,4% ao final do trimestre, 70 bps acima do 3T23 e em linha com o 2T24, corroborando a solidez da rentabilidade que temos apresentado.
-
-Não por acaso, vimos nossa Margem Bruta Ajustada (excl. juros capitalizados e Pode Entrar) atingir 38,7% no 3T24, seu maior nível histórico até aqui. Nesse contexto, o incremento foi de 60 bps em comparação ao último trimestre e de 170 bps em comparação ao mesmo trimestre do ano passado. O Lucro Bruto Ajustado do período foi de R$ 351 milhões, 60% maior que no 3T23, enquanto no 9M24, o indicador somou R$ 920 milhões, com Margem Bruta Ajustada de 38,1% (+150 bps em relação ao 9M23).
-
-Ainda em alinhamento à estratégia de capturar os benefícios decorrentes do crescimento da operação, vimos novamente as Despesas Gerais e Administrativas (G&A) do trimestre apresentando diluição em relação à Receita Bruta, passando de 6,0% no 2T24 para 5,5% no 3T24. Em comparação ao 3T23, a redução da representatividade foi ainda mais expressiva, chegando a 220 bps de diluição e contribuindo de maneira importante para seguirmos colhendo os frutos da alavancagem operacional.
-
-Por sua vez, as Despesas Comerciais totalizaram R$ 80 milhões no 3T24. No acumulado do ano até setembro, a rubrica somou R$ 207 milhões. Com isso, conseguimos manter a representatividade dessa linha sobre a Receita Bruta com vendas de imóveis em 8,4%, mesmo patamar que havíamos registrado exatamente um ano antes.
-
-Outro acontecimento que vale ser destacado foi a liquidação integral do swap referenciado em nossas ações, ocorrida no decorrer do 3T24. A contratação do instrumento derivativo havia ocorrido em dezembro de 2021, tendo sido renovada em abril de 2023. Com isso, houve um resultado líquido positivo no trimestre de aproximadamente R$ 5 milhões, já líquido dos impostos incidentes.
-
-Obtivemos, assim, um Lucro Líquido de R$ 160 milhões no 3T24, rompendo mais um recorde absoluto para o Grupo Direcional e demonstrando um significativo crescimento de 133% em comparação ao 3T23. A Margem Líquida alcançou 17,6% no período, um ganho de 530 bps quando comparado ao 3T23 e de 30 bps em relação ao 2T24. Em 9 meses, a linha totalizou R$ 457 milhões, crescendo 97% sobre o 9M23. A Margem Líquida resultante foi de 18,8%, 540 bps a mais que no 9M23.
-
-Quando levamos em consideração o ajuste pelo resultado líquido da operação de equity swap, nosso Lucro Líquido Operacional foi de R$ 156 milhões no trimestre, com uma Margem Líquida Operacional de 17,1% (+230 bps versus o 3T23 e +110 bps versus o 2T24). Nesse contexto, o ROE Anualizado Ajustado também atingiu seu maior patamar histórico, alcançando 29%.
-
-No trimestre passado, havíamos destacado a volta da geração de caixa após um importante cenário de aceleração das nossas operações. De maneira similar, reportamos R$ 33 milhões em geração de caixa no 3T24, totalizando R$ 195 milhões no acumulado do ano até setembro.
-
-Diante dos grandes alcances apresentados, e reafirmando nosso perfil de relevante expoente da bolsa no que se refere à geração de valor para os acionistas, realizamos no início do trimestre o pagamento de R$ 277 milhões em dividendos intermediários, correspondendo a R$ 1,60 por ação. Adicionalmente, em decorrência do resultado positivo obtido com a liquidação do equity swap, foi aprovada uma nova distribuição, equivalente a R$ 0,46 por ação, perfazendo um valor estimado de aproximadamente R$ 80 milhões. Assim, considerando as duas distribuições, foram anunciados cerca de R$ 357 milhões em proventos, correspondendo a R$ 2,06 por ação.
-
-Encerramos o trimestre com uma Dívida Líquida de R$ 91 milhões e um índice de alavancagem (medido pela Dívida Líquida sobre o Patrimônio Líquido) de 4,1%, corroborando o equilíbrio da nossa estrutura de capital e a nossa responsabilidade em relação ao crescimento estruturado das nossas operações. Vale ressaltar também que o nosso prazo médio de vencimento do endividamento está em 53 meses, um dos mais alongados do setor, e que a nossa posição de caixa mostra-se mais do que suficiente para cobrir os próximos 7 anos de amortização da dívida.
-
----
-
-## Principais Indicadores
-
-| Indicador | 3T24 | 2T24 | 3T23 | 9M24 | 9M23 |
-|---|---|---|---|---|---|
-| Receita Líquida (R$ mm) | 910,6 | 844,2 | 557,7 | 2.424,3 | 1.720,3 |
-| Lucro Bruto (R$ mm) | 332,7 | 302,6 | 192,4 | 875,9 | 595,4 |
-| Margem Bruta Ajustada (excl. juros cap.) | 38,5% | 37,8% | 37,0% | 37,9% | 36,6% |
-| Margem Bruta Ajustada Ex-Pode Entrar | 38,7% | 38,1% | 37,0% | 38,1% | 36,6% |
-| Lucro Líquido Operacional (R$ mm) | 155,8 | 135,1 | 82,7 | 411,0 | 226,7 |
-| Margem Líquida Operacional | 17,1% | 16,0% | 14,8% | 17,0% | 13,2% |
-
-| Indicador | 3T24 | 2T24 | 3T23 | 9M24 | 9M23 |
-|---|---|---|---|---|---|
-| VGV Lançado 100% (R$ mm) | 1.664,4 | 1.360,7 | 1.399,4 | 3.921,5 | 3.467,3 |
-| VGV Lançado % Cia (R$ mm) | 1.444,2 | 1.196,8 | 1.259,3 | 3.294,5 | 2.958,7 |
-| Unidades Lançadas | 5.947 | 4.187 | 4.152 | 12.372 | 12.182 |
-| VGV Líquido Contratado 100% (R$ mm) | 1.765,1 | 1.618,8 | 1.004,6 | 4.691,6 | 2.770,4 |
-| VGV Líquido Contratado % Cia (R$ mm) | 1.373,0 | 1.260,1 | 751,4 | 3.637,3 | 2.128,2 |
-| Unidades Contratadas | 6.293 | 5.354 | 3.458 | 15.874 | 10.279 |
-| VSO em VGV | 28% | 26% | 17% | 52% | 39% |
-| VSO Consolidada sem Pode Entrar | 25% | 26% | 17% | 51% | 39% |
-
-| Outros Indicadores | 3T24 | 2T24 | 1T24 | 4T23 | 3T23 |
-|---|---|---|---|---|---|
-| ROE Anualizado Ajustado | 29% | 25% | 24% | 20% | 20% |
-| Dívida Líquida (R$ mm) | 91,3 | -153,0 | 66,1 | -72,1 | -88,8 |
-| Geração de Caixa (R$ mm) | 32,9 | 219,0 | -57,0 | -15,5 | -51,1 |
-| Dívida Líquida / PL | 4,1% | -6,3% | 2,9% | -3,4% | -4,2% |
-| Estoque VGV 100% (R$ mm) | 4.491,8 | 4.591,7 | 4.777,6 | 5.146,3 | 5.021,4 |
-| Landbank VGV 100% (R$ mm) | 43.238,9 | 39.678,3 | 37.282,6 | 36.301,4 | 35.769,6 |
-
----
-
-## Lançamentos
-
-No 3T24, o Grupo Direcional lançou 15 novos empreendimentos/etapas, totalizando um VGV de R$ 1,7 bilhão (R$ 1,4 bilhão % Companhia), representando um crescimento de 22% em relação ao trimestre anterior e de 19% em comparação ao mesmo trimestre do ano anterior.
-
-Levando em consideração o período de 9 meses encerrados em setembro de 2024 (9M24), os Lançamentos somaram R$ 3,9 bilhões (R$ 3,3 bilhões % Companhia). Nesse sentido, o VGV lançado no período apresentou crescimento de 13% sobre o 9M23.
-
-Conforme Comunicado ao Mercado publicado em 27 de setembro de 2024, a Direcional firmou mais um contrato com a Companhia Metropolitana de Habitação de São Paulo para a venda de 1.309 unidades residenciais no âmbito do programa Pode Entrar. Nesse projeto, a Companhia possui uma participação de 50%, o que representa um valor contratado de R$ 135,5 milhões de um valor global de R$ 271,0 milhões.
-
-No período de 12 meses encerrado no 3T24 (3T24 LTM), os Lançamentos alcançaram R$ 5,3 bilhões (R$ 4,6 bilhões % Companhia).
-
-| Lançamentos | 3T24 | 2T24 | 3T23 | 9M24 | 9M23 |
-|---|---|---|---|---|---|
-| VGV Lançado 100% (R$ mm) | 1.664,4 | 1.360,7 | 1.399,4 | 3.921,5 | 3.467,3 |
-| Direcional | 978,2 | 867,2 | 813,5 | 2.177,7 | 2.171,1 |
-| Riva | 415,1 | 493,5 | 585,9 | 1.472,8 | 1.296,2 |
-| Pode Entrar | 271,1 | - | - | 271,1 | - |
-| VGV Lançado % Cia (R$ mm) | 1.444,2 | 1.196,8 | 1.259,3 | 3.294,5 | 2.958,7 |
-| Direcional | 893,6 | 786,5 | 725,3 | 1.939,1 | 1.913,0 |
-| Riva | 415,1 | 410,2 | 534,1 | 1.219,8 | 1.045,7 |
-| Pode Entrar | 135,5 | - | - | 135,5 | - |
-| Unidades Lançadas | 5.947 | 4.187 | 4.152 | 12.372 | 12.182 |
-| Direcional | 3.421 | 3.343 | 3.106 | 7.682 | 9.089 |
-| Riva | 1.217 | 844 | 1.046 | 3.381 | 3.093 |
-| Pode Entrar | 1.309 | - | - | 1.309 | - |
-| % Companhia Médio | 86,8% | 88,0% | 90,0% | 84,0% | 85,3% |
-
----
-
-## Vendas Contratadas
-
-Em linha com a estratégia da Companhia de acelerar o ritmo de vendas e o giro, as Vendas Líquidas do 3T24 alcançaram o montante de R$ 1,8 bilhão (R$ 1,4 bilhão % Companhia). Esse resultado marca um crescimento de 9% em relação ao 2T24 e de 76% em relação ao 3T23.
-
-No 9M24, o volume vendido totalizou R$ 4,7 bilhões (R$ 3,6 bilhões % Companhia), um aumento de 69% em comparação ao mesmo período de 2023. Houve crescimento em todos os segmentos, sendo que o VGV contratado dos produtos Direcional apresentaram crescimento de 55% no período e os empreendimentos da Riva cresceram 67%.
-
+<!-- PAGE 8 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+VENDAS CONTRATADAS
+Em linha com a estratégia da Companhia de acelerar o ritmo de vendas e o giro, as Vendas Líquidas do 3T24 alcançaram o
+montante de R$ 1,8 bilhão (R$ 1,4 bilhão % Companhia). Esse resultado marca um crescimento de 9% em relação ao 2T24 e de
+76% em relação ao 3T23.
+No 9M24, o volume vendido totalizou R$ 4,7 bilhões (R$ 3,6 bilhões % Companhia), um aumento de 69% em comparação ao
+mesmo período de 2023. Houve crescimento em todos os segmentos, sendo que o VGV contratado dos produtos Direcional
+apresentaram crescimento de 55% no período e os empreendimentos da Riva cresceram 67%.
 No 3T24 LTM, as Vendas Líquidas alcançaram expressivos R$ 5,9 bilhões (R$ 4,6 bilhões % Companhia).
+É válido ressaltar que parte das vendas foi originada a partir de produtos desenvolvidos em SPEs não controladas ou controladas
+em conjunto com parceiros. Sendo assim, a receita gerada por esses empreendimentos não é consolidada no resultado da
+Direcional. Nesse sentido, 73% do VGV Líquido contratado no 3T24 são referentes a projetos que contribuem com a linha de
+Receita Líquida da Companhia, enquanto 27% deverão impactar o resultado por meio da linha de Equivalência Patrimonial.
+8
+P o d e
+L e g a
+R iv a
+D ire c
+1 .0 0 53
+4 4 1
+5 6 1
+3 T 2 3
+(V
+E n tra r
+d o
+io n a l
++ 7 6 %
+1 .6 1 9
+1
+6 5 1
+9 6 6
+2 T 2 4
+VG e n d a s
+V 1 0 0 %
+1 .7 6 5
+2 7 1
+45
+5 6
+9 3 4
+3 T 2 4
+L
+-
+íq u
+R $ m
++ 9
+id a
+ilh
+%
+sõ
+e s )
+2
+1
+1
+9
+.72
+.0
+.7
+M
+7
+5
+1
+2
++
+0
+5
+3
+3
+6 9 %
+4 .6 9 2
+2 7 1
+5
+1 .7 5 8
+2 .6 5 7
+9 M 2 4
+7 3 1
+2 0 1 7
+1
+2
+.2
+0
+2
+1
+6
+8
+E v o lu
+(V G
+1 .3 2 0
+2 0 1 9
+çV ã o V e n
+1 0 0 % -
+C A G R
++ 3 5 %
+2
+1 .6 8 0
+2 0 2 0 2
+dR
+:
+.4
+0
+a$
+4
+2
+s
+m
+0
+1
+L íq u
+ilh õ e
+2 .9 9
+2 0 2
+ids
+)
+9
+2
+a s
+3 .9
+2 0
+9
+2
+1
+3
+5 .9
+3 T
+L T
+1
+2M
+2
+4
 
-É válido ressaltar que parte das vendas foi originada a partir de produtos desenvolvidos em SPEs não controladas ou controladas em conjunto com parceiros. Sendo assim, a receita gerada por esses empreendimentos não é consolidada no resultado da Direcional. Nesse sentido, 73% do VGV Líquido contratado no 3T24 são referentes a projetos que contribuem com a linha de Receita Líquida da Companhia, enquanto 27% deverão impactar o resultado por meio da linha de Equivalência Patrimonial.
+<!-- PAGE 9 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+3T24 2T24 3T23     9M24 9M23  
+Vendas Líquidas Contratadas
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+VGV Líquido Contratado - 100% (R$ milhões) 1.765,1 1.618,8 1.004,6 9,0% 75,7% 4.691,6 2.770,4 69,3%
+Direcional 934,4 966,0 560,7 -3,3% 66,6% 2.657,4 1.712,7 55,2%
+Riva 555,9 651,5 441,2 -14,7% 26,0% 1.758,1 1.055,5 66,6%
+Legado1 3,7 1,3 2,7 185,3% 38,6% 5,0 2,2 124,2%
+Pode Entrar 271,1 - - n/a n/a 271,1 - n/a
+VGV Líquido Contratado - % Cia (R$ milhões) 1.373,0 1.260,1 751,4 9,0% 82,7% 3.637,3 2.128,2 70,9%
+Direcional 787,1 786,8 427,2 0,0% 84,3% 2.161,2 1.358,1 59,1%
+Riva 447,6 472,6 322,3 -5,3% 38,9% 1.337,1 768,1 74,1%
+Legado 2,7 0,7 2,0 292,0% 38,4% 3,4 2,0 75,4%
+Pode Entrar 135,5 - - n/a n/a 135,5 - n/a
+Unidades Contratadas 6.293 5.354 3.458 17,5% 82,0% 15.874 10.279 54,4%
+Direcional 3.611 3.829 2.344 -5,7% 54,1% 10.304 7.334 40,5%
+Riva 1.361 1.523 1.109 -10,6% 22,7% 4.247 2.941 44,4%
+Legado 12 2 5 500,0% 140,0% 14 4 250,0%
+Pode Entrar 1.309 - - n/a n/a 1.309 - n/a
+VSO (Vendas Sobre Oferta) em VGV 28% 26% 17% 1,8 p.p. 11,4 p.p. 52% 39% 13,8 p.p.
+Direcional 25% 26% 15% -1,3 p.p. 9,6 p.p. 50% 39% 11,2 p.p.
+Riva 25% 27% 19% -1,7 p.p. 6,0 p.p. 53% 39% 13,9 p.p.
+Legado 12% 4% 7% 7,7 p.p. 4,9 p.p. 14% 6% 7,7 p.p.
+VSO Consolidada sem Pode Entrar 25% 26% 17% -1,4 p.p. 8,2 p.p. 51% 39% 12,3 p.p.
+1 - Legado: Compreende os empreendimentos dos segmentos Médio-Padrão, Médio-Alto Padrão e Comercial, desenvolvidos no modelo antigo.
+VELOCIDADE DE VENDAS (VSO)
+Com o forte volume de vendas observado em mais um trimestre, a Velocidade de Vendas consolidada – medida pelo indicador
+VSO (Vendas Líquidas Sobre Oferta) – foi de 28% no 3T24, considerando a venda realizada no âmbito do Programa Pode Entrar.
+Nesse cenário, houve um incremento de 1140 bps em comparação ao mesmo trimestre do ano anterior. Desconsiderando o
+VGV referente ao programa, a VSO do trimestre foi de 25%, 820 bps acima do observado no 3T23.
+Considerando apenas os projetos da Direcional (excluindo o Legado), a Velocidade de Vendas foi de 25% no trimestre, um
+incremento de 960 bps em comparação ao 3T23. Do mesmo modo, a VSO da Riva também foi de 25% no período, superando
+em 600 bps a VSO do segmento no mesmo trimestre de 2023.
+Vendas Líquidas e VSO
+(VGV 100% -R$ milhões)
+27% 28%
+25%
+22%22%
+26%26% 25%
+19% 25%
+17%
+19% 21%
+17%
+15%
+16%
+15%
+1.765 Venda Pode Entrar
+1.619
+1 271 Venda Legado
+1.221 1.308 651 4 Venda Riva
+1.005 556
+206 Venda Direcional
+3 3 551
+441 353 VSO Direcional
+VSO Riva
+966 934
+561 659 757 VSO Consolidada
+VSO Consolidada sem Pode Entrar
+3T23 4T23 1T24 2T24 3T24
+9
 
-| Vendas Líquidas Contratadas | 3T24 | 2T24 | 3T23 | 9M24 | 9M23 |
-|---|---|---|---|---|---|
-| VGV Líquido Contratado 100% (R$ mm) | 1.765,1 | 1.618,8 | 1.004,6 | 4.691,6 | 2.770,4 |
-| Direcional | 934,4 | 966,0 | 560,7 | 2.657,4 | 1.712,7 |
-| Riva | 555,9 | 651,5 | 441,2 | 1.758,1 | 1.055,5 |
-| Legado | 3,7 | 1,3 | 2,7 | 5,0 | 2,2 |
-| Pode Entrar | 271,1 | - | - | 271,1 | - |
-| VGV Líquido Contratado % Cia (R$ mm) | 1.373,0 | 1.260,1 | 751,4 | 3.637,3 | 2.128,2 |
-| Direcional | 787,1 | 786,8 | 427,2 | 2.161,2 | 1.358,1 |
-| Riva | 447,6 | 472,6 | 322,3 | 1.337,1 | 768,1 |
-| Legado | 2,7 | 0,7 | 2,0 | 3,4 | 2,0 |
-| Pode Entrar | 135,5 | - | - | 135,5 | - |
-| Unidades Contratadas | 6.293 | 5.354 | 3.458 | 15.874 | 10.279 |
-| Direcional | 3.611 | 3.829 | 2.344 | 10.304 | 7.334 |
-| Riva | 1.361 | 1.523 | 1.109 | 4.247 | 2.941 |
-| Legado | 12 | 2 | 5 | 14 | 4 |
-| Pode Entrar | 1.309 | - | - | 1.309 | - |
-| VSO em VGV | 28% | 26% | 17% | 52% | 39% |
-| Direcional | 25% | 26% | 15% | 50% | 39% |
-| Riva | 25% | 27% | 19% | 53% | 39% |
-| Legado | 12% | 4% | 7% | 14% | 6% |
-| VSO Consolidada sem Pode Entrar | 25% | 26% | 17% | 51% | 39% |
+<!-- PAGE 10 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+Distratos
+No 3T24, os Distratos totalizaram R$ 184 milhões (R$ 146 milhões %
+Companhia). Diante disso, o percentual de vendas canceladas sobre vendas
+brutas foi de 9,4% no trimestre.
+Considerando o período de 9 meses encerrados em setembro de 2024, o
+VGV distratado totalizou R$ 398 milhões (R$ 315 milhões % Companhia).
+Ainda assim, o índice de vendas canceladas sobre as vendas brutas caiu 120
+bps, passando de 9,0% para 7,8% no período.
+A tabela abaixo apresenta maiores detalhes sobre os Distratos no 3T24 e
+no 9M24:
+3T24 2T24 3T23     9M24 9M23  
+Distratos1
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Distratos - 100% (R$ milhões) -183,9 -128,4 -85,3 43,2% 115,5% -397,6 -272,9 45,7%
+VGV Bruto Contratado (100%) 1.949,0 1.747,2 1.089,9 11,6% 78,8% 5.089,2 3.043,4 67,2%
+% Distrato / VGV Bruto Contratado 9,4% 7,4% 7,8% 2,1 p.p. 1,6 p.p. 7,8% 9,0% -1,2 p.p.
+Distratos - % Companhia (R$ milhões) -146,5 -99,0 -67,0 47,9% 118,6% -315,4 -222,1 42,0%
+VGV Bruto Contratado (% Companhia) 1.384,0 1.359,1 818,4 1,8% 69,1% 3.817,2 2.350,3 62,4%
+% Distrato / VGV Bruto Contratado 10,6% 7,3% 8,2% 3,3 p.p. 2,4 p.p. 8,3% 9,5% -1,2 p.p.
+1 - No VGV distratado, desconsideram-se as transferências de crédito de clientes da unidade originalmente adquirida para outra unidade de nosso estoque.
+ESTOQUE
+Ao final do 3T24, o Estoque do Grupo Direcional foi de R$ 4,5 bilhões (R$ 3,8 bilhões % Companhia), representando um total de
+14.121 unidades.
+A tabela abaixo apresenta o estoque a valor de mercado, aberto por estágio de construção e por tipo de produto. Vale destacar
+que cerca de 2% do VGV total refere-se a unidades concluídas.
+VGV Total VGV % Companhia
+Estoque a Valor de Mercado Direcional Riva Legado Total Direcional Riva Legado Total
+Em andamento (R$ milhões) 2.771 1.645 0 4.416 2.447 1.289 0 3.736
+% Total 62% 37% 0% 98% 65% 34% 0% 99%
+Concluído (R$ milhões) 44 5 26 75 32 4 14 49
+% Total 1% 0% 1% 2% 1% 0% 0% 1%
+Total (R$ milhões) 2.815 1.650 26 4.491 2.479 1.293 14 3.785
+% Total 63% 37% 1% 100% 65% 34% 0% 100%
+Total Unidades 10.387 3.648 86 14.121 10.387 3.648 86 14.121
+% Total Unidades 74% 26% 1% 100% 74% 26% 1% 100%
+10
+7
+3
+,8 %
+8 5
+T 2 3
+(V G V
+7 ,4 %
++ 1 1 6 %
+1 2 8
+2 T 2 4
+D is tra to
+D is
+1 0 0 % -
+9 ,4 %
+1 8 4
+3 T 2 4
+s
+t r a t o s
+R $ m ilh õ e s
++ 4 3 %
+% D is tra to
+e
+s
+% )
+9 ,0 %
++
+2 7 3
+9 M 2 3
+/ V e n d a s
+4 6
+B
+7 ,8 %
+%
+3 9 8
+9 M 2
+ru ta s
+4
 
-Legado: Compreende os empreendimentos dos segmentos Médio-Padrão, Médio-Alto Padrão e Comercial, desenvolvidos no modelo antigo.
-
----
-
-## Velocidade de Vendas (VSO)
-
-Com o forte volume de vendas observado em mais um trimestre, a Velocidade de Vendas consolidada — medida pelo indicador VSO (Vendas Líquidas Sobre Oferta) — foi de 28% no 3T24, considerando a venda realizada no âmbito do Programa Pode Entrar. Nesse cenário, houve um incremento de 1.140 bps em comparação ao mesmo trimestre do ano anterior. Desconsiderando o VGV referente ao programa, a VSO do trimestre foi de 25%, 820 bps acima do observado no 3T23.
-
-Considerando apenas os projetos da Direcional (excluindo o Legado), a Velocidade de Vendas foi de 25% no trimestre, um incremento de 960 bps em comparação ao 3T23. Do mesmo modo, a VSO da Riva também foi de 25% no período, superando em 600 bps a VSO do segmento no mesmo trimestre de 2023.
-
----
-
-## Distratos
-
-No 3T24, os Distratos totalizaram R$ 184 milhões (R$ 146 milhões % Companhia). Diante disso, o percentual de vendas canceladas sobre vendas brutas foi de 9,4% no trimestre.
-
-Considerando o período de 9 meses encerrados em setembro de 2024, o VGV distratado totalizou R$ 398 milhões (R$ 315 milhões % Companhia). Ainda assim, o índice de vendas canceladas sobre as vendas brutas caiu 120 bps, passando de 9,0% para 7,8% no período.
-
-| Distratos | 3T24 | 2T24 | 3T23 | 9M24 | 9M23 |
-|---|---|---|---|---|---|
-| Distratos 100% (R$ mm) | -183,9 | -128,4 | -85,3 | -397,6 | -272,9 |
-| VGV Bruto Contratado 100% | 1.949,0 | 1.747,2 | 1.089,9 | 5.089,2 | 3.043,4 |
-| % Distrato / VGV Bruto Contratado | 9,4% | 7,4% | 7,8% | 7,8% | 9,0% |
-| Distratos % Companhia (R$ mm) | -146,5 | -99,0 | -67,0 | -315,4 | -222,1 |
-| VGV Bruto Contratado % Companhia | 1.384,0 | 1.359,1 | 818,4 | 3.817,2 | 2.350,3 |
-| % Distrato / VGV Bruto Contratado | 10,6% | 7,3% | 8,2% | 8,3% | 9,5% |
-
----
-
-## Estoque
-
-Ao final do 3T24, o Estoque do Grupo Direcional foi de R$ 4,5 bilhões (R$ 3,8 bilhões % Companhia), representando um total de 14.121 unidades.
-
-Cerca de 2% do VGV total refere-se a unidades concluídas. Cerca de 84% do VGV em estoque está em projetos lançados a partir de 2023.
-
-| Estoque a Valor de Mercado | VGV Total | | | | VGV % Companhia | | | |
-|---|---|---|---|---|---|---|---|---|
-| | Direcional | Riva | Legado | Total | Direcional | Riva | Legado | Total |
-| Em andamento (R$ mm) | 2.771 | 1.645 | 0 | 4.416 | 2.447 | 1.289 | 0 | 3.736 |
-| % Total | 62% | 37% | 0% | 98% | 65% | 34% | 0% | 99% |
-| Concluído (R$ mm) | 44 | 5 | 26 | 75 | 32 | 4 | 14 | 49 |
-| % Total | 1% | 0% | 1% | 2% | 1% | 0% | 0% | 1% |
-| Total (R$ mm) | 2.815 | 1.650 | 26 | 4.491 | 2.479 | 1.293 | 14 | 3.785 |
-| % Total | 63% | 37% | 1% | 100% | 65% | 34% | 0% | 100% |
-| Total Unidades | 10.387 | 3.648 | 86 | 14.121 | 10.387 | 3.648 | 86 | 14.121 |
-
----
-
-## Repasses
-
-O VGV de unidades repassadas no 3T24 somou R$ 899 milhões, representando um crescimento de 62% na comparação com o mesmo período do ano anterior.
-
+<!-- PAGE 11 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+Os gráficos a seguir apresentam maior detalhamento sobre o Estoque e sua segmentação. Cabe destacar que cerca de 84% do
+VGV em estoque está em projetos lançados a partir de 2023.
+Estoque por ano de Lançamento Abertura do Estoque
+(%VGV -100%) (%VGV -100%)
+Legado
+1%
+2024 27% 13% 41%
+Riva
+2023 27% 16% 43% 37%
+<2023 7% 7% 14%
+63%
+Direcional
+1%
+Concluído 2%
+1%
+Direcional Riva Legado
+REPASSES
+O VGV de unidades repassadas no 3T24 somou R$ 899 milhões, representando um crescimento de 62% na comparação com o
+mesmo período do ano anterior.
 Considerando o 9M24, o volume repassado totalizou R$ 2,5 bilhões, valor 47% superior ao registrado no 9M23.
-
----
-
-## Empreendimentos Entregues
-
-O Grupo Direcional realizou a entrega de 11 empreendimentos/etapas ao longo do 3T24, representando um total de 3.346 unidades, 80% das quais são de produtos sob a marca Direcional e 20% sob a marca Riva.
-
-No 9M24, foram entregues 35 empreendimentos/etapas, correspondendo a 10.617 unidades, sendo 85% da Direcional e 15% da Riva.
-
----
-
-## Banco de Terrenos
-
-O landbank do Grupo Direcional totalizou um VGV de R$ 43,2 bilhões (R$ 39,2 bilhões % Companhia) no encerramento do 3T24, evidenciando um potencial de desenvolvimento de aproximadamente 206 mil unidades.
-
-O custo médio de aquisição do banco de terrenos é de 11% do VGV potencial, sendo que 85% será pago por meio de permuta, o que se traduz em um reduzido impacto no caixa antes do início do desenvolvimento dos empreendimentos.
-
-| Terrenos | 2023 | Aquisições 9M24 | Lançamentos 9M24 | Ajustes 9M24 | 9M24 | VGV % Cia. | Unidades |
-|---|---|---|---|---|---|---|---|
-| VGV Total | 36.301 | 10.425 | (3.922) | 434 | 43.239 | 39.226 | 205.534 |
-
-### Aquisições de Terrenos
-
-24 terrenos foram adquiridos no decorrer do 3T24, representando um VGV de R$ 5,0 bilhões (R$ 4,8 bilhões % Companhia) e um potencial de construção de, aproximadamente, 17 mil unidades. O custo médio de aquisição no trimestre foi de 12% do VGV, com 90% do pagamento ocorrendo via permuta.
-
-Considerando o 9M24, o VGV potencial dos terrenos comprados no período somou R$ 10,4 bilhões (R$ 9,9 bilhões % Companhia) e o custo médio de aquisição foi de 11%, sendo que 89% do pagamento se dará por meio de permuta.
-
----
-
-## Desempenho Econômico-Financeiro
-
-### Receita Bruta
-
-No 3T24, a Receita Bruta do Grupo Direcional somou R$ 942 milhões, representando um acréscimo de 7% sobre o 2T24 e de 62% sobre o 3T23. Esse atingimento marca um novo recorde trimestral da Companhia para a métrica.
-
-Considerando o 9M24, a Receita Bruta alcançou R$ 2,5 bilhões, um crescimento de 41% em relação ao 9M23. Tanto em termos trimestrais, quanto no acumulado do ano até setembro, a receita bruta com vendas de imóveis representou 97% do total apropriado, enquanto a receita bruta com prestação de serviços foi responsável pelos 3% restantes.
-
-| Receita Bruta (R$ mm) | 3T24 | 2T24 | 3T23 | 9M24 | 9M23 |
-|---|---|---|---|---|---|
-| Receita Operacional Bruta | 942,3 | 879,7 | 582,5 | 2.519,7 | 1.786,4 |
-| Vendas de Imóveis | 916,7 | 858,2 | 566,3 | 2.454,0 | 1.732,3 |
-| Prestação de Serviços | 25,6 | 21,5 | 16,2 | 65,7 | 54,1 |
-
-### Receita com Vendas de Imóveis
-
-A Receita Bruta com vendas de imóveis atingiu R$ 917 milhões no 3T24, crescendo 62% sobre o 3T23 e 7% sobre o 2T24. No 9M24, a Receita Bruta com vendas de imóveis alcançou R$ 2,5 bilhões, montante 42% acima do observado para o mesmo período de 2023.
-
-Somando-se a receita com vendas desses projetos não consolidados à receita com vendas contábil, verifica-se uma Receita Bruta com vendas de imóveis de R$ 1,2 bilhão no 3T24. No acumulado do ano até setembro, o total foi de R$ 3,3 bilhões, valor 41% superior ao observado no 9M23.
-
-| Receita Bruta Vendas Imóveis (R$ mm) | 3T24 | 2T24 | 3T23 | 9M24 | 9M23 |
-|---|---|---|---|---|---|
-| Receita com Vendas - Total | 1.175,4 | 1.155,3 | 822,3 | 3.287,8 | 2.339,9 |
-| Receita com Vendas de Imóveis | 916,7 | 858,2 | 566,3 | 2.454,0 | 1.732,3 |
-| Receita de SPEs não Consolidadas | 258,7 | 297,1 | 256,0 | 833,8 | 607,6 |
-
-### Receita com Prestação de Serviços
-
-No 3T24, a Receita Bruta com prestação de serviços foi de R$ 26 milhões, representando um crescimento de 19% sobre o trimestre anterior e de 58% sobre o mesmo trimestre do ano anterior. Essa linha é composta, sobretudo, por (i) corretagem sobre as vendas realizadas pelas corretoras próprias; e (ii) taxa de administração de obras.
-
-No 9M24, a rubrica totalizou R$ 66 milhões, 21% de crescimento em comparação ao 9M23. A representatividade dessa linha no mix de receita foi de 3%, tanto no trimestre, quanto no acumulado do ano.
-
-### Receita Líquida
-
-No 3T24, o Grupo Direcional reportou uma Receita Líquida contábil de R$ 911 milhões, marcando um relevante crescimento de 63% em relação ao mesmo trimestre de 2023 e de 8% em comparação ao trimestre anterior. No 9M24, a Receita Líquida foi de R$ 2,4 bilhões, valor 41% superior ao registrado no 9M23.
-
-Considerando a Receita Líquida Total, somando-se à receita contábil também a receita reconhecida nas empresas controladas em conjunto ou não controladas, observa-se um total de R$ 1,2 bilhão no 3T24. No acumulado do ano até setembro, a Receita Líquida Total alcançou R$ 3,2 bilhões, crescendo 41% em relação ao 9M23.
-
-Observando o período de 12 meses encerrados em setembro (3T24 LTM), a Receita Líquida Total alcançou R$ 4,1 bilhões.
-
-| Receita Líquida Total (R$ mm) | 3T24 | 2T24 | 3T23 | 9M24 | 9M23 |
-|---|---|---|---|---|---|
-| Receita Líquida Total | 1.163,9 | 1.134,7 | 803,6 | 3.245,3 | 2.296,3 |
-| Receita Líquida | 910,6 | 844,2 | 557,7 | 2.424,3 | 1.720,3 |
-| Receita Líquida SPEs não Consolidadas | 253,3 | 290,5 | 245,9 | 821,1 | 576,0 |
-
-### Lucro Bruto
-
-O Lucro Bruto Ajustado (excl. juros capitalizados) atingiu R$ 351 milhões no 3T24, o que representou crescimento de 10% sobre o 2T24 e de 70% sobre o 3T23. Excluindo os juros capitalizados no custo e o efeito do Programa Pode Entrar, a Margem Bruta Ajustada do trimestre alcançou 38,7%, constituindo o maior nível do indicador em toda a história do Grupo Direcional. A Margem Bruta Ajustada apresentou incremento de 60 bps em relação ao 2T24 e de 170 bps em relação ao 3T23.
-
-No acumulado do ano até setembro, o Lucro Bruto Ajustado totalizou R$ 920 milhões, montante 46% superior ao observado no 9M23. A Margem Bruta Ajustada foi de 38,1% no período, 150 bps maior que a margem do 9M23 (também desconsiderando o impacto do Programa Pode Entrar).
-
-Levando em consideração os projetos contratados no âmbito do programa Pode Entrar, a Margem Bruta Ajustada do 3T24 atingiu 38,5% (+80 bps sobre o 2T24 e +160 bps sobre o 3T23), enquanto a do 9M24 foi de 37,9% (130 bps maior que no 9M23).
-
-Dos três contratos firmados pela Companhia no programa, apenas os dois primeiros (assinados em dezembro de 2023) são consolidados no balanço e, portanto, exercem influência na Margem Bruta. O terceiro projeto, por ser controlado em conjunto com o sócio, tem seu impacto observado na linha de Equivalência Patrimonial.
-
-| Lucro Bruto Ajustado (R$ mm) | 3T24 | 2T24 | 3T23 | 9M24 | 9M23 |
-|---|---|---|---|---|---|
-| Lucro Bruto | 332,7 | 302,6 | 192,4 | 875,9 | 595,4 |
-| (+) Juros Capitalizados | 18,2 | 16,2 | 13,8 | 43,7 | 34,3 |
-| Lucro Bruto Ajustado | 350,9 | 318,9 | 206,2 | 919,6 | 629,7 |
-| Margem Bruta Ajustada | 38,5% | 37,8% | 37,0% | 37,9% | 36,6% |
-| Margem Bruta Ajustada Ex-Pode Entrar | 38,7% | 38,1% | 37,0% | 38,1% | 36,6% |
-
-### Despesas Gerais e Administrativas (G&A)
-
-No 3T24, as Despesas Gerais e Administrativas somaram R$ 52 milhões, valor em linha com o registrado no 2T24 e 17% maior que no 3T23. A representatividade dessas despesas em relação à Receita Bruta foi de 5,5% no trimestre, reduzindo 50 bps frente ao 2T24 e 220 bps frente ao 3T23.
-
-Em relação à Receita Bruta Total, a representatividade do G&A foi de 4,4% no trimestre, uma diluição de 90 bps em relação ao 3T23.
-
-No 9M24, o G&A totalizou R$ 154 milhões, 18% acima do 9M23. A representatividade da linha sobre a Receita Bruta foi de 6,1% — queda de 120 bps em relação ao 9M23. Considerando a Receita Bruta Total, a representatividade foi de 4,6%, diluindo 80 bps sobre o 9M23.
-
-### Despesas Comerciais
-
-No 3T24, as Despesas Comerciais — compostas, sobretudo, por despesas com comissões, marketing e manutenção de pontos de vendas — somaram um total de R$ 80 milhões, 13% acima do 2T24 e 66% acima do 3T23, acompanhando o maior volume de vendas e receita reportado pelo Grupo Direcional. A representatividade dessas despesas em relação à Receita Bruta com vendas de imóveis foi de 8,8% no período.
-
-Considerando o acumulado do ano até setembro, a rubrica alcançou R$ 207 milhões, um crescimento de 42% em relação ao 9M23. A representatividade das Despesas Comerciais sobre a Receita Bruta com vendas de imóveis foi de 8,4%.
-
-### Resultado de Equivalência Patrimonial
-
-No 3T24, o Resultado de Equivalência Patrimonial somou R$ 18 milhões, volume 5% menor que no 2T24 e 6% menor que no 3T23.
-
-No 9M24, o Resultado de Equivalência Patrimonial totalizou R$ 73 milhões, valor 194% superior ao observado no 9M23, evidenciando o impacto que os projetos não consolidados têm gerado no resultado.
-
-### Outras Receitas e Despesas Operacionais
-
-No 3T24, as Outras Receitas e Despesas Operacionais registraram um resultado líquido negativo de R$ 32 milhões. Os principais impactos nessa linha decorreram de: (i) constituições e reversões de provisões, que totalizaram o montante líquido negativo de R$ 14 milhões; (ii) despesas jurídicas recorrentes e afins, no valor de R$ 9 milhões; e (iii) despesas societárias, tais como amortização de ágio por aquisição de participações societárias, entre outras, somando aproximadamente R$ 9 milhões. A representatividade da rubrica sobre a Receita Líquida foi de 3,5% no trimestre.
-
-### EBITDA
-
-No 3T24, o EBITDA Ajustado alcançou R$ 221 milhões, perfazendo um crescimento de 59% quando comparado ao 3T23, e de 7% em relação ao 2T24. Dessa forma, a Margem EBITDA Ajustada foi de 24,3% no trimestre. O referido ajuste exclui os juros capitalizados na linha de Custos e eventuais resultados não recorrentes alocados na linha de Outras Receitas e Despesas Operacionais.
-
-Levando em consideração o 9M24, o EBITDA Ajustado somou R$ 593 milhões, valor 50% maior do que o observado no mesmo período de 2023. A Margem EBITDA Ajustada foi de 24,5%, representando um aumento de 150 bps no período.
-
-| Recomposição do EBITDA (R$ mm) | 3T24 | 2T24 | 3T23 | 9M24 | 9M23 |
-|---|---|---|---|---|---|
-| Lucro Líquido | 160,5 | 146,2 | 68,8 | 456,9 | 232,0 |
-| (+) Depreciação e amortização | 16,3 | 18,6 | 16,6 | 51,0 | 47,3 |
-| (+) IR e CSLL | 19,8 | 14,9 | 11,1 | 47,1 | 36,0 |
-| (+) Participação minoritários | 24,2 | 23,7 | 17,1 | 66,7 | 41,0 |
-| (+/-) Resultado financeiro | (17,4) | (3,5) | 12,2 | (44,1) | 32,6 |
-| EBITDA | 203,3 | 199,9 | 125,7 | 577,6 | 388,8 |
-| Margem EBITDA | 22,3% | 23,7% | 22,5% | 23,8% | 22,6% |
-| (+) Juros capitalizados na linha de Custos | 18,2 | 16,2 | 13,8 | 43,7 | 34,3 |
-| (-) Ajuste resultado não recorrente | - | (9,3) | - | (28,4) | (28,3) |
-| EBITDA Ajustado | 221,5 | 206,9 | 139,6 | 592,8 | 394,7 |
-| Margem EBITDA Ajustada | 24,3% | 24,5% | 25,0% | 24,5% | 22,9% |
-
-### Resultado Financeiro
-
-Considerando as receitas e as despesas financeiras referentes ao 3T24, foi registrado um resultado líquido positivo de R$ 17 milhões. Os principais impactos nessa linha foram: (i) resultado recorrente positivo no valor de R$ 16,3 milhões, referente a atualizações monetárias e juros contratuais, sobretudo relacionados a contas a receber contra clientes; (ii) liquidação integral do swap indexado às ações da Direcional, que gerou um resultado positivo de R$ 4,6 milhões, já líquido de impostos; (iii) resultado líquido negativo de R$ 4,4 milhões considerando as despesas com juros e bancárias e as receitas com aplicações financeiras ocorridas no período; e (iv) despesas atreladas a venda de carteira, no valor de R$ 2,2 milhões.
-
-### Participantes não controladores ("Minoritários")
-
-No 3T24, o resultado atribuído aos participantes não controladores em SPEs e SCPs ("Minoritários") foi de R$ 24 milhões, valor em linha com o reportado no trimestre anterior. No 9M24, a rubrica totalizou R$ 66 milhões, montante 63% maior que no 9M23.
-
-Vale dizer que o desenvolvimento de projetos em sociedade fez parte da estratégia para acelerar a expansão da Direcional no início do ciclo de crescimento, permitindo celeridade na entrada em praças estratégicas e, sobretudo, uma maior diluição das despesas com a aceleração dos lançamentos. Atualmente, entretanto, a representatividade de projetos em que não há participação de sócios minoritários tem sido cada vez maior no pipeline da Companhia.
-
-### Lucro Líquido
-
-O Lucro Líquido do Grupo Direcional atingiu R$ 160 milhões no 3T24, configurando um expressivo crescimento de 133% sobre o mesmo trimestre de 2023 e de 10% sobre o trimestre anterior. A Margem Líquida atingiu 17,6% no período, um ganho de 530 bps ante o 3T23 e de 30 bps ante o 2T24.
-
-No acumulado do ano até setembro, o Lucro Líquido somou R$ 457 milhões, crescendo 97% sobre o observado no mesmo período do ano anterior. Margem Líquida de 18,8%, crescimento de 540 bps em relação ao 9M23.
-
-Excluindo o resultado não recorrente gerado com a liquidação do swap de ações, o Lucro Líquido Operacional da Companhia foi de R$ 156 milhões no 3T24, representando um crescimento de 88% em relação ao 3T23 e de 15% em relação ao 2T24. A Margem Líquida Operacional foi de 17,1% no trimestre. O ROE Anualizado Ajustado atingiu seu maior patamar histórico, alcançando 29%.
-
-Considerando o 9M24, o Lucro Líquido Operacional somou R$ 411 milhões, superando em 81% o valor observado no 9M23. No período de 12 meses encerrados em setembro, a métrica chegou a R$ 509 milhões.
-
-| Lucro Líquido Operacional (R$ mm) | 3T24 | 2T24 | 3T23 | 9M24 | 9M23 |
-|---|---|---|---|---|---|
-| Lucro Líquido | 160,5 | 146,2 | 68,8 | 456,9 | 232,0 |
-| (+/-) Resultado com swap | -4,6 | -1,8 | 4,2 | -17,5 | -5,3 |
-| (+) Despesas com cessão de recebíveis | 0,0 | 0,0 | 9,8 | 0,0 | 28,4 |
-| (+/-) Outras despesas (receitas) não recorrentes | 0,0 | -9,3 | 0,0 | -28,4 | -28,3 |
-| Lucro Líquido Operacional | 155,8 | 135,1 | 82,7 | 411,0 | 226,7 |
-| Margem Líquida Operacional | 17,1% | 16,0% | 14,8% | 17,0% | 13,2% |
-
----
-
-## Resultado a Apropriar de Vendas de Imóveis
-
-A Receita a Apropriar (REF) do segmento de vendas de imóveis alcançou R$ 2,6 bilhões no encerramento do 3T24, crescendo 12% em relação ao 2T24 e 96% em comparação ao 3T23. O crescimento nominal da Receita a Apropriar foi de R$ 1,3 bilhão nos últimos 12 meses.
-
-A Margem REF foi de 43,4% ao final do 3T24, 70 bps superior ao mesmo trimestre de 2023 e em linha com o registrado no trimestre anterior.
-
-| Resultado a Apropriar (R$ mm) | 3T24 | 2T24 | 3T23 |
-|---|---|---|---|
-| Receitas a Apropriar de Vendas de Imóveis | 2.618,3 | 2.331,3 | 1.333,0 |
-| Custo a Incorrer | -1.482,6 | -1.319,2 | -764,2 |
-| Resultado a Apropriar Incorporação | 1.135,7 | 1.012,2 | 568,8 |
-| Margem REF | 43,4% | 43,4% | 42,7% |
-
----
-
-## Destaques do Balanço Patrimonial
-
-### Caixa e Equivalentes de Caixa e Aplicações Financeiras
-
-No encerramento do 3T24, o saldo de Caixa e Equivalentes de Caixa e Aplicações Financeiras totalizou R$ 1,5 bilhão, representando um incremento de 9% sobre o 2T24 e de 15% sobre o 3T23.
-
-Durante o 3T24, a Direcional concluiu mais emissão de Certificados de Recebíveis Imobiliários (CRI), no montante aproximado de R$ 312 milhões. Além disso, a Companhia também efetuou o pagamento de dividendos intermediários aos acionistas, os quais totalizaram R$ 277 milhões.
-
-| Caixa e Aplicações (R$ mm) | 3T24 | 2T24 | 3T23 |
-|---|---|---|---|
-| Caixa e Equivalentes de Caixa | 858,2 | 649,7 | 813,7 |
-| Aplicações Financeiras | 687,6 | 772,3 | 527,4 |
-| Total | 1.545,8 | 1.422,0 | 1.341,2 |
-
-### Contas a Receber
-
-O saldo contábil de Contas a Receber encerrou o 3T24 em R$ 1,6 bilhão, representando uma elevação de 12% sobre o 2T24 e de 97% sobre o 3T23. O indicador de Dias de Contas a Receber foi de 162 dias.
-
-O saldo total de Contas a Receber da Companhia no encerramento do 3T24 era de R$ 4,2 bilhões (incluindo off-balance). Desse total, os recebíveis referentes às parcelas de financiamento direto com o cliente em caráter pró-soluto totalizaram, aproximadamente, R$ 595 milhões ao final do 3T24.
-
-| Contas a Receber (R$ mm) | 3T24 | 2T24 | 3T23 |
-|---|---|---|---|
-| Venda de Imóveis | 1.594,4 | 1.425,3 | 800,7 |
-| Prestação de Serviços | 15,1 | 16,4 | 16,1 |
-| Venda de Terreno | 5,4 | 5,5 | 3,9 |
-| Total | 1.615,0 | 1.447,2 | 820,7 |
-| Parcela Circulante | 844,4 | 789,2 | 407,9 |
-| Parcela Não-Circulante | 770,6 | 658,0 | 412,8 |
-| Dias de Contas a Receber | 162 | 149 | 132 |
-
-### Endividamento
-
-O Grupo Direcional encerrou o 3T24 com um saldo bruto de Empréstimos e Financiamentos de R$ 1,7 bilhão, com 84% do total estando no longo prazo (passivo não circulante). A Companhia concluiu mais uma emissão de CRI, com captação total de aproximadamente R$ 312 milhões, após exercício da opção de lote adicional. Com rating brAAA (S&P) e vencimentos em 5 anos (1ª série) e 7 anos (2ª série), a operação possibilitou à Companhia alongar seu prazo médio de vencimento para 53 meses.
-
-Levando em consideração os saldos de Empréstimos e Financiamentos, de Caixa e Equivalentes de Caixa e de Aplicações Financeiras, além da posição de contratos de swaps de juros, a Companhia encerrou o trimestre com uma dívida líquida de R$ 91 milhões. O índice de alavancagem (Dívida Líquida / PL) atingiu 4,1%. A posição de caixa mostrou-se mais do que suficiente para cobrir os próximos 7 anos de amortização do endividamento bruto total.
-
-| Endividamento (R$ mm) | 3T24 | 2T24 | 3T23 |
-|---|---|---|---|
-| Empréstimos e Financiamentos | 1.680,6 | 1.337,5 | 1.291,3 |
-| CRI | 1.260,1 | 983,0 | 859,7 |
-| Debêntures | 104,9 | 101,6 | 273,0 |
-| Financiamento à Produção | 313,8 | 250,0 | 153,1 |
-| FINAME e Leasing | 1,9 | 2,9 | 5,5 |
-| Caixa e Equivalentes | 1.545,8 | 1.422,0 | 1.341,2 |
-| Dívida Líquida antes dos swaps | 134,9 | -84,5 | -49,9 |
-| Posição de contratos de swaps | 43,5 | 68,5 | 38,9 |
-| Dívida Líquida | 91,3 | -153,0 | -88,8 |
-| Dívida Líquida / PL | 4,1% | -6,3% | -4,2% |
-
-| Por indexador (R$ mm) | 3T24 | 2T24 | 3T23 |
-|---|---|---|---|
-| TR | 313,8 | 250,0 | 153,1 |
-| IPCA | 810,6 | 641,1 | 706,8 |
-| CDI | 490,2 | 382,2 | 431,3 |
-| Prefixado | 66,1 | 64,2 | 0,0 |
-
-Para os títulos indexados ao IPCA e prefixados, foram contratados instrumentos de swap de taxa de juros para trocar a indexação para CDI.
-
-### Geração de Caixa
-
-No 3T24, a Direcional reportou geração de caixa no montante de R$ 33 milhões. Considerando os 9 primeiros meses de 2024, a geração de caixa totalizou R$ 195 milhões.
-
-Com a mudança de regra aplicada pela Caixa Econômica Federal, na qual o depósito de recursos somente é realizado após o contrato de venda ser registrado em cartório, a Companhia encerrou o 3T24 com um saldo a receber de R$ 85 milhões, em função de contratos assinados que estão aguardando o registro.
-
----
-
-## Dividendos
-
-A evolução observada em relação à geração de caixa e os patamares atuais de VSO permitiram à Companhia realizar, no início do 3T24, o pagamento de dividendos intermediários no valor de R$ 1,60 por ação, perfazendo a quantia de R$ 277 milhões.
-
-Adicionalmente, em decorrência do resultado positivo obtido com a liquidação do swap referenciado nas ações da Direcional, o Conselho de Administração aprovou uma nova distribuição de dividendos intermediários, equivalente a R$ 0,46 por ação, perfazendo aproximadamente R$ 80 milhões. O direito ao recebimento desses proventos adicionais foi garantido aos investidores de acordo com a posição acionária de 17 de setembro de 2024.
-
-Considerando ambas as decisões do Conselho, a distribuição total anunciada pela Companhia no 3T24 soma R$ 357 milhões, correspondendo a R$ 2,06 por ação.
-
----
-
-## Balanço Patrimonial Consolidado
-
-| Ativo (R$ mil) | 30/09/2024 | 31/12/2023 | Var. |
-|---|---|---|---|
-| **Ativo circulante** | **4.331.445** | **3.583.355** | **21%** |
-| Caixa, equivalentes de caixa e aplicações financeiras | 1.545.768 | 1.327.171 | 16% |
-| Contas a receber | 844.423 | 521.946 | 62% |
-| Estoques | 1.570.926 | 1.420.699 | 11% |
-| Crédito com partes relacionadas | 110.101 | 67.184 | 64% |
-| Tributos a recuperar | 49.451 | 25.753 | 92% |
-| Outros créditos | 210.776 | 220.602 | -4% |
-| **Ativo não circulante** | **5.189.567** | **3.988.243** | **30%** |
-| Aplicações financeiras | 54.843 | 0 | - |
-| Contas a receber | 770.586 | 464.035 | 66% |
-| Estoques | 3.758.233 | 3.041.218 | 24% |
-| Depósitos judiciais | 21.719 | 18.111 | 20% |
-| Tributos a recuperar | 11.152 | 27.548 | -60% |
-| Contas a receber por alienação de investimentos | 7.630 | 7.630 | - |
-| Outros créditos | 141.418 | 113.274 | 25% |
-| Investimentos | 193.959 | 169.375 | 15% |
-| Imobilizado | 197.256 | 111.474 | 77% |
-| Intangível | 32.771 | 35.578 | -8% |
-| **Total do ativo** | **9.521.012** | **7.571.598** | **26%** |
-
-| Passivo (R$ mil) | 30/09/2024 | 31/12/2023 | Var. |
-|---|---|---|---|
-| **Passivo circulante** | **1.282.876** | **1.042.766** | **23%** |
-| Empréstimos e financiamentos | 268.592 | 234.933 | 14% |
-| Fornecedores | 155.934 | 121.652 | 28% |
-| Risco Sacado | 8.885 | 7.879 | 13% |
-| Obrigações trabalhistas | 76.038 | 45.411 | 67% |
-| Obrigações tributárias | 48.862 | 36.179 | 35% |
-| Financiamento por arrendamento | 8.200 | 7.456 | 10% |
-| Credores por imóveis compromissados | 165.985 | 146.827 | 13% |
-| Adiantamento de clientes | 79.973 | 69.264 | 15% |
-| Outras contas a pagar | 158.901 | 120.996 | 31% |
-| Passivo de cessão | 108.199 | 58.926 | 84% |
-| Dividendos propostos | 79.700 | 81.162 | -2% |
-| Provisão para garantia | 22.506 | 24.259 | -7% |
-| Débitos com partes relacionadas | 101.101 | 87.822 | 15% |
-| **Passivo não circulante** | **5.992.679** | **4.418.246** | **36%** |
-| Empréstimos e financiamentos | 1.412.044 | 1.088.111 | 30% |
-| Fornecedores | 10.950 | 10.004 | 9% |
-| Provisão para garantia | 18.525 | 16.303 | 14% |
-| Obrigações tributárias | 31.136 | 18.589 | 67% |
-| Financiamento por arrendamento | 76.332 | 13.648 | 459% |
-| Credores por imóveis compromissados | 3.450.635 | 2.668.090 | 29% |
-| Adiantamento de clientes | 495.137 | 378.427 | 31% |
-| Provisão para riscos tributários, trabalhistas e cíveis | 27.141 | 27.657 | -2% |
-| Outras contas a pagar | 69.155 | 69.157 | 0% |
-| Passivo de cessão | 401.624 | 128.260 | 213% |
-| **Patrimônio líquido** | **2.245.457** | **2.110.586** | **6%** |
-| Capital social | 1.181.857 | 1.181.857 | - |
-| Gastos com emissões de ações | -21.994 | -21.994 | - |
-| Ações em tesouraria | -2.301 | -7.748 | -70% |
-| Reservas de capital | 151.029 | 152.480 | -1% |
-| Reservas de lucros | 649.936 | 648.810 | 0% |
-| Lucros acumulados | 100.001 | - | - |
-| PL controladores | 2.058.528 | 1.953.405 | 5% |
-| Participação dos não controladores | 186.929 | 157.181 | 19% |
-| **Total do passivo e patrimônio líquido** | **9.521.012** | **7.571.598** | **26%** |
-
----
-
-## Demonstração de Resultados Consolidada
-
-| DRE (R$ mil) | 3T24 | 2T24 | 3T23 | 9M24 | 9M23 |
-|---|---|---|---|---|---|
-| Receita com venda de imóveis | 916.686 | 858.179 | 566.347 | 2.454.010 | 1.732.349 |
-| Receita com prestação de serviços | 25.595 | 21.492 | 16.181 | 65.650 | 54.051 |
-| **Receita bruta** | **942.281** | **879.671** | **582.528** | **2.519.660** | **1.786.400** |
-| Deduções da receita | -31.683 | -35.451 | -24.860 | -95.400 | -66.055 |
-| **Receita operacional líquida** | **910.598** | **844.220** | **557.668** | **2.424.260** | **1.720.345** |
-| Custo da venda de imóveis e serviços | -577.881 | -541.592 | -365.299 | -1.548.313 | -1.124.951 |
-| **Lucro bruto** | **332.717** | **302.628** | **192.369** | **875.947** | **595.394** |
-| Despesas gerais e administrativas | -52.276 | -52.355 | -44.732 | -153.761 | -130.112 |
-| Despesas comerciais | -80.402 | -71.239 | -48.466 | -206.706 | -145.344 |
-| Resultado com equivalência patrimonial | 18.500 | 19.423 | 19.669 | 64.376 | 38.356 |
-| Outras receitas e despesas operacionais | -31.522 | -17.150 | -9.690 | -53.320 | -16.758 |
-| **Receitas (despesas) operacionais** | **-145.700** | **-121.321** | **-83.218** | **-349.411** | **-253.858** |
-| Despesas financeiras | -59.330 | -65.707 | -75.551 | -165.286 | -214.110 |
-| Receitas financeiras | 76.764 | 69.213 | 63.367 | 209.434 | 181.477 |
-| **Resultado financeiro** | **17.434** | **3.506** | **-12.184** | **44.148** | **-32.633** |
-| **Resultado antes do IR e CSLL** | **204.451** | **184.813** | **96.967** | **570.684** | **308.903** |
-| IR e CSLL corrente e diferido | -19.761 | -14.901 | -11.091 | -47.085 | -35.991 |
-| Resultado líquido antes de participantes | 184.690 | 169.912 | 85.876 | 523.599 | 272.912 |
-| Participantes em SCPs e SPEs | -24.226 | -23.743 | -17.112 | -66.682 | -40.956 |
-| **Lucro líquido do período** | **160.464** | **146.169** | **68.764** | **456.917** | **231.956** |
-| Margem Bruta | 36,5% | 35,8% | 34,5% | 36,1% | 34,6% |
-| Margem Bruta Ajustada | 38,5% | 37,8% | 37,0% | 37,9% | 36,6% |
-| Margem Líquida | 17,6% | 17,3% | 12,3% | 18,8% | 13,5% |
-
----
-
-## Demonstração de Fluxo de Caixa Consolidada
-
-| DFC (R$ mil) | 9M24 | 9M23 |
-|---|---|---|
-| **Fluxo de caixa das atividades operacionais** | | |
-| Lucro antes do IR e CSLL | 570.684 | 308.903 |
-| Depreciações e amortizações | 51.036 | 47.252 |
-| Resultado de equivalência patrimonial | -64.376 | -38.356 |
-| Receita de aplicações financeiras | -18.214 | -41.319 |
-| Provisão para garantia | 15.149 | 14.644 |
-| Juros sobre encargos e financiamentos | 154.375 | 159.938 |
-| Hedge accounting - Valor justo | -25.580 | 15.137 |
-| Resultado com derivativos | 2.189 | -11.676 |
-| Provisão para riscos | 16.144 | 10.450 |
-| Resultado com permuta física | -45.350 | -22.274 |
-| Alienação de investimentos | -28.644 | -51.695 |
-| Baixa de arrendamentos | -2.898 | - |
-| Ajuste a valor presente sobre contas a receber | 26.693 | 6.435 |
-| Ajuste a valor presente sobre arrendamento | 4.208 | 1.291 |
-| Despesas com cessão de recebíveis | 4.721 | 1.895 |
-| Ajuste ao valor realizável líquido de estoque | -1 | 23 |
-| Correção passivo de cessão | 23.178 | - |
-| Provisão para perdas de contas a receber | 38.539 | 7.260 |
-| Provisão para plano de opções de ações | 5.113 | 4.315 |
-| Provisão para PLR | 17.764 | 7.100 |
-| Contas a receber | -666.252 | -157.383 |
-| Estoques | 148.917 | -25.905 |
-| Créditos diversos | 2.704 | 446 |
-| Partes relacionadas | -32.559 | 19.398 |
-| Depósitos judiciais | -3.608 | -372 |
-| Tributos a recuperar | -7.302 | -15.327 |
-| Fornecedores | 32.934 | -16.258 |
-| Obrigações trabalhistas | 12.863 | 9.248 |
-| Obrigações tributárias | 11.810 | -23.963 |
-| Credores por imóveis compromissados | -145.994 | -174.397 |
-| Adiantamento de clientes | 41.861 | 31.817 |
-| Contas a pagar | -13.740 | -33.589 |
-| Provisão para riscos | -16.660 | -8.943 |
-| Partes relacionadas (passivo) | 13.279 | 32.327 |
-| Garantia de obra | -14.680 | -15.407 |
-| Outros Passivos | - | -37.970 |
-| IR e CSLL pagos | -33.241 | -6.734 |
-| **Caixa líquido gerado (aplicado) nas atividades operacionais** | **75.062** | **-3.689** |
-| **Fluxo de caixa das atividades de investimento** | | |
-| Acréscimo (Decréscimo) de investimentos (SCPs e SPEs) | -83.608 | -125.456 |
-| Dividendos recebidos | 14.120 | 23.563 |
-| Alienação de investimentos | 124.271 | 167.831 |
-| Aportes e mútuos | 21.438 | - |
-| Acréscimo do imobilizado | -30.404 | -5.411 |
-| Acréscimo de intangível | -32.825 | -15.158 |
-| Aplicações financeiras | -31.035 | -31.880 |
-| **Caixa líquido gerado (aplicado) nas atividades de investimento** | **-18.043** | **13.489** |
-| **Fluxo de caixa das atividades de financiamento** | | |
-| Dividendos pagos | -358.370 | -104.287 |
-| Ingresso de Cessão de recebíveis | 359.423 | 49.368 |
-| Pagamento de Cessão de recebíveis | -64.685 | -18.492 |
-| Amortização do financiamento por arrendamento | -6.330 | -6.262 |
-| Juros pagos sobre arrendamento | -297 | -579 |
-| Ingressos dos empréstimos | 1.018.389 | 260.186 |
-| Pagamento de Custos de estruturação de dívidas | -302.762 | -100 |
-| Amortizações dos empréstimos | -366.319 | -364.581 |
-| Juros pagos | -74.944 | -111.052 |
-| Emissão de ações | - | 408.109 |
-| Dividendos pagos a sócios não controladores | -40.009 | - |
-| Aumento / Redução de capital por não controladores | 3.076 | -41.520 |
-| **Caixa líquido gerado (aplicado) nas atividades de financiamento** | **167.172** | **70.790** |
-| **Aumento de caixa e equivalentes de caixa** | **224.191** | **80.590** |
-| Caixa no início do período | 633.978 | 733.124 |
-| Caixa no final do período | 858.169 | 813.714 |
-
----
-
-## Glossário
-
-- **Banco de Terrenos (Landbank)**: Terrenos mantidos em estoque com a estimativa de VGV futuro dos mesmos.
-- **MCMV**: Empreendimentos residenciais com preço médio por unidade de até R$ 350 mil, no âmbito do "Programa Minha Casa, Minha Vida - Faixas 1, 2 e 3".
-- **Riva**: Empreendimentos destinados a clientes de média renda, desenvolvidos nas SPEs objeto de aporte de ativos na subsidiária integral Riva Incorporadora S.A.
-- **Médio Padrão**: Empreendimentos residenciais com preço médio por unidade acima do teto do programa MCMV, até R$ 500 mil.
-- **Médio-Alto Padrão**: Empreendimentos residenciais com preço médio por unidade acima de R$ 500 mil.
-- **MAC**: Compreende os empreendimentos dos segmentos Médio Padrão, Médio-Alto Padrão e Comercial.
-- **Legado**: Empreendimentos do segmento MAC desenvolvidos no modelo de incorporação e construção anterior.
-- **EBITDA Ajustado**: Lucro antes do resultado financeiro, dos encargos financeiros incluídos na rubrica de custos dos imóveis vendidos, do IR e CSLL, das despesas de depreciação e amortização, menos a participação dos acionistas não controladores e menos os gastos com o programa de stock-option.
-- **LTM**: Período que compreende os últimos 12 meses (Last Twelve Months).
-- **Método PoC**: Receitas, custos e despesas relacionadas a empreendimentos imobiliários são apropriadas com base no método contábil do custo incorrido (Percentage of Completion).
-- **Permuta Financeira**: Sistema de compra de terreno pelo qual o proprietário recebe o pagamento em dinheiro, em geral calculado como percentual do VGV do empreendimento.
-- **Permuta Física**: Sistema de compra de terreno pelo qual o proprietário recebe em pagamento um determinado número de unidades do empreendimento a ser construído.
-- **Resultado a Apropriar**: Resultado do saldo de transações de vendas de imóveis já contratadas (decorrente dos imóveis cuja construção não foi ainda concluída) e seus respectivos custos orçados a incorrer.
-- **Vendas Líquidas Contratadas**: VGV decorrente de todos os contratos de venda de imóveis celebrados em determinado período, incluindo a venda de unidades lançadas no período e a venda de unidades em estoque, líquida de distratos.
-- **VGV**: Valor Geral de Vendas. Valor total a ser potencialmente obtido pela venda de todas as unidades de determinado empreendimento imobiliário ao preço de lançamento.
+Repasses
+(VGV 100% -R$ milhões)
++47%
++62% 2.476
+-13%
+1.687
+1.028 899
+556
+3T23 2T24 3T24 9M23 9M24
+EMPREENDIMENTOS ENTREGUES
+O Grupo Direcional realizou a entrega de 11 empreendimentos/etapas ao longo do 3T24, representando um total de 3.346
+unidades, 80% das quais são de produtos sob a marca Direcional e 20% sob a marca Riva.
+No 9M24, foram entregues 35 empreendimentos/etapas, correspondendo a 10.617 unidades, sendo 85% da Direcional e 15%
+da Riva.
+11
+
+<!-- PAGE 12 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+BANCO DE TERRENOS
+O landbank do Grupo Direcional totalizou um VGV de R$ 43,2 bilhões (R$ 39,2 bilhões % Companhia) no encerramento do 3T24,
+evidenciando um potencial de desenvolvimento de aproximadamente 206 mil unidades.
+O custo médio de aquisição do banco de terrenos é de 11% do VGV potencial, sendo que 85% será pago por meio de permuta,
+o que se traduz em um reduzido impacto no caixa antes do início do desenvolvimento dos empreendimentos.
+Evolução do Banco de Terrenos Terrenos Aquisições Lançamentos Terrenos VGV % Cia.
+Ajustes 1 Unidades
+(R$ milhões) 2023 9M24 9M24 9M24 9M24
+VGV Total 36.301 10.425 (3.922) 434 43.239 39.226 205.534
+1 - Ajuste: atualização do preço de venda; distratos e permuta.
+Aquisições de Terrenos
+24 terrenos foram adquiridos no decorrer do 3º trimestre de 2024, representando um VGV de R$ 5,0 bilhões (R$ 4,8 bilhões %
+Companhia) e um potencial de construção de, aproximadamente, 17 mil unidades. O custo médio de aquisição no trimestre foi
+de 12% do VGV, com 90% do pagamento ocorrendo via permuta.
+Desse modo, considerando o 9M24, o VGV potencial dos terrenos comprados no período somou R$ 10,4 bilhões (R$ 9,9 bilhões
+% Companhia) e o custo médio de aquisição foi de 11%, sendo que 89% do pagamento se dará por meio de permuta.
+12
+
+<!-- PAGE 13 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+DESEMPENHO ECONÔMICO-FINANCEIRO
+Receita Bruta
+No 3T24, a Receita Bruta do Grupo Direcional somou R$ 942 milhões, representando um acréscimo de 7% sobre o 2T24 e de
+62% sobre o 3T23. Esse atingimento marca um novo recorde trimestral da Companhia para a métrica.
+Considerando o 9M24, a Receita Bruta alcançou R$ 2,5 bilhões, um crescimento de 41% em relação ao 9M23. Dessa maneira,
+tanto em termos trimestrais, quanto no acumulado do ano até setembro, a receita bruta com vendas de imóveis representou
+97% do total apropriado, enquanto a receita bruta com prestação de serviços foi responsável pelos 3% restantes.
+3T24 2T24 3T23     9M24 9M23  
+Receita Bruta (R$ milhões)
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Receita Operacional Bruta 942,3 879,7 582,5 7,1% 61,8% 2.519,7 1.786,4 41,0%
+Vendas de Imóveis 916,7 858,2 566,3 6,8% 61,9% 2.454,0 1.732,3 41,7%
+Prestação de Serviços 25,6 21,5 16,2 19,1% 58,2% 65,7 54,1 21,5%
+Receita com Vendas de Imóveis
+A Receita Bruta com vendas de imóveis atingiu R$ 917 milhões no 3T24,
+crescendo 62% sobre o 3T23 e 7% sobre o 2T24. No 9M24, a Receita Bruta
+com vendas de imóveis alcançou R$ 2,5 bilhões, montante 42% acima do
+observado para o mesmo período de 2023, quando a rubrica havia
+somado R$ 1,7 bilhão.
+O desempenho dessa linha é influenciado, sobretudo, pelo volume de
+vendas e pela evolução das obras. Conforme vem ocorrendo nos últimos
+trimestres, parte considerável das unidades vendidas advém de
+empreendimentos que não são consolidados no balanço da Companhia
+(SPEs controladas em conjunto e não controladas). Nesses casos, a receita
+gerada em função dessas vendas não impacta diretamente a linha de
+Receita Líquida, mas sim o Resultado de Equivalência Patrimonial,
+conforme participação societária detida em cada uma dessas SPEs.
+Nesse sentido, somando-se a receita com vendas desses projetos não consolidados à receita com vendas contábil, verifica-se
+uma Receita Bruta com vendas de imóveis de R$ 1,2 bilhão no 3T24. Já no acumulado do ano até setembro, o total foi de R$ 3,3
+bilhões, valor 41% superior ao observado no 9M23.
+Receita Bruta com Vendas de Imóveis 3T24 2T24 3T23     9M24 9M23  
+(R$ milhões) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Receita com Vendas - Total 1.175,4 1.155,3 822,3 1,7% 42,9% 3.287,8 2.339,9 40,5%
+Receita com Vendas de Imóveis 916,7 858,2 566,3 6,8% 61,9% 2.454,0 1.732,3 41,7%
+Receita de SPEs não Consolidadas 258,7 297,1 256,0 -12,9% 1,1% 833,8 607,6 37,2%
+13
+5 6 6
+3 T 2 3
+R e c e
++ 6 2 %
+8 5 8
+2 T 2 4
+it a c o m V e
+(R $ m
+9 1 7
+3 T 2 4
+n d
+ilh
++
+a s d
+õ e s )
+7 %
+e Im ó v e
+1 .7
+9 M
+is
++
+3 2
+2 3
+4 2 %
+2
+9
+.4
+M
+5
+2
+4
+4
+
+<!-- PAGE 14 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+Receita com Prestação de Serviços
+No 3T24, a Receita Bruta com prestação de serviços foi de R$ 26 milhões,
+representando um crescimento de 19% sobre o trimestre anterior e de
+58% sobre o mesmo trimestre do ano anterior. Cabe ressaltar que essa
+linha é composta, sobretudo, por (i) corretagem sobre as vendas
+realizadas pelas corretoras próprias; e (ii) taxa de administração de obras.
+No 9M24, a rubrica totalizou R$ 66 milhões, 21% de crescimento em
+comparação ao 9M23. Conforme citado anteriormente, a
+representatividade dessa linha de negócio no mix de receita foi de 3%,
+tanto no trimestre, quanto no acumulado do ano.
+Receita Líquida
+Com isso, no 3T24, o Grupo Direcional reportou uma Receita Líquida contábil de R$ 911 milhões, marcando um relevante
+crescimento de 63% em relação ao mesmo trimestre de 2023 e de 8% em comparação ao trimestre anterior. No 9M24, a Receita
+Líquida foi de R$ 2,4 bilhões, valor 41% superior ao registrado no 9M23, confirmando a importante trajetória da receita advinda
+de projetos que são consolidados no resultado da Companhia.
+Considerando a Receita Líquida Total1, isto é, somando-se à receita contábil também a receita reconhecida nas empresas
+controladas em conjunto ou não controladas – que não afetam contabilmente a linha de receita, mas sim o Resultado de
+Equivalência Patrimonial –, observa-se um total de R$ 1,2 bilhão no 3T24. Por sua vez, no acumulado do ano até setembro, a
+Receita Líquida Total1 alcançou R$ 3,2 bilhões, crescendo 41% em relação ao 9M23.
+Observando o período de 12 meses encerrados em setembro (3T24 LTM), a Receita Líquida Total1 alcançou R$ 4,1 bilhões.
+Assim, tendo em conta a lógica natural da operação – lançamento do produto, vendas, construção e apropriação da receita –,
+a Companhia dá mais um importante passo rumo à convergência dessa linha em relação aos volumes de lançamentos e vendas.
+3T24 2T24 3T23     9M24 9M23  
+Receita Líquida Total (R$ milhões)
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Receita Líquida Total¹ 1.163,9 1.134,7 803,6 2,6% 44,8% 3.245,3 2.296,3 41,3%
+Receita Líquida 910,6 844,2 557,7 7,9% 63,3% 2.424,3 1.720,3 40,9%
+Receita Líquida de SPEs não Consolidadas 253,3 290,5 245,9 -12,8% 3,0% 821,1 576,0 42,5%
+1 - Receita Líquida Total: ajuste incluindo a receita líquida de SPEs não consolidadas no resultado (controladas em conjunto ou não controladas).
+14
+5 5 8
+3 T 2 3
++ 6 3 %
+8 4 4
+2 T 2 4
+R e c e
+(R $
+9 1 1
+3 T 2 4
+ita
+m
+L íq u
+ilh õ e s
++ 8 %
+id) a
+1
+9
+.7
+M
+2
+2
++
+0
+3
+4 1 %
+2
+9
+.4
+M
+2
+2
+4
+4
+2
+3 T
+L T
+,5
+2M 2
+E
+2
+4 T
+L T
+v
+,5
+2M
+o
+2
+lu ç ã o R
+2 ,7
+1 T 2 3
+L T M
+e c e ita
+(R $
+2 ,8
+2 T 2 3
+L T M
+L íq u id a
+b ilh õ e s )
+3
+2 ,9
+3 T 2 3 4 T
+L T M L T
+T o
+,2
+2 3
+M
+ta l¹ -
+3 ,5
+1 T 2 4
+L T M
+L T M
+3 ,8
+2 T 2
+L T M
+4
+4
+3 T
+L T
+,1
+2M 4
+Receita com Prestação de Serviços
+(R$ milhões e %)
+3% 2% 3% 3% 3%
++21%
++58%
+66
+54
++19%
+16 21 26
+3T23 2T24 3T24 9M23 9M24
+Receita com Prestação de Serviços % Receita Bruta
+
+<!-- PAGE 15 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+Lucro Bruto
+O Lucro Bruto Ajustado1 atingiu R$ 351 milhões no 3T24, o que representou crescimento de 10% sobre o 2T24 e de 70% sobre
+o 3T23. Assim, excluindo os juros capitalizados no custo e o efeito do Programa Pode Entrar (dadas as características particulares
+do programa em relação a um projeto de incorporação tradicional), a Margem Bruta Ajustada1 do trimestre alcançou 38,7%,
+constituindo o maior nível do indicador em toda a história do Grupo Direcional. Nesse contexto, a Margem Bruta Ajustada1
+apresentou incremento de 60 bps em relação ao 2T24 e de 170 bps em relação ao 3T23, enfatizando, mais uma vez, o resiliente
+patamar de rentabilidade que a Companhia vem reportando trimestre após trimestre.
+No acumulado do ano até setembro, o Lucro Bruto Ajustado1 totalizou R$ 920 milhões, montante 46% superior ao observado
+no 9M23. A Margem Bruta Ajustada1 foi de 38,1% no período, 150 bps maior que a margem do 9M23, também desconsiderando
+o impacto do Programa Pode Entrar, conforme citado acima.
+Levando em consideração os projetos contratados no âmbito do programa Pode Entrar, a Margem Bruta Ajustada1 do 3T24
+atingiu 38,5% (+80 bps sobre o 2T24 e +160 bps sobre o 3T23), enquanto a do 9M24 foi de 37,9% (130 bps maior que no 9M23).
+Cabe evidenciar que, dos três contratos firmados pela Companhia no programa, apenas os dois primeiros (assinados em
+dezembro de 2023) são consolidados no balanço e, portanto, exercem influência na Margem Bruta. O terceiro projeto, por ser
+controlado em conjunto com o sócio, tem seu impacto observado na linha de Equivalência Patrimonial.
+Lucro Bruto Ajustado1 3T24 2T24 3T23     9M24 9M23  
+(R$ milhões) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Lucro Bruto 332,7 302,6 192,4 9,9% 73,0% 875,9 595,4 47,1%
+(+) Juros Capitalizados 18,2 16,2 13,8 12,0% 31,4% 43,7 34,3 27,4%
+Lucro Bruto Ajustado¹ 350,9 318,9 206,2 10,0% 70,2% 919,6 629,7 46,0%
+Margem Bruta Ajustada¹ 38,5% 37,8% 37,0% 0,8 p.p. 1,6 p.p. 37,9% 36,6% 1,3 p.p.
+Margem Bruta Ajustada¹ - Ex-Pode Entrar 38,7% 38,1% 37,0% 0,6 p.p. 1,7 p.p. 38,1% 36,6% 1,5 p.p.
+1 - Lucro Bruto e Margem Bruta ajustados: excluindo os juros capitalizados no custo.
+15
+3 7 ,0 %
+2 0 6
+3 T 2 3
+L
+M
+L u c r o B r u t o A ju s t a d
+(R $ m ilh õ e s e % )
+3 8 ,7 % 3 8 ,1 %
++ 7 0 %
++ 1 0 %
+3 5 1 3 1 9
+2 T 2 4 3 T 2 4
+u c ro B ru to A ju s ta d o ¹
+a rg e m B ru ta A ju s ta d a ¹ (E x -P o d
+o
+e
+¹
+3
+9
+E
+6
+6
+M
+n
+,6 %
++ 4
+3 0
+2 3
+tra r)
+6 %
+3
+9
+8
+9
+M
+,1 %
+2 0
+2 4
+3 6 ,3 %
+1 9 4
+4 T 2 2
+L
+M
+E v o
+3 6 ,3 %
+2 0 2
+1 T 2 3
+u c ro B
+a rg e m
+lu ç ã o d a M a r g e m B r u t a A ju s t
+(R $ m ilh õ e s e % )
+3 7 ,4 % 3 7 ,1 % 3 7 ,0 % 3 6 ,5 %
+2 5 0 2 2 7 2 2 1 2 0 6
+2 T 2 3 3 T 2 3 4 T 2 3 1 T 2 4
+ru to A ju s ta d o ¹
+B ru ta A ju s ta d a ¹ (E x -P o d e E n tra
+a d a ¹
+3 8 ,1 %
+3 1 9
+2 T 2 4
+r)
+3 8 ,7 %
+3 5 1
+3 T 2 4
+
+<!-- PAGE 16 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+Despesas Gerais e Administrativas (G&A)
+No 3T24, as Despesas Gerais e Administrativas somaram R$ 52 milhões,
+valor em linha com o registrado no 2T24 e 17% maior que no 3T23.
+Entretanto, a representatividade dessas despesas em relação à Receita
+Bruta foi de 5,5% no trimestre, reduzindo 50 bps frente ao 2T24 e 220
+bps frente ao 3T23.
+Em relação à Receita Bruta Total1, isto é, levando-se em conta também
+a receita advinda de empreendimentos não consolidados no resultado
+da Companhia, a representatividade do G&A foi de 4,4% no trimestre,
+uma diluição de 90 bps em relação ao 3T23.
+No 9M24, o G&A totalizou R$ 154 milhões, 18% acima do 9M23. A
+representatividade da linha sobre a Receita Bruta foi de 6,1% – uma
+queda de 120 bps em relação ao 9M23. Por sua vez, considerando a
+Receita Bruta Total1, a representatividade foi de 4,6%, diluindo 80 bps
+sobre o 9M23.
+Dessa maneira, tanto os números do trimestre, quanto os do período acumulado, evidenciam o êxito do Grupo Direcional em
+promover um relevante crescimento do negócio, mantendo um estrito controle em relação às despesas. Esse empenho traduz-
+se na diluição do G&A, dada a maior aceleração da receita, permitindo à Companhia continuar capturando os benefícios
+decorrentes do crescimento da operação.
+1 - Receita Bruta Total: ajuste incluindo a receita bruta de SPEs não consolidadas no resultado (controladas em conjunto ou não controladas).
+Despesas Comerciais
+No 3T24, as Despesas Comerciais – compostas, sobretudo, por despesas
+com comissões, marketing e manutenção de pontos de vendas – somaram
+um total de R$ 80 milhões, 13% acima do 2T24 e 66% acima do 3T23,
+acompanhando o maior volume de vendas e receita reportado pelo Grupo
+Direcional. A representatividade dessas despesas em relação à Receita
+Bruta com vendas de imóveis foi de 8,8% no período.
+Considerando o acumulado do ano até setembro, a rubrica alcançou R$
+207 milhões, um crescimento de 42% em relação ao 9M23. A
+representatividade das Despesas Comerciais sobre a Receita Bruta com
+vendas de imóveis foi de 8,4%, mantendo o mesmo patamar que havia
+sido registrado um ano antes. Nesse sentido, é válido observar que as
+Vendas Líquidas aumentaram 69% no período, demonstrando todo o
+resultado proveniente da alavancagem operacional da qual a Companhia
+tem se beneficiado, dado o crescimento do negócio nos últimos anos.
+16
+7
+5
+3
+D e s p e s a s G e r a is e A d m in is t r a t iv a s ( G & A )
+(R $ m ilh õ e s e % )
+,7 % 7 ,3 %
+6 ,1 6 ,0 % 5 ,5 %
+5 ,4 % ,3 %
+4 ,6 4 ,4 % 4 ,4 %
++ 1 8 %
++ 1 7 % 1 5
+1 3 0
+0 %
+5 2 5 2 4 5
+T 2 3 2 T 2 4 3 T 2 4 9 M 2 3 9 M
+D e s p e s a s G e ra is e A d m in is tra tiv a s
+% R e c e ita B ru ta
+% R e c e ita B ru ta T o ta l¹
+D e s p e s a s C o m e r c ia is
+(R $ m ilh õ e s e % )
+8 ,8 % 8 ,6 % 8 ,4 8 ,4 % 8 ,3 %
++ 4 2 %
++ 6 6 % 2 0
++ 1 3 % 1 4 5
+8 0 7 1
+4 8
+3 T 2 3 2 T 2 4 3 T 2 4 9 M 2 3 9 M
+D e s p e s a s C o m e rc ia is % R e c e ita B ru ta c o m V e
+%
+%
+4
+2 4
+%
+7
+2 4
+n d a s
+
+<!-- PAGE 17 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+Resultado de Equivalência Patrimonial
+Conforme vem sendo abordado nas últimas divulgações de resultado, os
+projetos que não são consolidados no balanço da Direcional (SPEs
+controladas em conjunto e não controladas) têm tido papel relevante nas
+vendas dos últimos trimestres. Para fins de contabilização, esses
+empreendimentos não contribuem diretamente com a receita da
+Companhia, mas, sim, com o Resultado de Equivalência Patrimonial,
+conforme a participação detida em cada uma dessas SPEs. Diante disso,
+no 3T24, essa linha somou R$ 18 milhões, volume 5% menor que no 2T24
+e 6% menor que no 3T23.
+No 9M24, o Resultado de Equivalência Patrimonial totalizou R$ 73
+milhões, valor 194% superior ao observado no 9M23, evidenciando o
+impacto que os projetos não consolidados têm gerado no resultado.
+Outras Receitas e Despesas Operacionais
+No 3T24, as Outras Receitas e Despesas Operacionais registraram um resultado líquido negativo de R$ 32 milhões. Os principais
+impactos nessa linha decorreram de: (i) constituições e reversões de provisões, que totalizaram o montante líquido negativo de
+R$ 14 milhões; (ii) despesas jurídicas recorrentes e afins, no valor de R$ 9 milhões; e (iii) despesas societárias, tais como
+amortização de ágio por aquisição de participações societárias, entre outras, somando aproximadamente R$ 9 milhões. Dessa
+maneira, a representatividade da rubrica sobre a Receita Líquida foi de 3,5% no trimestre.
+EBITDA
+No 3T24, o EBITDA Ajustado1 alcançou R$ 221 milhões, perfazendo um crescimento de 59% quando comparado ao 3T23, e de
+7% em relação ao 2T24. Dessa forma, a Margem EBITDA Ajustada1 foi de 24,3% no trimestre. O referido ajuste exclui os juros
+capitalizados na linha de Custos e eventuais resultados não recorrentes alocados na linha de Outras Receitas e Despesas
+Operacionais.
+Levando em consideração o 9M24, o EBITDA Ajustado1 somou R$ 593 milhões, valor 50% maior do que o observado no mesmo
+período de 2023. Com isso, a Margem EBITDA Ajustada1 foi de 24,5%, representando um aumento de 150 bps no período.
+17
+3
+2
+T
+0
+2 3
+R e s u lt
+-6 %
+1 9
+2 T 2
+a
+4
+d o d e
+3
+E q
+(R
+1 8
+T 2
+u iv
+$ m
+4
+a lê n c ia
+ilh õ e s )
+-5 %
+P a t r
+9
+im
+2
+M
+o n ia
++ 1 9
+5
+2 3
+l
+4 %
+9
+7
+M
+3
+2 4
+EBITDA Ajustado¹
+(R$ milhões e %)
+25,0% 24,5% 24,3% 22,9% 24,5%
++50%
++59% 593
++7% 395
+207 221
+140
+3T23 2T24 3T24 9M23 9M24
+EBITDA Ajustado¹ Margem EBITDA Ajustada¹
+
+<!-- PAGE 18 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+A tabela abaixo apresenta a recomposição do EBITDA e do EBITDA Ajustado1 e as respectivas margens:
+Recomposição do EBITDA 3T24 2T24 3T23     9M24 9M23  
+(R$ milhões) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Lucro Líquido 160,5 146,2 68,8 9,8% 133,4% 456,9 232,0 97,0%
+(+) Depreciação e amortização 16,3 18,6 16,6 -12,7% -1,9% 51,0 47,3 8,0%
+(+) Imposto de renda e contribuição social 19,8 14,9 11,1 32,6% 78,2%
+51,04477,,11 4 73,363,06
+3 0,8%
+(+) Participação dos acionistas minoritários 24,2 23,7 17,1 2,0% 41,6%
+4676,,17 3461,,00
+6 2,8%
+(+/-) Resultado financeiro (17,4) (3,5) 12,2 397,3% -243,1% (4646,1,7) 4312,,06 - 2 3 5,3%
+(17,4) (44,1) 32,6
+EBITDA 203,3 199,9 125,7 1,7% 61,7% 577,6 388,8 48,6%
+Margem EBITDA 22,3% 23,7% 22,5% -1 p.p. -0,2 p.p. 23,8% 22,6% 1 p.p.
+(+) Juros capitalizados na linha de Custos 18,2 16,2 13,8 12,0% 31,4% 43,7 34,3 27,4%
+(-) Ajuste resultado não recorrente - (9,3) - -100,0% n/a (28,4) (28,3) 0,3%
+EBITDA Ajustado¹ 221,5 206,9 139,6 7,0% 58,7% 592,8 394,7 50,2%
+Margem EBITDA Ajustada¹ 24,3% 24,5% 25,0% -0,2 p.p. -0,7 p.p. 24,5% 22,9% 1,5 p.p.
+1 - EBITDA e Margem EBITDA ajustados: excluindo os juros capitalizados no custo e o resultado não recorrente alocado na linha de Outras Receitas e Despesas Operacionais.
+Resultado Financeiro
+Considerando as receitas e as despesas financeiras referentes ao 3T24, foi registrado um resultado líquido positivo de R$ 17
+milhões. Os principais impactos nessa linha foram: (i) resultado recorrente positivo no valor de R$ 16,3 milhões, referente a
+atualizações monetárias e juros contratuais, sobretudo relacionados a contas a receber contra clientes; (ii) liquidação integral
+do swap indexado às ações da Direcional, que gerou um resultado positivo de R$ 4,6 milhões, já líquido de impostos; (iii)
+resultado líquido negativo de R$ 4,4 milhões considerando as despesas com juros e bancárias e as receitas com aplicações
+financeiras ocorridas no período; e (iv) despesas atreladas a venda de carteira, no valor de R$ 2,2 milhões.
+Participantes não controladores em SPE e SCP (“Minoritários”)
+No 3T24, o resultado atribuído aos participantes não controladores em SPEs e SCPs (“Minoritários”) foi de R$ 24 milhões, valor
+em linha com o reportado no trimestre anterior. Já no 9M24, a rubrica totalizou R$ 66 milhões, montante 63% maior que no
+9M23.
+Vale dizer que o desenvolvimento de projetos em sociedade fez parte da estratégia para acelerar a expansão da Direcional no
+início do ciclo de crescimento, permitindo celeridade na entrada em praças estratégicas e, sobretudo, uma maior diluição das
+despesas com a aceleração dos lançamentos. Atualmente, entretanto, a representatividade de projetos em que não há
+participação de sócios minoritários tem sido cada vez maior no pipeline da Companhia.
+18
+
+<!-- PAGE 19 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+Lucro Líquido
+Diante de todo o exposto acima, o Lucro Líquido do Grupo Direcional
+atingiu R$ 160 milhões no 3T24, configurando um expressivo
+crescimento de 133% sobre o mesmo trimestre de 2023 e de 10% sobre
+o trimestre anterior. Com isso, a Companhia alcançou seu maior Lucro
+Líquido para um único trimestre. A Margem Líquida atingiu 17,6% no
+período, um ganho de 530 bps ante o 3T23 e de 30 bps ante o 2T24.
+No acumulado do ano até setembro, o Lucro Líquido somou R$ 457
+milhões, crescendo 97% sobre o observado no mesmo período do ano
+anterior. Esse relevante resultado representou uma Margem Líquida de
+18,8%, um crescimento de 540 bps em relação ao 9M23.
+Excluindo o resultado não recorrente gerado com a liquidação do swap
+de ações, o Lucro Líquido Operacional1 da Companhia foi de R$ 156
+milhões no 3T24, representando um crescimento de 88% em relação ao
+3T23 e de 15% em relação ao 2T24. A Margem Líquida Operacional1 foi
+de 17,1% no trimestre, um incremento de 230 bps frente ao 3T23 e de
+110 bps frente ao 2T24. Nesse cenário, o ROE Anualizado Ajustado1 atingiu seu maior patamar histórico, alcançando 29%.
+Considerando o 9M24, o Lucro Líquido Operacional1 do Grupo Direcional somou R$ 411 milhões, superando em 81% o valor
+observado no 9M23. E no período de 12 meses encerrados em setembro, a métrica chegou a um total de R$ 509 milhões.
+A tabela abaixo mostra o Lucro Líquido do período, bem como a recomposição do Lucro Líquido Operacional1:
+Lucro Líquido Operacional1 3T24 2T24 3T23     9M24 9M23  
+(R$ milhões) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Lucro Líquido 160,5 146,2 68,8 9,8% 133,4% 456,9 232,0 97,0%
+(+/-) Resultado com swap -4,6 -1,8 4,2 154,2% -211,1% -17,5 -5,3 228,8%
+(+) Despesas com cessão de recebíveis 0,0 0,0 9,8 n/a -100,0% 0,0 28,4 -100,0%
+(+/-) Outras despesas (receitas) não recorrentes 0,0 -9,3 0,0 -100,0% n/a -28,4 -28,3 0,3%
+Lucro Líquido Operacional¹ 155,8 135,1 82,7 15,4% 88,5% 411,0 226,7 81,3%
+Margem Líquida Operacional¹ 17,1% 16,0% 14,8% 1,1 p.p. 2,3 p.p. 17,0% 13,2% 3,8 p.p.
+1 – Lucro Líquido e Margem Líquida Operacional: ajuste pelo resultado de swap de ações, resultado não recorrente alocado na rubrica “Outras Receitas e Despesas Operacionais” e despesas de cessão de
+recebíveis, conforme o caso.
+19
+1
+3
+2
+6
+T
+,3
+9
+2
+%
+3
+1 7 ,3 %
++ 1 3 3 %
+1 4 6
+2 T 2 4
+L u c ro L
+L u c r o L íq
+(R $ m ilh õ e
+1 7 ,6 %
++
+1 6 0
+3 T 2 4
+íq u id o
+u id o
+s e %
+1 0 %
+M
+)
+a rg e m
+1
+9
+3 ,5 %
++ 9
+2 3 2
+M 2 3
+L íq u id
+7
+a
+%
+1
+9
+8
+4
+M
+,8 %
+5 7
+2 4
+
+<!-- PAGE 20 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+Resultado a Apropriar de Vendas de Imóveis
+A Receita a Apropriar (REF) do segmento de vendas de imóveis alcançou R$ 2,6 bilhões no encerramento do 3T24, crescendo
+12% em relação ao 2T24 e 96% em comparação ao 3T23. Nesse caso, o crescimento nominal da Receita a Apropriar foi de R$
+1,3 bilhão nos últimos 12 meses. Esses atingimentos, impulsionados pelos fortes volumes de vendas reportados pelo Grupo
+Direcional, evidenciam o crescimento contratado para a linha de receita nos próximos períodos.
+Mantendo o elevado nível de rentabilidade apresentado pela Companhia trimestre após trimestre, a Margem REF foi de 43,4%
+ao final do 3T24, 70 bps superior ao mesmo trimestre de 2023 e em linha com o registrado no trimestre anterior.
+A tabela a seguir apresenta maior detalhamento do Resultado a Apropriar de Vendas de Imóveis:
+Resultado a Apropriar de Vendas de Imóveis 3T24 2T24 3T23    
+(R$ milhões) (a) (b) (c) (a/b) (a/c)
+Receitas a Apropriar de Vendas de Imóveis 2.618,3 2.331,3 1.333,0 12,3% 96,4%
+Custo a Incorrer -1.482,6 -1.319,2 -764,2 12,4% 94,0%
+Resultado a Apropriar Incorporação 1.135,7 1.012,2 568,8 12,2% 99,7%
+Margem Resultado de Exercícios Futuros (REF) 43,4% 43,4% 42,7% 0,0 p.p. 0,7 p.p.
+20
+R e c e
+4 2 ,7 %
+1 .3 3 3
+3 T 2 3
+R e
+it a a A p
+4 2 ,5
+1 .7 0
+4 T 2
+c e ita a A
+r o p
+(R
+%
+8
+3
+p ro
+r$
+p
+ia r d e V e
+m ilh õ e s e
+4 3 ,1 %
++ 9 6 %
+1 .9 2 6
+1 T 2 4
+ria r (R E F )
+n
+%
+d a)
+4
+2
+2
+s d e
+3 ,4 %
+.3 3 1
+T 2 4
+M
+Im
+a rg
+ó v e is
+4 3 ,4 %
+2 .6 1 8
+3 T 2 4
+e m R E F
++ 1 2 %
+
+<!-- PAGE 21 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+DESTAQUES DO BALANÇO PATRIMONIAL
+Caixa e Equivalentes de Caixa e Aplicações Financeiras
+No encerramento do 3º trimestre de 2024, o saldo de Caixa e Equivalentes de Caixa e Aplicações Financeiras totalizou R$ 1,5
+bilhão, representando um incremento de 9% sobre o 2T24 e de 15% sobre o 3T23.
+Durante o 3T24, a Direcional concluiu mais emissão de Certificados de Recebíveis Imobiliários (CRI), no montante aproximado
+de R$ 312 milhões. Além disso, a Companhia também efetuou o pagamento de dividendos intermediários aos acionistas, os
+quais totalizaram R$ 277 milhões, conforme Fato Relevante publicado em 1º de julho de 2024.
+Dessa forma, o Grupo Direcional visa à manutenção de sua posição de caixa em níveis confortáveis para permitir o crescimento
+operacional, sem abrir mão do equilíbrio de sua estrutura de capital, buscando sempre a maximização de retorno para seus
+acionistas.
+Caixa e Equivalentes e Aplicações Financeiras 3T24 2T24 3T23    
+(R$ milhões) (a) (b) (c) (a/b) (a/c)
+Caixa e Equivalentes de Caixa 858,2 649,7 813,7 32,1% 5,5%
+Aplicações Financeiras 687,6 772,3 527,4 -11,0% 30,4%
+Total 1.545,8 1.422,0 1.341,2 8,7% 15,3%
+Contas a Receber
+O saldo contábil de Contas a Receber1 encerrou o 3T24 em R$ 1,6 bilhão, representando uma elevação de 12% sobre o 2T24 e
+de 97% sobre o 3T23. Considerando o saldo de Contas a Receber por Venda de Imóveis, bem como a Receita Líquida relativa a
+esse segmento, o indicador de Dias de Contas a Receber2 foi de 162 dias.
+Segundo as regras contábeis atuais, o reconhecimento de Contas a Receber é proporcional ao índice de execução das respectivas
+obras (Percentage of Completion - PoC). Assim, o saldo de Contas a Receber das unidades vendidas e ainda não construídas não
+está integralmente refletido nas Demonstrações Financeiras. Nesse sentido, cabe ressaltar que o saldo total de Contas a Receber
+da Companhia no encerramento do 3T24 era de R$ 4,2 bilhões.
+Desse total, os recebíveis referentes às parcelas de financiamento direto com o cliente em caráter pró-soluto totalizaram,
+aproximadamente, R$ 595 milhões ao final do 3T24.
+Contas a Receber¹ 3T24 2T24 3T23    
+(R$ milhões) (a) (b) (c) (a/b) (a/c)
+Venda de Imóveis 1.594,4 1.425,3 800,7 11,9% 99,1%
+Prestação de Serviços 15,1 16,4 16,1 -7,8% -6,1%
+Venda de Terreno 5,4 5,5 3,9 -1,3% 39,7%
+Total 1.615,0 1.447,2 820,7 11,6% 96,8%
+Parcela Circulante 844,4 789,2 407,9 7,0% 107,0%
+Parcela Não-Circulante 770,6 658,0 412,8 17,1% 86,7%
+Contas a Receber – Venda de Imóveis 1.594,4 1.425,3 800,7 11,9% 99,1%
+Receita Líquida – Venda de Imóveis 885,0 858,4 544,1 3,1% 62,7%
+Dias de Contas a Receber² 162 149 132 8,5% 22,4%
+1 - O Contas a Receber contábil de curto prazo é composto pelos saldos devedores dos clientes corrigidos e reconhecidos no resultado proporcionalmente ao PoC (Percentage of Completion),
+considerando a data do habite-se para o pagamento da parcela de financiamento pelos clientes à Direcional, mais a receita reconhecida dos projetos de empreitada.
+2 - Dias de Contas a Receber calculado como Contas a Receber por Venda de Imóveis sobre Receita Líquida com Venda de imóveis no trimestre, multiplicado por 90 (número de dias em um trimestre).
+21
+
+<!-- PAGE 22 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+Endividamento
+O Grupo Direcional encerrou o 3T24 com um saldo bruto de Empréstimos e Financiamentos de R$ 1,7 bilhão, com 84% do total
+estando no longo prazo (passivo não circulante). Vale destacar a conclusão de mais uma bem sucedida emissão de Certificados
+de Recebíveis Imobiliários (CRI), que permitiu uma captação total de aproximadamente R$ 312 milhões, após exercício da opção
+de lote adicional. Contando com rating brAAA (S&P) e vencimentos em 5 anos (1ª série) e 7 anos (2ª série), a operação
+possibilitou à Companhia alongar seu prazo médio de vencimento para 53 meses, entre os maiores do setor.
+Dessa forma, levando em consideração os saldos de Empréstimos e Financiamentos, de Caixa e Equivalentes de Caixa e de
+Aplicações Financeiras, além da posição de contratos de swaps de juros, a Companhia encerrou o trimestre com uma dívida
+líquida de R$ 91 milhões. O índice de alavancagem, medido pela Dívida Líquida1 sobre o Patrimônio Líquido, atingiu 4,1%. Além
+disso, a posição de caixa mostrou-se mais do que suficiente para cobrir os próximos 7 anos de amortização do endividamento
+bruto total.
+Como resultado, a Companhia segue apresentando uma estrutura de capital que permite o crescimento sustentável de suas
+operações, prezando sempre pelo conservadorismo em relação a sua alavancagem financeira.
+Abaixo, são apresentados a abertura do endividamento por modalidade e indexador, além de seu cronograma de amortização.
+Endividamento 3T24 2T24 3T23    
+(R$ milhões) (a) (b) (c) (a/b) (a/c)
+Empréstimos e Financiamentos 1.680,6 1.337,5 1.291,3 25,7% 30,2%
+CRI 1.260,1 983,0 859,7 28,2% 46,6%
+Debêntures 104,9 101,6 273,0 3,2% -61,6%
+Financiamento à Produção 313,8 250,0 153,1 25,5% 105,0%
+FINAME e Leasing 1,9 2,9 5,5 -32,8% -64,7%
+Caixa e Equivalentes 1.545,8 1.422,0 1.341,2 8,7% 15,3%
+Dívida Líquida antes dos swaps 134,9 -84,5 -49,9 -259,6% -370,3%
+Posição de contratos de swaps 43,5 68,5 38,9 -36,4% 12,0%
+Dívida Líquida1 91,3 -153,0 -88,8 -159,7% -202,9%
+Dívida Líquida1 / Patrimônio Líquido 4,1% -6,3% -4,2% 10,3 p.p. 8,3 p.p.
+Empréstimos e Financiamentos por indexador 1.680,6 1.337,5 1.291,3 25,7% 30,2%
+TR 313,8 250,0 153,1 25,5% 105,0%
+IPCA2 810,6 641,1 706,8 26,4% 14,7%
+CDI 490,2 382,2 431,3 28,3% 13,6%
+Prefixado2 66,1 64,2 0,0 3,0% n/a
+1 - Dívida Líquida: Saldo total das linhas de Empréstimos e Financiamentos reduzido pelo saldo de Caixa e Equivalentes de Caixa e Aplicações Financeiras e somado ao saldo das posições em aberto de
+contratos de swaps para proteção de flutuações de taxas de juros.
+2 - Para os títulos indexados ao IPCA e prefixados, foram contratados instrumentos de swap de taxa de juros para trocar a indexação para CDI.
+Cronograma de Amortização da Dívida BreakdownEmpréstimos e Financiamentos
+(R$ milhões) (% do Saldo)
+1.637
+Financiamento à Produção -SFH
+314 CRI
+Leasing 2 75%
+Mercado de Capitais
+Saldo de Swap
+1.365
+481
+269
+142 167 219 216 6%0%
+101 85
+19% Leasing
+-44 Debêntures
+SFH
+Até 12 13-24 25-36 37-48 49-60 61-72 73-84 > 84 Saldo
+meses meses meses meses meses meses meses meses Total
+22
+
+<!-- PAGE 23 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+Geração de Caixa
+No 3T24, a Direcional reportou geração de caixa no montante de R$ 33 milhões. Com isso, considerando os 9 primeiros meses
+de 2024, a geração de caixa totalizou R$ 195 milhões.
+Vale destacar que, com a mudança de regra aplicada pela Caixa Econômica Federal, na qual o depósito de recursos somente é
+realizado após o contrato de venda ser registrado em cartório, a Companhia encerrou o 3T24 com um saldo a receber de R$ 85
+milhões, em função de contratos assinados que estão aguardando o registro.
+1 - Geração de Caixa: variação da dívida líquida ajustada por pagamento de dividendos, recompra de ações e variação no saldo de contratos de operações de swap de juros.
+DIVIDENDOS
+Conforme antecipado na última Prévia Operacional, a evolução observada em relação à geração de caixa e os patamares atuais
+de VSO permitiram à Companhia realizar, no início do 3T24, o pagamento de dividendos intermediários no valor de R$ 1,60 por
+ação, perfazendo a quantia de R$ 277 milhões.
+Adicionalmente, em decorrência do resultado positivo obtido com a liquidação do swap referenciado nas ações da Direcional –
+dada a forte valorização do papel desde a contratação do derivativo – o Conselho de Administração da Companhia aprovou uma
+nova distribuição de dividendos intermediários, equivalente a R$ 0,46 por ação. Desse modo, o valor total estimado a ser pago
+aos acionistas é de, aproximadamente, R$ 80 milhões. O direito ao recebimento desses proventos adicionais foi garantido aos
+investidores de acordo com a posição acionária de 17 de setembro de 2024.
+Considerando ambas as decisões do Conselho, a distribuição total anunciada pela Companhia no 3T24 soma R$ 357 milhões,
+correspondendo a uma quantia de R$ 2,06 por ação.
+23
+
+<!-- PAGE 24 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+Declarações contidas neste comunicado relativas às perspectivas dos negócios, projeções de resultados operacionais e
+financeiros e referências ao potencial de crescimento da Companhia, constituem meras previsões e foram baseadas nas
+expectativas e estimativas da Administração em relação ao desempenho futuro da Companhia. Embora a Companhia acredite
+que tais previsões sejam baseadas em suposições razoáveis, ela não assegura que elas sejam alcançadas. As expectativas e
+estimativas que baseiam as perspectivas futuras da Companhia são altamente dependentes do comportamento do mercado,
+da situação econômica e política do Brasil, de regulações estatais existentes e futuras, da indústria e dos mercados
+internacionais e, portanto, estão sujeitas a mudanças que fogem ao controle da Companhia e de sua Administração. A
+Companhia não se compromete a publicar atualizações ou revisar as expectativas, estimativas e previsões contidas neste
+comunicado decorrentes de informações ou eventos futuros.
+CÓDIGO DA AÇÃO: DIRR3 CONFERÊNCIA DE RESULTADOS CONTATOS
+Cotação 30/09/2024: R$ 30,25
+Data: 08/11/2024 - Sexta-feira Equipe de RI
+Número de Ações (Ex-Tesouraria): 09:00 - Horário de Brasília
+(31) 3431-5509 | (31) 3431-5512
+173 milhões 07:00 - Horário de Nova Iorque
+Valor de Mercado:
+ri@direcional.com.br
+R$ 5,2 bilhões / US$ 962 milhões
+Dados para Conexão: ri.direcional.com.br
+Free Float:
+Zoom
+63% www.direcional.com.br
+https://us06web.zoom.us/webinar/register/
+WN_Npz1me8wRRyAuw-oYPqacw
+Volume médio diário 3T24:
+Rua dos Otoni, 177 - 14º andar
+1,9 milhões de ações
+YouTube Belo Horizonte - MG
+R$ 56,2 milhões
+https://www.youtube.com/live/2uPIku8YKgM CEP: 30.150-270
+8.815 negócios
+24
+
+<!-- PAGE 25 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+BALANÇO PATRIMONIAL CONSOLIDADO
+IFRS
+Balanço Patrimonial - Consolidado (RS Mil) 30/09/2024 31/12/2023  
+Ativo circulante 4.331.445 3.583.355 21%
+Caixa, equivalentes de caixa e aplicações financeiras 1.545.768 1.327.171 16%
+Contas a receber 844.423 521.946 62%
+Estoques 1.570.926 1.420.699 11%
+Crédito com partes relacionadas 110.101 67.184 64%
+Tributos a recuperar 49.451 25.753 92%
+Outros créditos 210.776 220.602 -4%
+Ativo não circulante 5.189.567 3.988.243 30%
+Aplicações financeiras 54.843 0 -
+Contas a receber 770.586 464.035 66%
+Estoques 3.758.233 3.041.218 24%
+Depósitos judiciais 21.719 18.111 20%
+Tributos a recuperar 11.152 27.548 -60%
+Contas a receber por alienação de investimentos 7.630 7.630 -
+Outros créditos 141.418 113.274 25%
+Investimentos 193.959 169.375 15%
+Imobilizado 197.256 111.474 77%
+Intangível 32.771 35.578 -8%
+Total do ativo 9.521.012 7.571.598 26%
+31/12/2023
+Balanço Patrimonial - Consolidado (RS Mil) 30/09/2024 31/12/2023  
+Passivo circulante 1.282.876 1.042.766 23%
+Empréstimos e financiamentos 268.592 234.933 14%
+Fornecedores 155.934 121.652 28%
+Risco Sacado 8.885 7.879 13%
+Obrigações trabalhistas 76.038 45.411 67%
+Obrigações tributárias 48.862 36.179 35%
+Financiamento por arrendamento 8.200 7.456 10%
+Credores por imóveis compromissados 165.985 146.827 13%
+Adiantamento de clientes 79.973 69.264 15%
+Outras contas a pagar 158.901 120.996 31%
+Passivo de cessão 108.199 58.926 84%
+Dividendos propostos 79.700 81.162 -2%
+Provisão para garantia 22.506 24.259 -7%
+Débitos com partes relacionadas 101.101 87.822 15%
+Passivo não circulante 5.992.679 4.418.246 36%
+Empréstimos e financiamentos 1.412.044 1.088.111 30%
+Fornecedores 10.950 10.004 9%
+Provisão para garantia 18.525 16.303 14%
+Obrigações tributárias 31.136 18.589 67%
+Financiamento por arrendamento 76.332 13.648 459%
+Credores por imóveis compromissados 3.450.635 2.668.090 29%
+Adiantamento de clientes 495.137 378.427 31%
+Provisão para riscos tributários, trabalhistas e cíveis 27.141 27.657 -2%
+Outras contas a pagar 69.155 69.157 -0%
+Passivo de cessão 401.624 128.260 213%
+Patrimônio líquido 2.245.457 2.110.586 6%
+Capital social 1.181.857 1.181.857 -
+Gastos com emissões de ações -21.994 -21.994 -
+Ações em tesouraria -2.301 -7.748 -70%
+Reservas de capital 151.029 152.480 -1%
+Reservas de lucros 649.936 648.810 0%
+Lucros acumulados 100.001 - -
+2.058.528 1.953.405 5%
+Participação dos não controladores 186.929 157.181 19%
+Total do passivo e patrimônio líquido 9.521.012 7.571.598 26%
+25
+
+<!-- PAGE 26 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+DEMONSTRAÇÃO DE RESULTADOS CONSOLIDADA
+Demonstração de Resultados - Consolidada 3T24 2T24 3T23     9M24 9M23  
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+R$ mil
+Receita com venda de imóveis 916.686 858.179 566.347 6,8% 61,9% 2.454.010 1.732.349 41,7%
+Receita com prestação de serviços 25.595 21.492 16.181 19,1% 58,2% 65.650 54.051 21,5%
+Receita bruta 942.281 879.671 582.528 7,1% 61,8% 2.519.660 1.786.400 41,0%
+Deduções da receita - impostos incidentes e outros -31.683 -35.451 -24.860 -10,6% 27,4% -95.400 -66.055 44,4%
+Receita operacional líquida 910.598 844.220 557.668 7,9% 63,3% 2.424.260 1.720.345 40,9%
+Custo da venda de imóveis e serviços prestados -577.881 -541.592 -365.299 6,7% 58,2% -1.548.313 -1.124.951 37,6%
+Lucro bruto 332.717 302.628 192.369 9,9% 73,0% 875.947 595.394 47,1%
+Despesas gerais e administrativas -52.276 -52.355 -44.732 -0,2% 16,9% -153.761 -130.112 18,2%
+Despesas comerciais -80.402 -71.239 -48.466 12,9% 65,9% -206.706 -145.344 42,2%
+Resultado com equivalência patrimonial 18.500 19.423 19.669 -4,8% -5,9% 64.376 38.356 67,8%
+Outras receitas e despesas operacionais -31.522 -17.150 -9.690 83,8% 225,3% -53.320 -16.758 218,2%
+Receitas (despesas) operacionais -145.700 -121.321 -83.218 20,1% 75,1% -349.411 -253.858 37,6%
+Despesas financeiras -59.330 -65.707 -75.551 -9,7% -21,5% -165.286 -214.110 -22,8%
+Receitas financeiras 76.764 69.213 63.367 10,9% 21,1% 209.434 181.477 15,4%
+Resultado financeiro 17.434 3.506 -12.184 397,3% -243,1% 44.148 -32.633 -235,3%
+Resultado antes do imposto de renda e CSLL 204.451 184.813 96.967 10,6% 110,8% 570.684 308.903 84,7%
+IR e CSLL - corrente e diferido -19.761 -14.901 -11.091 32,6% 78,2% -47.085 -35.991 30,8%
+Resultado líquido antes de participantes em SCPs e SPEs 184.690 169.912 85.876 8,7% 115,1% 523.599 272.912 91,9%
+Participantes em SCPs e SPEs -24.226 -23.743 -17.112 2,0% 41,6% -66.682 -40.956 62,8%
+Lucro líquido do período 160.464 146.169 68.764 9,8% 133,4% 456.917 231.956 97,0%
+Margem Bruta 36,5% 35,8% 34,5% 0,7 p.p. 2,0 p.p. 36,1% 34,6% 1,5 p.p.
+Margem Bruta Ajustada1 38,5% 37,8% 37,0% 0,8 p.p. 1,6 p.p. 37,9% 36,6% 1,3 p.p.
+Margem Líquida 17,6% 17,3% 12,3% 0,3 p.p. 5,3 p.p. 18,8% 13,5% 5,4 p.p.
+1 - Margem Bruta ajustada: excluindo os juros capitalizados no custo.
+26
+
+<!-- PAGE 27 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+DEMONSTRAÇÃO DE FLUXO DE CAIXA CONSOLIDADA
+Demonstração de Fluxo de Caixa - Consolidado (RS Mil) 30/09/2024 30/09/2023
+Fluxo de caixa das atividades operacionais
+Lucro antes do imposto de renda e da contribuição social 570.684 308.903
+Ajustes para conciliar o resultado às disponibilidades geradas pelas atividades operacionais
+Depreciações e amortizações 51.036 47.252
+Resultado de equivalência patrimonial -64.376 -38.356
+Receita de aplicações financeiras -18.214 -41.319
+Provisão para garantia 15.149 14.644
+Juros sobre encargos e financiamentos 154.375 159.938
+Hedge accounting - Valor justo -25.580 15.137
+Resultado com derivativos 2.189 -11.676
+Provisão para riscos tributários, trabalhistas e cíveis 16.144 10.450
+Resultado com permuta física -45.350 -22.274
+Alienação de investimentos -28.644 -51.695
+Baixa de arrendamentos -2.898 -
+Ajuste a valor presente sobre contas a receber 26.693 6.435
+Ajuste a valor presente sobre financiamento por arrendamento 4.208 1.291
+Despesas com cessão de recebíveis 4.721 1.895
+Ajuste ao valor realizável líquido de estoque concluído -1 23
+Correção passivo de cessão 23.178 -
+Provisão para perdas de contas a receber 38.539 7.260
+Provisão para plano de opções de ações 5.113 4.315
+Provisão para participação nos Lucros 17.764 7.100
+Acréscimos (decréscimo) em ativos
+Contas a receber -666.252 -157.383
+Estoques 148.917 -25.905
+Créditos diversos 2.704 446
+Partes relacionadas -32.559 19.398
+Depósitos judiciais -3.608 -372
+Tributos a recuperar -7.302 -15.327
+(Decréscimo) acréscimo em passivos
+Fornecedores 32.934 -16.258
+Obrigações trabalhistas 12.863 9.248
+Obrigações tributárias 11.810 -23.963
+Credores por imóveis compromissados -145.994 -174.397
+Adiantamento de clientes 41.861 31.817
+Contas a pagar -13.740 -33.589
+Provisão para riscos tributários, trabalhistas e cíveis -16.660 -8.943
+Partes relacionadas 13.279 32.327
+Garantia de obra -14.680 -15.407
+Outros Passivos - -37.970
+Imposto de renda e contribuição social pagos -33.241 -6.734
+Caixa líquido gerado (aplicado) nas atividades operacionais 75.062 -3.689
+Fluxo de caixa das atividades de investimento
+Acréscimo (Decréscimo) de investimentos (SCPs e SPEs) -83.608 -125.456
+Dividendos recebidos 14.120 23.563
+Alienação de investimentos 124.271 167.831
+Aportes e mútuos 21.438 -
+Acréscimo do imobilizado -30.404 -5.411
+Acréscimo de intangível -32.825 -15.158
+Aplicações financeiras -31.035 -31.880
+Caixa líquido gerado (aplicado) nas atividades de investimento -18.043 13.489
+Fluxo de caixa das atividades de financiamento
+Dividendos pagos -358.370 -104.287
+Ingresso de Cessão de recebíveis 359.423 49.368
+Pagamento de Cessão de recebíveis -64.685 -18.492
+Amortização do financiamento por arrendamento -6.330 -6.262
+Juros pagos sobre arrendamento -297 -579
+Ingressos dos empréstimos 1.018.389 260.186
+Pagamento de Custos de estruturação de dividas -302.762 -100
+Amortizações dos empréstimos -366.319 -364.581
+Juros pagos -74.944 -111.052
+Emissão de ações - 408.109
+Dividendos pagos a sócios não controladores -40.009 -
+Aumento / Redução de capital por não controladores 3.076 -41.520
+Caixa líquido gerado (aplicado) nas atividades de financiamento 167.172 70.790
+Aumento de caixa e equivalentes de caixa 224.191 80.590
+Caixa e equivalentes de caixa
+No início do período 633.978 733.124
+No final do período 858.169 813.714
+27
+
+<!-- PAGE 28 -->
+3T24
+DIVULGAÇÃO DE RESULTADOS
+GLOSSÁRIO
+Banco de Terrenos (Landbank) – Terrenos mantidos em estoque com a estimativa de VGV futuro dos mesmos.
+Classificação dos empreendimentos pela Direcional, conforme o segmento econômico ao qual se destinam:
+MCMV Empreendimentos residenciais com preço médio por unidade de até R$ 350 mil, no âmbito do “Programa Minha Casa,
+Minha Vida - Faixas 1, 2 e 3”. Até 3T15, os projetos deste segmento foram denominados “Popular”.
+Riva Empreendimento destinados a clientes de média renda, desenvolvidos nas SPEs objeto de aporte de ativos na subsidiária
+integral da Direcional denominada Riva Incorporadora S.A.
+Médio Padrão Empreendimentos residenciais com preço médio por Unidade acima do teto do programa MCMV, até R$ 500 mil.
+Médio-Alto Padrão Empreendimentos residenciais com preço médio por Unidade acima de R$ 500 mil.
+MAC Compreende os empreendimentos dos segmentos Médio Padrão, Médio-Alto Padrão e Comercial.
+Legado Empreendimentos do segmento MAC desenvolvidos no modelo de incorporação e construção anterior.
+Novo Modelo Modelo de negócios consolidado a partir de 2015 para desenvolvimento dos empreendimentos residenciais da Companhia.
+Tem como principais características a possibilidade de repasses na planta e a adoção de construção industrializada.
+EBITDA Ajustado - EBITDA Ajustado é igual EBITDA (lucro antes do resultado financeiro, dos encargos financeiros incluídos na rubrica de custos dos
+imóveis vendidos, do Imposto de Renda e da Contribuição Social, das despesas de depreciação e amortização) menos a participação dos acionistas não
+controladores e menos os gastos com o programa de stock-option. Entendemos que o ajuste a valor presente das contas a receber de unidades vendidas
+e não entregues registradas como receita (despesa) operacional bruta fazem parte das nossas atividades operacionais e, portanto, não excluímos esta
+receita (despesa) no cálculo do EBITDA Ajustado. O EBITDA Ajustado não é uma medida de desempenho financeiro segundo as Práticas Contábeis
+Adotadas no Brasil, tampouco deve ser considerado isoladamente, ou como alternativa ao lucro líquido, como medida de desempenho operacional, ou
+alternativa aos fluxos de caixa operacionais, ou como medida de liquidez. O EBITDA Ajustado funciona como indicador de nosso desempenho econômico
+geral, que não é afetado por flutuações nas taxas de juros, alterações da carga tributária do Imposto de Renda e da Contribuição Social ou dos níveis de
+depreciação e amortização.
+LTM - Período que compreende os últimos 12 meses (Last Twelve Months, na sigla em inglês).
+Método PoC – De acordo com o IFRS, as receitas, custos e despesas relacionadas a empreendimentos imobiliários, são apropriadas com base no método
+contábil do custo incorrido (“Percentage of Completion - PoC”), medindo-se o progresso da obra pelos custos reais incorridos versus os gastos totais
+orçados para cada fase do empreendimento.
+Permuta Financeira – Sistema de compra de terreno pelo qual o proprietário do terreno recebe o pagamento em dinheiro, em geral calculado como um
+percentual do VGV do empreendimento, a ser pago de acordo com a apuração de receita das vendas das unidades do projeto.
+Permuta Física – Sistema de compra de terreno pelo qual o proprietário do terreno recebe em pagamento um determinado número de unidades do
+empreendimento a ser construído no mesmo.
+Programa Minha Casa, Minha Vida (MCMV) – Atual denominação atribuída ao programa de incentivo à habitação popular (anteriormente, Programa
+Casa Verde e Amarela).
+Recursos do SFH – Recursos do Sistema Financeiro da Habitação (SFH) são originados do Fundo de Garantia por Tempo de Serviço (FGTS) e dos depósitos
+de caderneta de poupança.
+Resultado a Apropriar – Resultado do saldo de transações de vendas de imóveis já contratadas (decorrente dos imóveis cuja construção não foi ainda
+concluída) e seus respectivos custos orçados a incorrer.
+Vendas Líquidas Contratadas – VGV decorrente de todos os contratos de venda de imóveis celebrados em determinado período, incluindo a venda de
+unidades lançadas no período e a venda de unidades em estoque, líquida de distratos.
+VGV – Valor Geral de Vendas. Valor total a ser potencialmente obtido pela venda de todas as unidades de determinado empreendimento imobiliário ao
+preço de lançamento. Há possibilidade de o VGV lançado não ser realizado ou diferir significativamente do valor das Vendas Contratadas, uma vez que
+a quantidade de Unidades efetivamente vendidas poderá ser diferente da quantidade de unidades lançadas e/ou o preço efetivo de venda de cada
+unidade poderá divergir do preço de lançamento.
+VGV Lançado - Valor Geral de Vendas das unidades lançadas em determinado período.
+28
+
+<!-- PAGE 29 -->
+3Q24
+EARNINGS RELEASE
+Belo Horizonte, November 7th, 2024 - Direcional Engenharia S/A one of the largest homebuilders and real estate development companies
+in Brazil, focused on the development of low-income and medium-income projects, and operating in several regions of the Brazilian Territory,
+discloses here its operating and financial statements for the third quarter of 2024 (3Q24). Unless otherwise expressed, the information in
+this document is expressed in the national currency (Brazilian Reais – R$ or BRL) and the Potential Sales Value (PSV) demonstrates the
+consolidated value (100%). The Company’s consolidated financial statements are prepared in accordance with accounting practices adopted
+in Brazil, which are based on Brazilian Corporate Law and on the regulations issued by the Brazilian Securities Commission (CVM).
+3Q24 EARNINGS RELEASE
+✓ ALL-TIME NET INCOME RECORD: BRL 160 MILLION IN 3Q24, A 133% GROWTH VERSUS 3Q23 AND A
+10% GROWTH VERSUS 2Q24, RESULTING IN A 17.6% NET MARGIN
+✓ IN 9M24, NET INCOME OF BRL 457 MILLION, GROWING 97% COMPARED TO 9M23
+✓ NET REVENUE REACHED ITS HIGHEST HISTORICAL LEVEL: BRL 911 MILLION IN 3Q24, 63% ABOVE
+3Q23 AND 8% ABOVE 2Q24
+✓ ADJUSTED GROSS MARGIN1 OF 38.7% IN 3Q24, +170 BPS VERSUS 3Q23 AND +60 BPS VERSUS 2Q24
+✓ ADJUSTED ANNUALIZED ROE2 OF 29% IN 3Q24
+OTHER HIGHLIGHTS
+▪ Net Sales totaled BRL 1.8 billion in 3Q24, a 76% growth versus 3Q23.
+▪ Total Net Revenue3 reached BRL 4.1 billion in the last twelve months (3Q24 LTM).
+▪ In 3Q24, G&A-to-Gross Revenue ratio showed a 220-bps dilution compared to 3Q23 and a 50-bps dilution
+compared to 2Q24.
+▪ Deferred Revenue from Sales (Backlog Revenue) reached BRL 2.6 billion at the end of 3Q24, with a 43.4%
+Backlog Margin.
+▪ Cash Generation of BRL 33 million in 3Q24, totaling BRL 195 million in 9M24.
+▪ New payment of dividends: BRL 80 million (BRL 0.46 per share), totaling BRL 357 million announced in 3Q24
+(corresponding to BRL 2.06 per share).
+1 - Adjustment excluding capitalized interest and the effect of Pode Entrar program.
+2 - Adjustment excluding equity swap result.
+3 - Adjustment including Revenue from non-consolidated SPVs (non-controlled SPVs or jointly controlled with partners).
+1
+
+<!-- PAGE 30 -->
+3Q24
+EARNINGS RELEASE
+TABLE OF CONTENTS
+MESSAGE FROM THE BOARD ............................................................................................................................................................................... 3
+KEY FIGURES .......................................................................................................................................................................................................... 6
+LAUNCHES ............................................................................................................................................................................................................... 7
+CONTRACTED SALES ............................................................................................................................................................................................ 8
+NET SALES SPEED (VSO INDEX) .......................................................................................................................................................................... 9
+Canceled Sales.................................................................................................................................................................................................... 10
+INVENTORY ............................................................................................................................................................................................................ 10
+TRANSFERS ........................................................................................................................................................................................................... 11
+PROJECTS DELIVERED ........................................................................................................................................................................................ 11
+LANDBANK ............................................................................................................................................................................................................ 12
+Land Acquisition ................................................................................................................................................................................................. 12
+ECONOMIC AND FINANCIAL PERFORMANCE .................................................................................................................................................. 13
+Gross Revenue.................................................................................................................................................................................................... 13
+Revenue from Real Estate Sales ....................................................................................................................................................................... 13
+Revenue from Services ...................................................................................................................................................................................... 14
+Net Revenue ........................................................................................................................................................................................................ 14
+Gross Profit ......................................................................................................................................................................................................... 15
+General and Administrative Expenses (G&A) .................................................................................................................................................. 16
+Selling Expenses ................................................................................................................................................................................................ 16
+Equity Income ..................................................................................................................................................................................................... 17
+Other Operating Income and Expenses............................................................................................................................................................ 17
+EBITDA................................................................................................................................................................................................................. 17
+Financial Results ................................................................................................................................................................................................ 18
+Non-controlling Interest in SPVs and SCPs (“Minority Interest”) .................................................................................................................. 18
+Net Income........................................................................................................................................................................................................... 19
+Deferred Results from Real Estate Sales ......................................................................................................................................................... 20
+BALANCE SHEET HIGHLIGHTS ........................................................................................................................................................................... 21
+Cash and Cash Equivalents and Short-Term Investments ............................................................................................................................. 21
+Accounts Receivable .......................................................................................................................................................................................... 21
+Indebtedness ....................................................................................................................................................................................................... 22
+Cash Generation (Cash Burn)............................................................................................................................................................................ 23
+DIVIDENDS ............................................................................................................................................................................................................. 23
+CONSOLIDATED BALANCE SHEET .................................................................................................................................................................... 25
+CONSOLIDATED INCOME STATEMENT ............................................................................................................................................................. 26
+CONSOLIDATED CASH FLOW STATEMENT ...................................................................................................................................................... 27
+GLOSSARY ............................................................................................................................................................................................................ 28
+2
+
+<!-- PAGE 31 -->
+3Q24
+EARNINGS RELEASE
+MESSAGE FROM THE BOARD
+The remarkable performance we reported in this third quarter further confirms the important position Direcional Group has
+achieved in the real estate market and keeps us confident about the goals we have set for 2024. We are proud to share with
+our shareholders and other stakeholders the relevant achievements we made during the period, which we highlight below.
+We launched a total of BRL 1.7 billion in Potential Sales Value in 3Q24 (BRL 1.4 billion % Company), representing approximately
+6 thousand new housing units. Year-to-date through September, we reported BRL 3.9 billion in terms of launched PSV (BRL 3.3
+billion % Company), and considering the last 12 months (3Q24 LTM), the amount totaled BRL 5.3 billion (BRL 4.6 billion %
+Company).
+The assertiveness of these products has been reflected, quarter after quarter, in the strong numbers we have reported in terms
+of sales. In 3Q24, the net contracted PSV reached BRL 1.8 billion (BRL 1.4 billion % Company), growing 9% over the last quarter
+and 76% over the same period in 2023. With this, Net Sales amounted to BRL 4.7 billion in 9M24 (BRL 3.6 billion % Company)
+and a significant BRL 5.9 billion in 3Q24 LTM (BRL 4.6 billion % Company). It is essential to note that the strong growth in
+Direcional Group’s operations has been significantly driven by sales of both Direcional and Riva products. The graph below
+illustrates the quarterly evolution of the metric over the last two years:
+Contributing to this expansion, we also highlight the signing of another contract under Pode Entrar Program, with Companhia
+Metropolitana de Habitação de São Paulo, which took place in September. This project, in which Direcional has a 50% stake, has
+1,309 residential units in total, amounting to BRL 271.0 million (BRL 135.5 million % Company). As a result, 2,299 units were sold
+under Pode Entrar, totaling BRL 341.4 million, considering only our stake.
+The period’s highlights were not limited to operational metrics. The consistency of these deliveries gives rise to important
+impacts on our financial results. In this sense, in 3Q24, we reported the highest Net Revenue in our entire history: BRL 911
+million. This result represents a 63% growth compared to the same quarter in 2023. It marks the fourth consecutive quarter of
+record-breaking results in this category. Year-to-date through September, Net Revenue reached BRL 2.4 billion, 41% higher than
+9M23.
+Also considering revenue from projects not consolidated in our balance sheet (non-controlled SPVs or jointly controlled with
+partners), Total Net Revenue1 reached BRL 1.2 billion in the quarter and BRL 3.2 billion in 9M24. Thus, in the 12-month period
+ended September, the line reached BRL 4.1 billion. Driven by the solid Launches and Sales volumes that we have consistently
+reported, these achievements highlight the contracted growth for the revenue line and its gradual convergence to the same
+level as these operational metrics.
+In this same context, in addition to the growing path of Net Revenue, our Deferred Revenue from Real Estate Sales (Backlog
+Revenue) has also been moving in this upward trend. Backlog Revenue for the Real Estate Sales segment totaled BRL 2.6 billion
+at the end of 3Q24, up 12% compared to 2Q24 and 96% compared to 3Q23. In this case, the nominal growth of the line reached
+BRL 1.3 billion in the last 12 months. We also highlight the Backlog Margin, which was 43.4% at the end of the quarter, 70 bps
+above 3Q23 and in line with 2Q24, corroborating the solid profitability we have been showing.
+Not by chance, we saw our Adjusted Gross Margin2 reach 38.7% in 3Q24, its highest historical level so far. In this context, the
+indicator increased 60 bps compared to the last quarter and 170 bps compared to the same quarter last year. Adjusted Gross
+3
+6 9 4
+4 Q 2 2
+8 0 3
+1 Q 2 3
+N e t S
+9 6 2
+2 Q 2 3
+a le
+(P
+sS T r
+V 1
+1 ,0
+3 Q
+a0
+0
+2
+c0
+5
+3
+k% R
+-
+eB cR oL
+1
+4
+r d - Q
+m illio
+,2 2 1
+Q 2 3
+u a
+n )
+r te
+1
+1
+r ly
+,3 0
+Q 2
+8
+4
+1
+2
+,6
+Q
+1
+2
+9
+4
+1
+3
+,7
+Q
+6
+2
+5
+4
+
+<!-- PAGE 32 -->
+3Q24
+EARNINGS RELEASE
+Profit2 for the period amounted to BRL 351 million, 60% higher than 3Q23, while in 9M24, the indicator totaled BRL 920 million,
+with Adjusted Gross Margin2 of 38.1% (+150 bps versus 9M23).
+Remaining aligned with the strategy of capturing the benefits from the operation’s growth, General and Administrative Expenses
+(G&A) for the quarter again showed dilution against Gross Revenue, dropping from 6.0% in 2Q24 to 5.5% in 3Q24. Compared to
+3Q23, the decline was even more significant, achieving 220 bps of dilution and making an important contribution to continuing
+to benefit from the advantages of operating leverage.
+In turn, Selling Expenses – which have a variable component related to revenue – totaled BRL 80 million in 3Q24. Year-to-date
+through September, the item totaled BRL 207 million. As a result, we managed to maintain the Selling Expenses-to-Gross
+Revenue from Real Estate Sales ratio at 8.4%, the same level we had recorded exactly one year earlier.
+Another event worth highlighting was the full settlement of the total return swap, referenced to our shares, which took place
+during 3Q24. The derivative instrument was contracted in December 2021 and renewed in April 2023, as per the Material Facts
+published on December 27, 2021 and April 11, 2023, respectively. As a result, we recorded a positive net result in the quarter
+of approximately BRL 5 million, already net of applicable taxes.
+We thus reached a Net Income of BRL 160 million in 3Q24, breaking yet another absolute record for Direcional Group and
+reflecting a significant 133% growth compared to 3Q23. Net Margin reached 17.6% in the period, with a 530-bps gain when
+compared to 3Q23 and a 30-bps gain versus 2Q24. In 9 months, the line totaled BRL 457 million, growing 97% versus 9M23. The
+resulting Net Margin was 18.8%, up 540 bps in comparison with 9M23.
+When considering the adjustment by the net result of the equity swap transaction, our Operating Net Income3 totaled BRL 156
+million in the quarter, with Operating Net Margin3 of 17.1% (+230 bps versus 3Q23 and +110 bps versus 2Q24). In this context,
+Adjusted Annualized ROE3 also achieved its highest level in history, reaching 29%. In the graph below, we show how these
+metrics have evolved over time, translating into numbers the entire growth path followed by Direcional Group over the period.
+Last quarter, we highlighted the return of cash generation after an important scenario of acceleration of our operations.
+Similarly, we reported BRL 33 million in cash generation in 3Q24, totaling BRL 195 million year-to-date through September.
+In view of the great achievements made, and reaffirming our profile as a relevant exponent of the Brazilian Stock Exchange in
+terms of generating value for shareholders, at the beginning of the quarter we paid out BRL 277 million in interim dividends,
+corresponding to BRL 1.60 per share. In addition, as a result of the positive result achieved with the settlement of the total
+return swap, a new payment was approved by the Board of Directors, equivalent to BRL 0.46 per share – totaling an estimated
+amount of approximately BRL 80 million, still to be paid to shareholders, according to the Material Fact disclosed on September
+11. Thus, considering the two payments, approximately BRL 357 million in dividends were announced, corresponding to BRL
+2.06 per share.
+We ended the quarter with a Net Debt4 of BRL 91 million and a leverage ratio (measured by Net Debt4-to-Equity) of 4.1%,
+corroborating the stability of our capital structure and our responsibility regarding the structured growth of our operations. It is
+also worth noting that our average debt maturity term is 53 months, one of the longest in the industry, and that our cash position
+is more than sufficient to cover the next 7 years of debt amortization.
+4
+1 6 %
+1 0 %
+5 3
+4 Q 2 2
+O
+O p e r a tin g
+2 1 %
+1 3 %
+7 0
+1 Q 2 3
+p e ra tin g N
+N e t In c
+2 1 %
+1 2 %
+7 4
+2 Q 2 3
+e t In c o m
+o
+e
+m e ³ a n d
+(B R L m
+2 0 %
+1 5 %
+8 3
+3 Q 2 3
+O
+A n n u a liz e d
+illio n a n d % )
+2 0 %
+1 5 %
+9 8
+4 Q 2 3
+p e ra tin g N e t M
+R O E ³ T r a
+2 4 %
+1 8 %
+1 2 0
+1 Q 2 4
+a rg in
+c k R
+A
+e c o r d
+2 5 %
+1 6 %
+1 3 5
+2 Q 2 4
+n n u a liz e d R
+2 9 %
+1 7 %
+1 5 6
+3 Q 2 4
+O E
+
+<!-- PAGE 33 -->
+3Q24
+EARNINGS RELEASE
+Results like these, always based on our focus on efficiency and profitability, as well as our relentless pursuit of excellence, show
+us that we are on the right track and, at the same time, we still have a lot to achieve. We continue to make progress on our
+goals with the same willingness and commitment with which we began the year. We are extremely grateful to all those who
+have played a key role in ensuring that, step by step, we go further and further. Let’s continue together to make 2024 the best
+year in our history!
+Thank you,
+The Management - Direcional Engenharia S/A
+1 - Adjustment including Revenue from non-consolidated SPVs (non-controlled SPVs or jointly controlled with partners).
+2 - Adjustment excluding capitalized interest and the effect of Pode Entrar Program.
+3 - Adjustment excluding equity swap result, non-recurring result allocated to “Other Operating Income and Expenses” and expenses with sales of receivables, as applicable.
+4 - Loans and Financing Operations reduced by Cash and Cash Equivalents and Short-term Investments plus the balance of interest rate swap contracts.
+5
+
+<!-- PAGE 34 -->
+3Q24
+EARNINGS RELEASE
+KEY FIGURES
+3Q24 2Q24 3Q23     9M24 9M23  
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Main Financial Figures
+Net Revenue (BRL million) 910.6 844.2 557.7 7.9% 63.3% 2,424.3 1,720.3 40.9%
+Gross Profit (BRL million) 332.7 302.6 192.4 9.9% 73.0% 875.9 595.4 47.1%
+Adjusted Gross Margin1 38.5% 37.8% 37.0% 0.8 p.p. 1.6 p.p. 37.9% 36.6% 1.3 p.p.
+Adjusted Gross Margin1 – Ex-Pode Entrar 38.7% 38.1% 37.0% 0.6 p.p. 1.7 p.p. 38.1% 36.6% 1.5 p.p.
+Adjusted Net Income2 (BRL million) 155.8 135.1 82.7 15.4% 88.5% 411.0 226.7 81.3%
+Adjusted Net Margin2 17.1% 16.0% 14.8% 1.1 p.p. 2.3 p.p. 17.0% 13.2% 3.8 p.p.
+Launches
+PSV Launched - 100% (BRL million) 1,664.4 1,360.7 1,399.4 22.3% 18.9% 3,921.5 3,467.3 13.1%
+Direcional 978.2 867.2 813.5 12.8% 20.2% 2,177.7 2,171.1 0.3%
+Riva 415.1 493.5 585.9 -15.9% -29.1% 1,472.8 1,296.2 13.6%
+Pode Entrar 271.1 - - n/a n/a 271.1 - n/a
+PSV Launched - % Company (BRL million) 1,444.2 1,196.8 1,259.3 20.7% 14.7% 3,294.5 2,958.7 11.3%
+Direcional 893.6 786.5 725.3 13.6% 23.2% 1,939.1 1,913.0 1.4%
+Riva 415.1 410.2 534.1 1.2% -22.3% 1,219.8 1,045.7 16.7%
+Pode Entrar 135.5 - - n/a n/a 135.5 - n/a
+Launched Units 5,947 4,187 4,152 42.0% 43.2% 12,372 12,182 1.6%
+Direcional 3,421 3,343 3,106 2.3% 10.1% 7,682 9,089 -15.5%
+Riva 1,217 844 1,046 44.2% 16.3% 3,381 3,093 9.3%
+Pode Entrar 1,309 - - n/a n/a 1,309 - n/a
+Net Sales
+Net Sales - PSV 100% (BRL million) 1,765.1 1,618.8 1,004.6 9.0% 75.7% 4,691.6 2,770.4 69.3%
+Direcional 934.4 966.0 560.7 -3.3% 66.6% 2,657.4 1,712.7 55.2%
+Riva 555.9 651.5 441.2 -14.7% 26.0% 1,758.1 1,055.5 66.6%
+Old Harvest3 3.7 1.3 2.7 185.3% 38.6% 5.0 2.2 124.2%
+Pode Entrar 271.1 - - n/a n/a 271.1 - n/a
+Net Sales - PSV % Company (BRL million) 1,373.0 1,260.1 751.4 9.0% 82.7% 3,637.3 2,128.2 70.9%
+Direcional 787.1 786.8 427.2 0.0% 84.3% 2,161.2 1,358.1 59.1%
+Riva 447.6 472.6 322.3 -5.3% 38.9% 1,337.1 768.1 74.1%
+Old Harvest 2.7 0.7 2.0 292.0% 38.4% 3.4 2.0 75.4%
+Pode Entrar 135.5 - - n/a n/a 135.5 - n/a
+Contracted Units 6,293 5,354 3,458 17.5% 82.0% 15,874 10,279 54.4%
+Direcional 3,611 3,829 2,344 -5.7% 54.1% 10,304 7,334 40.5%
+Riva 1,361 1,523 1,109 -10.6% 22.7% 4,247 2,941 44.4%
+Old Harvest 12 2 5 500.0% 140.0% 14 4 250.0%
+Pode Entrar 1,309 - - n/a n/a 1,309 - n/a
+Net Sales Speed (VSO) in PSV 28% 26% 17% 1.8 p.p. 11.4 p.p. 52% 39% 13.8 p.p.
+Direcional 25% 26% 15% -1.3 p.p. 9.6 p.p. 50% 39% 11.2 p.p.
+Riva 25% 27% 19% -1.7 p.p. 6.0 p.p. 53% 39% 13.9 p.p.
+Old Harvest 12% 4% 7% 7.7 p.p. 4.9 p.p. 14% 6% 7.7 p.p.
+Consolidated VSO without Pode Entrar 25% 26% 17% -1.4 p.p. 8.2 p.p. 51% 39% 12.3 p.p.
+Other Indicators 3Q24 2Q24 1T24 4Q23 3Q23 2Q23 1Q23 4Q22
+Adjusted Annualized ROE2 29% 25% 24% 20% 20% 21% 21% 17%
+Adjusted Net Debt4 (BRL million) 91.3 -153.0 66.1 -72.1 -88.8 268.2 289.9 193.4
+Cash Generation5 (BRL million) 32.9 219.0 -57.0 -15.5 -51.1 21.7 7.8 98.2
+Adjusted Net Debt4 / Equity 4.1% -6.3% 2.9% -3.4% -4.2% 16.7% 19.2% 13.3%
+Inventory - PSV 100% (BRL million) 4,491.8 4,591.7 4,777.6 5,146.3 5,021.4 4,582.8 4,042.6 4,203.2
+Landbank - PSV 100% (BRL million) 43,238.9 39,678.3 37,282.6 36,301.4 35,769.6 35,133.5 32,505.3 32,458.5
+1 - Adjustment excluding capitalized interest.
+2 - Adjustment excluding expenses with equity swap results, non-recurring results under “Other Operating Income and Expenses” and expenses with sale of receivables, as applicable.
+3 - Comprises projects of the middle income, upper-middle income and commercial segments, developed in the former model.
+4 - Loans and Financing Operations reduced by Cash and Cash Equivalents and Short-term Investments plus the balance of interest rate swap contracts.
+5 - Variation in net debt adjusted by payment of dividends, share buyback and the variation in the balance of interest rate swap contracts.
+6
+
+<!-- PAGE 35 -->
+3Q24
+EARNINGS RELEASE
+LAUNCHES
+In the third quarter of 2024 (3Q24) Direcional Group launched 15 new projects, representing a Potential Sales Value (PSV) of
+BRL 1.7 billion (BRL 1.4 billion % Company), a 22% increase over the previous quarter and a 19% rise compared to the same
+quarter of the prior year.
+For the nine months ending September 2024 (9M24), PSV launched totaled BRL 3.9 billion (BRL 3.3 billion % Company). This
+represents a 13% growth over 9M23.
+As outlined in the “Notice to the Market” dated September 27, 2024, Direcional signed another contract with the Companhia
+Metropolitana de Habitação de São Paulo for the sale of 1,309 residential units as part of the Pode Entrar program. The Company
+holds a 50% stake in the project, amounting to BRL 135.5 million out of a total contract value of BRL 271.0 million.
+Additionally, for the 12-month period ending 3Q24 (3Q24 LTM), launches totaled BRL 5.3 billion (BRL 4.6 billion % Company).
+3Q24 2Q24 3Q23     9M24 9M23  
+Launches
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+PSV Launched - 100% (BRL million) 1,664.4 1,360.7 1,399.4 22.3% 18.9% 3,921.5 3,467.3 13.1%
+Direcional 978.2 867.2 813.5 12.8% 20.2% 2,177.7 2,171.1 0.3%
+Riva 415.1 493.5 585.9 -15.9% -29.1% 1,472.8 1,296.2 13.6%
+Pode Entrar 271.1 - - n/a n/a 271.1 - n/a
+PSV Launched - % Company (BRL million) 1,444.2 1,196.8 1,259.3 20.7% 14.7% 3,294.5 2,958.7 11.3%
+Direcional 893.6 786.5 725.3 13.6% 23.2% 1,939.1 1,913.0 1.4%
+Riva 415.1 410.2 534.1 1.2% -22.3% 1,219.8 1,045.7 16.7%
+Pode Entrar 135.5 - - n/a n/a 135.5 - n/a
+Launched Units 5,947 4,187 4,152 42.0% 43.2% 12,372 12,182 1.6%
+Direcional 3,421 3,343 3,106 2.3% 10.1% 7,682 9,089 -15.5%
+Riva 1,217 844 1,046 44.2% 16.3% 3,381 3,093 9.3%
+Pode Entrar 1,309 - - n/a n/a 1,309 - n/a
+Average % Company 86.8% 88.0% 90.0% -1 p.p. -3 p.p. 84.0% 85.3% -1 p.p.
+7
+1
+3
+,3
+5 8
+8 1
+Q
+9
+6
+4
+2
+P
+R
+D
+9
+3
+o d
+iv a
+ire
+(P
+e E n tra
+c io n a l
++ 1 9 %
+1 ,3 6 1
+4 9 3
+8 6 7
+2 Q 2 4
+S
+r
+V
+L a u
+1 0 0 %
+1 ,6 6 4
+2 7 1
+4 1 5
+9 7 8
+3 Q 2 4
+n
+-
+cB hR eL
++
+s
+m
+2 2
+illio
+%
+n )
+3
+1
+2
+9
+,4
+,2
+,1
+M
+6
+9
+7
+2
++
+7
+6
+1
+3
+1 3 %
+3
+1
+2
+9
+,9
+2 7
+,4
+,1
+M
+21
+7
+7
+2
+2
+3
+8
+4
+9 2 5
+2 0 1 7
+1
+2
+,6
+0
+8
+1
+1
+8
+L
+1
+2
+a u n
+(P S V
+,9 4 6
+0 1 9
+c h e s T r a c k
+1 0 0 % - B R L
+C A G R :
++ 2 8 %
+3 ,1 3
+1 ,7 6 3
+2 0 2 0 2 0 2
+R
+m
+8
+1
+e c o r d
+illio n )
+3 ,6 3 6
+2 0 2 2
+4
+2
+,8
+0
+5
+2
+7
+3
+5
+3L
+,3
+QT
+1
+2M
+2
+4
+
+<!-- PAGE 36 -->
+3Q24
+EARNINGS RELEASE
+CONTRACTED SALES
+Aligned with the Company’s strategy to accelerate sales speed and assets turnover, Net Sales in 3Q24 reached BRL 1.8 billion
+(BRL 1.4 billion % Company), representing an increase of 9% relative to 2Q24 and 76% compared to 3Q23.
+In the 9M24, total sales amounted to BRL 4.7 billion (BRL 3.6 billion % Company), reflecting a growth of 69% compared to the
+same period in 2023. All segments reported growth, with contracted PSV from Direcional products increasing by 55% during the
+period, while Riva projects grew by 67%.
+In 3Q24 LTM, Net Sales reached an outstanding BRL 5.9 billion (BRL 4.6 billion % Company).
+It is important to note that a portion of the sales came from projects developed through non-controlled Special Purpose Vehicles
+(SPVs) or jointly controlled with partners. Consequently, revenue from these projects is not consolidated in Direcional’s balance
+sheet. As such, 73% of the Net PSV contracted in 3Q24 will contribute to the Company’s Net Revenue line, while 27% will impact
+results through the Equity Income.
+8
+4
+P
+O
+R
+D
+1 ,0 0 53
+4 1
+5 6 1
+3 Q 2 3
+o d e
+ld H
+iv a
+ire c
+(P
+E n tra r
+a rv e s t
+io n a l
++ 7 6 %
+1 ,6 1 9
+1
+6 5 1
+9 6 6
+2 Q 2 4
+S V
+N e t S
+1 0 0 % -
+1 ,7 6 5
+2 7 1
+45
+5 6
+9 3 4
+3 Q 2 4
+aB le s
+R L m
++ 9 %
+illio n )
+2
+1
+1
+9
+,72
+,0
+,7
+M
+7
+5
+1
+2
++
+0
+5
+3
+3
+6 9 %
+4 ,6
+5
+1 ,7
+2 ,6
+9 M
+9 2
+2 7 1
+5 8
+5 7
+2 4
+7 3 1
+2 0 1 7
+1
+2
+,2
+0
+2
+1
+6
+8
+N e(P
+1 ,3 2
+2 0 1
+t S
+S V
+0
+9
+a le s T r a c k R
+1 0 0 % - B R L m
+C A G R :
++ 3 5 %
+2 ,4 4 0
+1 ,6 8 0
+2 0 2 0 2 0 2 1
+e c o r d
+illio n )
+2 ,9 9 9
+2 0 2 2
+3
+2
+,9
+0
+9
+2
+1
+3
+5 ,9
+3 Q
+L T
+1
+2M
+2
+4
+
+<!-- PAGE 37 -->
+3Q24
+EARNINGS RELEASE
+3Q24 2Q24 3Q23     9M24 9M23  
+Net Sales
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Net Sales - PSV 100% (BRL million) 1,765.1 1,618.8 1,004.6 9.0% 75.7% 4,691.6 2,770.4 69.3%
+Direcional 934.4 966.0 560.7 -3.3% 66.6% 2,657.4 1,712.7 55.2%
+Riva 555.9 651.5 441.2 -14.7% 26.0% 1,758.1 1,055.5 66.6%
+Old Harvest1 3.7 1.3 2.7 185.3% 38.6% 5.0 2.2 124.2%
+Pode Entrar 271.1 - - n/a n/a 271.1 - n/a
+Net Sales - PSV % Company (BRL million) 1,373.0 1,260.1 751.4 9.0% 82.7% 3,637.3 2,128.2 70.9%
+Direcional 787.1 786.8 427.2 0.0% 84.3% 2,161.2 1,358.1 59.1%
+Riva 447.6 472.6 322.3 -5.3% 38.9% 1,337.1 768.1 74.1%
+Old Harvest 2.7 0.7 2.0 292.0% 38.4% 3.4 2.0 75.4%
+Pode Entrar 135.5 - - n/a n/a 135.5 - n/a
+Contracted Units 6,293 5,354 3,458 17.5% 82.0% 15,874 10,279 54.4%
+Direcional 3,611 3,829 2,344 -5.7% 54.1% 10,304 7,334 40.5%
+Riva 1,361 1,523 1,109 -10.6% 22.7% 4,247 2,941 44.4%
+Old Harvest 12 2 5 500.0% 140.0% 14 4 250.0%
+Pode Entrar 1,309 - - n/a n/a 1,309 - n/a
+Net Sales Speed (VSO) in PSV 28% 26% 17% 1.8 p.p. 11.4 p.p. 52% 39% 13.8 p.p.
+Direcional 25% 26% 15% -1.3 p.p. 9.6 p.p. 50% 39% 11.2 p.p.
+Riva 25% 27% 19% -1.7 p.p. 6.0 p.p. 53% 39% 13.9 p.p.
+Old Harvest 12% 4% 7% 7.7 p.p. 4.9 p.p. 14% 6% 7.7 p.p.
+Consolidated VSO without Pode Entrar 25% 26% 17% -1.4 p.p. 8.2 p.p. 51% 39% 12.3 p.p.
+1 - Old Harvest: Comprises projects of the middle income, upper-middle income and commercial segments, developed in the former model.
+NET SALES SPEED (VSO INDEX)
+Due to the strong sales volume recorded this quarter, the consolidated Sales Speed – measured by the Sales Over Supply index
+(VSO) – reached 28% in 3Q24, considering sales made under the Pode Entrar program. In this scenario, the increase amounted
+of 1140 bps compared to the same period last year. Excluding the PSV associated with the program, the quarterly VSO came in
+at 25%, 820 bps higher than observed in 3Q23.
+For Direcional projects (excluding the Old Harvest), the Sales Speed reached 25% in the quarter, an improvement of 960 bps
+over 3Q23. Riva’s VSO was also 25% for the period, exceeding the segment’s performance in the same quarter of 2023 by 600
+bps.
+Net Sales Speed(VSO index)
+(PSV 100% -BRL million)
+27% 28%
+25%
+22%22%
+26%26% 25%
+19% 25%
+17%
+19% 21%
+17%
+15%
+16%
+15%
+1,765 Pode Entrar Sales
+1,619
+1 271 Old Harvest Sales
+1,221 1,308 651 4 Riva Sales
+1,005 556
+206 Direcional Sales
+3 3 551
+441 353 Direcional VSO
+Riva VSO
+966 934
+561 659 757 Consolidated VSO
+Consolidated VSO without Pode Entrar
+3Q23 4Q23 1Q24 2Q24 3Q24
+9
+
+<!-- PAGE 38 -->
+3Q24
+EARNINGS RELEASE
+Canceled Sales
+In 3Q24, Canceled Sales totaled BRL 184 million (BRL 146 million %
+Company). In view of this, the percentage of Canceled Sales over Gross
+Sales was 9.4% in the quarter.
+Considering the 9-month period ending in September 2024, the PSV of
+Canceled Sales totaled BRL 398 million (BRL 315 million % Company). Yet,
+the Canceled Sales-over-Gross Sales ratio dropped 120 bps in the period,
+from 9.0% to 7.8%.
+The following table presents more details about Canceled Sales in 3Q24
+and 9M24:
+3Q24 2Q24 3Q23     9M24 9M23  
+Canceled Sales1
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Canceled Sales (100 % - BRL million) -183.9 -128.4 -85.3 43.2% 115.5% -397.6 -272.9 45.7%
+Gross PSV Contracted (100%) 1,949.0 1,747.2 1,089.9 11.6% 78.8% 5,089.2 3,043.4 67.2%
+% Canceled Sales / Gross PSV Contracted 9.4% 7.4% 7.8% 2.1 p.p. 1.6 p.p. 7.8% 9.0% -1.2 p.p.
+Canceled Sales (% Company - BRL million) -146.5 -99.0 -67.0 47.9% 118.6% -315.4 -222.1 42.0%
+Gross PSV Contracted (% Company) 1,384.0 1,359.1 818.4 1.8% 69.1% 3,817.2 2,350.3 62.4%
+% Canceled Sales / Gross PSV Contracted 10.6% 7.3% 8.2% 3.3 p.p. 2.4 p.p. 8.3% 9.5% -1.2 p.p.
+1 - In canceled PSV, transfers of credit from customers of the unit originally acquired to another unit of our inventory are disregarded.
+INVENTORY
+As of the end of 3Q24, Direcional Group’s Inventory amounted to BRL 4.5 billion (BRL 3.8 billion % Company), corresponding to
+14,121 units.
+The table below presents the market value of Inventory, broken down by construction stage and product type. It is worth
+highlighting that approximately 2% of the total PSV consists of completed units.
+Total PSV % Company PSV
+[
+Breakdown of Inventory at
+Direcional Riva Old Harvest Total Direcional Riva Old Harvest Total
+Market Value
+In progress (BRL million) 2,771 1,645 0 4,416 2,447 1,289 0 3,736
+% Total 62% 37% 0% 98% 65% 34% 0% 99%
+Completed (BRL million) 44 5 26 75 32 4 14 49
+% Total 1% 0% 1% 2% 1% 0% 0% 1%
+Total (BRL million) 2,815 1,650 26 4,491 2,479 1,293 14 3,785
+% Total 63% 37% 1% 100% 65% 34% 0% 100%
+Total Units 10,387 3,648 86 14,121 10,387 3,648 86 14,121
+% Total Units 74% 26% 1% 100% 74% 26% 1% 100%
+10
+7
+3
+.8 %
+8 5
+Q 2 3
+C a n c
+(P S
+7 .4 %
++ 1 1 6 %
+1 2 8
+2 Q 2 4
+e le d S a
+V
+le
+1
+s
+C a n c e le d S a le s
+0 0 % - B R L m illio n
+9 .4 %
++ 4 3 %
+1 8 4
+3 Q 2 4
+% C a n c e le
+a
+d
+n d % )
+9 .0
+2 7
+9 M
+S a le s
+%
++ 4
+3
+2 3
+/ G ro
+6
+s
+%
+s
+7 .8
+3 9
+9 M
+S a
+%
+8
+2 4
+le s
+
+<!-- PAGE 39 -->
+3Q24
+EARNINGS RELEASE
+The following charts show further information on the Inventory and its breakdown. It should be noted that 84% of the PSV in
+Inventory accounts for projects launched from 2023 onwards.
+InventorybyLaunchYear InventoryBreakdown
+(PSV 100%) (PSV 100%)
+Old Harvest
+1%
+2024 27% 13% 41%
+Riva
+2023 27% 16% 43% 37%
+<2023 7% 7% 14%
+63%
+Direcional
+1%
+Completed 2%
+1%
+Direcional Riva Old Harvest
+TRANSFERS
+The PSV of transferred units in 3Q24 summed BRL 899 million, resulting in a 62% increase in comparison with the same period
+of the last year.
+Considering the year-to-date through September, the volume transferred totaled BRL 2.5 billion, 47% higher than in 9M23.
+Transfers
+(PSV 100% -BRL million)
++47%
++62% 2,476
+-13%
+1,687
+1,028 899
+556
+3Q23 2Q24 3Q24 9M23 9M24
+PROJECTS DELIVERED
+Direcional Group delivered 11 projects/stages during the 3Q24, representing a total number of 3,346 units, 80% of which are
+products under Direcional brand and 20% under Riva brand.
+In 9M24, 35 projects/stages were delivered, corresponding to 10,617 units, 85% of which under Direcional and 15% under Riva.
+11
+
+<!-- PAGE 40 -->
+3Q24
+EARNINGS RELEASE
+LANDBANK
+At the end of 3Q24, Direcional Group’s landbank summed up to a PSV of BRL 43.2 billion (BRL 39.2 billion % Company), indicating
+a development potential of approximately 206 thousand units.
+The average acquisition cost of the landbank stands at 11% of the potential PSV, with 85% of it to be paid through swaps,
+resulting in minimal cash outflow before the developments begin.
+Landbank Evolution 2023 9M24 9M24 9M24 9M24
+Adjustment1 Units
+(BRL million) Landbank Acquisitions Launches Landbank (PSV % Co.)
+Total PSV 36,301 10,425 (3,922) 434 43,239 39,226 205,534
+1 - Adjustments: update of sales price, canceled sales and swaps
+Land Acquisition
+During the third quarter of 2024, 24 plots of land were acquired, representing a PSV of BRL 5.0 billion (BRL 4.8 billion % Company)
+and a construction potential of approximately 17 thousand units. The average acquisition cost in the quarter was 12% of the PSV,
+with 90% of the payment conducted through swaps.
+Consequently, for 9M24, the potential PSV of land acquisitions reached BRL 10.4 billion (BRL 9.9 billion % Company), with an
+average acquisition cost of 11%, 89% of which will be paid via swaps.
+12
+
+<!-- PAGE 41 -->
+3Q24
+EARNINGS RELEASE
+ECONOMIC AND FINANCIAL PERFORMANCE
+Gross Revenue
+In 3Q24, Direcional Group’s Gross Revenue amounted to BRL 942 million, representing 7% increase versus 2Q24 and 62% versus
+3Q23. This achievement marks a new quarterly record for the Company in this metric.
+Considering 9M24, Gross Revenue reached BRL 2.5 billion, growing 41% compared to 9M23. Thus, both in quarterly terms and
+in the year-to-date period, Gross Revenue from Real Estate Sales accounted for 97% of the total appropriated, while Gross
+Revenue from Services accounted for the remaining 3%.
+3Q24 2Q24 3Q23     9M24 9M23  
+Gross Revenue (BRL million)
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Gross Revenue 942.3 879.7 582.5 7.1% 61.8% 2,519.7 1,786.4 41.0%
+Revenue from Real Estate Sales 916.7 858.2 566.3 6.8% 61.9% 2,454.0 1,732.3 41.7%
+Revenue from Services 25.6 21.5 16.2 19.1% 58.2% 65.7 54.1 21.5%
+Revenue from Real Estate Sales
+Gross Revenue from Real Estate Sales reached BRL 917 million in 3Q24,
+growing 62% compared to 3Q23 and 7% compared to 2Q24. In 9M24,
+Gross Revenue from Real Estate Sales reached BRL 2.5 billion, an amount
+42% higher than that observed for the same period of 2023, when the
+metric totaled BRL 1.7 billion.
+The performance of this indicator is influenced, mostly, by the sales
+volume and the progress of the works. As has been the case in recent
+quarters, a significant portion of the units sold derives from projects not
+consolidated into the Company's balance sheet (jointly controlled and
+non-controlled SPVs). In these cases, revenue generated from these sales
+does not directly impact the Company's Net Revenue line, but rather the
+Equity Income, according to the equity interest held in each of these SPVs.
+In this sense, adding the revenue from sales of these unconsolidated projects to the revenue from accounting sales, Gross
+Revenue from real estate sales reached BRL 1.2 billion in 3Q24. Year to date through September, this item reached BRL 3.3
+billion in this context, 41% higher than 9M23.
+Gross Revenue from Real Estate Sales 3Q24 2Q24 3Q23     9M24 9M23  
+(BRL million) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Total Gross Revenue (Real Estate Sales) 1,175.4 1,155.3 822.3 1.7% 42.9% 3,287.8 2,339.9 40.5%
+Revenue from Real Estate Sales 916.7 858.2 566.3 6.8% 61.9% 2,454.0 1,732.3 41.7%
+Revenue from unconsolidated SPVs 258.7 297.1 256.0 -12.9% 1.1% 833.8 607.6 37.2%
+13
+5 6 6
+3 Q 2 3
+R e v e
++ 6 2 %
+8 5 8
+2 Q 2 4
+n u e f r o m
+(B R
+9 1 7
+3 Q 2 4
+L
+R
+m
+e a l E
+illio n
++ 7 %
+s) ta t e S a le s
++
+1 ,7 3 2
+9 M 2 3
+4 2 %
+2
+9
+,4
+M
+5
+2
+4
+4
+
+<!-- PAGE 42 -->
+3Q24
+EARNINGS RELEASE
+Revenue from Services RevenuefromServices
+(BRL millionand%)
+In 3Q24, Gross Revenue from Services amounted to BRL 26 million,
+3% 2% 3% 3% 3%
+representing 19% growth versus the previous quarter and 58% versus
+the same quarter of the previous year. It is worth noting that this line is
+mostly comprised by (i) brokerage fees on sales made by own brokers; +21%
+and (ii) construction management fees.
+In 9M24, the metric totaled BRL 66 million, a 21% growth compared to
++58%
+66
+9M23. As previously mentioned, the share of this business line in the 54
++19%
+revenue mix was 3%, both in the quarter and year-to-date period. 16 21 26
+3Q23 2Q24 3Q24 9M23 9M24
+Revenue from Services % Gross Revenue
+Net Revenue
+As a result, in 3Q24, Direcional Group reported accounting Net Revenue of BRL 911 million, marking a significant growth of 63%
+compared to the same quarter in 2023 and 8% compared to the previous quarter. In 9M24, Net Revenue was BRL 2.4 billion,
+41% higher than 9M23, confirming the important revenue path from projects consolidated in the Company's results.
+Considering total Net Revenue1, i.e. adding to the accounting revenue also the revenue recognized in jointly controlled or non-
+controlled companies - which do not affect the accounting revenue line, but rather the Equity Income -, the amount of BRL 1.2
+billion was reached in 3Q24. Considering 9M24, Total Net Revenue1 reached BRL 3.2 billion, growing 41% compared to 9M23.
+For the 12-month period ended September (3Q24 LTM), Total Net Revenue1 reached BRL 4.1 billion. Thus, considering the
+natural rationale of the operation – product launch, sales, construction and revenue appropriation –, the Company takes another
+important step towards the convergence of this line in relation to launch and sales volumes.
+Net Revenue Total Net Revenue¹ Track Record -LTM
+(BRL million) (BRL billion)
++41%
+4.1
+3.8
++63% 2,424 3.2 3.5
++8% 1,720 2.5 2.5 2.7 2.8 2.9
+844 911
+558
+3Q23 2Q24 3Q24 9M23 9M24 3Q22 4Q22 1Q23 2Q23 3Q23 4Q23 1Q24 2Q24 3Q24
+LTM LTM LTM LTM LTM LTM LTM LTM LTM
+3Q24 2Q24 3Q23     9M24 9M23  
+Total Net Revenue (BRL million)
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Total Net Revenue¹ 1,163.9 1,134.7 803.6 2.6% 44.8% 3,245.3 2,296.3 41.3%
+Net Revenue 910.6 844.2 557.7 7.9% 63.3% 2,424.3 1,720.3 40.9%
+Net Revenue from unconsolidated SPVs 253.3 290.5 245.9 -12.8% 3.0% 821.1 576.0 42.5%
+1 - Total Net Revenue: including gross revenue from non-consolidated SPVs (jointly controlled or non-controlled entities).
+14
+
+<!-- PAGE 43 -->
+3Q24
+EARNINGS RELEASE
+Gross Profit
+Adjusted Gross Profit1 reached BRL 351 million in 3Q24, representing 10% growth versus 2Q24 and 70% versus 3Q23. Thus,
+excluding interest capitalized in the cost and the effect of Pode Entrar program (given the particular features of the program
+compared to a traditional development project), Adjusted Gross Margin1 for the quarter reached 38.7%, marking the highest
+level of the indicator in the entire history of Direcional Group. In this context, the Adjusted Gross Margin1 expanded 60 bps
+compared to 2Q24 and 170 bps versus 3Q23, emphasizing, once again, the resilient profitability level that the Company has
+been reporting quarter after quarter.
+Year to date through September, Adjusted Gross Profit1 totaled BRL 920 million, 46% higher than 9M23. Adjusted Gross Margin1
+was 38.1%, 150 bps higher than the margin recorded in 9M23, also excluding the impact of Pode Entrar program, as mentioned
+above.
+Considering the projects contracted under Pode Entrar program, Adjusted Gross Margin1 of 3Q24 reached 38.5% (+80 bps versus
+2Q24 and +160 bps versus 3Q23), and 37.9% in 9M24 (130 bps higher than 9M23). It is worth highlighting that, of the three
+contracts signed by the Company under the program, only the first two (signed in December 2023) are consolidated in the
+balance sheet and, therefore, influence Gross Margin. The third project, as it is jointly controlled with the partner, has its impact
+recorded in Equity Income.
+Adjusted Gross Profit1 3Q24 2Q24 3Q23     9M24 9M23  
+(BRL million) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Gross Profit 332.7 302.6 192.4 9.9% 73.0% 875.9 595.4 47.1%
+(+) Capitalized Interest 18.2 16.2 13.8 12.0% 31.4% 43.7 34.3 27.4%
+Adjusted Gross Profit1 350.9 318.9 206.2 10.0% 70.2% 919.6 629.7 46.0%
+Adjusted Gross Margin1 38.5% 37.8% 37.0% 0.8 p.p. 1.6 p.p. 37.9% 36.6% 1.3 p.p.
+Adjusted Gross Margin1 (Ex-Pode Entrar Program) 38.7% 38.1% 37.0% 0.6 p.p. 1.7 p.p. 38.1% 36.6% 1.5 p.p.
+1 - Adjusted Gross Profit and Margin: excluding capitalized interest.
+15
+3 7 .0 %
+2 0 6
+3 Q 2 3
+A
+A
+d
+d
+ju
+ju
+3 8 .1 %
++ 7 0 %
+3 1 9
+2 Q 2 4
+s te d G
+s te d G
+A d ju s t e d G r o s s P
+(B R L m illio n a n d
+3 8 .7 %
++ 1 0 %
+3 5 1
+3 Q 2 4
+ro s s P ro fit¹
+ro s s M a rg in ¹ (E x -P
+r%
+o
+o f it ¹
+)
+3 6 .6 %
++
+6 3 0
+9 M 2 3
+d e E n tra r)
+4 6 %
+3
+9
+8
+9
+M
+.1 %
+2 0
+2 4
+3 6 .3 %
+1 9 4
+4 Q 2 2
+A
+A
+A d ju
+3 6 .3 %
+2 0 2
+1 Q 2 3
+d ju s te d
+d ju s te d
+s t e d G
+3 6 .5 %
+2 2 1
+2 Q 2 3
+G ro s s
+G ro s s
+r o s s M a r g in ¹ T r a c k R e c o r d
+(B R L m illio n a n d % )
+3 8 .1 % 3 7 .4 % 3 7 .1 % 3 7 .0 %
+3 1 9
+2 5 0 2 2 7 2 0 6
+3 Q 2 3 4 Q 2 3 1 Q 2 4 2 Q 2 4
+P ro fit¹
+M a rg in ¹ (E x -P o d e E n tra r)
+3 8 .7 %
+3 5 1
+3 Q 2 4
+
+<!-- PAGE 44 -->
+3Q24
+EARNINGS RELEASE
+General and Administrative Expenses (G&A)
+In 3Q24, General and Administrative Expenses amounted to BRL 52
+million, in line with 2Q24 and 17% higher than 3Q23. However, these
+expenses accounted for 5.5% of Gross Revenue in the quarter, a
+significant drop of 50 bps compared to 2Q24 and down 220 bps versus
+3Q23.
+Total Gross Revenue1, i.e., also considering revenue arising from non-
+consolidated projects in the Company's results, the share of G&A was
+4.4% in the quarter, with of 90-bps dilution when compared to 3Q23.
+In 9M24, the G&A totaled BRL 154 million, 18% above 9M23. The
+metric’s share over Gross Revenue was 6.1% – a drop of 120 bps
+compared to 9M23. In turn, considering Total Gross Revenue1, the
+representativeness was 4.6%, diluting 80 bps versus 9M23.
+Thus, both the quarterly and year-to-date figures evidence the success of the Direcional Group in promoting significant business
+growth while maintaining strict control over expenses. This commitment translates into G&A dilution, in view of the higher
+acceleration in revenue, allowing the Company to continue capturing the benefits arising from the operation growth.
+1 - Total Gross Revenue: including gross revenue from non-consolidated SPVs (jointly controlled or non-controlled entities).
+Selling Expenses
+In 3Q24, Selling Expenses - mainly comprising expenses with commissions,
+marketing and maintenance of points of sale – totaled BRL 80 million, 13%
+higher than 2Q24 and 66% higher than 3Q23, keeping pace with the higher
+volume of sales and revenue recorded by Direcional Group. The share of
+these expenses in Gross Revenue from real estate sales was 8.8% in the
+period.
+Year-to-date through September, the item reached BRL 207 million, with
+42% growth compared to 9M23. Commercial Expenses as a percentage of
+Gross Revenue from real estate sales was 8.4%, remaining at the same
+level as one year earlier. Meanwhile, it is worth noting that Net Sales
+increased 69% in the period, evidencing all the results arising from the
+operational leverage from which the Company has benefited, due to the
+business growth in recent years.
+16
+7
+5
+3
+G
+.7 %
+.3 %
+4 5
+Q 2 3
+& A
+8 .6 %
+4 8
+3 Q 2 3
+S
+%
+G & A E x p e n s e s
+(B R L m illio n a n d % )
+7 .3 %
+6 .0 % 5 .5 %
+5 .4 %
+4 .4 % 4 .4 %
++ 1
++ 1 7 %
+1 3 0
+0 %
+5 2 5 2
+2 Q 2 4 3 Q 2 4 9 M 2 3
+% G ro s s R e v e n u e % T o ta l G ro s
+S e llin g E x p e n s e s
+(B R L m illio n a n d % )
+8 .8 % 8 .4 % 8 .3 %
++
++ 6 6 %
++ 1 3 % 1 4 5
+8 0 7 1
+2 Q 2 4 3 Q 2 4 9 M 2 3
+e llin g E x p e n s e s
+G ro s s R e v e n u e fro m R e a l E s ta te S a le s
+8
+s
+4
+6 .1 %
+4 .6 %
+%
+1 5 4
+9 M 2 4
+R e v e n u
+8 .4 %
+2 %
+2 0 7
+9 M 2 4
+e ¹
+
+<!-- PAGE 45 -->
+3Q24
+EARNINGS RELEASE
+Equity Income
+As mentioned in recent earnings releases, projects not consolidated in
+Direcional's balance sheet (non-controlled and jointly controlled SPVs)
+have played an important role in sales in recent quarters. In accounting
+terms, these projects do not directly contribute to the Company's
+revenue. Instead, these are recognized under Equity Income, according
+to the interest held in each SPV. Therefore, in 3Q24, this item totaled BRL
+18 million, down 5% lower versus 2Q24 and down 6% versus 3Q23.
+In 9M24, Equity Income amounted to BRL 73 million, 194% higher than
+9M23, showing the impact of unconsolidated projects on results.
+Other Operating Income and Expenses
+In 3Q24, Other Operating Revenues and Expenses recorded a negative net balance of BRL 32 million. The main impacts in this
+item derived from: (i) set-up and reversal of provisions, which totaled a negative net amount of BRL 14 million; (ii) recurring
+legal expenses and similar expenses, in the amount of BRL 9 million; and (iii) corporate expenses, such as amortization of goodwill
+for the acquisition of equity interests, among others, totaling approximately BRL 9 million. Thus, the item represented about
+3.5% of the Company’s Net Revenue in the quarter.
+EBITDA
+In 3Q24, Adjusted EBITDA1 reached BRL 221 million, representing 59% growth when compared to 3Q23, and 7% compared to
+2Q24. Therefore, Adjusted EBITDA Margin1 was 24.3% in the quarter. This adjustment excludes interest capitalized in Costs and
+any non-recurring results allocated to Other Operating Revenues and Expenses.
+Considering 9M24, Adjusted EBITDA1 reached BRL 593 million, 50% higher than the same period in 2023. As a result, Adjusted
+EBITDA Margin1 was 24.5%, representing 150-bps increase in the period.
+17
+3
+2
+Q
+0
+2 3 2
+-6
+1
+Q
+%
+9
+2 4
+E
+3
+q u
+(B
+1 9
+Q 2
+it y In c o m
+R L m illio n
+-5 %
+4
+)
+e
+9
+2
+M
+5
+2
++
+3
+1 9 4 %
+9
+7
+M
+3
+2 4
+AdjustedEBITDA¹
+(BRL millionand%)
+25.0% 24.5% 24.3% 22.9% 24.5%
++50%
++59% 593
++7% 395
+207 221
+140
+3Q23 2Q24 3Q24 9M23 9M24
+Adjusted EBITDA¹ Adjusted EBITDA Margin¹
+
+<!-- PAGE 46 -->
+3Q24
+EARNINGS RELEASE
+The table below breaks down the EBITDA and Adjusted EBITDA1 and their respective margins:
+EBITDA and Adjusted EBITDA1 3Q24 2Q24 3Q23     9M24 9M23  
+(BRL million) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Net Income 160.5 146.2 68.8 9.8% 133.4% 456.9 232.0 97.0%
+(+) Depreciation and amortization 16.3 18.6 16.6 -12.7% -1.9% 51.0 47.3 8.0%
+(+) Income Tax and Social Contribution 19.8 14.9 11.1 32.6% 78.2%
+51.04477..11 4 73.363.06
+3 0.8%
+(+) Minority interest 24.2 23.7 17.1 2.0% 41.6%
+4676..17 3461..00
+6 2.8%
+(+/-) Financial results (17.4) (3.5) 12.2 397.3% -243.1% (4646.1.7) 4312..06 - 2 3 5.3%
+(17.4) (44.1) 32.6
+EBITDA 203.3 199.9 125.7 1.7% 61.7% 577.6 388.8 48.6%
+EBITDA Margin 22.3% 23.7% 22.5% -1 p.p. -0.2 p.p. 23.8% 22.6% 1 p.p.
+(+) Capitalized interest 18.2 16.2 13.8 12.0% 31.4% 43.7 34.3 27.4%
+(-) Non-recurring result adjustment - (9.3) - -100.0% n/a (28.4) (28.3) 0.3%
+Adjusted EBITDA1 221.5 206.9 139.6 7.0% 58.7% 592.8 394.7 50.2%
+Adjusted EBITDA Margin1 24.3% 24.5% 25.0% -0.2 p.p. -0.7 p.p. 24.5% 22.9% 1.5 p.p.
+1 - Adjusted EBITDA and EBITDA Margin: excluding capitalized interest and non-recurring result under Other Operating Income and Expenses.
+Financial Results
+Considering financial income and expenses for 3Q24, a positive net result of BRL 17 million was recorded. The main impacts in
+this line include: (i) positive recurring result in the amount of BRL 16.3 million, referring to inflation adjustments and contractual
+interest, mainly related to trade accounts receivable; (ii) full settlement of the total return swap indexed to Direcional shares,
+giving rise to a positive result of BRL 4.6 million, already net of taxes; (iii) negative net result of BRL 4.4 million considering
+interest and banking expenses and income from financial investments occurred in the period; and (iv) expenses related to the
+sale of receivables, in the amount of BRL 2.2 million.
+Non-controlling Interest in SPVs and SCPs (“Minority Interest”)
+In 3Q24, the result attributed to non-controlling shareholders in SPVs and SCPs (“Minority Shareholders”) was BRL 24 million, in
+line with that reported in the previous quarter. In 9M24, the item totaled BRL 66 million, 63% higher than 9M23.
+It is worth mentioning that the development of projects in partnership was part of the strategy to accelerate Direcional’s
+expansion at the beginning of the growth cycle, enabling faster entry into strategic areas and, especially, a higher dilution of
+expenses with the acceleration of launches. Currently, however, the number of projects in which minority shareholders hold no
+stake is increasing in the company's pipeline.
+18
+
+<!-- PAGE 47 -->
+3Q24
+EARNINGS RELEASE
+Net Income
+In view of the above, Direcional Group's Net Income reached BRL 160
+million in 3Q24, representing significant growth of 133% versus the
+same quarter of 2023 and 10% versus the previous quarter. As a result,
+the Company achieved its highest Net Income for a single quarter. Net
+Margin reached 17.6% in the period, gaining 530 bps compared to 3Q23
+and 30 bps compared to 2Q24.
+In 9M24, Net Income amounted to BRL 457 million, growing 97% versus
+the same period of the previous year. This relevant result represented a
+Net Margin of 18.8%, with 540-bps growth compared to 9M23.
+Excluding the non-recurring result generated from the settlement of the
+total return swap, the Company’s Operating Net Income1 was BRL 156
+million in 3Q24, representing an 88% growth compared to 3Q23 and a
+15% growth compared to 2Q24. Operating Net Margin1 was 17.1% in
+the quarter, up by 230 bps versus 3Q23 and by 110 bps versus 2Q24. In
+this context, Adjusted Annualized ROE1 reached its highest level in
+history, achieving 29%.
+Considering 9M24, Direcional Group’s Operating Net Income1 summed BRL 411 million, exceeding 9M23 by 81%. And in the 12-
+month period ended September, the metric reached a total of BRL 509 million.
+The table below shows the Net Income of the period, as well as the breakdown regarding Operating Net Income1:
+Operating Net Income 1 3Q24 2Q24 3Q23     9M24 9M23  
+(BRL million) (a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+Net Income 160.5 146.2 68.8 9.8% 133.4% 456.9 232.0 97.0%
+(+/-) Result with equity swap -4.6 -1.8 4.2 154.2% -211.1% -17.5 -5.3 228.8%
+(+) Expenses with sale of receivables 0.0 0.0 9.8 n/a -100.0% 0.0 28.4 -100.0%
+(+/-) Other non-recurring expenses (revenue) 0.0 -9.3 0.0 -100.0% n/a -28.4 -28.3 0.3%
+Operating Net Income ¹ 155.8 135.1 82.7 15.4% 88.5% 411.0 226.7 81.3%
+Operating Net Margin ¹ 17.1% 16.0% 14.8% 1.1 p.p. 2.3 p.p. 17.0% 13.2% 3.8 p.p.
+1 – Operating Net Income: adjustment excluding equity swap result, non-recurring result allocated to “Other Operating Income and Expenses” and receivables assignment expenses, as applicable.
+19
+1
+3
+2 .3
+6 9
+Q 2
+%
+3
+O p
+1 7 .3 %
++ 1 3 3 %
+1 4 6
+2 Q 2 4
+N e t In
+e r a t in g
+(B R L m
+1 7 .6 %
+1 6 0
+3 Q 2 4
+c o m e
+N e
+illio n
++
+t In c o
+a n d %
+1 0 %
+N e t M
+m)
+a
+e
+rg
+¹
+1 3
+2
+9 M
+in
+.5 %
++
+3 2
+2 3
+9 7 %
+1
+9
+8
+4
+M
+.8 %
+5 7
+2 4
+
+<!-- PAGE 48 -->
+3Q24
+EARNINGS RELEASE
+Deferred Results from Real Estate Sales
+Deferred Revenue from Real Estate Sales (Backlog Revenue) reached BRL 2.6 billion at the end of 3Q24, growing 12% compared
+to 2Q24 and 96% compared to 3Q23. In this case, the nominal growth of Deferred Revenue from Real Estate Sales reached BRL
+1.3 billion in the last 12 months. These achievements, driven by the strong sales volumes reported by Direcional Group, evidence
+the contracted growth for revenue in the coming periods.
+Maintaining the high level of profitability shown by the Company quarter after quarter, Backlog Margin was 43.4% at the end of
+3Q24, 70 bps higher than the same quarter in 2023 and in line with that recorded in the previous quarter.
+The table below presents the Deferred Revenue from Real Estate Sales and the Backlog Margin in more details:
+Deferred Results from Real Estate Sales 3Q24 2Q24 3Q23    
+(BRL million) (a) (b) (c) (a/b) (a/c)
+Deferred Revenue from Real Estate Sales 2,618.3 2,331.3 1,333.0 12.3% 96.4%
+Deferred Costs from Real Estate Sales -1,482.6 -1,319.2 -764.2 12.4% 94.0%
+Deferred Results from Real Estate Sales 1,135.7 1,012.2 568.8 12.2% 99.7%
+Backlog Margin 43.4% 43.4% 42.7% 0.0 p.p. 0.7 p.p.
+20
+D e
+D e f e
+4 2 .7 %
+1 ,3 3 3
+3 Q 2 3
+fe rre d
+r r
+R
+e
+e
+d
+v
+R e v e n
+(B R
+4 2 .5 %
+1 ,7 0 8
+4 Q 2 3
+e n u e (B
+uL
+a
+e
+m
+c
+f r o m
+illio n
+4 3 .1 %
++ 9 6 %
+1 ,9 2 6
+1 Q 2 4
+k lo g R
+R e
+a n d
+e v e
+a l E s
+% )
+4 3 .4
+2 ,3 3
+2 Q 2
+n u e )
+ta
+%
+1
+4
+t e S a
+4
+2
+3
+B
+le s
+3 .4 %
+,6 1 8
+Q 2 4
+a c k lo g
++
+M
+1
+a
+2 %
+rg in
+
+<!-- PAGE 49 -->
+3Q24
+EARNINGS RELEASE
+BALANCE SHEET HIGHLIGHTS
+Cash and Cash Equivalents and Short-Term Investments
+At the end of the 3Q24, the balance of Cash and Cash Equivalents and Financial Investments totaled BRL 1.5 billion, representing
+9% increase versus 2Q24 and 15% versus 3Q23.
+During 3Q24, Direcional completed another issue of Real Estate Receivables Certificates (CRI), amounting to approximately BRL
+312 million. In addition, the Company also paid interim dividends to shareholders, in the total amount of BRL 277 million,
+according to the Material Fact disclosed on July 1, 2024.
+In this way, Direcional Group aims to preserve its cash position at comfortable levels to enable operational growth, without
+sacrificing the balance of its capital structure, always seeking to maximize returns for its shareholders.
+Cash and Cash Equivalents and Short-term Investments 3Q24 2Q24 3Q23    
+(BRL million) (a) (b) (c) (a/b) (a/c)
+Cash and Cash Equivalents 858.2 649.7 813.7 32.1% 5.5%
+Short-term Investments 687.6 772.3 527.4 -11.0% 30.4%
+Total 1,545.8 1,422.0 1,341.2 8.7% 15.3%
+Accounts Receivable
+The book balance of Accounts Receivable1 at the end of 3Q24 was BRL 1.6 billion, representing a rise of 12% versus 2Q24 and a
+97% versus 3Q23. Considering the balance of Accounts Receivable from Real Estate Sales, as well as the Net Revenue of this
+segment, the Accounts Receivable Days2 index reached 162 days.
+According to current accounting rules, the recognition of Accounts Receivable is proportional to the performance index of the
+respective construction works (Percentage of Completion - PoC). Therefore, the Accounts Receivable balance from units sold
+and not completed yet is not totally reflected in the Financial Statements. It is worth to emphasize that the total balance of
+Direcional’s Accounts Receivable at the end of 3Q24 was BRL 4.2 billion.
+Of this total, receivables related to direct financing installments with the customer on a pro-soluto basis totaled approximately
+BRL 595 million at the end 3Q24.
+Accounts Receivable¹ 3Q24 2Q24 3Q23    
+(BRL million) (a) (b) (c) (a/b) (a/c)
+Real Estate Sales 1,594.4 1,425.3 800.7 11.9% 99.1%
+Services 15.1 16.4 16.1 -7.8% -6.1%
+Land Sales 5.4 5.5 3.9 -1.3% 39.7%
+Total 1,615.0 1,447.2 820.7 11.6% 96.8%
+Current 844.4 789.2 407.9 7.0% 107.0%
+Non-current 770.6 658.0 412.8 17.1% 86.7%
+Accounts Receivable – Real Estate Sales 1,594.4 1,425.3 800.7 11.9% 99.1%
+Net Revenue – Real Estate Sales 885.0 858.4 544.1 3.1% 62.7%
+Accounts Receivable Days² 162 149 132 8.5% 22.4%
+1 - Short-term accounts receivable is composed of the debit balance of customers corrected and recognized in the income proportionally to the PoC (Percentage of Completion), considering the date
+of permission for occupancy for payment of the financing installment by part of customers to Direcional, plus the recognized revenue of contract works.
+2 - Accounts Receivable Days index calculated as Accounts Receivable from Real Estate Sales over Net Revenue from Real Estate Sales in the quarter, multiplied by 90 (number of days in one quarter).
+21
+
+<!-- PAGE 50 -->
+3Q24
+EARNINGS RELEASE
+Indebtedness
+Direcional Group closed 3Q24 with a gross balance of Loans and Financing was BRL 1.7 billion, with 84% of this total in the long
+term (non-current liabilities). It is worth highlighting the completion of another successful issue of Real Estate Receivables
+Certificates (CRI), raising a total of approximately BRL 312 million, after exercising the hot issue option. With a brAAA rating
+(S&P) and maturities of 5 years (1st series) and 7 years (2nd series), the transaction enabled the company to extend its average
+maturity to 53 months, among the longest in the sector.
+Considering the balances of Loans and Financing and Cash and Cash Equivalents and Short-Term Investments, in addition to the
+position of interest rate swap contracts, the Company ended the quarter with a net debt of BRL 91 million. The leverage ratio,
+measured by Net Debt1 to Equity, reached 4.1%. Furthermore, the cash position proved to be more than sufficient to cover the
+next 7 years of amortization of total gross debt.
+As a result, the Company continues to present a capital structure that allows the sustainable growth of its operations, always
+valuing the conservative stance in its financial leverage.
+The table and graphs below show more details on the indebtedness breakdown for 3Q24 and its amortization schedule.
+Indebtedness 3Q24 2Q24 3Q23    
+(BRL million) (a) (b) (c) (a/b) (a/c)
+Loans and Financing Operations 1,680.6 1,337.5 1,291.3 25.7% 30.2%
+CRI 1,260.1 983.0 859.7 28.2% 46.6%
+Debentures 104.9 101.6 273.0 3.2% -61.6%
+Construction Financing 313.8 250.0 153.1 25.5% 105.0%
+Leasing 1.9 2.9 5.5 -32.8% -64.7%
+Cash and Cash Equivalents and Short-Term Investments 1,545.8 1,422.0 1,341.2 8.7% 15.3%
+Net Debt before swap 134.9 -84.5 -49.9 -259.6% -370.3%
+Interest rate swap contracts 43.5 68.5 38.9 -36.4% 12.0%
+Net Debt1 91.3 -153.0 -88.8 -159.7% -202.9%
+Net Debt1 / Equity 4.1% -6.3% -4.2% 10.3 p.p. 8.3 p.p.
+Loans and Financing Operations by index 1,680.6 1,337.5 1,291.3 25.7% 30.2%
+TR 313.8 250.0 153.1 25.5% 105.0%
+IPCA2 810.6 641.1 706.8 26.4% 14.7%
+CDI 490.2 382.2 431.3 28.3% 13.6%
+Fixed interest rate2 66.1 64.2 0.0 3.0% n/a
+1 - Loans and Financing Operations reduced by Cash and Cash Equivalents and Short-term Investments plus the balance of interest rate swap contracts.
+2 - For all bonds indexed to the IPCA (Brazil’s Consumer Price Index) and with fixed interest rate, the Company has interest rate swap contracts, in order to exchange the interest rate into CDI.
+DebtAmortizationSchedule LoansandFinancingBreakdown
+(BRL million) (% ofDebt)
+1,637
+Construction Financing -SFH
+314 CRI
+Leasing 2 75%
+Capital Markets
+Interest Rate Swap
+1,365
+481
+269
+142 167 219 216 6%0%
+101 85
+19% Leasing
+-44 Debentures
+SFH
+≤ 12 13-24 25-36 37-48 49-60 61-72 73-84 > 84 Total
+monthsmonthsmonthsmonthsmonthsmonthsmonthsmonths Balance
+22
+
+<!-- PAGE 51 -->
+3Q24
+EARNINGS RELEASE
+Cash Generation (Cash Burn)1
+In 3Q24, Direcional reported cash generation of BRL 33 million. As a result, considering the first nine months of 2024, total cash
+generation amounted to BRL 195 million.
+It is worth noting that, due to the rule change applied by Caixa Econômica Federal, where funds are only deposited after the
+sales contract is registered at the notary’s office, the Company closed the quarter (3Q24) with an outstanding receivable balance
+of BRL 85 million, due to signed contracts pending registration.
+1 - Cash Generation: variation in net debt adjusted by payment of dividends, share buyback and the variation in the balance of interest rate swap contracts.
+DIVIDENDS
+As anticipated in the last Operational Preview, the improvement in cash generation and current sales level enabled the Company
+to pay interim dividends of BRL 1.60 per share at the beginning of 3Q24, totaling BRL 277 million.
+Additionally, due to the positive outcome from the settlement of a swap operation linked to Direcional’s shares – driven by the
+strong appreciation of the stock since the derivative was contracted – the Company’s Board of Directors approved a new interim
+dividend distribution, equivalent to BRL 0.46 per share. Thus, the total estimated amount to be paid to shareholders is
+approximately BRL 80 million. The right to receive these additional dividends was secured for investors holding shares as of
+September 17, 2024.
+Considering both Board decisions, the total distribution announced by the Company in 3Q24 adds up to BRL 357 million,
+corresponding to BRL 2.06 per share.
+23
+
+<!-- PAGE 52 -->
+3Q24
+EARNINGS RELEASE
+Statements contained in this notice regarding business perspectives, operational and financial projection results, and references
+to the Company’s potential of growth constitute mere estimates and were based on the Board’s expectations and estimates
+regarding the Company’s future performance. Although the Company believes that such estimates are based on reasonable
+assumptions, Company does not ensure they are achievable. The expectations and estimates underlying the Company's future
+perspectives are highly dependent on the market behavior, the Brazil's economic and political situation, the current and future
+state regulations, the industry and international markets, and are therefore subject to changes which are beyond control by
+part of the Company and its Board. The Company shall not commit to publish updates neither to revise the expectations,
+estimates, and provisions contained herein arising from future information or events.
+STOCK TICKER: DIRR3 CONFERENCE CALL CONTACT INFO
+Stock price on 09/30/2024: BRL 30.25
+Date: 11/08/2024 - Friday IR Team
+Number of Shares (Ex-Treasury Shares): 7 a.m. (EST)
+(+55 31) 3431-5509 | (+55 31) 3431-5512
+173 million 9 a.m. (BRT)
+Market Cap:
+ri@direcional.com.br
+BRL 5.2 billion / US$ 962 million
+Access: ri.direcional.com.br/en
+Free Float:
+Zoom
+63% www.direcional.com.br
+https://us06web.zoom.us/webinar/register/
+WN_Npz1me8wRRyAuw-oYPqacw
+3Q24 ADTV:
+Rua dos Otoni, 177 – 14th floor
+1.9 million shares
+YouTube Belo Horizonte - MG
+BRL 56.2 million
+https://www.youtube.com/live/2uPIku8YKgM Zip Code: 30.150-270
+8,815 transactions
+24
+
+<!-- PAGE 53 -->
+3Q24
+EARNINGS RELEASE
+CONSOLIDATED BALANCE SHEET
+IFRS
+Consolidated Balance Sheet (BRL ‘000) 09/30/2024 12/31/2023  
+Current Assets 4,331,445 3,583,355 21%
+Cash and cash equivalents and short-term investments 1,545,768 1,327,171 16%
+Accounts receivable 844,423 521,946 62%
+Inventory 1,570,926 1,420,699 11%
+Receivables from related parties 110,101 67,184 64%
+Taxes recoverable 49,451 25,753 92%
+Accounts receivable from divestiture 210,776 220,602 -4%
+Non-Current Assets 5,189,567 3,988,243 30%
+Short-term investments 54,843 0 -
+Accounts receivable 770,586 464,035 66%
+Inventory 3,758,233 3,041,218 24%
+Judicial deposits 21,719 18,111 20%
+Taxes recoverable 11,152 27,548 -60%
+Accounts receivable from divestiture 7,630 7,630 -
+Other receivables 141,418 113,274 25%
+Investments 193,959 169,375 15%
+Fixed assets 197,256 111,474 77%
+Intangible assets 32,771 35,578 -8%
+Total Assets 9,521,012 7,571,598 26%
+31/12/2023
+Consolidated Balance Sheet (BRL ‘000) 09/30/2024 12/31/2023  
+Current Liabilities 1,282,876 1,042,766 23%
+Loans and financing 268,592 234,933 14%
+Suppliers 155,934 121,652 28%
+Forfait 8,885 7,879 13%
+Labor obligations 76,038 45,411 67%
+Tax obligations 48,862 36,179 35%
+Lease financing 8,200 7,456 10%
+Real estate commitments payable 165,985 146,827 13%
+Advances from customers 79,973 69,264 15%
+Other accounts payable 158,901 120,996 31%
+Assignment liability 108,199 58,926 84%
+Proposed Dividends 79,700 81,162 -2%
+Provision for guarantee 22,506 24,259 -7%
+Payables to related parties 101,101 87,822 15%
+Non-Current Liabilities 5,992,679 4,418,246 36%
+Loans and financing 1,412,044 1,088,111 30%
+Suppliers 10,950 10,004 9%
+Provision for guarantee 18,525 16,303 14%
+Tax obligations 31,136 18,589 67%
+Lease financing 76,332 13,648 459%
+Real estate commitments payable 3,450,635 2,668,090 29%
+Advances from customers 495,137 378,427 31%
+Provision for labor, tax and civil contingencies 27,141 27,657 -2%
+Other accounts payable 69,155 69,157 -0%
+Assignment liability 401,624 128,260 213%
+Shareholder’s Equity 2,245,457 2,110,586 6%
+Capital 1,181,857 1,181,857 -
+Share issue expenses -21,994 -21,994 -
+Treasury shares -2,301 -7,748 -70%
+Capital reserves 151,029 152,480 -1%
+Income reserves 649,936 648,810 0%
+Current Results 100,001 - -
+2,058,528 1,953,405 5%
+Non-controlling interest 186,929 157,181 19%
+Total Liabilities and Shareholder’s Equity 9,521,012 7,571,598 26%
+25
+
+<!-- PAGE 54 -->
+3Q24
+EARNINGS RELEASE
+CONSOLIDATED INCOME STATEMENT
+Consolidated Income Statement 3Q24 2Q24 3Q23     9M24 9M23  
+(a) (b) (c) (a/b) (a/c) (d) (e) (d/e)
+BRL ‘000
+Revenue from Real Estate Sales 916,686 858,179 566,347 6.8% 61.9% 2,454,008 1,732,349 41.7%
+Revenue from Services 25,595 21,492 16,181 19.1% 58.2% 65,650 54,051 21.5%
+Gross Revenue 942,281 879,671 582,528 7.1% 61.8% 2,519,660 1,786,400 41.0%
+Deductions from Gross Revenue (taxes and others) -31,683 -35,451 -24,860 -10.6% 27.4% -95,400 -66,055 44.4%
+Net Revenue 910,598 844,220 557,668 7.9% 63.3% 2,424,260 1,720,345 40.9%
+Cost of real estate sales and services -577,881 -541,592 -365,299 6.7% 58.2% -1,548,313 -1,124,951 37.6%
+Gross Profit 332,717 302,628 192,369 9.9% 73.0% 875,947 595,394 47.1%
+General and administrative expenses -52,276 -52,355 -44,732 -0.2% 16.9% -153,761 -130,112 18.2%
+Selling expenses -80,402 -71,239 -48,466 12.9% 65.9% -206,706 -145,344 42.2%
+Equity income 18,500 19,423 19,669 -4.8% -5.9% 64,376 38,356 67.8%
+Other operating income and expenses -31,522 -17,150 -9,690 83.8% 225.3% -53,320 -16,758 218.2%
+Operating Income (Expenses) -145,700 -121,321 -83,218 20.1% 75.1% -349,411 -253,858 37.6%
+Financial Expenses -59,330 -65,707 -75,551 -9.7% -21.5% -165,286 -214,110 -22.8%
+Financial Revenues 76,764 69,213 63,367 10.9% 21.1% 209,434 181,477 15.4%
+Financial Results 17,434 3,506 -12,184 397.3% -243.1% 44,148 -32,633 -235.3%
+Income before Income and Social Contribution Taxes 204,451 184,813 96,967 10.6% 110.8% 570,684 308,903 84.7%
+Income and social contribution taxes - current and def. -19,761 -14,901 -11,091 32.6% 78.2% -47,085 -35,991 30.8%
+Net Income before Interests in SCPs and SPEs 184,690 169,912 85,876 8.7% 115.1% 523,599 272,912 91.9%
+Interest in SCPs and SPEs (Minority Interest) -24,226 -23,743 -17,112 2.0% 41.6% -66,682 -40,956 62.8%
+Net Income 160,464 146,169 68,764 9.8% 133.4% 456,917 231,956 97.0%
+Gross Margin 36.5% 35.8% 34.5% 0.7 p.p. 2.0 p.p. 36.1% 34.6% 1.5 p.p.
+Adjusted Gross Margin1 38.5% 37.8% 37.0% 0.8 p.p. 1.6 p.p. 37.9% 36.6% 1.3 p.p.
+Net Margin 17.6% 17.3% 12.3% 0.3 p.p. 5.3 p.p. 18.8% 13.5% 5.4 p.p.
+1 - Adjusted Gross Margin: excluding capitalized interest.
+26
+
+<!-- PAGE 55 -->
+3Q24
+EARNINGS RELEASE
+CONSOLIDATED CASH FLOW STATEMENT
+Consolidated Cash Flow Statement (BRL ‘000) 09/30/2024 09/30/2023
+Cash Flow from Operating Activities
+Profit before income and social contribution taxes 570,684 308,903
+Adjustments for conciliating the result to the availability generated by the operating activities
+Depreciations and Amortizations 51,036 47,252
+Equity income -64,376 -38,356
+Revenue from financial investments -18,214 -41,319
+Provision for guarantee 15,149 14,644
+Interest on charges and financing 154,375 159,938
+Hedge accounting – fair value -25,580 15,137
+Gains (losses) from derivatives 2,189 -11,676
+Provision for labor, tax, and civil contingencies 16,144 10,450
+Gains (losses) on barter transactions -45,350 -22,274
+Disposal of investment -28,644 -51,695
+Write-off leases -2,898 -
+Present value adjustment of accounts receivable 26,693 6,435
+Present value adjustment on lease financing 4,208 1,291
+Accounts receivable Expenses 4,721 1,895
+Adjustment to net realizable amount of finished inventory -1 23
+Correction of assignment liabilities 23,178 -
+Provision for losses on accounts receivable 38,539 7,260
+Provision for stock option plan 5,113 4,315
+Provision for profit sharing 17,764 7,100
+Increase (decrease) in assets
+Accounts receivable -666,252 -157,383
+Inventory 148,917 -25,905
+Other credits 2,704 446
+Related parties -32,559 19,398
+Escrow deposits -3,608 -372
+Taxes recoverable -7,302 -15,327
+(Decrease) increase in liabilities
+Suppliers 32,934 -16,258
+Labor obligations 12,863 9,248
+Tax liabilities 11,810 -23,963
+Real estate commitments payable -145,994 -174,397
+Advances from clients 41,861 31,817
+Accounts payable -13,740 -33,589
+Provision for labor, tax, and civil contingencies -16,660 -8,943
+Related parties 13,279 32,327
+Construction collateral -14,680 -15,407
+Other Liabilities - -37,970
+Income and social contribution taxes paid -33,241 -6,734
+Net Cash generated (applied) in Operating Activities 75,062 -3,689
+Cash Flow from Investment Activities
+Increase (Decrease) in investments (SCPs and SPEs) -83,608 -125,456
+Dividends received 14,120 23,563
+Disposal of investments 124,271 167,831
+Contributions and loans 21,438 -
+Increase in property and equipment -30,404 -5,411
+Increase in intangible assets -32,825 -15,158
+Short-term Investments -31,035 -31,880
+Net Cash generated (applied) in Investment Activities -18,043 13,489
+Cash Flow from Financing Activities
+Dividends paid out -358,370 -104,287
+Entry of assignment of receivables 359,423 49,368
+Payment of assignment of receivables -64,685 -18,492
+Amortization of lease financing -6,330 -6,262
+Interest paid on lease -297 -579
+Loans taken out 1,018,389 260,186
+Assignment liabilities -302,762 -100
+Loans amortization -366,319 -364,581
+Interest paid -74,944 -111,052
+Issuance of shares - 408,109
+Dividends paid to non-controlling shareholders -40,009 -
+Capital increase / decrease by non-controlling interests 3,076 -41,520
+Net cash generated (applied) in financing activities 167,172 70,790
+Increase of Cash and Cash Equivalents 224,191 80,590
+Cash and Cash Equivalents
+At the beginning of the period 633,978 733,124
+At the end of the period 858,169 813,714
+27
+
+<!-- PAGE 56 -->
+3Q24
+EARNINGS RELEASE
+GLOSSARY
+Classification of the projects by Direcional as the economic segment for which they are destined:
+MCMV Residential projects with an average price per unit up to BRL 350 thousand within the “Minha Casa, Minha Vida”
+housing program - levels 1, 2 and 3. Until 3Q15, the projects belonging to this segment were called “Low-
+income”.
+Riva A project destined to middle-income customers, developed at the SPEs of the wholly owned subsidiary of
+Direcional called Riva Incorporadora S.A.
+Middle-Income Residential projects with an average price per unit above the MCMV ceiling price up to BRL 500 thousand.
+Upper Middle-Income Residential projects with an average price per unit above BRL 500 thousand.
+MUC Comprises projects of the Middle-income, Upper-middle income, and Commercial segments.
+Old Harvest Projects of the MUC segment developed under the previous development and building model.
+New Model A business model consolidated in 2015 for the development of the Company’s residential projects. One of its
+main characteristics is the possibility of off-plan transfer and industrialized construction.
+Adjusted EBITDA - Adjusted EBITDA is equal to EBITDA (earnings before financial result, Income Tax and Social Contribution, depreciation and
+amortization expenses) less the participation of non-controlling stockholders and less the financial charges included in cost of units sold. We understand
+that the adjustment to present value of accounts receivable of units sold and not delivered recorded as gross operating revenue (expense) is part of our
+operating activities and, therefore, we do not exclude this revenue (expense) in the calculation of Adjusted EBITDA. Adjusted EBITDA is not a measure
+of financial performance under Brazilian Accounting Practices, nor should it be considered in isolation or as an alternative to net income as an operational
+performance measure or alternative to operating Cash Burns or as a liquidity measure. Adjusted EBITDA is an indicator of our overall economic
+performance, which is not affected by fluctuations in interest rates, changes in the tax burden of Income Tax and Social Contribution or depreciation and
+amortization levels.
+Contracted Net Sales - PSV arising from all contracts for the sale of properties entered into in a given period, including the sale of units launched in the
+period and the sale of units in stock, net from rescissions.
+Deferred Results - The result of the balance of real estate sales transactions already contracted (arising from units whose construction has not yet been
+completed) and their respective budgeted costs to be appropriated.
+Faixa 1 - Low-income projects made as contract works within the “Minha Casa, Minha Vida” (MCMV) housing program, contracted directly with the
+Financing Agent, destined to families with a monthly income up to BRL 1,800. Properties of this segment has their final price determined by the Financing
+Agent, pursuant to the ordinance No. 435/2012 of the Ministry of Cities, and their acquisition may be subsidized by the government.
+Financial Swap – Land purchase system whereby the owner of the land receives the payment, in cash, calculated as a percentage of the PSV of the
+project, to be paid according to the determination of the revenue from the sales of units of the project.
+Landbank - lands maintained in inventory with an estimate of a future PSV for such.
+Launched PSV – Total Potential Sales Value of the units launched in a determined period.
+LTM – Last twelve months.
+Novo Mercado - B3's special listing segment, where companies adopt differentiated practices of corporate governance, which exceed the requirements
+of the traditional segment. Direcional joined Novo Mercado in November 19th, 2009.
+Physical Swap - Land purchase system whereby the owner of the land receives in payment a certain number of units of the project to be built in it.
+PoC Method - Under IFRS, revenues, costs and expenses related to real estate projects are appropriated based on the accounting method of the cost
+incurred ("PoC"), by measuring the progress of the work by the actual costs incurred versus the total budgeted expenses for each stage of the project.
+Programa Minha Casa, Minha Vida (MCMV) - Current name given to the popular housing incentive program (previously, Programa Casa Verde e
+Amarela).
+PSV - Total Potential Sales Value. Total amount to be potentially obtained from the sale of all units of a given real estate development at the launch
+price. There is a possibility that the PSV launched shall not be realized or differ significantly from the value of Contracted Sales, since the quantity of
+Units actually sold may differ from the number of units launched and/or the actual selling price of each unit may differ from the launch price.
+SFH Resources - Housing Financial System (SFH) resources originated from the FGTS and savings account deposits.
+28

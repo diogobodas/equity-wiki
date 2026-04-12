@@ -1,207 +1,1708 @@
-# Release de Resultados 4T24 e 2024 — Cury Construtora e Incorporadora S.A.
+<!-- PAGE 1 -->
+DIVULGAÇÃO DE RESULTADOS
+4T24 e 2024
+4T24 e 2024
+Orla Mauá-Porto-RJ
 
-Divulgado em 11/03/2025. Base: IFRS consolidado, R$ milhões.
+<!-- PAGE 2 -->
+SãoPaulo,11demarçode2025–ACuryConstrutoraeIncorporadoraS.A.(“Companhia”ou“Cury”)(B3:CURY3),umadasconstrutoraslíderesno
+segmento residencial no Brasil, divulga seus resultados do quarto trimestre de 2024 (4T24) e acumulado nos doze meses de 2024 (2024). As
+informações financeiras e operacionais, exceto onde indicado o contrário, estão apresentadas em Reais (R$), seguem as normas contábeis
+internacionais (IFRS) eosprincípiosbrasileiros decontabilidadeaplicáveisa entidadesdeincorporaçãoimobiliária noBrasil. Ascomparaçõesse
+referem ao mesmo período de 2023 e, eventualmente, ao terceiro trimestre de 2024 (3T24).
+COM FORTE DESEMPENHO FINANCEIRO E OPERACIONAL EM 2024, CURY
+ATINGE RECEITA LÍQUIDA DE R$ 3,9 BILHÕES, LUCRO LÍQUIDO DE R$ 699
+MILHÕES E ROE DE 66%
+DESTAQUES
+LANÇAMENTOS VENDAS LÍQUIDAS LANDBANK GERAÇÃO DE CAIXA
+4T24 4T24 2024 4T24
+R$ 1.399,8 milhões, 63,4% R$ 1.423,7 milhões, 57,4% R$ 20.122 milhões, 38,7% R$ 150,4 milhões, 14,6%
+superior ao 4T23 superior ao 4T23 acima de 2023 inferior ao 4T23
+2024 2024 2024 2024
+R$ 6.579,6 milhões, 48,2% R$ 6.162,3 milhões, 48,5% 69.554 unidades, 37,1% R$ 466,7 milhões, 10,0%
+maior que 2023 maior que 2023 acima de 2023 maior que 2023
+RECEITA LÍQUIDA MARGEM BRUTA AJUSTADA LUCRO LÍQUIDO 100% MARGEM LÍQUIDA 100%
+4T24 4T24 4T24 4T24
+R$ 1.035,0 milhões, 27,5% 39,3% de margem bruta R$ 188,9 milhões, 14,8% 18,2% de margem líquida
+superior ao 4T23 ajustada, 0,4 p.p. superior superior ao 4T23 100%, 2,1 p.p. inferior ao
+ao 4T23 4T23
+2024 2024 2024 2024
+R$ 3.926,3 milhões, 36,0% 38,7% de margem bruta R$ 698,8 milhões, 41,0% 17,8% de margem líquida
+maior que 2023 ajustada, 0,5 p.p. maior maior que 2023 100%, 0,6 p.p. maior que
+que 2023 2023
+2
 
-## Destaques 4T24
+<!-- PAGE 3 -->
+MENSAGEM DA ADMINISTRAÇÃO
+Em 2024, consolidamos mais um ano de alta performance e resultados ultrapassando recordes históricos,
+reforçando nossa estratégia diferenciada e vencedora. Mesmo em um cenário desafiador para a economia
+brasileira e, especificamente, para o setor de construção civil, demonstramos resiliência, adquirindo terrenos
+bem localizados e garantindo uma conversão eficiente de vendas em repasses. Esse desempenho resultou em
+geração de caixa operacional positiva e na continuidade da distribuição de dividendos aos acionistas. A
+manutenção de margens – incluindo um ROE de 66% – reforça a nossa solidez financeira, que também foi
+reconhecida pelo mercado com a obtenção do rating máximo pela Moody’s, evidenciando a confiança na nossa
+estratégia e governança.
+No último trimestre do ano, lançamos sete empreendimentos, totalizandoR$ 1,4bilhão emVGV. Noacumulado
+do ano, nossos lançamentos alcançaram 34 lançamentos e R$ 6,6 bilhões em VGV, enquanto o landbank
+chegou ao recorde de R$ 20,1 bilhões, garantindo um pipeline robusto para os próximos ciclos.
+As recentes alterações no Plano Diretor ampliaram as oportunidades para novos projetos nas regiões
+metropolitanas de São Paulo e Rio de Janeiro. O aumento da capacidade construtiva, a extensão da operação
+urbana no Porto e as intervenções urbanísticas em São Paulo estão agregando valor aos empreendimentos,
+promovendo habitações populares em localizações estratégicas e aumentando a atratividade dos produtos.
+À medida que 2025 se inicia, temos mantido um ritmo acelerado. Até esta data, já lançamos 14
+empreendimentos em São Paulo e no Rio de Janeiro, somando R$ 2,8 bilhões em VGV. Esse volume reflete
+nossa estratégia de concentrar lançamentos no primeiro semestre.
+Entre os destaques de empreendimentos já lançados este ano, estão o Supreme-Anália Franco, em São Paulo,
+vendas iniciadas em fevereiro, com 625 unidades e VGV de R$ 203,8 milhões, que já atingiu mais de 70% de
+vendas, e o Residencial Nova Olaria I, na Zona Norte do Rio de Janeiro, vendas iniciadas em janeiro, com 498
+unidades e VGV de R$ 127,4 milhões, que alcançou mais de 70% de vendas.
+Também tivemos avanços significativos no campo ESG com iniciativas que reforçam nosso compromisso com a
+criação de valor para toda a sociedade. Como parte dessa jornada, criamos em 2025 o Instituto Cury,
+consolidando o nosso Investimento Social Privado e ampliando nosso impacto na sociedade. O Instituto tem
+como foco Educação para Inclusão Socioprodutiva e Esporte para Mobilidade Social, promovendo ações que
+geram transformação e oportunidades.
+A busca pela eficiência operacional também marcou 2024, com a gestão otimizada de 67 canteiros de obra.
+Como reflexo desse compromisso, obtivemos as certificações ISO 14001 e ISO 45001, um marco na
+implementação de novos procedimentos voltados à gestão ambiental, saúde e segurança, fortalecendo as
+melhores práticas do setor.
+Para 2025, seguimos atentos aos desafios macroeconômicos, como a alta de juros e a pressão inflacionária que
+exigem ainda mais disciplina e uma abordagem conservadora na análise de viabilidade. No entanto, mantemos
+a confiança no crescimento sustentável dos nossos indicadores operacionais e financeiros. Nossa solidez e
+estratégia bem definida continuarão nos guiando, permitindo que avancemos com consistência, eficiência e
+resiliência.
+3
 
-- Receita líquida: R$ 1.035,0 mm (+27,5% A/A, -2,0% T/T)
-- Margem bruta: 39,1% (+0,4 p.p. A/A) — **maior margem bruta do ano**
-- EBITDA ajustado: R$ 238,5 mm (+23,9% A/A), margem 23,0%
-- Lucro líquido 100%: R$ 188,9 mm (+14,8% A/A)
-- Lucro líquido %Cury: R$ 165,8 mm (+3,4% A/A), margem 16,0%
-- ROE UDM: 66,3% — recorde histórico
-- LPA: R$ 0,5719
-- Lançamentos: 7 empreendimentos, VGV R$ 1.399,8 mm (+63,4% A/A)
-- Vendas líquidas: R$ 1.423,7 mm (+57,4% A/A); VSO 43,7%
-- Geração de caixa: R$ 150,4 mm
+<!-- PAGE 4 -->
+PRINCIPAIS INDICADORES
+Financeiro (R$ milhões) 4T24 3T24 % T/T 4T23 % A/A 2024 2023 % A/A
+Receita líquida 1.035,0 1.055,9 -2,0% 811,6 27,5% 3.926,3 2.886,2 36,0%
+Custo das vendas e serviços -630,6 -646,4 -2,4% -497,9 26,7% -2.413,4 -1.790,8 34,8%
+Lucro bruto 404,4 409,4 -1,2% 313,7 28,9% 1.512,9 1.095,4 38,1%
+Margem bruta 39,1% 38,8% 0,3 p.p. 38,7% 0,4 p.p. 38,5% 38,0% 0,5 p.p.
+Margem bruta ajustada1 39,3% 39,0% 0,3 p.p. 38,9% 0,4 p.p. 38,7% 38,2% 0,5 p.p.
+Ebitda Ajustado2 238,5 221,4 7,7% 192,5 23,9% 859,2 613,8 40,0%
+Margem Ebitda Ajustada2 23,0% 21,0% 2,0 p.p. 23,7% -0,7 p.p. 21,9% 21,3% 0,6 p.p.
+Lucro líquido da Atividade (100%)3 188,9 180,6 4,6% 164,6 14,8% 698,8 495,6 41,0%
+Margem líquida (100%) 18,2% 17,1% 1,1 p.p. 20,3% -2,1 p.p. 17,8% 17,2% 0,6 p.p.
+Lucro líquido %Cury4 165,8 170,6 -2,8% 160,3 3,4% 649,8 481,8 34,9%
+Margem líquida % Cury 16,0% 16,2% -0,2 p.p. 19,8% -3,8 p.p. 16,6% 16,7% -0,1 p.p.
+ROE5 66,3% 64,2% 2,1 p.p. 59,6% 6,7 p.p. 66,3% 59,6% 6,7 p.p.
+Lucro por ação 0,5719 0,5884 -2,8% 0,5531 3,4% 2,2417 1,6619 34,9%
+Operacional 4T24 3T24 % T/T 4T23 % A/A 2024 2023 % A/A
+Lançamentos 7 9 -22,2% 6 16,7% 34 29 17,2%
+VGV lançado6 (R$ milhões) 1.399,8 1.560,7 -10,3% 856,6 63,4% 6.579,6 4.440,9 48,2%
+Número de Unidades 4.061 5.157 -21,3% 3.123 30,0% 20.765 15.675 32,5%
+Preço Médio/Unid. (R$ mil) 344,7 302,6 13,9% 274,3 25,7% 316,9 283,3 11,9%
+Média de Unid. Por Lanç. 580 573 1,2% 521 11,3% 611 541 12,9%
+Vendas Brutas (R$ milhões) 1.531,0 1.590,2 -3,7% 1.025,1 49,3% 6.727,0 4.685,8 43,6%
+Número de Unidades (mil) 4.819 5.191 -7,2% 3.627 32,9% 22.146 16.953 30,6%
+Preço Médio/Unid. (R$ mil) 317,7 306,3 3,7% 282,6 12,4% 303,8 276,4 9,9%
+Distratos (R$ milhões) 107,3 153,1 -29,9% 120,5 -11,0% 564,7 535,6 5,4%
+Vendas Líquidas (R$ milhões) 1.423,7 1.437,2 -0,9% 904,7 57,4% 6.162,3 4.150,2 48,5%
+VSO Líquida7 43,7% 43,9% -0,2 p.p. 38,9% 4,8 p.p. 77,1% 74,5% 2,6 p.p.
+Landbank (VGV, R$ milhões) 20.122,4 19.517,0 3,1% 14.508,0 38,7% 20.122,4 14.508,0 38,7%
+Número de Unidades 69.554 67.118 3,6% 50.731 37,1% 69.554 50.731 37,1%
+Preço Médio/Unid. (R$ mil) 289,3 290,8 -0,5% 286,0 1,2% 289,3 286,0 1,2%
+Geração de Caixa (R$ milhões) 150,4 147,0 2,3% 176,1 -14,6% 466,7 424,2 10,0%
+1) Lucro Bruto e Margem Bruta Ajustados por Juros Capitalizados.
+2) EBITDA (Lucros antes dos juros, impostos, depreciação e amortização) Ajustado por Juros Capitalizados.
+3) Lucro Líquido IFRS de 100% da atividade, considerando parcela atribuível aos controladores e parcela atribuível a sócios/parceiros em empreendimentos.
+4) Lucro Líquido considerando apenas a parcela atribuível aos controladores, o percentual Cury.
+5) ROE (Retorno sobre Patrimônio Líquido), calculado utilizando patrimônio médio do período atribuível à Cury (Controladores) e Lucro Líquido atribuível à Cury
+(Controladores) nos últimos 12 meses.
+6) Valor Geral de Vendas (VGV) dos Lançamentos realizados do período.
+7) Vendas Sobre Oferta, indicador do percentual vendido em relação ao total de estoque disponível no período.
+4
 
-## Destaques 2024 (anual)
+<!-- PAGE 5 -->
+DESEMPENHO OPERACIONAL
+LANÇAMENTOS
+No 4T24 foram lançados 7 empreendimentos, sendo 5 localizados em SP e 2 no RJ, totalizando o
+VGV de R$ 1.399,8 milhões, representando um aumento de 63,4% em relação ao mesmo período
+do ano anterior. No acumulado do ano a Companhia lançou 34 empreendimentos, sendo 20
+localizados em SP e 14 localizados no RJ, atingindo o VGV de R$ 6.579,6 milhões, aumento de
+48,2% em relação ao mesmo período do ano anterior.
+O preço médio das unidades lançadas atingiu R$ 344,7 mil no 4T24, aumento de 25,7% em
+relação ao 4T23 e aumento de 13,9% se comparado com o 3T24 devido ao mix de produtos
+lançados neste trimestre. No acumulado do ano, houve aumento de 11,9% em relação ao mesmo
+período do ano anterior.
+Lançamentos 4T24 3T24 % T/T 4T23 % A/A 2024 2023 % A/A
+Número de Empreendimentos 7 9 -22,2% 6 16,7% 34 29 17,2%
+VGV (R$ milhões) 1.399,8 1.560,7* -10,3% 856,6 63,4% 6.579,6 4.440,9 48,2%
+Número de Unidades 4.061 5.157 -21,3% 3.123 30,0% 20.765 15.675 32,5%
+Preço Médio/Unid. (R$ mil) 344,7 302,6* 13,9% 274,3 25,7% 316,9 283,3 11,9%
+Média de Unid. por Lanç. 580 573 1,2% 521 11,3% 611 541 12,9%
+Parte Cury Lançamentos (VGV) 1.061,0 1.503,0* -29,4% 856,6 23,9% 5.740,8 4.220,1 36,0%
+Parte Cury Lançamentos (%) 75,8% 96,3% -20,5 p.p. 100,0% -24,2 p.p. 87,3% 95,0% -7,7 p.p.
+*Reapresentado
+5
 
-- Receita líquida: R$ 3.926,3 mm (+36,0% A/A)
-- Margem bruta: 38,5% (+0,5 p.p.)
-- EBITDA ajustado: R$ 859,2 mm (+40,0%), margem 21,9%
-- Lucro líquido 100%: R$ 698,8 mm (+41,0%)
-- Lucro líquido %Cury: R$ 649,8 mm (+34,9%), margem 16,6%
-- ROE UDM: 66,3%
-- LPA: R$ 2,2417 (+34,9%)
-- Lançamentos: 34 empreendimentos, VGV R$ 6.579,6 mm (+48,2%)
-- Vendas líquidas: R$ 6.162,3 mm (+48,5%); VSO UDM 77,1%
-- Repasses: R$ 4.689,5 mm (+32,8%)
-- Geração de caixa: R$ 466,7 mm (+10,0%)
-- Dividendos pagos: R$ 484,0 mm
+<!-- PAGE 6 -->
+DESTAQUES DE LANÇAMENTOS DO 4T24 - % vendido até 10/03/2025
+São Paulo
+Lyne Campo Limpo
+Out/2024
+VGV R$ 245 MM
+Zona Sul
+99% vendido
+Máximo Vila Mascote
+Nov/2024
+VGV R$ 166 MM
+Zona Sul
+98% vendido
+Rio de Janeiro
+Orla Mauá
+Nov/2024
+VGV R$ 351 MM
+Porto
+98% vendido
+6
 
-## Principais Indicadores
+<!-- PAGE 7 -->
+VENDAS
+No 4T24 as vendas líquidas atingiram R$ 1.423,7 milhões, apresentando aumento de 57,4% em
+relação ao 4T23 e queda de 0,9% ante o 3T24. O preço médio de vendas registrado no 4T24 foi
+de R$ 317,7 mil, 12,4% de aumento em relação ao 4T23 e um crescimento de 3,7% em relação ao
+3T24. Em 2024, houve um aumento de 9,9% em relação ao mesmo período do ano anterior.
+No acumulado do ano, as vendas líquidas atingiram R$ 6.162,3 milhões, crescimento de 48,5% em
+relação ao mesmo período do ano anterior.
+Vendas, %VSO 4T24 3T24 % T/T 4T23 % A/A 2024 2023 % A/A
+Vendas Brutas (R$ milhões VGV) 1.531,0 1.590,2 -3,7% 1.025,1 49,4% 6.727,0 4.685,8 43,6%
+Número de Unidades 4.819 5.191 -7,2% 3.627 32,9% 22.146 16.953 30,6%
+Preço Médio/Unid. (R$ mil) 317,7 306,3 3,7% 282,6 12,4% 303,8 276,4 9,9%
+VSO Bruta (%) 45,5% 46,4% -0,9 p.p. 41,9% 3,6 p.p. 78,6% 76,7% 1,9 p.p.
+Distratos (R$ milhões) 107,3 153,1 -29,9% 120,5 -11,0% 564,7 535,6 5,4%
+Vendas Líquidas (R$ milhões VGV) 1.423,7 1.437,2 -0,9% 904,7 57,4% 6.162,3 4.150,2 48,5%
+% Lançamentos 65,0% 50,1% 14,9 p.p. 57,9% 7,1 p.p. 60,3% 56,2% 4,1 p.p.
+% Estoque 37,5% 49,9% -12,4 p.p. 42,1% -4,6 p.p. 40,2% 43,8% -3,6 p.p.
+Distratos / Vendas Brutas 7,0% 9,6% -2,6 p.p. 11,8% -4,8 p.p. 8,4% 11,4% -3,0 p.p.
+VSO Líquida (%) 43,7% 43,9% -0,2 p.p. 38,9% 4,8 p.p. 77,1% 74,5% 2,6 p.p.
+VSO Líquida UDM (últimos doze meses - %) 77,1% 75,4% 1,7 p.p. 74,5% 2,6 p.p. 77,1% 74,5% 2,6 p.p.
+Parte Cury Vendas Líquidas (R$ milhões VGV) 1.177,3 1.359,6 -13,4% 850,3 38,5% 5.499,5 3.917,6 40,4%
+Parte Cury Vendas Líquidas (%) 82,7% 94,6% -11,9 p.p. 94,0% -11,3 p.p. 89,2% 94,4% -5,2 p.p.
+Nos gráficos abaixo é possível ver o detalhamento das vendas por faixa de preço e preço médio:
+% de participação por faixa de preço
+4T24 2% 64% 34%
+3T24 2% 70% 28%
+4T23 1% 76% 23%
+2024 3% 68% 29%
+2023 1% 76% 23%
+Até R$ 220.000 Entre R$ 220.000 e R$ 350.000 Acima R$ 350.000
+7
 
-| R$ milhões | 4T24 | 3T24 | %T/T | 4T23 | %A/A | 2024 | 2023 | %A/A |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Receita líquida | 1.035,0 | 1.055,9 | -2,0% | 811,6 | 27,5% | 3.926,3 | 2.886,2 | 36,0% |
-| Custos | -630,6 | -646,4 | -2,4% | -497,9 | 26,7% | -2.413,4 | -1.790,8 | 34,8% |
-| Lucro bruto | 404,4 | 409,4 | -1,2% | 313,7 | 28,9% | 1.512,9 | 1.095,4 | 38,1% |
-| Margem bruta | 39,1% | 38,8% | | 38,7% | | 38,5% | 38,0% | |
-| Margem bruta ajustada | 39,3% | 39,0% | | 38,9% | | 38,7% | 38,2% | |
-| EBITDA ajustado | 238,5 | 221,4 | 7,7% | 192,5 | 23,9% | 859,2 | 613,8 | 40,0% |
-| Margem EBITDA ajustada | 23,0% | 21,0% | | 23,7% | | 21,9% | 21,3% | |
-| Lucro líquido (100%) | 188,9 | 180,6 | 4,6% | 164,6 | 14,8% | 698,8 | 495,6 | 41,0% |
-| Margem líquida (100%) | 18,2% | 17,1% | | 20,3% | | 17,8% | 17,2% | |
-| Lucro líquido % Cury | 165,8 | 170,6 | -2,8% | 160,3 | 3,4% | 649,8 | 481,8 | 34,9% |
-| Margem líquida % Cury | 16,0% | 16,2% | | 19,8% | | 16,6% | 16,7% | |
-| ROE UDM | 66,3% | 64,2% | | 59,6% | | 66,3% | 59,6% | |
-| LPA (R$) | 0,5719 | 0,5884 | -2,8% | 0,5531 | 3,4% | 2,2417 | 1,6619 | 34,9% |
+<!-- PAGE 8 -->
+Vendas Líquidas -Trimestral Vendas Líquidas -Acumulado no ano
+(R$ milhões) (R$ milhões)
+77,1%
+74,5%
+43,9% 43,7%
+38,9%
++48,5%
+6.162,3
++57,4%
+-0,9%
+1.437,2 1.423,7 4.150,2
+904,7
+4T23 3T24 4T24 2023 2024
+VSO Líquida (%) VSO Líquida (%)
+Preço Médio por unidade -Acumulado no ano
+Preço Médio por unidade -Trimestral
+(R$ mil)
+(R$ mil)
++9,9%
++12,4%
++3,7%
+317,7
+306,3 303,8
+282,6 276,4
+4T23 3T24 4T24 2023 2024
+8
 
-## Operacional
+<!-- PAGE 9 -->
+VELOCIDADE DE VENDAS – VSO
+A velocidade de vendas trimestral líquida, medida pelo indicador de Vendas Sobre Oferta (VSO),
+foi de 43,7% no 4T24 ante 38,9% no 4T23 e 43,9% no 3T24.
+Nos últimos doze meses a VSO foi de 77,1%, aumento de 2,6 p.p. em relação ao 4T23 e
+crescimento de 1,7 p.p. em relação ao 3T24.
+VSO -líquida 12 meses
+VSO -líquida trimestral
++4,8 p.p. +2,6 p.p.
+-0,2 p.p. +1,7 p.p.
+43,9% 43,7% 74,5% 75,4% 77,1%
+38,9%
+4T23 3T24 4T24 4T23 3T24 4T24
+ESTOQUES
+A Cury encerrou o 4T24 com estoque de R$ 1.833,3 milhões. Desse total, 98,6% se referem a
+unidades lançadas ou em construção e apenas 1,4% a unidades concluídas.
+Estoque (R$ milhões, exceto % e unidades) 4T24 3T24 % T/T 4T23 % A/A
+Em andamento 1.808,2 1.817,0 -0,5% 1.397,0 29,4%
+% Total 98,6% 98,7% -0,1 p.p. 98,1% 0,5 p.p.
+Concluído 25,1 23,2 8,2% 26,8 -6,3%
+% Total 1,4% 1,3% 0,1 p.p. 1,9% -0,5 p.p.
+Total 1.833,3 1.840,2 -0,4% 1.423,8 28,8%
+Total (Unidades) 5.206 5.609 -7,2% 4.991 4,3%
+Agingdos Estoques 4T24
+(Com base na data do lançamento)
+15%
+29% Até 3 meses
+Até 6 meses
+Até 1 ano
+30%
+Mais de 1 ano
+26%
+9
 
-### Lançamentos
+<!-- PAGE 10 -->
+REPASSES
+O VGV repassado no 4T24 reduziu 35,5% em relação ao 3T24 e aumentou 8,2% se comparado
+ao 4T23. As unidades repassadas passaram de 3.017 no 4T23 para 3.156 no 4T24, representando
+um aumento de 4,6% em relação ao 4T23 e uma redução de 33,6% em comparação ao trimestre
+anterior.
+Considerando o desempenho de 2024, o VGV repassado aumentou 32,8% em relação ao ano de
+2023 e a evolução das unidades repassadas foi de 13.266 em 2023 para 16.115 em 2024.
+Repasses 4T24 3T24 % T/T 4T23 % A/A 2024 2023 % A/A
+VGV Repassado (R$ milhões) 927,7 1.437,6 -35,5% 857,1 8,2% 4.689,5 3.531,0 32,8%
+Unidades Repassadas 3.156 4.756 -33,6% 3.017 4,6% 16.115 13.266 21,5%
+BANCO DE TERRENOS
+Considerando os lançamentos recentes, bem como as aquisições realizadas, a Companhia
+encerrou o 4T24 com carteira de terrenos de R$ 20.122,4 milhões em VGV potencial, atingindo
+recorde histórico, apresentando evolução de 38,7% em relação ao banco de terrenos do 4T23 e
+crescimento de 3,1% em relação ao 3T24, o que representa o total de 69.554 unidades.
+Atualmente o banco de terrenos da Cury é composto por 14.428,5 milhões localizados em São
+Paulo e 5.693,9 milhões no Rio de Janeiro.
+Banco de Terrenos 4T24 3T24 % T/T 4T23 % A/A
+Banco de Terrenos (VGV, R$ milhões) 20.122,4 19.517,0 3,1% 14.508,0 38,7%
+Número de Empreendimentos 79 71 11,3% 76 3,9%
+Número de Unidades 69.554 67.118 3,6% 50.731 37,1%
+Preço Médio/Unid. (R$ mil) 289,3 290,8 -0,5% 286,0 1,2%
+10
 
-| | 4T24 | 3T24 | 4T23 | 2024 | 2023 |
-|---|---:|---:|---:|---:|---:|
-| Nº empreendimentos | 7 | 9 | 6 | 34 | 29 |
-| VGV (R$ mm) | 1.399,8 | 1.560,7 | 856,6 | 6.579,6 | 4.440,9 |
-| Nº unidades | 4.061 | 5.157 | 3.123 | 20.765 | 15.675 |
-| Preço médio/un (R$ mil) | 344,7 | 302,6 | 274,3 | 316,9 | 283,3 |
-| Parte Cury VGV | 1.061,0 | 1.503,0 | 856,6 | 5.740,8 | 4.220,1 |
-| Parte Cury % | 75,8% | 96,3% | 100,0% | 87,3% | 95,0% |
+<!-- PAGE 11 -->
+DESEMPENHO ECONÔMICO-FINANCEIRO
+RECEITA OPERACIONAL LÍQUIDA
+No 4T24, a receita operacional líquida totalizou o montante de R$ 1.035,0 milhões, queda de 2,0% quando
+comparado ao 3T24 e crescimento de 27,5% em relação ao 4T23.
+Considerandooanode2024areceitatotalizouR$3.926,3milhões,crescimentode36,0%frenteaoregistradono
+mesmo período do ano anterior.
+Receita líquida (R$ milhões, exceto %) 4T24 3T24 % T/T 4T23 % A/A 2024 2023 % A/A
+Receita líquida com imóveis vendidos e serviços prestados 1.035,0 1.055,9 -2,0% 811,6 27,5% 3.926,3 2.886,2 36,0%
+Custos com imóveis vendidos e serviços prestados -630,6 -646,4 -2,4% -497,9 26,7% -2.413,4 -1.790,8 34,8%
+Lucro Bruto 404,4 409,4 -1,2% 313,7 28,9% 1.512,9 1.095,4 38,1%
+Margem Bruta 39,1% 38,8% 0,3 p.p. 38,7% 0,4 p.p. 38,5% 38,0% 0,5 p.p.
+Receita líquida
+Receita líquida
+(R$ milhões)
+(R$ milhões)
++36,0% 3.926,3
++27,5%
+-2,0%
+2.886,2
+1.055,9 1.035,0
+811,6
+4T23 3T24 4T24 2023 2024
+LUCRO BRUTO
+O lucro bruto atingiu R$ 404,4 milhões no trimestre, crescimento de 28,9% em relação ao 4T23 e queda de 1,2%
+emcomparaçãoao3T24.Amargem brutaalcançou39,1%no4T24,crescimentode0,4p.p.emrelaçãoao4T23e
+crescimento de 0,3 p.p. comparado ao 3T24.
+Noacumuladodoano,olucrobrutosomouR$1.512,9milhões,aumentode38,1%emrelaçãoaomesmoperíodo
+do ano anterior. A margem bruta alcançou 38,5% em 2024¸ crescimento de 0,5 p.p. em relação a 2023.
+Lucro Bruto & Margem Bruta (R$ milhões, exceto %) 4T24 3T24 % T/T 4T23 % A/A 2024 2023 % A/A
+Lucro Bruto (a) 404,4 409,4 -1,2% 313,7 28,9% 1.512,9 1.095,4 38,1%
+Margem Bruta 39,1% 38,8% 0,3 p.p. 38,7% 0,4 p.p. 38,5% 38,0% 0,5 p.p.
+Juros Capitalizados (b) 2,3 2,0 15,0% 1,8 27,8% 8,4 6,0 40,0%
+Lucro Bruto Ajustado (a+b) 406,7 411,4 -1,1% 315,5 28,9% 1.521,3 1.101,4 38,1%
+Margem Bruta Ajustada 39,3% 39,0% 0,3 p.p. 38,9% 0,4 p.p. 38,7% 38,2% 0,5 p.p.
+11
 
-5 em SP, 2 no RJ no 4T24. 2024 total: 20 SP, 14 RJ.
+<!-- PAGE 12 -->
+Lucro bruto e margem bruta
+Lucro bruto e margem bruta
+(R$ milhões e %)
+(R$ milhões e %)
+38,7% 38,8% 39,1%
+38,0% 38,5%
++28,9%
+-1,2%
++38,1% 1.512,9
+409,4 404,4 1.095,4
+313,7
+4T23 3T24 4T24 2023 2024
+Margem bruta Margem bruta
+DESPESAS COMERCIAIS, GERAIS E ADMINISTRATIVAS
+Despesas comerciais
+No 4T24, as despesas comerciais totalizaram R$ 104,0 milhões, montante 37,7% acima dos R$ 75,5 milhões
+verificados no 4T23. Na comparação com o 3T24 houve queda de 8,7%. As despesas comerciais
+corresponderam a 10,0% da receita líquida no 4T24, ante 9,3% no 4T23 com aumento de 0,7 p.p. e queda
+de 0,8 p.p. quando comparado aos 10,8% registrados no 3T24.
+No ano de 2024, totalizaram o montante de R$ 391,9 milhões, um aumento de 37,4% em relação aos R$
+285,2 milhões registrados em 2023.
+Despesas gerais e administrativas
+As despesas gerais e administrativas atingiram R$ 52,9 milhões no 4T24, o que representa aumento de
+46,5% frente aos R$ 36,1 milhões do 4T23. Na comparação com o 3T24, houve queda de 22,2%. Em
+relação ao percentual da receita líquida, no 4T24 tais despesas alcançaram 5,1%, aumento de 0,7 p.p. ante
+os 4,4% do 4T23 e queda de 1,3 p.p. em relação aos 6,4% no 3T24.
+No ano de2024,o montantetotalizou R$224,4 milhões, representando umaumento de35,3% emrelação
+aos R$ 165,8 milhões registrados em 2023.
+12
 
-### Vendas
+<!-- PAGE 13 -->
+Outras receitas e despesas operacionais
+O resultado líquido da conta de outras receitas e despesas operacionais no 4T24 correspondeu à
+despesa de R$ 21,2 milhões, ante despesa de R$ 19,9 milhões no 4T23 e de R$ 19,7 milhões no
+3T24.
+No ano de 2024, o montante totalizou R$ 85,5 milhões, apresentando um aumento de 33,6% em
+relação aos R$ 64,0 milhões registrados em 2023.
+Despesas Operacionais (R$ milhões, exceto %) 4T24 3T24 % T/T 4T23 % A/A 2024 2023 % A/A
+Despesas Comerciais -104,0 -113,9 -8,7% -75,5 37,7% -391,9 -285,2 37,4%
+% Receita Líquida 10,0% 10,8% -0,8 p.p. 9,3% 0,7 p.p. 10,0% 9,9% 0,1 p.p.
+Despesas Gerais e Administrativas -52,9 -68,0 -22,2% -36,1 46,5% -224,4 -165,8 35,3%
+% Receita Líquida 5,1% 6,4% -1,3 p.p. 4,4% 0,7 p.p. 5,7% 5,7% 0,0 p.p.
+Resultado da equivalência patrimonial 1,0 3,4 -70,6% 1,4 -28,6% 8,5 1,6 431,3%
+% Receita Líquida -0,1% -0,3% 0,2 p.p. -0,2% 0,1 p.p. -0,2% -0,1% -0,1 p.p.
+Outras Receitas/Despesas -21,2 -19,7 7,6% -19,9 6,5% -85,5 -64,0 33,6%
+% Receita Líquida 2,0% 1,9% 0,1 p.p. 2,5% -0,5 p.p. 2,2% 2,2% 0,0 p.p.
+Despesas Operacionais -177,1 -198,2 -10,6% -130,1 36,1% -693,3 -513,4 35,0%
+% Receita Líquida 17,1% 18,8% -1,7 p.p. 16,0% 1,1 p.p. 17,7% 17,8% -0,1 p.p.
+EBITDA E MARGEM EBITDA
+O EBITDA da Companhia no 4T24 alcançou R$ 236,2 milhões, 23,9% acima do 4T23 e 7,7% acima
+quando comparado ao 3T24. A margem EBITDA atingiu 22,8%, representando uma queda 0,7 p.p. e
+um incremento de 2,0 p.p. quando comparado com as margens registradas no 4T23 e 3T24,
+respectivamente.
+Em 2024, o EBITDA apresentou um aumento de 40,0% em relação a 2023.
+EBITDA (R$ milhões, exceto %) 4T24 3T24 % T/T 4T23 % A/A 2024 2023 % A/A
+Lucro antes do resultado financeiro 227,4 211,2 7,7% 183,7 23,8% 819,7 581,9 40,9%
+(+) Depreciação e amortização 8,8 8,2 7,3% 7,0 25,7% 31,1 25,9 20,1%
+Ebitda 236,2 219,4 7,7% 190,7 23,9% 850,8 607,8 40,0%
+Margem Ebitda 22,8% 20,8% 2,0 p.p. 23,5% -0,7 p.p. 21,7% 21,1% 0,6 p.p.
+(+) custos com encargos de financiamentos 2,3 2,0 15,0% 1,8 30,6% 8,4 6,0 39,4%
+Ebitda ajustado 238,5 221,4 7,7% 192,5 23,9% 859,2 613,8 40,0%
+Margem Ebitda ajustada 23,0% 21,0% 2,0 p.p. 23,7% -0,7 p.p. 21,9% 21,3% 0,6 p.p.
+13
 
-| | 4T24 | 3T24 | 4T23 | 2024 | 2023 |
-|---|---:|---:|---:|---:|---:|
-| Vendas brutas (R$ mm) | 1.531,0 | 1.590,2 | 1.025,1 | 6.727,0 | 4.685,8 |
-| Nº unidades | 4.819 | 5.191 | 3.627 | 22.146 | 16.953 |
-| Preço médio/un (R$ mil) | 317,7 | 306,3 | 282,6 | 303,8 | 276,4 |
-| Distratos (R$ mm) | 107,3 | 153,1 | 120,5 | 564,7 | 535,6 |
-| Vendas líquidas (R$ mm) | 1.423,7 | 1.437,2 | 904,7 | 6.162,3 | 4.150,2 |
-| VSO líquida | 43,7% | 43,9% | 38,9% | 77,1% | 74,5% |
-| Distratos/vendas brutas | 7,0% | 9,6% | 11,8% | 8,4% | 11,4% |
+<!-- PAGE 14 -->
+Ebitda e Margem Ebitda Ebitda e Margem Ebitda
+(R$ milhões e %) (R$ Milhões e %)
+21,1% 21,7%
+23,5% 20,8% 22,8%
++40,0%
+850,8
++23,9%
++7,7%
+236,2 607,8
+219,4
+190,7
+4T23 3T24 4T24 2023 2024
+Margem Ebitda Margem Ebitda
+Ebitda Ajustado e Margem Ebitda
+Ebitda Ajustado e Margem Ebitda Ajustada
+Ajustada
+(R$ milhões e %)
+(R$ milhões e %)
+21,9%
+21,3%
+23,7% 23,0%
+21,0%
++40,0%
++23,9% 859,2
++7,7%
+238,5 613,8
+221,4
+192,5
+4T23 3T24 4T24 2023 2024
+Margem Ebitda Ajustada Margem Ebitda Ajustada
+RESULTADO FINANCEIRO
+No 4T24 o resultado financeiro líquido correspondeu a uma despesa financeira de R$ 12,8 milhões, no
+4T23 a uma receita financeira de R$ 0,7 milhão e no 3T24 a uma despesa financeira de R$ 7,6 milhões.
+Em 2024, totalizou uma despesa financeira no montante de R$ 31,1 milhões, apresentando um
+crescimento de 123,7% em relação ao montante de R$ 13,9 milhões apresentado em 2023.
+Resultado Financeiro (R$ milhões, exceto %) 4T24 3T24 % T/T 4T23 % A/A 2024 2023 % A/A
+Despesas Financeiras -41,6 -39,7 4,8% -25,2 65,1% -137,2 -100,1 37,1%
+Receitas Financeiras 28,8 32,1 -10,3% 25,9 11,2% 106,1 86,2 23,1%
+Resultado Financeiro -12,8 -7,6 68,4% 0,7 n.a. -31,1 -13,9 123,7%
+14
 
-### Estoque
+<!-- PAGE 15 -->
+LUCRO LÍQUIDO E MARGEM LÍQUIDA
+A Cury registrou lucro líquido da atividade (100%) de R$ 188,9 milhões no trimestre,
+14,8% acima do que o 4T23 e 4,6% acima do resultado líquido do 3T24. O percentual
+atribuível à Cury (parte Cury) do lucro líquido foi de R$ 165,8 milhões, sendo 3,4%
+acima do obtido no 4T23 e 2,8% abaixo em relação ao 3T24. A margem líquida
+consolidada foi de 18,2%, enquanto a margem líquida reportada no 4T23 foi de 20,3% e
+de 17,1% no 3T24. Considerando o Lucro %Cury, a margem líquida foi de 16,0%, ante
+19,8% no 4T23 e 16,2% no 3T24.
+Considerando o resultado em 2024, o lucro líquido da atividade (100%) atingiu R$ 698,8
+milhões, representando um aumento de 41,0% em comparação ao mesmo período do
+ano anterior. O percentual atribuível à Cury (parte Cury) totalizou R$ 649,8 milhões,
+sendo 34,9% acima ao registrado em 2023. Dessa forma, a margem líquida da atividade
+(100%) alcançou 17,8%, refletindo uma variação de 0,6 p.p. acima em relação ao mesmo
+período do ano anterior. Simultaneamente, a margem líquida atribuível à Cury foi de
+16,6%, com uma variação de 0,1 p.p. abaixo em relação à margem reportada no período
+anterior.
+Lucro líquido e margem líquida Lucro líquido e margem líquida
+%100 %100
+(R$ milhões e %) (R$ milhões e %)
+17,2% 17,8%
+20,3% 17,1% 18,2%
++41,0% 698,8
++14,8%
++4,6% 495,6
+180,6 188,9
+164,6
+4T23 3T24 4T24
+2023 2024
+Margem líquida Margem líquida
+Lucro líquido e margem líquida Lucro líquido e margem líquida
+%Cury %Cury
+(R$ milhões e %) (R$ milhões e %)
+19,8% 16,0% 16,7% 16,6%
+16,2%
++34,9%
++3,4% 649,8
+-2,8%
+481,8
+160,3 170,6 165,8
+4T23 3T24 4T24
+2023 2024
+Margem líquida
+15 Margem líquida
 
-- Em andamento 4T24: R$ 1.808,2 mm (+29,4% A/A, -0,5% T/T)
+<!-- PAGE 16 -->
+ANÁLISE BALANÇO PATRIMONIAL
+CAIXA E EQUIVALENTES E TÍTULOS E VALORES MOBILIÁRIOS
+Em 31-12-2024, a posição de Caixa da Companhia, incluindo títulos e valores mobiliários, era de
+R$ 1.416,2 milhões, crescimento de 42,7% frente ao registrado em 31-12-2023.
+Caixa e Equivalentes (R$ milhões) 31-12-2024 31-12-2023 Var %
+Caixa e Equivalentes e Títulos e Valores Mobiliários 1.416,2 992,3 42,7%
+CONTAS A RECEBER
+O saldo de contas a receber que, em 31-12-2024, somava R$ 1.437,2 milhões, registrou um
+crescimento de 31,8% ante à posição registrada em 31-12-2023.
+Contas a receber (R$ milhões) 31-12-2024 31-12-2023 Var %
+Contas a receber 1.437,2 1.090,8 31,8%
+ENDIVIDAMENTO
+Com dívida bruta de R$ 986,4 milhões e posição de caixa e equivalentes de R$ 1.416,2 milhões, a
+Companhia registrou saldo de caixa líquido positivo de R$ 429,8 milhões no 4T24, ante caixa
+líquido positivo de R$ 378,9 milhões no 4T23. Ao final do exercício, 78,8% da dívida bruta da
+Cury tinha seu vencimento no longo prazo, até 2031.
+Endividamento (R$ milhões) 31-12-2024 31-12-2023 Var %
+Curto prazo 208,9 124,3 68,1%
+Longo prazo 777,5 489,1 59,0%
+Dívida Bruta 986,4 613,4 60,8%
+Caixa e Equivalentes 1.416,2 992,3 42,7%
+Dívida - (Caixa) líquida -429,8 -378,9 13,4%
+16
 
-### Repasses
+<!-- PAGE 17 -->
+Perfil do endividamento Corporativo Cronograma de Amortização 31/12/2024 da
+31/12/2024 Dívida Corporativa
+(R$ milhões)
+Curto prazo
+788
+21%
+Longo prazo
+150
+79%
+00
+Em 12 meses De 12 a 24 meses Acima de 24 meses
+RESULTADO A APROPRIAR (REF)
+O resultado de vendas de imóveis a apropriar não reconhecido nas informações financeiras
+trimestrais atingiu R$ 2.414,9 milhões, alta de 64,3% em relação ao registrado em 31-12-2023. A
+Margem Bruta do Resultado a Apropriar foi de 43,4% o que representa crescimento de 1,4 p.p.
+em relação a 31-12-2023.
+Resultado a Apropriar (REF) (R$ milhões) 31-12-2024 31-12-2023 Var %
+Receitas de vendas a apropriar 5.565,3 3.501,9 58,9%
+(-) Custo orçados de unidades vendidas -3.150,4 -2.032,2 55,0%
+(=) Resultado de vendas de imóveis a apropriar 2.414,9 1.469,8 64,3%
+Margem Bruta REF 43,4% 42,0% +1,4 p.p.
+CARTEIRA CURY
+Abaixo está apresentado o controle gerencial da carteira. Trata-se dos recebíveis não
+relacionados a instituições financeiras, ou seja, apenas aqueles sob gestão da Companhia, que
+se dividem em: (i) Pro-Soluto, a parcela não financiável pelas instituições financeiras das
+unidades habitacionais e; (ii) Venda Direta, que são aquelas feitas sem a intermediação de
+agente financeiro, nas quais o pagamento é feito diretamente à Cury. As unidades concluídas de
+venda direta contam com o processo de Alienação Fiduciária, o que confere garantia adicional
+de recebimento à Companhia.
+17
 
-| | 4T24 | 3T24 | 4T23 | 2024 | 2023 |
-|---|---:|---:|---:|---:|---:|
-| VGV repassado (R$ mm) | 927,7 | 1.437,6 | 857,1 | 4.689,5 | 3.531,0 |
+<!-- PAGE 18 -->
+Carteira Cury (R$ milhões) 4T24 3T24 % T/T 4T23 % A/A
+Carteira Total 2.186,7 1.967,6 11,1% 1.296,8 68,6%
+Obras concluídas 230,8 228,2 1,1% 215,8 7,0%
+%Total 10,6% 11,6% -1,0 p.p. 16,6% -6,0 p.p.
+Obras em andamento 1.955,9 1.739,4 12,4% 1.081,0 80,9%
+Carteira de Recebíveis
+%Total 89,4% 88,4% 1,0 p.p. 83,4% 6,0 p.p.
+Pro-soluto 889,5 849,2 4,7% 628,2 41,6%
+%Total 40,7% 43,2% -2,5 p.p. 48,4% -7,7 p.p.
+Obras concluídas 157,7 152,1 3,7% 140,7 12,1%
+41%
+%Total 7,2% 7,7% -0,5 p.p. 10,8% -3,6 p.p.
+Obras em andamento 731,8 697,1 5,0% 487,5 50,1% 59%
+%Total 33,5% 35,4% -1,9 p.p. 37,6% -4,1 p.p.
+Venda direta 1.297,2 1.118,4 16,0% 668,6 94,0%
+%Total 59,3% 56,8% 2,5 p.p. 51,6% 7,7 p.p.
+Obras concluídas 73,1 76,1 -3,9% 75,1 -2,7%
+Venda Direta Pro-Soluto
+%Total 3,3% 3,9% -0,6 p.p. 5,8% -2,5 p.p.
+Obras em andamento 1.224,1 1.042,3 17,4% 593,5 106,3%
+%Total 56,0% 53,0% 3,0 p.p. 45,8% 10,2 p.p.
+GERAÇÃO DE CAIXA
+No 4T24, a Companhia apresentou geração de caixa operacional positiva, registrando R$ 150,4
+milhões. O montante é 14,6% abaixo do saldo positivo de R$ 176,1 milhões registrado no 4T23 e
+2,3% acima de R$ 147,0 milhões no 3T24. No acumulado do ano, a Companhia atingiu R$ 466,7
+milhões de geração de caixa operacional, 10,0% superior aos R$ 424,2 milhões gerados no
+acumulado do mesmo período do ano anterior. A geração de caixa registrada em 2024 reflete a
+eficiência da operação da Companhia, alcançada sem a necessidade de antecipação de
+recebíveis.
+A Cury encerrou o 4T24 com saldo a receber de repasses já realizados no montante de R$ 46,0
+milhões.
+Não fosse a mudança de regra da Caixa Econômica Federal, na qual ela deixa de depositar os
+recursos para a incorporadora no momento do repasse, passando a depositar somente após o
+registro do contrato em cartório, esse valores já teriam sido computados como geração de
+caixa.
+A Cury continuará aprimorando os processos internos para tentar reduzir os prazos e os
+impactos.
+Em 2024, foram pagos R$ 484,0 milhões em dividendos, não classificados como fluxo de caixa
+operacional, portanto, não incluídos na geração de caixa reportada.
+Geração de Caixa (R$ milhões) 4T24 3T24 % T/T 4T23 % A/A 2024 2023 % A/A
+Geração de caixa 150,4 147,0 2,3% 176,1 -14,6% 466,7 424,2 10,0%
+18
 
-### Banco de Terrenos
+<!-- PAGE 19 -->
+RETORNO SOBRE O PATRIMÔNIO LÍQUIDO (ROE)
+A Companhia continua apresentando retorno sobre o patrimônio líquido destacável em seu
+setor de atuação, fruto de uma operação geradora de caixa aliada à sua política de distribuição
+de dividendos.
+ROE (12 meses) 4T24 3T24 % T/T 4T23 % A/A
+ROE 66,3% 64,2% 2,1 p.p. 59,6% 6,7 p.p.
+*Baseado no patrimônio líquido médio entre início e fim do período de 12 meses.
+RELACIONAMENTO COM AUDITORES INDEPENDENTES
+Em atendimento à Resolução CVM nº 162, de 13 de julho de 2022, a Companhia informa que a
+KPMG Auditores Independentes Ltda. foi contratada, pelo montante de R$ 425 mil, para a
+prestação dos seguintes serviços: i. auditoria das demonstrações financeiras de acordo com as
+práticas contábeis adotadas no Brasil e Normas Internacionais de Relatório Financeiro (“IFRS”); e
+ii. revisão das informações contábeis intermediárias trimestrais de acordo com as normas
+brasileiras e internacionais de revisão de informações intermediárias (NBC TR 2410 - Revisão de
+Informações Intermediárias Executadas pelo Auditor da Entidade e ISRE 2410 - “Review of
+Interim Financial Information Performed by the Independent Auditor of the Entity”,
+respectivamente).
+A Companhia não contratou o auditor independente para outros trabalhos que não os serviços
+de auditoria das demonstrações financeiras.
+A contratação do auditor independente está fundamentada nos princípios que resguardam a
+independência do auditor, que consistem em: a. o auditor não deve auditar seu próprio
+trabalho; b. não exercer funções gerenciais; e c. não prestar quaisquer serviços que possam ser
+considerados proibidos pelas normas vigentes. Além disso, a Administração obtém do auditor
+independente declaração de que os serviços especiais prestados não afetam a sua
+independência profissional. As informações no relatório de desempenho que não estão
+claramente identificadas como cópia das informações constantes das demonstrações
+financeiras, não foram objeto de auditoria ou revisão.
+SOBRE A CURY
+A Cury Construtora e Incorporadora S.A. é uma das líderes no segmento residencial do Brasil. A
+Companhia atua nos estados de SP e RJ e tem como pilar estratégico a busca pela eficiência
+máxima no emprego de capital. Trabalha a compra de terrenos com permutas e parcelamentos
+de longo prazo, combinados a alto nível de repasses nos primeiros meses pós lançamento e alta
+eficiência construtiva.
+Clique aqui para acessar os dados operacionais e financeiros
+19
 
-| | 4T24 | 3T24 | 4T23 |
-|---|---:|---:|---:|
-| VGV (R$ mm) | 20.122,4 | 19.517,0 | 14.508,0 |
-| Nº unidades | 69.554 | 67.118 | 50.731 |
-| Preço médio/un (R$ mil) | 289,3 | 290,8 | 286,0 |
+<!-- PAGE 20 -->
+ANEXO I – BALANÇO PATRIMONIAL
+Consolidado Consolidado
+Ativo Passivo
+31-12-2024 31-12-2023 31-12-2024 31-12-2023
+Circulante Circulante
+Caixa e equivalentes de caixa 975.224 643.630 Fornecedores 187.317 171.904
+Títulos e valores mobiliários 441.012 348.639 Empréstimos e financiamentos 208.869 124.271
+Contas a receber 345.783 481.218 Obrigações trabalhistas 32.592 22.734
+Imóveis a comercializar 808.203 641.546 Obrigações tributárias 27.898 19.051
+Adiantamentos a fornecedores 17.033 13.547 Credores por imóveis compromissados 521.618 506.369
+Outros créditos 138.882 84.228 Adiantamento de clientes 184.216 97.208
+Impostos e contribuições diferidos 7.330 12.772
+Dividendos a pagar 54.338 118.537
+Provisão para riscos trabalhistas, cíveis e tributários 13.493 11.390
+Outras contas a pagar 12.294 3.900
+Total do ativo circulante 2 .726.137 2 .212.808 Total do passivo circulante 1 .249.965 1.088.136
+Não circulante Não circulante
+Realizável a longo prazo Empréstimos e financiamentos 777.513 489.081
+Contas a receber 1.091.454 609.583 Provisão para garantia de obra 60.743 38.880
+Imóveis a comercializar 384.925 76.002 Credores por imóveis compromissados 843.900 423.231
+Valores a receber entre part. Rel. 19.811 12.877 Provisão para riscos trabalhistas, cíveis e tributários 13.769 12.048
+Outros créditos 33.123 37.440 Provisão para perdas com investimentos 756 766
+Impostos e contribuições diferidos 50.677 42.901
+Outras contas a pagar 32.433 -
+Total do realizável a longo prazo 1.529.313 735.902 Total do passivo não circulante 1 .779.791 1 .006.907
+Propriedades para investimentos - 67.842
+Investimentos 42.244 40.875 Capital social 491.054 291.054
+Imobilizado 41.601 34.596 Ações em tesouraria -12.210 -12.210
+Reserva de capital 17.598 17.598
+Reserva legal 93.860 61.368
+Reservas de lucros 505.168 507.155
+Total do ativo não circulante 1 .613.158 8 79.215 Subtotal do patrimônio líquido 1 .095.470 8 64.965
+Participação de acionistas não controladores 214.069 1 32.015
+Total do patrimônio líquido 1 .309.539 9 96.980
+Total do ativo 4.339.295 3.092.023 Total do passivo e patrimônio líquido 4.339.295 3.092.023
+20
 
-## DRE (R$ milhões)
+<!-- PAGE 21 -->
+ANEXO II – DEMONSTRAÇÃO DE RESULTADOS (DRE)
+DRE (R$ Milhões) 4T24 3T24 % T/T 4T23 % A/A 2024 2023 % A/A
+Receita líquida de vendas 1.035,0 1.055,9 -2,0% 811,6 27,5% 3.926,3 2.886,2 36,0%
+Total dos custos -630,6 -646,4 -2,4% -497,9 26,7% -2.413,4 -1.790,8 34,8%
+Lucro bruto 404,4 409,4 -1,2% 313,7 28,9% 1.512,9 1.095,4 38,1%
+Margem Bruta 39,1% 38,8% 0,3 p.p. 38,7% 0,4 p.p. 38,5% 38,0% 0,5 p.p.
+Margem Bruta Ajustada 39,3% 39,0% 0,3 p.p. 38,9% 0,4 p.p. 38,7% 38,2% 0,5 p.p.
+Receitas (despesas) operacionais
+Despesas comerciais -104,0 -113,9 -8,7% -75,5 37,7% -391,9 -285,2 37,4%
+Despesas gerais e administrativas -52,9 -68,0 -22,2% -36,1 46,5% -224,4 -165,8 35,3%
+Resultado com equivalência patrimonial 1,0 3,4 -70,6% 1,4 -28,6% 8,5 1,6 431,3%
+Outras receitas/(despesas) operacionais -21,2 -19,7 7,6% -19,9 6,5% -85,5 -64,0 33,6%
+Total receitas/(despesas) operacionais -177,1 -198,2 -10,6% -130,1 36,1% -693,3 -513,4 35,0%
+Lucro antes do resultado financeiro 227,4 211,2 7,7% 183,7 23,8% 819,7 581,9 40,9%
+Resultado financeiro
+Despesas financeiras -41,6 -39,7 4,8% -25,2 65,1% -137,2 -100,1 37,1%
+Receitas financeiras 28,8 32,1 -10,3% 25,9 11,2% 106,1 86,2 23,1%
+Total resultado financeiro -12,8 -7,6 68,4% 0,7 n.a. -31,1 -13,9 123,7%
+Lucro antes dos impostos 214,6 203,6 5,4% 184,4 16,4% 788,6 568,0 38,8%
+Imposto de renda e contribuição social
+Correntes -27,9 -21,4 30,4% -19,9 40,2% -86,6 -67,8 27,7%
+Diferidos 2,2 -1,6 n.a. 0,1 n.a. -3,2 -4,6 -30,4%
+Total do imposto de renda e contribuição social -25,7 -23,0 11,7% -19,8 29,8% -89,8 -72,4 24,0%
+Lucro líquido da atividade 188,9 180,6 4,6% 164,6 14,8% 698,8 495,6 41,0%
+Margem líquida 18,2% 17,1% 1,1 p.p. 20,3% -2,1 p.p. 17,8% 17,2% 0,6 p.p.
+Lucro líquido %Cury 165,8 170,6 -2,8% 160,3 3,4% 649,8 481,8 34,9%
+Margem líquida 16,0% 16,2% -0,2 p.p. 19,8% -3,8 p.p. 16,6% 16,7% -0,1 p.p.
+Resultado por ação básico e diluído 0,5719 0,5884 -2,8% 0,5531 3,4% 2,2417 1,6619 34,9%
+Este material contém cálculos que podem não produzir uma soma ou resultado preciso devido a arredondamentos realizados.
+21
 
-| | 4T24 | 3T24 | 4T23 | 2024 | 2023 |
-|---|---:|---:|---:|---:|---:|
-| Receita líquida | 1.035,0 | 1.055,9 | 811,6 | 3.926,3 | 2.886,2 |
-| Custos | -630,6 | -646,4 | -497,9 | -2.413,4 | -1.790,8 |
-| Lucro bruto | 404,4 | 409,4 | 313,7 | 1.512,9 | 1.095,4 |
-| Margem bruta | 39,1% | 38,8% | 38,7% | 38,5% | 38,0% |
-| Despesas comerciais | -104,0 | -113,9 | -75,5 | -391,9 | -285,2 |
-| Despesas G&A | -52,9 | -68,0 | -36,1 | -224,4 | -165,8 |
-| Equivalência patrimonial | 1,0 | 3,4 | 1,4 | 8,5 | 1,6 |
-| Outras receitas/despesas | -21,2 | -19,7 | -19,9 | -85,5 | -64,0 |
-| Total desp. operacionais | -177,1 | -198,2 | -130,1 | -693,3 | -513,4 |
-| Lucro antes result. financeiro | 227,4 | 211,2 | 183,7 | 819,7 | 581,9 |
-| Despesas financeiras | -41,6 | -39,7 | -25,2 | -137,2 | -100,1 |
-| Receitas financeiras | 28,8 | 32,1 | 25,9 | 106,1 | 86,2 |
-| Resultado financeiro | -12,8 | -7,6 | 0,7 | -31,1 | -13,9 |
-| Lucro antes impostos | 214,6 | 203,6 | 184,4 | 788,6 | 568,0 |
-| IR/CSLL corrente | -27,9 | -21,4 | -19,9 | -86,6 | -67,8 |
-| IR/CSLL diferido | 2,2 | -1,6 | 0,1 | -3,2 | -4,6 |
-| Total IR/CSLL | -25,7 | -23,0 | -19,8 | -89,8 | -72,4 |
-| Lucro líquido atividade (100%) | 188,9 | 180,6 | 164,6 | 698,8 | 495,6 |
-| Margem líquida (100%) | 18,2% | 17,1% | 20,3% | 17,8% | 17,2% |
-| Lucro líquido %Cury | 165,8 | 170,6 | 160,3 | 649,8 | 481,8 |
-| Margem líquida %Cury | 16,0% | 16,2% | 19,8% | 16,6% | 16,7% |
-| LPA (R$) | 0,5719 | 0,5884 | 0,5531 | 2,2417 | 1,6619 |
+<!-- PAGE 22 -->
+22
+Conferência de Resultados do 4T24 e ano de 2024
+12 de março de 2025 – 10h00 (horário de Brasília)
+Português – com tradução simultânea
+Link Zoom
+Ronaldo Cury de Capua
+Diretor de Relações com Investidores
+Nádia Santos
+Gerente de Relações com Investidores
+João Vitor Varricchio
+Supervisor de Relações com Investidores
+Thiago Leal
+Analista de Relações com Investidores Jr.
+Mariana Sarmento
+Estagiária de Relações com Investidores
+ri@cury.net- Tel.: (11) 3117-1487
+Ao longo de mais de 60 anos evoluímos, investimos em qualidade e inovação e nos tornamos
+uma das maiores construtoras do país.
+Cury, tradição e solidez com a modernidade de uma empresa em constante evolução.
+Hoje, essa evolução se traduz em uma nova marca porque evoluir é ficar melhor.
+22
 
-## Balanço Patrimonial Consolidado (R$ mm)
+<!-- PAGE 23 -->
+Glossário
+BancodeTerrenos(LandBank):TerrenosmantidosemestoquecomaestimativadeVGV(ValorGeral
+deVenda) futuro.Éo banco deterrenos daCompanhiaecontemplatodososterrenosjáadquiridose
+ainda não lançados.
+Caixa e Equivalentes: Composto pelo saldo das contas de caixa e equivalentes de caixa e aplicações
+financeiras (títulos e valores mobiliários).
+Crédito Associativo: Concedido exclusivamente pela Caixa Econômica Federal, é uma forma de
+financiamentoparaobrasdesdeoiníciodaconstrução.Duranteoperíododeconstruçãodo imóvel,o
+cliente paga apenas os juros referentes ao repasse a incorporadora e o pro – soluto, somente após a
+finalização da obra é iniciado a amortização do financiamento.
+CaixaLíquido/DívidaLíquida:(Dívida Bruta +Instrumentos de Financiamentos Derivativos Passivos) –
+(Caixa Total + Instrumentos de Financiamentos Derivativos Ativos). Quando o resultado dessa
+operação for positivo, chama-se Dívida Líquida, caso seja negativo, Caixa Líquido.
+Distratos: Rescisão ou anulação de um contrato anteriormente acertado entre as partes. No caso da
+Cury, os distratos ocorrem apenas quando o cliente ainda não repassou para a Caixa Econômica
+Federal ou quando o cliente cancela durante o processo de venda direta.
+EBITDA: Sigla em inglês para Earnings Before Interest, Taxes, Depreciation and Amortization. Em
+português, “Lucros Antes de Juros, Impostos, Depreciação e Amortização” (também conhecida como
+LAJIDA). É um indicador muito utilizado para avaliar empresas de capital aberto, pois representa a
+geraçãooperacionaldecaixadaCompanhia,ouseja,oquantoaempresageraderecursos apenasem
+suas atividades operacionais, sem levar em consideração os efeitos financeiros, impostos e de
+depreciação.
+Lançamento: Ocorre quando o empreendimento é disponibilizado para a venda.
+Lucro por ação: Lucro líquido do período dividido pela quantidade de ações (no último dia do
+trimestre) emitidas.
+Margem Bruta Ajustada: A margem bruta ajustada exclui os juros capitalizados que são utilizados
+como financiamento da Obra de cada período. Como a Cury tem uma velocidade de vendas muito
+alta, não são todos os empreendimentos que temos a necessidade defazer umfinanciamento junto à
+Caixa Econômica Federal.
+MinhaCasaMinhaVida: OPrograma MinhaCasaMinhaVida,conhecido como MCMV, é o programa
+nacional de habitação do Governo Federal, que tem como objetivo a redução do Déficit Habitacional.
+Para um cliente ser elegível as taxas com condições especiais e subsídios, o programa define um teto
+no valor da unidade (atualmente está em R$ 350.000) e para a renda mensal familiar, que varia de R$
+2.640 até R$ 8.000.
+23
 
-| Ativo | 31/12/2024 | 31/12/2023 |
-|---|---:|---:|
-| **Circulante** | **2.726,1** | **2.212,8** |
-| Caixa e equivalentes | 975,2 | 643,6 |
-| Títulos e valores mobiliários | 441,0 | 348,6 |
-| Contas a receber | 345,8 | 481,2 |
-| Imóveis a comercializar | 808,2 | 641,5 |
-| Adiantamentos a fornecedores | 17,0 | 13,5 |
-| Outros créditos | 138,9 | 84,2 |
-| **Não circulante** | **1.613,2** | **879,2** |
-| Contas a receber (LP) | 1.091,5 | 609,6 |
-| Imóveis a comercializar (LP) | 384,9 | 76,0 |
-| Valores entre partes relacionadas | 19,8 | 12,9 |
-| Outros créditos | 33,1 | 37,4 |
-| Impostos diferidos | 50,7 | 42,9 |
-| Propriedades para investimentos | — | 67,8 |
-| Investimentos | 42,2 | 40,9 |
-| Imobilizado | 41,6 | 34,6 |
-| **Total do ativo** | **4.339,3** | **3.092,0** |
+<!-- PAGE 24 -->
+Percentage of Completion ("PoC"): Custo incorrido dividido pelo custo total da obra. A receita é
+reconhecida até o limite da relação "custo incorrido / custo total".
+Permuta: Alternativa para a compra de terreno que consiste em pagar o proprietário do terreno com
+unidades (no caso da permuta física) ou com o fluxo de caixa de vendas de unidades (no caso de
+permuta financeira).
+Repasse: O repasse imobiliário é a porção do valor do imóvel que será financiado pelo banco para o
+cliente. No caso da Cury o repasse é sempre feito com a Caixa Econômica Federal através do Crédito
+Associativo que faz o financiamento desde o início da construção.
+Resultado a Apropriar: Trata-se da parte da receita, custo e margem das unidades vendidas que não
+foram apropriadas na demonstração de resultado pois aguardam a evolução das obras. Devido ao
+método contábil "PoC", o resultado das unidades vendidas é apropriado conforme a evolução
+financeira das obras. Portanto é o resultado que será reconhecido à medida que o custo incorrido
+evoluir.
+ROE: Return On Equity (em português: Retorno sobre o Patrimônio Líquido). O ROE é definido pelo
+quociente entre o lucro líquido atribuído a acionistas controladores e o valor médio do patrimônio
+líquido atribuído a acionistas controladores.
+SBPE: Sistema Brasileiro de Poupança e Empréstimo – Financiamento bancário que tem como fonte
+os recursos da poupança. No caso da Cury, as unidades financiadas nesta modalidade são 100%
+operadas pela Caixa Econômica Federal, que utiliza o Crédito Associativo, portanto, oferece o
+financiamento desde o início da construção.
+UDM: Período que compreende os últimos 12 meses.
+VGV: Valor Geral de Vendas, que é o montante em R$ que pode ser obtido ao vender cada unidade
+imobiliária.
+VGV Lançado: Valor Geral de Vendas das unidades lançadas em determinado período.
+VGV Repassado: Valor Geral de Vendas repassadas para Caixa.
+VSO: Venda Sobre Oferta (VSO) é um indicador utilizado no mercado imobiliário que serve para
+mostrar o total de imóveis comercializados em relação ao total disponível para a venda.
+24
 
-| Passivo | 31/12/2024 | 31/12/2023 |
-|---|---:|---:|
-| **Circulante** | **1.250,0** | **1.088,1** |
-| Fornecedores | 187,3 | 171,9 |
-| Empréstimos e financiamentos | 208,9 | 124,3 |
-| Obrigações trabalhistas | 32,6 | 22,7 |
-| Obrigações tributárias | 27,9 | 19,1 |
-| Credores por imóveis compromissados | 521,6 | 506,4 |
-| Adiantamento de clientes | 184,2 | 97,2 |
-| Impostos e contribuições diferidos | 7,3 | 12,8 |
-| Dividendos a pagar | 54,3 | 118,5 |
-| Provisão para riscos | 13,5 | 11,4 |
-| Outras contas a pagar | 12,3 | 3,9 |
-| **Não circulante** | **1.779,8** | **1.006,9** |
-| Empréstimos e financiamentos | 777,5 | 489,1 |
-| Provisão para garantia de obra | 60,7 | 38,9 |
-| Credores por imóveis compromissados | 843,9 | 423,2 |
-| Provisão para riscos | 13,8 | 12,0 |
-| Provisão perdas com investimentos | 0,8 | 0,8 |
-| Outras contas a pagar | 32,4 | — |
-| **Patrimônio líquido** | **1.309,5** | **997,0** |
-| Capital social | 491,1 | 291,1 |
-| Ações em tesouraria | -12,2 | -12,2 |
-| Reserva de capital | 17,6 | 17,6 |
-| Reserva legal | 93,9 | 61,4 |
-| Reservas de lucros | 505,2 | 507,2 |
-| Subtotal PL | 1.095,5 | 865,0 |
-| Participação de não controladores | 214,1 | 132,0 |
-| **Total passivo + PL** | **4.339,3** | **3.092,0** |
+<!-- PAGE 25 -->
 
-## Financeiro
 
-### Caixa / Contas a Receber / Endividamento
+<!-- PAGE 26 -->
+São Paulo, March 11th, 2025 – Cury Construtora e Incorporadora S.A. (“Company” or “Cury”) (B3: CURY3), one of the leading residential real-estate
+developers in Brazil, discloses its results for the fourth quarter of 2024 (4Q24), and the twelve months of 2024 (2024). The operational and financial
+information presented herein, except where indicated otherwise, is presented in Brazilian Reais (R$), in accordance with the international accounting
+standards (IFRS), as well as with the accounting practices adopted in Brazil, applicable to real estate development in the country. The comparisons
+presented herein consider the same period of 2023, and, when applicable, to the third quarter of 2024 (3Q24).
+WITH STRONG FINANCIAL AND OPERATIONAL PERFORMANCE IN
+2024, CURY REPORTS NET REVENUE OF R$3.9 BILLION,
+NET INCOME OF R$699 MILLION, AND A ROE OF 66%
+HIGHLIGHTS
+LAUNCHES NET PRE-SALES LANDBANK CASH GENERATION
+4Q24 4Q24 2024 4Q24
+R$1,399.8 million, 63.4% R$1,423.7 million, up by R$20,122 million, 38.7% R$150.4 million, 14.6%
+higher than 4Q23 57.4% over 4Q23 higher than 2023 lower than 4Q23
+2024 2024 2024 2024
+R$6,579.6 million, 48.2% R$6,162.3 million, 48.5% 69,554 units, 37.1% higher R$466.7 million, 10.0%
+higher than 2023 higher than 2023 than 2023 higher than 2023
+NET REVENUES A D JUSTED GROSS NET INCOME NET MARGIN 100%
+MARGIN 100%
+4Q24 4Q24 4Q24 4Q24
+R$1,035.0 million, an 39.3% adjusted gross R$188.9 million, an increase 18.2%, an decrease of 2.1
+increase of 27.5% compared margin, of 14.8% compared to 4Q23 p.p. compared to 4Q23
+to 4Q23 0.4 p.p. higher than 4Q23
+2024 2024 2024 2024
+R$3,926.3 million, 36.0% 38.7%, adjusted gross R$698.8 million, 41.0% 17.8%, 0.6 p.p.
+higher than 2023 margin 0.5 p.p. higher than 2023 higher than 2023
+higher than 2023
+2
 
-| R$ mm | 31/12/2024 | 31/12/2023 | Var |
-|---|---:|---:|---:|
-| Caixa e equivalentes (total) | 1.416,2 | 992,3 | 42,7% |
-| Contas a receber (consolidado) | 1.437,2 | 1.090,8 | 31,8% |
-| Empréstimos CP | 208,9 | 124,3 | 68,1% |
-| Empréstimos LP | 777,5 | 489,1 | 59,0% |
-| Dívida bruta | 986,4 | 613,4 | 60,8% |
-| Dívida líquida | -429,8 | -378,9 | 13,4% |
+<!-- PAGE 27 -->
+MESSAGE FROM THE MANAGEMENT
+In 2024, we delivered another year of high performance and record results, reinforcing our winning strategy.
+Despite challenges in the Brazilian economy and construction sector, we demonstrated resilience by acquiring
+prime land and efficiently converting sales into transfers. This led to positive operational cash flow and continued
+dividend distributions. Maintaining strong margins, including a 66% ROE, and achieving Moody’s highest rating,
+highlights our financial strength and market confidence in our strategy and Governance.
+In the 4Q24, we launched seven projects, totaling R$1.4 billion in PSV. For the full year, our launches reached 34
+projects and R$6.6 billion in PSV, while our landbank reached a record R$20.1 billion, ensuring a robust pipeline for
+the upcoming cycles.
+Recent changes in the Master Plan have created new opportunities in São Paulo and Rio de Janeiro’s metropolitan
+regions. Increased construction capacity, urban operations in the Port area, and São Paulo’s urban interventions
+are adding value to projects, promoting affordable housing in strategic locations, and boosting product
+attractiveness.
+As 2025 begins, we have maintained a fast pace. To date, we have already launched 14 projects in São Paulo and
+Rio de Janeiro, totaling R$2.8 billion in PSV. This volume reflects our strategy of concentrating launches in the first
+half of the year.
+Among the highlights of projects already launched this year are Supreme-Anália Franco, in São Paulo, with sales
+starting in February, offering 625 units and a PSV of R$203.8 million, which has already reached over 70% sales,
+and Residencial Nova Olaria I, in the North Zone of Rio de Janeiro, with sales starting in January, offering 498 units
+and a PSV of R$127.4 million, which has achieved over 70% sales.
+We also made significant progress in the ESG field with initiatives that reinforce our commitment to creating value
+for society as a whole. As part of this journey, we established the Cury Institute in 2025, consolidating our Private
+Social Investment and expanding our impact on society. The Institute focuses on Education for Socio-Productive
+Inclusion and Sports for Social Mobility, promoting actions that generate transformation and opportunities.
+The pursuit of operational efficiency also marked 2024, with the optimized management of 67 construction sites.
+As a reflection of this commitment, we obtained ISO 14001 and ISO 45001 certifications, a milestone in the
+implementation of new procedures focused on environmental management, health, and safety, strengthening the
+best practices in the sector.
+For 2025, we remain attentive to macroeconomic challenges, such as rising interest rates and inflationary pressures,
+which demand even greater discipline and a conservative approach to feasibility analysis. However, we maintain
+confidence in the sustainable growth of our operational and financial indicators. Our solid foundation and well-
+defined strategy will continue to guide us, allowing us to move forward with consistency, efficiency, and resilience.
+3
 
-Perfil dívida corporativa: 21% CP / 79% LP, vencimento até 2031.
+<!-- PAGE 28 -->
+MAIN INDICATORS
+Financial (R$ million) 4Q24 3Q24 % Q/Q 4Q23 % Y/Y 2024 2023 % Y/Y
+Net Revenues 1,035.0 1,055.9 -2.0% 811.6 27.5% 3,926.3 2,886.2 36.0%
+Cost of properties sold and services -630.6 -646.4 -2.4% -497.9 26.7% -2,413.4 -1,790.8 34.8%
+Gross profit 404.4 409.4 -1.2% 313.7 28.9% 1,512.9 1,095.4 38.1%
+Gross margin 39.1% 38.8% 0.3 p.p. 38.7% 0.4 p.p. 38.5% 38.0% 0.5 p.p.
+Adjusted gross margin1 39.3% 39.0% 0.3 p.p. 38.9% 0.4 p.p. 38.7% 38.2% 0.5 p.p.
+Adjusted EBITDA2 238.5 221.4 7.7% 192.5 23.9% 859.2 613.8 40.0%
+Adjusted EBITDA margin2 23.0% 21.0% 2.0 p.p. 23.7% -0.7 p.p. 21.9% 21.3% 0.6 p.p.
+Net income (100%)3 188.9 180.6 4.6% 164.6 14.8% 698.8 495.6 41.0%
+Net margin (100%) 18.2% 17.1% 1.1 p.p. 20.3% -2.1 p.p. 17.8% 17.2% 0.6 p.p.
+Net income %Cury4 165.8 170.6 -2.8% 160.3 3.4% 649.8 481.8 34.9%
+Net margin %Cury 16.0% 16.2% -0.2 p.p. 19.8% -3.8 p.p. 16.6% 16.7% -0.1 p.p.
+ROE5 66.3% 64.2% 2.1 p.p. 59.6% 6.7 p.p. 66.3% 59.6% 6.7 p.p.
+Earnings per Share 0.5719 0.5884 -2.8% 0.5531 3.4% 2.2417 1.6619 34.9%
+Operating 4Q24 3Q24 % Q/Q 4Q23 % Y/Y 2024 2023 % Y/Y
+Launches 7 9 -22.2% 6 16.7% 34 29 17.2%
+PSV (R$ million)6 1,399.8 1,560.7 -10.3% 856.6 63.4% 6,579.6 4,440.9 48.2%
+Units launched 4,061 5,157 -21.3% 3,123 30.0% 20,765 15,675 32.5%
+Average price per unit (R$ '000) 344.7 302.6 13.9% 274.3 25.7% 316.9 283.3 11.9%
+Average unit per launch 580 573 1.2% 521 11.3% 611 541 12.9%
+Gross pre-sales (R$ million) 1,531.0 1,590.2 -3.7% 1,025.1 49.3% 6,727.0 4,685.8 43.6%
+# units sold 4,819 5,191 -7.2% 3,627 32.9% 22,146 16,953 30.6%
+Average price per unit (R$ '000) 317.7 306.3 3.7% 282.6 12.4% 303.8 276.4 9.9%
+Cancellations (R$ '000) 107.3 153.1 -29.9% 120.5 -11.0% 564.7 535.6 5.4%
+Net pre-sales (R$ million) 1,423.7 1,437.2 -0.9% 904.7 57.4% 6,162.3 4,150.2 48.5%
+Net SOS7 43.7% 43.9% -0.2 p.p. 38.9% 4.8 p.p. 77.1% 74.5% 2.6 p.p.
+LandBank (PSV, R$ million) 20,122.4 19,517.0 3.1% 14,508.0 38.7% 20,122.4 14,508.0 38.7%
+Potential # units on landbank 69,554 67,118 3.6% 50,731 37.1% 69,554 50,731 37.1%
+Average price per unit (R$ '000) 289.3 290.8 -0.5% 286.0 1.2% 289.3 286.0 1.2%
+Cash Generation (R$ million) 150.4 147.0 2.3% 176.1 -14.6% 466.7 424.2 10.0%
+1) Gross Profit and Gross Margin Adjusted by Capitalized Interests.
+2) EBITDA (Earnings Before Interest, Taxes, Depreciation and Amortization) Adjusted by Capitalized Interests.
+3) Net income in accordance with the IFRS from all operations, considering the share attributable to controlling shareholders, and the share attributable to partners/associates in
+the projects.
+4) Net Income considering only the share of the controlling shareholders (% Cury).
+5) ROE (Return on Equity) calculated based on Cury’s (Controlling Shareholders) share of average equity during the period and Cury’s (Controlling Shareholders) share of Net
+Income.
+6) Potential Sales Value (PSV) of Launches during the period.
+7) Supply, sales (in percentage terms) in relation to total inventory during the period.
+4
 
-### Resultado a Apropriar (REF, R$ mm)
+<!-- PAGE 29 -->
+OPERATIONAL PERFORMANCE
+LAUNCHES
+In 4Q24, 7 projects were launched, 5 of which located in São Paulo and 2 in Rio de Janeiro, adding
+up to a PSV of R$1,399.8 million, representing an increase of 63.4% when compared to 4Q23. During
+the 2024, the Company launched 34 projects, 20 of which located in São Paulo and 14 in Rio de
+Janeiro, reaching an overall PSV of R$6,579.6 million, representing a 48.2% increase compared to
+2023.
+The average price of units launched reached R$344.7 thousand in 4Q24, corresponding to an
+increase of 25.7% over the average price of 4Q23, and up by 13.9% when compared to 3Q24. In the
+2024, the average price of units launched reached an increase of 11.9% compared to the same period
+of the previous year.
+Launches 4Q24 3Q24 % Q/Q 4Q23 % Y/Y 2024 2023 % Y/Y
+Number of launches 7 9 -22.2% 6 16.7% 34 29 17.2%
+PSV (R$ million) 1,399.8 1,560.7* -10.3% 856.6 63.4% 6,579.6 4,440.9 48.2%
+Units launched 4,061 5,157 -21.3% 3,123 30.0% 20,765 15,675 32.5%
+Average price per unit (R$ '000) 344.7 302.6* 13.9% 274.3 25.7% 316.9 283.3 11.9%
+Average unit per launch 580 573 1.2% 521 11.3% 611 541 12.9%
+Share Cury (PSV) 1,061.0 1,503.0* -29.4% 856.6 23.9% 5,740.8 4,220.1 36.0%
+Share Cury (%) 75.8% 96.3% -20.5 p.p. 100.0% -24.2 p.p. 87.3% 95.0% -7.7 p.p.
+*Represented
+5
 
-| | 31/12/2024 | 31/12/2023 | Var |
-|---|---:|---:|---:|
-| Receitas a apropriar | 5.565,3 | 3.501,9 | 58,9% |
-| Custos orçados | -3.150,4 | -2.032,2 | 55,0% |
-| Resultado a apropriar | 2.414,9 | 1.469,8 | 64,3% |
-| Margem REF | 43,4% | 42,0% | 1,4 p.p. |
+<!-- PAGE 30 -->
+HIGHLIGHTS OF 4Q24 LAUNCHES - % sold until 03/10/2025
+São Paulo
+L yne Campo Limpo
+Oct/2024
+PSV R$245 MM
+South Zone
+99% sold
+M áximo Vila Mascote
+Nov/2024
+PSV R$166 MM
+South Zone
+98% sold
+Rio de Janeiro
+Orla Mauá
+Nov/2024
+PSV R$351 MM
+Porto
+98% sold
+6
 
-### Carteira Cury Gerencial (R$ mm)
+<!-- PAGE 31 -->
+SALES
+In 4Q24, Net PSV sold reached R$1,423.7 million, an amount that represents a growth of 57.4% in
+comparison with 4Q23, and a decrease of 0.9% compared to 3Q24. The average sales price recorded
+in 4Q24 was R$317.7 thousand, being 12.4% higher than 4Q23 and an increase of 3.7% when
+compared to 3Q24. In 2024 there was an increase of 9.9% in relation to the same period of the year.
+Based on the accumulated period in the twelve months of the year, PSV sold came to R$6,162.3
+million in 2024, showing a 48.5% growth compared to the same period of the previous year.
+Pre-sales, %SOS 4Q24 3Q24 % Q/Q 4Q23 % Y/Y 2024 2023 % Y/Y
+Gross pre-sales (R$ million PSV) 1,531.0 1,590.2 -3.7% 1,025.1 49.4% 6,727.0 4,685.8 43.6%
+# units sold 4,819 5,191 -7.2% 3,627 32.9% 22,146 16,953 30.6%
+Average price per unit (R$ '000) 317.7 306.3 3.7% 282.6 12.4% 303.8 276.4 9.9%
+Gross SOS (%) 45.5% 46.4% -0.9 p.p. 41.9% 3.6 p.p. 78.6% 76.7% 1.9 p.p.
+Cancellations (R$ million) 107.3 153.1 -29.9% 120.5 -11.0% 564.7 535.6 5.4%
+Net pre-sales (R$ million PSV) 1,423.7 1,437.2 -0.9% 904.7 57.4% 6,162.3 4,150.2 48.5%
+% Launches 65.0% 50.1% 14.9 p.p. 57.9% 7.1 p.p. 60.3% 56.2% 4.1 p.p.
+% Inventories 37.5% 49.9% -12.4 p.p. 42.1% -4.6 p.p. 40.2% 43.8% -3.6 p.p.
+Cancellations / Gross pre-sales 7.0% 9.6% -2.6 p.p. 11.8% -4.8 p.p. 8.4% 11.4% -3.0 p.p.
+Net SOS (%) 43.7% 43.9% -0.2 p.p. 38.9% 4.8 p.p. 77.1% 74.5% 2.6 p.p.
+Net SOS LTM (%) 77.1% 75.4% 1.7 p.p. 74.5% 2.6 p.p. 77.1% 74.5% 2.6 p.p.
+Share Cury Net Pre-Sales (R$ million PSV) 1,177.3 1,359.6 -13.4% 850.3 38.5% 5,499.5 3,917.6 40.4%
+Share Cury Net Pre-Sales (%) 82.7% 94.6% -11.9 p.p. 94.0% -11.3 p.p. 89.2% 94.4% -5.2 p.p.
+In the chart below, we show the sales breakdown by price range and average price:
+7
 
-- Total 4T24: 2.186,7 (+68,6% A/A)
-- Obras concluídas: 230,8 (10,6%); em andamento: 1.955,9 (89,4%)
-- Pro-soluto 889,5 (40,7%); Venda direta 1.297,2 (59,3%)
+<!-- PAGE 32 -->
+8
 
-## Nota
+<!-- PAGE 33 -->
+SALES SPEED – SOS
+In 4Q24 net sales speed, measured by the Sales Over Supply (SOS) ratio, stood at 43.7%, versus
+38.9% in 4Q23, and 43.9% in 3Q24.
+In the last twelve months, the SOS was 77.1%, 2.6 p.p. increase compared to 4Q23 and 1.7 p.p. above
+compared to 3Q24.
+INVENTORIES
+Cury ended 4Q24 showing an inventory worth R$1,833.3 million. From this total, 98.6% refers to
+units launched or under construction, and only 1.4% to completed units.
+Inventories (R$ million, except % and units) 4Q24 3Q24 % Q/Q 4Q23 % Y/Y
+Under Construction 1,808.2 1,817.0 -0.5% 1,397.0 29.4%
+% Total 98.6% 98.7% -0.1 p.p. 98.1% 0.5 p.p.
+Completed 25.1 23.2 8.2% 26.8 -6.3%
+% Total 1.4% 1.3% 0.1 p.p. 1.9% -0.5 p.p.
+Total 1,833.3 1,840.2 -0.4% 1,423.8 28.8%
+Total (Units) 5,206 5,609 -7.2% 4,991 4.3%
+9
 
-Mudança de regra da Caixa Econômica Federal em 2024: agora deposita recursos para incorporadora somente após registro do contrato em cartório (antes: no momento do repasse). Impacto: R$ 46,0 mm de saldo a receber de repasses já realizados não foi computado na geração de caixa reportada no 4T24. Dividendos pagos em 2024: R$ 484,0 mm. Auditor: KPMG (honorário R$ 425 mil). Certificações ISO 14001 e ISO 45001 obtidas. Criado Instituto Cury em 2025.
+<!-- PAGE 34 -->
+TRANSFERS
+The PSV transferred in 4Q24 decreased 35.5% compared to 3Q24 and increased 8.2% compared to
+4Q24. The units transferred went from 3,017 in 4Q23 to 3,156 in 4Q24, an increase of 4.6% year-
+over- year and a decrease of 33.6% compared to the immediately previous quarter.
+Considering the performance for 2024, there was a 32.8% rise of transferred PSV compared to 2023,
+and the units transferred went from 13,266 in 2023 to 16,115 in 2024.
+Transfers 4Q24 3Q24 % Q/Q 4Q23 % Y/Y 2024 2023 % Y/Y
+PSV transferred (R$ million) 927.7 1,437.6 -35.5% 857.1 8.2% 4,689.5 3,531.0 32.8%
+Units transferred 3,156 4,756 -33.6% 3,017 4.6% 16,115 13,266 21.5%
+LANDBANK
+Considering the recent movement of launches and land acquisitions, the Company closed 4Q24
+achieving an all-time high landbank worth R$20,122.4 million in potential PSV, having a growth of
+38.7% compared to the landbank of 4Q23 and an increase of 3.1% compared to 3Q24, which
+represents a total of 69,554 units.
+Currently, Cury’s landbank is divided into R$14,428.5 million in São Paulo and R$5,693.9 million in
+Rio de Janeiro.
+Landbank 4Q24 3Q24 % Q/Q 4Q23 % Y/Y
+LandBank (PSV, R$ million) 20,122.4 19,517.0 3.1% 14,508.0 38.7%
+# of projects 79 71 11.3% 76 3.9%
+Potential # units on landbank 69,554 67,118 3.6% 50,731 37.1%
+Average price per unit (R$ '000) 289.3 290.8 -0.5% 286.0 1.2%
+10
+
+<!-- PAGE 35 -->
+ECONOMIC AND FINANCIAL PERFORMANCE
+NET OPERATING REVENUES
+In 4Q24, net operating revenues came to R$1,035.0 million, a 2.0% decrease when compared to
+3Q24 and a 27.5% increase when compared to 4Q23.
+Considering 2024, the net operating revenue reached R$ 3,926.3 million, a growth of 36.0%
+compared to that recorded in the same period of the previous year.
+Net Revenues (R$ million, except %) 4Q24 3Q24 % Q/Q 4Q23 % Y/Y 2024 2023 % A/A
+Net revenues of units sold and service provided 1,035.0 1,055.9 -2.0% 811.6 27.5% 3,926.3 2,886.2 36.0%
+Cost of units sold and service provided -630.6 -646.4 -2.4% -497.9 26.7% -2,413.4 -1,790.8 34.8%
+Gross profit 404.4 409.4 -1.2% 313.7 28.9% 1,512.9 1,095.4 38.1%
+Gross margin 39.1% 38.8% 0.3 p.p. 38.7% 0.4 p.p. 38.5% 38.0% 0.5 p.p.
+GROSS PROFIT AND GROSS MARGIN
+Gross profit totaled R$404.4 million in 4Q24, a growth of 28.9% compared to 4Q23 and down by
+1.2% over 3Q24. Gross margin stood at 39.1% in 4Q24, representing a growth of 0.4 p.p. in
+comparison to 4Q23, and a growth of 0.3 p.p. compared to 3Q24.
+Considering the period of 2024, in which gross profit amounted to R$1,512.9 million, there was a
+38.1% improvement in comparison to 2023. Gross margin stood at 38.5% in 2024, representing a 0.5
+p.p. increase in comparison to 2023.
+11
+
+<!-- PAGE 36 -->
+Gross profit & Gross margin (R$ million, except %) 4Q24 3Q24 % Q/Q 4Q23 % Y/Y 2024 2023 % A/A
+Gross profit (a) 404.4 409.4 -1.2% 313.7 28.9% 1,512.9 1,095.4 38.1%
+Gross margin 39.1% 38.8% 0.3 p.p. 38.7% 0.4 p.p. 38.5% 38.0% 0.5 p.p.
+Capitalized interest (b) 2.3 2.0 15.0% 1.8 27.8% 8.4 6.0 40.0%
+Adjusted gross profit (a+b) 406.7 411.4 -1.1% 315.5 28.9% 1,521.3 1,101.4 38.1%
+Adjusted gross margin 39.3% 39.0% 0.3 p.p. 38.9% 0.4 p.p. 38.7% 38.2% 0.5 p.p.
+SELLING, ADMINISTRATIVE AND GENERAL EXPENSES
+Selling expenses
+In 4Q24, selling expenses amounted to R$104.0 million, up by 37.7% from the R$75.5 million reported
+in 4Q23 and down by 8.7% from 3Q24. Selling expenses accounted for 10.0% of net revenues in
+4Q24, and 9.3% in 4Q23, corresponding to a increase of 0.7 p.p. and a decrease of 0.8 p.p. when
+compared to the 10.8% recorded in the 3Q24.
+In 2024, selling expenses reached a total of R$391.9 million, surpassing by 37.4% the R$285.2 million
+recorded in 2023.
+General and administrative expenses
+General and administrative expenses amounted to R$52.9 million in 4Q24, up by 46.5% from R$36.1
+million in 4Q23. In comparison to 3Q24, there was a 22.2% decrease. As a percentage of net revenue,
+in 4Q24 these expenses reached 5.1%, up by 0.7 p.p. compared to 4.4% in 4Q23 and a decrease of
+1.3 p.p. comparing to the 6.4% in 3Q24.
+In 2024, general and administrative expenses reached a total of R$224.4 million, surpassing by 35.3%
+the R$165.8 million recorded in 2023.
+12
+
+<!-- PAGE 37 -->
+Other operating income and expenses
+The net balance of the other operating income and expenses account in 4Q24 was a net expense of
+R$21.2 million, compared to a net expense of R$19.9 million in 4Q23, and a net expense of R$19.7
+million in 3Q24.
+In 2024, the net balance of the other operating income and expenses reached a total of R$85.5
+million, surpassing by 33.6% the R$64.0 million recorded in 2023.
+Operating expenses (R$ million, except %) 4Q24 3Q24 % Q/Q 4Q23 % Y/Y 2024 2023 % Y/Y
+Selling expenses -104.0 -113.9 -8.7% -75.5 37.7% -391.9 -285.2 37.4%
+% Net revenue 10.0% 10.8% -0.8 p.p. 9.3% 0.7 p.p. 10.0% 9.9% 0.1 p.p.
+Administrative and general expenses -52.9 -68.0 -22.2% -36.1 46.5% -224.4 -165.8 35.3%
+% Net revenue 5.1% 6.4% -1.3 p.p. 4.4% 0.7 p.p. 5.7% 5.7% 0.0 p.p.
+Equity in net income of subsidiaries 1.0 3.4 -70.6% 1.4 -28.6% 8.5 1.6 431.3%
+% Net revenue -0.1% -0.3% 0.2 p.p. -0.2% 0.1 p.p. -0.2% -0.1% -0.1 p.p.
+Other operating income/expenses -21.2 -19.7 7.6% -19.9 6.5% -85.5 -64.0 33.6%
+% Net revenue 2.0% 1.9% 0.1 p.p. 2.5% -0.5 p.p. 2.2% 2.2% 0.0 p.p.
+Operating expenses -177.1 -198.2 -10.6% -130.1 36.1% -693.3 -513.4 35.0%
+% Net revenue 17.1% 18.8% -1.7 p.p. 16.0% 1.1 p.p. 17.7% 17.8% -0.1 p.p.
+EBITDA AND EBITDA MARGIN
+The Company's EBITDA in 4Q24 came to R$236.2 million, growth of 23.9% compared to 4Q23, and
+an increase of 7.7% compared to 3Q24. The EBITDA margin stood at 22.8%, a decrease of 0.7 p.p.
+and a increase of 2.0 p.p. when compared to the margins recorded in 4Q23 and 3Q24, respectively.
+In 2024, there was growth in EBITDA of 40.0% compared to the previous year.
+EBITDA (R$ million, except %) 4Q24 3Q24 % Q/Q 4Q23 % Y/Y 2024 2023 % Y/Y
+Earnings before financial result 227.4 211.2 7.7% 183.7 23.8% 819.7 581.9 40.9%
+(+) Depreciation and amortization 8.8 8.2 7.3% 7.0 25.7% 31.1 25.9 20.1%
+EBITDA 236.2 219.4 7.7% 190.7 23.9% 850.8 607.8 40.0%
+EBITDA margin 22.8% 20.8% 2.0 p.p. 23.5% -0.7 p.p. 21.7% 21.1% 0.6 p.p.
+(+) Charges and financial cost 2.3 2.0 15.0% 1.8 30.6% 8.4 6.0 39.4%
+Adjusted EBITDA 238.5 221.4 7.7% 192.5 23.9% 859.2 613.8 40.0%
+Adjusted EBITDA margin 23.0% 21.0% 2.0 p.p. 23.7% -0.7 p.p. 21.9% 21.3% 0.6 p.p.
+13
+
+<!-- PAGE 38 -->
+FINANCIAL RESULT
+In 4Q24, the net financial result corresponded to a net financial expense of R$12.8 million, compared
+to the financial income of R$0.7 million in 4Q23 and financial expense of R$7.6 million in relation to
+3Q24.
+In 2024, the net financial expense totaled R$31.1 million, an increase of 123.7% compared to the net
+financial expense of R$13.9 milion recorded in 2023.
+Financial income (expenses) (R$ million, except %) 4Q24 3Q24 % Q/Q 4Q23 % Y/Y 2024 2023 % Y/Y
+Financial expenses -41.6 -39.7 4.8% -25.2 65.1% -137.2 -100.1 37.1%
+Financial income 28.8 32.1 -10.3% 25.9 11.2% 106.1 86.2 23.1%
+Total Financial income (expenses) -12.8 -7.6 68.4% 0.7 n.a. -31.1 -13.9 123.7%
+14
+
+<!-- PAGE 39 -->
+NET INCOME AND NET MARGIN
+Cury reported net income from operations (100%) of R$188.9 million for the quarter, an increase of
+14.8% compared to 4Q23, and an increase of 4.6% in 3Q24. The Cury stake (%Cury) of the net
+income came to R$165.8 million. In comparison with 4Q23, there was an increase of 3.4%, and a
+decrease of 2.8% when compared to 3Q24. The consolidated net margin stood at 18.2%, versus a
+net margin of 20.3% in 4Q23 and 17.1% in 3Q24. The net margin, considering the %Cury share of
+net income, stood at 16.0%, compared to 19.8% in 4Q23 and 16.2% in 3Q24.
+Considering the results in 2024, the net profit of the activity (100%) reached R$698.8 million, which
+represents an increase of 41.0% compared to the previous year, while the result of the percentage
+attributable to Cury (%Cury) totaled R$649.8 million, an amount 34.9% higher than that obtained in
+2023. Thus, the net margin of the activity (100%) reached 17.8%, 0.6 p.p. higher than the previous
+year, while Cury's net margin was 16.6%, 0.1 p.p. points lower than the margin reported in 2023.
+15
+
+<!-- PAGE 40 -->
+BALANCE SHEET ANALYSIS
+CASH AND CASH EQUIVALENTS AND MARKETABLE SECURITIES
+CASH AND CASH EQUIVALENTS AND MARKETABLE SECURITIES
+As of 12/31/2024, the Company's cash position, including marketable securities, amounted to
+R$1,416.2 million, which shows a 42.7% increase in relation to that recorded as of 12/31/2023.
+Cash and cash equivalents (R$ million) 12-31-2024 12-31-2023 %
+Cash and cash equivalents 1,416.2 992.3 42.7%
+ACCOUNTS RECEIVABLE
+The balance of accounts receivable, which, as of 12/31/2024, stood at R$1,437.2 million, represented
+a 31.8% increase when compared to the position recorded at the end of the 12/31/2023.
+Accounts receivable (R$ million) 12-31-2024 31-12-2023 %
+Accounts receivable 1,437.2 1,090.8 31.8%
+DEBT
+The Company's gross debt at the close of 4Q24 totaled R$986.4 million, with a cash and cash
+equivalents position of R$1,416.2 million. As a result, the Company recorded a positive net cash
+balance of R$429.8 million for 4Q24, compared to a positive net cash balance of R$378.9 million at
+4Q23. At the end of the quarter, 78,8% of Cury's gross debt had its maturity in the long term, starting
+in 2031.
+Debt Profile (R$ million) 12-31-2024 12-31-2023 Var %
+Short-term 208.9 124.3 68.1%
+Long-term 777.5 489.1 59.0%
+Gross debt 986.4 613.4 60.8%
+Cash and cash equivalents 1,416.2 992.3 42.7%
+Debt/(net cash) -429.8 -378.9 13.4%
+16
+
+<!-- PAGE 41 -->
+UNEARNED REVENUE (REF)
+The result of unearned real estate sales, not recognized in the quarterly financial statements, came
+to R$2,414.9 million, representing a 64.3% increase compared to 12/31/2023. The Gross Margin of
+Earnings to be Appropriated was 43.4% representing a growth of 1.4 p.p. compared to the previous
+year.
+Result to be appropriated (R$ million) 12-31-2024 12-31-2023 Var %
+Revenues to be appropriated 5,565.3 3,501.9 58.9%
+(-) Projected cost of pre-sold units -3,150.4 -2,032.2 55.0%
+(=) result from pre-sales of real estate units to be appropriated 2,414.9 1,469.8 64.3%
+Gross Margin of the Result to be Appropriated 43.4% 42.0% +1.4 p.p.
+CURY PORTFOLIO
+The table below shows the management control of our portfolio. It relates to non-bank receivables,
+that is, only those under the Company’s management, as the following breakdown: (i) For Full
+Payment (Pro-Soluto), the portion of the housing units that cannot be funded by financial institutions
+and; (ii) Direct Sales, which are those made without the intermediation of a financial agent, in which
+the payment is made directly to Cury. Completed Direct Sales units involve a Fiduciary Title, which
+provides the Company with an additional guarantee of receipt.
+17
+
+<!-- PAGE 42 -->
+Cury's Portfolio (R$ million) 4Q24 3Q24 % Q/Q 4Q23 % Y/Y
+Total Portfolio 2,186.7 1,967.6 11.1% 1,296.8 68.6%
+Units completed 230.8 228.2 1.1% 215.8 7.0%
+%Total 10.6% 11.6% -1.0 p.p. 16.6% -6.0 p.p.
+Units in constructions 1,955.9 1,739.4 12.4% 1,081.0 80.9% Receivable Portfolio
+%Total 89.4% 88.4% 1.0 p.p. 83.4% 6.0 p.p.
+Full Payment (Pro Soluto) 889.5 849.2 4.7% 628.2 41.6%
+%Total 40.7% 43.2% -2.5 p.p. 48.4% -7.7 p.p.
+Units completed 157.7 152.1 3.7% 140.7 12.1%
+40.7%
+%Total 7.2% 7.7% -0.5 p.p. 10.8% -3.6 p.p.
+Units in constructions 731.8 697.1 5.0% 487.5 50.1%
+59.3%
+%Total 33.5% 35.4% -1.9 p.p. 37.6% -4.1 p.p.
+Direct sales 1,297.2 1,118.4 16.0% 668.6 94.0%
+%Total 59.3% 56.8% 2.5 p.p. 51.6% 7.7 p.p.
+Units completed 73.1 76.1 -3.9% 75.1 -2.7%
+%Total 3.3% 3.9% -0.6 p.p. 5.8% -2.5 p.p. Direct sales Full payment (Pro Soluto)
+Units in constructions 1,224.1 1,042.3 17.4% 593.5 106.3%
+%Total 56.0% 53.0% 3.0 p.p. 45.8% 10.2 p.p.
+CASH GENERATION
+In 4Q24, the Company presented positive operating cash generation of R$150.4 million. This amount
+is 14.6% lower than the positive balance of R$176.1 million in 4Q23 and 2.3% higher than R$147.0
+million in 3Q24. In 2024, the Company reached R$466.7 million of operating cash generation, up by
+10.0% from the R$424.2 million generated in the same period of the previous year. The cash
+generation recorded in 2024 reflects the Company's operational efficiency, achieved without the
+need for advance receivables. Cury ended the fourth quarter of 2024 with a receivable balance from
+transfers already made, totaling R$46.0 million.
+If it weren't for the rule change by Caixa Econômica Federal, where it no longer deposits funds to
+the developer at the time of the transfer, but only after the contract is registered at the notary office,
+these amounts would have already been recorded as cash generation.
+Cury will continue to improve internal processes to try to reduce delays and their impacts.
+In 2024, R$484.0 million in dividends were paid, not classified as operating cash flow, therefore not
+included in the reported cash flow generation.
+Cash generation (R$ million) 4Q24 3Q24 % Q/Q 4Q23 % Y/Y 2024 2023 % A/A
+Cash generation 150.4 147.0 2.3% 176.1 -14.6% 466.7 424.2 10.0%
+18
+
+<!-- PAGE 43 -->
+RETURN ON EQUITY (ROE)
+The Company has continued to present an outstanding return on equity within its sector of
+operations, reflecting the successful cash-generating operations, coupled with its dividend payment
+policy.
+ROE (LTM) 4Q24 3Q24 % Q/Q 4Q23 % Y/Y
+ROE 66.3% 64.2% 2.1 p.p. 59.6% 6.7 p.p.
+*Based on the average equity during the 12-month period.
+INDEPENDENT AUDITORS
+In compliance with CVM Resolution No. 162, of July 13, 2022, the Company informs that KPMG
+Auditores Independentes Ltda. was hired for the amount of R$ 425 thousand to provide the
+following services: (i) auditing the financial statements in accordance with the accounting practices
+adopted in Brazil and the International Financial Reporting Standards (IFRS); and (ii) reviewing the
+interim quarterly financial information in accordance with the Brazilian and international interim
+information review standards (NBC TR 2410 - Revisão de Informações Intermediárias Executadas
+pelo Auditor da Entidade and ISRE 2410 - Review of Interim Financial Information Performed by the
+Independent Auditor of the Entity, respectively). The Company has not engaged the independent
+auditor for any work other than financial statement auditing. The hiring of the independent auditor
+is based on the principles that ensure auditor independence, which include: (a) the auditor must not
+audit its own work; (b) must not perform managerial functions; and (c) must not provide any services
+that may be considered prohibited under applicable regulations. Additionally, Management obtains
+a statement from the independent auditor confirming that the special services provided do not affect
+their professional independence. Information in the performance report that is not clearly identified
+as a copy of the financial statement information has not been audited or reviewed.
+ABOUT CURY
+Cury Construtora e Incorporadora S.A. is one of the leading residential real estate developers in
+Brazil. The Company operates in the states of São Paulo and Rio de Janeiro, and its strategic pillar
+is the search for maximum efficiency from the use of capital. The Company operates by prospecting
+for the purchase of land through swaps and long-term installments, coupled with a high level of
+transfers in the first post-launch months, alongside with high construction efficiency.
+Click here to access our interactive spreadsheet
+19
+
+<!-- PAGE 44 -->
+ATTACHMENT I – BALANCE SHEET
+20
+A s s e t
+C u rre n t a sse ts
+C a sh a n d ca sh e q u iv a le n ts
+F a ir V a lu e S e cu ritie s
+A cco u n ts re ce iv a b le
+P ro p e rtie s fo r sa le
+A d v a n ce s to su p p lie rs
+O th e r re ce iv a b le s
+T o ta l cu rre n t a sse ts
+N o n -cu rre n t a sse ts
+L o n g -te rm re ce iv a b le s
+A cco u n ts re ce iv a b le
+R e a l e sta te p ro p e rtie s fo r sa le
+A m o u n ts re ce iv a b le b e tw e e n re
+O th e r re ce iv a b le s
+T o ta l lo n g -te rm re ce iv a b le s
+In v e stm e n t p ro p e rty
+In v e stm e n ts
+P ro p e rty a n d e q u ip m e n t
+T o ta l n o n -cu rre n t a sse ts
+T o ta l A sse ts
+la te d p a rtie s
+C o n s o
+2 0 2 4 -1 2 -3 1
+9 7 5 ,2 2 4
+4 4 1 ,0 1 2
+3 4 5 ,7 8 3
+8 0 8 ,2 0 3
+1 7 ,0 3 3
+1 3 8 ,8 8 2
+2 ,7 2 6 ,13 7
+1 ,0 9 1 ,4 5 4
+3 8 4 ,9 2 5
+1 9 ,8 1 1
+3 3 ,1 2 3
+1,5 2 9 ,3 13
+-
+4 2 ,2 4 4
+4 1 ,6 0 1
+1,6 13 ,15 8
+4 ,3 3 9 ,2 9 5
+lid a te d
+2 0 2 3 -1 2 -3 1
+6 4 3 ,6 3
+3 4 8 ,6 3
+4 8 1 ,2 1
+6 4 1 ,5 4
+1 3 ,5 4
+8 4 ,2 2
+2 ,2 12 ,8 0 8
+6 0 9 ,5 8
+7 6 ,0 0
+1 2 ,8 7
+3 7 ,4 4
+7 3 5 ,9 0 2
+6 7 ,8 4
+4 0 ,8 7
+3 4 ,5 9
+8 7 9 ,2 15
+3 ,0 9 2 ,0 2 3
+0
+9
+8
+6
+7
+8
+3
+2
+7
+0
+2
+5
+6
+L ia b ilitie s a n d e q u ity
+C u rre n t lia b ilitie s
+S u p p lie rs
+Lo a n s a n d fin a n cin g
+La b o r o b lig a tio n s
+T a xe s p a y a b le
+C o m m itte d p ro p e rty cre d ito rs
+A d v a n ce s fro m cu sto m e rs
+D e fe rre d ta xe s a n d co n trib u tio n s
+D iv id e n d s p a y a b le
+P ro v isio n fo r la b o r, civ il a n d ta x risk s
+O th e r a cco u n ts p a y a b le
+T o ta l cu rre n t lia b ilitie s
+N o n -cu rre n t lia b ilitie s
+Lo a n s a n d fin a n cin g
+P ro v isio n fo r g u a ra n te e o f co n stru ctio
+C o m m itte d p ro p e rty cre d ito rs
+P ro v isio n fo r la b o r, civ il a n d ta x risk s
+P ro v isio n fo r in v e stm e n t lo sse s
+D e fe rre d ta xe s a n d co n trib u tio n s
+O th e r a cco u n ts p a y a b le
+T o ta l n o n -cu rre n t lia b ilitie s
+E q u ity
+S to ck C a p ita l
+T re a su ry sh a re s
+C a p ita l re se rv e
+Le g a l re se rv e
+P ro fit re se rv e
+S u b to ta l e q u ity
+N o n -co n tro llin g in te re st
+T o ta l e q u ity
+T o ta l lia b ilitie s a n d e q u ity
+n w o rk s
+C o n s o
+2 0 2 4 -1 2 -3 1
+1 8 7 ,3 1 7
+2 0 8 ,8 6 9
+3 2 ,5 9 2
+2 7 ,8 9 8
+5 2 1 ,6 1 8
+1 8 4 ,2 1 6
+7 ,3 3 0
+5 4 ,3 3 8
+1 3 ,4 9 3
+1 2 ,2 9 4
+1,2 4 9 ,9 6 5
+7 7 7 ,5 1 3
+6 0 ,7 4 3
+8 4 3 ,9 0 0
+1 3 ,7 6 9
+7 5 6
+5 0 ,6 7 7
+3 2 ,4 3 3
+1,7 7 9 ,7 9 1
+4 9 1 ,0 5 4
+-1 2 ,2 1 0
+1 7 ,5 9 8
+9 3 ,8 6 0
+5 0 5 ,1 6 8
+1,0 9 5 ,4 7 0
+2 1 4 ,0 6 9
+1,3 0 9 ,5 3 9
+4 ,3 3 9 ,2 9 5
+lid a te d
+2 0 2 3 -1 2 -3 1
+1 7 1 ,9 0 4
+1 2 4 ,2 7 1
+2 2 ,7 3 4
+1 9 ,0 5 1
+5 0 6 ,3 6 9
+9 7 ,2 0 8
+1 2 ,7 7 2
+1 1 8 ,5 3 7
+1 1 ,3 9 0
+3 ,9 0 0
+1,0 8 8 ,13 6
+4 8 9 ,0 8 1
+3 8 ,8 8 0
+4 2 3 ,2 3 1
+1 2 ,0 4 8
+7 6 6
+4 2 ,9 0 1
+-
+1,0 0 6 ,9 0 7
+2 9 1 ,0 5 4
+-1 2 ,2 1 0
+1 7 ,5 9 8
+6 1 ,3 6 8
+5 0 7 ,1 5 5
+8 6 4 ,9 6 5
+1 3 2 ,0 1 5
+9 9 6 ,9 8 0
+3 ,0 9 2 ,0 2 3
+
+<!-- PAGE 45 -->
+ATTACHMENT II – STATEMENT OF INCOME
+This report contains calculations that may not demonstrate an accurate sum due to rounding adjustments.
+21
+In c o m e S ta te m e n t (R $ M illio n )
+N e t r e v e n u e s
+T o ta l c o s t
+G r o s s p r o fit
+G r o s s m a r g in
+A d ju s te d g r o s s m a r g in
+O p e r a tin g in c o m e (e x p e n s e s )
+S e llin g e x p e n s e s
+A d m in is tr a tiv e a n d g e n e r a l e x p e n s e s
+E q u ity in n e t in c o m e o f s u b s id ia r ie s
+O th e r o p e r a tin g in c o m e (e x p e n s e s )
+T o ta l o p e r a tin g in c o m e (e x p e n s e s )
+In c o m e b e fo r e F in a n c ia l in c o m e (e x p e n
+F in a n c ia l in c o m e (e x p e n s e s )
+F in a n c ia l e x p e n s e s
+F in a n c ia l in c o m e
+T o ta l F in a n c ia l in c o m e (e x p e n s e s )
+E a r n in g s b e fo r e ta x e s
+In c o m e ta x a n d s o c ia l c o n tr ib u tio n
+C u r r e n t
+D e fe r r e d
+T o ta l in c o m e ta x a n d s o c ia l c o n tr ib u tio
+N e t in c o m e
+N e t m a r g in
+N e t Iin c o m e % C u r y
+N e t m a r g in % C u r y
+E a r n in g s p e r s h a r e b a s ic a n d d ilu te d
+s
+n
+e s )
+4 Q 2 4
+1 ,0 3 5 .0
+- 6 3 0 .6
+4 0 4 .4
+3 9 .1 %
+3 9 .3 %
+- 1 0 4 .0
+- 5 2 .9
+1 .0
+- 2 1 .2
+- 1 7 7 .1
+2 2 7 .4
+- 4 1 .6
+2 8 .8
+- 1 2 .8
+2 1 4 .6
+- 2 7 .9
+2 .2
+- 2 5 .7
+1 8 8 .9
+1 8 .2 %
+1 6 5 .8
+1 6 .0 %
+0 .5 7 1 9
+3 Q 2 4
+1 ,0 5 5 .9
+- 6 4 6 .4
+4 0 9 .4
+3 8 .8 %
+3 9 .0 %
+- 1 1 3 .9
+- 6 8 .0
+3 .4
+- 1 9 .7
+- 1 9 8 .2
+2 1 1 .2
+- 3 9 .7
+3 2 .1
+- 7 .6
+2 0 3 .6
+- 2 1 .4
+- 1 .6
+- 2 3 .0
+1 8 0 .6
+1 7 .1 %
+1 7 0 .6
+1 6 .2 %
+0 .5 8 8 4
+% Q / Q
+- 2 .0 %
+- 2 .4 %
+- 1 .2 %
+0 .3 p .p
+0 .3 p .p
+- 8 .7 %
+- 2 2 .2 %
+- 7 0 .6 %
+7 .6 %
+- 1 0 .6 %
+7 .7 %
+4 .8 %
+- 1 0 .3 %
+6 8 .4 %
+5 .4 %
+3 0 .4 %
+n .a .
+1 1 .7 %
+4 .6 %
+1 .1 p .p
+- 2 .8 %
+- 0 .2 p .p
+- 2 .8 %
+.
+.
+.
+.
+4 Q 2 3
+8 1 1 .6
+- 4 9 7 .9
+3 1 3 .7
+3 8 .7 %
+3 8 .9 %
+- 7 5 .5
+- 3 6 .1
+1 .4
+- 1 9 .9
+- 1 3 0 .1
+1 8 3 .7
+- 2 5 .2
+2 5 .9
+0 .7
+1 8 4 .4
+- 1 9 .9
+0 .1
+- 1 9 .8
+1 6 4 .6
+2 0 .3 %
+1 6 0 .3
+1 9 .8 %
+0 .5 5 3 1
+% Y / Y
+2 7 .5 %
+2 6 .7 %
+2 8 .9 %
+0 .4 p .p
+0 .4 p .p
+3 7 .7 %
+4 6 .5 %
+- 2 8 .6 %
+6 .5 %
+3 6 .1 %
+2 3 .8 %
+6 5 .1 %
+1 1 .2 %
+n .a .
+1 6 .4 %
+4 0 .2 %
+n .a .
+2 9 .8 %
+1 4 .8 %
+- 2 .1 p .p
+3 .4 %
+- 3 .8 p .p
+3 .4 %
+.
+.
+.
+.
+2 0 2 4
+3 ,9 2 6 .3
+- 2 ,4 1 3 .4
+1 5 1 2 .9
+3 8 .5 %
+3 8 .7 %
+- 3 9 1 .9
+- 2 2 4 .4
+8 .5
+- 8 5 .5
+- 6 9 3 .3
+8 1 9 .7
+- 1 3 7 .2
+1 0 6 .1
+- 3 1 .1
+7 8 8 .6
+- 8 6 .6
+- 3 .2
+- 8 9 .8
+6 9 8 .8
+1 7 .8 %
+6 4 9 .8
+1 6 .6 %
+2 .2 4 1 7
+2 0 2 3
+2 ,8 8 6 .2
+- 1 ,7 9 0 .8
+1 0 9 5 .4
+3 8 .0 %
+3 8 .2 %
+- 2 8 5 .2
+- 1 6 5 .8
+1 .6
+- 6 4 .0
+- 5 1 3 .4
+5 8 1 .9
+- 1 0 0 .1
+8 6 .2
+- 1 3 .9
+5 6 8 .0
+- 6 7 .8
+- 4 .6
+- 7 2 .4
+4 9 5 .6
+1 7 .2 %
+4 8 1 .8
+1 6 .7 %
+1 .6 6 1 9
+% Y / Y
+3 6 .0 %
+3 4 .8 %
+3 8 .1 %
+0 .5 p .p
+0 .5 p .p
+3 7 .4 %
+3 5 .3 %
+4 3 1 .3 %
+3 3 .6 %
+3 5 .0 %
+4 0 .9 %
+3 7 .1 %
+2 3 .1 %
+1 2 3 .7 %
+3 8 .8 %
+2 7 .7 %
+- 3 0 .4 %
+2 4 .0 %
+4 1 .0 %
+0 .6 p .p
+3 4 .9 %
+- 0 .1 p .p
+3 4 .9 %
+.
+.
+.
+.
+
+<!-- PAGE 46 -->
+Conference Call on 4Q24 and 2024 Earnings
+March 12th, 2025 – 9:00 a.m. (US UTC)
+in Portuguese (with simultaneous interpretation into English)
+Zoom Link
+Ronaldo Cury de Capua
+Investor Relations Officer
+Nádia Santos
+Investor Relations Manager
+João Vitor Varricchio
+Investor Relations Supervisor
+Thiago Leal
+Investor Relations Analyst
+Mariana Sarmento
+Investor Relations Intern
+ri@cury.net - Phone: +55 (11) 3117-1487
+Over 60 years, we have evolved, invested in quality and innovation, and become one of the largest
+construction companies in the country.
+Cury combines tradition and solidity with the modernity of a constantly evolving company.
+Today, this evolution is reflected in a new brand because to evolve is to get better.
+22
+
+<!-- PAGE 47 -->
+Glossary
+LandBank: Land held in inventory with the estimate of future Potential Sales Value (PSV). It is
+the Company's landbank and includes all acquired but not yet launched land.
+Cash and Equivalents: Comprised of the balance of cash and cash equivalents and financial
+investments (Fair Value Securities).
+Associative Credit: Exclusively granted by public banks, it is a form of financing for the
+construction sector since the construction phase. During the construction period of the
+property, the customer pays only the interest on the disbursement to the developer and the
+full payment (pro-soluto), and only after the completion of the construction the amortization
+of the financing is initiated.
+Net Cash/Net Debt: (Gross Debt + Passive Derivative Financing Instruments) - (Total Cash +
+Active Derivative Financing Instruments). When the result of this operation is positive, it is
+called Net Debt, and if it is negative, it is called Net Cash.
+Cancellation: Annulment of a previously agreed upon contract between the parties. In the
+case of Cury, cancellations occur only when the customer has not yet transferred to Caixa
+Econômica Federal or when the customer cancels during the direct sale process.
+EBITDA: Earnings Before Interest, Taxes, Depreciation and Amortization. It is a widely used
+indicator to evaluate publicly traded companies, as it represents the company's operational
+cash generation, that is, how much the company generates in resources only in its operational
+activities, without considering the financial, tax, and depreciation effects.
+Launch: Occurs when the project is available for sale.
+Earnings per share: Net profit for the period divided by the number of shares (on the last day
+of the quarter) issued.
+Adjusted Gross Margin: Adjusted gross margin excludes capitalized interest used as financing
+for each period's project. As Cury has a very high sales speeds, not all our projects require
+financing from Caixa Econômica Federal.
+Minha Casa Minha Vida: The “Minha Casa Minha Vida” program, known as MCMV, is the
+national housing program of the Federal Government, which aims to reduce the Housing
+Deficit. To be eligible for special conditions and subsidies, the program sets a ceiling on the
+unit value (currently at R$350,000) and on the monthly family income, which ranges from
+R$2,640 to R$8,000.
+23
+
+<!-- PAGE 48 -->
+Percentage of Completion ("PoC"): Incurred cost divided by the total cost of the project.
+Revenue is recognized up to the limit of the "incurred cost / total cost" ratio.
+Swap: An alternative for purchasing land that consists of paying the landowner with units (in
+the case of physical swap) or with the cash flow from unit sales (in the case of financial swap).
+Transfer: The real estate transfer is the portion of the property value that will be financed by
+the bank for the client. In the case of Cury, the transfer is always done through Caixa Econômica
+Federal using Associative Credit, which provides financing from the beginning of construction.
+Unearned Revenue (REF): This refers to the portion of revenue, cost, and margin of units sold
+that was not recognized in the income statement because it awaits the progress of the
+construction. Due to the "PoC" accounting method, the result of the units sold is recognized
+as the financial progress of the construction evolves. Therefore, it is the result that will be
+recognized as the incurred cost evolves.
+ROE: Return On Equity. ROE is defined as the quotient of the net income attributable to
+controlling shareholders and the average value of the equity attributable to controlling
+shareholders.
+SBPE: Brazilian Savings and Loan System - a bank financing that sources funds from savings.
+In the case of Cury, units financed under this modality are 100% operated by Caixa Econômica
+Federal, which uses Associative Credit and therefore offers financing from the construction
+phase.
+LTM: Period that comprises the last 12 months.
+PSV: Potential Sales Value, which is the amount in BRL that can be obtained by selling each
+real estate unit.
+PSV Launched: Potential Sales Value of units launched in a certain period.
+PSV Transferred: Potential Sales Value transferred to Caixa.
+SoS: Sale over Supplies (SoS) is an indicator used in the real estate market that shows the total
+number of properties sold in relation to the total available for sale.
+24

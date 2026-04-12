@@ -1,176 +1,431 @@
-# Prévia Operacional 1T26 — Direcional Engenharia S.A.
+<!-- PAGE 1 -->
+Resultados 4T25
+10 de março de 2026
 
-**Fonte:** Comunicado ao Mercado — Prévia Operacional 1T26  
-**Data:** 09 de abril de 2026  
-**Cobertura:** Resultados operacionais referentes ao 1º trimestre de 2026 (1T26)  
-**Moeda:** Reais (R$). VGV demonstra valor consolidado dos projetos (100%), salvo quando indicado.
+<!-- PAGE 2 -->
+Principais Destaques
 
----
+<!-- PAGE 3 -->
+Destaques [1/2]
+Lançamentos [VGV 100% - R$ milhões] Vendas Líquidas [VGV 100% - R$ milhões]
+3,5x 4,7x
+6.858 6.000 6.163
+5.484
+4.652
+3.785
+3.138 3.636 2.999
+2.440
+1.946 1.763 1.320 1.680
+2019 2020 2021 2022 2023 2024 2025 2019 2020 2021 2022 2023 2024 2025
+Lucro Bruto e Margem Bruta [R$ milhões e %] Lucro Líquido e Margem Líquida Operacionais² [R$ milhões e %]
+17,2% 17,4%
+Lucro Bruto Ajustado¹ 42,1% Lucro Líquido Operacional
+Margem Bruta Ajustada¹ Margem Líquida Operacional 13,8%
+38,3%
+36,7% 36,4% 8,6% 8,7%
+35,5% 35,6% 6,9% 7,5%
+34,5%
+1.826
+758
+1.284 577
+651 770 856 324
+502 533
+100 112 153 188
+2019 2020 2021 2022 2023 2024 2025 2019 2020 2021 2022 2023 2024 2025
+1 - Lucro Bruto e Margem Bruta ajustados: ajuste excluindo os juros capitalizados no custo.
+2 - Lucro Líquido e Margem Líquida Operacionais: ajuste pelo resultado não recorrente alocado na rubrica “Outras Receitas e Despesas Operacionais”, despesas de cessão de recebíveis e resultado de swap de ações, conforme o caso. 3
 
-## Destaques
+<!-- PAGE 4 -->
+Destaques [2/2]
+Evolução Lucro Líquido Operacional¹ e ROE [R$ milhões e %] Dividendos e Recompra de Ações [R$ milhões ]
+Lucro Líquido Operacional
+1.177
+Margem Líquida Operacional Recompra de Ações
+26
+ROE Anualizado Dividendos
+44,1%
+32,9% 33,4% 33,5%
+30,3%
+29,0%
+584
+17,1% 17,9% 17,7% 17,2% 17,7% 17,2% 7 1.151
++28%
+577
+205 211 180
+156 166 158 184 121 130 141 132 6
+19 40 4 5 2 1 7 6 56 5 8 7 2 2 5 63 4 8 1 0 90 1 2 2 1 0 1 3 0 2 0 174 81
+3T24 4T24 1T25 2T25 3T25 4T25 20092010201120122013201420152016201720182019202020212022202320242025
+Receita Líquida 4T25 Margem REF ROE Anualizado¹ Dividendos 4T25
+R$ 1,2 bi 44,6% 44% R$ 804 mi
+(+33% vs. 4T24) (+0,7 p.p. vs. 4T24) (+11,2 p.p. vs. 4T24) (R$ 1,55 por ação)
+1 - Lucro Líquido e Margem Líquida Operacionais: ajuste pelo resultado não recorrente alocado na rubrica “Outras Receitas e Despesas Operacionais”, despesas de cessão de recebíveis e resultado de swap de ações, conforme o caso.
+4
 
-- Vendas brutas de R$ 1,9 bilhão no 1T26 (R$ 1,6 bilhão % Companhia), crescimento de 29% na comparação anual
-- Vendas líquidas do trimestre totalizaram R$ 1,6 bilhão (R$ 1,4 bilhão % Companhia), 19% acima do 1T25 e 4% acima do 4T25
-- VSO consolidada do 1T26 atinge 24% (+250 bps sobre o 4T25): o maior patamar para um 1º trimestre
-- VGV lançado somou R$ 1,0 bilhão no 1T26, crescimento de 12% em relação ao 1T25
-- Nos últimos 12 meses (1T26 LTM), as Vendas Líquidas totalizaram R$ 6,4 bilhões, volume 7% superior ao 1T25 LTM (desconsiderando o projeto vendido no âmbito do Programa Pode Entrar, ocorrido no 3T24)
-- VSO do segmento Direcional alcançou 24% no trimestre, um incremento de 480 bps sobre o trimestre anterior
-- VSO do segmento Riva foi de 23% no 1º trimestre de 2026
+<!-- PAGE 5 -->
+Destaques Operacionais
 
----
+<!-- PAGE 6 -->
+Lançamentos e Vendas
+Lançamentos¹ Vendas Líquidas¹
+VGV 100% - R$ milhões VGV 100% - R$ milhões
+83%
+79%
+Riva +25% Riva
+Direcional 6.858 Direcional 6.163
+6.000
+% Companhia +3%
+5.484
+3.082 2.355 2.711
+2.155
++4%
+-4%
+2.152
+1.833 1.901 -12% 3.776 1.580 1.642 1.518 3.646 3.452
+3.329 -8%
+682 1.189 821 596 823 724
+1.151 963 1.080 983 819 793
+4T24 3T25 4T25 2024 2025 4T24 3T25 4T25 2024 2025
+1 - Desconsiderando os projetos vendidos no âmbito do Programa Pode Entrar. 6
 
-## Lançamentos
+<!-- PAGE 7 -->
+Destaques Financeiros
 
-Em alinhamento ao planejamento estratégico traçado para o ano de 2026, o Grupo Direcional lançou um VGV de R$ 1,0 bilhão (R$ 862 milhões % Companhia) no 1T26, 12% acima do volume registrado um ano antes. Desse total, 70% referem-se a produtos da marca Direcional, enquanto a representatividade da Riva no mix de lançamentos foi de 30%.
+<!-- PAGE 8 -->
+Crescimento de Receita Líquida
+Receita Líquida Receita Líquida Total¹
+R$ milhões R$ milhões
++24%
+5.545
+1.202
++30% 4.478
+1.130
+4.343 4.343
++24%
+3.348 1.533 3.348
+1.456
++33% +5%
+1.233 307
+298
++6%
+309
+1.158 1.226 1.158 1.226
+924 924
+4T24 3T25 4T25 2024 2025 4T24 3T25 4T25 2024 2025
+Receita Líquida de SPEs não Consolidadas Receita Líquida Consolidada
+1 - Receita Líquida Total: ajuste incluindo a receita líquida de SPEs não consolidadas no resultado (controladas em conjunto ou não controladas). 8
 
-Com isso, considerando o período de 12 meses encerrados em março (1T26 LTM), o VGV lançado totalizou R$ 7,0 bilhões (R$ 6,0 bilhões % Companhia), resultando em um crescimento de 27% quando comparado ao 1T25 LTM.
+<!-- PAGE 9 -->
+Altos patamares de Margem Bruta e Margem REF
+Lucro Bruto Ajustado¹ Receita a Apropriar por Vendas de Imóveis
+R$ milhões e % R$ milhões e %
+42,1% 42,8% 42,1% 44,9% 45,2% 44,6%
+39,4% 43,9% 44,1%
+38,3%
++42%
++34%
++4%
+1.826
+3.822
+3.686
+3.398
+3.116
++44% 1.284 2.845
++8%
+487 524
+364
+4T24 3T25 4T25 2024 2025 4T24 1T25 2T25 3T25 4T25
+Lucro Bruto Ajustado¹ Margem Bruta Ajustada¹ Receita a Apropriar por Vendas de Imóveis (REF) Margem REF
+1 - Lucro Bruto e Margem Bruta ajustados: ajuste excluindo os juros capitalizados no custo. 9
 
-| Lançamentos ¹ | 1T26 (a) | 4T25 (b) | 1T25 (c) | a/b | a/c |
-|---|---:|---:|---:|---:|---:|
-| VGV Lançado (VGV 100%) (R$ milhões) | 1.005,8 | 1.900,9 | 901,2 | -47,1% | +11,6% |
-| Direcional | 704,7 | 1.079,8 | 671,5 | -34,7% | +4,9% |
-| Riva | 301,1 | 821,1 | 229,7 | -63,3% | +31,1% |
-| VGV Lançado (% Companhia) (R$ milhões) | 862,4 | 1.680,2 | 802,4 | -48,7% | +7,5% |
-| Direcional | 665,9 | 859,1 | 640,9 | -22,5% | +3,9% |
-| Riva | 196,5 | 821,1 | 161,5 | -76,1% | +21,7% |
-| Unidades Lançadas | 3.109 | 4.780 | 3.424 | -35,0% | -9,2% |
-| Direcional | 2.447 | 3.587 | 2.897 | -31,8% | -15,5% |
-| Riva | 662 | 1.193 | 527 | -44,5% | +25,6% |
-| % Companhia Médio | 86% | 88% | 89% | -3 p.p. | -3 p.p. |
+<!-- PAGE 10 -->
+Solidez de Lucro Líquido e Margem Líquida
+Lucro Líquido Operacional¹ Evolução do Lucro Líquido
+R$ milhões e % R$ milhões e %
+17,9% 17,7% 17,2% 17,2% 17,4% 19,1% 18,2%
+14,1%
++31% 8,3% 8,8%
+7,0%
+CAGR:
++50%
+789
+758
+638
+577
++28%
++3%
+332
+205 211 190
+166 147
+105
+4T24 3T25 4T25 2024 2025 2020 2021 2022 2023 2024 2025
+Lucro Líquido Operacional¹ Margem Líquida Operacional¹ Lucro Líquido Margem Líquida
+1 - Lucro Líquido e Margem Líquida Operacionais: ajuste pelo resultado não recorrente alocado na rubrica “Outras Receitas e Despesas Operacionais”, despesas de cessão de recebíveis e resultado de swap de ações, conforme o caso.
+10
 
-¹ Desconsiderando o projeto vendido no âmbito do Programa Pode Entrar, ocorrido no 3T24.
+<!-- PAGE 11 -->
+Estrutura de Capital
+Dívida Líquida¹ e Índice de Alavancagem Evolução do Caixa Cronograma de Amortização da Dívida
+R$ milhões e % R$ milhões R$ milhões
+Dívida Líquida¹ Dívida Líquida¹/PL
++35%
+2.715
+Financiamento à Produção - SFH
+25,6%
+23,0%
+Leasing 647
+13,7%13,3%
+9,9%
+7,4% 7,3% Mercado de Capitais
+1
+-3,4%
+-3,1% Saldo de Swap
+2.183
+2.111
+1.615
+533 633
+410
+138 196 193 275 193 280 160 189 271 231 231 297
+102 97
+-72 -68 -43
+Até 12 13-24 25-36 37-48 49-60 61-72 73-84 85-96 97-108 >108 Saldo
+2017 2018 2019 2020 2021 2022 2023 2024 2025 2024 2025
+meses meses meses meses meses meses meses meses meses meses Total
+• Dívida Líquida¹/PL de 23,0%, decorrente sobretudo da distribuição de R$ 804 milhões de dividendos em dezembro.
+brAAA
+• Prazo médio de vencimento da dívida de 64 meses, o mais longo do setor.
+• Após o 4T25, emissão de CRI com ~3x demanda e taxa de captação abaixo de CDI, alongando o prazo médio para 68 meses.
+1 - Dívida Líquida (Caixa Líquido): saldo de Empréstimos e Financiamentos reduzido pelo saldo de Caixa e Equivalentes de Caixa e Aplicações Financeiras e somado ao saldo das posições em aberto de contratos de swaps para proteção
+11
+de flutuações de taxas de juros.
 
-**LTM 1T26:** VGV lançado de R$ 6,9 bilhões (vs R$ 5,4 bilhões no 1T26 LTM, +27%).  
-Direcional: R$ 3,8 bi; Riva: R$ 3,1 bi no LTM 1T26.
+<!-- PAGE 12 -->
+Aviso e Contatos
+Declarações contidas neste comunicado relativas às perspectivas dos negócios, projeções de resultados operacionais e financeiros e
+referências ao potencial de crescimento da Companhia constituem meras previsões e foram baseadas nas expectativas e estimativas
+da Administração em relação ao desempenho futuro da Direcional. Embora a Companhia acredite que tais previsões sejam baseadas
+em suposições razoáveis, ela não assegura que elas sejam alcançadas. As expectativas e estimativas que baseiam as perspectivas
+futuras da Companhia dependem em grande parte do comportamento do mercado, da situação econômica e política do Brasil, do nível
+de crédito disponível, de regulamentações governamentais existentes e futuras e do desempenho geral da economia mundial e,
+portanto, estão sujeitas a mudanças que fogem ao controle da Companhia e de sua Administração.
+Equipe de RI
+ri.direcional.com.br
+ri@direcional.com.br
+(+55 31) 3431-5509 | (+55 31) 3431-5512
 
----
+<!-- PAGE 13 -->
+4Q25 Earnings Presentation
+March 10, 2026
 
-## Vendas Contratadas
+<!-- PAGE 14 -->
+Main Highlights
 
-No 1T26, as Vendas Brutas atingiram a marca de R$ 1,9 bilhão (R$ 1,6 bilhão % Companhia), crescendo 29% em relação ao 1T25, o maior nível já registrado para um 1º trimestre. Assim, a forte demanda observada ao longo dos três meses iniciais do ano, levou as Vendas Líquidas a alcançar R$ 1,6 bilhão no período (R$ 1,4 bilhão % Companhia), representando um crescimento de 19% sobre o 1T25 e de 4% sobre o 4T25. Vale ressaltar também que, quando considerada a participação da Companhia nos projetos, o crescimento foi de 23% em relação ao 1T25 e de 4% em relação ao 4T25.
+<!-- PAGE 15 -->
+Highlights [1/2]
+Launches [PSV 100% - BRL million] Net Sales [PSV 100% - BRL million]
+3.5x 4.7x
+6,858 6,000 6,163
+5,484
+4,652
+3,785
+3,138 3,636 2,999
+2,440
+1,946 1,763 1,320 1,680
+2019 2020 2021 2022 2023 2024 2025 2019 2020 2021 2022 2023 2024 2025
+Gross Profit and Gross Margin [BRL million and %] Operating Net Income and Net Margin² [BRL million and %]
+17.2% 17.4%
+Adjusted Gross Profit¹ 42.1% Operating Net Income
+Adjusted Gross Margin¹ Operating Net Margin 13.8%
+38.3%
+36.7% 36.4% 8.6% 8.7%
+35.5% 35.6% 6.9% 7.5%
+34.5%
+1,826
+758
+1,284 577
+651 770 856 324
+502 533
+100 112 153 188
+2019 2020 2021 2022 2023 2024 2025 2019 2020 2021 2022 2023 2024 2025
+1 -Adjusted Gross Profit and Gross Margin: adjustment excluding capitalized interest.
+2 - Operating Net Income and Operating Net Margin: adjustment excluding non-recurring result allocated to “Other Operating Income and Expenses”, expenses with sales of receivablesand equity swap result, as applicable. 3
 
-No 1T26 LTM, o VGV líquido contratado totalizou R$ 6,4 bilhões (R$ 5,4 bilhões % Companhia), volume 19% superior ao observado no 1T25 LTM.
+<!-- PAGE 16 -->
+Highlights [2/2]
+Operating Net Income¹ and ROE Track Record [BRL million and %] Dividends and Share Buyback [BRL million]
+Operating Net Income
+1,177
+Operating Net Margin Share Buyback
+26
+Annualized ROE Dividends
+44.1%
+32.9% 33.4% 33.5%
+30.3%
+29.0%
+584
+17.1% 17.9% 17.7% 17.2% 17.7% 17.2% 7 1,151
++28%
+577
+205 211 180
+156 166 158 184 121 130 141 132 6
+19 40 4 5 2 1 7 6 56 5 8 7 2 2 5 63 4 8 1 0 90 1 2 2 1 0 1 3 0 2 0 174 81
+3Q24 4Q24 1Q25 2Q25 3Q25 4Q25 20092010201120122013201420152016201720182019202020212022202320242025
+4Q25 Net Revenue Backlog Margin Annualized ROE² 4Q25 Dividends
+BRL 1.2 bn 44.6% 44% BRL 804 mn
+(+33% vs. 4Q24) (+0.7 p.p. vs. 4Q24) (+11.2 p.p. vs. 4Q24) (BRL 1.55 per share)
+1 - Operating Net Income and Operating Net Margin: adjustment excluding non-recurring result allocated to “Other Operating Income and Expenses”, expenses with sales of receivablesand equity swap result, as applicable.
+4
 
-Vale enfatizar que parte das vendas advém de projetos desenvolvidos em SPEs não controladas ou controladas em conjunto com parceiros. Nesses casos, a receita proveniente dessas vendas não é consolidada diretamente na receita contábil da Companhia. Com isso, 91% das Vendas Líquidas do 1T26 são referentes a projetos que contribuem com a linha de Receita Líquida da Companhia, enquanto 9% impactam o resultado por meio da linha de Equivalência Patrimonial, considerando o percentual detido pelo Grupo Direcional em cada uma dessas SPEs não consolidadas.
+<!-- PAGE 17 -->
+Operating Highlights
 
-| Vendas Líquidas Contratadas ¹ | 1T26 (a) | 4T25 (b) | 1T25 (c) | a/b | a/c |
-|---|---:|---:|---:|---:|---:|
-| VGV Líquido Contratado (VGV 100%) (R$ milhões) | 1.582,0 | 1.517,5 | 1.326,5 | +4,2% | +19,3% |
-| Direcional | 979,9 | 793,3 | 843,8 | +23,5% | +16,1% |
-| Riva | 602,1 | 724,2 | 482,7 | -16,9% | +24,7% |
-| VGV Líquido Contratado (% Companhia) (R$ milhões) | 1.352,0 | 1.305,1 | 1.099,8 | +3,6% | +22,9% |
-| Direcional | 871,0 | 665,4 | 687,2 | +30,9% | +26,8% |
-| Riva | 481,0 | 639,8 | 412,6 | -24,8% | +16,6% |
-| Unidades Contratadas | 4.848 | 4.227 | 4.330 | +14,7% | +12,0% |
-| Direcional | 3.585 | 2.908 | 3.260 | +23,3% | +10,0% |
-| Riva | 1.263 | 1.319 | 1.070 | -4,2% | +18,0% |
-| VSO (Vendas Sobre Oferta) em VGV 100% | 24% | 21% | 23% | +2,5 p.p. | +0,3 p.p. |
-| Direcional | 24% | 19% | 23% | +4,8 p.p. | +1,1 p.p. |
-| Riva | 23% | 24% | 24% | -0,7 p.p. | -1,1 p.p. |
+<!-- PAGE 18 -->
+Launches and Net Sales
+Launches¹ Net Sales¹
+PSV 100% -BRL million PSV 100% -BRL million
+83%
+79%
+Riva +25% Riva
+Direcional 6,858 Direcional 6,163
+6,000
++3%
+% Company Stake
+5,484
+3,082 2,355 2,711
+2,155
++4%
+-4%
+2,152
+1,833 1,901 -12% 3,776 1,580 1,642 1,518 3,646 3,452
+3,329 -8%
+682 1,189 821 596 823 724
+1,151 963 1,080 983 819 793
+4Q24 3Q25 4Q25 2024 2025 4Q24 3Q25 4Q25 2024 2025
+1 - Disregarding the projects sold under the Pode EntrarProgram . 6
 
-¹ Desconsiderando o projeto vendido no âmbito do Programa Pode Entrar, ocorrido no 3T24.
+<!-- PAGE 19 -->
+Financial Highlights
 
-**LTM 1T26:** Vendas Líquidas de R$ 6,4 bilhões (Direcional: R$ 3,6 bi; Riva: R$ 2,8 bi), +7% vs LTM 1T25.  
-Evolução histórica LTM: 2021 R$ 2,4 bi → 2022 R$ 3,0 bi → 2023 R$ 3,8 bi → 2024 R$ 6,0 bi → 2025 R$ 6,2 bi → LTM 1T26 R$ 6,4 bi.
+<!-- PAGE 20 -->
+Net Revenue growth
+Net Revenue Total Net Revenue¹
+BRL million BRL million
++24%
+5,545
+1,202
++30% 4,478
+1,130
+4,343 4,343
++24%
+3,348 1,533 3,348
+1,456
++33% +5%
+1,233 307
+298
++6%
+309
+1,158 1,226 1,158 1,226
+924 924
+4Q24 3Q25 4Q25 2024 2025 4Q24 3Q25 4Q25 2024 2025
+Non-consolidated Net Revenue (non-consolidated SPVs)
+Consolidated Net Revenue
+1 - Total Net Revenue: adjustment including Net Revenue from non-consolidated SPVs. 8
 
----
+<!-- PAGE 21 -->
+High levels of Gross Margin and Backlog Margin
+Adjusted Gross Profit¹ Deferred Revenue from Real Estate Sales
+BRL million and % BRL million and %
+42.1% 42.8% 42.1% 44.9% 45.2% 44.6%
+43.9% 44.1%
+39.4%
+38.3%
++42%
++34%
++4%
+1,826
+3,822
+3,686
+3,398
+3,116
++44% 1,284 2,845
++8%
+487 524
+364
+4Q24 3Q25 4Q25 2024 2025 4Q24 1Q25 2Q25 3Q25 4Q25
+Adjusted Gross Profit¹ Adjusted Gross Margin¹ Deferred Revenue from Real Estate Sales Backlog Margin
+1 - Gross Profit and Gross Margin: adjustment excluding capitalized interest. 9
 
-## Velocidade de Vendas (VSO)
+<!-- PAGE 22 -->
+Net Income and Net Margin strength
+Operating Net Income¹ Net Income Track Record
+BRL million and % BRL million and %
+17.9% 17.7% 17.2% 17.2% 17.4% 19.1% 18.2%
+14.1%
+8.8%
++31% 8.3%
+7.0%
+CAGR:
++50%
+789
+758
+638
+577
++28%
++3%
+332
+205 211 190
+166 147
+105
+4Q24 3Q25 4Q25 2024 2025 2020 2021 2022 2023 2024 2025
+Operating Net Income¹ Operating Net Margin¹ Net Income Net Margin
+1 - Operating Net Income and Operating Net Margin: adjustment excluding non-recurring result allocated to “Other Operating Income and Expenses”, expenses with sales of receivablesand equity swap result, as applicable.
+10
 
-Com a resiliência da demanda observada em relação aos produtos da Direcional e da Riva, a Velocidade de Vendas consolidada — medida pelo índice de Vendas Líquidas Sobre Oferta (VSO) — acelerou 250 bps em relação ao trimestre anterior e alcançou 24% no 1T26. Em relação ao 1T25, o incremento foi de 30 bps. Dessa forma, o indicador atingiu seu maior patamar para um 1º trimestre.
+<!-- PAGE 23 -->
+Capital Structure
+Net Debt¹ and Leverage Ratio Cash Position Debt Amortization Schedule
+BRL million and % BRL million BRL million
+Net Debt (Net Cash)¹
++35%
+Net Debt (Net Cash)¹/Equity 2,715
+Construction Financing - SFH
+25.6%
+23.0%
+Leasing 647
+13.7%13.3%
+9.9%
+7.4% 7.3% Capital Markets
+1
+-3.4%
+-3.1% Interest Rate Swap
+2,183
+2,111
+1,615
+533 633
+410
+138 196 193 275 193 280 160 189 271 231 231 297
+102 97
+-72 -68 -43
+≤ 12 13-24 25-36 37-48 49-60 61-72 73-84 85-96 97-108 >108 Total
+2017 2018 2019 2020 2021 2022 2023 2024 2025 2024 2025
+monthsmonthsmonthsmonthsmonthsmonthsmonthsmonthsmonthsmonths
+• Net Debt-to-Equity¹ of 23.0%, primarily driven by the distribution of BRL 804 million in dividends in December.
+brAAA
+• Weighted average maturity of debt reached 64 months: the longest in the sector.
+• After 4Q25: CRI issuance with ~3x demand and a funding rate below the CDI, extending the average maturity to 68 months.
+1 -Net Debt (Net Cash): Loans and Financing operations reduced by Cash and Cash Equivalents and Short-term Investments plus thebalance of interest rate swap contracts.
+11
 
-É importante evidenciar que o aumento de VSO do trimestre decorreu tanto da performance da Direcional, quanto da Riva. A velocidade de vendas dos produtos da marca Direcional foi de 24% no período, enquanto a dos empreendimentos relacionados à marca Riva foi de 23%.
-
-**Evolução da VSO (VGV 100%):**
-
-| Período | VSO Consolidada | VSO Direcional | VSO Riva |
-|---|---:|---:|---:|
-| 1T25 | 23% | 23% | 24% |
-| 2T25 | 26% | 26% | 27% |
-| 3T25 | 24% | 24% | 27% |
-| 4T25 | 21% | 19% | 24% |
-| 1T26 | 24% | 24% | 23% |
-
-**VSO em 1ºs trimestres (histórico):**
-
-| Trimestre | VSO 1T |
-|---|---:|
-| 1T21 | 17% |
-| 1T22 | 16% |
-| 1T23 | 17% |
-| 1T24 | 22% |
-| 1T25 | 23% |
-| 1T26 | 24% |
-
----
-
-## Estoque
-
-No encerramento do 1T26, o VGV em Estoque foi de R$ 5,2 bilhões (R$ 4,3 bilhões % Companhia), representando um total de 14.120 unidades. Aproximadamente 3% do VGV em Estoque é referente a unidades concluídas.
-
-**Estoque a Valor de Mercado:**
-
-| Estoque a Valor de Mercado | Direcional (VGV 100%) | Riva (VGV 100%) | Total (VGV 100%) | Direcional (% Cia.) | Riva (% Cia.) | Total (% Cia.) |
-|---|---:|---:|---:|---:|---:|---:|
-| Em andamento (R$ milhões) | 3.098 | 1.943 | 5.040 | 2.591 | 1.600 | 4.191 |
-| % Total | 60% | 38% | 97% | 61% | 37% | 98% |
-| Concluído (R$ milhões) | 105 | 33 | 137 | 68 | 20 | 88 |
-| % Total | 2% | 1% | 3% | 2% | 0% | 2% |
-| Total (R$ milhões) | 3.202 | 1.975 | 5.178 | 2.659 | 1.620 | 4.279 |
-| % Total | 62% | 38% | 100% | 62% | 38% | 100% |
-| Total Unidades | 10.488 | 3.632 | 14.120 | 10.488 | 3.632 | 14.120 |
-| % Total Unidades | 74% | 26% | 100% | 74% | 26% | 100% |
-
----
-
-## Banco de Terrenos
-
-Ao final do 1T26, o banco de terrenos do Grupo Direcional totalizou VGV potencial de R$ 60,0 bilhões (R$ 54,8 bilhões % Companhia), correspondendo a um potencial de desenvolvimento de cerca de 246 mil unidades.
-
-O custo médio de aquisição do landbank é de 11% do VGV potencial, com 87% sendo pagos por meio de permuta, refletindo um reduzido impacto no caixa antes do início do desenvolvimento dos empreendimentos.
-
-**Evolução do Banco de Terrenos:**
-
-| Segmento | Landbank 2025 (R$ mm) | Aquisições 1T26 (R$ mm) | Lançamentos 1T26 (R$ mm) | Ajustes ¹ 1T26 (R$ mm) | Landbank 1T26 (R$ mm) | VGV % Cia. 1T26 (R$ mm) | Unidades 1T26 |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Direcional | 39.852 | 1.947 | (705) | 126 | 41.220 | 37.913 | 198.791 |
-| Riva | 18.601 | 311 | (301) | 125 | 18.736 | 16.897 | 46.958 |
-| VGV Total | 58.452 | 2.258 | (1.006) | 251 | 59.956 | 54.810 | 245.749 |
-
-¹ Os ajustes decorrem de atualização do preço de venda, distratos e/ou permuta.
-
-**Aquisições de Terrenos no 1T26:**  
-Durante o trimestre, foram adquiridos 7 terrenos, cujo VGV potencial somou R$ 2,3 bilhões (R$ 1,9 bilhões % Companhia), o correspondente a aproximadamente 7.400 unidades. O custo médio de aquisição no trimestre foi de 14% do VGV estimado, com 85% do pagamento a ser realizado via permuta.
-
----
-
-## Geração de Caixa
-
-No 1T26, foi observada uma geração de caixa operacional totalizando R$ 13 milhões. Vale ressaltar que, no trimestre, houve um consumo de caixa não operacional, decorrente principalmente de amortizações de cessão de recebíveis, no valor de R$ 89 milhões. Desse modo, a Companhia encerrou o 1T26 com um consumo de caixa contábil de R$ 76 milhões.
-
-**Definições:**
-- Geração/Consumo de Caixa (contábil): variação da dívida líquida ajustada por pagamento de dividendos, recompra de ações e variação no saldo de contratos de operações de swap de juros. Informações prévias não auditadas.
-- Geração/Consumo de Caixa operacional: Geração de Caixa contábil, excluindo os efeitos não operacionais ocorridos em determinado período.
-
----
-
-## Glossário
-
-**Classificação dos empreendimentos:**
-
-- **Direcional:** Empreendimentos residenciais com preço médio por unidade de até R$ 350 mil, geralmente enquadrados no Programa Minha Casa, Minha Vida – Faixas 1, 2 e 3.
-- **Riva:** Empreendimentos residenciais destinados a clientes de média renda, desenvolvidos nas SPEs objeto de aporte de ativos na subsidiária integral da Direcional denominada Riva Incorporadora S.A. Geralmente, os empreendimentos são enquadrados no Programa Minha Casa, Minha Vida – Faixa 4 (preço médio por unidade de até R$ 500 mil), ou vendidos fora do Programa (com preço médio por unidade acima dos R$ 500 mil).
-- **Legado:** Empreendimentos do segmento MAC (Médio Padrão, Médio-Alto Padrão e Comercial), desenvolvidos no modelo de incorporação e construção anterior.
-- **Novo Modelo:** Modelo de negócios consolidado a partir de 2015 para desenvolvimento dos empreendimentos residenciais da Companhia. Tem como principais características a possibilidade de repasses na planta e a adoção de construção industrializada.
-- **Banco de Terrenos (Landbank):** Terrenos mantidos em estoque com a estimativa de VGV futuro dos mesmos.
-- **EBITDA Ajustado:** EBITDA (lucro antes do resultado financeiro, dos encargos financeiros incluídos na rubrica de custos dos imóveis vendidos, do Imposto de Renda e da Contribuição Social, das despesas de depreciação e amortização) menos a participação dos acionistas não controladores e menos resultados não recorrentes, geralmente alocados na linha de Outras Receitas e Despesas Operacionais.
-- **LTM:** Período que compreende os últimos 12 meses (Last Twelve Months).
-- **Método PoC:** De acordo com o IFRS, as receitas, custos e despesas relacionadas a empreendimentos imobiliários são apropriadas com base no método contábil do custo incorrido ("Percentage of Completion - PoC"), medindo-se o progresso da obra pelos custos reais incorridos versus os gastos totais orçados para cada fase do empreendimento.
-- **Permuta Financeira:** Sistema de compra de terreno pelo qual o proprietário do terreno recebe o pagamento em dinheiro, em geral calculado como um percentual do VGV do empreendimento, a ser pago de acordo com a apuração de receita das vendas das unidades do projeto.
-- **Permuta Física:** Sistema de compra de terreno pelo qual o proprietário do terreno recebe em pagamento um determinado número de unidades do empreendimento a ser construído no mesmo.
-- **Programa Minha Casa, Minha Vida (MCMV):** Atual denominação atribuída ao programa de incentivo à habitação popular (anteriormente, Programa Casa Verde e Amarela).
-- **Recursos do SFH:** Recursos do Sistema Financeiro da Habitação (SFH) são originados do Fundo de Garantia por Tempo de Serviço (FGTS) e dos depósitos de caderneta de poupança.
-- **Resultado a Apropriar:** Resultado do saldo de transações de vendas de imóveis já contratadas (decorrente dos imóveis cuja construção não foi ainda concluída) e seus respectivos custos orçados a incorrer.
-- **Vendas Líquidas Contratadas:** VGV decorrente de todos os contratos de venda de imóveis celebrados em determinado período, incluindo a venda de unidades lançadas no período e a venda de unidades em estoque, líquida de distratos.
-- **VGV (Valor Geral de Vendas):** Valor total a ser potencialmente obtido pela venda de todas as unidades de determinado empreendimento imobiliário ao preço de lançamento.
-- **VGV Lançado:** Valor Geral de Vendas das unidades lançadas em determinado período.
+<!-- PAGE 24 -->
+Disclaimer and Contact Info
+This presentation contains certain forward-looking statements concerning the business prospects, projections of operating and financial
+results and growth potential of the Company, which are based on management’s current expectations and estimates of the future
+performance of the Company. Although the Company believes such forward-looking statements are based on reasonable assumptions,
+it can give no assurance that its expectations will be achieved. Expectations and estimates that are based on the future prospects of the
+Company are highly dependent upon market behavior, Brazil’s political and economic situation, existing and future regulations of the
+industry and international markets and, therefore, are subject to changes outside the Company’s and management’s control. The
+Company undertakes no obligation to update any information contained herein or to revise any forward-looking statement as a result of
+new information,future events or other information.
+IR Team
+ri.direcional.com.br/en
+ri@direcional.com.br
+(+55 31) 3431-5509 | (+55 31) 3431-5512
