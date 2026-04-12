@@ -1,12 +1,18 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# --- Usage ---
+# Re-generates full/ files by downloading ALL docs directly from CVM,
+# extracting PDFs, and copying to full/. Ignores the manifest — downloads
+# everything within the horizon, even if already ingested.
+#
+# Does NOT re-run the LLM (structured.json and digested.md are kept as-is).
+# Requires CVM-API running at localhost:8100.
+
 usage() {
     echo "Usage: bash tools/reingest_full.sh <TICKER> [--horizon 5y] [--types dfp,itr,release,fato_relevante,previa_operacional]"
     echo ""
-    echo "Re-generates full/ files by re-downloading PDFs, extracting, and copying."
-    echo "Does NOT re-run the LLM (structured.json and digested.md are kept as-is)."
+    echo "Re-generates full/ files by downloading ALL docs from CVM (ignores manifest),"
+    echo "extracting PDFs, and copying to full/. Does NOT invoke the LLM."
     echo ""
     echo "Requires CVM-API running at localhost:8100."
     exit 1
@@ -37,7 +43,7 @@ echo "Horizon: $HORIZON"
 echo "Types:   $TYPES"
 echo ""
 
-# --- Resolve manifest ---
+# --- Resolve empresa from manifest ---
 EMPRESA=""
 for f in "$MANIFESTS"/*.json; do
     [[ -f "$f" ]] || continue
@@ -55,29 +61,110 @@ fi
 echo "Empresa: $EMPRESA"
 echo ""
 
-# --- Step 1: Fetch (downloads to undigested/) ---
-echo "=== Step 1: Fetching from CVM ==="
-bash "$SCRIPT_DIR/fetch.sh" "$TICKER" --horizon "$HORIZON" --types "$TYPES"
+# --- Compute horizon start date ---
+compute_horizon_from() {
+    local h="$1"
+    local num="${h%[ym]}"
+    local unit="${h: -1}"
+    if [[ "$unit" == "y" ]]; then
+        local current_year current_month current_day
+        current_year=$(date +%Y)
+        current_month=$(date +%m)
+        current_day=$(date +%d)
+        echo "$((current_year - num))-${current_month}-${current_day}"
+    elif [[ "$unit" == "m" ]]; then
+        python -c "
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
+d = datetime.now() - relativedelta(months=$num)
+print(d.strftime('%Y-%m-%d'))
+"
+    else
+        echo "$(date +%Y-%m-%d)"
+    fi
+}
+
+HORIZON_FROM=$(compute_horizon_from "$HORIZON")
+echo "Date range: $HORIZON_FROM → today"
 echo ""
 
-# --- Step 2: Extract all PDFs/ZIPs ---
-echo "=== Step 2: Extracting PDFs ==="
-COUNT=0
+# --- Step 1: List ALL documents from CVM (ignoring manifest) ---
+echo "=== Step 1: Listing documents from CVM ==="
+LIST_JSON=$(python "$SCRIPT_DIR/lib/cvm_fetch.py" list "$TICKER" --types "$TYPES" --from "$HORIZON_FROM" 2>&1)
+
+DOC_COUNT=$(echo "$LIST_JSON" | python -c "import sys,json; print(len(json.load(sys.stdin)))")
+echo "  Found $DOC_COUNT documents"
+
+if [[ "$DOC_COUNT" == "0" ]]; then
+    echo "Nothing to re-ingest."
+    exit 0
+fi
+
+# --- Step 2: Download ALL documents ---
+echo "=== Step 2: Downloading $DOC_COUNT documents ==="
+mkdir -p "$UNDIGESTED"
+
+# Build batch-download JSON: [{num_sequencia, num_versao, numero_protocolo, desc_tipo, output}, ...]
+BATCH_JSON=$(echo "$LIST_JSON" | python -c "
+import sys, json
+
+docs = json.load(sys.stdin)
+ticker = '$TICKER'
+undigested = '$UNDIGESTED'
+
+batch = []
+for doc in docs:
+    tipo = doc['tipo']
+    periodo = doc['periodo']
+    seq = doc.get('num_sequencia', 'unknown')
+    fname = f'{ticker}_{periodo}_{tipo}_{seq}'
+
+    # Determine extension based on doc type
+    if tipo in ('itr', 'dfp'):
+        ext = '.zip'
+    else:
+        ext = '.pdf'
+
+    batch.append({
+        'num_sequencia': str(doc.get('num_sequencia', '')),
+        'num_versao': str(doc.get('num_versao', '')),
+        'numero_protocolo': str(doc.get('numero_protocolo', '')),
+        'desc_tipo': str(doc.get('desc_tipo', '')),
+        'output': f'{undigested}/{fname}{ext}',
+    })
+
+print(json.dumps(batch))
+")
+
+python "$SCRIPT_DIR/lib/cvm_fetch.py" batch-download \
+    --docs-json "$BATCH_JSON" \
+    --concurrency 6
+
+echo ""
+
+# --- Step 3: Extract all PDFs/ZIPs ---
+echo "=== Step 3: Extracting PDFs ==="
+source "$SCRIPT_DIR/lib/parallel.sh"
+parallel_init 4
+
+EXTRACT_COUNT=0
 for f in "$UNDIGESTED"/${TICKER}_*; do
     [[ -f "$f" ]] || continue
     fname=$(basename "$f")
     [[ "$fname" == *_extracted.md ]] && continue
     [[ "$fname" == *.json ]] && continue
 
-    echo "  Extracting: $fname"
-    python "$SCRIPT_DIR/lib/pdf_extract.py" "$f" 2>/dev/null || echo "    WARNING: extraction failed for $fname"
-    COUNT=$((COUNT + 1))
+    echo "  Queued: $fname"
+    parallel_add "python \"$SCRIPT_DIR/lib/pdf_extract.py\" \"$f\""
+    EXTRACT_COUNT=$((EXTRACT_COUNT + 1))
 done
-echo "  Extracted $COUNT files"
+
+parallel_wait
+echo "  Extracted $EXTRACT_COUNT files"
 echo ""
 
-# --- Step 3: Copy to full/ ---
-echo "=== Step 3: Copying to full/ ==="
+# --- Step 4: Copy to full/ ---
+echo "=== Step 4: Copying to full/ ==="
 COPIED=0
 for f in "$UNDIGESTED"/${TICKER}_*_extracted.md; do
     [[ -f "$f" ]] || continue
@@ -104,26 +191,24 @@ for f in "$UNDIGESTED"/${TICKER}_*_extracted.md; do
     fi
 
     cp "$f" "$dest"
-    echo "  $fname → $dest"
+    echo "  → sources/full/$EMPRESA/$period/$(basename "$dest")"
     COPIED=$((COPIED + 1))
 done
 echo "  Copied $COPIED files to full/"
 echo ""
 
-# --- Step 4: Cleanup undigested/ ---
-echo "=== Step 4: Cleanup ==="
+# --- Step 5: Cleanup undigested/ ---
+echo "=== Step 5: Cleanup ==="
+CLEANED=0
 for f in "$UNDIGESTED"/${TICKER}_*; do
     [[ -f "$f" ]] || continue
     rm -f "$f"
-    echo "  Deleted: $(basename "$f")"
+    CLEANED=$((CLEANED + 1))
 done
+echo "  Removed $CLEANED files from undigested/"
 
 echo ""
 echo "=== Re-ingest complete ==="
-echo "  Files updated in full/: $COPIED"
+echo "  Documents found on CVM: $DOC_COUNT"
+echo "  Files copied to full/:  $COPIED"
 echo "  structured.json and digested.md were NOT changed."
-echo ""
-echo "ACTION REQUIRED after re-ingest for all tickers:"
-echo "  - Cury:       bash tools/reingest_full.sh CURY3 --horizon 5y"
-echo "  - Direcional: bash tools/reingest_full.sh DIRR3 --horizon 5y"
-echo "  - Cyrela:     bash tools/reingest_full.sh CYRE3 --horizon 5y"
