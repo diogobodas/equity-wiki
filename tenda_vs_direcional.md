@@ -3,16 +3,20 @@ type: comparison
 aliases: [TEND3 vs DIRR3, Tenda vs Direcional]
 sources:
   - sources/full/tenda/2025/dfp.md
+  - sources/full/tenda/2024/dfp.md
   - sources/full/tenda/4T25/release.md
   - sources/full/tenda/1T26/previa_operacional.md
+  - sources/full/tenda/4T24/release.md
   - sources/full/direcional/4T25/release.md
   - sources/full/direcional/3T25/release.md
   - sources/structured/tenda/2025/dfp.json
+  - sources/structured/tenda/2024/dfp.json
   - sources/structured/tenda/4T25/release.json
+  - sources/structured/tenda/4T24/release.json
   - sources/structured/direcional/2025/release.json
   - sources/structured/direcional/4T25/release.json
 created: 2026-04-11
-updated: 2026-04-11
+updated: 2026-04-12
 ---
 
 # Tenda vs Direcional
@@ -157,6 +161,22 @@ A Tenda tem o programa de [[swap_trs|SWAP TRS]] sobre TEND3 mais relevante do se
 | Out/2025 | 13ª emissão R$ 300 mm (duration ∞, endereça 2026) | — |
 | Dez/2025 | Dividendos 2025 totais R$ 150 mm | **Dividendo extraordinário R$ 804 mm** (antecipação fiscal) |
 | 1T26 | Prévia operacional: recordes da marca Tenda | Alienação total 15% Riva concluída, ~R$ 416 mm |
+
+## Contexto 2024 — trajetorias pre-2025
+
+Em 2024, a divergencia entre as duas empresas era ainda mais marcante. Enquanto a Direcional ja operava com margens e rentabilidade consolidadas, a Tenda ainda estava no meio do turnaround:
+
+| Metrica anual | Tenda 2024 | Direcional 2024 (est.) |
+|---|---:|---:|
+| Receita liquida (R$ mm) | 3.284 | ~3.500 |
+| MBA consolidada | 30,0% | ~40% |
+| Lucro liquido (R$ mm) | 106 | ~550 |
+| ROE LTM | 11,8% | ~30% |
+| DL / PL | 20,1% | ~15% |
+
+Fonte Tenda: (fonte: structured/tenda/2024/dfp.json :: canonical.dre), (fonte: structured/tenda/2024/dfp.json :: canonical.bp).
+
+A Tenda de 2024 (ROE 11,8%, ML 3,2%) e a Tenda de 2025 (ROE 47,1%, ML 12,1%) sao empresas quase irreconheciveis. A velocidade do turnaround — de prejuizo de R$ 96 mm em 2023 para lucro de R$ 506 mm em 2025 — e sem precedente no setor e justifica parte do re-rating do papel. A Direcional, por outro lado, cresceu linearmente sem inflexao dramatica, o que reflete um modelo mais previsivel mas com menos upside de multiplos.
 
 ## Conclusão — duas teses diferentes
 

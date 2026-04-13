@@ -8,10 +8,20 @@ sources:
   - sources/full/tenda/2T25/release.md
   - sources/full/tenda/3T25/release.md
   - sources/full/tenda/4T25/release.md
+  - sources/full/tenda/4T23/release.md
+  - sources/full/tenda/1T24/release.md
+  - sources/full/tenda/2T24/release.md
+  - sources/full/tenda/3T24/release.md
+  - sources/full/tenda/4T24/release.md
   - sources/structured/tenda/2025/dfp.json
   - sources/structured/tenda/4T25/release.json
+  - sources/structured/tenda/4T23/release.json
+  - sources/structured/tenda/1T24/release.json
+  - sources/structured/tenda/2T24/release.json
+  - sources/structured/tenda/3T24/release.json
+  - sources/structured/tenda/4T24/release.json
 created: 2026-04-11
-updated: 2026-04-11
+updated: 2026-04-12
 ---
 
 # Alea
@@ -26,7 +36,25 @@ Em 31/12/2024, Tenda detinha **100% da Alea**. Em dez/2024 foi assinado acordo c
 
 Dado o prejuízo acumulado da Alea em 2025 (R$ 152 mm), o valuation implícito de R$ 1,1 bi parece **significativamente acima da realidade operacional atual** (fonte: full/tenda/2025/dfp.md §nota_24).
 
-## Resultado operacional — deterioração ao longo de 2025
+## Resultado operacional 2024 — ramp-up e otimismo antes do "freio"
+
+Em 2024, a Alea saiu de margem bruta ajustada negativa (-11,3% no 4T23) para positiva e crescente, atingindo o guidance de MBA 9-11% ja no 2T24. O scale-up foi acelerado de 10 para 22 canteiros entre 1T24 e 1T25, baseado em empreiteiros terceirizados.
+
+| Metrica | 4T23 | 1T24 | 2T24 | 3T24 | 4T24 | 2024 |
+|---|---:|---:|---:|---:|---:|---:|
+| Receita (R$ mm) | ~45 | 55,1 | 72,2 | 74,8 | 59,1 | 261,3 |
+| MBA | -11,3% | 6,5% | 9,7% | 10,4% | 11,2% | 8,5% |
+| EBITDA ajustado (R$ mm) | — | (10,3) | (13,5) | (11,8) | (16,8) | ~(55) |
+| Resultado (R$ mm) | — | (15,4) | (19,6) | (15,9) | (21,0) | (71,9) |
+| Canteiros ativos | 8 | — | 11 | 13 | — | — |
+
+Fontes: (fonte: structured/tenda/4T23/release.json :: company_specific), (fonte: structured/tenda/1T24/release.json :: company_specific), (fonte: structured/tenda/2T24/release.json :: company_specific), (fonte: structured/tenda/3T24/release.json :: company_specific), (fonte: structured/tenda/4T24/release.json :: company_specific).
+
+A MBA melhorou trimestre a trimestre ao longo de 2024, mas o **prejuizo permaneceu** (R$ 71,9 mm no ano auditado) por despesas de scale-up e custos fixos elevados relativos a receita. A Alea operava em 20 municipios sem concorrencia direta, com [[vso|VSO]] acima de 30% no 2T24 (fonte: full/tenda/2T24/release.md §alea).
+
+Em **dez/2024**, o acordo com Good Karma Ventures (GKP) para 6,97% da Alea por R$ 80 mm (EV implicito R$ 1,1 bi) sinalizava confianca da administracao no plano de lucratividade a partir de 2025 (fonte: full/tenda/2024/dfp.md §nota_27). Na realidade, o scale-up criou problemas de execucao que levaram ao "freio de arrumacao" a partir do 2T25.
+
+## Resultado operacional 2025 — deterioração
 
 | Métrica | 1T25 | 2T25 | 3T25 | 4T25 | 2025 |
 |---|---:|---:|---:|---:|---:|
