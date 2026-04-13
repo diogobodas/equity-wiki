@@ -87,11 +87,15 @@ O LLM puxa via MCP, gera `digested/notion_{slug}.md`, atualiza páginas e `notio
 
 ### 5. Query (perguntar)
 
-```
-Qual foi a margem financeira do Itaú no 3T25?
+```bash
+bash tools/query.sh "Qual foi a margem bruta da Cury no 3T24?"
+bash tools/query.sh "Compare o distrato da Direcional vs Cury de 1T23 a 4T25"
+bash tools/query.sh "Qual o ROE da Riva nos últimos 4 trimestres?"
 ```
 
-O LLM busca na wiki primeiro. Se for pergunta numérica pontual, vai direto em `structured/`. Se precisar de contexto qualitativo (notas, MD&A), abre `full/`.
+O `query.sh` invoca um agente LLM com acesso ao Bash que busca a resposta nas três camadas de dados: `structured/` (JSON limpo) → `full/` (texto bruto do PDF) → `digested/` (resumos). Cada dado retornado vem com citação da fonte exata (arquivo + linha ou campo JSON).
+
+O agente sabe lidar com texto espaçado da extração de PDF (ex: `D is tra to s` em vez de `Distratos`) e nunca inventa dados — se não encontrar, diz o que buscou.
 
 ### 6. Modelagem (planilha)
 
@@ -147,6 +151,15 @@ bash tools/wiki_update.sh           # incremental: processa apenas a fila penden
 Duas fases:
 1. **Planejamento** — LLM lê todos os digesteds e produz um plano JSON (quais páginas criar/atualizar)
 2. **Execução** — LLM escreve cada página com contexto cirúrgico (só os digesteds relevantes)
+
+### Query — consultar dados
+
+```bash
+bash tools/query.sh "qual o distrato da Cury no 3T24?"
+bash tools/query.sh "série histórica de VSO da Direcional desde 2019"
+```
+
+Busca em `structured/` → `full/` → `digested/` e retorna resposta citada. Lida com texto espaçado de PDFs automaticamente.
 
 ### Re-ingest full/ — corrigir transcrições truncadas
 
