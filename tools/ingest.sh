@@ -6,7 +6,7 @@ usage() {
     echo "Usage: bash tools/ingest.sh <TICKER> [--concurrency N]"
     echo ""
     echo "Processes all files in sources/undigested/ for the given ticker."
-    echo "Accepts any PDF, ZIP, or XLSX — from fetch agent or dropped manually."
+    echo "Accepts PDF, XLSX, DOCX, PPTX, CSV, ZIP — from fetch agent or dropped manually."
     echo ""
     echo "Options:"
     echo "  --concurrency, -j N   Max parallel ingest agents (default: 4)"
@@ -56,7 +56,7 @@ open(sys.argv[-1], 'w', encoding='utf-8').write(template)
     FNAME=$(basename "$GENERIC_FILE")
     STEM="${FNAME%.*}"
     echo "Extracting..."
-    python "$SCRIPT_DIR/lib/pdf_extract.py" "$GENERIC_FILE" 2>/dev/null || true
+    python "$SCRIPT_DIR/lib/file_extract.py" "$GENERIC_FILE" 2>/dev/null || true
     EXTRACTED="${GENERIC_FILE%.*}_extracted.md"
     [[ ! -f "$EXTRACTED" ]] && EXTRACTED="$GENERIC_FILE"
 
@@ -169,7 +169,9 @@ for f in "$UNDIGESTED"/*; do
             HEAVY_OTHER+=("$f")
         fi
     # Match any other PDF/XLSX/ZIP dropped manually
-    elif [[ "$fname" == *.pdf ]] || [[ "$fname" == *.xlsx ]] || [[ "$fname" == *.zip ]]; then
+    elif [[ "$fname" == *.pdf ]] || [[ "$fname" == *.xlsx ]] || [[ "$fname" == *.xls ]] || \
+         [[ "$fname" == *.docx ]] || [[ "$fname" == *.pptx ]] || [[ "$fname" == *.csv ]] || \
+         [[ "$fname" == *.zip ]]; then
         HEAVY_OTHER+=("$f")
     fi
 done
@@ -193,13 +195,13 @@ parallel_init "$CONCURRENCY"
 
 for f in "${HEAVY_ITR_DFP[@]}" "${HEAVY_RELEASE[@]}" "${LIGHT_FATOS[@]}" "${HEAVY_OTHER[@]}"; do
     echo "  Queued: $(basename "$f")"
-    parallel_add "python \"$SCRIPT_DIR/lib/pdf_extract.py\" \"$f\""
+    parallel_add "python \"$SCRIPT_DIR/lib/file_extract.py\" \"$f\""
 done
 
 parallel_wait
 echo ""
 
-# Reconstruct extracted paths (pdf_extract.py uses {stem}_extracted.md by default)
+# Reconstruct extracted paths (file_extract.py uses {stem}_extracted.md by default)
 EXTRACTED_ITR_DFP=()
 for f in "${HEAVY_ITR_DFP[@]}"; do
     stem="${f%.*}"

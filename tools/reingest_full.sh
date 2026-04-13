@@ -135,7 +135,7 @@ for f in "$UNDIGESTED"/${TICKER}_*; do
     [[ "$fname" == *.json ]] && continue
 
     echo "  Queued: $fname"
-    parallel_add "python \"$SCRIPT_DIR/lib/pdf_extract.py\" \"$f\""
+    parallel_add "python \"$SCRIPT_DIR/lib/file_extract.py\" \"$f\""
     EXTRACT_COUNT=$((EXTRACT_COUNT + 1))
 done
 
