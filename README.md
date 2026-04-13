@@ -115,6 +115,60 @@ Checa: links mortos, páginas órfãs, páginas desatualizadas, cross-refs falta
 
 ---
 
+## Ferramentas (CLI)
+
+### Fetch — baixar documentos da CVM
+
+```bash
+bash tools/fetch.sh TEND3                          # modo normal
+bash tools/fetch.sh TEND3 --horizon 5y --types dfp,itr,release
+bash tools/fetch.sh TEND3 --discover               # modo discovery (cria fetch_profile)
+```
+
+Requer CVM-API rodando em `localhost:8100`.
+
+### Ingest — processar documentos
+
+```bash
+bash tools/ingest.sh TEND3                         # processa tudo em sources/undigested/ para o ticker
+bash tools/ingest.sh TEND3 --concurrency 4         # controlar paralelismo
+bash tools/ingest.sh --generic planilha_setor.xlsx # ingerir fonte avulsa (sem ticker)
+```
+
+O ingest produz `full/` + `structured/` + `digested/` e registra na fila do wiki update.
+
+### Wiki Update — atualizar páginas da wiki
+
+```bash
+bash tools/wiki_update.sh --full    # primeira rodada: lê TODOS os digesteds, recria tudo
+bash tools/wiki_update.sh           # incremental: processa apenas a fila pendente no log.md
+```
+
+Duas fases:
+1. **Planejamento** — LLM lê todos os digesteds e produz um plano JSON (quais páginas criar/atualizar)
+2. **Execução** — LLM escreve cada página com contexto cirúrgico (só os digesteds relevantes)
+
+### Re-ingest full/ — corrigir transcrições truncadas
+
+```bash
+bash tools/reingest_full.sh CURY3 --horizon 3y    # re-baixa PDFs e copia direto para full/
+```
+
+Não invoca o LLM. Usado para corrigir fulls que foram truncados pelo pipeline antigo.
+
+### Fila do wiki update (log.md)
+
+O `ingest.sh` appenda entries parseáveis no `log.md`:
+
+```
+[wiki-queue] 2026-04-12 | cury | itr | 3T25 | sources/digested/cury_itr_3T25_summary.md
+[wiki-queue] 2026-04-12 | generic | sector | planilha | sources/digested/planilha_setor_summary.md
+```
+
+O `wiki_update.sh` consome a fila e marca com `[wiki-done]`.
+
+---
+
 ## Anatomia de uma página da wiki
 
 ```markdown

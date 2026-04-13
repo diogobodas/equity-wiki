@@ -14,6 +14,78 @@ usage() {
 }
 
 [[ $# -lt 1 ]] && usage
+
+# --- Generic mode ---
+if [[ "$1" == "--generic" ]]; then
+    shift
+    GENERIC_FILE="${1:-}"
+    [[ -z "$GENERIC_FILE" ]] && { echo "Usage: bash tools/ingest.sh --generic <file>"; exit 1; }
+    [[ ! -f "$GENERIC_FILE" ]] && { echo "ERROR: File not found: $GENERIC_FILE"; exit 1; }
+
+    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+    REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+    echo "=== Generic Ingest ==="
+    echo "File: $GENERIC_FILE"
+    echo ""
+
+    invoke_claude() {
+        local template="$1"
+        local prompt_file
+        prompt_file=$(mktemp "${TMPDIR:-/tmp}/ingest_prompt_XXXXXX.md")
+        python -c "
+import sys
+template = open(sys.argv[1]).read()
+replacements = {}
+i = 2
+while i < len(sys.argv) - 1:
+    key = sys.argv[i]
+    val = sys.argv[i+1]
+    replacements[key] = val
+    i += 2
+for k, v in replacements.items():
+    template = template.replace(k, v)
+open(sys.argv[-1], 'w', encoding='utf-8').write(template)
+" "$template" "${@:2}" "$prompt_file"
+        cat "$prompt_file" | claude --print \
+            --allowedTools "Bash" \
+            --permission-mode bypassPermissions
+        rm -f "$prompt_file"
+    }
+
+    FNAME=$(basename "$GENERIC_FILE")
+    STEM="${FNAME%.*}"
+    echo "Extracting..."
+    python "$SCRIPT_DIR/lib/pdf_extract.py" "$GENERIC_FILE" 2>/dev/null || true
+    EXTRACTED="${GENERIC_FILE%.*}_extracted.md"
+    [[ ! -f "$EXTRACTED" ]] && EXTRACTED="$GENERIC_FILE"
+
+    mkdir -p "$REPO_ROOT/sources/full/generic"
+    cp "$EXTRACTED" "$REPO_ROOT/sources/full/generic/${STEM}.md"
+    echo "  Copied → sources/full/generic/${STEM}.md"
+
+    FULL_PATH="$REPO_ROOT/sources/full/generic/${STEM}.md"
+    invoke_claude "$SCRIPT_DIR/prompts/ingest_generic.md" \
+        "{{FULL_PATH}}" "$FULL_PATH" \
+        "{{DIGESTED_NAME}}" "$STEM"
+
+    PRODUCED_DIGESTED=$(ls -t "$REPO_ROOT"/sources/digested/*_summary.md 2>/dev/null | head -1)
+    if [[ -n "$PRODUCED_DIGESTED" ]]; then
+        DNAME=$(basename "$PRODUCED_DIGESTED")
+        TODAY=$(date +%Y-%m-%d)
+        echo "[wiki-queue] $TODAY | generic | other | ${STEM} | sources/digested/$DNAME" >> "$REPO_ROOT/log.md"
+        echo "  Queued: $DNAME"
+    fi
+
+    [[ -f "$EXTRACTED" ]] && [[ "$EXTRACTED" != "$GENERIC_FILE" ]] && rm -f "$EXTRACTED"
+
+    echo ""
+    echo "=== Generic ingest complete ==="
+    echo "  Full: sources/full/generic/${STEM}.md"
+    echo "  Run 'bash tools/wiki_update.sh' to update wiki pages."
+    exit 0
+fi
+
 TICKER="$1"; shift
 
 CONCURRENCY=4
@@ -400,17 +472,17 @@ done
 DIGESTED_FILES=($(printf '%s\n' "${DIGESTED_FILES[@]}" | sort -u))
 echo ""
 
-# --- Step 6: Wiki update ---
-echo "=== Updating wiki pages ==="
-WIKI_PAGE="${EMPRESA}.md"
-DIGESTED_LIST=$(build_file_list "${DIGESTED_FILES[@]}")
-
-invoke_claude "$SCRIPT_DIR/prompts/ingest_wiki_update.md" \
-    "{{TICKER}}" "$TICKER" \
-    "{{EMPRESA}}" "$EMPRESA" \
-    "{{WIKI_PAGE}}" "$WIKI_PAGE" \
-    "{{DIGESTED_LIST}}" "$DIGESTED_LIST"
-
+# --- Step 6: Append to wiki queue ---
+echo "=== Appending to wiki queue ==="
+TODAY=$(date +%Y-%m-%d)
+for digested in "${DIGESTED_FILES[@]}"; do
+    dname=$(basename "$digested" _summary.md)
+    suffix="${dname#${EMPRESA}_}"
+    tipo=$(echo "$suffix" | rev | cut -d_ -f2- | rev)
+    period=$(echo "$suffix" | rev | cut -d_ -f1 | rev)
+    echo "[wiki-queue] $TODAY | $EMPRESA | $tipo | $period | $digested" >> "$REPO_ROOT/log.md"
+    echo "  Queued: $digested"
+done
 echo ""
 
 # --- Step 7: Cleanup ---
@@ -427,5 +499,7 @@ done
 echo ""
 echo "=== Ingest complete ==="
 echo "  Processed: $TOTAL files"
-echo "  Wiki updated: $WIKI_PAGE"
+echo "  Wiki queue: ${#DIGESTED_FILES[@]} entries added to log.md"
 echo "  Manifest updated: $MANIFEST_PATH"
+echo ""
+echo "Run 'bash tools/wiki_update.sh' to update wiki pages."
