@@ -1,6 +1,6 @@
 {
   "_schema": "manifest/v1",
-  "_updated": "2026-04-11",
+  "_updated": "2026-04-12",
   "empresa": "tenda",
   "display_name": "Construtora Tenda S.A.",
   "aliases": [
@@ -154,7 +154,7 @@
       },
       "financeiro_ajustado": {
         "status": "filled",
-        "source": "sources/structured/tenda/4T24/data_pack.json"
+        "source": "sources/structured/tenda/4T24/release.json"
       }
     },
     "3T24": {
@@ -164,15 +164,15 @@
       },
       "dre": {
         "status": "filled",
-        "source": "sources/structured/tenda/3T24/data_pack.json"
+        "source": "sources/structured/tenda/3T24/itr.json"
       },
       "bp": {
         "status": "filled",
-        "source": "sources/structured/tenda/3T24/data_pack.json"
+        "source": "sources/structured/tenda/3T24/itr.json"
       },
       "financeiro_ajustado": {
         "status": "filled",
-        "source": "sources/structured/tenda/3T24/data_pack.json"
+        "source": "sources/structured/tenda/3T24/release.json"
       }
     },
     "2T24": {
@@ -182,15 +182,15 @@
       },
       "dre": {
         "status": "filled",
-        "source": "sources/structured/tenda/2T24/data_pack.json"
+        "source": "sources/structured/tenda/2T24/itr.json"
       },
       "bp": {
         "status": "filled",
-        "source": "sources/structured/tenda/2T24/data_pack.json"
+        "source": "sources/structured/tenda/2T24/itr.json"
       },
       "financeiro_ajustado": {
         "status": "filled",
-        "source": "sources/structured/tenda/2T24/data_pack.json"
+        "source": "sources/structured/tenda/2T24/release.json"
       }
     },
     "1T24": {
@@ -200,15 +200,15 @@
       },
       "dre": {
         "status": "filled",
-        "source": "sources/structured/tenda/1T24/data_pack.json"
+        "source": "sources/structured/tenda/1T24/itr.json"
       },
       "bp": {
         "status": "filled",
-        "source": "sources/structured/tenda/1T24/data_pack.json"
+        "source": "sources/structured/tenda/1T24/itr.json"
       },
       "financeiro_ajustado": {
         "status": "filled",
-        "source": "sources/structured/tenda/1T24/data_pack.json"
+        "source": "sources/structured/tenda/1T24/release.json"
       }
     },
     "2024": {
@@ -255,7 +255,7 @@
       },
       "financeiro_ajustado": {
         "status": "filled",
-        "source": "sources/structured/tenda/4T23/data_pack.json"
+        "source": "sources/structured/tenda/4T23/release.json"
       }
     },
     "3T23": {
@@ -319,11 +319,11 @@
       },
       "dre": {
         "status": "filled",
-        "source": "sources/structured/tenda/2023/data_pack.json"
+        "source": "sources/structured/tenda/2023/dfp.json"
       },
       "bp": {
         "status": "filled",
-        "source": "sources/structured/tenda/2023/data_pack.json"
+        "source": "sources/structured/tenda/2023/dfp.json"
       },
       "financeiro_ajustado": {
         "status": "filled",
@@ -1663,6 +1663,96 @@
       "ingested_on": "2026-04-10",
       "full": "sources/full/tenda/1T25/fato_relevante_859967.md",
       "digested": "sources/digested/tenda_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "1T24",
+      "ingested_on": "2026-04-12",
+      "full": "sources/full/tenda/1T24/itr.md",
+      "structured": [
+        "sources/structured/tenda/1T24/itr.json"
+      ],
+      "digested": "sources/digested/tenda_itr_1T24_summary.md"
+    },
+    {
+      "type": "dfp",
+      "asof": "2023",
+      "ingested_on": "2026-04-12",
+      "full": "sources/full/tenda/2023/dfp.md",
+      "structured": [
+        "sources/structured/tenda/2023/dfp.json"
+      ],
+      "digested": "sources/digested/tenda_dfp_2023_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "2T24",
+      "ingested_on": "2026-04-12",
+      "full": "sources/full/tenda/2T24/itr.md",
+      "structured": [
+        "sources/structured/tenda/2T24/itr.json"
+      ],
+      "digested": "sources/digested/tenda_itr_2T24_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "3T24",
+      "ingested_on": "2026-04-12",
+      "full": "sources/full/tenda/3T24/itr.md",
+      "structured": [
+        "sources/structured/tenda/3T24/itr.json"
+      ],
+      "digested": "sources/digested/tenda_itr_3T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "1T24",
+      "ingested_on": "2026-04-12",
+      "full": "sources/full/tenda/1T24/release.md",
+      "structured": [
+        "sources/structured/tenda/1T24/release.json"
+      ],
+      "digested": "sources/digested/tenda_release_1T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "2T24",
+      "ingested_on": "2026-04-12",
+      "full": "sources/full/tenda/2T24/release.md",
+      "structured": [
+        "sources/structured/tenda/2T24/release.json"
+      ],
+      "digested": "sources/digested/tenda_release_2T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "3T24",
+      "ingested_on": "2026-04-12",
+      "full": "sources/full/tenda/3T24/release.md",
+      "structured": [
+        "sources/structured/tenda/3T24/release.json"
+      ],
+      "digested": "sources/digested/tenda_release_3T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "4T23",
+      "ingested_on": "2026-04-12",
+      "full": "sources/full/tenda/4T23/release.md",
+      "structured": [
+        "sources/structured/tenda/4T23/release.json"
+      ],
+      "digested": "sources/digested/tenda_release_4T23_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "4T24",
+      "ingested_on": "2026-04-12",
+      "full": "sources/full/tenda/4T24/release.md",
+      "structured": [
+        "sources/structured/tenda/4T24/release.json"
+      ],
+      "digested": "sources/digested/tenda_release_4T24_summary.md"
     }
   ],
   "precedence": [

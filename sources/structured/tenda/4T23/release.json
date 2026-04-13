@@ -1,0 +1,316 @@
+{
+  "_schema": "incorporadora/v1",
+  "_schema_path": "sources/structured/_schemas/incorporadora.json",
+  "_empresa": "tenda",
+  "_periodo": "4T23",
+  "_source": "sources/full/tenda/4T23/release.md",
+  "_notes": "Source is Relatório da Administração 2023. Operational data is annual (2023 consolidated). DRE uses 4T23 quarterly consolidated from segmented table. BP is end-of-period (Dec 23). Many line items unavailable at quarterly granularity from this report.",
+  "canonical": {
+    "operacional": {
+      "lancamentos": {
+        "n_empreendimentos": 62,
+        "vgv": 3484.4,
+        "n_unidades": 17267,
+        "preco_medio_unidade": 201.8,
+        "tamanho_medio_empreendimento": 279
+      },
+      "vendas_brutas": {
+        "vgv": 3663.3,
+        "n_unidades": null,
+        "preco_medio_unidade": null,
+        "vso_bruta": null
+      },
+      "distratos": {
+        "vgv": 527.7,
+        "n_unidades": null,
+        "preco_medio_unidade": null,
+        "distratos_sobre_vendas_brutas_vgv": 0.144,
+        "distratos_sobre_vendas_brutas_unidades": 0.144
+      },
+      "vendas_liquidas": {
+        "vgv": 3135.6,
+        "n_unidades": null,
+        "preco_medio_unidade": null,
+        "vso_liquida": 0.568,
+        "pct_lancamentos": 0.450,
+        "pct_estoque": 0.550
+      },
+      "repasses": {
+        "vgv": 2432.6,
+        "n_unidades": 15195
+      },
+      "entregas": {
+        "n_unidades": 16423,
+        "n_empreendimentos": null
+      },
+      "obras_em_andamento": {
+        "n_empreendimentos": 78
+      },
+      "estoque": {
+        "vgv": 2385.1,
+        "n_unidades": 11773,
+        "preco_medio_unidade": 202.6
+      },
+      "banco_de_terrenos": {
+        "n_empreendimentos": 443,
+        "vgv": 19346.2,
+        "aquisicoes_ajustes_vgv": null,
+        "n_unidades": 102384,
+        "preco_medio_unidade": 189.0,
+        "pct_permuta_total": 0.630,
+        "pct_permuta_unidades": 0.087,
+        "pct_permuta_financeiro": 0.543
+      }
+    },
+    "dre": {
+      "receita_liquida": 754.9,
+      "custos_operacionais": -587.3,
+      "lucro_bruto": 167.6,
+      "lucro_bruto_ajustado": 188.0,
+      "margem_bruta": 0.222,
+      "margem_bruta_ajustada": 0.249,
+      "despesas_operacionais": -187.3,
+      "despesas_com_vendas": null,
+      "despesas_administrativas": null,
+      "outras_desp_rec_operacionais": null,
+      "depreciacao_amortizacao": null,
+      "equivalencia_patrimonial": null,
+      "lucro_operacional": null,
+      "receita_financeira": null,
+      "despesa_financeira": null,
+      "lucro_antes_ir": null,
+      "impostos_diferidos": null,
+      "ir_csll": null,
+      "lucro_apos_ir": null,
+      "participacao_minoritarios": null,
+      "lucro_liquido": -19.6,
+      "lucro_liquido_ajustado": null,
+      "margem_liquida": -0.026,
+      "margem_liquida_ajustada": null
+    },
+    "bp": {
+      "ativo_circulante": null,
+      "caixa_e_equivalentes": 718.8,
+      "recebiveis_clientes_circulante": null,
+      "imoveis_comercializar_circulante": null,
+      "outros_contas_receber_circulante": null,
+      "ativo_nao_circulante": null,
+      "recebiveis_clientes_nc": null,
+      "imoveis_comercializar_nc": null,
+      "outros_nc": null,
+      "intangivel_imobilizado": null,
+      "investimentos": null,
+      "ativo_total": null,
+      "passivo_circulante": null,
+      "emprestimos_financiamentos_c": null,
+      "debentures_c": null,
+      "obrig_terrenos_adiant_c": null,
+      "fornecedores_materiais": null,
+      "dividendos_a_pagar": null,
+      "impostos_contribuicoes": null,
+      "cessao_creditos_c": null,
+      "outros_passivo_c": null,
+      "passivo_nao_circulante": null,
+      "emprestimos_financiamentos_nc": null,
+      "debentures_nc": null,
+      "obrig_terrenos_adiant_nc": null,
+      "impostos_diferidos_bp": null,
+      "provisao_contingencias": null,
+      "cessao_creditos_nc": null,
+      "outros_passivo_nc": null,
+      "patrimonio_liquido_total": 864.4,
+      "patrimonio_liquido": null,
+      "participacao_minoritarios_bp": null,
+      "passivo_pl_total": null
+    },
+    "financeiro_ajustado": {
+      "ebitda_ajustado": null,
+      "margem_ebitda_ajustada_pct": null,
+      "margem_bruta_ajustada_pct": 0.249,
+      "margem_bruta_ajustada_ex_pode_entrar_pct": null,
+      "resultado_financeiro_liquido": null,
+      "receitas_a_apropriar": null,
+      "resultados_a_apropriar": null,
+      "margem_resultados_a_apropriar_pct": null,
+      "caixa_disponibilidades": 718.8,
+      "divida_bruta": 1180.1,
+      "divida_liquida": 461.3,
+      "divida_liquida_ajustada": null,
+      "patrimonio_liquido_minoritarios": 864.4,
+      "divida_liquida_sobre_pl_pct": 0.534,
+      "divida_liquida_ajustada_sobre_pl_pct": 0.161,
+      "lucro_liquido_ltm": null,
+      "nopat_ltm": null,
+      "capital_empregado": null,
+      "roe_ltm_pct": null,
+      "roce_ltm_pct": null,
+      "despesas_com_vendas_sga": null,
+      "despesas_administrativas_sga": null,
+      "total_sga": null,
+      "despesas_vendas_sobre_vl_pct": null,
+      "despesas_adm_sobre_lancamentos_pct": null,
+      "capitalizacao_juros": null,
+      "contas_a_receber_cap_empregado": null,
+      "estoque_cap_empregado": null,
+      "outros_cap_empregado": null,
+      "despesas_com_demandas_judiciais": null,
+      "outras_receitas_despesas_op": null,
+      "equivalencia_patrimonial_fin": null,
+      "receitas_financeiras": null,
+      "despesas_financeiras": null,
+      "resultado_financeiro_ex_swap": null,
+      "reducao_capital": null,
+      "divida_liquida_ajustada_det": null,
+      "caixa_aplicacoes_financeiras_ded": 718.8,
+      "lucro_liquido_destaque": -19.6,
+      "lucro_bruto_ajustado_destaque": 188.0,
+      "receita_liquida_destaque": 754.9
+    }
+  },
+  "company_specific": {
+    "_nota": "Operational figures are annual 2023 (report is Relatório da Administração 2023). Quarterly 4T23 operational data not individually broken out in this report.",
+    "segmentos": {
+      "tenda_onsite": {
+        "receita_liquida_4t23": 709.7,
+        "custos_4t23": -537.0,
+        "lucro_bruto_4t23": 172.8,
+        "margem_bruta_4t23": 0.243,
+        "margem_bruta_ajustada_4t23": 0.272,
+        "despesas_4t23": -171.9,
+        "lucro_liquido_4t23": 0.8,
+        "margem_liquida_4t23": 0.001,
+        "ebitda_4t23": 57.2,
+        "vso_liquida_4t23": 0.269,
+        "preco_medio_venda_bruta_4t23": 208.0,
+        "margem_bruta_novas_vendas_4t23": 0.337,
+        "margem_ref_4t23": 0.335,
+        "geracao_caixa_operacional_4t23": 83.7
+      },
+      "tenda_onsite_recorrente_4t23": {
+        "_nota": "Excluindo terrenos vendidos/distratados e swap/contencioso",
+        "receita_liquida": 709.7,
+        "custo": -530.2,
+        "lucro_bruto": 179.4,
+        "margem_bruta": 0.253,
+        "margem_bruta_ajustada": 0.272,
+        "despesas": -165.5,
+        "lucro_liquido": 14.0,
+        "margem_liquida": 0.020
+      },
+      "alea_offsite_4t23": {
+        "receita_liquida": 45.2,
+        "custos": -50.3,
+        "lucro_bruto": -5.1,
+        "margem_bruta": -0.113,
+        "margem_bruta_ajustada": -0.120,
+        "despesas": -15.4,
+        "lucro_liquido": -20.5,
+        "lancamentos_unidades_2023": 2116,
+        "canteiros_ativos_fim_2023": 8,
+        "banco_terrenos_vgv_2023": 3100.0
+      }
+    },
+    "marca_tenda_evolucao_trimestral": {
+      "1T22": { "vso_liquida": 0.261, "preco_medio_vb": 162.1, "mba": 0.217, "ebitda": 0.2, "mb_novas_vendas": 0.232, "margem_ref": 0.238, "caixa_operacional": -226.4 },
+      "2T22": { "vso_liquida": 0.228, "preco_medio_vb": 176.6, "mba": 0.175, "ebitda": -42.0, "mb_novas_vendas": 0.288, "margem_ref": 0.249, "caixa_operacional": -122.9 },
+      "3T22": { "vso_liquida": 0.203, "preco_medio_vb": 185.5, "mba": 0.082, "ebitda": -108.4, "mb_novas_vendas": 0.304, "margem_ref": 0.257, "caixa_operacional": -61.6 },
+      "4T22": { "vso_liquida": 0.255, "preco_medio_vb": 189.8, "mba": 0.152, "ebitda": -44.8, "mb_novas_vendas": 0.311, "margem_ref": 0.257, "caixa_operacional": 18.1 },
+      "1T23": { "vso_liquida": 0.248, "preco_medio_vb": 194.7, "mba": 0.249, "ebitda": 53.2, "mb_novas_vendas": 0.311, "margem_ref": 0.299, "caixa_operacional": 118.3 },
+      "2T23": { "vso_liquida": 0.262, "preco_medio_vb": 204.7, "mba": 0.235, "ebitda": 37.8, "mb_novas_vendas": 0.317, "margem_ref": 0.314, "caixa_operacional": 169.0 },
+      "3T23": { "vso_liquida": 0.306, "preco_medio_vb": 208.2, "mba": 0.250, "ebitda": 38.2, "mb_novas_vendas": 0.330, "margem_ref": 0.331, "caixa_operacional": 32.3 },
+      "4T23": { "vso_liquida": 0.269, "preco_medio_vb": 208.0, "mba": 0.271, "ebitda": 57.2, "mb_novas_vendas": 0.337, "margem_ref": 0.335, "caixa_operacional": 83.7 }
+    },
+    "dre_anual_2023": {
+      "receita_liquida": 2903.1,
+      "lucro_bruto": 608.6,
+      "margem_bruta": 0.210,
+      "custos_financeiros_capitalizados": 75.7,
+      "custos_financeiros_sfh": 31.1,
+      "custos_financeiros_outros": 44.6,
+      "lucro_bruto_ajustado": 684.2,
+      "margem_bruta_ajustada": 0.236,
+      "despesas_com_vendas": -237.8,
+      "despesas_ga": -179.5,
+      "total_sga": -417.2,
+      "despesas_vendas_sobre_vl": 0.076,
+      "ga_sobre_receita": 0.062,
+      "outras_rec_desp_operacionais": -78.0,
+      "despesas_demandas_judiciais": -70.1,
+      "outras_desp": -8.0,
+      "equivalencia_patrimonial": -0.9,
+      "resultado_liquido_apos_ir": -102.5,
+      "participacao_minoritarios": 6.7,
+      "resultado_liquido": -95.8,
+      "margem_liquida": -0.033
+    },
+    "divida_detalhamento": {
+      "divida_total": 1180.1,
+      "financiamento_bancario": 60.4,
+      "sfh_construcao": 796.8,
+      "divida_corporativa": 322.9,
+      "duration_meses": 21.4,
+      "custo_medio_nominal_pct": 0.130,
+      "divida_liquida_corporativa_sobre_pl": 0.161,
+      "limite_covenant": 0.75,
+      "cronograma": {
+        "2024": { "total": 385.5, "bancario": 52.4, "sfh": 153.7, "corporativa": 179.4 },
+        "2025": { "total": 327.7, "bancario": 8.0, "sfh": 194.6, "corporativa": 125.1 },
+        "2026": { "total": 280.0, "bancario": 0.0, "sfh": 261.6, "corporativa": 18.4 },
+        "2027": { "total": 120.5, "bancario": 0.0, "sfh": 120.5, "corporativa": 0.0 },
+        "2028+": { "total": 66.4, "bancario": 0.0, "sfh": 66.4, "corporativa": 0.0 }
+      }
+    },
+    "caixa_detalhamento": {
+      "caixa_equivalentes": 52.1,
+      "aplicacoes_financeiras": 666.8,
+      "caixa_total": 718.8
+    },
+    "geracao_caixa_2023": {
+      "variacao_caixa_disponivel": 44.6,
+      "variacao_divida_bruta": -294.1,
+      "geracao_caixa_total": 338.7,
+      "geracao_caixa_operacional": 100.6,
+      "distribuicao_capital": 0.0,
+      "recompra_acoes": 0.0,
+      "dividendos_pagos": 0.0
+    },
+    "geracao_caixa_operacional_4t23": {
+      "consolidado": 60.0,
+      "marca_tenda": 84.0,
+      "nota": "Trimestre sem operação de cessão de recebíveis"
+    },
+    "ebitda_ajustado_ltm_dez23": 195.5,
+    "vendas_por_faixa_4t23": {
+      "faixa_1_pct": 0.63,
+      "nota": "63% do VGV bruto destinou-se a faixa 1 (renda até R$2.640/mês)"
+    },
+    "estoque_por_status_obra": {
+      "vgv_total": 2385.1,
+      "nao_iniciadas": 407.9,
+      "ate_30_concluido": 1177.7,
+      "de_30_a_70_concluido": 694.0,
+      "mais_de_70_concluido": 73.1,
+      "concluido": 32.4
+    },
+    "pode_entrar": {
+      "projeto": "Estação Tolstoi",
+      "unidades": 216,
+      "valor_total": 45.3,
+      "data_contrato": "2023-12"
+    },
+    "follow_on_2023": {
+      "concluido": "2023-09",
+      "nota": "Oferta subsequente de ações que possibilitou reestruturação do passivo"
+    },
+    "composicao_receita_dre": {
+      "lancamentos_2022_plus_pct": 0.96,
+      "lancamentos_anteriores_pct": 0.04
+    },
+    "margem_ref_4t23": {
+      "margem_ref_reportada": 0.335,
+      "financeiros_ref": 0.027,
+      "margem_ref_sem_financeiros": 0.363,
+      "margem_ref_projetos": 0.378
+    }
+  }
+}

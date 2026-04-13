@@ -1,9 +1,9 @@
 ---
 type: entity
 aliases: [Construtora Tenda, Tenda, TEND3, Alea]
-sources: [full/tenda/1T26/previa_operacional.md, structured/tenda/1T26/previa_operacional.json, full/tenda/data_pack_1T26.md, structured/tenda/{1T11..1T26}/data_pack.json, full/tenda/2025/dfp.md, structured/tenda/2025/dfp.json, full/tenda/2024/dfp.md, structured/tenda/2024/dfp.json, full/tenda/1T25/itr.md, structured/tenda/1T25/itr.json, full/tenda/2T25/itr.md, structured/tenda/2T25/itr.json, full/tenda/3T25/itr.md, structured/tenda/3T25/itr.json, full/tenda/1T25/release.md, structured/tenda/1T25/release.json, full/tenda/2T25/release.md, structured/tenda/2T25/release.json, full/tenda/3T25/release.md, structured/tenda/3T25/release.json, full/tenda/4T25/release.md, structured/tenda/4T25/release.json, full/tenda/2T25/fato_relevante_904079.md, full/tenda/2T25/fato_relevante_907345.md, full/tenda/2T25/fato_relevante_913498.md, full/tenda/2T25/fato_relevante_913576.md, full/tenda/2T25/fato_relevante_914604.md, full/tenda/2T25/fato_relevante_917092.md, full/tenda/3T25/fato_relevante_930915.md, full/tenda/3T25/fato_relevante_930916.md, full/tenda/3T25/fato_relevante_934724.md, full/tenda/3T25/fato_relevante_934734.md, full/tenda/3T25/fato_relevante_952756.md, full/tenda/3T25/fato_relevante_952757.md, full/tenda/4T25/fato_relevante_963021.md, full/tenda/4T25/fato_relevante_979561.md, full/tenda/4T25/fato_relevante_981189.md, full/tenda/4T25/fato_relevante_983829.md, full/tenda/4T25/fato_relevante_986338.md, full/tenda/1T26/fato_relevante_1013789.md, full/tenda/2T26/fato_relevante_1025459.md]
+sources: [full/tenda/1T26/previa_operacional.md, structured/tenda/1T26/previa_operacional.json, full/tenda/data_pack_1T26.md, structured/tenda/{1T11..1T26}/data_pack.json, full/tenda/2025/dfp.md, structured/tenda/2025/dfp.json, full/tenda/2024/dfp.md, structured/tenda/2024/dfp.json, full/tenda/2023/dfp.md, structured/tenda/2023/dfp.json, full/tenda/1T25/itr.md, structured/tenda/1T25/itr.json, full/tenda/2T25/itr.md, structured/tenda/2T25/itr.json, full/tenda/3T25/itr.md, structured/tenda/3T25/itr.json, full/tenda/1T24/itr.md, structured/tenda/1T24/itr.json, full/tenda/2T24/itr.md, structured/tenda/2T24/itr.json, full/tenda/3T24/itr.md, structured/tenda/3T24/itr.json, full/tenda/1T25/release.md, structured/tenda/1T25/release.json, full/tenda/2T25/release.md, structured/tenda/2T25/release.json, full/tenda/3T25/release.md, structured/tenda/3T25/release.json, full/tenda/4T25/release.md, structured/tenda/4T25/release.json, full/tenda/4T23/release.md, structured/tenda/4T23/release.json, full/tenda/1T24/release.md, structured/tenda/1T24/release.json, full/tenda/2T24/release.md, structured/tenda/2T24/release.json, full/tenda/3T24/release.md, structured/tenda/3T24/release.json, full/tenda/4T24/release.md, structured/tenda/4T24/release.json, full/tenda/2T25/fato_relevante_904079.md, full/tenda/2T25/fato_relevante_907345.md, full/tenda/2T25/fato_relevante_913498.md, full/tenda/2T25/fato_relevante_913576.md, full/tenda/2T25/fato_relevante_914604.md, full/tenda/2T25/fato_relevante_917092.md, full/tenda/3T25/fato_relevante_930915.md, full/tenda/3T25/fato_relevante_930916.md, full/tenda/3T25/fato_relevante_934724.md, full/tenda/3T25/fato_relevante_934734.md, full/tenda/3T25/fato_relevante_952756.md, full/tenda/3T25/fato_relevante_952757.md, full/tenda/4T25/fato_relevante_963021.md, full/tenda/4T25/fato_relevante_979561.md, full/tenda/4T25/fato_relevante_981189.md, full/tenda/4T25/fato_relevante_983829.md, full/tenda/4T25/fato_relevante_986338.md, full/tenda/1T26/fato_relevante_1013789.md, full/tenda/2T26/fato_relevante_1025459.md]
 created: 2026-04-08
-updated: 2026-04-11
+updated: 2026-04-12
 ---
 
 # Tenda
@@ -314,6 +314,113 @@ A DFP 2024 (fonte: full/tenda/2024/dfp.md) captura o **ponto de inflexão** do t
 - **Apresentação do resultado financeiro mudou entre 2024 e 2025**: o DFP 2024 consolida juros + SWAP em uma linha (R$ 177,2 mm); o DFP 2025 separa as duas (juros 131,7 + SWAP 45,5 = 177,2 ✓). Qualquer série temporal de "juros sobre captações" precisa harmonizar.
 - **Cessão de crédito acelerou em 2024**: 4 operações vivas em 31/12/24 (vs 2 em 31/12/23), saldo R$ 488 mm (vs R$ 229 mm). Despesa de cessão na DRE saltou para R$ 52,8 mm (vs R$ 29,3 mm) (fonte: full/tenda/2024/dfp.md §nota_4a).
 
+## Evolucao trimestral 2024 (4T23–4T24)
+
+2024 foi o **ano da virada**: primeiro lucro liquido positivo desde 3T21 (no 1T24), seguido por recuperacao progressiva de margens e recordes operacionais no 3T24. A tabela abaixo detalha a evolucao trimestral que conecta o "fundo do poco" (4T23) ao patamar de entrada em 2025.
+
+### DRE e rentabilidade consolidada
+
+| Metrica | 4T23 | 1T24 | 2T24 | 3T24 | 4T24 | 2024 |
+|---|---:|---:|---:|---:|---:|---:|
+| Receita liquida (R$ mm) | 754,9 | 744,9 | 776,9 | 912,1 | 850,6 | 3.284,4 |
+| Lucro bruto ajustado (R$ mm) | 188,0 | 200,0 | 228,9 | 293,6 | 261,7 | 984,2 |
+| MBA consolidada | 24,9% | 26,9% | 29,5% | 32,2% | 30,8% | 30,0% |
+| EBITDA ajustado (R$ mm) | 57,2 | 84,6 | 91,2 | 150,8 | 130,7 | 481,1 |
+| Lucro liquido (R$ mm) | (19,6) | 4,4 | 4,5 | 76,2 | 21,3 | 106,4 |
+| Margem liquida | -2,6% | 0,6% | 0,6% | 8,4% | 2,5% | 3,2% |
+| ROE LTM | -12,2% | — | — | 7,1% | 11,8% | 11,8% |
+
+Fontes: (fonte: structured/tenda/4T23/release.json :: canonical.dre), (fonte: structured/tenda/1T24/release.json :: canonical.dre), (fonte: structured/tenda/2T24/release.json :: canonical.dre), (fonte: structured/tenda/3T24/release.json :: canonical.dre), (fonte: structured/tenda/4T24/release.json :: canonical.dre).
+
+**Marcos do turnaround em 2024:**
+
+1. **1T24:** primeiro lucro consolidado positivo (R$ 4,4 mm) desde 3T21. Marca Tenda lucrou R$ 19,9 mm (NM 2,9%); Alea ainda no prejuizo (R$ -15,4 mm) (fonte: structured/tenda/1T24/release.json :: canonical.dre).
+2. **2T24:** segundo trimestre consecutivo no lucro (R$ 4,5 mm). Excluindo SWAP de acoes (-R$ 17,3 mm), lucro recorrente seria R$ 21,8 mm. S&P elevou rating de brBBB para brA- (fonte: structured/tenda/2T24/release.json :: canonical.dre).
+3. **3T24:** recordes de receita (R$ 912 mm), EBITDA ajustado (R$ 150,8 mm), margem ajustada (32,2%) e lucro liquido (R$ 76,2 mm). Alavancado por 2 contratos [[pode_entrar|Pode Entrar]] (Citta Vila Prudente + Guarapiranga, R$ 532 mm VGV). ROCE LTM atingiu 19,6% (fonte: structured/tenda/3T24/release.json :: canonical.dre).
+4. **4T24:** lucro consolidado R$ 21,3 mm, impactado por CPC 01 Pode Entrar (R$ 17,4 mm) e provisoes nao-recorrentes (R$ 12,7 mm). Marca Tenda recorrente: R$ 66,3 mm (NM 9,2%). LTM ROE 11,8% e ROCE 24,7% (fonte: structured/tenda/4T24/release.json :: canonical.dre).
+
+### Segmento Alea em 2024 — ramp-up antes do "freio"
+
+| Metrica | 4T23 | 1T24 | 2T24 | 3T24 | 4T24 | 2024 |
+|---|---:|---:|---:|---:|---:|---:|
+| Receita (R$ mm) | ~45 | 55,1 | 72,2 | 74,8 | 59,1 | 261,3 |
+| MBA | -11,3% | 6,5% | 9,7% | 10,4% | 11,2% | 8,5% |
+| Resultado (R$ mm) | — | (15,4) | (19,6) | (15,9) | (21,0) | (71,9) |
+
+Fontes: (fonte: structured/tenda/4T23/release.json :: company_specific), (fonte: structured/tenda/1T24/release.json :: company_specific), (fonte: structured/tenda/2T24/release.json :: company_specific), (fonte: structured/tenda/3T24/release.json :: company_specific), (fonte: structured/tenda/4T24/release.json :: company_specific).
+
+Em 2024, a Alea saiu de margem bruta negativa (-11,3% no 4T23) para positiva e crescente (6,5% → 11,2%), atingindo o guidance de 9-11%. Porem, o prejuizo permaneceu (-R$ 71,9 mm no ano) por despesas operacionais do scale-up. GKP investiu R$ 80 mm por 6,97% da Alea em dez/2024 (EV R$ 1,1 bi) (fonte: full/tenda/2024/dfp.md §nota_27). O scale-up acelerado (de 10 para 22 canteiros entre 1T24 e 1T25) criaria os problemas de execucao que motivaram o "freio de arrumacao" em 2025.
+
+### Destaques operacionais trimestrais 2024
+
+| Metrica | 4T23 | 1T24 | 2T24 | 3T24 | 4T24 | 2024 |
+|---|---:|---:|---:|---:|---:|---:|
+| Lancamentos VGV (R$ mm) | — | 763,2 | 940,0 | 2.150,1 | 1.605,5 | 5.458,8 |
+| Vendas liquidas VGV (R$ mm) | — | 964,8 | 1.019,4 | 1.554,6 | 984,4 | 4.523,2 |
+| VSO liquida | — | 30,4% | 32,4% | 36,6% | 23,1% | 57,9% |
+| Banco de terrenos (R$ bi) | 19,3 | 19,1 | 21,4 | 20,6 | 22,8 | 22,8 |
+| Permuta (% BT) | 63,0% | 62,3% | 67,6% | 66,7% | 70,3% | 70,3% |
+
+Fontes: (fonte: structured/tenda/4T23/release.json :: canonical.operacional), (fonte: structured/tenda/1T24/release.json :: canonical.operacional), (fonte: structured/tenda/2T24/release.json :: canonical.operacional), (fonte: structured/tenda/3T24/release.json :: canonical.operacional), (fonte: structured/tenda/4T24/release.json :: canonical.operacional).
+
+**Observacoes:**
+
+- **3T24 inflado por Pode Entrar:** lancamentos de R$ 2.150 mm (+144% A/A) e vendas liquidas de R$ 1.555 mm (+68% A/A) incluem R$ 532 mm dos contratos Pode Entrar (Citta Vila Prudente 1.984 un + Guarapiranga 655 un). Metricas ex-Pode Entrar sao a base de comparacao limpa para 2025.
+- **Recorde historico de vendas liquidas no 2T24:** R$ 1.019 mm, primeiro trimestre acima de R$ 1 bi. Preco medio subiu para R$ 212,1 mil/un (+5,4% A/A).
+- **Banco de terrenos cresceu 18%** de R$ 19,3 bi (dez/23) para R$ 22,8 bi (dez/24), com mix de permuta subindo de 63% para 70,3%.
+
+### Balanco e endividamento — evolucao 2024
+
+| Metrica | Dez/23 | Mar/24 | Jun/24 | Set/24 | Dez/24 |
+|---|---:|---:|---:|---:|---:|
+| Caixa + TVM (R$ mm) | 718,8 | 747,4 | 721,9 | 738,0 | 849,3 |
+| Divida bruta (R$ mm) | 1.180,1 | 1.101,2 | 1.105,7 | 1.170,4 | 1.041,5 |
+| Divida liquida (R$ mm) | 461,3 | 353,8 | 383,8 | 432,4 | 192,2 |
+| DL / (PL+Min) | 53,4% | 39,5% | 44,0% | 45,2% | 20,1% |
+| DL corp / PL | 16,1% | 2,4% | ~0% | 5,5% | -10,3% |
+| Custo medio (% a.a.) | 13,0% | 12,06% | 11,77% | 11,57% | — |
+
+Fontes: (fonte: structured/tenda/2023/dfp.json :: canonical.bp), (fonte: structured/tenda/1T24/itr.json :: canonical.bp), (fonte: structured/tenda/2T24/itr.json :: canonical.bp), (fonte: structured/tenda/3T24/itr.json :: canonical.bp), (fonte: structured/tenda/2024/dfp.json :: canonical.bp).
+
+**Desalavancagem acelerada:** a divida liquida caiu R$ 269 mm em 12 meses (de R$ 461 mm para R$ 192 mm). O DL corporativo / PL atingiu **-10,3% em dez/24** (posicao de caixa liquido) — vs 16,1% em dez/23 e 112,3% no pico da crise (2022). O waiver dos covenants bancarios renegociados em 2022 foi formalmente encerrado em 30/06/2024, apos 2 trimestres consecutivos abaixo de 15% (fonte: full/tenda/2024/dfp.md §nota_10).
+
+### Resultado a apropriar (backlog) — evolucao 2024
+
+| Metrica | 1T24 | 2T24 | 3T24 | 4T24 |
+|---|---:|---:|---:|---:|
+| Receitas a apropriar (R$ mm) | 1.720,0 | 1.868,3 | 1.997,2 | 2.370,9 |
+| Resultados a apropriar (R$ mm) | 596,2 | 671,3 | 711,3 | 774,1 |
+| Margem REF | 34,7% | 35,9% | 35,6% | 32,6% |
+
+Fontes: (fonte: structured/tenda/1T24/release.json :: company_specific.resultado_a_apropriar), (fonte: structured/tenda/2T24/release.json :: company_specific.resultado_a_apropriar), (fonte: structured/tenda/3T24/release.json :: company_specific.resultado_a_apropriar), (fonte: structured/tenda/4T24/release.json :: company_specific.resultado_a_apropriar).
+
+A margem REF subiu de 29,9% (4T23) para 35,9% (pico no 2T24), sinalizando a trajetoria de recuperacao de margem que se materializou na DRE ao longo de 2025. O 4T24 apresentou queda para 32,6% pelo efeito mix do [[pode_entrar|Pode Entrar]] (margem inferior ao core).
+
+### Guidance 2024 — tracking
+
+Guidance original divulgado no release do 1T24, revisado em alta no 3T24 (marca Tenda):
+
+| Metrica | Guidance original | Guidance revisado (3T24) | Realizado 2024 | Status |
+|---|---|---|---:|---|
+| MBA Tenda | 29-31% | 31-32% | 31,7%* | Atingido |
+| MBA Alea | 9-11% | 9-11% | 8,5% | Quase (11,2% no 4T24) |
+| VL Tenda (R$ bi) | 3,2-3,5 | 4,1-4,4 | ~3,9 | Atingido (revisado) |
+| EBITDA aj Tenda (R$ mm) | 375-425 | 500-550 | ~530 | Atingido (revisado) |
+
+\* MBA da marca Tenda; consolidado 30,0%.
+
+Fontes: (fonte: full/tenda/1T24/release.md §guidance), (fonte: full/tenda/3T24/release.md §guidance_revisado).
+
+### Eventos-chave 2023-2024
+
+- **Set/2023:** oferta secundaria concluida (R$ 234,4 mm de aumento de capital), viabilizando reducao de capital de R$ 419,5 mm para compensar prejuizos acumulados (fonte: structured/tenda/2023/dfp.json :: company_specific).
+- **Mar/2024:** RET 1% (aliquota 0,47%) regulamentado pela IN RFB 2179 para MCMV Faixa 1 urbana — reducao de carga tributaria estrutural (fonte: full/tenda/2024/dfp.md §nota_15).
+- **1T24:** retorno ao lucro consolidado (R$ 4,4 mm) — primeiro resultado positivo desde 3T21. Alto PDD (5,9% da receita bruta) por problema nao-recorrente na migracao SAP S/4HANA; normalizado em abril (fonte: structured/tenda/1T24/release.json :: canonical.dre).
+- **Mai/2024:** S&P elevou rating de brBBB para brA- com perspectiva estavel (fonte: full/tenda/2T24/release.md §balanco).
+- **3T24:** dois contratos [[pode_entrar|Pode Entrar]] assinados (Citta Vila Prudente + Guarapiranga, R$ 532 mm VGV combinado). Recordes de receita, EBITDA e lucro (fonte: structured/tenda/3T24/release.json :: canonical.dre).
+- **Dez/2024:** acordo GKP para 6,97% da Alea por R$ 80 mm (EV R$ 1,1 bi). Geracao de caixa operacional consolidada R$ 97,5 mm no 4T24 — recorde (fonte: structured/tenda/4T24/release.json :: company_specific).
+- **2024 full-year:** CFO de R$ 542,2 mm (vs consumo de R$ 70 mm no 1S23). Primeiro ano com DL corporativa negativa (-10,3%) (fonte: structured/tenda/2024/dfp.json :: canonical).
+
 ## Limitacoes de cobertura atual nesta wiki
 
 Digeridos ate agora:
@@ -321,13 +428,17 @@ Digeridos ate agora:
 - **Data pack de RI as-of 1T26** — historico completo 1T11-1T26 de operacional, DRE, BP e financeiro ajustado (consolidado + segmentos).
 - **DFP 2025 auditada** — DFs individuais+consolidadas, DFC, notas explicativas completas e segmentacao contabil on-site/off-site.
 - **DFP 2024 auditada** — mesmo escopo, captura o ano da virada do ciclo.
+- **DFP 2023 auditada** — demonstracoes financeiras anuais, primeiro ano de estabilizacao operacional pos-crise.
+- **ITRs 1T24, 2T24, 3T24** — demonstracoes trimestrais com DFs e notas explicativas cobrindo o ciclo de recuperacao de 2024.
 - **ITRs 1T25, 2T25, 3T25** — demonstracoes trimestrais com notas explicativas e DFC.
+- **Releases de resultados 4T23, 1T24, 2T24, 3T24, 4T24** — MD&A completo, operacional, guidance original e revisado, segmentacao Tenda/Alea. Cobrem a narrativa completa do turnaround.
 - **Releases de resultados 1T25, 2T25, 3T25, 4T25** — MD&A completo, operacional, guidance, segmentacao Tenda/Alea.
 - **Fatos relevantes 2T25–2T26** — 19 fatos cobrindo debentures (12a e 13a emissoes), cessao pro-soluto de recebiveis (CRI Opea), liquidacoes parciais de derivativos (SWAP TRS), dividendos, recompra de acoes, guidance 2026 e governanca.
 
 Ainda faltam:
 - **Release completo do 1T26** (MD&A, release narrativo — o data pack nao cobre o 1T26 financeiro porque o release fechado ainda nao saiu).
 - **ITR 4T25** — nao publicado separadamente (DFP 2025 cobre o ano fechado).
+- **ITR 4T24** — nao publicado separadamente (DFP 2024 cobre o ano fechado).
 - **Apresentacoes institucionais** e **transcripts de call**.
 
 ## Histórico operacional disponível

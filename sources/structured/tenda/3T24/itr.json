@@ -1,0 +1,260 @@
+{
+  "_schema": "incorporadora/v1",
+  "_schema_path": "sources/structured/_schemas/incorporadora.json",
+  "_empresa": "tenda",
+  "_periodo": "3T24",
+  "_source": "sources/full/tenda/3T24/itr.md",
+  "canonical": {
+    "operacional": null,
+    "dre": {
+      "receita_liquida": 912.1,
+      "custos_operacionais": -645.5,
+      "lucro_bruto": 266.5,
+      "lucro_bruto_ajustado": 293.6,
+      "margem_bruta": 0.292,
+      "margem_bruta_ajustada": 0.322,
+      "despesas_operacionais": -165.1,
+      "despesas_com_vendas": -75.7,
+      "despesas_administrativas": -61.1,
+      "outras_desp_rec_operacionais": -30.7,
+      "depreciacao_amortizacao": -10.6,
+      "equivalencia_patrimonial": 2.4,
+      "lucro_operacional": 101.4,
+      "receita_financeira": 15.2,
+      "despesa_financeira": -35.0,
+      "lucro_antes_ir": 81.6,
+      "impostos_diferidos": -1.5,
+      "ir_csll": -7.2,
+      "lucro_apos_ir": 74.4,
+      "participacao_minoritarios": 1.7,
+      "lucro_liquido": 76.2,
+      "lucro_liquido_ajustado": null,
+      "margem_liquida": 0.084,
+      "margem_liquida_ajustada": null
+    },
+    "bp": {
+      "ativo_circulante": 2280.0,
+      "caixa_e_equivalentes": 44.2,
+      "recebiveis_clientes_circulante": 613.4,
+      "imoveis_comercializar_circulante": 617.5,
+      "outros_contas_receber_circulante": 217.5,
+      "ativo_nao_circulante": 2640.0,
+      "recebiveis_clientes_nc": 837.7,
+      "imoveis_comercializar_nc": 1449.0,
+      "outros_nc": 61.7,
+      "intangivel_imobilizado": 220.3,
+      "investimentos": 71.0,
+      "ativo_total": 4920.1,
+      "passivo_circulante": 1944.2,
+      "emprestimos_financiamentos_c": 508.8,
+      "debentures_c": 224.6,
+      "obrig_terrenos_adiant_c": 614.7,
+      "fornecedores_materiais": 214.3,
+      "dividendos_a_pagar": null,
+      "impostos_contribuicoes": 45.8,
+      "cessao_creditos_c": 53.0,
+      "outros_passivo_c": 282.9,
+      "passivo_nao_circulante": 2019.3,
+      "emprestimos_financiamentos_nc": 94.3,
+      "debentures_nc": 412.7,
+      "obrig_terrenos_adiant_nc": 1006.1,
+      "impostos_diferidos_bp": 11.6,
+      "provisao_contingencias": 82.2,
+      "cessao_creditos_nc": 278.4,
+      "outros_passivo_nc": 134.1,
+      "patrimonio_liquido_total": 956.5,
+      "patrimonio_liquido": 946.0,
+      "participacao_minoritarios_bp": 10.5,
+      "passivo_pl_total": 4920.1
+    },
+    "financeiro_ajustado": {
+      "ebitda_ajustado": 150.8,
+      "margem_ebitda_ajustada_pct": 0.165,
+      "margem_bruta_ajustada_pct": 0.322,
+      "margem_bruta_ajustada_ex_pode_entrar_pct": null,
+      "resultado_financeiro_liquido": -19.8,
+      "receitas_a_apropriar": 1997.2,
+      "resultados_a_apropriar": 711.3,
+      "margem_resultados_a_apropriar_pct": 0.356,
+      "caixa_disponibilidades": 738.0,
+      "divida_bruta": 1170.4,
+      "divida_liquida": 432.4,
+      "divida_liquida_ajustada": null,
+      "patrimonio_liquido_minoritarios": 956.5,
+      "divida_liquida_sobre_pl_pct": 0.452,
+      "divida_liquida_ajustada_sobre_pl_pct": 0.055,
+      "lucro_liquido_ltm": null,
+      "nopat_ltm": null,
+      "capital_empregado": null,
+      "roe_ltm_pct": 0.071,
+      "roce_ltm_pct": 0.196,
+      "despesas_com_vendas_sga": -75.7,
+      "despesas_administrativas_sga": -61.1,
+      "total_sga": -136.8,
+      "despesas_vendas_sobre_vl_pct": 0.049,
+      "despesas_adm_sobre_lancamentos_pct": 0.028,
+      "capitalizacao_juros": 27.6,
+      "contas_a_receber_cap_empregado": null,
+      "estoque_cap_empregado": null,
+      "outros_cap_empregado": null,
+      "despesas_com_demandas_judiciais": -15.4,
+      "outras_receitas_despesas_op": -20.0,
+      "equivalencia_patrimonial_fin": 2.4,
+      "receitas_financeiras": 15.2,
+      "despesas_financeiras": -35.0,
+      "resultado_financeiro_ex_swap": -30.6,
+      "reducao_capital": null,
+      "divida_liquida_ajustada_det": null,
+      "caixa_aplicacoes_financeiras_ded": 738.0,
+      "lucro_liquido_destaque": 76.2,
+      "lucro_bruto_ajustado_destaque": 293.6,
+      "receita_liquida_destaque": 912.1
+    }
+  },
+  "company_specific": {
+    "segmentos": {
+      "tenda": {
+        "receita_liquida": 837.3,
+        "lucro_bruto": 259.6,
+        "margem_bruta": 0.310,
+        "lucro_bruto_ajustado": 285.8,
+        "margem_bruta_ajustada": 0.341,
+        "ebitda_ajustado": 162.6,
+        "margem_ebitda_ajustada": 0.194,
+        "lucro_liquido": 92.1,
+        "margem_liquida": 0.110,
+        "despesas_com_vendas": -66.8,
+        "despesas_ga": -47.7,
+        "total_sga": -114.5,
+        "geracao_caixa_operacional": 39.1,
+        "roce_ltm_pct": 0.264,
+        "capitalizacao_juros": 26.7,
+        "capitalizacao_juros_sfh": 6.4,
+        "capitalizacao_juros_outros": 19.8
+      },
+      "alea": {
+        "receita_liquida": 74.8,
+        "lucro_bruto": 6.9,
+        "margem_bruta": 0.092,
+        "lucro_bruto_ajustado": 7.8,
+        "margem_bruta_ajustada": 0.104,
+        "ebitda_ajustado": -11.8,
+        "margem_ebitda_ajustada": -0.158,
+        "lucro_liquido": -15.9,
+        "margem_liquida": -0.213,
+        "despesas_com_vendas": -9.0,
+        "despesas_ga": -13.4,
+        "total_sga": -22.3,
+        "geracao_caixa_operacional": -27.5,
+        "roce_ltm_pct": -1.273
+      }
+    },
+    "pode_entrar": {
+      "contratos_assinados_3t24": [
+        {
+          "nome": "Città Vila Prudente",
+          "unidades": 1984,
+          "vgv_mm": 396.3
+        },
+        {
+          "nome": "Guarapiranga (50% participação)",
+          "unidades": 655,
+          "vgv_mm": 135.5
+        }
+      ],
+      "vgv_total_assinado_3t24_mm": 531.8
+    },
+    "divida_detalhamento": {
+      "divida_total": 1170.4,
+      "financiamento_bancario": 225.0,
+      "divida_corporativa": 567.3,
+      "sfh": 378.1,
+      "duration_meses": 16.2,
+      "custo_medio_cdi_pct": 0.1321,
+      "custo_medio_tr_pct": 0.0954,
+      "custo_medio_ipca_pct": 0.1110,
+      "custo_medio_total_pct": 0.1157,
+      "divida_liquida_corporativa_sobre_pl_pct": 0.055
+    },
+    "geracao_caixa": {
+      "geracao_caixa_operacional_consolidado": 11.5,
+      "geracao_caixa_operacional_tenda": 39.1,
+      "geracao_caixa_operacional_alea": -27.5,
+      "geracao_caixa_total": -48.6,
+      "impacto_mudanca_cef_3t24": -43.0
+    },
+    "guidance_revisado_2024": {
+      "tenda": {
+        "margem_bruta_ajustada_min_pct": 0.31,
+        "margem_bruta_ajustada_max_pct": 0.32,
+        "vendas_liquidas_min_bn": 4.1,
+        "vendas_liquidas_max_bn": 4.4,
+        "ebitda_ajustado_min_mm": 500,
+        "ebitda_ajustado_max_mm": 550
+      },
+      "alea": {
+        "margem_bruta_ajustada_min_pct": 0.09,
+        "margem_bruta_ajustada_max_pct": 0.11,
+        "vendas_liquidas_min_mm": 400,
+        "vendas_liquidas_max_mm": 500,
+        "ebitda_ajustado_min_mm": -50,
+        "ebitda_ajustado_max_mm": -30
+      }
+    },
+    "ebitda_consolidado_bridge": {
+      "resultado_liquido": 76.2,
+      "resultado_financeiro": 19.8,
+      "ir_csll": 7.2,
+      "depreciacao_amortizacao": 10.6,
+      "ebitda": 113.8,
+      "capitalizacao_juros": 27.6,
+      "despesas_sop": 4.1,
+      "participacao_minoritarios": -1.7,
+      "depreciacao_cogs": 7.1,
+      "ebitda_ajustado": 150.8
+    },
+    "resultado_financeiro_detalhamento": {
+      "receitas_financeiras": 15.2,
+      "rendimento_aplicacoes": 15.2,
+      "outras_receitas_financeiras": 0.0,
+      "despesas_financeiras": -35.0,
+      "despesa_financeira_divida": -25.0,
+      "despesa_financeira_cessao": -14.0,
+      "swap": 10.9,
+      "outras_despesas_financeiras": -6.8,
+      "resultado_financeiro": -19.8,
+      "resultado_financeiro_ex_swap": -30.6
+    },
+    "swaps_acoes": {
+      "total_acoes_exposicao": 10000000,
+      "swap_itau_4500k": {
+        "contraparte": "Itaú Unibanco",
+        "acoes": 4500000,
+        "preco_referencia": 13.44,
+        "vencimento": "2026-04-03"
+      },
+      "swap_santander_3032k": {
+        "contraparte": "Banco Santander",
+        "acoes": 3032100,
+        "preco_referencia": 13.40,
+        "vencimento": "2026-04-29"
+      },
+      "swap_santander_2500k": {
+        "contraparte": "Banco Santander",
+        "acoes": 2500000,
+        "preco_referencia": 13.68,
+        "vencimento": "2026-04-07"
+      }
+    },
+    "acoes": {
+      "total_emitidas_mil": 123094,
+      "tesouraria_mil": 0
+    },
+    "incc": {
+      "incc_12m_out24_pct": 0.0599,
+      "materiais_12m_pct": 0.0459,
+      "mao_obra_12m_pct": 0.0801,
+      "economia_obra_3t24_mm": 4.1
+    }
+  }
+}
