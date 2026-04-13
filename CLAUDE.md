@@ -67,6 +67,15 @@ bash tools/reingest_full.sh CURY3 --horizon 3y
 
 Downloads directly via `cvm_fetch.py` (bypasses manifest/fetch agent). Does NOT re-generate `structured/` or `digested/`.
 
+### Query data
+
+```bash
+bash tools/query.sh "qual o distrato da Cury no 3T24?"
+bash tools/query.sh "compare a margem bruta da Direcional vs Cury em 2024"
+```
+
+Searches structured/ → full/ → digested/ with spaced-text normalization. Returns cited answers. Never invents data.
+
 ### File extraction (standalone)
 
 ```bash
@@ -114,6 +123,7 @@ tools/
 ├── fetch.sh                    # orchestrator: CVM fetch → sources/undigested/
 ├── ingest.sh                   # orchestrator: undigested/ → full/ + structured/ + digested/ + queue
 ├── wiki_update.sh              # orchestrator: digesteds → wiki pages (two-phase: plan + execute)
+├── query.sh                    # query agent: answers questions by searching structured/full/digested
 ├── reingest_full.sh            # re-download PDFs → full/ (no LLM, bypasses manifest)
 ├── lib/
 │   ├── cvm_fetch.py            # CVM-API client (resolve ticker, list docs, download, batch-download)
@@ -128,7 +138,8 @@ tools/
     ├── ingest_light.md         # system prompt for light ingest — reads full/, produces digested/ only
     ├── ingest_generic.md       # system prompt for generic (non-CVM) source ingest
     ├── wiki_plan.md            # system prompt for wiki update planning phase
-    └── wiki_write.md           # system prompt for wiki page creation/update
+    ├── wiki_write.md           # system prompt for wiki page creation/update
+    └── query_system.md         # system prompt for data query agent
 ```
 
 All orchestrators invoke `claude --print` with `--allowedTools "Bash" --permission-mode bypassPermissions`.
@@ -176,7 +187,7 @@ CVM-API → fetch.sh → sources/undigested/
 - **`structured/` shape**: `{_schema, _schema_path, _empresa, _periodo, _source, canonical, company_specific}`. Missing canonical keys → `null`, never omit. Numbers as reported; normalizations belong to the modeling layer.
 - **`manifests/{empresa}.json` is mandatory** — every heavy/light ingest MUST update it. A cold-start modeling agent reads this file first.
 - **Citations** — prefer `(fonte: full/itau/3T25/itr.md §nota_18)` for qualitative, `(fonte: structured/itau/3T25/itr.json :: canonical.dre.margem_financeira)` for numeric, `(fonte: url, confiabilidade: nivel)` for web.
-- **Never invent numbers** — every figure traces to `structured/`/`full/`/web/notion. Mark stale with `[stale: last verified YYYY-MM-DD]`.
+- **Never invent numbers** — every figure traces to `structured/`/`full/`/web/notion. Mark stale with `[stale: last verified YYYY-MM-DD]`. When data is missing from `digested/`, **always search `full/` and `structured/` before reporting as unavailable**. Never fill gaps with estimates, interpolations, or "approximate" values — if the number is not in a source, say "n/d" and cite what was searched.
 - **Wikilinks** only to pages that exist or should exist. First mention in a section gets linked; subsequent mentions do not.
 - **Do not edit files in `sources/`** — sources are immutable. To correct, re-ingest.
 - **`log.md` is append-only.** Every operation appends an entry. Wiki queue entries use `[wiki-queue]` / `[wiki-done]` format.
