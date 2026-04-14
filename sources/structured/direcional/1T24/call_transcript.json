@@ -1,0 +1,29 @@
+{
+  "_schema": "incorporadora/v1",
+  "_schema_path": "sources/structured/_schemas/incorporadora.json",
+  "_empresa": "direcional",
+  "_periodo": "1T24",
+  "_source": "sources/full/direcional/1T24/call_transcript.md",
+  "canonical": null,
+  "company_specific": {
+    "custo_construcao": {
+      "composicao_insumos_ex_mao_de_obra": {
+        "cimento_mais_aco_pct": 0.075,
+        "cimento_mais_aco_pct_range": [0.07, 0.08],
+        "cobre_pct": 0.02,
+        "sensibilidade_cobre": {
+          "delta_preco_pct": 0.10,
+          "delta_custo_total_pp": 0.002
+        }
+      },
+      "observacoes": [
+        "Breakdown informado pelo CFO Ricardo Ribeiro Valadares em resposta a pergunta sobre cesta de custo.",
+        "Mao-de-obra tratada como o componente MAIS relevante; nao quantificada em pct nos calls.",
+        "Empresa compra 'milhares de insumos'; cimento, aco e cobre foram os unicos nomeados com pct.",
+        "Caveat: numeros transcritos de auto-caption do YouTube — fonte primaria e o audio."
+      ],
+      "source_anchor": "[69:56]",
+      "source_quote": "o insumo mais representativo pro nosso negocio e o cimento e o aco que giram 7 a 8% do nosso custo fora a mao de obra... teve momento entro no cobre Quanto e o cobre 2%"
+    }
+  }
+}
