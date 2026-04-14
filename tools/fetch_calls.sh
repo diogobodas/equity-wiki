@@ -206,7 +206,7 @@ do_default() {
         downloaded=$((downloaded + 1))
     done < <(jq -r '.entries[]
         | select(.confidence=="high" and .existing==false and .duplicate_of==null and .period != null)
-        | [.video_id, .url, .period] | @tsv' "$plan_path")
+        | [.video_id, .url, .period] | @tsv' "$plan_path" | tr -d '\r')
 
     echo ""
     echo "summary: $downloaded downloaded, $skipped skipped, $errors errors (of $total candidates)"

@@ -8625,8 +8625,8 @@
       "upload_date": "NA",
       "period": "4T24",
       "confidence": "high",
-      "existing": false,
-      "existing_layer": null,
+      "existing": true,
+      "existing_layer": "undigested",
       "duplicate_of": null
     },
     {

@@ -247,3 +247,37 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 2026-04-12 — ingest release 4T24: sources/full/tenda/4T24/release.md, sources/structured/tenda/4T24/release.json, sources/digested/tenda_release_4T24_summary.md
 2026-04-12 — wiki update (tenda 2023-2024 batch): updated tenda.md with Evolucao trimestral 2024 section (4T23-4T24 DRE, Alea, operacional, balanco, REF, guidance tracking, eventos-chave 2023-2024), added 2023-2024 sources to frontmatter, updated limitations. Created pode_entrar.md (concept) and debentures.md (concept). Updated alea.md with 2024 ramp-up trajectory. Updated incorporadoras.md and tenda_vs_direcional.md with 2024 context. Sources: tenda_dfp_2023_summary.md, tenda_itr_{1T24,2T24,3T24}_summary.md, tenda_release_{4T23,1T24,2T24,3T24,4T24}_summary.md.
 2026-04-13 — wiki update (incorporadoras sector page): updated incorporadoras.md with Cyrela as fourth covered player (CYRE3: receita R$ 9,4 bi, lucro R$ 2,0 bi, ROE 22,3%). Added backlog/REF comparison table. Updated landbank data to 1T26 prévias (Direcional R$ 60 bi, Tenda R$ 29,7 bi, Cury R$ 24,9 bi). Added Tenda distrato data (9,9% 1T26). New trends: Cyrela MCMV expansion, Alea reestruturação, 1T26 prévia momentum. Expanded debêntures/CRI trend with per-company detail. Sources: all 12 digesteds (cyrela/cury/direcional/tenda × dfp_2025/release_4T25/previa_1T26).
+[wiki-queue] 2026-04-13 | generic | other | HB_historical series_4Q25 | sources/digested/HB_historical series_4Q25_summary.md
+[wiki-done] 2026-04-13 | batch_20260413_112019
+[wiki-queue] 2026-04-13 | generic | other | Texto Reforma tributaria jan-2025 | sources/digested/Texto Reforma tributaria jan-2025_summary.md
+[wiki-done] 2026-04-13 | batch_20260413_150326
+[wiki-queue] 2026-04-13 | generic | other | notas_mattos_filho_reforma_incorporadoras | sources/digested/notas_mattos_filho_reforma_incorporadoras_summary.md
+[wiki-done] 2026-04-13 | batch_20260413_183354
+2026-04-13 — ingest previa_operacional 1T26: sources/full/cyrela/1T26/previa_operacional.md, sources/digested/cyrela_fatos_relevantes_batch_summary.md
+[wiki-queue] 2026-04-13 | cyrela | previa_operacional | 1T26 | sources/digested/cyrela_fatos_relevantes_batch_summary.md
+[wiki-done] 2026-04-13 | batch_20260413_185207
+[wiki-queue] 2026-04-13 | generic | other | cyrela_dados_operacionais | sources/digested/cyrela_dados_operacionais_summary.md
+[wiki-queue] 2026-04-13 | generic | other | cyrela_lancamentos | sources/digested/cyrela_lancamentos_summary.md
+[wiki-done] 2026-04-13 | batch_20260413_195300
+[fetch-calls] 2026-04-14 | direcional | 4T24 | https://www.youtube.com/watch?v=Vl_XJnZBFfE | auto_forced
+[fetch-calls] 2026-04-14 | direcional | 4T23 | https://www.youtube.com/watch?v=sZUQrK7v6d8 | auto
+[fetch-calls] 2026-04-14 | direcional | 2T23 | https://www.youtube.com/watch?v=ra6poXDh0sQ | auto
+[fetch-calls] 2026-04-14 | direcional | 1T23 | https://www.youtube.com/watch?v=LuWonb9WPsI | auto
+[fetch-calls] 2026-04-14 | direcional | 4T20 | https://www.youtube.com/watch?v=wL04P85RrnY | auto
+[fetch-calls] 2026-04-14 | direcional | 1T22 | https://www.youtube.com/watch?v=BPAIwspEgkc | auto
+[fetch-calls] 2026-04-14 | direcional | 4T21 | https://www.youtube.com/watch?v=TI0NLQ11Gos | auto
+[fetch-calls] 2026-04-14 | direcional | 3T21 | https://www.youtube.com/watch?v=t5mnc-6mAK4 | auto
+[fetch-calls] 2026-04-14 | direcional | 2T21 | https://www.youtube.com/watch?v=Um8KttUvdeA | auto
+[fetch-calls] 2026-04-14 | direcional | 4T25 | https://www.youtube.com/watch?v=4G24GLp2Z7g | auto
+[fetch-calls] 2026-04-14 | direcional | 3T25 | https://www.youtube.com/watch?v=gpJAQUS0VqA | auto
+[fetch-calls] 2026-04-14 | direcional | 2T25 | https://www.youtube.com/watch?v=dN2kmm3ZMcE | auto
+[fetch-calls] 2026-04-14 | direcional | 1T25 | https://www.youtube.com/watch?v=PGKvfFD5P2s | auto
+[fetch-calls] 2026-04-14 | direcional | 3T24 | https://www.youtube.com/watch?v=2uPIku8YKgM | auto
+[fetch-calls] 2026-04-14 | direcional | 2T24 | https://www.youtube.com/watch?v=uIvWNRQLV14 | auto
+[fetch-calls] 2026-04-14 | direcional | 1T24 | https://www.youtube.com/watch?v=z9B-mRlEL-0 | auto
+[fetch-calls] 2026-04-14 | direcional | 3T23 | https://www.youtube.com/watch?v=ZF_t69gZmFA | auto
+[fetch-calls] 2026-04-14 | direcional | 4T22 | https://www.youtube.com/watch?v=myCwdkvy93Y | auto
+[fetch-calls] 2026-04-14 | direcional | 3T22 | https://www.youtube.com/watch?v=i_xnGGK2lfg | auto
+[fetch-calls] 2026-04-14 | direcional | 2T22 | https://www.youtube.com/watch?v=LdgjowQlvqM | auto
+[fetch-calls] 2026-04-14 | direcional | 1T21 | https://www.youtube.com/watch?v=NmyEfQa-GRg | auto
+[fetch-calls] 2026-04-14 | direcional | 3T20 | https://www.youtube.com/watch?v=clqtXvDvam4 | auto
