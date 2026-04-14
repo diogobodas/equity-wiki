@@ -72,11 +72,64 @@ resolve_empresa() {
 resolve_empresa
 echo "empresa=$EMPRESA channel=$YOUTUBE_CHANNEL"
 
-# --- Dispatch (filled in by later tasks) ---
+# --- Helpers ---
+
+# Compute horizon cutoff as YYYYMMDD (for comparing with yt-dlp upload_date).
+compute_horizon_cutoff() {
+    local h="$1"
+    local num="${h%y}"
+    local year month day
+    year=$(date +%Y); month=$(date +%m); day=$(date +%d)
+    printf "%04d%02d%02d" $((year - num)) "$((10#$month))" "$((10#$day))"
+}
+
+do_discover() {
+    local cutoff; cutoff=$(compute_horizon_cutoff "$HORIZON")
+    local plan_path="$MANIFESTS_PATH/${EMPRESA}_calls_plan.json"
+    echo "listing $YOUTUBE_CHANNEL/videos (cutoff: $cutoff)..."
+
+    local raw="$TMP_DIR/channel_list.tsv"
+    : > "$raw"
+    for tab in videos streams; do
+        yt-dlp --flat-playlist --print "%(id)s|%(title)s|%(upload_date)s" \
+            "$YOUTUBE_CHANNEL/$tab" >> "$raw" 2>/dev/null || true
+    done
+
+    EMPRESA="$EMPRESA" \
+    TICKER_UPPER="${TICKER^^}" \
+    YOUTUBE_CHANNEL="$YOUTUBE_CHANNEL" \
+    HORIZON="$HORIZON" \
+    CUTOFF="$cutoff" \
+    UNDIGESTED_PATH="$UNDIGESTED_PATH" \
+    FULL_PATH="$FULL_PATH" \
+    RAW_PATH="$raw" \
+    PLAN_PATH="$plan_path" \
+    python "$SCRIPT_DIR/lib/calls_plan.py"
+
+    echo ""
+    echo "plan written to $plan_path"
+    echo ""
+
+    local bucket
+    for bucket in high medium low; do
+        local count; count=$(jq --arg c "$bucket" '[.entries[] | select(.confidence==$c)] | length' "$plan_path")
+        [[ "$count" == "0" ]] && continue
+        echo "[$bucket — $count video(s)]"
+        jq -r --arg c "$bucket" '
+            .entries[] | select(.confidence==$c) |
+            "  " + (.period // "n/a") + "  " + .upload_date + "  " + .video_id +
+            "  " + (if .existing then "(existing:" + .existing_layer + ")" elif .duplicate_of then "(dup of " + .duplicate_of + ")" else "" end) +
+            "  " + .title
+        ' "$plan_path"
+        echo ""
+    done
+}
+
+# --- Dispatch ---
 if [[ -n "$FORCE_URL" ]]; then
     echo "TODO force_download (Task 6)"
 elif [[ "$DISCOVER" == "true" ]]; then
-    echo "TODO discover (Task 4)"
+    do_discover
 else
     echo "TODO default (Task 5)"
 fi
