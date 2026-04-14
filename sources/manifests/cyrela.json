@@ -1,14 +1,25 @@
 {
   "_schema": "manifest/v1",
-  "_updated": "2026-04-11",
+  "_updated": "2026-04-13",
   "empresa": "cyrela",
   "display_name": "Cyrela Brazil Realty S.A.",
-  "aliases": ["Cyrela", "CYRE3"],
+  "aliases": [
+    "Cyrela",
+    "CYRE3"
+  ],
   "ticker": "CYRE3",
   "setor": "incorporadora",
   "setor_schema": "sources/structured/_schemas/incorporadora.json",
   "wiki_page": "cyrela.md",
-  "sources": [],
+  "sources": [
+    {
+      "type": "previa_operacional",
+      "asof": "1T26",
+      "ingested_on": "2026-04-13",
+      "full": "sources/full/cyrela/1T26/previa_operacional.md",
+      "digested": "sources/digested/cyrela_fatos_relevantes_batch_summary.md"
+    }
+  ],
   "coverage": {},
   "precedence": [],
   "caveats": [
@@ -21,17 +32,23 @@
       "release_resultado_pt": {
         "action": "include",
         "description": "Earnings release trimestral em portugues (analise gerencial)",
-        "sample_files": ["CYRE3_4T25_release_1017320.pdf"]
+        "sample_files": [
+          "CYRE3_4T25_release_1017320.pdf"
+        ]
       },
       "demonstracoes_financeiras_pt": {
         "action": "include",
         "description": "DFP/ITR auditada em portugues (notas explicativas completas)",
-        "sample_files": ["CYRE3_4T25_release_1017381.pdf"]
+        "sample_files": [
+          "CYRE3_4T25_release_1017381.pdf"
+        ]
       },
       "demonstracoes_financeiras_en": {
         "action": "exclude",
         "description": "Convenience translation das demonstracoes financeiras em ingles (duplicata)",
-        "sample_files": ["CYRE3_4T25_release_1022041.pdf"]
+        "sample_files": [
+          "CYRE3_4T25_release_1022041.pdf"
+        ]
       },
       "fato_relevante": {
         "action": "include",

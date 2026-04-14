@@ -399,6 +399,27 @@
       "ingested_on": "2026-04-14",
       "full": "sources/full/direcional/4T21/call_transcript.md",
       "digested": "sources/digested/direcional_call_transcript_4T21_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "4T22",
+      "ingested_on": "2026-04-14",
+      "full": "sources/full/direcional/4T22/call_transcript.md",
+      "digested": "sources/digested/direcional_call_transcript_4T22_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "4T23",
+      "ingested_on": "2026-04-14",
+      "full": "sources/full/direcional/4T23/call_transcript.md",
+      "digested": "sources/digested/direcional_call_transcript_4T23_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "4T25",
+      "ingested_on": "2026-04-14",
+      "full": "sources/full/direcional/4T25/call_transcript.md",
+      "digested": "sources/digested/direcional_call_transcript_4T25_summary.md"
     }
   ],
   "coverage": {

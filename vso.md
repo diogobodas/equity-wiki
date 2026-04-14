@@ -10,6 +10,9 @@ sources:
   - sources/digested/direcional_previa_operacional_1T26_summary.md
   - sources/digested/tenda_release_4T25_summary.md
   - sources/digested/tenda_previa_operacional_1T26_summary.md
+  - sources/digested/HB_historical series_4Q25_summary.md
+  - sources/digested/cyrela_fatos_relevantes_batch_summary.md
+  - sources/digested/cyrela_dados_operacionais_summary.md
 created: 2026-04-08
 updated: 2026-04-13
 ---
@@ -39,13 +42,18 @@ Cada empresa reporta VSO com metodologias ligeiramente diferentes:
 
 **Nota definicional:** o denominador é sempre Estoque(t-1) + Lançamentos(t). O numerador varia: vendas brutas (VSO bruta) ou vendas líquidas (VSO líquida). Ao comparar cross-empresa, verificar nota metodológica do release — as bases não são diretamente comparáveis quando uma empresa reporta VSO trimestral e outra reporta VSO UDM.
 
+**Série histórica longa:** a planilha setorial HB cobre dados trimestrais de VSO de ~20 incorporadoras listadas na B3, desde 1T09 até 4T25, permitindo análise de ciclos longos de absorção e comparação cross-company ao longo de 16+ anos (fonte: digested/HB_historical series_4Q25_summary.md).
+
+Para [[cyrela]] especificamente, a planilha proprietária de dados operacionais traz série trimestral própria de 1T06 a 4T25 (~80 trimestres) com lançamentos, vendas e estoque cortados por região (8) e segmento (Alto, Médio, Vivaz Prime, MCMV 2 e 3, MCMV 1) — permite reconstruir VSO histórica da empresa por segmento ao longo de ciclos completos (2008–09, 2014–17, 2020–21, 2022–25). Dados pré-2019 são pro forma para a estrutura societária atual (fonte: digested/cyrela_dados_operacionais_summary.md).
+
 ## Comparativo cross-empresa — 4T25 e 1T26
 
 | Empresa | Métrica | 4T25 | 1T26 | Δ T/T |
 |---|---|---|---|---|
 | [[cury]] | VSO líq. trimestral | 39,3% | 45,1% | +5,8 p.p. |
 | [[cury]] | VSO líq. UDM | — | 73,9% | — |
-| [[cyrela]] | VSO 12 meses | 45,2% | — | — |
+| [[cyrela]] | VSO 12 meses | 45,2% | 45,8% | +0,6 p.p. |
+| [[cyrela]] | VSO safra | 38% | 45% | +7,0 p.p. |
 | [[direcional]] (consol.) | VSO trimestral | 21% | 24% | +3,0 p.p. |
 | [[direcional]] (Direcional) | VSO trimestral | — | 24% | — |
 | [[direcional]] ([[riva]]) | VSO trimestral | — | 23% | — |
@@ -53,13 +61,13 @@ Cada empresa reporta VSO com metodologias ligeiramente diferentes:
 | [[tenda]] (MCMV) | VSO líq. trimestral | — | 26,9% | +4,3 p.p. |
 | [[tenda]] ([[alea]]) | VSO líq. trimestral | 38,0% | 41,6% | +3,6 p.p. |
 
-(fontes: digested/cury_previa_operacional_1T26_summary.md; digested/cyrela_previa_4T25_summary.md; digested/direcional_previa_operacional_1T26_summary.md; digested/tenda_previa_operacional_1T26_summary.md; digested/direcional_release_4T25_summary.md; digested/tenda_release_4T25_summary.md)
+(fontes: digested/cury_previa_operacional_1T26_summary.md; digested/cyrela_previa_4T25_summary.md; digested/cyrela_fatos_relevantes_batch_summary.md; digested/direcional_previa_operacional_1T26_summary.md; digested/tenda_previa_operacional_1T26_summary.md; digested/direcional_release_4T25_summary.md; digested/tenda_release_4T25_summary.md)
 
 ## Leitura dos dados
 
 **[[Cury]]** lidera em absorção com folga: VSO UDM de 73,9% e VSO trimestral de 45,1% no 1T26, refletindo demanda consistente em SP e RJ no segmento [[mcmv]] (fonte: digested/cury_previa_operacional_1T26_summary.md). A empresa vendeu R$ 2,3 bi líquido no trimestre (+9,5% A/A), com landbank recorde de R$ 24,9 bi — ou seja, oferta crescente sendo absorvida a velocidade elevada (fonte: digested/cury_previa_operacional_1T26_summary.md).
 
-**[[Cyrela]]** reporta VSO 12 meses de 45,2% no 4T25, queda de 55,0% no 4T24 — resultado de lançamentos agressivos em 2025 (R$ 18,6 bi VGV, +43% A/A) que expandiram a oferta mais rápido que as vendas conseguiram absorver (fonte: digested/cyrela_release_4T25_summary.md). A VSO de lançamentos do 4T25 foi de 38%, indicando que produtos novos demoraram mais para girar (fonte: digested/cyrela_previa_4T25_summary.md).
+**[[Cyrela]]** reporta VSO 12 meses de 45,8% no 1T26, estável vs. 45,2% no 4T25, após queda de 52,6% no 1T25 — reflexo dos lançamentos agressivos de 2025 (R$ 18,6 bi VGV, +43% A/A) que expandiram a oferta (fonte: digested/cyrela_fatos_relevantes_batch_summary.md; digested/cyrela_release_4T25_summary.md). A VSO de safra do 1T26 foi de 45%, recuperação significativa vs. 38% no 4T25, indicando que os lançamentos do trimestre foram melhor absorvidos apesar do VGV lançado ter caído 50% A/A para R$ 2.428 mi (fonte: digested/cyrela_fatos_relevantes_batch_summary.md).
 
 **[[Direcional]]** tem a VSO trimestral mais baixa do grupo (24% no 1T26), mas esse nível é consistente com seu modelo de alto landbank (R$ 60 bi, 246 mil unidades) e ritmo de lançamentos distribuído geograficamente (fonte: digested/direcional_previa_operacional_1T26_summary.md). VSO subiu +250 bps T/T, com o segmento Direcional (24%) ligeiramente acima de [[Riva]] (23%) (fonte: digested/direcional_previa_operacional_1T26_summary.md).
 

@@ -14,6 +14,9 @@ sources:
   - sources/digested/tenda_dfp_2025_summary.md
   - sources/digested/tenda_release_4T25_summary.md
   - sources/digested/tenda_previa_operacional_1T26_summary.md
+  - sources/digested/HB_historical series_4Q25_summary.md
+  - sources/digested/notas_mattos_filho_reforma_incorporadoras_summary.md
+  - sources/digested/cyrela_fatos_relevantes_batch_summary.md
 created: 2026-04-08
 updated: 2026-04-13
 ---
@@ -28,7 +31,7 @@ A principal segmentação é **por faixa de renda do comprador**, que determina 
 
 - **Habitação popular ([[mcmv|MCMV]] Faixa 1/2)** — ticket baixo, demanda subsidiada via MCMV, funding do comprador pela Caixa, [[vso]] alta, margens menores por unidade mas giro alto. Menos sensível à Selic. Players: [[tenda|Tenda]] (pure-play), [[direcional|Direcional]], MRV.
 - **Média renda (MCMV Faixa 2/3/4 + [[sbpe|SBPE]])** — ticket intermediário, funding misto, sensibilidade maior a juros. Players: [[cury|Cury]] (SP+RJ, pure MCMV médio), [[riva|Riva]] (subsidiária Direcional), Plano&Plano, MRV, [[alea|Alea]] (subsidiária Tenda — em reestruturação), [[cyrela|Cyrela]] (segmento MCMV 2/3 crescente, R$ 3,8 bi VGV ex-permuta em 2025).
-- **Alta renda (SBPE puro)** — ticket alto, sem subsídio, funding 100% privado, ciclo longo, alta sensibilidade a juros e confiança do consumidor. Players: [[cyrela|Cyrela]] (líder, multi-segmento com foco alto padrão), EzTec, Even, Helbor, Mitre.
+- **Alta renda (SBPE puro)** — ticket alto, sem subsídio, funding 100% privado, ciclo longo, alta sensibilidade a juros e confiança do consumidor. Players: [[cyrela|Cyrela]] (líder, multi-segmento com foco alto padrão), EzTec, Even, Helbor, Lavvi, Mitre, Trisul, Moura Dubeux.
 
 ## Métricas operacionais-chave (antes das DFs)
 
@@ -52,7 +55,7 @@ Todas essas métricas são publicadas em **prévias operacionais** trimestrais (
 - **INCC** — inflação de custo de construção; pressiona margem bruta, especialmente em Faixa 1 onde os plafonds da Caixa são rígidos. INCC-MOD +9,2% em 2025 (mão de obra) vs materiais +3,8% — pressão estrutural de custo de mão de obra (fonte: digested/tenda_release_4T25_summary.md).
 - **Emprego e renda** — driver direto de demanda e de distratos.
 - **Regulação do MCMV** — risco político central para players focados em baixa renda. Mudanças recentes em 2T25: atualização de faixas de renda, criação da [[mcmv_faixa_4|Faixa 4]] (renda até R$ 12 mil, imóvel até R$ 500 mil), ampliação de limites de preço.
-- **[[reforma_tributaria|Reforma tributária]]** — CBS a partir de 2027, vista como estruturalmente positiva para o setor.
+- **[[reforma_tributaria|Reforma tributária]]** — IBS/CBS a partir de 2027, migração integral até 2032 (fim do ICMS, PIS-COFINS e RET). Empreendimentos sob patrimônio de afetação podem optar pelo **RET até 2029** (opção definitiva por obra, sem alteração posterior); consenso de mercado é que o RET segue mais vantajoso que o novo regime de crédito/débito. Impacto central: **descasamento de caixa** — no IVA, tributo incide concentrado no início da obra (~14% estimado em 2033), gerando créditos utilizáveis só ao longo da execução; para vendas na planta, o desembolso tributário antecede a devolução via crédito ou ressarcimento (prazo: 120 dias para uso + 120 dias para ressarcimento, com correção IPCA). Para baixa renda, efeito atenuado pelo **redutor social** (R$ 100 mil de redução na base). Mudanças estruturais esperadas: (i) desincentivo à verticalização (aquisições externas geram crédito, favorecendo terceirização e obras modulares), (ii) formalização forçada da cadeia (fornecedores informais perdem competitividade), (iii) mudança cultural profunda em gestão de créditos tributários. Quem permanecer no RET enfrenta risco de fornecedores no regime normal recolherem IBS/CBS sem gerar crédito para a incorporadora — exige cuidado na precificação (fonte: digested/notas_mattos_filho_reforma_incorporadoras_summary.md).
 - **Disponibilidade de funding (FGTS, Caixa)** — condição necessária para Faixa 1/2.
 
 ## Players cobertos nesta wiki
@@ -70,9 +73,21 @@ Fontes: (fonte: digested/cyrela_dfp_2025_summary.md), (fonte: digested/cury_dfp_
 
 Ver [[cury_vs_direcional]] para comparação detalhada entre os dois modelos de alta rentabilidade no MCMV médio, e [[tenda_vs_direcional]] para análise da Tenda vs Direcional.
 
+## Universo amplo de incorporadoras listadas
+
+Além dos 4 players cobertos em detalhe nesta wiki, a série histórica setorial (1T09–4T25) acompanha ~20 incorporadoras listadas na B3, permitindo benchmarking cross-company de longo prazo (fonte: digested/HB_historical series_4Q25_summary.md):
+
+- **Low-income:** MRV (MRVE3), [[tenda|Tenda]] (TEND3), [[cury|Cury]] (CURY3), [[direcional|Direcional]] (DIRR3), Plano&Plano (PLPL3)
+- **Mid/high-income:** [[cyrela|Cyrela]] (CYRE3), EZTec (EZTC3), Even (EVEN3), Helbor (HBOR3), Lavvi (LAVV3), Melnick (MELK3), Mitre (MTRE3), Trisul (TRIS3), Moura Dubeux (MDNE3)
+- **Históricas (saíram/reestruturaram):** PDG, Rossi, Gafisa, Tecnisa
+
+Métricas disponíveis na série: lançamentos (VGV %Co e 100%), vendas líquidas/brutas, VSO, estoque, receita líquida, lucro bruto (ex-juros), EBITDA, lucro líquido ajustado, ROE, dívida líquida, FCFF/FCFE, dividendos, recebíveis e inventário — todos com abertura trimestral e segmentação low-income vs. mid/high-income (fonte: digested/HB_historical series_4Q25_summary.md).
+
+**Destaques de lançamentos 4T25 (universo amplo):** Cyrela liderou mid/high com R$ 3,3 bi no 4T25 (100%), acumulando ~R$ 14,4 bi em 2025. Cury liderou low-income com R$ 1,2 bi (%Co) no 4T25 e lançamentos anuais acima de R$ 7,5 bi. Tenda acelerou para R$ 1,8 bi no 4T25. Lavvi e Moura Dubeux em expansão, ambas ultrapassando R$ 800 mm/tri em lançamentos. O segmento low-income opera em máximas históricas de lançamentos, impulsionado pelo [[mcmv|MCMV]] (fonte: digested/HB_historical series_4Q25_summary.md).
+
 ## Tendências visíveis nos dados 2025–1T26
 
-1. **Turnaround consolidado pós-crise 2021-2023.** Tenda retornou ao lucro em 1T24 (primeiro resultado positivo desde 3T21), acelerou a recuperação de margens ao longo de 2024 e em 2025 alcançou R$ 506 mm de lucro (vs prejuízo R$ 547 mm em 2022), com ROE de 47,1%. Direcional entregou recordes consecutivos (ROE 44%, margem bruta ajustada 42,1%). A Cury entregou 3 anos consecutivos de expansão de margens (38,0% → 39,8% na bruta, 16,7% → 18,1% na líquida). Cyrela alcançou R$ 2,0 bi de lucro (+22% a/a) com ROE de 22,3%, em ano de lançamentos recordes (R$ 18,6 bi VGV). O ciclo de quase-quebra do setor MCMV Faixa 1 está oficialmente fechado nos nomes líderes (fonte: digested/tenda_dfp_2025_summary.md, digested/direcional_dfp_2025_summary.md, digested/cury_dfp_2025_summary.md, digested/cyrela_dfp_2025_summary.md).
+1. **Turnaround consolidado pós-crise 2021-2023.** Tenda retornou ao lucro em 1T24 (primeiro resultado positivo desde 3T21), acelerou a recuperação de margens ao longo de 2024 e em 2025 alcançou R$ 506 mm de lucro (vs prejuízo R$ 547 mm em 2022), com ROE de 47,1%. Direcional entregou recordes consecutivos (ROE 44%, margem bruta ajustada 42,1%). A Cury entregou 3 anos consecutivos de expansão de margens (38,0% → 39,8% na bruta, 16,7% → 18,1% na líquida). Cyrela alcançou R$ 2,0 bi de lucro (+22% a/a) com ROE de 22,3%, em ano de lançamentos recordes (R$ 18,6 bi VGV). O ciclo de quase-quebra do setor MCMV Faixa 1 está oficialmente fechado nos nomes líderes. A série histórica (16+ anos de dados trimestrais) confirma que o segmento low-income opera em máximas históricas de lançamentos (fonte: digested/tenda_dfp_2025_summary.md, digested/direcional_dfp_2025_summary.md, digested/cury_dfp_2025_summary.md, digested/cyrela_dfp_2025_summary.md, digested/HB_historical series_4Q25_summary.md).
 
 2. **Distratos em alta.** Todas as empresas reportaram aumento de distratos em 2025–1T26. Direcional saltou de 8,3% (2024) para 12,8% (2025), chegando a 14,8% no 4T25. Cury subiu de 5,4% (1T25, recorde baixo) para 9,0% no 1T26. Tenda registrou 9,9% de distratos/vendas brutas no 1T26. Ponto de atenção setorial — reflete base maior de vendas + ambiente de crédito mais seletivo, mas tendência merece monitoramento (fonte: digested/direcional_release_4T25_summary.md, digested/cury_previa_operacional_1T26_summary.md, digested/tenda_previa_operacional_1T26_summary.md).
 
@@ -84,11 +99,13 @@ Ver [[cury_vs_direcional]] para comparação detalhada entre os dois modelos de 
 
 6. **MCMV Faixa 4** — Conselho Curador do FGTS criou a nova faixa (renda até R$ 12 mil, imóvel até R$ 500 mil) em 2T25. Beneficia direto [[riva|Riva]] e potencialmente [[alea|Alea]], além de abrir mercado endereçável para players de média renda (fonte: digested/direcional_release_4T25_summary.md).
 
-7. **Cyrela expande no MCMV médio.** VGV ex-permuta em MCMV Faixa 2/3 cresceu de R$ 2,4 bi (2024) para R$ 3,8 bi (2025), representando ~29% dos lançamentos da empresa. Cyrela opera via SPEs com minoritários relevantes e reconhece parte da atividade por equivalência patrimonial (R$ 548 mm em 2025), modelo distinto dos peers MCMV puros (fonte: digested/cyrela_previa_4T25_summary.md, digested/cyrela_dfp_2025_summary.md).
+7. **Cyrela expande no MCMV médio.** VGV ex-permuta em MCMV Faixa 2/3 cresceu de R$ 2,4 bi (2024) para R$ 3,8 bi (2025), representando ~29% dos lançamentos da empresa. No 1T26, MCMV representou ~40% dos lançamentos (R$ 963 mm de R$ 2.428 mm VGV 100%), ganhando participação no mix (fonte: digested/cyrela_fatos_relevantes_batch_summary.md). Cyrela opera via SPEs com minoritários relevantes e reconhece parte da atividade por equivalência patrimonial (R$ 548 mm em 2025), modelo distinto dos peers MCMV puros (fonte: digested/cyrela_previa_4T25_summary.md, digested/cyrela_dfp_2025_summary.md).
 
 8. **Alea (Tenda) em reestruturação.** O segmento off-site (SBPE) da Tenda registrou prejuízo de R$ 152 mm em 2025 (vs lucro de R$ 636 mm no segmento Tenda MCMV), com desvio de custo de R$ 99 mm para conclusão de obras legado. Guidance 2026: consumo de caixa Alea R$ 60–80 mm, convergência para breakeven. VSO líquida Alea em aceleração (41,6% no 1T26 vs 18,0% no 1T25) — sinal positivo (fonte: digested/tenda_dfp_2025_summary.md, digested/tenda_previa_operacional_1T26_summary.md).
 
-9. **Prévias 1T26 confirmam momentum operacional.** Direcional: vendas líquidas R$ 1,6 bi (+19% a/a), VSO 24% (recorde para 1T). Cury: vendas líquidas R$ 2,3 bi (+9,5% a/a), landbank recorde R$ 24,9 bi. Tenda: vendas brutas R$ 1,6 bi (+44% a/a marca Tenda), lançamentos R$ 1,5 bi (+59% a/a consolidado). Todas com geração de caixa positiva ou próxima do zero no trimestre sazonalmente mais fraco (fonte: digested/direcional_previa_operacional_1T26_summary.md, digested/cury_previa_operacional_1T26_summary.md, digested/tenda_previa_operacional_1T26_summary.md).
+9. **Prévias 1T26 confirmam momentum operacional.** Cyrela: vendas líquidas R$ 2,9 bi (-3% a/a 100%, +2% ex-permuta %CBR), lançamentos R$ 2,4 bi (-50% a/a, trimestre fraco em aprovações), VSO 12M 45,8% (estável t/t após queda em 2025) (fonte: digested/cyrela_fatos_relevantes_batch_summary.md). Direcional: vendas líquidas R$ 1,6 bi (+19% a/a), VSO 24% (recorde para 1T). Cury: vendas líquidas R$ 2,3 bi (+9,5% a/a), landbank recorde R$ 24,9 bi. Tenda: vendas brutas R$ 1,6 bi (+44% a/a marca Tenda), lançamentos R$ 1,5 bi (+59% a/a consolidado). Todas com geração de caixa positiva ou próxima do zero no trimestre sazonalmente mais fraco (fonte: digested/direcional_previa_operacional_1T26_summary.md, digested/cury_previa_operacional_1T26_summary.md, digested/tenda_previa_operacional_1T26_summary.md).
+
+10. **Reforma tributária redefine incentivos operacionais.** A transição para IBS/CBS (2027–2032) introduz descasamento de caixa relevante: tributo concentrado no início da obra, com créditos utilizáveis só durante a execução. Efeitos estruturais esperados: desincentivo à verticalização (aquisições externas geram crédito, favorecendo terceirização e obras industrializadas/modulares), formalização forçada de fornecedores e necessidade de nova cultura de gestão de créditos tributários. Para **baixa renda** (Faixa 1/2), o redutor social (R$ 100 mil na base) atenua o impacto de caixa. Para players que optarem por permanecer no RET (até 2029), há risco de custo oculto se fornecedores migrarem para o regime normal sem gerar crédito para a incorporadora. Não existe solução única — o impacto depende do perfil de obra, timing de vendas, grau de verticalização e composição da cadeia de fornecedores (fonte: digested/notas_mattos_filho_reforma_incorporadoras_summary.md).
 
 ## Backlog e visibilidade
 

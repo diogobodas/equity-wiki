@@ -28,6 +28,8 @@ sources:
   - sources/digested/cyrela_itr_1T23_summary.md
   - sources/digested/cyrela_previa_4T25_summary.md
   - sources/digested/cyrela_fatos_relevantes_batch_summary.md
+  - sources/digested/cyrela_dados_operacionais_summary.md
+  - sources/digested/cyrela_lancamentos_summary.md
 created: 2026-04-13
 updated: 2026-04-13
 ---
@@ -82,7 +84,9 @@ Margem líquida do 3T25 (28,6%) inflada por menor alíquota efetiva de IR (RET ~
 
 (fonte: digested/cyrela_release_4T25_summary.md, digested/cyrela_release_4T24_summary.md, digested/cyrela_release_4T23_summary.md)
 
-Lançamentos 2025 foram recorde (+43% a/a), porém a VSO 12m caiu para 45,2% — a oferta cresceu mais rápido que a absorção de vendas. No 4T25, o volume de lançamentos recuou -33% a/a (seletividade frente a base alta do 4T24) (fonte: digested/cyrela_previa_4T25_summary.md).
+Lançamentos 2025 foram recorde (+43% a/a), porém a VSO 12m caiu para 45,2% — a oferta cresceu mais rápido que a absorção de vendas (fonte: digested/cyrela_previa_4T25_summary.md).
+
+**Prévia 1T26:** VGV lançado de R$ 2.428 mi (100%) — queda de 50% vs. 1T25, com apenas 12 empreendimentos (vs. 18 no 1T25). Vendas contratadas resilientes em R$ 2.942 mi (-3% a/a), com vendas ex-permuta (%CBR) crescendo +2% a/a. VSO 12M estabilizou em 45,8% (vs. 45,2% no 4T25 e 52,6% no 1T25). VSO da safra 1T26 de 45% no próprio trimestre. MCMV representou ~40% dos lançamentos (R$ 963 mi de VGV), ganhando participação no mix (fonte: digested/cyrela_fatos_relevantes_batch_summary.md).
 
 ### Segmentação
 
@@ -158,11 +162,12 @@ FCO IFRS negativo em 2025 (-R$ 358 mm) reflete expansão de recebíveis e estoqu
 - **Equivalência patrimonial pesada:** R$ 548 mm em 2025 (~24% do EBIT), R$ 501 mm em 2024 — alto peso de coligadas ([[cury|Cury]], Lavvi, Plano&Plano) e JVs na formação do lucro (fonte: digested/cyrela_dfp_2025_summary.md).
 - **Minoritários crescentes:** R$ 389 mm no lucro 2025 (+43% a/a), reflexo da estrutura de SPEs com parceiros. Lucro dos controladores depende da performance das SPEs (fonte: digested/cyrela_dfp_2025_summary.md).
 - **CashMe impacta múltiplas linhas:** contribui no resultado financeiro (R$ 247 mm em 2025), nas despesas comerciais (~R$ 28 mm/tri) e no G&A (~R$ 15 mm/tri). A dívida corporativa CashMe (R$ 2,8 bi no 4T25) deve ser distinguida da dívida Cyrela pura (fonte: digested/cyrela_release_4T25_summary.md).
-- **VSO 12m em queda:** 45,2% no 4T25 vs 55,0% no 4T24 — oferta crescendo mais rápido que absorção, em cenário de Selic elevada (fonte: digested/cyrela_previa_4T25_summary.md).
+- **VSO 12m em queda mas estabilizando:** 45,8% no 1T26 vs 45,2% no 4T25 vs 55,0% no 4T24 — oferta cresceu mais rápido que absorção em 2025, mas tendência de queda parece ter cessado (fonte: digested/cyrela_fatos_relevantes_batch_summary.md, digested/cyrela_previa_4T25_summary.md).
 - **AVP/INCC:** taxa média AVP 7,87% a.a.; impacto pontual na margem bruta do 4T24 (~2,0 p.p.) e 4T25 (-1,8 p.p.) (fonte: digested/cyrela_dfp_2025_summary.md, digested/cyrela_release_4T24_summary.md).
 
 ## Eventos corporativos recentes
 
+- **Prévia operacional 1T26** (abr/2026): lançamentos fracos (R$ 2,4 bi, -50% a/a) mas vendas resilientes (R$ 2,9 bi, -3% a/a); VSO 12M estabiliza em 45,8% (fonte: digested/cyrela_fatos_relevantes_batch_summary.md).
 - **19a emissao de debentures** (out/2025): aprovada até R$ 750 mm, 3 séries, prazo máximo 15 anos (fonte: digested/cyrela_itr_3T25_summary.md).
 - **18a emissao de debentures** (abr/2025): R$ 700 mm liquidados em mai/2025, alongamento de perfil de dívida (fonte: digested/cyrela_itr_1T25_summary.md).
 - **Dividendos recordes 2025:** R$ 1,4 bi pagos no exercício (fonte: digested/cyrela_dfp_2025_summary.md).
@@ -180,3 +185,18 @@ FCO IFRS negativo em 2025 (-R$ 358 mm) reflete expansão de recebíveis e estoqu
 - **Mais de 200 SPEs** controladas e coligadas (marcas Cyrela, Living, Vivaz, Cyrela RJZ)
 
 (fonte: digested/cyrela_itr_3T25_summary.md, digested/cyrela_fatos_relevantes_batch_summary.md, digested/cyrela_itr_3T23_summary.md)
+
+## Bases proprietárias de série histórica
+
+Além das divulgações trimestrais (release, ITR, DFP, prévia), a Cyrela disponibiliza duas planilhas proprietárias com **série histórica completa** que servem de base de modelagem aprofundada:
+
+- **`cyrela_dados_operacionais.xlsx`** — KPIs operacionais agregados (lançamentos, vendas, landbank, canteiros, estoque total, estoque pronto, entregas) com cortes **Por Região** (8 praças: SP, SP-Interior, RJ, MG, ES, Norte, Centro Oeste, Sul, Nordeste) e **Por Segmento** (Alto, Médio, Vivaz Prime, MCMV 2 e 3, MCMV 1). Cobertura **anual desde 2005** e **trimestral 1T06–4T25** (~80 trimestres). Cada métrica vem em **VGV 100% e VGV %CBR** (parte econômica Cyrela). Marcado "PRO FORMA a partir de 2019" — séries pré-2019 reconstruídas para a estrutura societária atual (fonte: digested/cyrela_dados_operacionais_summary.md).
+- **`cyrela_lancamentos.xlsx`** — base **bottom-up projeto a projeto** dos lançamentos: 1.332 empreendimentos de 1T05 a 4T25, com Empreendimento, mês/trimestre, praça, VGV (R$ MM), unidades, segmento, **% CBR** e regime de contabilização (Consolidação vs Equivalência). Pro forma a partir do **4T20**. Mudança de nomenclatura: "CVA 2 e 3" até 4T22 → "MCMV 2 e 3" a partir de 1T23. Estornos aparecem como linhas com VGV/unidades **negativos** (fonte: digested/cyrela_lancamentos_summary.md).
+
+**Para que servem:**
+- Reconstruir VSO de ciclo longo (vendas / (estoque inicial + lançamentos)) com profundidade dos ciclos 2008–09, 2014–17, 2020–21, 2022–25.
+- Validar pro forma vs %Cyrela em previa_operacional/ITR a partir da soma bottom-up.
+- Mapear evolução do mix Alto Padrão vs Médio vs MCMV/Vivaz e da concentração geográfica SP/RJ vs expansão regional.
+- Identificar marcas/JVs nos nomes (Living=médio, Vivaz=MCMV, Wish/Now/Smart=parcerias regionais, RJZ=RJ, By YOO/Pininfarina/Dolce&Gabbana=alto padrão design).
+
+**Limitações:** sem decomposição financeira (POC, margem, dívida) — para isso usar `full/cyrela/{periodo}/{itr,dfp}.md`. Cobre apenas Cyrela, não permite cross-company sem fontes equivalentes de pares. Tabelas extremamente largas (~80 colunas) — consultar via `tools/query.sh` por trimestre/segmento/região (fonte: digested/cyrela_dados_operacionais_summary.md, digested/cyrela_lancamentos_summary.md).

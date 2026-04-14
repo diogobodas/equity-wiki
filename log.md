@@ -319,3 +319,9 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 [wiki-queue] 2026-04-14 | direcional | call_transcript | 4T20 | sources/digested/direcional_call_transcript_4T20_summary.md
 2026-04-14 — ingest call_transcript 4T21: sources/full/direcional/4T21/call_transcript.md, sources/digested/direcional_call_transcript_4T21_summary.md
 [wiki-queue] 2026-04-14 | direcional | call_transcript | 4T21 | sources/digested/direcional_call_transcript_4T21_summary.md
+2026-04-14 — ingest call_transcript 4T22: sources/full/direcional/4T22/call_transcript.md, sources/digested/direcional_call_transcript_4T22_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 4T22 | sources/digested/direcional_call_transcript_4T22_summary.md
+2026-04-14 — ingest call_transcript 4T23: sources/full/direcional/4T23/call_transcript.md, sources/digested/direcional_call_transcript_4T23_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 4T23 | sources/digested/direcional_call_transcript_4T23_summary.md
+2026-04-14 — ingest call_transcript 4T25: sources/full/direcional/4T25/call_transcript.md, sources/digested/direcional_call_transcript_4T25_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 4T25 | sources/digested/direcional_call_transcript_4T25_summary.md

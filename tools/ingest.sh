@@ -78,6 +78,8 @@ open(sys.argv[-1], 'w', encoding='utf-8').write(template)
     fi
 
     [[ -f "$EXTRACTED" ]] && [[ "$EXTRACTED" != "$GENERIC_FILE" ]] && rm -f "$EXTRACTED"
+    rm -f "$GENERIC_FILE"
+    echo "  Deleted: $FNAME"
 
     echo ""
     echo "=== Generic ingest complete ==="

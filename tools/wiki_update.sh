@@ -37,7 +37,7 @@ if [[ "$FULL_MODE" == "true" ]]; then
         DIGESTED_LIST+="- $(basename "$f")"$'\n'
     done
 else
-    LAST_DONE=$(grep -n "\[wiki-done\]" "$REPO_ROOT/log.md" 2>/dev/null | tail -1 | cut -d: -f1)
+    LAST_DONE=$(grep -n "\[wiki-done\]" "$REPO_ROOT/log.md" 2>/dev/null | tail -1 | cut -d: -f1 || true)
     LAST_DONE=${LAST_DONE:-0}
 
     QUEUE_ENTRIES=$(tail -n +$((LAST_DONE + 1)) "$REPO_ROOT/log.md" | grep "\[wiki-queue\]" || true)

@@ -10,6 +10,7 @@ sources:
   - sources/digested/direcional_release_4T25_summary.md
   - sources/digested/cyrela_release_4T25_summary.md
   - sources/digested/cyrela_previa_4T25_summary.md
+  - sources/digested/cyrela_dados_operacionais_summary.md
 created: 2026-04-08
 updated: 2026-04-13
 ---
@@ -63,6 +64,8 @@ A [[cury]] atingiu R$ 24,9 bi em VGV (+25,8% A/A) no 1T26, com 82.119 unidades, 
 ### Cyrela — landbank de R$ 19,8 bi com foco em alta renda
 
 A [[cyrela]] encerrou o 4T25 com banco de terrenos de R$ 19,8 bi em VGV potencial, com 94% consolidado (CBR) e aquisições de R$ 5,3 bi no trimestre (99% em SP e RJ) (fonte: digested/cyrela_release_4T25_summary.md). Diferencia-se das demais por atuar majoritariamente fora do [[mcmv]], com maior presença em médio e alto padrão.
+
+A Cyrela mantém **série histórica trimestral de landbank por região desde 1T06** (8 regiões: SP, SP-Interior, RJ, MG, ES, Norte, Centro Oeste, Sul, Nordeste), em VGV 100% e %CBR — base para análise de "anos de lançamento" implícitos por geografia e da evolução de exposição regional ao longo do ciclo (fonte: digested/cyrela_dados_operacionais_summary.md).
 
 ## Runway estimado
 
