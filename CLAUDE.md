@@ -44,6 +44,15 @@ Requires `youtube_channel` in the empresa's manifest. Lists both `/videos` and `
 
 Caption priority: manual `pt`/`pt-BR` → auto `pt`/`pt-BR` → skip with `[fetch-calls-skip]` log entry.
 
+### Ingest call transcripts (from fetch_calls output)
+
+```bash
+bash tools/ingest_calls.sh DIRR3              # default concurrency 4
+bash tools/ingest_calls.sh DIRR3 -j 2          # limit concurrency
+```
+
+Scans `sources/undigested/{empresa}_call_transcript_*.md`, copies each to `sources/full/{empresa}/{periodo}/call_transcript.md`, invokes the call-transcript ingest prompt to produce `sources/digested/{empresa}_call_transcript_{periodo}_summary.md`, updates the manifest, appends `[wiki-queue]`, and deletes the source from undigested/. No `structured/` file is produced — transcripts are qualitative; numbers belong to release/ITR.
+
 ### Ingest files
 
 ```bash
@@ -140,6 +149,7 @@ tools/
 ├── fetch.sh                    # orchestrator: CVM fetch → sources/undigested/
 ├── fetch_calls.sh              # orchestrator: YouTube channel → captions → sources/undigested/
 ├── ingest.sh                   # orchestrator: undigested/ → full/ + structured/ + digested/ + queue
+├── ingest_calls.sh             # orchestrator: call transcripts → full/ + digested/ + queue
 ├── wiki_update.sh              # orchestrator: digesteds → wiki pages (two-phase: plan + execute)
 ├── query.sh                    # query agent: answers questions by searching structured/full/digested
 ├── reingest_full.sh            # re-download PDFs → full/ (no LLM, bypasses manifest)
@@ -157,6 +167,7 @@ tools/
     ├── ingest_heavy.md         # system prompt for heavy ingest — reads full/, produces structured/ + digested/
     ├── ingest_light.md         # system prompt for light ingest — reads full/, produces digested/ only
     ├── ingest_generic.md       # system prompt for generic (non-CVM) source ingest
+    ├── ingest_call_transcript.md # system prompt for call-transcript ingest (qualitative digest)
     ├── wiki_plan.md            # system prompt for wiki update planning phase
     ├── wiki_write.md           # system prompt for wiki page creation/update
     └── query_system.md         # system prompt for data query agent

@@ -266,6 +266,13 @@
       "ingested_on": "2026-04-11",
       "full": "sources/full/direcional/1T26/previa_operacional.md",
       "digested": "sources/digested/direcional_previa_operacional_1T26_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "4T24",
+      "ingested_on": "2026-04-14",
+      "full": "sources/full/direcional/4T24/call_transcript.md",
+      "digested": "sources/digested/direcional_call_transcript_4T24_summary.md"
     }
   ],
   "coverage": {

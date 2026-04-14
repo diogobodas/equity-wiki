@@ -281,3 +281,5 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 [fetch-calls] 2026-04-14 | direcional | 2T22 | https://www.youtube.com/watch?v=LdgjowQlvqM | auto
 [fetch-calls] 2026-04-14 | direcional | 1T21 | https://www.youtube.com/watch?v=NmyEfQa-GRg | auto
 [fetch-calls] 2026-04-14 | direcional | 3T20 | https://www.youtube.com/watch?v=clqtXvDvam4 | auto
+2026-04-14 — ingest call_transcript 4T24: sources/full/direcional/4T24/call_transcript.md, sources/digested/direcional_call_transcript_4T24_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 4T24 | sources/digested/direcional_call_transcript_4T24_summary.md
