@@ -27,6 +27,23 @@ bash tools/fetch.sh TEND3 --discover
 
 Requires CVM-API running at localhost:8100 (`cd ../CVM-API && uvicorn main:app --reload --port 8100`).
 
+### Fetch call transcripts from YouTube
+
+```bash
+# Discover mode — lists channel videos + live streams, scores by period regex, writes audit plan
+bash tools/fetch_calls.sh DIRR3 --discover
+
+# Normal mode — downloads high-confidence entries from the plan
+bash tools/fetch_calls.sh DIRR3
+
+# Force single video (for ambiguous titles)
+bash tools/fetch_calls.sh DIRR3 --url https://www.youtube.com/watch?v=... --period 4T24
+```
+
+Requires `youtube_channel` in the empresa's manifest. Lists both `/videos` and `/streams` tabs (earnings calls are often live-streamed). Outputs `{empresa}_call_transcript_{periodo}.md` to `sources/undigested/` with YAML frontmatter and `[mm:ss]` anchors every ~60s.
+
+Caption priority: manual `pt`/`pt-BR` → auto `pt`/`pt-BR` → skip with `[fetch-calls-skip]` log entry.
+
 ### Ingest files
 
 ```bash
@@ -121,15 +138,18 @@ Layer details, field semantics, and manifest shape are defined in `SCHEMA.md`.
 ```
 tools/
 ├── fetch.sh                    # orchestrator: CVM fetch → sources/undigested/
+├── fetch_calls.sh              # orchestrator: YouTube channel → captions → sources/undigested/
 ├── ingest.sh                   # orchestrator: undigested/ → full/ + structured/ + digested/ + queue
 ├── wiki_update.sh              # orchestrator: digesteds → wiki pages (two-phase: plan + execute)
 ├── query.sh                    # query agent: answers questions by searching structured/full/digested
 ├── reingest_full.sh            # re-download PDFs → full/ (no LLM, bypasses manifest)
 ├── lib/
+│   ├── calls_plan.py           # builds sources/manifests/{empresa}_calls_plan.json from yt-dlp output
 │   ├── cvm_fetch.py            # CVM-API client (resolve ticker, list docs, download, batch-download)
 │   ├── file_extract.py          # PDF/XLSX/DOCX/PPTX → markdown (opendataloader/pdfplumber/markitdown)
 │   ├── manifest_update.py      # programmatic manifest updates (coverage, sources, precedence)
 │   ├── reingest_download.py    # helper for reingest: downloads docs from CVM list JSON via stdin
+│   ├── vtt_to_markdown.py      # WebVTT → markdown with sparse [mm:ss] anchors (used by fetch_calls.sh)
 │   └── parallel.sh             # parallel execution helper (parallel_init, parallel_add, parallel_wait)
 └── prompts/
     ├── fetch_system.md         # system prompt for fetch agent (normal mode)

@@ -125,11 +125,117 @@ do_discover() {
     done
 }
 
+# Download captions for a single URL. Sets globals VTT_PATH and CAPTION_KIND.
+# VTT_PATH is empty on skip.
+download_captions() {
+    local url="$1"
+    VTT_PATH=""
+    CAPTION_KIND=""
+    local vid
+    vid=$(python -c "import sys,re; m=re.search(r'v=([\w-]+)', sys.argv[1]); print(m.group(1) if m else '')" "$url")
+    [[ -z "$vid" ]] && return
+    local out_dir="$TMP_DIR/captions"
+    mkdir -p "$out_dir"
+
+    yt-dlp --write-subs --sub-langs "pt,pt-BR" --skip-download --sub-format vtt \
+        -o "$out_dir/%(id)s.%(ext)s" "$url" >/dev/null 2>&1 || true
+    local vtt
+    vtt=$(ls "$out_dir"/"$vid".pt*.vtt 2>/dev/null | head -1 || true)
+    if [[ -n "$vtt" ]]; then VTT_PATH="$vtt"; CAPTION_KIND="manual"; return; fi
+
+    yt-dlp --write-auto-subs --sub-langs "pt,pt-BR" --skip-download --sub-format vtt \
+        -o "$out_dir/%(id)s.%(ext)s" "$url" >/dev/null 2>&1 || true
+    vtt=$(ls "$out_dir"/"$vid".pt*.vtt 2>/dev/null | head -1 || true)
+    if [[ -n "$vtt" ]]; then VTT_PATH="$vtt"; CAPTION_KIND="auto"; return; fi
+}
+
+# Write a transcript file with frontmatter.
+save_transcript() {
+    local period="$1" url="$2" vid="$3" captions="$4" vtt_path="$5"
+    local out="$UNDIGESTED_PATH/${EMPRESA}_call_transcript_${period}.md"
+    local body_path="$TMP_DIR/${vid}.body.md"
+    python "$SCRIPT_DIR/lib/vtt_to_markdown.py" --input "$vtt_path" > "$body_path"
+    {
+        echo "---"
+        echo "type: call_transcript"
+        echo "ticker: ${TICKER^^}"
+        echo "empresa: $EMPRESA"
+        echo "periodo: $period"
+        echo "source_url: $url"
+        echo "video_id: $vid"
+        echo "captions: $captions"
+        echo "fetched: $(date +%Y-%m-%d)"
+        echo "---"
+        echo ""
+        cat "$body_path"
+    } > "$out"
+    echo "$out"
+}
+
+log_entry() {
+    local kind="$1" period="$2" url="$3" note="$4"
+    echo "[fetch-calls${kind}] $(date +%Y-%m-%d) | $EMPRESA | $period | $url | $note" >> "$LOG_FILE"
+}
+
+do_default() {
+    local plan_path="$MANIFESTS_PATH/${EMPRESA}_calls_plan.json"
+    if [[ ! -f "$plan_path" ]]; then
+        echo "error: $plan_path not found. Run with --discover first." >&2
+        exit 1
+    fi
+    local total=0 downloaded=0 skipped=0 errors=0
+    while IFS=$'\t' read -r vid url period; do
+        total=$((total + 1))
+        echo "fetching $period ($vid)..."
+        download_captions "$url"
+        if [[ -z "$VTT_PATH" ]]; then
+            echo "  no captions — skipped"
+            log_entry "-skip" "$period" "$url" "no_captions"
+            skipped=$((skipped + 1))
+            continue
+        fi
+        local saved
+        if ! saved=$(save_transcript "$period" "$url" "$vid" "$CAPTION_KIND" "$VTT_PATH"); then
+            echo "  conversion failed — skipped"
+            log_entry "-error" "$period" "$url" "vtt_parse_failed"
+            errors=$((errors + 1))
+            continue
+        fi
+        echo "  saved: $saved ($CAPTION_KIND captions)"
+        log_entry "" "$period" "$url" "$CAPTION_KIND"
+        downloaded=$((downloaded + 1))
+    done < <(jq -r '.entries[]
+        | select(.confidence=="high" and .existing==false and .duplicate_of==null and .period != null)
+        | [.video_id, .url, .period] | @tsv' "$plan_path")
+
+    echo ""
+    echo "summary: $downloaded downloaded, $skipped skipped, $errors errors (of $total candidates)"
+}
+
+do_force() {
+    local vid
+    vid=$(python -c "import sys,re; m=re.search(r'v=([\w-]+)', sys.argv[1]); print(m.group(1) if m else '')" "$FORCE_URL")
+    if [[ -z "$vid" ]]; then
+        echo "error: could not extract video_id from $FORCE_URL" >&2
+        exit 1
+    fi
+    echo "fetching $FORCE_PERIOD ($vid) via --url..."
+    download_captions "$FORCE_URL"
+    if [[ -z "$VTT_PATH" ]]; then
+        echo "  no captions — aborting"
+        log_entry "-skip" "$FORCE_PERIOD" "$FORCE_URL" "no_captions"
+        exit 1
+    fi
+    local saved; saved=$(save_transcript "$FORCE_PERIOD" "$FORCE_URL" "$vid" "$CAPTION_KIND" "$VTT_PATH")
+    echo "  saved: $saved ($CAPTION_KIND captions, forced)"
+    log_entry "" "$FORCE_PERIOD" "$FORCE_URL" "${CAPTION_KIND}_forced"
+}
+
 # --- Dispatch ---
 if [[ -n "$FORCE_URL" ]]; then
-    echo "TODO force_download (Task 6)"
+    do_force
 elif [[ "$DISCOVER" == "true" ]]; then
     do_discover
 else
-    echo "TODO default (Task 5)"
+    do_default
 fi
