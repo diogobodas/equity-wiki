@@ -283,3 +283,39 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 [fetch-calls] 2026-04-14 | direcional | 3T20 | https://www.youtube.com/watch?v=clqtXvDvam4 | auto
 2026-04-14 — ingest call_transcript 4T24: sources/full/direcional/4T24/call_transcript.md, sources/digested/direcional_call_transcript_4T24_summary.md
 [wiki-queue] 2026-04-14 | direcional | call_transcript | 4T24 | sources/digested/direcional_call_transcript_4T24_summary.md
+2026-04-14 — ingest call_transcript 1T21: sources/full/direcional/1T21/call_transcript.md, sources/digested/direcional_call_transcript_1T21_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 1T21 | sources/digested/direcional_call_transcript_1T21_summary.md
+2026-04-14 — ingest call_transcript 1T22: sources/full/direcional/1T22/call_transcript.md, sources/digested/direcional_call_transcript_1T22_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 1T22 | sources/digested/direcional_call_transcript_1T22_summary.md
+2026-04-14 — ingest call_transcript 1T23: sources/full/direcional/1T23/call_transcript.md, sources/digested/direcional_call_transcript_1T23_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 1T23 | sources/digested/direcional_call_transcript_1T23_summary.md
+2026-04-14 — ingest call_transcript 1T24: sources/full/direcional/1T24/call_transcript.md, sources/digested/direcional_call_transcript_1T24_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 1T24 | sources/digested/direcional_call_transcript_1T24_summary.md
+2026-04-14 — ingest call_transcript 1T25: sources/full/direcional/1T25/call_transcript.md, sources/digested/direcional_call_transcript_1T25_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 1T25 | sources/digested/direcional_call_transcript_1T25_summary.md
+2026-04-14 — ingest call_transcript 2T21: sources/full/direcional/2T21/call_transcript.md, sources/digested/direcional_call_transcript_2T21_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 2T21 | sources/digested/direcional_call_transcript_2T21_summary.md
+2026-04-14 — ingest call_transcript 2T22: sources/full/direcional/2T22/call_transcript.md, sources/digested/direcional_call_transcript_2T22_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 2T22 | sources/digested/direcional_call_transcript_2T22_summary.md
+2026-04-14 — ingest call_transcript 2T23: sources/full/direcional/2T23/call_transcript.md, sources/digested/direcional_call_transcript_2T23_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 2T23 | sources/digested/direcional_call_transcript_2T23_summary.md
+2026-04-14 — ingest call_transcript 2T24: sources/full/direcional/2T24/call_transcript.md, sources/digested/direcional_call_transcript_2T24_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 2T24 | sources/digested/direcional_call_transcript_2T24_summary.md
+2026-04-14 — ingest call_transcript 2T25: sources/full/direcional/2T25/call_transcript.md, sources/digested/direcional_call_transcript_2T25_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 2T25 | sources/digested/direcional_call_transcript_2T25_summary.md
+2026-04-14 — ingest call_transcript 3T20: sources/full/direcional/3T20/call_transcript.md, sources/digested/direcional_call_transcript_3T20_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 3T20 | sources/digested/direcional_call_transcript_3T20_summary.md
+2026-04-14 — ingest call_transcript 3T21: sources/full/direcional/3T21/call_transcript.md, sources/digested/direcional_call_transcript_3T21_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 3T21 | sources/digested/direcional_call_transcript_3T21_summary.md
+2026-04-14 — ingest call_transcript 3T22: sources/full/direcional/3T22/call_transcript.md, sources/digested/direcional_call_transcript_3T22_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 3T22 | sources/digested/direcional_call_transcript_3T22_summary.md
+2026-04-14 — ingest call_transcript 3T23: sources/full/direcional/3T23/call_transcript.md, sources/digested/direcional_call_transcript_3T23_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 3T23 | sources/digested/direcional_call_transcript_3T23_summary.md
+2026-04-14 — ingest call_transcript 3T24: sources/full/direcional/3T24/call_transcript.md, sources/digested/direcional_call_transcript_3T24_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 3T24 | sources/digested/direcional_call_transcript_3T24_summary.md
+2026-04-14 — ingest call_transcript 3T25: sources/full/direcional/3T25/call_transcript.md, sources/digested/direcional_call_transcript_3T25_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 3T25 | sources/digested/direcional_call_transcript_3T25_summary.md
+2026-04-14 — ingest call_transcript 4T20: sources/full/direcional/4T20/call_transcript.md, sources/digested/direcional_call_transcript_4T20_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 4T20 | sources/digested/direcional_call_transcript_4T20_summary.md
+2026-04-14 — ingest call_transcript 4T21: sources/full/direcional/4T21/call_transcript.md, sources/digested/direcional_call_transcript_4T21_summary.md
+[wiki-queue] 2026-04-14 | direcional | call_transcript | 4T21 | sources/digested/direcional_call_transcript_4T21_summary.md
