@@ -26,7 +26,12 @@ class Cue:
 
 
 def parse_vtt(vtt_text: str) -> list[Cue]:
-    """Parse VTT text → list of (start_seconds, text) cues. Deduplicates repeated lines."""
+    """Parse VTT text → list of per-line cues, deduped across cues.
+
+    YouTube auto-captions emit rolling-window cues where each block repeats
+    the previous line plus a new line. Deduping at the line level (not the
+    whole-cue level) flattens the rolling window into unique content.
+    """
     cues: list[Cue] = []
     seen_lines: set[str] = set()
     lines = vtt_text.splitlines()
@@ -38,17 +43,14 @@ def parse_vtt(vtt_text: str) -> list[Cue]:
             continue
         start = int(m.group(1)) * 3600 + int(m.group(2)) * 60 + int(m.group(3))
         i += 1
-        buf: list[str] = []
         while i < len(lines) and lines[i].strip() != "":
-            buf.append(lines[i])
+            clean = INLINE_TAG_RE.sub("", lines[i]).strip()
+            clean = re.sub(r"\s+", " ", clean)
             i += 1
-        raw = " ".join(buf)
-        clean = INLINE_TAG_RE.sub("", raw).strip()
-        clean = re.sub(r"\s+", " ", clean)
-        if not clean or clean in seen_lines:
-            continue
-        seen_lines.add(clean)
-        cues.append(Cue(start_seconds=start, text=clean))
+            if not clean or clean in seen_lines:
+                continue
+            seen_lines.add(clean)
+            cues.append(Cue(start_seconds=start, text=clean))
     return cues
 
 
@@ -66,7 +68,7 @@ def cues_to_markdown(cues: list[Cue], paragraph_gap_seconds: int = 60) -> str:
     last_start = cues[0].start_seconds
 
     for cue in cues:
-        if current_buf and cue.start_seconds - last_start >= paragraph_gap_seconds:
+        if current_buf and cue.start_seconds - current_start >= paragraph_gap_seconds:
             paragraphs.append((current_start, current_buf))
             current_start = cue.start_seconds
             current_buf = []
@@ -117,6 +119,8 @@ sejam muito bem-vindos à teleconferência.
 
 
 def main() -> int:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--input", help="Path to .vtt file. Reads stdin if omitted.")
     ap.add_argument("--self-test", action="store_true", help="Run inline self-test and exit.")
