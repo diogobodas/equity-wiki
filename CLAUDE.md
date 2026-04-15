@@ -122,6 +122,17 @@ python tools/lib/manifest_update.py --manifest sources/manifests/tenda.json \
     --log log.md
 ```
 
+### Manifest rebuild (full rescan from disk)
+
+```bash
+python tools/lib/manifest_rebuild.py --empresa cyrela            # apply
+python tools/lib/manifest_rebuild.py --empresa cyrela --dry-run  # preview only
+```
+
+Scans `sources/structured/`, `sources/full/`, `sources/digested/` for the given empresa. Rebuilds `coverage` (canonical keys: bp, dre, operacional, financeiro_ajustado) and `sources[]` (flat registry of all ingested files). Preserves top-level metadata (aliases, fetch_profile, etc.) and `ingested_on` dates from existing entries.
+
+**Caveat:** do NOT use on Tenda — its manifest uses a `data_pack` pattern with grouped `full` lists that the rebuilder doesn't handle. Use surgical edits instead.
+
 ## Architecture — five layers under `sources/`
 
 ```
@@ -157,7 +168,9 @@ tools/
 │   ├── calls_plan.py           # builds sources/manifests/{empresa}_calls_plan.json from yt-dlp output
 │   ├── cvm_fetch.py            # CVM-API client (resolve ticker, list docs, download, batch-download)
 │   ├── file_extract.py          # PDF/XLSX/DOCX/PPTX → markdown (opendataloader/pdfplumber/markitdown)
+│   ├── manifest_rebuild.py     # rebuild manifest coverage+sources[] from disk (handles all empresas except Tenda)
 │   ├── manifest_update.py      # programmatic manifest updates (coverage, sources, precedence)
+│   ├── pdf_extract.py          # PDF → markdown via pdfplumber (fallback extractor)
 │   ├── reingest_download.py    # helper for reingest: downloads docs from CVM list JSON via stdin
 │   ├── vtt_to_markdown.py      # WebVTT → markdown with sparse [mm:ss] anchors (used by fetch_calls.sh)
 │   └── parallel.sh             # parallel execution helper (parallel_init, parallel_add, parallel_wait)
@@ -203,16 +216,16 @@ CVM-API → fetch.sh → sources/undigested/
 
 ## Current coverage
 
-| Empresa | Ticker | ITR | DFP | Release | Structured |
-|---------|--------|-----|-----|---------|-----------|
-| Cury | CURY3 | 1T23–3T25 | 2022–2025 | 4T22–4T25 | Complete |
-| Direcional | DIRR3 | 1T23–3T25 | 2022–2025 | 4T22–4T25 | Complete |
-| Cyrela | CYRE3 | 1T23–3T25 | 2023–2025 | 4T22–4T25 | Complete |
-| Tenda | TEND3 | 1T24–3T25 | 2023–2025 | 4T23–4T25 | Complete |
+| Empresa | Ticker | ITR | DFP | Release | Prévias | Fatos Rel. | Calls | Obs |
+|---------|--------|-----|-----|---------|---------|------------|-------|-----|
+| Cury | CURY3 | 1T23–3T25 | 2022–2025 | 4T22–4T25 | 1T23–1T26 | 11 | — | 2 RCAs (1T26) |
+| Cyrela | CYRE3 | 1T23–3T25 | 2023–2025 | 4T22–4T25 | 1T24–1T26 | 6 | — | |
+| Direcional | DIRR3 | 1T23–3T25 | 2022–2025 | 4T22–4T25 | 1T24–1T26 | 18 | 22 (3T20–4T25) | |
+| Tenda | TEND3 | 1T24–3T25 | 2023–2025 | 4T23–4T25 | 1T26 | 5 | — | histórico 1T11–4T22 via data_pack (planilha) |
 
 ## Non-obvious rules
 
-- **Filenames**: `snake_case`, lowercase, Portuguese when natural. **No ticker prefixes** on wiki pages (`itau.md`, not `ITUB4_itau.md`) — tickers go in `aliases`. Period codes: `1T25`, `2T25`, `3T25`, `4T25`, `2025` (annual). Source type tokens: `itr`, `dfp`, `release`, `apresentacao`, `fato_relevante`, `call_transcript`, `previa_operacional`.
+- **Filenames**: `snake_case`, lowercase, Portuguese when natural. **No ticker prefixes** on wiki pages (`itau.md`, not `ITUB4_itau.md`) — tickers go in `aliases`. Period codes: `1T25`, `2T25`, `3T25`, `4T25`, `2025` (annual). Source type tokens: `itr`, `dfp`, `release`, `apresentacao`, `fato_relevante`, `call_transcript`, `previa_operacional`, `rca`, `data_pack`.
 - **Frontmatter is mandatory** on every wiki page: `type`, `sources` (paths into `sources/`), `created`, `updated` (and optional `aliases`).
 - **`full/` is a direct copy from file_extract.py output.** The LLM does NOT produce `full/` files — they are copied verbatim from the extracted markdown. This guarantees 100% content preservation (notas explicativas, tables, etc.).
 - **`structured/` shape**: `{_schema, _schema_path, _empresa, _periodo, _source, canonical, company_specific}`. Missing canonical keys → `null`, never omit. Numbers as reported; normalizations belong to the modeling layer.
