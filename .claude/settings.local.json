@@ -1,6 +1,5 @@
 {
   "permissions": {
-    "defaultMode": "acceptEdits",
     "allow": [
       "Bash(*)",
       "Edit(*)",
@@ -10,7 +9,13 @@
       "Grep(*)",
       "WebFetch(*)",
       "WebSearch(*)",
-      "TodoWrite(*)"
-    ]
+      "TodoWrite(*)",
+      "Bash(rm -f docs/superpowers/plans/2026-04-16-notion-digest-plan.md)",
+      "Bash(rm -f /tmp/plan_content.py /tmp/write_plan.py)",
+      "Bash(cat)",
+      "Bash(git check-ignore *)",
+      "Bash(mkdir -p docs/handoff)"
+    ],
+    "defaultMode": "acceptEdits"
   }
 }

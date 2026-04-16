@@ -18,3 +18,8 @@ docs/drafts/
 
 # Claude settings (user-specific)
 .claude/settings.local.json
+
+# Secrets
+.env
+.env.local
+*.secret
