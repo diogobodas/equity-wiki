@@ -155,6 +155,9 @@ for f in "${TRANSCRIPTS[@]}"; do
         --log "$LOG_FILE"
 
     echo "[wiki-queue] $TODAY | $EMPRESA | call_transcript | $period | $digested" >> "$LOG_FILE"
+    python "$SCRIPT_DIR/lib/wiki_queue.py" enqueue \
+        --empresa "$EMPRESA" --type "call_transcript" --periodo "$period" \
+        --digested "$digested" >/dev/null
     rm -f "$f"
     echo "  $period queued, undigested removed"
 done

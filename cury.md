@@ -25,6 +25,8 @@ sources:
   - sources/full/cury/4T25/fato_relevante_01.md
   - sources/full/cury/4T25/fato_relevante_02.md
   - sources/full/cury/1T26/fato_relevante_01.md
+  - sources/full/cury/1T26/rca_dividendos_20260130.md
+  - sources/full/cury/1T26/rca_dividendos_atualizacao_20260330.md
   - sources/structured/cury/2023/dfp.json
   - sources/structured/cury/2024/dfp.json
   - sources/structured/cury/2025/dfp.json
@@ -33,7 +35,7 @@ sources:
   - sources/structured/cury/3T25/release.json
   - sources/structured/cury/4T25/release.json
 created: 2026-04-11
-updated: 2026-04-11
+updated: 2026-04-15
 ---
 
 # Cury
@@ -66,7 +68,7 @@ A Cury opera modelo *capital-light* via SPEs, concentra lançamentos no 1S, mant
 | Ativo total (R$ mm) | 1.644,7 | 2.597,9 | 2.798,4 | 3.092,0 | 4.339,3 | 5.654,4 | +28,0% |
 | PL consolidado (R$ mm) | 642,4 | 738,3 | 877,7 | 997,0 | 1.309,5 | 1.662,1 | +20,9% |
 | Dívida bruta (R$ mm) | — | — | 481,0 | 613,4 | 986,4 | 1.474,9 | — |
-| Dividendos pagos (R$ mm) | 170 | 165 | 150 | 328,3 | 483,5 | **1.352,3** | — |
+| Dividendos pagos (R$ mm) | 170 | 165 | 150 | 328,3 | 483,5 | **1.352,3** | 110,0 (parcial, 07/abr/2026) |
 
 Fontes: (fonte: structured/cury/2022/dfp.json :: canonical.dre), (fonte: structured/cury/2023/dfp.json :: canonical.dre), (fonte: structured/cury/2024/dfp.json :: canonical.dre), (fonte: structured/cury/2025/dfp.json :: canonical.dre).
 
@@ -223,8 +225,9 @@ A **margem REF estabilizou-se em ~43,3-43,4%** ao longo de 2024-2025, 3,5-4 p.p.
 | 2023 | 328,3 | ~68% | Turnaround + margem líquida em alta |
 | 2024 | 483,5 | **74%** | Payout elevado + aumento de capital via bonificação R$ 200 mm |
 | 2025 | **1.352,3** | **138%** | Follow-on de R$ 574 mm + distribuição extraordinária de R$ 573 mm |
+| 2026 (parcial) | **110,0** pagos / **140,0** declarados | — | RCA 30/jan/2026: R$ 140 mm com lastro 1º jan–30 nov/2025, imputados ao mínimo obrigatório do exercício 2025. Ex-date 05/fev/2026. Pagamento em 2 parcelas (RCA 30/mar/2026): **R$ 110 mm em 07/abr/2026** + R$ 30 mm até 31/dez/2026 |
 
-Fontes: (fonte: structured/cury/2022/dfp.json :: canonical.bp.proventos), (fonte: structured/cury/2023/dfp.json :: canonical.bp.proventos), (fonte: structured/cury/2024/dfp.json :: canonical.bp.proventos), (fonte: structured/cury/2025/dfp.json :: eventos).
+Fontes: (fonte: structured/cury/2022/dfp.json :: canonical.bp.proventos), (fonte: structured/cury/2023/dfp.json :: canonical.bp.proventos), (fonte: structured/cury/2024/dfp.json :: canonical.bp.proventos), (fonte: structured/cury/2025/dfp.json :: eventos), (fonte: full/cury/1T26/rca_dividendos_20260130.md), (fonte: full/cury/1T26/rca_dividendos_atualizacao_20260330.md).
 
 **Observações sobre a política de distribuição:**
 
@@ -232,6 +235,7 @@ Fontes: (fonte: structured/cury/2022/dfp.json :: canonical.bp.proventos), (fonte
 - **Bonificação 2024:** capitalização de reservas de R$ 200 mm aumentou capital social realizado de R$ 291 → R$ 491 mm, sem impacto no PL total. Sinal de confiança financeira da administração (fonte: full/cury/2024/dfp.md §eventos_relevantes).
 - **Follow-on 2025 com destinação para dividendos** (movimento atípico): em 11/dez/2025 a companhia precificou oferta primária de 16,17 mm de ações a R$ 35,50, captando ~R$ 574 mm líquido — praticamente todo o recurso foi aprovado como **dividendos intermediários de R$ 573 mm** com data de corte na mesma data da liquidação. Efeito: aumento de float (entrada no Ibovespa) + reciclagem de equity + distribuição simultânea aos pré-existentes (fonte: full/cury/4T25/fato_relevante_02.md).
 - **Programas de recompra:** 4T24 (até 11,72 mm ações, 18 meses) → alienação das 1,99 mm em tesouraria em 2T25 → novo programa 3T25 (até 13,71 mm ações, 10% das em circulação). Ciclo fechado de gestão ativa da tesouraria (fonte: full/cury/4T24/fato_relevante_01.md, full/cury/2T25/fato_relevante_01.md, full/cury/3T25/fato_relevante_01.md).
+- **Antecipação fiscal 1T26:** em 30/jan/2026, o Conselho aprovou R$ 140 mm em dividendos com lastro em balanço intermediário (jan–nov/2025), imputados ao mínimo obrigatório do exercício de 2025. A declaração foi motivada explicitamente pela **janela da Lei 15.270/2025** (regras de IR sobre dividendos) — o STF (ADIs 7912/7914) prorrogou até 31/01/2026 o prazo para aplicação do regime de isenção sobre lucros de 2025, e a Cury aproveitou a janela. Segue o padrão de 2025 de distribuir via RCA antes da AGO (fonte: full/cury/1T26/rca_dividendos_20260130.md §6.1, §6.2.6).
 
 ## Eventos-chave
 

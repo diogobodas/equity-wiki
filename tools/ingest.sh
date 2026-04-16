@@ -74,6 +74,9 @@ open(sys.argv[-1], 'w', encoding='utf-8').write(template)
         DNAME=$(basename "$PRODUCED_DIGESTED")
         TODAY=$(date +%Y-%m-%d)
         echo "[wiki-queue] $TODAY | generic | other | ${STEM} | sources/digested/$DNAME" >> "$REPO_ROOT/log.md"
+        python "$SCRIPT_DIR/lib/wiki_queue.py" enqueue \
+            --empresa generic --type other --periodo "$STEM" \
+            --digested "sources/digested/$DNAME" >/dev/null
         echo "  Queued: $DNAME"
     fi
 
@@ -485,6 +488,9 @@ for digested in "${DIGESTED_FILES[@]}"; do
     tipo=$(echo "$suffix" | rev | cut -d_ -f2- | rev)
     period=$(echo "$suffix" | rev | cut -d_ -f1 | rev)
     echo "[wiki-queue] $TODAY | $EMPRESA | $tipo | $period | $digested" >> "$REPO_ROOT/log.md"
+    python "$SCRIPT_DIR/lib/wiki_queue.py" enqueue \
+        --empresa "$EMPRESA" --type "$tipo" --periodo "$period" \
+        --digested "$digested" >/dev/null
     echo "  Queued: $digested"
 done
 echo ""

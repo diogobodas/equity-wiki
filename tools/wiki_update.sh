@@ -8,7 +8,7 @@ usage() {
     echo ""
     echo "Options:"
     echo "  --full   Read ALL digesteds (ignore queue). Use for first run or rebuild."
-    echo "  (none)   Read only pending [wiki-queue] entries from log.md."
+    echo "  (none)   Read pending entries from sources/wiki_queue.json."
     exit 1
 }
 
@@ -37,24 +37,25 @@ if [[ "$FULL_MODE" == "true" ]]; then
         DIGESTED_LIST+="- $(basename "$f")"$'\n'
     done
 else
-    LAST_DONE=$(grep -n "\[wiki-done\]" "$REPO_ROOT/log.md" 2>/dev/null | tail -1 | cut -d: -f1 || true)
-    LAST_DONE=${LAST_DONE:-0}
+    # Queue source of truth: sources/wiki_queue.json (managed by wiki_queue.py)
+    QUEUE_JSON=$(python "$SCRIPT_DIR/lib/wiki_queue.py" drain)
+    QUEUE_COUNT=$(echo "$QUEUE_JSON" | python -c "import json,sys; print(len(json.load(sys.stdin)))")
 
-    QUEUE_ENTRIES=$(tail -n +$((LAST_DONE + 1)) "$REPO_ROOT/log.md" | grep "\[wiki-queue\]" || true)
-
-    if [[ -z "$QUEUE_ENTRIES" ]]; then
+    if [[ "$QUEUE_COUNT" -eq 0 ]]; then
         echo "No pending wiki-queue entries. Nothing to do."
         echo "Run with --full to rebuild all pages."
         exit 0
     fi
 
-    while IFS= read -r line; do
-        digested_path=$(echo "$line" | awk -F'|' '{print $NF}' | xargs)
-        digested_name=$(basename "$digested_path")
-        DIGESTED_LIST+="- $digested_name"$'\n'
-    done <<< "$QUEUE_ENTRIES"
-
-    DIGESTED_LIST=$(echo "$DIGESTED_LIST" | sort -u)
+    # Extract unique digested names from the queue
+    DIGESTED_LIST=$(echo "$QUEUE_JSON" | python -c "
+import json, sys
+from pathlib import Path
+entries = json.load(sys.stdin)
+names = sorted({Path(e['digested']).name for e in entries if e.get('digested')})
+for n in names:
+    print(f'- {n}')
+")$'\n'
 fi
 
 DIGESTED_COUNT=$(echo "$DIGESTED_LIST" | grep -c "^-" || true)
@@ -210,8 +211,9 @@ echo ""
 # --- Mark queue as consumed ---
 if [[ "$FULL_MODE" != "true" ]]; then
     BATCH_ID="batch_$(date +%Y%m%d_%H%M%S)"
+    python "$SCRIPT_DIR/lib/wiki_queue.py" clear >/dev/null
     echo "[wiki-done] $(date +%Y-%m-%d) | $BATCH_ID" >> "$REPO_ROOT/log.md"
-    echo "Queue consumed: $BATCH_ID"
+    echo "Queue consumed: $BATCH_ID (queue.json cleared)"
 fi
 
 echo ""

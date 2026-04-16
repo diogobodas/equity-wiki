@@ -260,28 +260,50 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 [wiki-queue] 2026-04-13 | generic | other | cyrela_lancamentos | sources/digested/cyrela_lancamentos_summary.md
 [wiki-done] 2026-04-13 | batch_20260413_195300
 [fetch-calls] 2026-04-14 | direcional | 4T24 | https://www.youtube.com/watch?v=Vl_XJnZBFfE | auto_forced
-[fetch-calls] 2026-04-14 | direcional | 4T23 | https://www.youtube.com/watch?v=sZUQrK7v6d8 | auto
-[fetch-calls] 2026-04-14 | direcional | 2T23 | https://www.youtube.com/watch?v=ra6poXDh0sQ | auto
-[fetch-calls] 2026-04-14 | direcional | 1T23 | https://www.youtube.com/watch?v=LuWonb9WPsI | auto
-[fetch-calls] 2026-04-14 | direcional | 4T20 | https://www.youtube.com/watch?v=wL04P85RrnY | auto
-[fetch-calls] 2026-04-14 | direcional | 1T22 | https://www.youtube.com/watch?v=BPAIwspEgkc | auto
-[fetch-calls] 2026-04-14 | direcional | 4T21 | https://www.youtube.com/watch?v=TI0NLQ11Gos | auto
-[fetch-calls] 2026-04-14 | direcional | 3T21 | https://www.youtube.com/watch?v=t5mnc-6mAK4 | auto
-[fetch-calls] 2026-04-14 | direcional | 2T21 | https://www.youtube.com/watch?v=Um8KttUvdeA | auto
-[fetch-calls] 2026-04-14 | direcional | 4T25 | https://www.youtube.com/watch?v=4G24GLp2Z7g | auto
-[fetch-calls] 2026-04-14 | direcional | 3T25 | https://www.youtube.com/watch?v=gpJAQUS0VqA | auto
-[fetch-calls] 2026-04-14 | direcional | 2T25 | https://www.youtube.com/watch?v=dN2kmm3ZMcE | auto
-[fetch-calls] 2026-04-14 | direcional | 1T25 | https://www.youtube.com/watch?v=PGKvfFD5P2s | auto
-[fetch-calls] 2026-04-14 | direcional | 3T24 | https://www.youtube.com/watch?v=2uPIku8YKgM | auto
-[fetch-calls] 2026-04-14 | direcional | 2T24 | https://www.youtube.com/watch?v=uIvWNRQLV14 | auto
-[fetch-calls] 2026-04-14 | direcional | 1T24 | https://www.youtube.com/watch?v=z9B-mRlEL-0 | auto
-[fetch-calls] 2026-04-14 | direcional | 3T23 | https://www.youtube.com/watch?v=ZF_t69gZmFA | auto
-[fetch-calls] 2026-04-14 | direcional | 4T22 | https://www.youtube.com/watch?v=myCwdkvy93Y | auto
-[fetch-calls] 2026-04-14 | direcional | 3T22 | https://www.youtube.com/watch?v=i_xnGGK2lfg | auto
-[fetch-calls] 2026-04-14 | direcional | 2T22 | https://www.youtube.com/watch?v=LdgjowQlvqM | auto
-[fetch-calls] 2026-04-14 | direcional | 1T21 | https://www.youtube.com/watch?v=NmyEfQa-GRg | auto
-[fetch-calls] 2026-04-14 | direcional | 3T20 | https://www.youtube.com/watch?v=clqtXvDvam4 | auto
+[fetch-calls] 2026-04-14 | direcional | 4T23
+ | https://www.youtube.com/watch?v=sZUQrK7v6d8 | auto
+[fetch-calls] 2026-04-14 | direcional | 2T23
+ | https://www.youtube.com/watch?v=ra6poXDh0sQ | auto
+[fetch-calls] 2026-04-14 | direcional | 1T23
+ | https://www.youtube.com/watch?v=LuWonb9WPsI | auto
+[fetch-calls] 2026-04-14 | direcional | 4T20
+ | https://www.youtube.com/watch?v=wL04P85RrnY | auto
+[fetch-calls] 2026-04-14 | direcional | 1T22
+ | https://www.youtube.com/watch?v=BPAIwspEgkc | auto
+[fetch-calls] 2026-04-14 | direcional | 4T21
+ | https://www.youtube.com/watch?v=TI0NLQ11Gos | auto
+[fetch-calls] 2026-04-14 | direcional | 3T21
+ | https://www.youtube.com/watch?v=t5mnc-6mAK4 | auto
+[fetch-calls] 2026-04-14 | direcional | 2T21
+ | https://www.youtube.com/watch?v=Um8KttUvdeA | auto
+[fetch-calls] 2026-04-14 | direcional | 4T25
+ | https://www.youtube.com/watch?v=4G24GLp2Z7g | auto
+[fetch-calls] 2026-04-14 | direcional | 3T25
+ | https://www.youtube.com/watch?v=gpJAQUS0VqA | auto
+[fetch-calls] 2026-04-14 | direcional | 2T25
+ | https://www.youtube.com/watch?v=dN2kmm3ZMcE | auto
+[fetch-calls] 2026-04-14 | direcional | 1T25
+ | https://www.youtube.com/watch?v=PGKvfFD5P2s | auto
+[fetch-calls] 2026-04-14 | direcional | 3T24
+ | https://www.youtube.com/watch?v=2uPIku8YKgM | auto
+[fetch-calls] 2026-04-14 | direcional | 2T24
+ | https://www.youtube.com/watch?v=uIvWNRQLV14 | auto
+[fetch-calls] 2026-04-14 | direcional | 1T24
+ | https://www.youtube.com/watch?v=z9B-mRlEL-0 | auto
+[fetch-calls] 2026-04-14 | direcional | 3T23
+ | https://www.youtube.com/watch?v=ZF_t69gZmFA | auto
+[fetch-calls] 2026-04-14 | direcional | 4T22
+ | https://www.youtube.com/watch?v=myCwdkvy93Y | auto
+[fetch-calls] 2026-04-14 | direcional | 3T22
+ | https://www.youtube.com/watch?v=i_xnGGK2lfg | auto
+[fetch-calls] 2026-04-14 | direcional | 2T22
+ | https://www.youtube.com/watch?v=LdgjowQlvqM | auto
+[fetch-calls] 2026-04-14 | direcional | 1T21
+ | https://www.youtube.com/watch?v=NmyEfQa-GRg | auto
+[fetch-calls] 2026-04-14 | direcional | 3T20
+ | https://www.youtube.com/watch?v=clqtXvDvam4 | auto
 2026-04-14 — ingest call_transcript 4T24: sources/full/direcional/4T24/call_transcript.md, sources/digested/direcional_call_transcript_4T24_summary.md
+[wiki-done] 2026-04-15 | cury.md atualizado: tabela "Proventos e retorno ao acionista" expandida com linha 2026 (parcial); tabela de evolução histórica adicionou coluna 2026; observações adicionadas sobre a antecipação fiscal motivada pelo STF/Lei 15.270/2025. Digest batch de fatos relevantes atualizado com seção 1T26 completa.
 [wiki-queue] 2026-04-14 | direcional | call_transcript | 4T24 | sources/digested/direcional_call_transcript_4T24_summary.md
 2026-04-14 — ingest call_transcript 1T21: sources/full/direcional/1T21/call_transcript.md, sources/digested/direcional_call_transcript_1T21_summary.md
 [wiki-queue] 2026-04-14 | direcional | call_transcript | 1T21 | sources/digested/direcional_call_transcript_1T21_summary.md
@@ -326,3 +348,7 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 2026-04-14 — ingest call_transcript 4T25: sources/full/direcional/4T25/call_transcript.md, sources/digested/direcional_call_transcript_4T25_summary.md
 [wiki-queue] 2026-04-14 | direcional | call_transcript | 4T25 | sources/digested/direcional_call_transcript_4T25_summary.md
 2026-04-14 — ingest call_transcript 1T24: sources/full/direcional/1T24/call_transcript.md, sources/structured/direcional/1T24/call_transcript.json, sources/digested/direcional_call_transcript_1T24_summary.md
+
+[ingest] 2026-04-15 | cury | ata_cad | 1T26 | sources/full/cury/1T26/rca_dividendos_20260130.md — RCA 30/jan/2026 declarando R$ 140 mm em dividendos (lastro jan–nov/2025, imputados ao mínimo obrigatório do exercício de 2025). Fonte CVM prot 1471377.
+[ingest] 2026-04-15 | cury | ata_cad | 1T26 | sources/full/cury/1T26/rca_dividendos_atualizacao_20260330.md — RCA 30/mar/2026 atualiza pagamento: R$ 110 mm em 07/abr/2026 + R$ 30 mm até 31/dez/2026. Fonte CVM prot 1498112.
+[wiki-done] 2026-04-16 | batch_20260416_095311

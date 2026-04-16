@@ -76,7 +76,7 @@ A manifest must exist for the ticker (created by `fetch.sh --discover` or manual
 # First run or rebuild: reads ALL digesteds, ignores queue
 bash tools/wiki_update.sh --full
 
-# Incremental: reads only pending [wiki-queue] entries from log.md
+# Incremental: reads pending entries from sources/wiki_queue.json
 bash tools/wiki_update.sh
 ```
 
@@ -173,6 +173,7 @@ tools/
 │   ├── pdf_extract.py          # PDF → markdown via pdfplumber (fallback extractor)
 │   ├── reingest_download.py    # helper for reingest: downloads docs from CVM list JSON via stdin
 │   ├── vtt_to_markdown.py      # WebVTT → markdown with sparse [mm:ss] anchors (used by fetch_calls.sh)
+│   ├── wiki_queue.py           # wiki-queue state: enqueue/drain/clear/peek/migrate-from-log
 │   └── parallel.sh             # parallel execution helper (parallel_init, parallel_add, parallel_wait)
 └── prompts/
     ├── fetch_system.md         # system prompt for fetch agent (normal mode)
@@ -199,20 +200,31 @@ CVM-API → fetch.sh → sources/undigested/
                           ↓
                     claude --print → sources/structured/ + sources/digested/
                           ↓
-                    [wiki-queue] appended to log.md
+                    entry appended to sources/wiki_queue.json (+ audit line in log.md)
                           ↓
                     wiki_update.sh (separate step) → wiki pages (*.md at root)
 ```
 
-### Wiki queue (log.md)
+### Wiki queue (sources/wiki_queue.json)
 
-`ingest.sh` appends parseable entries:
-```
-[wiki-queue] 2026-04-12 | cury | itr | 3T25 | sources/digested/cury_itr_3T25_summary.md
-[wiki-queue] 2026-04-12 | generic | sector | planilha | sources/digested/planilha_setor_summary.md
+The queue is a JSON array at `sources/wiki_queue.json`. Each entry:
+```json
+{
+  "empresa": "cury",
+  "type": "itr",
+  "periodo": "3T25",
+  "digested": "sources/digested/cury_itr_3T25_summary.md",
+  "queued_on": "2026-04-16"
+}
 ```
 
-`wiki_update.sh` consumes the queue and marks with `[wiki-done] date | batch_id`.
+Managed by `tools/lib/wiki_queue.py` (subcommands: `enqueue`, `drain`, `clear`, `peek`, `migrate-from-log`).
+
+- `ingest.sh` / `ingest_calls.sh` append via `enqueue` (and still write `[wiki-queue]` to log.md as audit trail)
+- `wiki_update.sh` drains the queue at the start of an incremental run; on success calls `clear`
+- `log.md` entries `[wiki-queue]` / `[wiki-done]` are AUDIT ONLY — not the source of truth anymore
+
+To inspect pending items: `python tools/lib/wiki_queue.py peek`.
 
 ## Current coverage
 
@@ -234,6 +246,6 @@ CVM-API → fetch.sh → sources/undigested/
 - **Never invent numbers** — every figure traces to `structured/`/`full/`/web/notion. Mark stale with `[stale: last verified YYYY-MM-DD]`. When data is missing from `digested/`, **always search `full/` and `structured/` before reporting as unavailable**. Never fill gaps with estimates, interpolations, or "approximate" values — if the number is not in a source, say "n/d" and cite what was searched.
 - **Wikilinks** only to pages that exist or should exist. First mention in a section gets linked; subsequent mentions do not.
 - **Do not edit files in `sources/`** — sources are immutable. To correct, re-ingest.
-- **`log.md` is append-only.** Every operation appends an entry. Wiki queue entries use `[wiki-queue]` / `[wiki-done]` format.
+- **`log.md` is append-only and audit-only.** Every operation appends an entry. `[wiki-queue]` / `[wiki-done]` lines are historical audit markers — the live queue state lives in `sources/wiki_queue.json`. Do NOT write `[wiki-done]` manually to mark a page edit; use standard `[edit]` / `[update]` entry formats.
 - **One source at a time** during ingest so cross-linking stays coherent.
 - **Write-through backfill**: when a query reads `full/` for a structurable fact not in `structured/`, backfill it into `company_specific` before responding (see SCHEMA.md §Query step 6).
