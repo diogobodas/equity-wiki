@@ -9,6 +9,15 @@ usage() {
     echo "Options:"
     echo "  --full   Read ALL digesteds (ignore queue). Use for first run or rebuild."
     echo "  (none)   Read pending entries from sources/wiki_queue.json."
+    echo ""
+    echo "Env tunables:"
+    echo "  WIKI_PLAN_MODEL    Model for Phase 1 planning (default: claude default)"
+    echo "  WIKI_WRITE_MODEL   Model for Phase 2 page writes (default: claude default)"
+    echo "  WIKI_CLAUDE_MODEL  Legacy: applies to both phases if per-phase vars unset"
+    echo "  WIKI_PLAN_CHUNK_SIZE     Digesteds per planning chunk (default: 50)"
+    echo "  WIKI_PLAN_CHUNK_TIMEOUT  Seconds per planning chunk (default: 1200)"
+    echo "  WIKI_WRITE_TIMEOUT       Seconds per page write (default: 1800)"
+    echo "  WIKI_GRAPH_DEPTH         Subgraph BFS depth for incremental mode (default: 2)"
     exit 1
 }
 
@@ -67,16 +76,72 @@ if [[ "$DIGESTED_COUNT" -eq 0 ]]; then
 fi
 
 # --- Collect existing wiki pages with frontmatter ---
+# In incremental mode: use wiki_graph.py to restrict to the BFS subgraph of
+# affected pages (depth=WIKI_GRAPH_DEPTH, default 2). The planner still
+# receives ALL page names as a lightweight reference so it can detect missing
+# pages and decide on creates; only the subgraph candidates get full metadata.
+# In --full mode: pass all pages as before.
+GRAPH_DEPTH="${WIKI_GRAPH_DEPTH:-2}"
+
 echo "Scanning wiki pages..."
 WIKI_PAGES=""
-for f in "$REPO_ROOT"/*.md; do
-    [[ -f "$f" ]] || continue
-    fname=$(basename "$f")
-    [[ "$fname" == "CLAUDE.md" || "$fname" == "README.md" || "$fname" == "SCHEMA.md" || "$fname" == "log.md" || "$fname" == "index.md" ]] && continue
-    page_type=$(grep "^type:" "$f" 2>/dev/null | head -1 | sed 's/type: //' || echo "unknown")
-    page_updated=$(grep "^updated:" "$f" 2>/dev/null | head -1 | sed 's/updated: //' || echo "unknown")
-    WIKI_PAGES+="- $fname (type: $page_type, updated: $page_updated)"$'\n'
-done
+
+build_wiki_pages_for_files() {
+    local files_list="$1"  # newline-separated filenames
+    while IFS= read -r fname; do
+        [[ -z "$fname" ]] && continue
+        local f="$REPO_ROOT/$fname"
+        [[ -f "$f" ]] || continue
+        local page_type page_updated
+        page_type=$(grep "^type:" "$f" 2>/dev/null | head -1 | sed 's/type: //' || echo "unknown")
+        page_updated=$(grep "^updated:" "$f" 2>/dev/null | head -1 | sed 's/updated: //' || echo "unknown")
+        WIKI_PAGES+="- $fname (type: $page_type, updated: $page_updated)"$'\n'
+    done <<< "$files_list"
+}
+
+if [[ "$FULL_MODE" == "true" ]]; then
+    for f in "$REPO_ROOT"/*.md; do
+        [[ -f "$f" ]] || continue
+        fname=$(basename "$f")
+        [[ "$fname" == "CLAUDE.md" || "$fname" == "README.md" || "$fname" == "SCHEMA.md" || "$fname" == "log.md" || "$fname" == "index.md" ]] && continue
+        page_type=$(grep "^type:" "$f" 2>/dev/null | head -1 | sed 's/type: //' || echo "unknown")
+        page_updated=$(grep "^updated:" "$f" 2>/dev/null | head -1 | sed 's/updated: //' || echo "unknown")
+        WIKI_PAGES+="- $fname (type: $page_type, updated: $page_updated)"$'\n'
+    done
+else
+    # Incremental: compute BFS subgraph from digest roots
+    DIGESTED_NAMES=$(printf '%s' "$DIGESTED_LIST" | grep "^-" | sed 's/^- //')
+    CANDIDATE_PAGES=$(cd "$REPO_ROOT" && python "$SCRIPT_DIR/lib/wiki_graph.py" candidates \
+        $DIGESTED_NAMES --depth "$GRAPH_DEPTH" --root "$REPO_ROOT" 2>/dev/null || echo "")
+
+    if [[ -n "$CANDIDATE_PAGES" ]]; then
+        CANDIDATE_COUNT=$(echo "$CANDIDATE_PAGES" | grep -c "." || echo 0)
+        echo "Wiki subgraph candidates: $CANDIDATE_COUNT pages (depth=$GRAPH_DEPTH)"
+        # Full metadata for subgraph candidates (planner reads these for staleness)
+        build_wiki_pages_for_files "$CANDIDATE_PAGES"
+        # Lightweight reference: remaining page names so planner knows what exists
+        ALL_OTHER=$(cd "$REPO_ROOT" && ls *.md 2>/dev/null | \
+            grep -vE "^(CLAUDE|README|SCHEMA|log|index)\.md" | \
+            grep -vFf <(echo "$CANDIDATE_PAGES") || true)
+        if [[ -n "$ALL_OTHER" ]]; then
+            WIKI_PAGES+="# Other existing pages (not in scope for this update):"$'\n'
+            while IFS= read -r fname; do
+                [[ -z "$fname" ]] && continue
+                WIKI_PAGES+="#   $fname"$'\n'
+            done <<< "$ALL_OTHER"
+        fi
+    else
+        echo "Wiki graph: no subgraph found (new empresa or graph empty) — using full page list"
+        for f in "$REPO_ROOT"/*.md; do
+            [[ -f "$f" ]] || continue
+            fname=$(basename "$f")
+            [[ "$fname" == "CLAUDE.md" || "$fname" == "README.md" || "$fname" == "SCHEMA.md" || "$fname" == "log.md" || "$fname" == "index.md" ]] && continue
+            page_type=$(grep "^type:" "$f" 2>/dev/null | head -1 | sed 's/type: //' || echo "unknown")
+            page_updated=$(grep "^updated:" "$f" 2>/dev/null | head -1 | sed 's/updated: //' || echo "unknown")
+            WIKI_PAGES+="- $fname (type: $page_type, updated: $page_updated)"$'\n'
+        done
+    fi
+fi
 
 # --- Collect empresas with structured data ---
 EMPRESAS_LIST=""
@@ -128,8 +193,10 @@ open(sys.argv[-1], 'w', encoding='utf-8').write(template)
 " "$template" "${key_paths[@]}" "$prompt_file"
 
     local model_args=()
-    if [[ -n "${WIKI_CLAUDE_MODEL:-}" ]]; then
-        model_args=(--model "$WIKI_CLAUDE_MODEL")
+    # INVOKE_CLAUDE_MODEL (per-call override) > WIKI_CLAUDE_MODEL (global)
+    local effective_model="${INVOKE_CLAUDE_MODEL:-${WIKI_CLAUDE_MODEL:-}}"
+    if [[ -n "$effective_model" ]]; then
+        model_args=(--model "$effective_model")
     fi
 
     local rc=0
@@ -149,6 +216,12 @@ open(sys.argv[-1], 'w', encoding='utf-8').write(template)
     rm -f "$prompt_file"
     return $rc
 }
+
+# --- Per-phase model selection ---
+# WIKI_PLAN_MODEL  → Phase 1 planning  (default: WIKI_CLAUDE_MODEL or claude default)
+# WIKI_WRITE_MODEL → Phase 2 page writes (default: WIKI_CLAUDE_MODEL or claude default)
+PLAN_MODEL="${WIKI_PLAN_MODEL:-${WIKI_CLAUDE_MODEL:-}}"
+WRITE_MODEL="${WIKI_WRITE_MODEL:-${WIKI_CLAUDE_MODEL:-}}"
 
 # --- Phase 1: Planning (chunked) ---
 # The planner LLM `cat`s each digest individually via Bash. With ~500+ digesteds
@@ -191,8 +264,11 @@ echo "Chunking $DIGESTED_COUNT digesteds into $NUM_CHUNKS chunk(s) of up to $CHU
 echo ""
 
 export INVOKE_CLAUDE_TIMEOUT="$CHUNK_TIMEOUT"
+export INVOKE_CLAUDE_MODEL="$PLAN_MODEL"
 SUCCESSFUL_CHUNKS=0
 FAILED_CHUNKS=0
+
+[[ -n "$PLAN_MODEL" ]] && echo "Planning model: $PLAN_MODEL"
 
 for CHUNK_FILE in "$PLAN_TMPDIR"/chunk_*.txt; do
     CHUNK_IDX=$(basename "$CHUNK_FILE" .txt | sed 's/chunk_0*//')
@@ -239,6 +315,7 @@ print(json.dumps(plan, ensure_ascii=False))
 done
 
 unset INVOKE_CLAUDE_TIMEOUT
+unset INVOKE_CLAUDE_MODEL
 
 echo ""
 echo "Chunks complete: $SUCCESSFUL_CHUNKS ok, $FAILED_CHUNKS failed"
@@ -267,6 +344,7 @@ echo ""
 echo "=== Phase 2: Execution ==="
 # Tunable: WIKI_WRITE_TIMEOUT (default 1800s per page). Failed pages are logged and skipped.
 WRITE_TIMEOUT="${WIKI_WRITE_TIMEOUT:-1800}"
+[[ -n "$WRITE_MODEL" ]] && echo "Write model: $WRITE_MODEL"
 WRITTEN_PAGES=0
 FAILED_PAGES=0
 FAILED_PAGES_LOG="${WIKI_FAILURES_LOG:-$REPO_ROOT/logs/wiki_plan_failures_$(date +%Y%m%d_%H%M%S).json}_write_failures.json"
@@ -309,7 +387,7 @@ for item in plan.get('update', []):
         fi
 
         WRITE_RC=0
-        INVOKE_CLAUDE_TIMEOUT="$WRITE_TIMEOUT" invoke_claude "$SCRIPT_DIR/prompts/wiki_write.md" \
+        INVOKE_CLAUDE_TIMEOUT="$WRITE_TIMEOUT" INVOKE_CLAUDE_MODEL="$WRITE_MODEL" invoke_claude "$SCRIPT_DIR/prompts/wiki_write.md" \
             "{{PAGE_NAME}}" "$PAGE_NAME" \
             "{{ACTION}}" "$ACTION" \
             "{{PAGE_TYPE}}" "$PAGE_TYPE" \
