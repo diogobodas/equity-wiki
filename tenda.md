@@ -1,7 +1,7 @@
 ---
 type: entity
 aliases: [Construtora Tenda, Tenda, TEND3, Alea]
-sources: [full/tenda/1T26/previa_operacional.md, structured/tenda/1T26/previa_operacional.json, full/tenda/data_pack_1T26.md, structured/tenda/{1T11..1T26}/data_pack.json, full/tenda/2025/dfp.md, structured/tenda/2025/dfp.json, full/tenda/2024/dfp.md, structured/tenda/2024/dfp.json, full/tenda/2023/dfp.md, structured/tenda/2023/dfp.json, full/tenda/1T25/itr.md, structured/tenda/1T25/itr.json, full/tenda/2T25/itr.md, structured/tenda/2T25/itr.json, full/tenda/3T25/itr.md, structured/tenda/3T25/itr.json, full/tenda/1T24/itr.md, structured/tenda/1T24/itr.json, full/tenda/2T24/itr.md, structured/tenda/2T24/itr.json, full/tenda/3T24/itr.md, structured/tenda/3T24/itr.json, full/tenda/1T25/release.md, structured/tenda/1T25/release.json, full/tenda/2T25/release.md, structured/tenda/2T25/release.json, full/tenda/3T25/release.md, structured/tenda/3T25/release.json, full/tenda/4T25/release.md, structured/tenda/4T25/release.json, full/tenda/4T23/release.md, structured/tenda/4T23/release.json, full/tenda/1T24/release.md, structured/tenda/1T24/release.json, full/tenda/2T24/release.md, structured/tenda/2T24/release.json, full/tenda/3T24/release.md, structured/tenda/3T24/release.json, full/tenda/4T24/release.md, structured/tenda/4T24/release.json, full/tenda/2T25/fato_relevante_904079.md, full/tenda/2T25/fato_relevante_907345.md, full/tenda/2T25/fato_relevante_913498.md, full/tenda/2T25/fato_relevante_913576.md, full/tenda/2T25/fato_relevante_914604.md, full/tenda/2T25/fato_relevante_917092.md, full/tenda/3T25/fato_relevante_930915.md, full/tenda/3T25/fato_relevante_930916.md, full/tenda/3T25/fato_relevante_934724.md, full/tenda/3T25/fato_relevante_934734.md, full/tenda/3T25/fato_relevante_952756.md, full/tenda/3T25/fato_relevante_952757.md, full/tenda/4T25/fato_relevante_963021.md, full/tenda/4T25/fato_relevante_979561.md, full/tenda/4T25/fato_relevante_981189.md, full/tenda/4T25/fato_relevante_983829.md, full/tenda/4T25/fato_relevante_986338.md, full/tenda/1T26/fato_relevante_1013789.md, full/tenda/2T26/fato_relevante_1025459.md, full/generic/notas/ceo_talks_osmo_tenda_27e00ca3.md, full/generic/notas/cury_cfo_tenda_28d00ca3.md, full/generic/notas/tenda_2f500ca3.md, full/generic/notas/tenda_cfo_19_11_2b000ca3.md, full/generic/notas/cyrela_call_cambauva_btg_1t26_33a00ca3.md, full/tenda/4T25/call_transcript.md, full/tenda/2T20/call_transcript.md, full/tenda/3T20/call_transcript.md, full/tenda/4T20/call_transcript.md, full/tenda/1T21/call_transcript.md, full/tenda/2T21/call_transcript.md, full/tenda/3T21/call_transcript.md, full/tenda/4T21/call_transcript.md, full/tenda/1T22/call_transcript.md, full/tenda/2T22/call_transcript.md, full/tenda/3T22/call_transcript.md, full/tenda/4T22/call_transcript.md, full/tenda/1T23/call_transcript.md, full/tenda/2T23/call_transcript.md, full/tenda/3T23/call_transcript.md, full/tenda/4T23/call_transcript.md, full/tenda/1T24/call_transcript.md, full/tenda/2T24/call_transcript.md, full/tenda/3T24/call_transcript.md, full/tenda/4T24/call_transcript.md, full/tenda/1T25/call_transcript.md, full/tenda/2T25/call_transcript.md, full/tenda/3T25/call_transcript.md]
+sources: [full/tenda/1T26/previa_operacional.md, structured/tenda/1T26/previa_operacional.json, full/tenda/data_pack_1T26.md, structured/tenda/{1T11..1T26}/data_pack.json, full/tenda/2025/dfp.md, structured/tenda/2025/dfp.json, full/tenda/2024/dfp.md, structured/tenda/2024/dfp.json, full/tenda/2023/dfp.md, structured/tenda/2023/dfp.json, full/tenda/1T25/itr.md, structured/tenda/1T25/itr.json, full/tenda/2T25/itr.md, structured/tenda/2T25/itr.json, full/tenda/3T25/itr.md, structured/tenda/3T25/itr.json, full/tenda/1T24/itr.md, structured/tenda/1T24/itr.json, full/tenda/2T24/itr.md, structured/tenda/2T24/itr.json, full/tenda/3T24/itr.md, structured/tenda/3T24/itr.json, full/tenda/1T25/release.md, structured/tenda/1T25/release.json, full/tenda/2T25/release.md, structured/tenda/2T25/release.json, full/tenda/3T25/release.md, structured/tenda/3T25/release.json, full/tenda/4T25/release.md, structured/tenda/4T25/release.json, full/tenda/4T23/release.md, structured/tenda/4T23/release.json, full/tenda/1T24/release.md, structured/tenda/1T24/release.json, full/tenda/2T24/release.md, structured/tenda/2T24/release.json, full/tenda/3T24/release.md, structured/tenda/3T24/release.json, full/tenda/4T24/release.md, structured/tenda/4T24/release.json, full/tenda/2T25/fato_relevante_904079.md, full/tenda/2T25/fato_relevante_907345.md, full/tenda/2T25/fato_relevante_913498.md, full/tenda/2T25/fato_relevante_913576.md, full/tenda/2T25/fato_relevante_914604.md, full/tenda/2T25/fato_relevante_917092.md, full/tenda/3T25/fato_relevante_930915.md, full/tenda/3T25/fato_relevante_930916.md, full/tenda/3T25/fato_relevante_934724.md, full/tenda/3T25/fato_relevante_934734.md, full/tenda/3T25/fato_relevante_952756.md, full/tenda/3T25/fato_relevante_952757.md, full/tenda/4T25/fato_relevante_963021.md, full/tenda/4T25/fato_relevante_979561.md, full/tenda/4T25/fato_relevante_981189.md, full/tenda/4T25/fato_relevante_983829.md, full/tenda/4T25/fato_relevante_986338.md, full/tenda/1T26/fato_relevante_1013789.md, full/tenda/2T26/fato_relevante_1025459.md, full/generic/notas/ceo_talks_osmo_tenda_27e00ca3.md, full/generic/notas/cury_cfo_tenda_28d00ca3.md, full/generic/notas/tenda_2f500ca3.md, full/generic/notas/tenda_cfo_19_11_2b000ca3.md, full/generic/notas/cyrela_call_cambauva_btg_1t26_33a00ca3.md, full/tenda/4T25/call_transcript.md, full/tenda/2T20/call_transcript.md, full/tenda/3T20/call_transcript.md, full/tenda/4T20/call_transcript.md, full/tenda/1T21/call_transcript.md, full/tenda/2T21/call_transcript.md, full/tenda/3T21/call_transcript.md, full/tenda/4T21/call_transcript.md, full/tenda/1T22/call_transcript.md, full/tenda/2T22/call_transcript.md, full/tenda/3T22/call_transcript.md, full/tenda/4T22/call_transcript.md, full/tenda/1T23/call_transcript.md, full/tenda/2T23/call_transcript.md, full/tenda/3T23/call_transcript.md, full/tenda/4T23/call_transcript.md, full/tenda/1T24/call_transcript.md, full/tenda/2T24/call_transcript.md, full/tenda/3T24/call_transcript.md, full/tenda/4T24/call_transcript.md, full/tenda/1T25/call_transcript.md, full/tenda/2T25/call_transcript.md, full/tenda/3T25/call_transcript.md, full/tenda/2025/call_transcript.md]
 created: 2026-04-08
 updated: 2026-04-21
 ---
@@ -232,6 +232,95 @@ O CFO reafirmou o guidance de lucro liquido consolidado em **R$ 360–400 mm** �
 - **Custo de madeira/OSB**: ~10–12% do custo da Alea; pressao no mercado, impacto direto ainda limitado mas monitorado (fonte: full/tenda/4T25/call_transcript.md).
 - **Fim da jornada 6×1**: impacto estimado baixo para a Tenda — componente de mao de obra e ~33% do custo (vs. 40–45% em pares de alvenaria estrutural); trabalhadores ja remunerados por tarefas com media de 40h semanais (fonte: full/tenda/4T25/call_transcript.md).
 - **Risco geopolitico/petroleo/frete**: mencionado mas considerado gerenciavel via repasse de precos nos limites do programa MCMV (fonte: full/tenda/4T25/call_transcript.md).
+
+## Tenda Day 2025 — Investor Day
+
+Evento presencial no escritorio da Tenda em SP com transmissao online. Tom confiante celebrando turnaround concluido. Administracao enfatiza que a empresa saiu "mais bonita" do COVID do que entrou. Participantes: Renan (CEO), Luis/Rodrigo (CFO), Dani (institucional/governo), Martine (Leia), Cris (RH) (fonte: full/tenda/2025/call_transcript.md).
+
+### Recordes operacionais Tenda 2025
+
+- **20.000 apartamentos concretados em 2025** — recorde historico da companhia (antes era ~17-18 mil) (fonte: full/tenda/2025/call_transcript.md).
+- Jogos de forma: de 25 para ~42 (produzia ~50 apts/dia → ~80 apts/dia).
+- Eficiencia de concretagem: 96% (pico pandemia foi 90%).
+- Atividades de acabamento em atraso: apenas 5% (no pico pandemia chegou a 65%).
+- Compra de terrenos recorde: ~37.000 unidades nos LTM; 94% vinculados ao lancamento.
+- VSO disciplinado entre 25-30%, protegendo margem.
+- Atributos (piscina, varanda, vaga) gerando ganho de ~R$ 5.000/unidade; varanda adiciona ~R$ 24.000/unidade.
+
+### Destaques financeiros — Investor Day
+
+- Margem bruta (ex-Pode Entrar): ~36,5% — estabilizada em patamares saudaveis (fonte: full/tenda/2025/call_transcript.md).
+- Margem bruta rasa da venda: ~32-33%.
+- ROCE LTM: 40% (meta era 30%; regime esperado ~45%).
+- Geracao de caixa operacional positiva todo trimestre desde 2023.
+- Custo de obra: inflacao interna de 4,3% vs INCC de 5,4% (jan-out).
+- Provisoes robustas: 11% do orcamento de obra e provisao para inflacao/eventuais.
+- **Despesa financeira equivale a ~5 pp de margem liquida** — principal gap vs peers.
+- Captacoes de ~R$ 360 mi no 4T25 cobrem todos os vencimentos de 2026.
+
+### Guidance 2026 — confirmado no Investor Day
+
+Mesmos numeros do release 4T25, com detalhes adicionais (fonte: full/tenda/2025/call_transcript.md):
+
+- Vendas Tenda: R$ 5,0–5,5 bi
+- Margem bruta Tenda: ~36%
+- EBIT Tenda: ~R$ 1 bi
+- Lucro liquido consolidado: R$ 520–600 mi
+- Consumo de caixa Leia: R$ 60–80 mi (vs ~R$ 140 mi em 2025)
+- Lancamentos: ~25.000 unidades (limite e LandBank legalizado)
+- Pode Entrar: entregas relevantes em dez/2026 com caixa >R$ 100 mi
+
+### Alea — atualizacao do freio de arrumacao
+
+Detalhes adicionais do Investor Day (fonte: full/tenda/2025/call_transcript.md):
+
+- Producao 2025: ~1.800-1.900 unidades (meta era 4.000).
+- Problema central: dependencia de empreiteiros terceiros no acabamento; desistencia de 7 manchas → foco em apenas 3 (Ribeirao Preto, Bauru, Campinas).
+- Meta: 100% verticalizacao das atividades ate 1S26.
+- Industrializacao: 100% implementado (chicote eletrico, shaft, calafetacao, textura interna/externa).
+- Margem bruta 2025: ~2% (vs ~10% em 2024).
+- Breakeven esperado em 2027 se verticalizacao funcionar.
+- Visao estrategica mantida: [[reforma_tributaria|reforma tributaria]] + escassez de mao de obra favorecem industrializacao.
+
+### Escassez de mao de obra — risco estrutural
+
+Discussao extensa no Q&A do Investor Day (fonte: full/tenda/2025/call_transcript.md):
+
+- **Crise estrutural**: idade media dos mestres em SP subiu de 40 para 46 anos em 8 anos. Jovens nao querem construcao civil.
+- Solucao da Tenda: industrializacao + imigrantes (520 contratados, turnover 30% menor).
+- **"Colocaria nos meus modelos que mao de obra tende a ter inflacao muito maior que o resto da economia."** — comentario direto da administracao para modelagem.
+
+### Reforma tributaria — impacto por segmento
+
+- Beneficio potencial de **~5 pp de margem para Leia** (operacao fabril toma mais credito IVA) (fonte: full/tenda/2025/call_transcript.md).
+- Tenda tambem se beneficia pelo menor price point (redutor social de R$ 100 mil).
+- Ainda ha duvida se beneficio sera integralmente capturado ou diluido na cadeia.
+
+### Base de investidores e valuation
+
+- Base de investidores estrangeiros: apenas **20%** (peers tem >50%) (fonte: full/tenda/2025/call_transcript.md).
+- Retomada de roadshows internacionais apos 5 anos.
+- Desconto de multiplo vs peers: 5,7x vs 9,1x — equalizacao implicaria upside de 60%.
+
+### Aferica programada Caixa — nova regra
+
+Nova regra permite medir materiais na fabrica antes da montagem — antecipa recebimento em 50% do valor de materiais comprados. Ja em implementacao (fonte: full/tenda/2025/call_transcript.md).
+
+### Penetracao Faixa 3
+
+Operando no "comecinho" do F3 (R$ 250-280 mil), sem competicao relevante. Mix de faixas no mesmo empreendimento reduz risco. Preco ~23% menor que concorrentes (fonte: full/tenda/2025/call_transcript.md).
+
+### Decisao sobre continuar investindo na Alea
+
+Rodrigo (CFO): "Se mantiver consumo de R$ 50 mi/ano e visao estrategica se solidificando, continuo investindo. Se voltar a R$ 175 mi/ano, ai preciso repensar." Assimetria: investir R$ 50 mi para potencial de capturar R$ 1-2 bi/ano no futuro (fonte: full/tenda/2025/call_transcript.md).
+
+### Riscos adicionais levantados no Investor Day
+
+- Ganho de preco com atributos e premissa nova — precisa continuar validando (fonte: full/tenda/2025/call_transcript.md).
+- Orcamento FGTS pode pressionar alguma faixa no futuro.
+- Alea ainda volatil; verticalizacao pode encontrar obstaculos nao previstos.
+- Despesa financeira alta (Selic 15% + alavancagem) comprime margem liquida vs peers.
+- LandBank e gargalo para acelerar alem de ~25 mil unidades.
 
 ## Gestao e estrategia de longo prazo
 
@@ -610,6 +699,7 @@ Calls de resultados digeridas:
 - **1T23–4T23** — inflexão: Pode Entrar confirmado, follow-on R$ 234 mm, primeiro trimestre sem desvio de custo, Alea 5x scale, turnaround declarado concluído.
 - **1T24–4T24** — turnaround confirmado: "Marco do fim do turnaround financeiro" (2T24), custo flat vs. INCC, pró-soluto <10%, cheques 18% de vendas, investimento GKP na Alea.
 - **1T25–3T25** — consolidação: call da Alea "não foi o primeiro trimestre dos sonhos" (1T25), Canoas FAR R$ 300 mm (2T25), analogia Tesla "production hell" (3T25).
+- **Tenda Day 2025** — Investor Day presencial em SP; recordes operacionais (20 mil apts concretados, 42 jogos de forma), escassez de mao de obra como risco estrutural, Alea verticalizacao 100% ate 1S26, base de investidores estrangeiros 20%, aferica programada Caixa.
 
 Fontes Notion digeridas:
 - **CEO Talks — Rodrigo Osmo (XP Expert Talks, set/2025)** — historico da Tenda, modelo de negocio, MCMV, Alea/Lea (woodframe), mix de faixas, politica de capital.

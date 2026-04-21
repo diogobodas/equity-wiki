@@ -1,0 +1,32 @@
+=== Wiki Update ===
+Mode: incremental (queue)
+
+Digesteds to process: 1
+Scanning wiki pages...
+Wiki subgraph candidates: 39 pages (depth=2)
+Wiki pages found: 1
+Empresas with structured/: 4
+
+=== Phase 1: Planning (chunked) ===
+Chunking 1 digesteds into 1 chunk(s) of up to 50 each (per-chunk timeout: 1200s)
+
+Planning model: claude-opus-4-5
+  [chunk 1/1] 1 digesteds — invoking planner...
+    OK: create=0 update=3 skip=4
+
+Chunks complete: 1 ok, 0 failed
+Merging 1 chunk plans...
+
+Merged plan: create=0, update=3, skip=4
+
+=== Phase 2: Execution ===
+Write model: claude-opus-4-5
+  [update] tenda.md (entity)
+  [update] reforma_tributaria.md (concept)
+  [update] incorporadoras.md (sector)
+
+Queue consumed: batch_20260421_190836 (queue.json cleared)
+
+=== Wiki update complete ===
+  Planned create: 0 | update: 3 | skip: 4
+  Phase 2 written: 3 | failed: 0

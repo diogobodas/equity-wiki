@@ -1905,6 +1905,13 @@
       "ingested_on": "2026-04-21",
       "full": "sources/full/tenda/4T24/call_transcript.md",
       "digested": "sources/digested/tenda_call_transcript_4T24_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "2025",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/2025/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_2025_summary.md"
     }
   ],
   "precedence": [

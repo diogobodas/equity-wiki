@@ -954,3 +954,7 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 [wiki-queue] 2026-04-21 | tenda | call_transcript | 4T24 | sources/digested/tenda_call_transcript_4T24_summary.md
 [wiki-done] 2026-04-21 | batch_20260421_142435
 [wiki-done] 2026-04-21 | batch_20260421_183625
+[fetch-calls] 2026-04-21 | tenda | 2025 | https://www.youtube.com/watch?v=vtPXrylBc4A | auto_forced
+2026-04-21 — ingest call_transcript 2025: sources/full/tenda/2025/call_transcript.md, sources/digested/tenda_call_transcript_2025_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 2025 | sources/digested/tenda_call_transcript_2025_summary.md
+[wiki-done] 2026-04-21 | batch_20260421_190836

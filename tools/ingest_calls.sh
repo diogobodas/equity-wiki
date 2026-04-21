@@ -111,14 +111,19 @@ for k,v in subs.items():
 open(sys.argv[7], 'w', encoding='utf-8').write(template)
 " "$PROMPT_TEMPLATE" "$TICKER_UPPER" "$EMPRESA" "$DISPLAY_NAME" "$period" "$full_path" "$prompt_file"
 
+    local model_args=()
+    if [[ -n "${INGEST_CLAUDE_MODEL:-}" ]]; then
+        model_args=(--model "$INGEST_CLAUDE_MODEL")
+    fi
     cat "$prompt_file" | claude --print \
+        "${model_args[@]}" \
         --allowedTools "Bash" \
         --permission-mode bypassPermissions
     rm -f "$prompt_file"
     echo "$log_prefix Done."
 }
 export -f invoke_claude_transcript
-export TICKER_UPPER EMPRESA DISPLAY_NAME PROMPT_TEMPLATE
+export TICKER_UPPER EMPRESA DISPLAY_NAME PROMPT_TEMPLATE INGEST_CLAUDE_MODEL
 
 # --- Step 3: Parallel ingest ---
 echo "=== Parallel ingest (concurrency=$CONCURRENCY) ==="
