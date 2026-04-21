@@ -58,11 +58,29 @@ def load_state(config: dict | None = None) -> dict:
 
 
 def save_state(state: dict, config: dict | None = None) -> None:
+    """Atomically persist state via temp-file + os.replace.
+
+    Prevents corruption on interrupted writes and is safe under concurrent
+    mark_processed() calls (last-writer-wins on os.replace is atomic per POSIX
+    and on Windows NTFS as of Python 3.3+).
+    """
+    import os
+    import tempfile
     if config is None:
         config = load_config()
     p = _state_path(config)
     p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    fd, tmp = tempfile.mkstemp(dir=p.parent, prefix="._notion_state_", suffix=".json")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            f.write(json.dumps(state, indent=2, ensure_ascii=False) + "\n")
+        os.replace(tmp, p)
+    except Exception:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
 
 
 def mark_processed(page_id: str, last_edited_time: str, config: dict | None = None) -> None:

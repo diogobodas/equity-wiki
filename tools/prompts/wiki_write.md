@@ -77,9 +77,11 @@ PAGEEOF
 
 ## Wikilinks
 
-- Use `[[page_name]]` for first mention of an entity/concept in each section
-- Only link to pages listed in the ALL_PAGES section above, or pages you know are being created in this batch
-- Use `[[page_name|display text]]` when display differs from page name
+- Use `[[page_name]]` for first mention of an entity/concept in each section.
+- Use `[[page_name|display text]]` only when `page_name` genuinely refers to the same entity as `display text`. **Never** repurpose an existing unrelated page just because it's in the ALL_PAGES list.
+- **Verification rule before writing a `[[X|Y]]`:** `X` and `Y` must be the same real-world entity (same company, same concept). If you are citing Cielo, Localiza, Alelo, etc. and there is no `cielo.md`/`localiza.md`/`alelo.md` in ALL_PAGES and none is being created in this batch, write the link as `[[cielo]]` / `[[localiza]]` / `[[alelo]]` — a dangling link to a page that *should* exist. Dangling links are a feature: they signal the wiki where a page is missing. Do NOT redirect to `[[unidas|Cielo]]` or `[[incorporadoras|Localiza]]` or `[[nubank|Alelo]]` just because those pages happen to exist; wrong wikilinks corrupt routing for every downstream reader.
+- If genuinely unsure whether an entity deserves its own page, do not wikilink — render as plain text.
+- First mention in a section gets the wikilink; subsequent mentions in the same section do not.
 
 ## Rules
 

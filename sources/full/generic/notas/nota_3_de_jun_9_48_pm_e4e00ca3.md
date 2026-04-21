@@ -1,0 +1,15 @@
+---
+source: notion
+notion_page_id: e4e00ca3-2bce-830c-a4c3-816fd14bf8d1
+notion_url: https://www.notion.so/Nota-3-de-jun-9-48-PM-e4e00ca32bce830ca4c3816fd14bf8d1
+title: "Nota - 3 de jun., 9:48 PM"
+created: 2024-06-04T00:48:00.000Z
+edited: 2024-06-04T00:48:00.000Z
+empresa: generic
+tags:
+  - "AI"
+---
+
+# Nota - 3 de jun., 9:48 PM
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/095abcdd-eb5a-43d6-8758-32375d89a696/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YP2U3PDL%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T123814Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAwaCXVzLXdlc3QtMiJHMEUCIQDahoDisC9ztF4Bd9uU6cXI1PV0R%2BdirSmKqbF0Sh8YAQIgBWnB7OcjhHbXyELf25bo1NAqHbHMRaliS2n5%2FZOfo54qiAQI1f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDFHOpb1xxSKwGW1XeSrcA50HiP6c4rm7LXY%2BIEHomeUCFRwH5%2BdYG6ZGaN5b%2FRmr60DjxRr15WTC4u2b4M4jHrM4C%2Flze2H22nIHvIaFv747%2F15AvG7tAEr7j%2BPNffqNWJ4AeQ7qFMDrYALeoNeFEr3CYQWPOnUWi1ZLuRaVSpsA%2F86v6FX%2B6atE2axzFVhfiUHByO1YxqJeCXA58CbSf7ooKyhRsdav1CKZFJRzao0ok2IAYcOswjhyAKmCxYXJu5WUp7rwfWWMX2yNkB4Dct6ltlI9Lq0OuXSUbo1wnmq7lMeeygvWNoiVuYuVUW4i5nigFTOghhpk%2F%2FL6f0gF7bfYLPNP485vZ4rWN9snnuxvvUhCeT80OHrjX%2Bo1al%2FOfWDM49x%2FIoGeWLlC5qSSYJ4xiDJfFrKAg1jwe2pfA4A%2FaAVl0QDuUHea8tsKVtZUq5ycr7YOt78%2FkKju5e8%2Bqu79AQhZxWxEm1BXy8b%2BTHa5ws%2FVhYcAt8W12KYIbgQ476vaXvVl14d4KTAQjGMlfNsTiGWfI8RT%2FwIABauhvWCR%2B6t2I7GWDHTPfuoiS8%2FsaAzohaPiwGEMUIiYFxsjfwJ%2F8pDuPMnOzWBNFgWItBmfVKtRrNk5ewbZWiMnJd2FMk9Ui%2FHGebVQ9BDwMNK4iM8GOqUB3FBjjw28BtZypGqk3b23a8DO22toh4aL09jyehLFdq6QWv%2BloYmP%2Bs0mFxsKyci1PUlQPcsVGqD06KZDkkWyJmBowi6%2FAAzacX1YSbki6VeFw4Gshrq2ShhJFCFd%2FtPoXo9ZNpLg1tgzyMFwa0eiQoDNgk1AbgehFeGzFJ8ttMcyUOsDDNJ5zoD66MjO5cmt3IAAJhw1WiRPaWDaY5HBGhBwhIh5&X-Amz-Signature=9dcf2790585e23892810182df8f0191abefd65d852637c90ce9d8c42410e954d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)

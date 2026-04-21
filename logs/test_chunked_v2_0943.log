@@ -1,0 +1,31 @@
+=== Wiki Update ===
+Mode: full (all digesteds)
+
+Digesteds to process: 100
+Scanning wiki pages...
+Wiki pages found: 36
+Empresas with structured/: 4
+
+=== Phase 1: Planning (chunked) ===
+Chunking 100 digesteds into 2 chunk(s) of up to 50 each (per-chunk timeout: 900s)
+
+  [chunk 1/2] 50 digesteds — invoking planner...
+    OK: create=1 update=1 skip=18
+  [chunk 2/2] 50 digesteds — invoking planner...
+    FAILED parsing chunk JSON — skipping chunk
+
+Chunks complete: 1 ok, 1 failed
+Merging 1 chunk plans...
+
+Merged plan: create=1, update=1, skip=18
+
+=== Phase 2: Execution ===
+  [update] cury.md (entity)
+  [create] cyrela_vs_cury.md (comparison)
+
+
+=== Wiki update complete ===
+  Created: 1 pages
+  Updated: 1 pages
+  Skipped: 18 pages
+=== exit: 0 at Mon Apr 20 10:06:46     2026 ===

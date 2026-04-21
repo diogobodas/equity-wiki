@@ -1,9 +1,9 @@
 ---
 type: entity
 aliases: [Construtora Tenda, Tenda, TEND3, Alea]
-sources: [full/tenda/1T26/previa_operacional.md, structured/tenda/1T26/previa_operacional.json, full/tenda/data_pack_1T26.md, structured/tenda/{1T11..1T26}/data_pack.json, full/tenda/2025/dfp.md, structured/tenda/2025/dfp.json, full/tenda/2024/dfp.md, structured/tenda/2024/dfp.json, full/tenda/2023/dfp.md, structured/tenda/2023/dfp.json, full/tenda/1T25/itr.md, structured/tenda/1T25/itr.json, full/tenda/2T25/itr.md, structured/tenda/2T25/itr.json, full/tenda/3T25/itr.md, structured/tenda/3T25/itr.json, full/tenda/1T24/itr.md, structured/tenda/1T24/itr.json, full/tenda/2T24/itr.md, structured/tenda/2T24/itr.json, full/tenda/3T24/itr.md, structured/tenda/3T24/itr.json, full/tenda/1T25/release.md, structured/tenda/1T25/release.json, full/tenda/2T25/release.md, structured/tenda/2T25/release.json, full/tenda/3T25/release.md, structured/tenda/3T25/release.json, full/tenda/4T25/release.md, structured/tenda/4T25/release.json, full/tenda/4T23/release.md, structured/tenda/4T23/release.json, full/tenda/1T24/release.md, structured/tenda/1T24/release.json, full/tenda/2T24/release.md, structured/tenda/2T24/release.json, full/tenda/3T24/release.md, structured/tenda/3T24/release.json, full/tenda/4T24/release.md, structured/tenda/4T24/release.json, full/tenda/2T25/fato_relevante_904079.md, full/tenda/2T25/fato_relevante_907345.md, full/tenda/2T25/fato_relevante_913498.md, full/tenda/2T25/fato_relevante_913576.md, full/tenda/2T25/fato_relevante_914604.md, full/tenda/2T25/fato_relevante_917092.md, full/tenda/3T25/fato_relevante_930915.md, full/tenda/3T25/fato_relevante_930916.md, full/tenda/3T25/fato_relevante_934724.md, full/tenda/3T25/fato_relevante_934734.md, full/tenda/3T25/fato_relevante_952756.md, full/tenda/3T25/fato_relevante_952757.md, full/tenda/4T25/fato_relevante_963021.md, full/tenda/4T25/fato_relevante_979561.md, full/tenda/4T25/fato_relevante_981189.md, full/tenda/4T25/fato_relevante_983829.md, full/tenda/4T25/fato_relevante_986338.md, full/tenda/1T26/fato_relevante_1013789.md, full/tenda/2T26/fato_relevante_1025459.md]
+sources: [full/tenda/1T26/previa_operacional.md, structured/tenda/1T26/previa_operacional.json, full/tenda/data_pack_1T26.md, structured/tenda/{1T11..1T26}/data_pack.json, full/tenda/2025/dfp.md, structured/tenda/2025/dfp.json, full/tenda/2024/dfp.md, structured/tenda/2024/dfp.json, full/tenda/2023/dfp.md, structured/tenda/2023/dfp.json, full/tenda/1T25/itr.md, structured/tenda/1T25/itr.json, full/tenda/2T25/itr.md, structured/tenda/2T25/itr.json, full/tenda/3T25/itr.md, structured/tenda/3T25/itr.json, full/tenda/1T24/itr.md, structured/tenda/1T24/itr.json, full/tenda/2T24/itr.md, structured/tenda/2T24/itr.json, full/tenda/3T24/itr.md, structured/tenda/3T24/itr.json, full/tenda/1T25/release.md, structured/tenda/1T25/release.json, full/tenda/2T25/release.md, structured/tenda/2T25/release.json, full/tenda/3T25/release.md, structured/tenda/3T25/release.json, full/tenda/4T25/release.md, structured/tenda/4T25/release.json, full/tenda/4T23/release.md, structured/tenda/4T23/release.json, full/tenda/1T24/release.md, structured/tenda/1T24/release.json, full/tenda/2T24/release.md, structured/tenda/2T24/release.json, full/tenda/3T24/release.md, structured/tenda/3T24/release.json, full/tenda/4T24/release.md, structured/tenda/4T24/release.json, full/tenda/2T25/fato_relevante_904079.md, full/tenda/2T25/fato_relevante_907345.md, full/tenda/2T25/fato_relevante_913498.md, full/tenda/2T25/fato_relevante_913576.md, full/tenda/2T25/fato_relevante_914604.md, full/tenda/2T25/fato_relevante_917092.md, full/tenda/3T25/fato_relevante_930915.md, full/tenda/3T25/fato_relevante_930916.md, full/tenda/3T25/fato_relevante_934724.md, full/tenda/3T25/fato_relevante_934734.md, full/tenda/3T25/fato_relevante_952756.md, full/tenda/3T25/fato_relevante_952757.md, full/tenda/4T25/fato_relevante_963021.md, full/tenda/4T25/fato_relevante_979561.md, full/tenda/4T25/fato_relevante_981189.md, full/tenda/4T25/fato_relevante_983829.md, full/tenda/4T25/fato_relevante_986338.md, full/tenda/1T26/fato_relevante_1013789.md, full/tenda/2T26/fato_relevante_1025459.md, full/generic/notas/ceo_talks_osmo_tenda_27e00ca3.md, full/generic/notas/cury_cfo_tenda_28d00ca3.md, full/generic/notas/tenda_2f500ca3.md, full/generic/notas/tenda_cfo_19_11_2b000ca3.md, full/generic/notas/cyrela_call_cambauva_btg_1t26_33a00ca3.md]
 created: 2026-04-08
-updated: 2026-04-12
+updated: 2026-04-21
 ---
 
 # Tenda
@@ -17,7 +17,7 @@ updated: 2026-04-12
 A companhia opera em dois segmentos:
 
 - **Tenda (MCMV Faixa 1)** — core do negócio. Habitação popular subsidiada, preço médio de venda ~R$ 237 mil/unidade no 1T26 (fonte: structured/tenda/1T26/previa_operacional.json :: company_specific.segmentos.tenda_mcmv.vendas_brutas.preco_medio_unidade).
-- **Alea (SBPE)** — marca/subsidiária 100% Tenda, criada para diversificar a exposição para fora do MCMV. Atua em classe média-baixa via financiamento SBPE. Ticket médio ~R$ 198 mil/unidade no 1T26.
+- **Alea (SBPE)** — marca/subsidiária 100% Tenda, criada para diversificar a exposição para fora do MCMV. Atua em classe média-baixa via financiamento SBPE. Ticket médio ~R$ 198 mil/unidade no 1T26. Usa tecnologia woodframe/industrializada com fábrica em Jaguariúna (SP), capacidade de ~10 mil casas/ano; ~80% do processo produtivo ocorre na fábrica, com ~1/4 da mão de obra no canteiro vs. Tenda (fonte: full/generic/notas/ceo_talks_osmo_tenda_27e00ca3.md §Modelo de Negócio e Diferenciais Competitivos). A marca é referenciada internamente como "Léa" em algumas comunicações; no financeiro é sempre "Alea".
 
 O consolidado Tenda+Alea é o que a empresa reporta como "Consolidado" em todas as tabelas. Alea representa ~21% do [[banco_de_terrenos|banco de terrenos]] consolidado em VGV (fonte: full/tenda/1T26/previa_operacional.md §destaques_alea).
 
@@ -43,6 +43,8 @@ Dados da [[#prévia operacional 1t26|prévia operacional 1T26]], divulgada em 07
 - Banco de terrenos R$ 6,2 bi, 98% em permuta.
 
 **Consolidado:** VGV lançado R$ 1.456,6 mm, vendas brutas R$ 1.701,0 mm, vendas líquidas R$ 1.533,0 mm, VSO líquida 27,6%, banco de terrenos R$ 29,7 bi.
+
+**Contexto sell-side (pré-resultado):** Call BTG Cambauva (06/abr/2026) esperava vendas líquidas consolidadas de ~R$ 1,5 bi — atingido. Tese do analista: "Cara melhor" entre os peers de real estate (fonte: full/generic/notas/cyrela_call_cambauva_btg_1t26_33a00ca3.md).
 
 ## Evolucao trimestral 2025 (1T25–4T25)
 
@@ -178,12 +180,54 @@ Divulgado no release do 4T25 (fonte: full/tenda/4T25/release.md §guidance):
 | Metrica | Guidance 2026 |
 |---|---|
 | EBITDA ajustado Tenda | R$ 950-1.050 mm |
+| EBITDA ajustado Alea | R$ (70)-(50) mm |
 | Vendas liquidas Tenda | R$ 5,0-5,5 bi |
 | Vendas liquidas Alea | R$ 350-450 mm |
 | Resultado liquido consolidado | R$ 520-600 mm |
-| Consumo caixa Alea | R$ 60-80 mm |
+| FCO Alea (consumo caixa) | R$ (80)-(60) mm |
+
+Fontes: (fonte: full/tenda/4T25/fato_relevante_981189.md), (fonte: full/tenda/4T25/release.md §guidance).
 
 O EBITDA ajustado marca Tenda no 4T25 anualizado ja tangencia R$ 941 mm, proximo ao piso do guidance 2026 (fonte: full/tenda/4T25/release.md §marca_tenda).
+
+## Gestao e estrategia de longo prazo
+
+Informacoes extraidas de reunioes com CEO Rodrigo Osmo e CFO Luiz Mauricio de Garcia entre set/2025 e mar/2026.
+
+### Targets de volume e mix
+
+- Meta de longo prazo: **~30 mil unidades/ano**, crescimento concentrado em Rio de Janeiro e Sao Paulo (fonte: full/generic/notas/tenda_cfo_19_11_2b000ca3.md §Financial Outlook).
+- Guidance operacional 2026 (interno): ~26 mil unidades (+7,5% em volume), +5% inflacao de precos, +5% melhora de mix → crescimento de ~15% em VGV (fonte: full/generic/notas/tenda_cfo_19_11_2b000ca3.md §Financial Outlook).
+- Mix-alvo de faixas: **~1/3 em cada faixa** (Faixa 1, Faixa 2, Faixa 3). Faixa 3 e descrita como mercado pouco explorado fora de Rio e SP, especialmente em casas/loteamento (fonte: full/generic/notas/tenda_cfo_19_11_2b000ca3.md §Geographic Strategy).
+- Mix corrente da Tenda (set/2025): **60% Faixa 1, 30% Faixa 2, 10% Faixa 3** — posicionamento favoravel em cenario de corte de orcamento FGTS, que historicamente prioriza faixas mais baixas (fonte: full/generic/notas/ceo_talks_osmo_tenda_27e00ca3.md §Perspectivas Futuras).
+
+### Politica de alocacao de capital
+
+- Alavancagem-alvo declarada: **DL/equity entre -10% e +10%** (fonte: full/generic/notas/ceo_talks_osmo_tenda_27e00ca3.md §Perspectivas Futuras).
+- Preferencia atual: **recompra de acoes** sobre dividendos, dada a eficiencia tributaria e nivel de alavancagem baixo.
+- Empresa nao precisa de muito caixa para crescer no modelo atual — escala via permuta e repasse via Caixa reduz necessidade de capital proprio (fonte: full/generic/notas/ceo_talks_osmo_tenda_27e00ca3.md).
+
+### Desafio em Sao Paulo
+
+Em SP, mudanca de gabarito estrutural no plano diretor elevou o potencial construtivo de 3–4x para 11x a area do terreno, favorecendo players com construcao em alvenaria estrutural ([[cury|Cury]], [[mrv|Plano&Plano]]) que cresceram ~3x nos ultimos 3 anos. A Tenda opera com parede de concreto (maior escala, menor flexibilidade de planta em lotes pequenos), nao pretende migrar de tecnologia; o objetivo e conter a perda de share via adequacao de produtos (fonte: full/generic/notas/tenda_cfo_19_11_2b000ca3.md §Geographic Strategy; full/generic/notas/ceo_talks_osmo_tenda_27e00ca3.md §Perspectivas Futuras).
+
+### Expansao geografica
+
+- **Nordeste crescendo**: nova operacao em **Joao Pessoa** (primeiro empreendimento na Paraiba lancado em mar/2026), crescimento no Ceara (fonte: full/generic/notas/tenda_cfo_19_11_2b000ca3.md §Geographic Strategy; full/tenda/1T26/previa_operacional.md §destaques_tenda).
+- **Retorno a Curitiba** apos mudanca no plano diretor (anteriormente muito restritivo para HIS) (fonte: full/generic/notas/tenda_cfo_19_11_2b000ca3.md §Geographic Strategy).
+- **Rio de Janeiro**: nova legislacao (2025-2026) melhorou condicoes para MCMV — novos alvaras para condomínios de casas na zona oeste, mudancas na zona norte e centro. A Tenda nao ve empreendimentos abaixo de R$ 250 mil viavel no Rio, dadas restricoes do governo municipal (fonte: full/generic/notas/tenda_2f500ca3.md §Rio de Janeiro; full/generic/notas/cury_cfo_tenda_28d00ca3.md §rio).
+
+### Qualidade de credito e PDD
+
+- PDD corrente: **~2,2%** da receita bruta (vs ~3% expectativa de longo prazo) (fonte: full/generic/notas/tenda_cfo_19_11_2b000ca3.md §Margin Discussion).
+- Inadimplencia: caiu de 14% para **8–10%**, com cobertura de 22–23% da carteira (fonte: full/generic/notas/tenda_cfo_19_11_2b000ca3.md §Margin Discussion).
+- 9% do portfolio estava em "pro-soluto" (pre-chaves) em jan/2026; carteira pro-soluto corrigida pelo IPCA (fonte: full/generic/notas/tenda_2f500ca3.md §MCMV).
+
+### MCMV — resiliencia estrutural
+
+O FGTS orca R$ 125 bi para habitacao em 2025 e tem obrigacao legal de alocar >=60% em habitacao popular. Producao historica do programa: 300-500 mil unidades/ano. Deficit habitacional estimado: 6,2 milhoes de familias (fonte: full/generic/notas/ceo_talks_osmo_tenda_27e00ca3.md §Programa Minha Casa Minha Vida).
+
+Cotistas FGTS de Faixa 1 acessam credito de 35 anos a TR+4,5%, o que protege a demanda de variacoes da taxa Selic — diferencial critico vs. SBPE (fonte: full/generic/notas/ceo_talks_osmo_tenda_27e00ca3.md).
 
 ## Eventos-chave em 2025
 
@@ -196,6 +240,17 @@ No 2T25, a empresa decidiu concentrar operacoes em apenas 3 manchas em SP e revi
 No 4T25, o desvio de custo acumulou R$ 99,0 mm no ano (R$ 55,0 mm so no 4T25) para conclusao de obras legado, com provisao contabil de 13,9% sobre custo projetado (vs 11,2% na Tenda). Havia 25 canteiros ativos (10 Alea + 15 Casapatio), com inicio da verticalizacao. O consumo de caixa (part. Tenda) reduziu de R$ 61,8 mm no 2T25 para R$ 16,8 mm no 4T25 — sinal de que o "freio" esta funcionando no fluxo de caixa (fonte: full/tenda/4T25/release.md §alea).
 
 Apesar das dificuldades de margem, a demanda pela Alea permanece intacta: VSO liquida de 35% no 3T25 e 38% no 4T25, com preco medio subindo +5% T/T no 3T25 (fonte: full/tenda/3T25/release.md §alea).
+
+**Diagnostico e alvos de recuperacao (CFO, out/2025 e nov/2025):**
+
+- Tese original da Alea foi considerada errada pela propria gestao: operacao espalhada com dependencia de empreiteiras externas que nao entregaram produtividade e prazo (fonte: full/generic/notas/cury_cfo_tenda_28d00ca3.md §alea_diagnostico).
+- Novo modelo: maior verticalizacao da mao de obra + sequenciamento concentrado. Meta: 100% das obras verticalizadas (vs 50% em set/2025). Em nov/2025, >50% da mao de obra ja estava contratada no modelo verticalizado; obras acima de ~30% de avanco seguem no modelo antigo ate conclusao (fonte: full/generic/notas/tenda_cfo_19_11_2b000ca3.md §Metodologia Construtiva).
+- Lançamentos Alea 2026: **~4.500 unidades em 3 manchas concentradas em SP** (fonte: full/generic/notas/cury_cfo_tenda_28d00ca3.md §alea_lancamentos).
+- **Meta de MBA Alea**: ~20% ao final de 2026 (ponto de breakeven de lucro e caixa) (fonte: full/generic/notas/cury_cfo_tenda_28d00ca3.md §alea_meta).
+- **Custo de construcao Alea**: atual ~R$ 120 mil/unidade; meta ~R$ 100 mil (fonte: full/generic/notas/cury_cfo_tenda_28d00ca3.md §alea_custo). Aco representa 7% do custo, concreto 10%.
+- **Breakeven de escala**: Alea se torna rentavel a partir de 6.000 unidades/ano (fonte: full/generic/notas/tenda_2f500ca3.md §Alea).
+- Margem esperada quando Alea atingir 100% de verticalizacao: ao menos 30% (fonte: full/generic/notas/tenda_cfo_19_11_2b000ca3.md §Metodologia Construtiva).
+- 4T25 foi descrito pelo CFO como "the worst moment" — sobreposicao de obras legado (modelo antigo) com implantacao simultanea da verticalizacao. Melhora gradual de margem esperada a partir do 1T26, com ciclo de obras legado se encerrando ate meados de 2027 (fonte: full/generic/notas/tenda_cfo_19_11_2b000ca3.md §Segmentos de Negocio).
 
 ### SWAP TRS sobre acoes TEND3
 
@@ -239,7 +294,11 @@ Renuncia do conselheiro independente Bernardo Werther de Araujo (Board + Comite 
 
 Em abril/2025, o FGTS aprovou melhorias no MCMV: atualizacao de faixas de renda (Faixa 1 ate R$ 2.850), criacao da [[mcmv_faixa_4|Faixa 4]] (renda ate R$ 12 mil, imovel ate R$ 500 mil, taxa 10% a.a.), e ampliacao de limites de preco do imovel. Mudancas estruturalmente positivas para o mercado enderecavel da Tenda (fonte: full/tenda/1T25/release.md §mcmv).
 
+Ajuste de faixas: municipios com ate 100 mil habitantes tiveram o limite do imovel elevado de R$ 190 mil para R$ 230 mil — beneficia diretamente a Alea (Lea) em cidades medias. A correcao de faixa de renda de R$ 2.850 → R$ 3.000 equivale a ~R$ 2.000 a mais no preco de venda por unidade (fonte: full/generic/notas/cury_cfo_tenda_28d00ca3.md §subsidios; full/generic/notas/ceo_talks_osmo_tenda_27e00ca3.md §Perspectivas Futuras).
+
 Adicionalmente, a [[reforma_tributaria|reforma tributaria]] (CBS a partir de 2027) e vista como positiva pela administracao (fonte: full/tenda/4T25/release.md §temas_chave).
+
+**Cheques regionais:** 71 mil repasses realizados com cheques regionais no periodo recente, crescimento de +40% A/A. O Ceara enfrentou saldo negativo de ~R$ 71 mm no 1S25 mas reverteu para +R$ 50 mm no 3T25 com expansao do programa. Resolucao aprovada para permitir municipios participar do programa de cheques (fonte: full/generic/notas/tenda_2f500ca3.md §MCMV).
 
 ## Arco historico 2020–2025 — ciclo de quase-quebra e turnaround
 
@@ -277,6 +336,10 @@ Fontes: `structured/tenda/{ano}/data_pack.json :: canonical.dre` e `canonical.fi
 4. **Repasse como driver de caixa** — Tenda vincula explicitamente geração de caixa ao volume de repasses, não à margem nominal. Modelar fluxo de caixa operacional usando repasse efetivo, não receita POC.
 
 5. **Alea em "transição de mix"** — lançamentos caindo em VGV mas VSO subindo forte: indica queima de estoque acumulado, não expansão. Atenção para quando o fluxo de lançamentos SBPE será retomado.
+
+6. **Desvantagem estrutural em SP vs. concorrentes de alvenaria estrutural.** Mudança do plano diretor paulistano elevou o potencial construtivo de 3–4x para 11x, beneficiando tecnologias mais flexíveis (alvenaria estrutural, como Cury e Plano&Plano). A Tenda (parede de concreto) não pretende migrar de tecnologia — a parede de concreto exige blocos de fundição que não se adaptam bem a lotes pequenos. Isso limita o crescimento em SP até que novos produtos ou terrenos maiores sejam viabilizados (fonte: full/generic/notas/tenda_cfo_19_11_2b000ca3.md §Geographic Strategy; full/generic/notas/ceo_talks_osmo_tenda_27e00ca3.md §Perspectivas Futuras).
+
+7. **Gap de margem bruta vs. peers tem explicacao tecnica.** O CFO decompoe o gap de ~4 p.p. em: (i) diferenca contabil (~1,5–2 p.p.) — concorrentes nao deduzem TVB/Monumentos do bruto; (ii) ausencia da Faixa 4 na Tenda (margens superiores); (iii) maior despesa financeira (~R$ 200–300 mm/ano, ~5% da receita) por estrutura de capital diferente. A MBA "ajustada" da Tenda ficaria em ~39% na comparacao com [[cury|Cury]] e [[direcional|Direcional]] (fonte: full/generic/notas/cury_cfo_tenda_28d00ca3.md §margem; full/generic/notas/tenda_cfo_19_11_2b000ca3.md §Margin Discussion).
 
 ## Governança e IR
 
@@ -435,11 +498,17 @@ Digeridos ate agora:
 - **Releases de resultados 1T25, 2T25, 3T25, 4T25** — MD&A completo, operacional, guidance, segmentacao Tenda/Alea.
 - **Fatos relevantes 2T25–2T26** — 19 fatos cobrindo debentures (12a e 13a emissoes), cessao pro-soluto de recebiveis (CRI Opea), liquidacoes parciais de derivativos (SWAP TRS), dividendos, recompra de acoes, guidance 2026 e governanca.
 
+Fontes Notion digeridas:
+- **CEO Talks — Rodrigo Osmo (XP Expert Talks, set/2025)** — historico da Tenda, modelo de negocio, MCMV, Alea/Lea (woodframe), mix de faixas, politica de capital.
+- **Reuniao com CFO (out/2025)** — VSO, volume, margens potenciais Tenda e Alea, plano de recuperacao Alea (4.500 un, 3 manchas SP), custo construcao Alea, perfil de cliente.
+- **Reuniao com CFO (19/nov/2025)** — segmentos, metodologia construtiva, expansao geografica, projecoes 2026, gap de margem vs peers, PDD, estrutura de capital.
+- **Reuniao com management/IR (jan-mar/2026)** — MCMV/cheques regionais, Ceara, atrasos de obra (elevadores/Enel), crescimento, Alea breakeven.
+- **Call BTG Cambauva (abr/2026)** — expectativas sell-side para 1T26; Tenda classificada como "Cara melhor".
+
 Ainda faltam:
 - **Release completo do 1T26** (MD&A, release narrativo — o data pack nao cobre o 1T26 financeiro porque o release fechado ainda nao saiu).
 - **ITR 4T25** — nao publicado separadamente (DFP 2025 cobre o ano fechado).
 - **ITR 4T24** — nao publicado separadamente (DFP 2024 cobre o ano fechado).
-- **Apresentacoes institucionais** e **transcripts de call**.
 
 ## Histórico operacional disponível
 

@@ -1,0 +1,30 @@
+---
+source: notion
+notion_page_id: ee200ca3-2bce-83ce-86fe-01ad2ab1d124
+notion_url: https://www.notion.so/Tech-Day-Inter-13-05-ee200ca32bce83ce86fe01ad2ab1d124
+title: "Tech Day Inter 13/05"
+created: 2024-05-13T19:07:00.000Z
+edited: 2024-05-13T19:07:00.000Z
+empresa: inter
+tags:
+  - "AI"
+  - "Inter"
+---
+
+# Tech Day Inter 13/05
+
+AWS é o cloud provider do inter.
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/d562b357-a3b5-4db6-a0aa-9fec5381d0b4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663EGPC33U%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T074028Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAcaCXVzLXdlc3QtMiJHMEUCIQDv9I%2FgJ6Rjbu4z7j6QlkFZCzyzqV5qi5tP%2F0A4Lu3INgIgF14PWwk%2FxaeZ1ONHWqK%2BtlmBF5Rz8ir%2BS%2FEVTH0gkNQqiAQI0P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJNH4XVPLUetU9a2SSrcAwUNA6lp3G5FOw3QrV95hjvJGQiAf5lRlU4ESzDkL7WtA%2BiVWc6JYt55dhE%2FeQh5V2d6x0H75n45%2FbIR1mD58owJz%2F44%2BlqvfORG8fH9T9%2Fv1LoSZMG4CZudq9cKF3tEKILWHhAeltvAi5GlsFwR6Tq9qyqI330rVxjFGTtKk60NxzamVItR97dA%2FCyExM1Tfpxkv0Irp7o5jgRbRuDchUdCBNjqlRl%2FWQ8nisqNrrdCA%2BbhJPKiIipFJ1t1nGOPxMyXQ9eIFctXU9wELRuSOuyYz3pwcU8HjEBQ1WQBMyPg%2Bq6U8g%2BNkQ4Y1qK2D7eBcDtSfIFVWjfZv22J0b9x0oHLUq1Wu5hHTYEiFANvpY6SqYiODJ1AgpX4BffPTe8X7IR9Nlkr5VNjZOfSuBco2sC2AsEqx3JqURTIT5jQbmC3T1P6D%2FGU71sUrmAkrlnG4PYSGL4VsF1t%2Bd42Qe7HzZI5V2kNAHfNz65xixzbk6qBkgzBebMOIn8SswRGf8FDxkdQGaRhjbHS48v8%2BIRixxbZ6Jh91NRrCAS8l7yDflRlbl97vxpFl4YijGUy6ka4KBMYUcxzaqfOQWljQwpipyrgSyxG5lwh%2FyWV4qtVFUq5xfaHR8mKK5JwLsN%2FMJy4h88GOqUBci9BdffiXVUf96N6Y6nvduT4%2FCsXZ9YPoVFahZEo3lDBFCEubzzSjyACCDeTlrVGtEQFXPA2kNTcn49K22Ot3OnsjIc1Yxa%2FPc1ZmaEjeGnTOFy%2BMM4bFxpJdVP8O6tWhGmflaBhA0PcPqUaTCjTdzHBPpY%2BTcZ6BnCJlvfsdBkjDTMdEpshykQS54YSRL%2BfUIYbmvhvvPxSzNUUtTjjbC7Z1p3V&X-Amz-Signature=22605f6e08dece13956b9582d41fb475b4109852ce9277e88c58d93531e39b06&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+300 logins per socnd.
+
+More than 8.7 million logins per day.
+
+350 pix per seconds.
+
+Consegue ver bem onde cada cliente vai e pode direcionar as ofertas.
+
+Intergpt.
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/b61e46b8-a26a-45d3-a863-9c781e053656/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663EGPC33U%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T074028Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAcaCXVzLXdlc3QtMiJHMEUCIQDv9I%2FgJ6Rjbu4z7j6QlkFZCzyzqV5qi5tP%2F0A4Lu3INgIgF14PWwk%2FxaeZ1ONHWqK%2BtlmBF5Rz8ir%2BS%2FEVTH0gkNQqiAQI0P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJNH4XVPLUetU9a2SSrcAwUNA6lp3G5FOw3QrV95hjvJGQiAf5lRlU4ESzDkL7WtA%2BiVWc6JYt55dhE%2FeQh5V2d6x0H75n45%2FbIR1mD58owJz%2F44%2BlqvfORG8fH9T9%2Fv1LoSZMG4CZudq9cKF3tEKILWHhAeltvAi5GlsFwR6Tq9qyqI330rVxjFGTtKk60NxzamVItR97dA%2FCyExM1Tfpxkv0Irp7o5jgRbRuDchUdCBNjqlRl%2FWQ8nisqNrrdCA%2BbhJPKiIipFJ1t1nGOPxMyXQ9eIFctXU9wELRuSOuyYz3pwcU8HjEBQ1WQBMyPg%2Bq6U8g%2BNkQ4Y1qK2D7eBcDtSfIFVWjfZv22J0b9x0oHLUq1Wu5hHTYEiFANvpY6SqYiODJ1AgpX4BffPTe8X7IR9Nlkr5VNjZOfSuBco2sC2AsEqx3JqURTIT5jQbmC3T1P6D%2FGU71sUrmAkrlnG4PYSGL4VsF1t%2Bd42Qe7HzZI5V2kNAHfNz65xixzbk6qBkgzBebMOIn8SswRGf8FDxkdQGaRhjbHS48v8%2BIRixxbZ6Jh91NRrCAS8l7yDflRlbl97vxpFl4YijGUy6ka4KBMYUcxzaqfOQWljQwpipyrgSyxG5lwh%2FyWV4qtVFUq5xfaHR8mKK5JwLsN%2FMJy4h88GOqUBci9BdffiXVUf96N6Y6nvduT4%2FCsXZ9YPoVFahZEo3lDBFCEubzzSjyACCDeTlrVGtEQFXPA2kNTcn49K22Ot3OnsjIc1Yxa%2FPc1ZmaEjeGnTOFy%2BMM4bFxpJdVP8O6tWhGmflaBhA0PcPqUaTCjTdzHBPpY%2BTcZ6BnCJlvfsdBkjDTMdEpshykQS54YSRL%2BfUIYbmvhvvPxSzNUUtTjjbC7Z1p3V&X-Amz-Signature=7f6921ec3d025a0941455630a3f949298d2e1294f5af3144bee648eccb2e7da5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)

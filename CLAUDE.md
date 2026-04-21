@@ -27,6 +27,24 @@ bash tools/fetch.sh TEND3 --discover
 
 Requires CVM-API running at localhost:8100 (`cd ../CVM-API && uvicorn main:app --reload --port 8100`).
 
+### Fetch pages from Notion Capstone
+
+```bash
+# List pages with no-op (count + first 20)
+bash tools/fetch_notion.sh --discover
+
+# Fetch all new-or-edited pages into sources/undigested/
+bash tools/fetch_notion.sh
+
+# Only fetch N pages this run (recommended for first batches)
+bash tools/fetch_notion.sh --limit 10
+
+# Force a single page by id (bypasses state filter)
+bash tools/fetch_notion.sh --page <notion_page_id>
+```
+
+Requires `NOTION_TOKEN` in env or `.env` at repo root. Config at `sources/manifests/_notion.json`. State (pages processed, keyed by `last_edited_time`) persists to `sources/manifests/_notion_state.json` — rerunning the fetcher only surfaces pages whose `last_edited_time` is newer than what we've seen. Writes frontmattered markdown to `sources/undigested/notion_<slug>.md`. Does NOT mark pages in Notion; the loop closes locally via state file when `ingest.sh --notion` completes successfully.
+
 ### Fetch call transcripts from YouTube
 
 ```bash
@@ -62,6 +80,9 @@ bash tools/ingest.sh TEND3 --concurrency 4
 
 # Ingest a generic source (spreadsheet, research report, etc.) — no ticker
 bash tools/ingest.sh --generic planilha_setor.xlsx
+
+# Ingest a single Notion page previously staged by fetch_notion.sh
+bash tools/ingest.sh --notion sources/undigested/notion_<slug>.md
 ```
 
 Pipeline: PDF extraction → copy extracted to `full/` → `claude --print` agents produce `structured/` + `digested/` → manifest update → append `[wiki-queue]` to `log.md` → cleanup.
@@ -92,6 +113,26 @@ bash tools/reingest_full.sh CURY3 --horizon 3y
 ```
 
 Downloads directly via `cvm_fetch.py` (bypasses manifest/fetch agent). Does NOT re-generate `structured/` or `digested/`.
+
+### Number Guard — validate numbers in a digest against the cited source
+
+```bash
+python tools/lib/number_guard.py check sources/digested/notion_<slug>_summary.md
+```
+
+Parses every PT-BR number claim in the digest (`28,5%`, `R$ 1,2 bi`, `R$ 1.234 milhões`, `1.234.567`, `(245)` for negatives). For each claim, resolves the nearest preceding `(fonte: full/...)` citation, extracts and normalizes all numbers in that source, and compares:
+
+- **MATCH_STRICT** — value within tolerance AND at least one non-trivial keyword overlaps between claim context and source context.
+- **MATCH_LOOSE** — value within tolerance but no keyword overlap. Not marked inline; listed in report.
+- **NO_MATCH** — no value within tolerance, or no citation anchor, or source file missing. Inserts ` [?]` after the claim in the digest + appears in report.
+
+Tolerances: `±0,5 pp` absolute for percentuais, `±0,5 %` relative for monetário/inteiro. Unit normalization handles `bi|mm|mil|milhões`, PT-BR thousands-dot + decimal-comma, dot-decimal fallback, and parens-negative `(245) ≡ -245`.
+
+Skipped (reduce false positives): YAML frontmatter, `(fonte: …)` spans, dates (`YYYY-MM-DD`, `DD/MM/YYYY`, standalone years 19xx/20xx), ordered-list and numbered-heading markers (`## 2. …`), bare digits glued to letters (`3T25`, `K6-2`).
+
+Called automatically by `ingest.sh --notion` after the digest is produced, before enqueue. v1 covers Notion only — retrofit for CVM/calls is a future sprint.
+
+Unit tests: `python -m pytest tests/test_number_guard.py` (6 acceptance cases from the design spec).
 
 ### Query data
 
@@ -159,6 +200,7 @@ Layer details, field semantics, and manifest shape are defined in `SCHEMA.md`.
 tools/
 ├── fetch.sh                    # orchestrator: CVM fetch → sources/undigested/
 ├── fetch_calls.sh              # orchestrator: YouTube channel → captions → sources/undigested/
+├── fetch_notion.sh             # orchestrator: Notion Capstone DB → sources/undigested/
 ├── ingest.sh                   # orchestrator: undigested/ → full/ + structured/ + digested/ + queue
 ├── ingest_calls.sh             # orchestrator: call transcripts → full/ + digested/ + queue
 ├── wiki_update.sh              # orchestrator: digesteds → wiki pages (two-phase: plan + execute)
@@ -170,6 +212,8 @@ tools/
 │   ├── file_extract.py          # PDF/XLSX/DOCX/PPTX → markdown (opendataloader/pdfplumber/markitdown)
 │   ├── manifest_rebuild.py     # rebuild manifest coverage+sources[] from disk (handles all empresas except Tenda)
 │   ├── manifest_update.py      # programmatic manifest updates (coverage, sources, precedence)
+│   ├── notion_fetch.py         # Notion API client: list/fetch pages, state tracking, markdown conversion
+│   ├── number_guard.py         # number validator: digest claims vs cited source (CLI: check <digest>)
 │   ├── pdf_extract.py          # PDF → markdown via pdfplumber (fallback extractor)
 │   ├── reingest_download.py    # helper for reingest: downloads docs from CVM list JSON via stdin
 │   ├── vtt_to_markdown.py      # WebVTT → markdown with sparse [mm:ss] anchors (used by fetch_calls.sh)
@@ -182,6 +226,7 @@ tools/
     ├── ingest_light.md         # system prompt for light ingest — reads full/, produces digested/ only
     ├── ingest_generic.md       # system prompt for generic (non-CVM) source ingest
     ├── ingest_call_transcript.md # system prompt for call-transcript ingest (qualitative digest)
+    ├── ingest_notion.md        # system prompt for Notion-note ingest (qualitative, anti-hallucination rules)
     ├── wiki_plan.md            # system prompt for wiki update planning phase
     ├── wiki_write.md           # system prompt for wiki page creation/update
     └── query_system.md         # system prompt for data query agent

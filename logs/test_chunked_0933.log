@@ -1,0 +1,17 @@
+=== chunked test: 100 digests, chunk_size=50, expect 2 chunks ===
+=== Wiki Update ===
+Mode: full (all digesteds)
+
+Digesteds to process: 100
+Scanning wiki pages...
+Wiki pages found: 36
+Empresas with structured/: 4
+
+=== Phase 1: Planning (chunked) ===
+Chunking 100 digesteds into 2 chunk(s) of up to 50 each (per-chunk timeout: 900s)
+
+  [chunk 1/2] 50 digesteds — invoking planner...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/wiki_plan_chunks_Y27pSg/chunk_001.json'
+=== exit: 0 at Mon Apr 20 09:41:02     2026 ===

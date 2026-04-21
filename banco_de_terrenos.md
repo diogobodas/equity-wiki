@@ -8,11 +8,14 @@ sources:
   - sources/digested/cury_release_4T25_summary.md
   - sources/digested/direcional_previa_operacional_1T26_summary.md
   - sources/digested/direcional_release_4T25_summary.md
+  - sources/digested/direcional_release_3T25_summary.md
+  - sources/digested/direcional_release_3T24_summary.md
   - sources/digested/cyrela_release_4T25_summary.md
   - sources/digested/cyrela_previa_4T25_summary.md
   - sources/digested/cyrela_dados_operacionais_summary.md
+  - sources/digested/notion_abecip_bbi_4fc00ca3_summary.md
 created: 2026-04-08
-updated: 2026-04-13
+updated: 2026-04-21
 ---
 
 # Banco de Terrenos
@@ -34,6 +37,8 @@ Conjunto de terrenos já adquiridos (ou contratados) por uma incorporadora para 
 
 Um landbank grande não é necessariamente bom — terrenos podem ficar *encalhados* se a empresa não consegue obter aprovação ou financiar a obra. Por isso, incorporadoras mais disciplinadas atrelam pagamentos em caixa à aprovação do registro de incorporação.
 
+O ambiente de crédito imobiliário também afeta o landbank indiretamente: num cenário de contração do [[sbpe]] (como sinalizado pela Abecip em dez/2024, quando a associação projetou redução significativa do crédito imobiliário por problemas de funding), incorporadoras com landbanks grandes precisam ajustar ritmo de lançamentos ou migrar para financiamento via [[debentures|CRI]] como substituto (fonte: digested/notion_abecip_bbi_4fc00ca3_summary.md).
+
 ## Comparativo entre incorporadoras
 
 | Empresa | VGV Landbank (R$ bi) | Unidades | % Permuta | Período |
@@ -48,6 +53,19 @@ Todas as quatro empresas encerraram o período mais recente com landbank em pata
 ### Direcional — maior landbank do setor
 
 A [[direcional]] lidera com folga: R$ 60,0 bi em VGV potencial (R$ 54,8 bi %Cia.), 246 mil unidades, com custo de aquisição de apenas 11% do VGV e 87% via permuta (fonte: digested/direcional_previa_operacional_1T26_summary.md). O landbank divide-se em Direcional (R$ 41,2 bi, 199 mil un) e [[riva]] (R$ 18,7 bi, 47 mil un). No 1T26, adquiriu 7 novos terrenos com VGV de R$ 2,3 bi (custo 14%, 85% permuta) (fonte: digested/direcional_previa_operacional_1T26_summary.md).
+
+#### Evolução histórica do landbank Direcional
+
+| Período | VGV Landbank (R$ bi) | Unidades | % Permuta | Custo / VGV |
+|---|---|---|---|---|
+| 3T24 | 43,2 | ~206 mil | 85% | 11% |
+| 3T25 | 51,3 | 220 mil | 86% | — |
+| 4T25 | 58,5 | 241 mil | 87% | 11% |
+| 1T26 | 60,0 | 246 mil | 87% | 11% |
+
+(fontes: digested/direcional_release_3T24_summary.md, digested/direcional_release_3T25_summary.md, digested/direcional_release_4T25_summary.md, digested/direcional_previa_operacional_1T26_summary.md)
+
+A disciplina de custo (11% do VGV ao longo de todo o período) e a estabilidade do % permuta (~85–87%) ao longo de 6 trimestres evidenciam consistência na política de aquisição, mesmo com crescimento de ~39% no VGV do landbank em apenas 18 meses.
 
 ### Tenda — recorde consolidado com alta permuta
 

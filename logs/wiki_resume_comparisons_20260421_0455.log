@@ -1,0 +1,35 @@
+=== Wiki Phase 2 Resume (parallel, concurrency=1) ===
+Plan: logs/wiki_plan_merged_20260420.json
+
+ALL_PAGES context: 87 pages
+Building work list...
+Pages to write: 27 (skipped existing: 52)
+
+=== Phase 2: Execution (parallel x1) ===
+  [update] direcional.md (entity)
+    OK [update direcional.md]
+  [update] riva.md (entity)
+    OK [update riva.md]
+  [update] b3.md (entity)
+    OK [update b3.md]
+  [update] banco_pan.md (entity)
+    OK [update banco_pan.md]
+  [update] smartfit.md (entity)
+    OK [update smartfit.md]
+  [update] bradesco.md (entity)
+    OK [update bradesco.md]
+  [update] weg.md (entity)
+    OK [update weg.md]
+  [update] cury.md (entity)
+    OK [update cury.md]
+  [update] cyrela.md (entity)
+    OK [update cyrela.md]
+  [update] tenda.md (entity)
+    OK [update tenda.md]
+  [update] alea.md (entity)
+    OK [update alea.md]
+  [update] Melnick.md (entity)
+    OK [update Melnick.md]
+  [update] unidas.md (entity)
+    OK [update unidas.md]
+  [update] nubank.md (entity)

@@ -1,0 +1,188 @@
+=== Wiki Update ===
+Mode: full (all digesteds)
+
+Digesteds to process: 656
+Scanning wiki pages...
+Wiki pages found: 37
+Empresas with structured/: 4
+
+=== Phase 1: Planning (chunked) ===
+Chunking 656 digesteds into 14 chunk(s) of up to 50 each (per-chunk timeout: 1200s)
+
+  [chunk 1/14] 50 digesteds — invoking planner...
+    OK: create=1 update=0 skip=15
+  [chunk 2/14] 50 digesteds — invoking planner...
+    OK: create=1 update=3 skip=14
+  [chunk 3/14] 50 digesteds — invoking planner...
+    OK: create=10 update=11 skip=27
+  [chunk 4/14] 50 digesteds — invoking planner...
+    OK: create=11 update=6 skip=31
+  [chunk 5/14] 50 digesteds — invoking planner...
+    OK: create=10 update=16 skip=21
+  [chunk 6/14] 50 digesteds — invoking planner...
+    OK: create=6 update=8 skip=27
+  [chunk 7/14] 50 digesteds — invoking planner...
+    FAILED parsing chunk JSON — skipping chunk
+  [chunk 8/14] 50 digesteds — invoking planner...
+    OK: create=8 update=4 skip=48
+  [chunk 9/14] 50 digesteds — invoking planner...
+    OK: create=4 update=2 skip=45
+  [chunk 10/14] 50 digesteds — invoking planner...
+    OK: create=5 update=5 skip=9
+  [chunk 11/14] 50 digesteds — invoking planner...
+    OK: create=5 update=6 skip=31
+  [chunk 12/14] 50 digesteds — invoking planner...
+    OK: create=2 update=7 skip=15
+  [chunk 13/14] 50 digesteds — invoking planner...
+    OK: create=3 update=6 skip=31
+  [chunk 14/14] 6 digesteds — invoking planner...
+    OK: create=0 update=0 skip=10
+
+Chunks complete: 13 ok, 1 failed
+Failed-chunk metadata: /c/Users/diogo.bodas/Desktop/Equity-wiki/equity-wiki/logs/wiki_plan_failures_20260420_132530.json
+  (re-process later by isolating those digesteds and re-running --full)
+Merging 13 chunk plans...
+
+Merged plan: create=52, update=27, skip=60
+
+=== Phase 2: Execution ===
+  [create] cashme.md (entity)
+  [create] agibank.md (entity)
+  [create] banco_do_brasil.md (entity)
+  [create] bb_seguridade.md (entity)
+  [create] banco_pine.md (entity)
+  [create] banco_votorantim.md (entity)
+  [create] armac.md (entity)
+  [create] automob.md (entity)
+  [create] moura_dubeux.md (entity)
+  [create] atg.md (entity)
+  [create] caixa.md (entity)
+  [create] caixa_seguridade.md (entity)
+  [create] bluefit.md (entity)
+  [create] bodytech.md (entity)
+  [create] byd.md (entity)
+  [create] br_partners.md (entity)
+  [create] byma.md (entity)
+  [create] santander.md (entity)
+  [create] btg.md (entity)
+  [create] stone.md (entity)
+  [create] mrv.md (entity)
+  [create] even.md (entity)
+  [create] eztec.md (entity)
+  [create] lavvi.md (entity)
+  [create] cxse.md (entity)
+    FAILED [create cxse.md] rc=1 — skipping
+  [create] simpar.md (entity)
+    FAILED [create simpar.md] rc=1 — skipping
+  [create] pine.md (entity)
+    FAILED [create pine.md] rc=1 — skipping
+  [create] inter.md (entity)
+    FAILED [create inter.md] rc=1 — skipping
+  [create] trisul.md (entity)
+    FAILED [create trisul.md] rc=1 — skipping
+  [create] ifood.md (entity)
+    FAILED [create ifood.md] rc=1 — skipping
+  [create] localiza.md (entity)
+    FAILED [create localiza.md] rc=1 — skipping
+  [create] movida.md (entity)
+    FAILED [create movida.md] rc=1 — skipping
+  [create] metal_leve.md (entity)
+    FAILED [create metal_leve.md] rc=1 — skipping
+  [create] loma_negra.md (entity)
+    FAILED [create loma_negra.md] rc=1 — skipping
+  [create] mercantil.md (entity)
+    FAILED [create mercantil.md] rc=1 — skipping
+  [create] nvidia.md (entity)
+    FAILED [create nvidia.md] rc=1 — skipping
+  [create] porto_seguro.md (entity)
+    FAILED [create porto_seguro.md] rc=1 — skipping
+  [create] panobianco.md (entity)
+    FAILED [create panobianco.md] rc=1 — skipping
+  [create] picpay.md (entity)
+    FAILED [create picpay.md] rc=1 — skipping
+  [create] revolut.md (entity)
+    FAILED [create revolut.md] rc=1 — skipping
+  [create] selfit.md (entity)
+    FAILED [create selfit.md] rc=1 — skipping
+  [create] rumo.md (entity)
+    FAILED [create rumo.md] rc=1 — skipping
+  [create] vamos.md (entity)
+    FAILED [create vamos.md] rc=1 — skipping
+  [create] vibra.md (entity)
+    FAILED [create vibra.md] rc=1 — skipping
+  [create] xp.md (entity)
+    FAILED [create xp.md] rc=1 — skipping
+  [update] direcional.md (entity)
+    FAILED [update direcional.md] rc=1 — skipping
+  [update] riva.md (entity)
+    FAILED [update riva.md] rc=1 — skipping
+  [update] b3.md (entity)
+    FAILED [update b3.md] rc=1 — skipping
+  [update] banco_pan.md (entity)
+    FAILED [update banco_pan.md] rc=1 — skipping
+  [update] smartfit.md (entity)
+    FAILED [update smartfit.md] rc=1 — skipping
+  [update] bradesco.md (entity)
+    FAILED [update bradesco.md] rc=1 — skipping
+  [update] weg.md (entity)
+    FAILED [update weg.md] rc=1 — skipping
+  [update] cury.md (entity)
+    FAILED [update cury.md] rc=1 — skipping
+  [update] cyrela.md (entity)
+    FAILED [update cyrela.md] rc=1 — skipping
+  [update] tenda.md (entity)
+    FAILED [update tenda.md] rc=1 — skipping
+  [update] alea.md (entity)
+    FAILED [update alea.md] rc=1 — skipping
+  [update] Melnick.md (entity)
+    FAILED [update Melnick.md] rc=1 — skipping
+  [update] unidas.md (entity)
+    FAILED [update unidas.md] rc=1 — skipping
+  [update] nubank.md (entity)
+    FAILED [update nubank.md] rc=1 — skipping
+  [update] wellhub.md (entity)
+    FAILED [update wellhub.md] rc=1 — skipping
+  [update] totalpass.md (entity)
+    FAILED [update totalpass.md] rc=1 — skipping
+  [update] pagseguro.md (entity)
+    FAILED [update pagseguro.md] rc=1 — skipping
+  [create] bess.md (concept)
+    FAILED [create bess.md] rc=1 — skipping
+  [create] consignado_privado.md (concept)
+    FAILED [create consignado_privado.md] rc=1 — skipping
+  [create] mcmv_faixa_4.md (concept)
+    FAILED [create mcmv_faixa_4.md] rc=1 — skipping
+  [create] consignado.md (concept)
+    FAILED [create consignado.md] rc=1 — skipping
+  [update] sbpe.md (concept)
+    FAILED [update sbpe.md] rc=1 — skipping
+  [update] reforma_tributaria.md (concept)
+    FAILED [update reforma_tributaria.md] rc=1 — skipping
+  [update] banco_de_terrenos.md (concept)
+    FAILED [update banco_de_terrenos.md] rc=1 — skipping
+  [update] mcmv.md (concept)
+    FAILED [update mcmv.md] rc=1 — skipping
+  [update] vso.md (concept)
+    FAILED [update vso.md] rc=1 — skipping
+  [create] academias_fitness.md (sector)
+    FAILED [create academias_fitness.md] rc=1 — skipping
+  [create] locadoras.md (sector)
+    FAILED [create locadoras.md] rc=1 — skipping
+  [update] incorporadoras.md (sector)
+    FAILED [update incorporadoras.md] rc=1 — skipping
+  [create] cyrela_vs_direcional.md (comparison)
+    FAILED [create cyrela_vs_direcional.md] rc=1 — skipping
+  [update] cury_vs_direcional.md (comparison)
+    FAILED [update cury_vs_direcional.md] rc=1 — skipping
+  [update] tenda_vs_direcional.md (comparison)
+    FAILED [update tenda_vs_direcional.md] rc=1 — skipping
+  [update] cyrela_vs_cury.md (comparison)
+    FAILED [update cyrela_vs_cury.md] rc=1 — skipping
+  [update] cury_vs_tenda.md (comparison)
+    FAILED [update cury_vs_tenda.md] rc=1 — skipping
+
+
+=== Wiki update complete ===
+  Planned create: 52 | update: 27 | skip: 60
+  Phase 2 written: 24 | failed: 55
+  Failed-page log: /c/Users/diogo.bodas/Desktop/Equity-wiki/equity-wiki/logs/wiki_plan_failures_20260420_144106.json_write_failures.json

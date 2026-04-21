@@ -1,0 +1,15 @@
+=== Wiki Update ===
+Mode: full (all digesteds)
+
+Digesteds to process: 10
+Scanning wiki pages...
+Wiki pages found: 36
+Empresas with structured/: 4
+
+=== Phase 1: Planning ===
+
+Plan: create=0, update=2, skip=10
+
+=== Phase 2: Execution ===
+  [update] cury.md (entity)
+  [update] cury_vs_tenda.md (comparison)

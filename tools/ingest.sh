@@ -91,6 +91,154 @@ open(sys.argv[-1], 'w', encoding='utf-8').write(template)
     exit 0
 fi
 
+# --- Notion mode ---
+if [[ "$1" == "--notion" ]]; then
+    shift
+    NOTION_FILE="${1:-}"
+    [[ -z "$NOTION_FILE" ]] && { echo "Usage: bash tools/ingest.sh --notion <file>"; exit 1; }
+    [[ ! -f "$NOTION_FILE" ]] && { echo "ERROR: File not found: $NOTION_FILE"; exit 1; }
+
+    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+    REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+    # Load .env for NOTION_TOKEN (needed by notion_fetch.mark_processed)
+    if [[ -f "$REPO_ROOT/.env" ]]; then
+        set -a; source "$REPO_ROOT/.env"; set +a
+    fi
+
+    echo "=== Notion Ingest ==="
+    echo "File: $NOTION_FILE"
+    echo ""
+
+    # --- Parse frontmatter + filename (reject non-Notion files loud) ---
+    export NOTION_FILE_IN="$NOTION_FILE"
+    META=$(python <<'PYEOF'
+import os, sys, re
+path = os.environ["NOTION_FILE_IN"]
+text = open(path, encoding="utf-8").read()
+if not text.startswith("---"):
+    print("ERROR: no YAML frontmatter", file=sys.stderr); sys.exit(1)
+end = text.find("\n---", 3)
+if end < 0:
+    print("ERROR: unterminated frontmatter", file=sys.stderr); sys.exit(1)
+fm = text[3:end]
+fields = {}
+for line in fm.splitlines():
+    m = re.match(r'^(\w+):\s*(.*)$', line)
+    if m:
+        fields[m.group(1)] = m.group(2).strip().strip('"').strip("'")
+if fields.get("source") != "notion":
+    print("ERROR: frontmatter 'source' is not 'notion'", file=sys.stderr); sys.exit(1)
+for k in ("notion_page_id", "edited"):
+    if not fields.get(k):
+        print(f"ERROR: frontmatter missing '{k}'", file=sys.stderr); sys.exit(1)
+base = os.path.basename(path)
+stem = base[:-3] if base.endswith(".md") else base
+slug = stem[len("notion_"):] if stem.startswith("notion_") else stem
+empresa = fields.get("empresa") or "generic"
+print(f"{fields['notion_page_id']}|{fields['edited']}|{empresa}|{slug}")
+PYEOF
+)
+    unset NOTION_FILE_IN
+    if [[ -z "$META" ]]; then
+        echo "ERROR: failed to parse frontmatter" >&2
+        exit 1
+    fi
+
+    IFS='|' read -r PAGE_ID EDITED EMPRESA SLUG <<< "$META"
+    echo "  page_id: $PAGE_ID"
+    echo "  edited:  $EDITED"
+    echo "  empresa: $EMPRESA"
+    echo "  slug:    $SLUG"
+    echo ""
+
+    # --- Copy verbatim to full/ ---
+    FULL_DIR="$REPO_ROOT/sources/full/generic/notas"
+    mkdir -p "$FULL_DIR"
+    FULL_PATH="$FULL_DIR/${SLUG}.md"
+    cp "$NOTION_FILE" "$FULL_PATH"
+    echo "  Copied → sources/full/generic/notas/${SLUG}.md"
+
+    # --- invoke_claude helper (same pattern as --generic) ---
+    invoke_claude() {
+        local template="$1"
+        local prompt_file
+        prompt_file=$(mktemp "${TMPDIR:-/tmp}/ingest_prompt_XXXXXX.md")
+        python -c "
+import sys
+template = open(sys.argv[1]).read()
+replacements = {}
+i = 2
+while i < len(sys.argv) - 1:
+    key = sys.argv[i]
+    val = sys.argv[i+1]
+    replacements[key] = val
+    i += 2
+for k, v in replacements.items():
+    template = template.replace(k, v)
+open(sys.argv[-1], 'w', encoding='utf-8').write(template)
+" "$template" "${@:2}" "$prompt_file"
+        cat "$prompt_file" | claude --print \
+            --allowedTools "Bash" \
+            --permission-mode bypassPermissions
+        rm -f "$prompt_file"
+    }
+
+    # --- Invoke ingest agent ---
+    invoke_claude "$SCRIPT_DIR/prompts/ingest_notion.md" \
+        "{{FULL_PATH}}" "$FULL_PATH" \
+        "{{SLUG}}" "$SLUG" \
+        "{{EMPRESA}}" "$EMPRESA" \
+        "{{PAGE_ID}}" "$PAGE_ID"
+
+    # --- Verify digest exists (fail-loud if agent skipped writing) ---
+    DIGESTED="sources/digested/notion_${SLUG}_summary.md"
+    if [[ ! -f "$REPO_ROOT/$DIGESTED" ]]; then
+        echo "ERROR: expected digest not produced: $DIGESTED" >&2
+        echo "  state NOT updated; page stays pending for retry on next fetch" >&2
+        exit 1
+    fi
+    echo "  Digest produced: $DIGESTED"
+
+    # --- Number Guard: validate claims vs source ---
+    echo "  Running Number Guard..."
+    python "$SCRIPT_DIR/lib/number_guard.py" check "$REPO_ROOT/$DIGESTED"
+
+    # --- Enqueue for wiki_update ---
+    TODAY=$(date +%Y-%m-%d)
+    echo "[wiki-queue] $TODAY | $EMPRESA | notion | $SLUG | $DIGESTED" >> "$REPO_ROOT/log.md"
+    python "$SCRIPT_DIR/lib/wiki_queue.py" enqueue \
+        --empresa "$EMPRESA" --type notion --periodo "$SLUG" \
+        --digested "$DIGESTED" >/dev/null
+    echo "  Queued: $DIGESTED"
+
+    # --- Mark processed (LAST step — closes idempotent loop) ---
+    export NOTION_PAGE_ID_IN="$PAGE_ID"
+    export NOTION_EDITED_IN="$EDITED"
+    export NOTION_REPO_ROOT_IN="$REPO_ROOT"
+    python <<'PYEOF'
+import os, sys
+sys.path.insert(0, os.environ["NOTION_REPO_ROOT_IN"])
+from tools.lib.notion_fetch import mark_processed
+pid = os.environ["NOTION_PAGE_ID_IN"]
+edited = os.environ["NOTION_EDITED_IN"]
+mark_processed(pid, edited)
+print(f"  State updated: processed_pages[{pid[:8]}...] = {edited}")
+PYEOF
+    unset NOTION_PAGE_ID_IN NOTION_EDITED_IN NOTION_REPO_ROOT_IN
+
+    # --- Delete source from undigested/ ---
+    rm -f "$NOTION_FILE"
+    echo "  Deleted: $(basename "$NOTION_FILE")"
+
+    echo ""
+    echo "=== Notion ingest complete ==="
+    echo "  Full:     $FULL_PATH"
+    echo "  Digested: $DIGESTED"
+    echo "  Run 'bash tools/wiki_update.sh' to update wiki pages."
+    exit 0
+fi
+
 TICKER="$1"; shift
 
 CONCURRENCY=4

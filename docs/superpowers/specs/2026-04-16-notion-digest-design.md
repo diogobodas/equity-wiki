@@ -1,6 +1,6 @@
 # Sprint 1 — Notion Digest Pipeline + Number Guard
 
-**Status:** draft design
+**Status:** implemented (2026-04-16). See § Amendments for design changes made during implementation.
 **Date:** 2026-04-16
 **Owner:** diogobodas
 
@@ -239,3 +239,55 @@ Nenhuma pendente. Todas as decisões (B1, B2, B3, C1, C2, C3, D1) resolvidas na 
 ## Estimate
 
 ~1 dia de implementação + testes. Cinco commits independentes.
+
+## Amendments (post-implementation)
+
+Feitas durante a implementação de 2026-04-16. O spec acima ficou preservado para histórico; estas são as diferenças em relação ao que foi de fato construído.
+
+### A1. State tracking substitui a propriedade `ingest` no Notion (Componente 1)
+
+**Motivo.** O banco Capstone real não tem a propriedade `ingest` (pending/done) nem as propriedades `empresa`, `tipo`, `data` assumidas pelo spec. Schema observado:
+
+- `Segmento (AI)` — tipo `title` (é o campo de título, nome peculiar)
+- `Tags` — tipo `multi_select` (50+ opções: empresas, setores, temas)
+- `Criado em` — created_time (auto)
+- `Atualizado` — last_edited_time (auto)
+
+**Implementação.** Opção D aprovada pelo usuário:
+
+- Trigger de ingest agora é **client-side**, comparando `last_edited_time` de cada página com `sources/manifests/_notion_state.json.processed_pages[page_id]`. Uma página é "pendente" se nunca foi processada ou foi editada desde o último processamento.
+- `fetch_notion.sh` lista TODAS as páginas e filtra no cliente. Sem filter no query do Notion.
+- `mark_done` (PATCH no Notion) foi trocado por `mark_processed(page_id, last_edited_time)` local — atualiza apenas o state file. Nenhuma escrita no Notion.
+- `empresa` é inferido cruzando `Tags` com `known_empresas` + `tag_to_empresa` em `sources/manifests/_notion.json`. Primeiro match vence; sem match → `generic`.
+- Frontmatter na nota salva em `sources/undigested/notion_<slug>.md` inclui `notion_page_id`, `notion_url`, `title`, `created`, `edited`, `empresa`, `tags`.
+
+### A2. Destination & queue semantics
+
+- `full/` destination é `sources/full/generic/notas/<slug>.md` (subdir `notas/` conforme spec; `mkdir -p` explícito na rota).
+- Queue entry: `type: notion`, `empresa` parseado do frontmatter (não hard-coded como `generic`), `periodo` é o slug. `wiki_update.sh` consome sem precisar conhecer `type: notion` — ele só lê os digesteds.
+- Rejeição explícita em `ingest.sh --notion`: exige `source: notion` no frontmatter antes de processar. Evita ingest acidental de arquivos não-Notion.
+
+### A3. Number Guard tolerances — test case 5
+
+O exemplo do spec (`R$ 1,2 bi` vs `R$ 1.234 milhões → MATCH_STRICT`) é inconsistente com a tolerância declarada de ±0,5 % relativa para monetário (a diferença real é ~2,8 %). Duas possibilidades: (a) o spec errou o exemplo, (b) a tolerância deveria ser maior para valores arredondados.
+
+**Resolução.** Implementada a tolerância literal (±0,5 %). O teste 5 em `tests/test_number_guard.py` usa `R$ 1,234 bi` vs `R$ 1.234 milhões` (ambos = 1,234 bi reais exatamente) — testa a lógica de conversão de unidade sob tolerância estrita. A questão "tolerância dinâmica para arredondamentos" fica como follow-up se gerar falsos-negativos no uso real.
+
+### A4. Extractor filters (reduz false positives no uso real)
+
+Adicionados ao `extract_numbers` (não documentados no spec v0):
+
+- **Frontmatter** é pulado por padrão (`skip_frontmatter=True`).
+- **Spans de `(fonte: …)`** são excluídos da extração — senão o próprio caminho citado geraria claims falsos (ex: partes numéricas de UUIDs).
+- **Datas** (`YYYY-MM-DD`, `DD/MM/YYYY`, anos isolados `19xx`/`20xx`) são puladas.
+- **Markers de lista e headings numerados** (`- 1.`, `## 2. …`, `### 3.1 …`) são pulados.
+- **Identificadores compostos** (`K6-2`, `8086/286`, `3T25`) são rejeitados via boundary check estendido — letras ou alfanuméricos adjacentes a hyphens/slashes indicam model IDs, não claims numéricos.
+
+### A5. Guard scope & failure semantics
+
+Guard roda em `ingest.sh --notion` após o digest, antes do enqueue. Encontrar NO_MATCH **não falha** o pipeline — marca inline com `[?]`, escreve `{slug}_guard_report.md`, e segue para enqueue + mark_processed. A filosofia é "digest ainda é útil, só que com sinalização explícita do que o leitor deve verificar". Se o guard em si errar (exception), o pipeline para e `mark_processed` não roda — página fica pending para retry.
+
+## Security follow-up
+
+`NOTION_TOKEN` foi colado no transcript de chat em 2026-04-16. Recomendação: criar nova integração Notion e revogar a antiga após a validação do Sprint 1.
+

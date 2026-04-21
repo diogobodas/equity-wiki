@@ -145,12 +145,20 @@ O ingest produz `full/` + `structured/` + `digested/` e registra na fila do wiki
 
 ```bash
 bash tools/wiki_update.sh --full    # primeira rodada: lê TODOS os digesteds, recria tudo
-bash tools/wiki_update.sh           # incremental: processa apenas a fila pendente no log.md
+bash tools/wiki_update.sh           # incremental: processa apenas a fila pendente (sources/wiki_queue.json)
+
+# Com modelo menor para economizar tokens (recomendado para runs completos)
+WIKI_CLAUDE_MODEL=sonnet bash tools/wiki_update.sh --full
+
+# Retomar Phase 2 de um plano salvo (se o processo morreu no meio)
+bash tools/wiki_resume_phase2.sh --plan logs/wiki_plan_merged_YYYYMMDD.json
 ```
 
 Duas fases:
-1. **Planejamento** — LLM lê todos os digesteds e produz um plano JSON (quais páginas criar/atualizar)
-2. **Execução** — LLM escreve cada página com contexto cirúrgico (só os digesteds relevantes)
+1. **Planejamento** — LLM lê os digesteds em chunks e produz um plano JSON (quais páginas criar/atualizar/pular), com merge no final. Tunable: `WIKI_PLAN_CHUNK_SIZE` (default 50), `WIKI_PLAN_CHUNK_TIMEOUT` (default 1200s).
+2. **Execução** — LLM escreve cada página com contexto cirúrgico (só os digesteds relevantes). Tunable: `WIKI_WRITE_TIMEOUT` (default 1800s/página), `WIKI_WRITE_CONCURRENCY` (default 4 workers paralelos).
+
+Se a execução (Phase 2) morrer no meio, use `wiki_resume_phase2.sh` com o plano salvo em `logs/`. O script pula pages `create` que já existem no disco e re-roda `update` sempre (idempotente).
 
 ### Query — consultar dados
 
@@ -169,16 +177,19 @@ bash tools/reingest_full.sh CURY3 --horizon 3y    # re-baixa PDFs e copia direto
 
 Não invoca o LLM. Usado para corrigir fulls que foram truncados pelo pipeline antigo.
 
-### Fila do wiki update (log.md)
+### Fila do wiki update
 
-O `ingest.sh` appenda entries parseáveis no `log.md`:
+A fila é gerenciada por `tools/lib/wiki_queue.py` e persiste em `sources/wiki_queue.json`. O `ingest.sh` enfileira via `wiki_queue.py enqueue` e ainda appenda uma linha de auditoria em `log.md`:
 
 ```
 [wiki-queue] 2026-04-12 | cury | itr | 3T25 | sources/digested/cury_itr_3T25_summary.md
-[wiki-queue] 2026-04-12 | generic | sector | planilha | sources/digested/planilha_setor_summary.md
 ```
 
-O `wiki_update.sh` consome a fila e marca com `[wiki-done]`.
+O `wiki_update.sh` drena a fila no início do run incremental e chama `clear` ao concluir com sucesso. Para inspecionar itens pendentes:
+
+```bash
+python tools/lib/wiki_queue.py peek
+```
 
 ---
 

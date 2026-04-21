@@ -8,13 +8,18 @@ sources:
   - sources/digested/tenda_dfp_2025_summary.md
   - sources/digested/cyrela_dfp_2025_summary.md
   - sources/digested/notas_mattos_filho_reforma_incorporadoras_summary.md
+  - sources/digested/notion_abla_reforma_tribut_ria_7e800ca3_summary.md
+  - sources/digested/notion_notas_reuniao_mattos_filho_reforma_tributaria_incorporadoras_33e00ca3_summary.md
+  - sources/digested/notion_cyrela_cyrela_3t25_2ab00ca3_summary.md
+  - sources/digested/notion_cyrela_cyrela_follow_ups_pos_apresenta_o_50700ca3_summary.md
+  - sources/digested/notion_cyrela_cyrela_laic_2f500ca3_summary.md
 aliases:
   - reforma tributária
   - CBS
   - IBS
   - LC 214/2025
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-04-21
 ---
 
 # Reforma Tributária
@@ -46,13 +51,13 @@ A LC 214/2025 dedica um capítulo específico a bens imóveis (Cap. V, arts. 251
 - **Locação de imóveis**: alíquota reduzida em **70%** (fonte: digested/Texto Reforma tributaria jan-2025_summary.md).
 - **Redutor de ajuste** (arts. 257–258): dedução do custo de aquisição do terreno/imóvel (corrigido por IPCA) da base de cálculo na alienação — substitui parcialmente o crédito de PIS/Cofins sobre terreno (fonte: digested/Texto Reforma tributaria jan-2025_summary.md).
 - **Redutor social** (art. 259): dedução adicional de **R$ 100 mil** por imóvel residencial novo e **R$ 30 mil** por lote residencial, beneficiando o segmento econômico ([[mcmv|MCMV]], [[pode_entrar|Pode Entrar]]) (fonte: digested/Texto Reforma tributaria jan-2025_summary.md).
-- **Incorporação imobiliária** (art. 262): IBS/CBS devidos a cada pagamento recebido; apuração por empreendimento (patrimônio de afetação como centro de custo distinto) (fonte: digested/Texto Reforma tributaria jan-2025_summary.md).
+- **Incorporação imobiliária** (art. 262): IBS/CBS devidos a cada pagamento recebido; apuração por empreendimento (patrimônio de afetação como centro de custo distinto) — regra incluída na segunda lei regulamentadora (fonte: digested/notion_notas_reuniao_mattos_filho_reforma_tributaria_incorporadoras_33e00ca3_summary.md).
 
 ### Transição do RET
 
 As [[incorporadoras]] brasileiras operam predominantemente sob o **RET** (Lei 10.931/2004), que permite tributação simplificada e concentrada sobre a receita mensal recebida — 1% para projetos MCMV e 4% para os demais. A LC 214/2025 prevê regra de transição (art. 485): incorporações com patrimônio de afetação optantes pelo RET **antes de 01/01/2029** podem permanecer com alíquota fixa de **2,08%** da receita (regime geral) ou **0,53%** (MCMV), sem créditos de IBS/CBS (fonte: digested/Texto Reforma tributaria jan-2025_summary.md).
 
-A **opção entre RET e IVA é definitiva**, por obra, feita de forma eletrônica e antecipada (vigência no exercício seguinte) — não há possibilidade de alteração posterior. Consenso de mercado: para o setor, dificilmente o novo sistema de crédito/débito será mais vantajoso que o RET (fonte: digested/notas_mattos_filho_reforma_incorporadoras_summary.md).
+O novo regime aplica-se apenas a **obras novas**, mediante opção expressa — projetos iniciados até 2028 ainda podem permanecer no RET (fonte: digested/notion_notas_reuniao_mattos_filho_reforma_tributaria_incorporadoras_33e00ca3_summary.md). A **opção entre RET e IVA é definitiva**, por obra, feita de forma eletrônica e antecipada (vigência no exercício seguinte) — não há possibilidade de alteração posterior. Consenso de mercado: para o setor, dificilmente o novo sistema de crédito/débito será mais vantajoso que o RET (fonte: digested/notas_mattos_filho_reforma_incorporadoras_summary.md).
 
 Incorporadoras que permanecerem no RET ficam sujeitas ao risco de que **fornecedores no regime normal** recolham IBS/CBS sem gerar direito a crédito para a incorporadora, exigindo cuidado redobrado na precificação dos projetos (fonte: digested/notas_mattos_filho_reforma_incorporadoras_summary.md).
 
@@ -64,17 +69,17 @@ No modelo atual, tributos são recolhidos conforme a evolução física da obra.
 
 Esse **descasamento temporal** é especialmente severo para incorporadoras que vendem unidades na planta — o tributo incide antes, e a devolução via crédito ou ressarcimento vem depois. Se os créditos não forem utilizados em **120 dias**, é possível pedir ressarcimento, com mais 120 dias para análise (correção por IPCA após o prazo) (fonte: digested/notas_mattos_filho_reforma_incorporadoras_summary.md).
 
-Para **baixa renda**, o efeito de caixa é atenuado pelo redutor social (R$ 100 mil de redução na base de cálculo) (fonte: digested/notas_mattos_filho_reforma_incorporadoras_summary.md).
+Para **baixa renda**, o efeito de caixa é atenuado pelo redutor social (R$ 100 mil de redução na base de cálculo) (fonte: digested/notas_mattos_filho_reforma_incorporadoras_summary.md). A reforma cria, portanto, vantagem relativa para incorporadoras de baixa renda (efeito caixa inicial mitigado) e desvantagem para as de alto ticket que vendem na planta com recebimento antecipado relevante (fonte: digested/notion_notas_reuniao_mattos_filho_reforma_tributaria_incorporadoras_33e00ca3_summary.md).
 
 O desembolso antecipado poderá exigir maior capital de giro durante a transição — descasamentos temporais entre geração e utilização de créditos tributários já são apontados como risco concreto nas DFs das empresas (fonte: full/cury/2025/dfp.md §1.1).
 
 ### Permutas físicas e [[banco_de_terrenos|banco de terrenos]]
 
-A LC 214/2025 define explicitamente: **não incidência** de IBS/CBS sobre permuta de terreno por unidades futuras, exceto sobre a torna (valor complementar em dinheiro) (fonte: digested/Texto Reforma tributaria jan-2025_summary.md). Isso é particularmente relevante para a [[direcional|Direcional]], cujo banco de terrenos é 87% permuta (fonte: digested/direcional_dfp_2025_summary.md), e para a [[cyrela|Cyrela]], que registrou forte atividade de aquisição de terrenos em 2025 (obrigações por compra de imóveis +47% A/A) (fonte: digested/cyrela_dfp_2025_summary.md).
+A LC 214/2025 define explicitamente: **não incidência** de IBS/CBS sobre permuta de terreno por unidades futuras, exceto sobre a torna (valor complementar em dinheiro) (fonte: digested/Texto Reforma tributaria jan-2025_summary.md). Isso é particularmente relevante para a [[direcional|Direcional]], cujo banco de terrenos é 87% permuta (fonte: digested/direcional_dfp_2025_summary.md), e para a [[cyrela|Cyrela]], que registrou forte atividade de aquisição de terrenos em 2025 (obrigações por compra de imóveis +47% A/A) e utiliza patrimônio de afetação em todos os empreendimentos (fonte: digested/cyrela_dfp_2025_summary.md; digested/notion_cyrela_cyrela_follow_ups_pos_apresenta_o_50700ca3_summary.md).
 
 ### Estruturação por SPEs
 
-A apuração por empreendimento (patrimônio de afetação) está contemplada na LC 214/2025, mas mudanças nas regras de creditamento e compensação de CBS/IBS poderão afetar a eficiência fiscal da segregação por SPE, exigindo revisão de estruturas societárias, fluxos de faturamento e controles de créditos tributários por entidade (fonte: full/cury/2025/dfp.md §1.1).
+A apuração por empreendimento (patrimônio de afetação) está contemplada na LC 214/2025, mas mudanças nas regras de creditamento e compensação de CBS/IBS poderão afetar a eficiência fiscal da segregação por SPE, exigindo revisão de estruturas societárias, fluxos de faturamento e controles de créditos tributários por entidade (fonte: full/cury/2025/dfp.md §1.1). A prática atual de faturar pela SPE e obter reembolso de terceiros tende a desaparecer com a reforma (fonte: digested/notion_notas_reuniao_mattos_filho_reforma_tributaria_incorporadoras_33e00ca3_summary.md).
 
 ### Creditamento financeiro e custos de obra
 
@@ -89,12 +94,25 @@ A reforma introduz incentivos que podem alterar a estrutura operacional das [[in
 - **Desincentivo à verticalização**: tudo que é adquirido fora da obra passa a gerar crédito, favorecendo terceirização e obras industrializadas/modularizadas.
 - **Formalização da cadeia**: fornecedores informais ou em regimes que não geram crédito perdem competitividade — toda a cadeia será pressionada à formalização.
 - **Desestímulo ao recebimento à vista**: se todos os compradores pagam antes do início da obra, há incidência imediata da alíquota sem crédito acumulado ainda, gerando custo financeiro relevante.
+- **Fim do reembolso via SPE**: a prática de faturar pela SPE e obter ressarcimento de terceiros perde sustentação no novo regime de crédito/débito por empreendimento (fonte: digested/notion_notas_reuniao_mattos_filho_reforma_tributaria_incorporadoras_33e00ca3_summary.md).
 
 Não existe conta única que sirva para todos — é preciso fazer simulação caso a caso, considerando perfil de obra, timing de vendas, grau de verticalização e composição da cadeia de fornecedores (fonte: digested/notas_mattos_filho_reforma_incorporadoras_summary.md).
 
 ### [[resultado_a_apropriar|Receita de contratos]] e capital de giro
 
 Alterações na incidência sobre vendas imobiliárias poderão impactar a determinação do preço de transação, a apresentação da receita líquida e o reconhecimento de receitas ao longo do tempo. Descasamentos temporais entre geração e utilização de créditos tributários poderão exigir maior capital de giro durante a transição (fonte: full/cury/2025/dfp.md §1.1).
+
+## Impactos para locadoras de veículos
+
+A **ABLA** (Associação Brasileira de Locadoras de Automóveis) classificou o impacto geral da reforma sobre o setor de locação de veículos como **muito pouco relevante** durante a transição (fonte: digested/notion_abla_reforma_tribut_ria_7e800ca3_summary.md).
+
+O aspecto mais relevante para o modelo de negócio é a mudança na mecânica de creditamento: no novo regime, o IBS/CBS sobre a aquisição de veículos será reconhecido **no momento da compra do ativo**, e não ao longo da depreciação fiscal como no sistema atual. Essa mecânica melhora o caixa fiscal no período de aquisição da frota, potencialmente favorecendo locadoras com alto giro de renovação (fonte: digested/notion_abla_reforma_tribut_ria_7e800ca3_summary.md).
+
+Durante o período de transição:
+- Veículos adquiridos antes e durante a transição terão tratamento transitório específico, distinto do regime definitivo.
+- O crédito de IBS/CBS poderá ser tomado de forma integral e imediata, proporcionalmente ao avanço da reforma no período (fonte: digested/notion_abla_reforma_tribut_ria_7e800ca3_summary.md).
+
+O impacto sobre [[localiza|Localiza]], [[movida|Movida]] e demais locadoras listadas depende da alíquota efetiva de IBS/CBS aplicável à locação no regime definitivo e do tratamento do estoque de frota já adquirido integralmente no regime anterior — pontos ainda sem divulgação oficial completa (fonte: digested/notion_abla_reforma_tribut_ria_7e800ca3_summary.md).
 
 ## Impactos para shoppings
 

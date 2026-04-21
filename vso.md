@@ -31,8 +31,11 @@ sources:
   - sources/digested/direcional_call_transcript_2T24_summary.md
   - sources/digested/direcional_call_transcript_3T24_summary.md
   - sources/digested/direcional_call_transcript_4T24_summary.md
+  - sources/digested/notion_direcional_18_02_30b00ca3_summary.md
+  - sources/digested/notion_direcional_59a00ca3_summary.md
+  - sources/digested/notion_direcional_call_pos_4t25_31f00ca3_summary.md
 created: 2026-04-08
-updated: 2026-04-16
+updated: 2026-04-21
 ---
 
 # VSO
@@ -65,7 +68,7 @@ Cada empresa reporta VSO com metodologias ligeiramente diferentes:
 
 Para [[cyrela]] especificamente, a planilha proprietária de dados operacionais traz série trimestral própria de 1T06 a 4T25 (~80 trimestres) com lançamentos, vendas e estoque cortados por região (8) e segmento (Alto, Médio, Vivaz Prime, MCMV 2 e 3, MCMV 1) — permite reconstruir VSO histórica da empresa por segmento ao longo de ciclos completos (2008–09, 2014–17, 2020–21, 2022–25). Dados pré-2019 são pro forma para a estrutura societária atual (fonte: digested/cyrela_dados_operacionais_summary.md).
 
-## Direcional — Série histórica de VSO (3T20–4T24)
+## Direcional — Série histórica de VSO (3T20–4T25)
 
 Série extraída de calls de resultados. Números do transcript (auto-captions); canônicos em releases/ITRs.
 
@@ -88,9 +91,12 @@ Série extraída de calls de resultados. Números do transcript (auto-captions);
 | 1T24 | 22% | 21% | 22% | Salto estrutural; FGTS Futuro entrou em vigor |
 | 2T24 | 26% | ~26% | ~26% | Recorde histórico; DIRR e Riva praticamente iguais pela 1ª vez |
 | 3T24 | 25% | ~25% | ~25% | Novo patamar considerado “saudável” pela gestão |
-| 4T24 | 25% | n/d | n/d | Estável; normaliza para 21% no 4T25 e 24% no 1T26 |
+| 4T24 | 25% | n/d | n/d | Estável; gestão entregou “mais margem do que VSO” neste ciclo |
+| 2T25 | ~25% | n/d | n/d | VSO considerada saudável pela gestão; meta elevada para 28–30% |
+| 3T25 | ~25% | n/d | n/d | Patamar consistente; RJ, Salvador e Recife identificadas como praças a recuperar |
+| 4T25 | 21% | n/d | n/d | Normalização; shares da Direcional nas vendas totais subiram de 79% para 83% |
 
-(fontes: digested/direcional_call_transcript_3T20_summary.md a digested/direcional_call_transcript_4T24_summary.md)
+(fontes: digested/direcional_call_transcript_3T20_summary.md a digested/direcional_call_transcript_4T24_summary.md; digested/notion_direcional_call_pos_4t25_31f00ca3_summary.md; digested/notion_direcional_59a00ca3_summary.md)
 
 **Nota sobre Riva:** a VSO do segmento Riva foi historicamente mais volátil que a do segmento Direcional MCMV. No pico do ciclo de 2021 chegou a 33% (3T21), puxada por lançamentos com alta demanda no médio padrão. Em 2S22 caiu a ~12–13% com o aperto do crédito SBPE (Riva usa SFH, mais sensível à Selic). A convergência dos dois segmentos para o mesmo patamar de VSO (~22–26%) a partir de 1T24 é um fenômeno novo, atribuído ao FGTS Futuro, ao MCMV Cidades e à maturação da equipe comercial (fonte: digested/direcional_call_transcript_1T24_summary.md; digested/direcional_call_transcript_2T24_summary.md).
 
@@ -103,12 +109,14 @@ A [[direcional]] é a empresa do setor que mais explicitou, em seus calls, uma f
 - **2022:** banda-alvo explícita de 18–22%; empresa calibrou VSO “ligeiramente abaixo do histórico” dado custo de capital mais alto; priorizou geração de caixa via giro em vez de margem (fonte: digested/direcional_call_transcript_2T22_summary.md; digested/direcional_call_transcript_3T22_summary.md).
 - **2023:** meta para 2024 de elevar VSO para ~20% via melhorias estruturais — treinamento comercial, vendas online, automação — sem descontos e sem aumento de despesa comercial (fonte: digested/direcional_call_transcript_4T23_summary.md).
 - **2024:** meta de 20% ultrapassada; VSO 26% no 2T24 (recorde). Gestão passou a considerar ~25% como o novo patamar saudável, definindo-o como o nível em que “100% das unidades estão vendidas próximo ao pico de obra” (fonte: digested/direcional_call_transcript_3T24_summary.md).
+- **2025 (ago/nov):** meta elevada para **28–30%**; empresa reconheceu que “tem entregado mais margem do que VSO” e que precisa buscar melhora na velocidade. Diagnóstico por praça: RJ (reset comercial — troca de diretor, melhor mês histórico em junho/25), Salvador (falta produto) e Recife (time em formação). Gestão estimou que resolver as três praças deficientes bastaria para chegar a 28%, sem alterar o restante do portfólio (fonte: digested/notion_direcional_59a00ca3_summary.md).
+- **2026:** mudança explícita de filosofia — **prioridade para VSO sobre margem**. Empresa tem R$ 2,4 bi em produtos aprovados prontos para lançar imediatamente e optou por ritmo controlado de lançamentos para priorizar absorção. Qualquer ganho de affordability com ajustes de faixas MCMV deve se traduzir integralmente em VSO, não em preços (fonte: digested/notion_direcional_18_02_30b00ca3_summary.md; digested/notion_direcional_call_pos_4t25_31f00ca3_summary.md).
 
 **Trade-off VSO vs. margem:** no segmento Direcional (MCMV), onde há teto de preço, “a prioridade é VSO + alavancagem operacional, não repasse de preço” — diferentemente da Riva, onde sem teto o repasse é mais fácil (fonte: digested/direcional_call_transcript_3T20_summary.md). No ciclo 2022–23, o CEO declarou que a empresa “aceita margem flat” para priorizar VSO e geração de caixa (fonte: digested/direcional_call_transcript_4T22_summary.md). A partir de 2024, com custos cadentes e margem REF acima de 43%, a empresa elevou simultaneamente VSO e margem bruta — cenário descrito como “de longe o melhor trimestre em termos de resultados da história” (fonte: digested/direcional_call_transcript_1T24_summary.md).
 
 **Alavancas de VSO:** o salto de VSO de 2024 foi atribuído a fatores estruturais, não a descontos: (i) qualificação da equipe comercial e metas com menor dispersão entre praças; (ii) expansão de vendas online; (iii) FGTS Futuro (amplia comprometimento de renda para famílias em produtos abaixo de R$ 200–220 k); (iv) MCMV Cidades (acessa famílias de até 1 salário mínimo em praças como Fortaleza e Recife); (v) amadurecimento de praças (+4 p.p. de margem bruta e -3 p.p. de despesa comercial vs praças recentes) (fonte: digested/direcional_call_transcript_1T24_summary.md; digested/direcional_call_transcript_2T24_summary.md; digested/direcional_call_transcript_3T24_summary.md).
 
-**VSO e retorno de capital:** a gestão estabeleceu ligação direta entre VSO e geração de caixa para dividendos: “3 p.p. de VSO trimestral sobre estoque de ~R$ 5 bi tem impacto muito relevante” (fonte: digested/direcional_call_transcript_4T23_summary.md). Em 2024, com VSO de 25–26%, a empresa pagou ~R$ 577 mi em dividendos (≈100% do lucro ajustado, DY ~15% sobre o market cap de jan/24) (fonte: digested/direcional_call_transcript_4T24_summary.md).
+**VSO e retorno de capital:** a gestão estabeleceu ligação direta entre VSO e geração de caixa para dividendos: “3 p.p. de VSO trimestral sobre estoque de ~R$ 5 bi tem impacto muito relevante” (fonte: digested/direcional_call_transcript_4T23_summary.md). No call pós-4T25, a quantificação foi refinada: **cada 1 p.p. de aumento na VSO trimestral gera aproximadamente R$ 100 milhões adicionais de caixa por ano** (fonte: digested/notion_direcional_call_pos_4t25_31f00ca3_summary.md). Em 2024, com VSO de 25–26%, a empresa pagou ~R$ 577 mi em dividendos (≈100% do lucro ajustado, DY ~15% sobre o market cap de jan/24) (fonte: digested/direcional_call_transcript_4T24_summary.md). Em 2025, com ROE recorde de 44% no 4T25, o retorno ao acionista totalizou R$ 1,15 bilhão em dividendos + R$ 26 milhões em recompra de ações (fonte: digested/notion_direcional_call_pos_4t25_31f00ca3_summary.md).
 
 ## Comparativo cross-empresa — 4T25 e 1T26
 

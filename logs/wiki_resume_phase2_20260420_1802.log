@@ -1,0 +1,51 @@
+=== Wiki Phase 2 Resume ===
+Plan: logs/wiki_plan_merged_20260420.json
+
+Pages already on disk: 61
+=== Phase 2: Execution (resume) ===
+  [skip-exists] cashme.md
+  [skip-exists] agibank.md
+  [skip-exists] banco_do_brasil.md
+  [skip-exists] bb_seguridade.md
+  [skip-exists] banco_pine.md
+  [skip-exists] banco_votorantim.md
+  [skip-exists] armac.md
+  [skip-exists] automob.md
+  [skip-exists] moura_dubeux.md
+  [skip-exists] atg.md
+  [skip-exists] caixa.md
+  [skip-exists] caixa_seguridade.md
+  [skip-exists] bluefit.md
+  [skip-exists] bodytech.md
+  [skip-exists] byd.md
+  [skip-exists] br_partners.md
+  [skip-exists] byma.md
+  [skip-exists] santander.md
+  [skip-exists] btg.md
+  [skip-exists] stone.md
+  [skip-exists] mrv.md
+  [skip-exists] even.md
+  [skip-exists] eztec.md
+  [skip-exists] lavvi.md
+  [create] cxse.md (entity)
+  [create] simpar.md (entity)
+  [create] pine.md (entity)
+  [skip-exists] inter.md
+  [create] trisul.md (entity)
+  [create] ifood.md (entity)
+  [create] localiza.md (entity)
+  [create] movida.md (entity)
+  [create] metal_leve.md (entity)
+  [create] loma_negra.md (entity)
+  [create] mercantil.md (entity)
+  [create] nvidia.md (entity)
+  [create] porto_seguro.md (entity)
+  [create] panobianco.md (entity)
+  [create] picpay.md (entity)
+  [create] revolut.md (entity)
+  [create] selfit.md (entity)
+  [create] rumo.md (entity)
+  [create] vamos.md (entity)
+  [create] vibra.md (entity)
+  [create] xp.md (entity)
+  [update] direcional.md (entity)

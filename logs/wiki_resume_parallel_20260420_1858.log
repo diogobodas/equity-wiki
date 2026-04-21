@@ -1,0 +1,19 @@
+=== Wiki Phase 2 Resume (parallel, concurrency=4) ===
+Plan: logs/wiki_plan_merged_20260420.json
+
+ALL_PAGES context: 87 pages
+Building work list...
+Pages to write: 33 (skipped existing: 46)
+
+=== Phase 2: Execution (parallel x4) ===
+  [update] direcional.md (entity)
+  [update] riva.md (entity)
+  [update] banco_pan.md (entity)
+  [update] b3.md (entity)
+    OK [update banco_pan.md]
+    OK [update b3.md]
+tools/wiki_resume_phase2.sh: line 205: /tmp/wiki_status_Wsu089/b3.md.status: No such file or directory
+    OK [update riva.md]
+tools/wiki_resume_phase2.sh: line 205: /tmp/wiki_status_Wsu089/riva.md.status: No such file or directory
+    OK [update direcional.md]
+tools/wiki_resume_phase2.sh: line 205: /tmp/wiki_status_Wsu089/direcional.md.status: No such file or directory

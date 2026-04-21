@@ -1,0 +1,219 @@
+---
+source: notion
+notion_page_id: 2df00ca3-2bce-8062-ac37-cf59427875ab
+notion_url: https://www.notion.so/PicPay-Prospecto-05-01-2df00ca32bce8062ac37cf59427875ab
+title: "PicPay - Prospecto 05/01"
+created: 2026-01-05T20:35:00.000Z
+edited: 2026-03-01T20:50:00.000Z
+empresa: generic
+tags:
+  - "Fintech"
+  - "Bancos"
+---
+
+# PicPay - Prospecto 05/01
+
+
+
+
+
+Bicycle Management Company, LLC, or the “anchor investor,” has indicated to us that it intends to
+purchase an aggregate number of our Class A common shares in this offering equivalent to US$75,000,000
+
+
+
+On September 19, 2025, we entered into an equity purchase agreement for the acquisition of shares
+representing 100% of the total share capital of Kovr Participações S.A. and as a consequence, the acquisition of
+its subsidiaries (including Kovr Seguradora S.A., Kovr Previdência S.A. and Kovr Capitalização S.A.)
+(collectively “Kovr”) from its controlling shareholders
+Isso aqui é uma seguradora, da pra ver na susep. Lucra uns 60 milhoes no ano.
+
+
+
+
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/77c796b3-8b52-4f44-9b44-20676cf5b73f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEQM3S2S%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T170426Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBAaCXVzLXdlc3QtMiJHMEUCIExU59a4i0nO%2Bq4GLxpFO5UDmKxPgY37jeF9jCkL3EdVAiEAlApStzr7kSgqloH6HmGEeTP05Fqck7tMY0JO7s%2BoLNYqiAQI2f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD40UoUg%2B3bh6ZLjCyrcAysUij23pkLtJysYnMoWAKjj4hpEFqV57FQ77IV01e4nYNqerltRY%2BxhY%2BSr2iIoaRyZMf4PNyXarVHeaAHT3C4Pi%2BQm%2ByaVXqyxKTadVK1J9PLC35FlGH0yiOnzouzn79luGVi9t7Rx4Jq3CETirhig2elFDjYt2fj3V1N1pBznTqGppPO0e9aEgJSJdwBoTm6dUxW%2BTV2oC%2BSKKzwZrouayx7FFkqjYpT1dbRciIiYirFLBg%2BWSekDOADGYdfrpBebf1fiu5wxDpEDstYWmyiCiBsXB37xbY28EKh3psNw6Oxu%2Fb8bfo0jGXfPygNIcGK9KldUCsXipgyul9%2F7WqKjbdoCKZMZbUSR36qig0r18hgn9aF9W%2FZbx2IsPcb4cZ2iL6wR8tZin5TyaLyavsL0hwgvfW6vuEygg5qHqWOqQIM%2Fk6IZxE5sCgmEnGpFoY%2BA34MZAQ6zyjxpbysJkB9An9igHbruHbYIAcDI5TEC2q1jTtJwnYr91iwVsKGJuv00pmm5AVTll7L1t6euTtKn2x%2FvYiyQ19ZUx6hppojxnMU8iZA6tSf3KeCKpI81WwwBih56iBGRQIeaKP%2BdPVauytIhiZcVRnriVdeMouyCQO9%2FWia644yi7hFwMNqric8GOqUBKwAJhwpnOqZkgQt12TeTquvDM9dLfrfId11zx1Ra96m8gGhFeiiYczNjoqVEJU6pcid8L6Xvq4o1IQxF2GW7Txx9V%2BIyLC2RqB%2Buw6xv8rTnBJJKXKZF7VHgoi9KSowjMpLz24UgbJb9c9E4N37x2%2BeQP%2FENw5GU8gYKHIJ9GYbcOhSsBaX%2BidF9DTiYd7ipdo%2F6QRHheFpzCXkUD2YTR%2BkskMpe&X-Amz-Signature=9ac7e5bb78224661d638c9adbb0758aa38ef9d50adc2ffffcb445e76e8cffb2b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+
+
+
+Bycycle group 75 milhões de dolares.
+
+6 meses de lock-up
+
+1 ação comprada pela bycycle, pode comprar 1 warrant por $ 0,01
+
+The anchor investor warrants may be exercised on a
+business day, or the “warrants exercise date,” in all or in
+part, during the period commencing on the first day of the
+11th month following the closing date of this offering and
+ending on the business day preceding the date that is
+14 months following the closing date of this offering, or the
+“exercise period.” Following the end of the exercise period,
+the anchor investor warrants will no longer be exercisable
+and therefore will be worthless. The controlling
+shareholder shares will be subject to a lock-up that will
+expire three months following the respective warrants
+exercise date
+
+6 meses de lock up do management 
+
+
+
+Pag 127
+
+We have entered, or may enter in the future, into significant transactions with related parties.
+We are dependent on, and expect from time to time in the future to engage in, commercial and financial
+transactions with our shareholders and other related parties. During the period covered by the financial
+statements included in this prospectus, we have engaged in transactions with related parties that have had a
+material impact on our results of operations and financial position, such as certain agreements with Banco
+Original, which is controlled by our ultimate controlling shareholders
+
+
+
+Guiabolso
+acquisition, the BX acquisition and the Kovr Acquisition, could disrupt our business and harm our financial
+condition
+
+
+
+Mudaram as regras de basileia na virada de 2024 pra 2025… Pagina 144 do PDF
+
+
+
+Even though we believe this is a common product in the Brazilian payment industry, accepted by payment
+schemes networks and reviewed by the General Attorney Office of the Brazilian Central Bank, incumbent banks
+have been challenging this product. In this regard, Febraban recently filed a notice with the Brazilian National
+Consumer Office (Secretaria Nacional do Consumidor, or the “SENACON”) and a complaint with the Public
+Prosecutor’s Office of the State of São Paulo (Ministério Público do Estado de São Paulo), alleging that we
+would be granting loans to customers and that the fees charged in connection with installment transactions
+would be “compensating interest” (juros remuneratórios). Our business was specifically challenged in such
+notice
+
+
+
+
+
+Linha importante de minoritários, tem que olhar na DF
+
+Kvor da 180 milhoes de lucro com a corretora, supostamente comprou barato tipo 6x p/e
+
+Inad muito alta, cara de crédito high yield
+
+
+
+Pag 174 - Explica como funciona certinho a transação de open platform no cartão0’
+
+
+
+Duvida Importante: O tpv de pix crédito inclui pagar alguma conta por exemplo ou fazer um pix usando cartão de terceiros???
+
+Um dos motivos que fees pode desacelerar é o fato de que comeca a fazer pix credito direto, sem adquirente envolvido.
+
+
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/8382476c-5e16-4924-a947-5a8ec6a66206/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEQM3S2S%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T170426Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBAaCXVzLXdlc3QtMiJHMEUCIExU59a4i0nO%2Bq4GLxpFO5UDmKxPgY37jeF9jCkL3EdVAiEAlApStzr7kSgqloH6HmGEeTP05Fqck7tMY0JO7s%2BoLNYqiAQI2f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD40UoUg%2B3bh6ZLjCyrcAysUij23pkLtJysYnMoWAKjj4hpEFqV57FQ77IV01e4nYNqerltRY%2BxhY%2BSr2iIoaRyZMf4PNyXarVHeaAHT3C4Pi%2BQm%2ByaVXqyxKTadVK1J9PLC35FlGH0yiOnzouzn79luGVi9t7Rx4Jq3CETirhig2elFDjYt2fj3V1N1pBznTqGppPO0e9aEgJSJdwBoTm6dUxW%2BTV2oC%2BSKKzwZrouayx7FFkqjYpT1dbRciIiYirFLBg%2BWSekDOADGYdfrpBebf1fiu5wxDpEDstYWmyiCiBsXB37xbY28EKh3psNw6Oxu%2Fb8bfo0jGXfPygNIcGK9KldUCsXipgyul9%2F7WqKjbdoCKZMZbUSR36qig0r18hgn9aF9W%2FZbx2IsPcb4cZ2iL6wR8tZin5TyaLyavsL0hwgvfW6vuEygg5qHqWOqQIM%2Fk6IZxE5sCgmEnGpFoY%2BA34MZAQ6zyjxpbysJkB9An9igHbruHbYIAcDI5TEC2q1jTtJwnYr91iwVsKGJuv00pmm5AVTll7L1t6euTtKn2x%2FvYiyQ19ZUx6hppojxnMU8iZA6tSf3KeCKpI81WwwBih56iBGRQIeaKP%2BdPVauytIhiZcVRnriVdeMouyCQO9%2FWia644yi7hFwMNqric8GOqUBKwAJhwpnOqZkgQt12TeTquvDM9dLfrfId11zx1Ra96m8gGhFeiiYczNjoqVEJU6pcid8L6Xvq4o1IQxF2GW7Txx9V%2BIyLC2RqB%2Buw6xv8rTnBJJKXKZF7VHgoi9KSowjMpLz24UgbJb9c9E4N37x2%2BeQP%2FENw5GU8gYKHIJ9GYbcOhSsBaX%2BidF9DTiYd7ipdo%2F6QRHheFpzCXkUD2YTR%2BkskMpe&X-Amz-Signature=314232608677c85646f562da36f0d00f83031cf909223b607d36d57e8c2da9b7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+Contrastar isso com inadimplência e taxa por produto… 
+Exemplo:
+
+
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/37ed6d46-2adc-4454-b094-ce175d7042b2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEQM3S2S%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T170426Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBAaCXVzLXdlc3QtMiJHMEUCIExU59a4i0nO%2Bq4GLxpFO5UDmKxPgY37jeF9jCkL3EdVAiEAlApStzr7kSgqloH6HmGEeTP05Fqck7tMY0JO7s%2BoLNYqiAQI2f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD40UoUg%2B3bh6ZLjCyrcAysUij23pkLtJysYnMoWAKjj4hpEFqV57FQ77IV01e4nYNqerltRY%2BxhY%2BSr2iIoaRyZMf4PNyXarVHeaAHT3C4Pi%2BQm%2ByaVXqyxKTadVK1J9PLC35FlGH0yiOnzouzn79luGVi9t7Rx4Jq3CETirhig2elFDjYt2fj3V1N1pBznTqGppPO0e9aEgJSJdwBoTm6dUxW%2BTV2oC%2BSKKzwZrouayx7FFkqjYpT1dbRciIiYirFLBg%2BWSekDOADGYdfrpBebf1fiu5wxDpEDstYWmyiCiBsXB37xbY28EKh3psNw6Oxu%2Fb8bfo0jGXfPygNIcGK9KldUCsXipgyul9%2F7WqKjbdoCKZMZbUSR36qig0r18hgn9aF9W%2FZbx2IsPcb4cZ2iL6wR8tZin5TyaLyavsL0hwgvfW6vuEygg5qHqWOqQIM%2Fk6IZxE5sCgmEnGpFoY%2BA34MZAQ6zyjxpbysJkB9An9igHbruHbYIAcDI5TEC2q1jTtJwnYr91iwVsKGJuv00pmm5AVTll7L1t6euTtKn2x%2FvYiyQ19ZUx6hppojxnMU8iZA6tSf3KeCKpI81WwwBih56iBGRQIeaKP%2BdPVauytIhiZcVRnriVdeMouyCQO9%2FWia644yi7hFwMNqric8GOqUBKwAJhwpnOqZkgQt12TeTquvDM9dLfrfId11zx1Ra96m8gGhFeiiYczNjoqVEJU6pcid8L6Xvq4o1IQxF2GW7Txx9V%2BIyLC2RqB%2Buw6xv8rTnBJJKXKZF7VHgoi9KSowjMpLz24UgbJb9c9E4N37x2%2BeQP%2FENw5GU8gYKHIJ9GYbcOhSsBaX%2BidF9DTiYd7ipdo%2F6QRHheFpzCXkUD2YTR%2BkskMpe&X-Amz-Signature=4a03d8b56fef9265cbddeb95aef75cbd4feb8999337dadf371f8ef77d1689700&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/be69fb43-e842-4e44-a091-c4f96eb19656/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEQM3S2S%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T170426Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBAaCXVzLXdlc3QtMiJHMEUCIExU59a4i0nO%2Bq4GLxpFO5UDmKxPgY37jeF9jCkL3EdVAiEAlApStzr7kSgqloH6HmGEeTP05Fqck7tMY0JO7s%2BoLNYqiAQI2f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD40UoUg%2B3bh6ZLjCyrcAysUij23pkLtJysYnMoWAKjj4hpEFqV57FQ77IV01e4nYNqerltRY%2BxhY%2BSr2iIoaRyZMf4PNyXarVHeaAHT3C4Pi%2BQm%2ByaVXqyxKTadVK1J9PLC35FlGH0yiOnzouzn79luGVi9t7Rx4Jq3CETirhig2elFDjYt2fj3V1N1pBznTqGppPO0e9aEgJSJdwBoTm6dUxW%2BTV2oC%2BSKKzwZrouayx7FFkqjYpT1dbRciIiYirFLBg%2BWSekDOADGYdfrpBebf1fiu5wxDpEDstYWmyiCiBsXB37xbY28EKh3psNw6Oxu%2Fb8bfo0jGXfPygNIcGK9KldUCsXipgyul9%2F7WqKjbdoCKZMZbUSR36qig0r18hgn9aF9W%2FZbx2IsPcb4cZ2iL6wR8tZin5TyaLyavsL0hwgvfW6vuEygg5qHqWOqQIM%2Fk6IZxE5sCgmEnGpFoY%2BA34MZAQ6zyjxpbysJkB9An9igHbruHbYIAcDI5TEC2q1jTtJwnYr91iwVsKGJuv00pmm5AVTll7L1t6euTtKn2x%2FvYiyQ19ZUx6hppojxnMU8iZA6tSf3KeCKpI81WwwBih56iBGRQIeaKP%2BdPVauytIhiZcVRnriVdeMouyCQO9%2FWia644yi7hFwMNqric8GOqUBKwAJhwpnOqZkgQt12TeTquvDM9dLfrfId11zx1Ra96m8gGhFeiiYczNjoqVEJU6pcid8L6Xvq4o1IQxF2GW7Txx9V%2BIyLC2RqB%2Buw6xv8rTnBJJKXKZF7VHgoi9KSowjMpLz24UgbJb9c9E4N37x2%2BeQP%2FENw5GU8gYKHIJ9GYbcOhSsBaX%2BidF9DTiYd7ipdo%2F6QRHheFpzCXkUD2YTR%2BkskMpe&X-Amz-Signature=77c7cbb61003a1e31772f7a3ec9f5a2f906dca1129ce084ecfae32134856c39b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+
+Non interest revenue do cartão muito alto… Tem cara de que tem algo que nao é 100% variavel com cartão…
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/51e86c03-638d-4880-ba19-70dbc7625119/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEQM3S2S%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T170426Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBAaCXVzLXdlc3QtMiJHMEUCIExU59a4i0nO%2Bq4GLxpFO5UDmKxPgY37jeF9jCkL3EdVAiEAlApStzr7kSgqloH6HmGEeTP05Fqck7tMY0JO7s%2BoLNYqiAQI2f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD40UoUg%2B3bh6ZLjCyrcAysUij23pkLtJysYnMoWAKjj4hpEFqV57FQ77IV01e4nYNqerltRY%2BxhY%2BSr2iIoaRyZMf4PNyXarVHeaAHT3C4Pi%2BQm%2ByaVXqyxKTadVK1J9PLC35FlGH0yiOnzouzn79luGVi9t7Rx4Jq3CETirhig2elFDjYt2fj3V1N1pBznTqGppPO0e9aEgJSJdwBoTm6dUxW%2BTV2oC%2BSKKzwZrouayx7FFkqjYpT1dbRciIiYirFLBg%2BWSekDOADGYdfrpBebf1fiu5wxDpEDstYWmyiCiBsXB37xbY28EKh3psNw6Oxu%2Fb8bfo0jGXfPygNIcGK9KldUCsXipgyul9%2F7WqKjbdoCKZMZbUSR36qig0r18hgn9aF9W%2FZbx2IsPcb4cZ2iL6wR8tZin5TyaLyavsL0hwgvfW6vuEygg5qHqWOqQIM%2Fk6IZxE5sCgmEnGpFoY%2BA34MZAQ6zyjxpbysJkB9An9igHbruHbYIAcDI5TEC2q1jTtJwnYr91iwVsKGJuv00pmm5AVTll7L1t6euTtKn2x%2FvYiyQ19ZUx6hppojxnMU8iZA6tSf3KeCKpI81WwwBih56iBGRQIeaKP%2BdPVauytIhiZcVRnriVdeMouyCQO9%2FWia644yi7hFwMNqric8GOqUBKwAJhwpnOqZkgQt12TeTquvDM9dLfrfId11zx1Ra96m8gGhFeiiYczNjoqVEJU6pcid8L6Xvq4o1IQxF2GW7Txx9V%2BIyLC2RqB%2Buw6xv8rTnBJJKXKZF7VHgoi9KSowjMpLz24UgbJb9c9E4N37x2%2BeQP%2FENw5GU8gYKHIJ9GYbcOhSsBaX%2BidF9DTiYd7ipdo%2F6QRHheFpzCXkUD2YTR%2BkskMpe&X-Amz-Signature=e1644366f11eced89800d41feef24764015f9b06213327758752ea12f45e88da&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+
+Adquirencia
+
+
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/024ab4be-e905-4d48-a3af-445933469160/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEQM3S2S%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T170426Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBAaCXVzLXdlc3QtMiJHMEUCIExU59a4i0nO%2Bq4GLxpFO5UDmKxPgY37jeF9jCkL3EdVAiEAlApStzr7kSgqloH6HmGEeTP05Fqck7tMY0JO7s%2BoLNYqiAQI2f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD40UoUg%2B3bh6ZLjCyrcAysUij23pkLtJysYnMoWAKjj4hpEFqV57FQ77IV01e4nYNqerltRY%2BxhY%2BSr2iIoaRyZMf4PNyXarVHeaAHT3C4Pi%2BQm%2ByaVXqyxKTadVK1J9PLC35FlGH0yiOnzouzn79luGVi9t7Rx4Jq3CETirhig2elFDjYt2fj3V1N1pBznTqGppPO0e9aEgJSJdwBoTm6dUxW%2BTV2oC%2BSKKzwZrouayx7FFkqjYpT1dbRciIiYirFLBg%2BWSekDOADGYdfrpBebf1fiu5wxDpEDstYWmyiCiBsXB37xbY28EKh3psNw6Oxu%2Fb8bfo0jGXfPygNIcGK9KldUCsXipgyul9%2F7WqKjbdoCKZMZbUSR36qig0r18hgn9aF9W%2FZbx2IsPcb4cZ2iL6wR8tZin5TyaLyavsL0hwgvfW6vuEygg5qHqWOqQIM%2Fk6IZxE5sCgmEnGpFoY%2BA34MZAQ6zyjxpbysJkB9An9igHbruHbYIAcDI5TEC2q1jTtJwnYr91iwVsKGJuv00pmm5AVTll7L1t6euTtKn2x%2FvYiyQ19ZUx6hppojxnMU8iZA6tSf3KeCKpI81WwwBih56iBGRQIeaKP%2BdPVauytIhiZcVRnriVdeMouyCQO9%2FWia644yi7hFwMNqric8GOqUBKwAJhwpnOqZkgQt12TeTquvDM9dLfrfId11zx1Ra96m8gGhFeiiYczNjoqVEJU6pcid8L6Xvq4o1IQxF2GW7Txx9V%2BIyLC2RqB%2Buw6xv8rTnBJJKXKZF7VHgoi9KSowjMpLz24UgbJb9c9E4N37x2%2BeQP%2FENw5GU8gYKHIJ9GYbcOhSsBaX%2BidF9DTiYd7ipdo%2F6QRHheFpzCXkUD2YTR%2BkskMpe&X-Amz-Signature=002690fa5453a733ba4e32b1c80c5be0386925193eb203d21c4e5376ea7506df&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+O PicPay anunciou nesta terça-feira, 26, sua entrada no mercado de mídia. A partir de agora, a companhia vai comercializar anúncios que serão exibidos no seu aplicativo de finanças.
+
+Ads no aplicativo.
+
+
+
+
+
+Aqui talvez dê pra fazer uma conta de NIM da carteira.
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/7c9c4541-cd0c-441d-b241-6782e983bc0f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEQM3S2S%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T170426Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBAaCXVzLXdlc3QtMiJHMEUCIExU59a4i0nO%2Bq4GLxpFO5UDmKxPgY37jeF9jCkL3EdVAiEAlApStzr7kSgqloH6HmGEeTP05Fqck7tMY0JO7s%2BoLNYqiAQI2f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD40UoUg%2B3bh6ZLjCyrcAysUij23pkLtJysYnMoWAKjj4hpEFqV57FQ77IV01e4nYNqerltRY%2BxhY%2BSr2iIoaRyZMf4PNyXarVHeaAHT3C4Pi%2BQm%2ByaVXqyxKTadVK1J9PLC35FlGH0yiOnzouzn79luGVi9t7Rx4Jq3CETirhig2elFDjYt2fj3V1N1pBznTqGppPO0e9aEgJSJdwBoTm6dUxW%2BTV2oC%2BSKKzwZrouayx7FFkqjYpT1dbRciIiYirFLBg%2BWSekDOADGYdfrpBebf1fiu5wxDpEDstYWmyiCiBsXB37xbY28EKh3psNw6Oxu%2Fb8bfo0jGXfPygNIcGK9KldUCsXipgyul9%2F7WqKjbdoCKZMZbUSR36qig0r18hgn9aF9W%2FZbx2IsPcb4cZ2iL6wR8tZin5TyaLyavsL0hwgvfW6vuEygg5qHqWOqQIM%2Fk6IZxE5sCgmEnGpFoY%2BA34MZAQ6zyjxpbysJkB9An9igHbruHbYIAcDI5TEC2q1jTtJwnYr91iwVsKGJuv00pmm5AVTll7L1t6euTtKn2x%2FvYiyQ19ZUx6hppojxnMU8iZA6tSf3KeCKpI81WwwBih56iBGRQIeaKP%2BdPVauytIhiZcVRnriVdeMouyCQO9%2FWia644yi7hFwMNqric8GOqUBKwAJhwpnOqZkgQt12TeTquvDM9dLfrfId11zx1Ra96m8gGhFeiiYczNjoqVEJU6pcid8L6Xvq4o1IQxF2GW7Txx9V%2BIyLC2RqB%2Buw6xv8rTnBJJKXKZF7VHgoi9KSowjMpLz24UgbJb9c9E4N37x2%2BeQP%2FENw5GU8gYKHIJ9GYbcOhSsBaX%2BidF9DTiYd7ipdo%2F6QRHheFpzCXkUD2YTR%2BkskMpe&X-Amz-Signature=8e8ca0bc1ace8f7d71e9dc906ff0b79cf6b8542183e8b39e460b55e34d142ad0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+Fees deve ter parado de crescer pois deve ter migração do business de open platform pro business de cartão proprio.
+
+
+
+Pagina 214 faka das aquisições
+
+
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/5b16a01e-e620-482e-a3fe-87431cc7d3a4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEQM3S2S%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T170426Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBAaCXVzLXdlc3QtMiJHMEUCIExU59a4i0nO%2Bq4GLxpFO5UDmKxPgY37jeF9jCkL3EdVAiEAlApStzr7kSgqloH6HmGEeTP05Fqck7tMY0JO7s%2BoLNYqiAQI2f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD40UoUg%2B3bh6ZLjCyrcAysUij23pkLtJysYnMoWAKjj4hpEFqV57FQ77IV01e4nYNqerltRY%2BxhY%2BSr2iIoaRyZMf4PNyXarVHeaAHT3C4Pi%2BQm%2ByaVXqyxKTadVK1J9PLC35FlGH0yiOnzouzn79luGVi9t7Rx4Jq3CETirhig2elFDjYt2fj3V1N1pBznTqGppPO0e9aEgJSJdwBoTm6dUxW%2BTV2oC%2BSKKzwZrouayx7FFkqjYpT1dbRciIiYirFLBg%2BWSekDOADGYdfrpBebf1fiu5wxDpEDstYWmyiCiBsXB37xbY28EKh3psNw6Oxu%2Fb8bfo0jGXfPygNIcGK9KldUCsXipgyul9%2F7WqKjbdoCKZMZbUSR36qig0r18hgn9aF9W%2FZbx2IsPcb4cZ2iL6wR8tZin5TyaLyavsL0hwgvfW6vuEygg5qHqWOqQIM%2Fk6IZxE5sCgmEnGpFoY%2BA34MZAQ6zyjxpbysJkB9An9igHbruHbYIAcDI5TEC2q1jTtJwnYr91iwVsKGJuv00pmm5AVTll7L1t6euTtKn2x%2FvYiyQ19ZUx6hppojxnMU8iZA6tSf3KeCKpI81WwwBih56iBGRQIeaKP%2BdPVauytIhiZcVRnriVdeMouyCQO9%2FWia644yi7hFwMNqric8GOqUBKwAJhwpnOqZkgQt12TeTquvDM9dLfrfId11zx1Ra96m8gGhFeiiYczNjoqVEJU6pcid8L6Xvq4o1IQxF2GW7Txx9V%2BIyLC2RqB%2Buw6xv8rTnBJJKXKZF7VHgoi9KSowjMpLz24UgbJb9c9E4N37x2%2BeQP%2FENw5GU8gYKHIJ9GYbcOhSsBaX%2BidF9DTiYd7ipdo%2F6QRHheFpzCXkUD2YTR%2BkskMpe&X-Amz-Signature=98288133340793c8e87f4cdad3170af5052f6fa9b8f81d65ad546da5544bc4e2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+da pra acompnhar a evolução desse fidc picpay 1 q deveria ser proxy de crescimento de tpv.
+
+
+
+Parece fazer hedge do portfolio…
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/cba38484-5a68-433a-b6af-c1d83b588ed1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEQM3S2S%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T170426Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBAaCXVzLXdlc3QtMiJHMEUCIExU59a4i0nO%2Bq4GLxpFO5UDmKxPgY37jeF9jCkL3EdVAiEAlApStzr7kSgqloH6HmGEeTP05Fqck7tMY0JO7s%2BoLNYqiAQI2f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD40UoUg%2B3bh6ZLjCyrcAysUij23pkLtJysYnMoWAKjj4hpEFqV57FQ77IV01e4nYNqerltRY%2BxhY%2BSr2iIoaRyZMf4PNyXarVHeaAHT3C4Pi%2BQm%2ByaVXqyxKTadVK1J9PLC35FlGH0yiOnzouzn79luGVi9t7Rx4Jq3CETirhig2elFDjYt2fj3V1N1pBznTqGppPO0e9aEgJSJdwBoTm6dUxW%2BTV2oC%2BSKKzwZrouayx7FFkqjYpT1dbRciIiYirFLBg%2BWSekDOADGYdfrpBebf1fiu5wxDpEDstYWmyiCiBsXB37xbY28EKh3psNw6Oxu%2Fb8bfo0jGXfPygNIcGK9KldUCsXipgyul9%2F7WqKjbdoCKZMZbUSR36qig0r18hgn9aF9W%2FZbx2IsPcb4cZ2iL6wR8tZin5TyaLyavsL0hwgvfW6vuEygg5qHqWOqQIM%2Fk6IZxE5sCgmEnGpFoY%2BA34MZAQ6zyjxpbysJkB9An9igHbruHbYIAcDI5TEC2q1jTtJwnYr91iwVsKGJuv00pmm5AVTll7L1t6euTtKn2x%2FvYiyQ19ZUx6hppojxnMU8iZA6tSf3KeCKpI81WwwBih56iBGRQIeaKP%2BdPVauytIhiZcVRnriVdeMouyCQO9%2FWia644yi7hFwMNqric8GOqUBKwAJhwpnOqZkgQt12TeTquvDM9dLfrfId11zx1Ra96m8gGhFeiiYczNjoqVEJU6pcid8L6Xvq4o1IQxF2GW7Txx9V%2BIyLC2RqB%2Buw6xv8rTnBJJKXKZF7VHgoi9KSowjMpLz24UgbJb9c9E4N37x2%2BeQP%2FENw5GU8gYKHIJ9GYbcOhSsBaX%2BidF9DTiYd7ipdo%2F6QRHheFpzCXkUD2YTR%2BkskMpe&X-Amz-Signature=cf35c1003f8016f2bbcd50aee0dc9124fd84432b542418c5dbb827dd47d622c1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/4d8a3e94-2b35-4a4d-91e5-367c6191c289/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEQM3S2S%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T170426Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBAaCXVzLXdlc3QtMiJHMEUCIExU59a4i0nO%2Bq4GLxpFO5UDmKxPgY37jeF9jCkL3EdVAiEAlApStzr7kSgqloH6HmGEeTP05Fqck7tMY0JO7s%2BoLNYqiAQI2f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD40UoUg%2B3bh6ZLjCyrcAysUij23pkLtJysYnMoWAKjj4hpEFqV57FQ77IV01e4nYNqerltRY%2BxhY%2BSr2iIoaRyZMf4PNyXarVHeaAHT3C4Pi%2BQm%2ByaVXqyxKTadVK1J9PLC35FlGH0yiOnzouzn79luGVi9t7Rx4Jq3CETirhig2elFDjYt2fj3V1N1pBznTqGppPO0e9aEgJSJdwBoTm6dUxW%2BTV2oC%2BSKKzwZrouayx7FFkqjYpT1dbRciIiYirFLBg%2BWSekDOADGYdfrpBebf1fiu5wxDpEDstYWmyiCiBsXB37xbY28EKh3psNw6Oxu%2Fb8bfo0jGXfPygNIcGK9KldUCsXipgyul9%2F7WqKjbdoCKZMZbUSR36qig0r18hgn9aF9W%2FZbx2IsPcb4cZ2iL6wR8tZin5TyaLyavsL0hwgvfW6vuEygg5qHqWOqQIM%2Fk6IZxE5sCgmEnGpFoY%2BA34MZAQ6zyjxpbysJkB9An9igHbruHbYIAcDI5TEC2q1jTtJwnYr91iwVsKGJuv00pmm5AVTll7L1t6euTtKn2x%2FvYiyQ19ZUx6hppojxnMU8iZA6tSf3KeCKpI81WwwBih56iBGRQIeaKP%2BdPVauytIhiZcVRnriVdeMouyCQO9%2FWia644yi7hFwMNqric8GOqUBKwAJhwpnOqZkgQt12TeTquvDM9dLfrfId11zx1Ra96m8gGhFeiiYczNjoqVEJU6pcid8L6Xvq4o1IQxF2GW7Txx9V%2BIyLC2RqB%2Buw6xv8rTnBJJKXKZF7VHgoi9KSowjMpLz24UgbJb9c9E4N37x2%2BeQP%2FENw5GU8gYKHIJ9GYbcOhSsBaX%2BidF9DTiYd7ipdo%2F6QRHheFpzCXkUD2YTR%2BkskMpe&X-Amz-Signature=9fb9f6cda2c52bc6adf4ba2f7b1e1d0558ae8bfeb3087be1d2835335902bd781&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+Portfolio FGTS parece enorme. Mas nao casa com o tamanho do fidc. Deve ter no balanço também carregando.
+
+
+
+credit card limit risks including undraw limit risk: includes pre-approved credit card limits that were
+not yet taken by credit card consumers. As of September 30, 2025, we had R$6.2 billion of undrawn
+credit card limits off-balance.
+
+
+
+Diferente do inter esse cara me parece ter uma plataforma mais fraca… Pode ter acelerado credito agora na margem por conta de crédito. Consignado privado por exemplo… Acho que é importante entender isso.
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/f6fc404c-e17a-4b55-962a-17de87ea5df7/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEQM3S2S%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T170426Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBAaCXVzLXdlc3QtMiJHMEUCIExU59a4i0nO%2Bq4GLxpFO5UDmKxPgY37jeF9jCkL3EdVAiEAlApStzr7kSgqloH6HmGEeTP05Fqck7tMY0JO7s%2BoLNYqiAQI2f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD40UoUg%2B3bh6ZLjCyrcAysUij23pkLtJysYnMoWAKjj4hpEFqV57FQ77IV01e4nYNqerltRY%2BxhY%2BSr2iIoaRyZMf4PNyXarVHeaAHT3C4Pi%2BQm%2ByaVXqyxKTadVK1J9PLC35FlGH0yiOnzouzn79luGVi9t7Rx4Jq3CETirhig2elFDjYt2fj3V1N1pBznTqGppPO0e9aEgJSJdwBoTm6dUxW%2BTV2oC%2BSKKzwZrouayx7FFkqjYpT1dbRciIiYirFLBg%2BWSekDOADGYdfrpBebf1fiu5wxDpEDstYWmyiCiBsXB37xbY28EKh3psNw6Oxu%2Fb8bfo0jGXfPygNIcGK9KldUCsXipgyul9%2F7WqKjbdoCKZMZbUSR36qig0r18hgn9aF9W%2FZbx2IsPcb4cZ2iL6wR8tZin5TyaLyavsL0hwgvfW6vuEygg5qHqWOqQIM%2Fk6IZxE5sCgmEnGpFoY%2BA34MZAQ6zyjxpbysJkB9An9igHbruHbYIAcDI5TEC2q1jTtJwnYr91iwVsKGJuv00pmm5AVTll7L1t6euTtKn2x%2FvYiyQ19ZUx6hppojxnMU8iZA6tSf3KeCKpI81WwwBih56iBGRQIeaKP%2BdPVauytIhiZcVRnriVdeMouyCQO9%2FWia644yi7hFwMNqric8GOqUBKwAJhwpnOqZkgQt12TeTquvDM9dLfrfId11zx1Ra96m8gGhFeiiYczNjoqVEJU6pcid8L6Xvq4o1IQxF2GW7Txx9V%2BIyLC2RqB%2Buw6xv8rTnBJJKXKZF7VHgoi9KSowjMpLz24UgbJb9c9E4N37x2%2BeQP%2FENw5GU8gYKHIJ9GYbcOhSsBaX%2BidF9DTiYd7ipdo%2F6QRHheFpzCXkUD2YTR%2BkskMpe&X-Amz-Signature=6cc4bf4bfa3c1faa1a80403c29794ab09d716a210ca0ea7722479370a7623e2c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+
+Basicamente a tese é sair dando credito pro cliente. 
+
+
+
+
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/672d9d9a-1035-4f05-9187-d06369bd822c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEQM3S2S%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T170426Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBAaCXVzLXdlc3QtMiJHMEUCIExU59a4i0nO%2Bq4GLxpFO5UDmKxPgY37jeF9jCkL3EdVAiEAlApStzr7kSgqloH6HmGEeTP05Fqck7tMY0JO7s%2BoLNYqiAQI2f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD40UoUg%2B3bh6ZLjCyrcAysUij23pkLtJysYnMoWAKjj4hpEFqV57FQ77IV01e4nYNqerltRY%2BxhY%2BSr2iIoaRyZMf4PNyXarVHeaAHT3C4Pi%2BQm%2ByaVXqyxKTadVK1J9PLC35FlGH0yiOnzouzn79luGVi9t7Rx4Jq3CETirhig2elFDjYt2fj3V1N1pBznTqGppPO0e9aEgJSJdwBoTm6dUxW%2BTV2oC%2BSKKzwZrouayx7FFkqjYpT1dbRciIiYirFLBg%2BWSekDOADGYdfrpBebf1fiu5wxDpEDstYWmyiCiBsXB37xbY28EKh3psNw6Oxu%2Fb8bfo0jGXfPygNIcGK9KldUCsXipgyul9%2F7WqKjbdoCKZMZbUSR36qig0r18hgn9aF9W%2FZbx2IsPcb4cZ2iL6wR8tZin5TyaLyavsL0hwgvfW6vuEygg5qHqWOqQIM%2Fk6IZxE5sCgmEnGpFoY%2BA34MZAQ6zyjxpbysJkB9An9igHbruHbYIAcDI5TEC2q1jTtJwnYr91iwVsKGJuv00pmm5AVTll7L1t6euTtKn2x%2FvYiyQ19ZUx6hppojxnMU8iZA6tSf3KeCKpI81WwwBih56iBGRQIeaKP%2BdPVauytIhiZcVRnriVdeMouyCQO9%2FWia644yi7hFwMNqric8GOqUBKwAJhwpnOqZkgQt12TeTquvDM9dLfrfId11zx1Ra96m8gGhFeiiYczNjoqVEJU6pcid8L6Xvq4o1IQxF2GW7Txx9V%2BIyLC2RqB%2Buw6xv8rTnBJJKXKZF7VHgoi9KSowjMpLz24UgbJb9c9E4N37x2%2BeQP%2FENw5GU8gYKHIJ9GYbcOhSsBaX%2BidF9DTiYd7ipdo%2F6QRHheFpzCXkUD2YTR%2BkskMpe&X-Amz-Signature=ad3ea7e2f0b41b1c4e7fb80c4e7c8b84ac0db77d33b1a150bc06326d2027db97&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+
+
+
+https://www.infomoney.com.br/minhas-financas/febraban-pede-ao-bc-abertura-de-processo-para-investigar-maquininhas-por-suspeita-de-fraudes/?utm_source=chatgpt.com
+
+
+
+https://www.gov.br/mj/pt-br/assuntos/noticias/senacon-acolhe-denuncia-da-febraban-e-exige-explicacoes-das-empresas-pagseguro-mercado-pago-stone-e-picpay-por-pratica-abusiva-aos-consumidores?utm_source=chatgpt.com
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/86a20a91-0abf-4ae4-a352-7ea6c8efd29b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEQM3S2S%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T170426Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBAaCXVzLXdlc3QtMiJHMEUCIExU59a4i0nO%2Bq4GLxpFO5UDmKxPgY37jeF9jCkL3EdVAiEAlApStzr7kSgqloH6HmGEeTP05Fqck7tMY0JO7s%2BoLNYqiAQI2f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD40UoUg%2B3bh6ZLjCyrcAysUij23pkLtJysYnMoWAKjj4hpEFqV57FQ77IV01e4nYNqerltRY%2BxhY%2BSr2iIoaRyZMf4PNyXarVHeaAHT3C4Pi%2BQm%2ByaVXqyxKTadVK1J9PLC35FlGH0yiOnzouzn79luGVi9t7Rx4Jq3CETirhig2elFDjYt2fj3V1N1pBznTqGppPO0e9aEgJSJdwBoTm6dUxW%2BTV2oC%2BSKKzwZrouayx7FFkqjYpT1dbRciIiYirFLBg%2BWSekDOADGYdfrpBebf1fiu5wxDpEDstYWmyiCiBsXB37xbY28EKh3psNw6Oxu%2Fb8bfo0jGXfPygNIcGK9KldUCsXipgyul9%2F7WqKjbdoCKZMZbUSR36qig0r18hgn9aF9W%2FZbx2IsPcb4cZ2iL6wR8tZin5TyaLyavsL0hwgvfW6vuEygg5qHqWOqQIM%2Fk6IZxE5sCgmEnGpFoY%2BA34MZAQ6zyjxpbysJkB9An9igHbruHbYIAcDI5TEC2q1jTtJwnYr91iwVsKGJuv00pmm5AVTll7L1t6euTtKn2x%2FvYiyQ19ZUx6hppojxnMU8iZA6tSf3KeCKpI81WwwBih56iBGRQIeaKP%2BdPVauytIhiZcVRnriVdeMouyCQO9%2FWia644yi7hFwMNqric8GOqUBKwAJhwpnOqZkgQt12TeTquvDM9dLfrfId11zx1Ra96m8gGhFeiiYczNjoqVEJU6pcid8L6Xvq4o1IQxF2GW7Txx9V%2BIyLC2RqB%2Buw6xv8rTnBJJKXKZF7VHgoi9KSowjMpLz24UgbJb9c9E4N37x2%2BeQP%2FENw5GU8gYKHIJ9GYbcOhSsBaX%2BidF9DTiYd7ipdo%2F6QRHheFpzCXkUD2YTR%2BkskMpe&X-Amz-Signature=d8b9f0fd1e9961c3786d580bed4cc1d9e549852d20dfc18aa8b1908f8e6af830&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+
+Sessão de partes relacionadas -Pag 416
+
+
+
+Cost sharing.
+
+
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7b400ca3-2bce-814d-b9be-0003833d3bbd/c773a913-a77c-48e4-b5f1-01b59a87eb66/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEQM3S2S%2F20260417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260417T170426Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBAaCXVzLXdlc3QtMiJHMEUCIExU59a4i0nO%2Bq4GLxpFO5UDmKxPgY37jeF9jCkL3EdVAiEAlApStzr7kSgqloH6HmGEeTP05Fqck7tMY0JO7s%2BoLNYqiAQI2f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD40UoUg%2B3bh6ZLjCyrcAysUij23pkLtJysYnMoWAKjj4hpEFqV57FQ77IV01e4nYNqerltRY%2BxhY%2BSr2iIoaRyZMf4PNyXarVHeaAHT3C4Pi%2BQm%2ByaVXqyxKTadVK1J9PLC35FlGH0yiOnzouzn79luGVi9t7Rx4Jq3CETirhig2elFDjYt2fj3V1N1pBznTqGppPO0e9aEgJSJdwBoTm6dUxW%2BTV2oC%2BSKKzwZrouayx7FFkqjYpT1dbRciIiYirFLBg%2BWSekDOADGYdfrpBebf1fiu5wxDpEDstYWmyiCiBsXB37xbY28EKh3psNw6Oxu%2Fb8bfo0jGXfPygNIcGK9KldUCsXipgyul9%2F7WqKjbdoCKZMZbUSR36qig0r18hgn9aF9W%2FZbx2IsPcb4cZ2iL6wR8tZin5TyaLyavsL0hwgvfW6vuEygg5qHqWOqQIM%2Fk6IZxE5sCgmEnGpFoY%2BA34MZAQ6zyjxpbysJkB9An9igHbruHbYIAcDI5TEC2q1jTtJwnYr91iwVsKGJuv00pmm5AVTll7L1t6euTtKn2x%2FvYiyQ19ZUx6hppojxnMU8iZA6tSf3KeCKpI81WwwBih56iBGRQIeaKP%2BdPVauytIhiZcVRnriVdeMouyCQO9%2FWia644yi7hFwMNqric8GOqUBKwAJhwpnOqZkgQt12TeTquvDM9dLfrfId11zx1Ra96m8gGhFeiiYczNjoqVEJU6pcid8L6Xvq4o1IQxF2GW7Txx9V%2BIyLC2RqB%2Buw6xv8rTnBJJKXKZF7VHgoi9KSowjMpLz24UgbJb9c9E4N37x2%2BeQP%2FENw5GU8gYKHIJ9GYbcOhSsBaX%2BidF9DTiYd7ipdo%2F6QRHheFpzCXkUD2YTR%2BkskMpe&X-Amz-Signature=67a7cecbc5bf5b29013d83d56ac730fb4822d75ec31df82a8f136e25be25f028&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)

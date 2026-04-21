@@ -1,0 +1,81 @@
+=== Wiki Phase 2 Resume (parallel, concurrency=4) ===
+Plan: logs/wiki_plan_merged_20260420.json
+
+ALL_PAGES context: 87 pages
+Building work list...
+Pages to write: 33 (skipped existing: 46)
+
+=== Phase 2: Execution (parallel x4) ===
+  [update] direcional.md (entity)
+  [update] b3.md (entity)
+  [update] banco_pan.md (entity)
+  [update] riva.md (entity)
+    OK [update direcional.md]
+  [update] smartfit.md (entity)
+    OK [update banco_pan.md]
+  [update] bradesco.md (entity)
+    OK [update b3.md]
+  [update] weg.md (entity)
+    OK [update riva.md]
+  [update] cury.md (entity)
+    FAILED [update bradesco.md] rc=1
+  [update] cyrela.md (entity)
+    FAILED [update cury.md] rc=1
+  [update] tenda.md (entity)
+    FAILED [update cyrela.md] rc=1
+  [update] alea.md (entity)
+    FAILED [update tenda.md] rc=1
+  [update] Melnick.md (entity)
+    FAILED [update alea.md] rc=1
+  [update] unidas.md (entity)
+    FAILED [update Melnick.md] rc=1
+  [update] nubank.md (entity)
+    FAILED [update unidas.md] rc=1
+  [update] wellhub.md (entity)
+    FAILED [update nubank.md] rc=1
+  [update] totalpass.md (entity)
+    FAILED [update wellhub.md] rc=1
+  [update] pagseguro.md (entity)
+    FAILED [update totalpass.md] rc=1
+    FAILED [update weg.md] rc=1
+  [create] bess.md (concept)
+  [create] consignado_privado.md (concept)
+    FAILED [update pagseguro.md] rc=1
+  [create] consignado.md (concept)
+    FAILED [create bess.md] rc=1
+    FAILED [create consignado_privado.md] rc=1
+    FAILED [create consignado.md] rc=1
+  [update] sbpe.md (concept)
+  [update] reforma_tributaria.md (concept)
+  [update] banco_de_terrenos.md (concept)
+    FAILED [update reforma_tributaria.md] rc=1
+    FAILED [update sbpe.md] rc=1
+    FAILED [update banco_de_terrenos.md] rc=1
+  [update] mcmv.md (concept)
+  [update] vso.md (concept)
+  [create] academias_fitness.md (sector)
+    FAILED [update mcmv.md] rc=1
+    FAILED [update vso.md] rc=1
+    FAILED [create academias_fitness.md] rc=1
+  [update] incorporadoras.md (sector)
+  [create] locadoras.md (sector)
+  [create] cyrela_vs_direcional.md (comparison)
+    FAILED [update incorporadoras.md] rc=1
+    FAILED [create locadoras.md] rc=1
+    FAILED [create cyrela_vs_direcional.md] rc=1
+  [update] cury_vs_direcional.md (comparison)
+  [update] tenda_vs_direcional.md (comparison)
+    FAILED [update smartfit.md] rc=1
+  [update] cyrela_vs_cury.md (comparison)
+  [update] cury_vs_tenda.md (comparison)
+    FAILED [update cury_vs_direcional.md] rc=1
+    FAILED [update tenda_vs_direcional.md] rc=1
+    FAILED [update cyrela_vs_cury.md] rc=1
+    FAILED [update cury_vs_tenda.md] rc=1
+Queue cleared: batch_20260420_200411
+
+=== Resume complete ===
+  Skipped (already existed): 46
+  Written: 4
+  Failed:  29
+  Failed-page log: /c/Users/diogo.bodas/Desktop/Equity-wiki/equity-wiki/logs/wiki_resume_write_failures_20260420_200402.json
