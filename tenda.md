@@ -1,7 +1,7 @@
 ---
 type: entity
 aliases: [Construtora Tenda, Tenda, TEND3, Alea]
-sources: [full/tenda/1T26/previa_operacional.md, structured/tenda/1T26/previa_operacional.json, full/tenda/data_pack_1T26.md, structured/tenda/{1T11..1T26}/data_pack.json, full/tenda/2025/dfp.md, structured/tenda/2025/dfp.json, full/tenda/2024/dfp.md, structured/tenda/2024/dfp.json, full/tenda/2023/dfp.md, structured/tenda/2023/dfp.json, full/tenda/1T25/itr.md, structured/tenda/1T25/itr.json, full/tenda/2T25/itr.md, structured/tenda/2T25/itr.json, full/tenda/3T25/itr.md, structured/tenda/3T25/itr.json, full/tenda/1T24/itr.md, structured/tenda/1T24/itr.json, full/tenda/2T24/itr.md, structured/tenda/2T24/itr.json, full/tenda/3T24/itr.md, structured/tenda/3T24/itr.json, full/tenda/1T25/release.md, structured/tenda/1T25/release.json, full/tenda/2T25/release.md, structured/tenda/2T25/release.json, full/tenda/3T25/release.md, structured/tenda/3T25/release.json, full/tenda/4T25/release.md, structured/tenda/4T25/release.json, full/tenda/4T23/release.md, structured/tenda/4T23/release.json, full/tenda/1T24/release.md, structured/tenda/1T24/release.json, full/tenda/2T24/release.md, structured/tenda/2T24/release.json, full/tenda/3T24/release.md, structured/tenda/3T24/release.json, full/tenda/4T24/release.md, structured/tenda/4T24/release.json, full/tenda/2T25/fato_relevante_904079.md, full/tenda/2T25/fato_relevante_907345.md, full/tenda/2T25/fato_relevante_913498.md, full/tenda/2T25/fato_relevante_913576.md, full/tenda/2T25/fato_relevante_914604.md, full/tenda/2T25/fato_relevante_917092.md, full/tenda/3T25/fato_relevante_930915.md, full/tenda/3T25/fato_relevante_930916.md, full/tenda/3T25/fato_relevante_934724.md, full/tenda/3T25/fato_relevante_934734.md, full/tenda/3T25/fato_relevante_952756.md, full/tenda/3T25/fato_relevante_952757.md, full/tenda/4T25/fato_relevante_963021.md, full/tenda/4T25/fato_relevante_979561.md, full/tenda/4T25/fato_relevante_981189.md, full/tenda/4T25/fato_relevante_983829.md, full/tenda/4T25/fato_relevante_986338.md, full/tenda/1T26/fato_relevante_1013789.md, full/tenda/2T26/fato_relevante_1025459.md, full/generic/notas/ceo_talks_osmo_tenda_27e00ca3.md, full/generic/notas/cury_cfo_tenda_28d00ca3.md, full/generic/notas/tenda_2f500ca3.md, full/generic/notas/tenda_cfo_19_11_2b000ca3.md, full/generic/notas/cyrela_call_cambauva_btg_1t26_33a00ca3.md]
+sources: [full/tenda/1T26/previa_operacional.md, structured/tenda/1T26/previa_operacional.json, full/tenda/data_pack_1T26.md, structured/tenda/{1T11..1T26}/data_pack.json, full/tenda/2025/dfp.md, structured/tenda/2025/dfp.json, full/tenda/2024/dfp.md, structured/tenda/2024/dfp.json, full/tenda/2023/dfp.md, structured/tenda/2023/dfp.json, full/tenda/1T25/itr.md, structured/tenda/1T25/itr.json, full/tenda/2T25/itr.md, structured/tenda/2T25/itr.json, full/tenda/3T25/itr.md, structured/tenda/3T25/itr.json, full/tenda/1T24/itr.md, structured/tenda/1T24/itr.json, full/tenda/2T24/itr.md, structured/tenda/2T24/itr.json, full/tenda/3T24/itr.md, structured/tenda/3T24/itr.json, full/tenda/1T25/release.md, structured/tenda/1T25/release.json, full/tenda/2T25/release.md, structured/tenda/2T25/release.json, full/tenda/3T25/release.md, structured/tenda/3T25/release.json, full/tenda/4T25/release.md, structured/tenda/4T25/release.json, full/tenda/4T23/release.md, structured/tenda/4T23/release.json, full/tenda/1T24/release.md, structured/tenda/1T24/release.json, full/tenda/2T24/release.md, structured/tenda/2T24/release.json, full/tenda/3T24/release.md, structured/tenda/3T24/release.json, full/tenda/4T24/release.md, structured/tenda/4T24/release.json, full/tenda/2T25/fato_relevante_904079.md, full/tenda/2T25/fato_relevante_907345.md, full/tenda/2T25/fato_relevante_913498.md, full/tenda/2T25/fato_relevante_913576.md, full/tenda/2T25/fato_relevante_914604.md, full/tenda/2T25/fato_relevante_917092.md, full/tenda/3T25/fato_relevante_930915.md, full/tenda/3T25/fato_relevante_930916.md, full/tenda/3T25/fato_relevante_934724.md, full/tenda/3T25/fato_relevante_934734.md, full/tenda/3T25/fato_relevante_952756.md, full/tenda/3T25/fato_relevante_952757.md, full/tenda/4T25/fato_relevante_963021.md, full/tenda/4T25/fato_relevante_979561.md, full/tenda/4T25/fato_relevante_981189.md, full/tenda/4T25/fato_relevante_983829.md, full/tenda/4T25/fato_relevante_986338.md, full/tenda/1T26/fato_relevante_1013789.md, full/tenda/2T26/fato_relevante_1025459.md, full/generic/notas/ceo_talks_osmo_tenda_27e00ca3.md, full/generic/notas/cury_cfo_tenda_28d00ca3.md, full/generic/notas/tenda_2f500ca3.md, full/generic/notas/tenda_cfo_19_11_2b000ca3.md, full/generic/notas/cyrela_call_cambauva_btg_1t26_33a00ca3.md, full/tenda/4T25/call_transcript.md, full/tenda/2T20/call_transcript.md, full/tenda/3T20/call_transcript.md, full/tenda/4T20/call_transcript.md, full/tenda/1T21/call_transcript.md, full/tenda/2T21/call_transcript.md, full/tenda/3T21/call_transcript.md, full/tenda/4T21/call_transcript.md, full/tenda/1T22/call_transcript.md, full/tenda/2T22/call_transcript.md, full/tenda/3T22/call_transcript.md, full/tenda/4T22/call_transcript.md, full/tenda/1T23/call_transcript.md, full/tenda/2T23/call_transcript.md, full/tenda/3T23/call_transcript.md, full/tenda/4T23/call_transcript.md, full/tenda/1T24/call_transcript.md, full/tenda/2T24/call_transcript.md, full/tenda/3T24/call_transcript.md, full/tenda/4T24/call_transcript.md, full/tenda/1T25/call_transcript.md, full/tenda/2T25/call_transcript.md, full/tenda/3T25/call_transcript.md]
 created: 2026-04-08
 updated: 2026-04-21
 ---
@@ -190,6 +190,49 @@ Fontes: (fonte: full/tenda/4T25/fato_relevante_981189.md), (fonte: full/tenda/4T
 
 O EBITDA ajustado marca Tenda no 4T25 anualizado ja tangencia R$ 941 mm, proximo ao piso do guidance 2026 (fonte: full/tenda/4T25/release.md §marca_tenda).
 
+## Call de Resultados 4T25 — Destaques da Conferencia
+
+Call realizada apos o release do 4T25. Participantes: CFO Luis Mauricio de Garcia, CEO Rodrigo Osmo, Leonardo Dias (RI). Tom marcadamente comemorative — CFO descreveu 2025 como "ano de recordes" em lancamentos, vendas, EBIT, geracao de caixa e lucro (fonte: full/tenda/4T25/call_transcript.md).
+
+### Destaques operacionais adicionais
+
+- **Lancamentos 2025**: ~23.000 unidades (~R$ 5,1 bi VGV); landbank adquirido equivalente a 35.000 unidades, gerando flexibilidade de crescimento (fonte: full/tenda/4T25/call_transcript.md).
+- **Vendas 1° bimestre 2026**: venda bruta acima de R$ 1 bi (+27% vs. 1B25) — novo recorde historico da companhia (fonte: full/tenda/4T25/call_transcript.md).
+- **Producao Tenda**: recorde de 20.000 unidades concretadas em 2025; ritmo atual ~22.000 un/ano, com crescimento de 26 para 40 "fabricas" (canteiros padronizados) ao longo de 2025 (fonte: full/tenda/4T25/call_transcript.md).
+- **Lucro recorrente Tenda 4T25**: R$ 166 mm (anualiza >R$ 650 mm) (fonte: full/tenda/4T25/call_transcript.md).
+- **ROCE segmento Tenda 2025**: ~45% (fonte: full/tenda/4T25/call_transcript.md).
+- **FCO Tenda 2025**: recorde, acima de R$ 237 mm (fonte: full/tenda/4T25/call_transcript.md).
+
+### Guidance 2026 — comentarios da call
+
+O CFO reafirmou o guidance de lucro liquido consolidado em **R$ 360–400 mm** — distinto dos R$ 520–600 mm constantes no release do 4T25. A diferenca mais provavel e que a call usa a metrica ex-SWAP (receita de derivativos excluida), enquanto o release inclui o efeito dos derivativos. O guidance de EBIT Tenda (R$ 950–1.050 mm) permanece inalterado e e consistente entre as duas versoes (fonte: full/tenda/4T25/call_transcript.md). O CEO sinalizou que **o risco e de revisao para cima**, pois o guidance nao previa as melhorias do [[mcmv|MCMV]] (subsidios de janeiro de 2026 e revisao de tetos esperada para marco de 2026). Dividendos extraordinarios mais recorrentes a partir de fins de 2026, com objetivo de zerar a divida liquida primeiro.
+
+### Topicos do Q&A
+
+**Desvio de custo Alea — provisao suficiente?** (BTG Cambauva): Osmo respondeu que a provisao de R$ 55 mm e "realista" sob a performance atual, com chance de reversoes se a estabilizacao acelerar. Margem bruta de novos projetos Alea normalizada: **25–30%** — inferior a Tenda, mas com boa visibilidade pela padronizacao dos novos canteiros. Alea ainda nao atinge o guidance de lucro (~R$ 100 mm anualizado de prejuizo vs. guidance de R$ 70 mm), mas melhoras operacionais devem fechar o gap (fonte: full/tenda/4T25/call_transcript.md).
+
+**Composicao do desvio Alea** (BOFA): a fabrica esta controlada; o problema foi nos terceirizados — menor eficiencia levou obras atrasadas, elevando indiretamente o custo. Em casa-patio, atraso de 3–4 meses pode elevar o custo indireto em 60–70% (fonte: full/tenda/4T25/call_transcript.md).
+
+**Reforma tributaria — impacto de margem** (UBS): maioria dos projetos deve migrar ao IVA em 2027; ganho de margem estimado em ~4 p.p. para a Tenda e ~5 p.p. para a Alea ate o final da transicao. Em 2027 especificamente, o beneficio para a Tenda e quase nulo e para a Alea ~2,5 p.p. Receita financeira acima do CDI decorre de fundo de reserva das securitizadoras (contabilizado fora do caixa, rendimento reconhecido no resultado) (fonte: full/tenda/4T25/call_transcript.md).
+
+**Custo de madeira e margem Tenda recorrente** (Santander): madeira representa ~10–12% do custo total da Alea (metade madeira, metade OSB); sem impacto relevante ate o momento. Margem bruta recorrente Tenda: **36,5%** (novas vendas); margem reportada pode superar esse nivel por economia de eventuais — mecanica de revisao predefinida nos ultimos 6 meses das obras verticalizadas (fonte: full/tenda/4T25/call_transcript.md).
+
+**Impacto MCMV e competicao** (XP): CEO estimou R$ 8.000 de ganho de poder aquisitivo por cliente Faixa 1 (R$ 4.000 ponderado pelo mix). Osmo afirmou que migracao de metodologia construtiva nao e trivial e que a Tenda nao sente pressao competitiva crescente no segmento Faixa 1/2 — ganhou share relativo nos mercados onde atua em 2025 (fonte: full/tenda/4T25/call_transcript.md).
+
+**Casapatio Canoas** (J.P. Morgan): maior projeto FAR dos ultimos 10 anos; nao iniciou obras no 1T26, com expectativa de inicio no 2T26, aguardando aprovacoes regulatorias. Risco de atraso adicional (fonte: full/tenda/4T25/call_transcript.md).
+
+**LandBank e mix de faixas** (Citibank): R$ 4 bi do landbank foram adquiridos a premissas de Faixa 2, com expectativa de lancamento em Faixa 3 — upside nao contabilizado nas premissas de guidance. Faixa 1 volta a ganhar relevancia no mix (RET mais favoravel) apos mudancas do MCMV (fonte: full/tenda/4T25/call_transcript.md).
+
+**Geracao de caixa vs. lucro no 4T25** (Safra): queda de caixa vs. 3T25 apesar de lucro maior — explicada por lancamentos elevados (terrenos pagos antes de arrecadar) e ausencia do efeito pontual de repasse de cheques legado de Pernambuco do 3T25 (fonte: full/tenda/4T25/call_transcript.md).
+
+### Riscos levantados na call
+
+- **Alea — desvios adicionais possiveis**: verticalização ainda em curso; desvios adicionais de menor magnitude possiveis ate ciclo de obras legado ser encerrado (~meados de 2027) (fonte: full/tenda/4T25/call_transcript.md).
+- **Escassez de mao de obra**: inflacao de mao de obra persistentemente ~5 p.p. acima de materiais, sem perspectiva de melhora no curto prazo (fonte: full/tenda/4T25/call_transcript.md).
+- **Custo de madeira/OSB**: ~10–12% do custo da Alea; pressao no mercado, impacto direto ainda limitado mas monitorado (fonte: full/tenda/4T25/call_transcript.md).
+- **Fim da jornada 6×1**: impacto estimado baixo para a Tenda — componente de mao de obra e ~33% do custo (vs. 40–45% em pares de alvenaria estrutural); trabalhadores ja remunerados por tarefas com media de 40h semanais (fonte: full/tenda/4T25/call_transcript.md).
+- **Risco geopolitico/petroleo/frete**: mencionado mas considerado gerenciavel via repasse de precos nos limites do programa MCMV (fonte: full/tenda/4T25/call_transcript.md).
+
 ## Gestao e estrategia de longo prazo
 
 Informacoes extraidas de reunioes com CEO Rodrigo Osmo e CFO Luiz Mauricio de Garcia entre set/2025 e mar/2026.
@@ -324,6 +367,68 @@ Fontes: `structured/tenda/{ano}/data_pack.json :: canonical.dre` e `canonical.fi
 5. **2025 — turnaround completo.** Receita R$ 4,17 bi (+27% A/A), margem bruta 30% (nível 2020), EBITDA ajustado R$ 686 mm (+43%), **lucro líquido R$ 505 mm, ROE LTM 47%**, ROCE LTM 36%. Dívida líquida sobe levemente para R$ 266 mm mas relativamente baixa contra PL de R$ 1,2 bi.
 
 **Implicação para modelagem:** qualquer série histórica pré-2024 é de uma Tenda *estruturalmente diferente* em margem e rentabilidade. Séries de múltiplos históricos são enganosas quando incluem 2021-2023. A base de comparação honesta para premissas forward começa em 2024/2025.
+
+## Perspectiva das calls (2T20–3T25) — narrativa qualitativa do colapso e turnaround
+
+As calls de resultados cobrem o arco completo do colapso (2021–2022), recuperação (2023) e consolidação (2024–2025), com perspectiva direta da gestão. Os releases e DFPs fornecem os números; as calls fornecem a narrativa de como as decisões foram tomadas.
+
+### 2020 — COVID, digital e gênese do projeto off-site
+
+O 2T20 foi o **primeiro webcast** de resultados da Tenda (transmitido no YouTube). No auge da pandemia, as vendas digitais compensaram lojas físicas fechadas; preço médio retornou ao patamar pré-COVID em junho após cair em abril-maio. O CEO Osmo estimou que a transformação digital "adiantou dois anos" de evolução tecnológica (fonte: sources/digested/tenda_call_transcript_2T20_summary.md).
+
+O **projeto off-site** (futura Alea) já existia em 2020: equipe de ~30 pessoas com dois diretores dedicados (Marcelo Melo, Alex Amada) e consultor sênior com PhD na Unicamp. O racional era expandir o mercado endereçável das 13 principais RMs para cidades médias com múltiplas fábricas. Faixa 3 foi descartada naquele call — dinâmica de mercado incompatível com o modelo industrial (fonte: sources/digested/tenda_call_transcript_2T20_summary.md).
+
+O **FGTS já mostrava estresse estrutural**: saídas líquidas de ~R$ 15 bi/trimestre com saques aniversário acima do previsto. Osmo reconheceu que a Caixa ganharia representatividade como financiadora substituta no médio prazo — pressão que se materializaria em 2021 (fonte: sources/digested/tenda_call_transcript_2T20_summary.md).
+
+No 3T20, o core business isolado gerou R$ 140 mm de caixa nos 9M20; off-site consumiu R$ 7,8 mm. No 4T20, vendas líquidas cresceram ~25% vs. 2019 e custos de materiais já pressionavam — gestão reconheceu que margens futuras seriam afetadas e **acelerou obras intencionalmente** como proteção contra inflação de insumos (fonte: sources/digested/tenda_call_transcript_4T20_summary.md).
+
+### 2021 — O colapso das margens
+
+**1T21:** Melhor 1T da história em lançamentos (~R$ 610 mm). Marco técnico: obtenção do **DATec nº 42** do Brasil para woodframe — equiparou o produto ao crédito associativo da Caixa, viabilizando financiamento MCMV para a Léia. Contêineres da fábrica sueca chegaram a Jaguariúna (SP). Capital legado de projetos antigos (~R$ 85 mm) ainda levaria 2–3 anos para ser monetizado (fonte: sources/digested/tenda_call_transcript_1T21_summary.md).
+
+**2T21:** Guidance de margem bruta cortado de **30–32% para 28–30%** — revisão de R$ 50 mm no trimestre, aço acumulado +60%. A **mudança de modelo da Caixa** (registro do contrato em cartório antes do crédito do repasse, lag de ~3 meses) criou déficit estrutural de caixa que se arrastou por trimestres. Market share >80% no segmento "Mestre" (faixa 2 baixo do CVA) nas 4 principais regiões — dominância competitiva sobrevivendo à crise de margem. Alavancagem saiu da política interna de -10%/+10% DL/PL (atingiu 12%), atribuída à mudança da Caixa, não a decisão operacional (fonte: sources/digested/tenda_call_transcript_2T21_summary.md).
+
+**3T21:** Margem bruta 23,2% — **pior desde 2014**, reconhecida sem eufemismos pelo CEO. Revisão de orçamento de ~R$ 80 mm (R$ 50 mm P&L, R$ 30 mm RAP). Primeiro lançamento da **marca Léia** em Santa Bárbara do Oeste: Caixa avaliou em R$ 230 mil, metade das unidades vendida no 1º mês a ~R$ 200 mil — validação inicial do produto. Compromisso de **capex+opex de R$ 300–400 mm para 2021–2024** na Léia. **Renan Sanches** transitiona de CFO para GM de Negócios/Operações; **Marcos Pinheiro** assume como novo CFO (fonte: sources/digested/tenda_call_transcript_3T21_summary.md).
+
+**4T21:** Escala real do problema revelada: **R$ 532 mm em revisões orçamentárias no ano** (R$ 350 mm só no 4T21). Decomposição dos R$ 350 mm: +R$ 73 mm novos materiais, +R$ 89 mm inflação projetada em obras em curso, +R$ 85 mm contratos de infraestrutura em verba, +R$ 103 mm perda de produtividade (R$ 25 mm realizados, resto projetado até conclusão). **Prejuízo anual de R$ 192 mm.** Mão de obra representa ~25% dos custos vs. ~50% no MCMV convencional — diferencial estrutural que limitou a exposição à escassez de empreiteiros. 2022 declarado "ano de arrumação" com foco em reconstrução de margem e seletividade de lançamentos (fonte: sources/digested/tenda_call_transcript_4T21_summary.md).
+
+### 2022 — Crise de liquidez e plano de recuperação
+
+**1T22:** Apenas ~5 lançamentos — filtro de margem bruta ajustada ≥32–34%. Prejuízo de R$ 67 mm. Carteira de recebíveis de ~R$ 900 mm identificada como principal alavanca de liquidez. Credores de debêntures descritos como "muito construtivos" — zero interesse em aceleração antecipada dado o patrimônio da empresa. O Conselho firmou duas metas com a gestão: (1) reconstruir margem em novas vendas; (2) geração de caixa operacional positiva. Landbank legado com parcela relevante abaixo da régua de rentabilidade — "purgatório" aguardando revisão do CVA (fonte: sources/digested/tenda_call_transcript_1T22_summary.md).
+
+**2T22:** Primeiro sinal de inflexão: margem bruta de novas vendas foi de ~22% (início de 2022) para **~31% em junho**. Estratégia deliberada de **distratos facilitados**: empresa acelerava saída de clientes para revender unidades a preços +2 dígitos; ~70–76% das unidades distratadas revendidas no próprio trimestre. Consumo de caixa caiu de R$ 240 mm (1T22) para R$ 26 mm. Alea vendeu quase todo o estoque disponível — demanda validada mesmo na crise (fonte: sources/digested/tenda_call_transcript_2T22_summary.md).
+
+**3T22:** **Luís Maurício Garcia** assume como CFO (permanece no cargo até o presente). Choque de concreto: +29% no ano, impacto de ~R$ 76 mm (efeito contábil amplificou). Decisão de **descontinuar torres de 25 andares** — consumo específico de cimento/aço acima da premissa; substituídas por tipologia de até 20 unidades/pavimento. Margem bruta de novas vendas: 32,1% em setembro — inflexão confirmada. 85% das obras problemáticas projetadas para encerrar até o 2T23. "3T22 possivelmente é o piso" — primeira vez que a gestão usou essa formulação (fonte: sources/digested/tenda_call_transcript_3T22_summary.md).
+
+**4T22:** **Primeira geração de caixa operacional positiva** — marco para a companhia. Parceria **"Casa Pátio"** com loteadora assinada para a Alea: aprovações em ~2 meses vs. 2 anos em projetos típicos, novo canal de landbank sem capital. **Pode Entrar** (COHAB-SP, ~7.400 unidades a ~R$ 200 mil) mencionado pela primeira vez como potencialmente transformacional — "poderia zerar a dívida líquida" — mas deliberadamente fora do cenário-base. 2023 declarado "ano de transição" rumo à rentabilidade (fonte: sources/digested/tenda_call_transcript_4T22_summary.md).
+
+### 2023 — Inflexão confirmada e retorno ao lucro
+
+**1T23:** Margem bruta 22,7% (+~10 pp vs. 4T22). **Pode Entrar confirmado**: 2.855 unidades em três projetos (VGV ~R$ 577 mm; Toy Story, Guarapiranga, Citara/Vila Prudente); dois projetos remanescentes na fila (Itaquera 1º, Jerivá 4º). Primeira venda de carteira de recebíveis concluída — expectativa de R$ 300–400 mm/ano com condições melhorando nas próximas operações. Participação de projetos ≤2021 na receita projetada para cair de 66% (1T23) para 37% no ano, confirmando trajetória de margem (fonte: sources/digested/tenda_call_transcript_1T23_summary.md).
+
+**2T23:** Prejuízo quasi-zero (~R$ 10,5 mm). Três catalisadores sequenciais anunciados: (1) **MCMV novos parâmetros** (julho): +29% no preço médio de julho vs. 1S23; (2) **Circular 420** (agosto): financiamento de 35 anos subiu de 12% para 37% das aprovações em dias; (3) FGTS Futuro previsto para outubro/novembro. Landbank Alea dobrou de R$ 1,3 bi para R$ 2,5 bi. Parcerias pontuais com [[cury|Cury]] e [[direcional|Direcional]] em projetos específicos — objetivo de reduzir exposição a terrenos com fluxo de pagamento oneroso pré-lançamento (fonte: sources/digested/tenda_call_transcript_2T23_summary.md).
+
+**3T23:** **Follow-on** de R$ 234 mm concluído; recursos utilizados para quitar 3 séries de debêntures (~R$ 240 mm). Dívida líquida corporativa/PL: **13%** (era ~42% no 2T23). **Primeiro trimestre sem desvio de custo em obra após mais de dois anos** — marco operacional. Taxa de concretagem acima de 99% — recorde consecutivo. CFO confirmou custo de dívida melhorando: última emissão Bradesco a CDI+275bps. CEO declarou turnaround operacional "praticamente concluído". Faixa 1 do MCMV: 59% do mix, atingindo 65% em setembro/outubro (fonte: sources/digested/tenda_call_transcript_3T23_summary.md).
+
+**4T23:** Lançamentos consolidados cresceram ~46% no ano. Alea saltou de ~400 unidades (2022) para **2.116 unidades em 2023** — escalabilidade validada. Landbank Alea: de ~7–8 mil (dez/22) para ~18 mil unidades (dez/23). EBITDA saiu de ~-R$ 50 mm (4T22) para ~+R$ 60 mm (4T23). Guidance 2024: MBA Tenda ~30% mid, EBITDA ~R$ 400 mm. CEO Osmo declarou turnaround "concluído em 2023" com convicção — primeira call genuinamente celebratória após quase dois anos defensivos (fonte: sources/digested/tenda_call_transcript_4T23_summary.md).
+
+### 2024 — Calls: cor qualitativa sobre o turnaround
+
+**1T24:** Primeiro lucro trimestral desde o 3T21 (~R$ 4,4 mm recorrente). R1 regulamentado: R$ 15 mm de reversão de imposto diferido (one-off). PDD subiu de 3,6% para 5,9% por **instabilidade no sistema de cobrança pós-migração do SAP para S/4HANA** — normalizado em abril. Enchentes no RS paralisaram obras da Alea (~88% do volume da Alea naquele estado). FGTS Futuro aprovado, em vigor a partir de abril de forma incipiente (fonte: sources/digested/tenda_call_transcript_1T24_summary.md).
+
+**2T24:** CEO declarou o trimestre como "**Marco do fim do turnaround financeiro**". Pré-pagamento de três dívidas caras (~R$ 571 mm incluindo debênture CDI+4%), substituídas por CCB Bradesco de R$ 200 mm a CDI+1,7% — compressão relevante de spread. Dívida líquida corporativa zero por dois trimestres seguidos, encerrando waiver de covenants. Alea: 7 casas/dia (vs. 3,5 no início do ano), meta de 10/dia ao fim de 2024. Crescimento da Alea descrito como independente do balanço Tenda — gargalo era capacidade operacional, não capital (fonte: sources/digested/tenda_call_transcript_2T24_summary.md).
+
+**3T24:** Custo de construção Tenda **flat nominalmente nos últimos 18 meses** frente a INCC de +8,5% — verticalização e ganhos de produtividade. Economia de custo de >R$ 4 mm reconhecida no trimestre. PR pós-chaves abaixo de 10% pela **primeira vez** (~9,6%). **Cheques estaduais/municipais: 18% das vendas** do trimestre — primeiro trimestre com dado representativo. Mix geográfico: SP recuou de 37% para 30% das vendas, Nordeste e Centro-Oeste ganhando share (fonte: sources/digested/tenda_call_transcript_3T24_summary.md).
+
+**4T24:** Investimento da **Good Karma Ventures (GKP)**: R$ 80 mm por 7% da Alea, EV implícito R$ 1,1 bi. Alea: de 8 para 21 obras ativas em menos de 1 ano e meio. Geração de caixa operacional segmento Tenda: **~R$ 161 mm — recorde histórico**. Lucro recorrente Tenda: ~R$ 66 mm (reportado: ~R$ 21 mm por dois não-recorrentes não-caixa). 4T24 aquém em Alea: CEO citou três causas simultâneas — política de crédito mais restritiva, expansão acelerada de 15 para 25 cidades sem reforço de talentos, e atenção da liderança focada na transação GKP (fonte: sources/digested/tenda_call_transcript_4T24_summary.md).
+
+### 2025 calls — insights incrementais
+
+**1T25:** CEO admitiu abertamente sobre a Alea: "**não foi o primeiro trimestre dos sonhos, longe disso**". Causa: descontinuidade de sequenciamento de obras (PCP) após queda de vendas no 4T24, mais dificuldade em estabilizar fornecedores. Prazo de montagem de obra (~1,5–2 meses) vs. tempo de treinamento de equipe (~6–7 meses) exige sequenciamento contínuo por mancha. Tenda: recorde histórico de vendas para um 1T (fonte: sources/digested/tenda_call_transcript_1T25_summary.md).
+
+**2T25:** **Canoas** (projeto FAR, Alea, RS): assinatura pela Caixa confirmada; VGV ~R$ 300 mm; recurso carimbado e segregado no FAR — CEO descreveu risco de não-alocação como "um dos menores da companhia". **João Pessoa**: novo mercado com 2 anos de estudo prévio; mínimo ~100 unidades/ano planejado. Alea: concentração em 3 manchas em SP (Tupã, Bauru, Ribeirão Preto) com meta de estabilização de 4 casas/dia por mancha até meados de 2026. Dividendos extraordinários sinalizados para quando dívida líquida total chegar a zero (~R$ 300 mm de movimento necessário), provável em 2026 (fonte: sources/digested/tenda_call_transcript_2T25_summary.md).
+
+**3T25:** CEO usou a analogia do **"production hell" da Tesla** para descrever a fase atual da Alea — reconhecimento explícito de turbulência, mas com convicção de que o modelo é correto no médio prazo. Alea: verticalização da mão de obra é 100% OPEX (sem capex adicional — substituição de empreiteiro por mão de obra própria). Escala de longo prazo da Tenda: **~30 mil unidades/ano como endgame**, crescimento de ~10%/ano sem pressa. Cheques estaduais: ano eleitoral de 2026 (governadores) descrito como favorável à manutenção/expansão dos programas (fonte: sources/digested/tenda_call_transcript_3T25_summary.md).
 
 ## Pontos não-triviais para modelagem
 
@@ -498,17 +603,27 @@ Digeridos ate agora:
 - **Releases de resultados 1T25, 2T25, 3T25, 4T25** — MD&A completo, operacional, guidance, segmentacao Tenda/Alea.
 - **Fatos relevantes 2T25–2T26** — 19 fatos cobrindo debentures (12a e 13a emissoes), cessao pro-soluto de recebiveis (CRI Opea), liquidacoes parciais de derivativos (SWAP TRS), dividendos, recompra de acoes, guidance 2026 e governanca.
 
+Calls de resultados digeridas:
+- **2T20–4T20** — primeiro webcast (2T20), COVID, gênese do projeto off-site, FGTS estresse, transformação digital.
+- **1T21–4T21** — colapso de margens: DATec woodframe, fábrica sueca Jaguariúna, revisões de custo (R$ 532 mm no ano), prejuízo R$ 192 mm, transição CFO Renan→Marcos Pinheiro.
+- **1T22–4T22** — crise de liquidez: filtro de lançamentos, descontinuação de torres, chegada de Luís Maurício Garcia como CFO, primeira OCF positiva no 4T22.
+- **1T23–4T23** — inflexão: Pode Entrar confirmado, follow-on R$ 234 mm, primeiro trimestre sem desvio de custo, Alea 5x scale, turnaround declarado concluído.
+- **1T24–4T24** — turnaround confirmado: "Marco do fim do turnaround financeiro" (2T24), custo flat vs. INCC, pró-soluto <10%, cheques 18% de vendas, investimento GKP na Alea.
+- **1T25–3T25** — consolidação: call da Alea "não foi o primeiro trimestre dos sonhos" (1T25), Canoas FAR R$ 300 mm (2T25), analogia Tesla "production hell" (3T25).
+
 Fontes Notion digeridas:
 - **CEO Talks — Rodrigo Osmo (XP Expert Talks, set/2025)** — historico da Tenda, modelo de negocio, MCMV, Alea/Lea (woodframe), mix de faixas, politica de capital.
 - **Reuniao com CFO (out/2025)** — VSO, volume, margens potenciais Tenda e Alea, plano de recuperacao Alea (4.500 un, 3 manchas SP), custo construcao Alea, perfil de cliente.
 - **Reuniao com CFO (19/nov/2025)** — segmentos, metodologia construtiva, expansao geografica, projecoes 2026, gap de margem vs peers, PDD, estrutura de capital.
 - **Reuniao com management/IR (jan-mar/2026)** — MCMV/cheques regionais, Ceara, atrasos de obra (elevadores/Enel), crescimento, Alea breakeven.
 - **Call BTG Cambauva (abr/2026)** — expectativas sell-side para 1T26; Tenda classificada como "Cara melhor".
+- **Call de resultados 4T25** — conferencia com analistas; destaques operacionais, guidance 2026 commentary, Q&A com BTG, BOFA, UBS, Santander, XP, Itau, Safra, Citibank e J.P. Morgan.
 
 Ainda faltam:
 - **Release completo do 1T26** (MD&A, release narrativo — o data pack nao cobre o 1T26 financeiro porque o release fechado ainda nao saiu).
 - **ITR 4T25** — nao publicado separadamente (DFP 2025 cobre o ano fechado).
 - **ITR 4T24** — nao publicado separadamente (DFP 2024 cobre o ano fechado).
+- **Calls 4T19–1T20** — primeiro webcast foi o 2T20; trimestres anteriores sem transcrição digerida.
 
 ## Histórico operacional disponível
 

@@ -1,0 +1,159 @@
+=== Ingest Calls Agent ===
+Ticker: TEND3
+Empresa:  tenda (Construtora Tenda S.A.)
+Manifest: /c/Users/diogo.bodas/Desktop/Equity-wiki/equity-wiki/sources/manifests/tenda.json
+
+Found 22 transcript(s) for tenda.
+
+=== Copying transcripts to sources/full/ ===
+  tenda_call_transcript_1T21.md → sources/full/tenda/1T21/call_transcript.md
+  tenda_call_transcript_1T22.md → sources/full/tenda/1T22/call_transcript.md
+  tenda_call_transcript_1T23.md → sources/full/tenda/1T23/call_transcript.md
+  tenda_call_transcript_1T24.md → sources/full/tenda/1T24/call_transcript.md
+  tenda_call_transcript_1T25.md → sources/full/tenda/1T25/call_transcript.md
+  tenda_call_transcript_2T20.md → sources/full/tenda/2T20/call_transcript.md
+  tenda_call_transcript_2T21.md → sources/full/tenda/2T21/call_transcript.md
+  tenda_call_transcript_2T22.md → sources/full/tenda/2T22/call_transcript.md
+  tenda_call_transcript_2T23.md → sources/full/tenda/2T23/call_transcript.md
+  tenda_call_transcript_2T24.md → sources/full/tenda/2T24/call_transcript.md
+  tenda_call_transcript_2T25.md → sources/full/tenda/2T25/call_transcript.md
+  tenda_call_transcript_3T20.md → sources/full/tenda/3T20/call_transcript.md
+  tenda_call_transcript_3T21.md → sources/full/tenda/3T21/call_transcript.md
+  tenda_call_transcript_3T22.md → sources/full/tenda/3T22/call_transcript.md
+  tenda_call_transcript_3T23.md → sources/full/tenda/3T23/call_transcript.md
+  tenda_call_transcript_3T24.md → sources/full/tenda/3T24/call_transcript.md
+  tenda_call_transcript_3T25.md → sources/full/tenda/3T25/call_transcript.md
+  tenda_call_transcript_4T20.md → sources/full/tenda/4T20/call_transcript.md
+  tenda_call_transcript_4T21.md → sources/full/tenda/4T21/call_transcript.md
+  tenda_call_transcript_4T22.md → sources/full/tenda/4T22/call_transcript.md
+  tenda_call_transcript_4T23.md → sources/full/tenda/4T23/call_transcript.md
+  tenda_call_transcript_4T24.md → sources/full/tenda/4T24/call_transcript.md
+
+=== Parallel ingest (concurrency=4) ===
+[call:1T21] Starting...
+[call:1T22] Starting...
+[call:1T23] Starting...
+[call:1T24] Starting...
+Digest criado em `sources/digested/tenda_call_transcript_1T22_summary.md`. Principais achados: call de tom defensivo-construtivo com margem bruta ajustada de 21,6% (impactada em ~3pp por revisão de inflação), prejuízo de ~R$67M, e primeiros sinais de convergência em abril (~26-27% implícito). Q&A trouxe temas críticos: gestão de alavancagem/debenturistas, estratégia de repasse tático, landbank legado fora da régua, e AREIA/Léia como potencial joint-venture.
+[call:1T22] Done.
+[call:1T25] Starting...
+Summary written to `sources/digested/tenda_call_transcript_1T23_summary.md`. Key findings from the 1T23 call:
+
+- **Margem bruta** saltou ~10 pp para 22,7% — ponto de inflexão confirmado; projetos novos (2022–23) rodam 35–41% em nível de projeto.
+- **Pode Entrar (SP):** 2.855 unidades, VGV ~R$577 mi; Itaquera na fila com boa probabilidade de entrada.
+- **Geração de caixa** positiva: dívida líquida recuou R$45 mi; 3 vendas de carteira planejadas (R$300–400 mi) para 2023.
+- **FGTS/STF:** Rodrigo Osmo relativamente otimista — governo tem vontade política e margens de manobra para proteger MCMV faixa baixa.
+- Tom: confiante, "virando a página" das safras pandêmicas.
+[call:1T23] Done.
+[call:2T20] Starting...
+Digest criado em `sources/digested/tenda_call_transcript_1T24_summary.md`. O arquivo cobre abertura/tom, destaques operacionais e financeiros, guidance, Q&A fiel com âncoras `[mm:ss]`, e riscos — incluindo o impacto das enchentes no RS, a normalização da PDD pós-SAP, e os efeitos não-recorrentes do R1 e do teto de terceiros.
+[call:1T24] Done.
+[call:2T21] Starting...
+Summary written to `sources/digested/tenda_call_transcript_1T21_summary.md`. The digest covers all six required sections — abertura, destaques operacionais/financeiros, off-site, guidance, Q&A com âncoras `[mm:ss]`, e riscos — com ~600 palavras. Números marcados como aproximados onde apropriado (auto-captions). Próximo passo: o orquestrador (`ingest_calls.sh`) atualizará o manifesto e enfileirará na wiki queue.
+[call:1T21] Done.
+[call:2T22] Starting...
+Digest written to `sources/digested/tenda_call_transcript_1T25_summary.md`. Key findings: Tenda segment delivered record Q1 (margem bruta 36,7%, lucro R$104M); Aleia had a tough quarter (margem negativa, supplier stabilization issues) but April sales rebounded strongly; guidance maintained with acknowledged upside risk for Tenda; two non-recurring cash drag items (~R$88M combined) will normalize by Q3.
+[call:1T25] Done.
+[call:2T23] Starting...
+Digest created at `sources/digested/tenda_call_transcript_2T22_summary.md`. Key themes captured: margem das novas vendas em recuperação (~22% → ~31%), consumo de caixa operacional caindo drasticamente (R$ 240M → R$ 26M com ~R$ 100M one-off), distratos elevados mas deliberados para capturar upside de preço, e 2T23 como horizonte de inflexão na margem reportada.
+[call:2T22] Done.
+[call:2T24] Starting...
+Digest criado em `sources/digested/tenda_call_transcript_2T20_summary.md`. Pontos centrais do call: vendas digitais surpreenderam positivamente, geração de caixa reverteu no semestre, mas DRE pressionado por três fatores (interrupção de obras, G&A elevado, dívida mais cara). O tema mais sensível foi o FGTS — Osmo admitiu saídas líquidas de ~R$ 15 bi/trimestre e dificuldade de expansão do programa.
+[call:2T20] Done.
+[call:2T25] Starting...
+Digest criado em `sources/digested/tenda_call_transcript_2T21_summary.md`. Cobrindo: guidance revisado (margem 28–30%, vendas R$ 3,0–3,2 bi), impacto de custo de aço/concreto no 2T21, margem bruta ajustada de 27,8%, mudança de modelo da Caixa como causa do consumo de caixa, e Q&A detalhado com 8 analistas incluindo âncoras `[mm:ss]`.
+[call:2T21] Done.
+[call:3T20] Starting...
+Digest written to `sources/digested/tenda_call_transcript_2T23_summary.md`. The call was highly positive: Tenda celebrated record operating cash generation of ~R$180mi, a 25 pp deleveraging in a single quarter, and announced three sequential catalysts (MCMV novo, Prazo 420, FGTS Futuro). The Q&A was rich — key topics were the extraordinary margin drag from balance-sheet cleanup, the Retih fiscal benefit (~1.8 pp margin), Léia scaling via Casa Pátio partnerships, and capital discipline in future launch volumes.
+[call:2T23] Done.
+[call:3T21] Starting...
+Digest criado em `sources/digested/tenda_call_transcript_2T24_summary.md`. Cobre abertura/tom, operacionais, financeiros, guidance e todos os 8 blocos de Q&A com âncoras `[mm:ss]` nos tópicos-chave.
+[call:2T24] Done.
+[call:3T22] Starting...
+Digest criado em `sources/digested/tenda_call_transcript_3T20_summary.md`. Principais achados: postura confiante com record de vendas (+23% 9M20) e geração de caixa forte (R$ 119M core no trimestre), mas gestão sinaliza deterioração de margem à frente por inflação de materiais sem capacidade de repasse de preço; off-site ainda em modo de aprendizado com Marcelo Vilar entrando como sócio/investidor.
+[call:3T20] Done.
+[call:3T23] Starting...
+Summary written to `sources/digested/tenda_call_transcript_2T25_summary.md`. The digest covers all six sections — abertura, destaques operacionais/financeiros, guidance, Q&A com âncoras `[mm:ss]`, e riscos — dentro de ~600 palavras. Números auto-captioned foram mantidos sem `~` onde eram consistentes com o contexto, e o Q&A (a parte mais valiosa) foi preservado com fidelidade por analista e tema.
+[call:2T25] Done.
+[call:3T24] Starting...
+Summary written to `sources/digested/tenda_call_transcript_3T22_summary.md`. Key points captured: tom defensivo-construtivo com enquadramento do 3T22 como "ponto de inflexão"; não recorrentes de ~R$ 156 M (concreto + ativos destinados à venda); margem das novas vendas a 32,1% em setembro; descontinuação das torres de 25 andares; Q&A com 6 analistas cobrindo cenário Lula/MCMV, distratos, convergência de margem, ALEA e FGTS futuro.
+[call:3T22] Done.
+[call:3T25] Starting...
+Summary written to `sources/digested/tenda_call_transcript_3T21_summary.md`.
+
+Key findings: the 3T21 call was notably candid — CEO acknowledged it was Tenda's worst margin since 2014 (23.2% bruta), with ~R$80M in cost overruns driving the hit. The constructive case rests on new-vintage backlog RAP of ~34.8% and Léia's first pilot (Santa Bárbara) receiving strong Caixa + client validation. Main risks flagged: MCMV contractions at half prior-year volume, pró-soluto doubling to 10–11% of sale value, and energy-driven supply chain instability with no clear stabilization date.
+[call:3T21] Done.
+[call:4T20] Starting...
+Digest criado em `sources/digested/tenda_call_transcript_3T24_summary.md`. Cobre os 6 blocos solicitados (~580 palavras): abertura com participantes, recordes operacionais do 3T24 (incluindo custo flat e PR absoluto <10%), destaques financeiros (ROSS 26%, efeito não recorrente do Swap, efeito CEF), guidance revisado para cima, Q&A com âncoras `[mm:ss]` nos temas críticos, e riscos mapeados (INCC/materiais, CEF, FGTS, Leia). Próximo passo: o orquestrador deve enfileirar via `wiki_queue.py enqueue` e rodar `wiki_update.sh`.
+[call:3T24] Done.
+[call:4T21] Starting...
+Digest criado em `sources/digested/tenda_call_transcript_3T23_summary.md`. O call de 3T23 da Tenda tem tom marcadamente comemorativo — follow-on de R$ 234 mi selou o turnaround financeiro, alavancagem caiu para 13% do PL, e foi o primeiro trimestre sem desvio de custo em obra em mais de dois anos. A Q&A é rica: cobre Aleia (startup em escala mas margem negativa), decisão do STF sobre FGTS, cronograma do R1, e pró-soluto caindo de 14% para 11%.
+[call:3T23] Done.
+[call:4T22] Starting...
+Digest criado em `sources/digested/tenda_call_transcript_4T20_summary.md`. O arquivo cobre abertura, destaques operacionais/financeiros, guidance 2021, 7 tópicos do Q&A com âncoras `[mm:ss]`, e riscos. Próximo passo é o orquestrador atualizar o manifesto e enfileirar na wiki queue.
+[call:4T20] Done.
+[call:4T23] Starting...
+Digest created at `sources/digested/tenda_call_transcript_4T22_summary.md`. Key takeaways captured: tom confiante de inflexão, margem bruta ajustada 5%→13%→24-26% guidance, cessão de carteira R$160M inaugural, Pode Entrar fora do cenário-base, Alea precisando de escala, e Q&A detalhado com 6 analistas de BTG/Bradesco/Santander/JPM/Citi.
+Digest criado em `sources/digested/tenda_call_transcript_3T25_summary.md`. O call foi dominado pela dicotomia entre Tenda (recordes de receita/EBITDA, ROSSE ~40%, geração de caixa robusta) e Aleia (margem bruta negativa, "production hell", foco em break-even de caixa para 2026). CEO defendeu a tese Aleia com convicção usando a analogia da Tesla, sem admitir hard stop.
+[call:4T22] Done.
+[call:4T24] Starting...
+[call:3T25] Done.
+Digest criado em `sources/digested/tenda_call_transcript_4T21_summary.md`. 
+
+O call de 4T21 foi o mais defensivo do ciclo: Renan (CFO saindo para GM de Operações) detalhou a revisão de R$ 532 M no ano — dividida em quatro categorias (matéria-prima, inflação projetada, contratos em verba e perda de produtividade). O Q&A foi denso, com os analistas pressionando principalmente no risco de novos estouros dado o cenário de guerra/diesel. CEO Rodrigo Osmo declarou 2022 como "ano de arrumação", sem crescimento de volume.
+[call:4T21] Done.
+Summary written to `sources/digested/tenda_call_transcript_4T23_summary.md`. The digest covers all six sections (abertura, operacional, financeiro, guidance, Q&A com âncoras `[mm:ss]`, riscos) — Q&A preserva os 8 temas principais incluindo o detalhe sobre R1, FGTS Futuro, guardrails de viabilidade e land bank Alea.
+[call:4T23] Done.
+Digested summary written to `sources/digested/tenda_call_transcript_4T24_summary.md`. 
+
+The call had a confident tone with strong financial highlights — margem bruta ajustada do segmento Tenda chegou a 36,2% (topo do guidance 2025 já em 2024) e geração de caixa recorde. O principal tema do Q&A foi explicar o underperformance comercial da Leia em 4T24 (transação GK + expansão acelerada de cidades + restrição de crédito simultâneas), com sinalização de recuperação mês a mês em 1T25.
+[call:4T24] Done.
+
+=== Updating manifest + wiki queue ===
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "1T21"}
+  1T21 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "1T22"}
+  1T22 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "1T23"}
+  1T23 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "1T24"}
+  1T24 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "1T25"}
+  1T25 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "2T20"}
+  2T20 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "2T21"}
+  2T21 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "2T22"}
+  2T22 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "2T23"}
+  2T23 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "2T24"}
+  2T24 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "2T25"}
+  2T25 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "3T20"}
+  3T20 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "3T21"}
+  3T21 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "3T22"}
+  3T22 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "3T23"}
+  3T23 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "3T24"}
+  3T24 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "3T25"}
+  3T25 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "4T20"}
+  4T20 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "4T21"}
+  4T21 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "4T22"}
+  4T22 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "4T23"}
+  4T23 queued, undigested removed
+{"status": "ok", "manifest": "C:\\Users\\diogo.bodas\\Desktop\\Equity-wiki\\equity-wiki\\sources\\manifests\\tenda.json", "type": "call_transcript", "period": "4T24"}
+  4T24 queued, undigested removed
+
+=== Ingest calls complete ===
+  Run 'bash tools/wiki_update.sh' to update wiki pages.

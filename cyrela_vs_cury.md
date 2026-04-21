@@ -22,8 +22,14 @@ sources:
   - sources/digested/cyrela_dados_operacionais_summary.md
   - sources/digested/cyrela_lancamentos_summary.md
   - sources/digested/HB_historical series_4Q25_summary.md
+  - sources/digested/notion_cury_cury_call_4t25_32000ca3_summary.md
+  - sources/digested/notion_cury_cury_pos_previa_btg_1t26_33e00ca3_summary.md
+  - sources/digested/notion_cyrela_call_cambauva_btg_1t26_33a00ca3_summary.md
+  - sources/digested/notion_cyrela_call_cyrela_4t25_31900ca3_summary.md
+  - sources/digested/notion_cyrela_cury_btg_2b700ca3_summary.md
+  - sources/digested/notion_cyrela_cury_ronaldo_24_04_2025_41800ca3_summary.md
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-04-21
 aliases:
   - CYRE3 vs CURY3
   - Cyrela versus Cury
@@ -37,7 +43,9 @@ Duas incorporadoras com sede em São Paulo, listadas na [[b3]], atuando principa
 
 ## Elo estrutural: Cyrela é sócia da Cury
 
-A Cyrela detém participação relevante em CURY3 como investimento em coligada, contabilizado via método da equivalência patrimonial. Em 2025, a contribuição de Cury (entre outros) foi parte dos R$ 548 mm de resultado de equivalência patrimonial da Cyrela — 24% do EBIT consolidado (fonte: sources/digested/cyrela_dfp_2025_summary.md). No 3T25, a Cyrela alienou R$ 251 mm em ações CURY3, o que gerou caixa relevante naquele trimestre (fonte: sources/digested/cyrela_release_3T25_summary.md). A comparação entre as duas empresas não é, portanto, de total independência: parte do resultado de Cury flui para o P&L da Cyrela.
+A Cyrela detém ~15% de participação em CURY3 como investimento em coligada, contabilizado via método da equivalência patrimonial. Em 2025, a contribuição de Cury (entre outros) foi parte dos R$ 548 mm de resultado de equivalência patrimonial da Cyrela — 24% do EBIT consolidado (fonte: sources/digested/cyrela_dfp_2025_summary.md). No 3T25, a Cyrela alienou R$ 251 mm em ações CURY3, o que gerou caixa relevante naquele trimestre (fonte: sources/digested/cyrela_release_3T25_summary.md).
+
+Em abril de 2026, a Cyrela saiu do conselho de administração da Cury, mas manteve a participação de ~15% no capital (fonte: sources/digested/notion_cury_cury_pos_previa_btg_1t26_33e00ca3_summary.md). O relacionamento passa a ser estritamente de acionista financeiro/coligada — sem representação no board. A comparação entre as duas empresas não é de total independência: parte do resultado de Cury continua fluindo para o P&L da Cyrela via equivalência patrimonial. Adicionalmente, do ponto de vista competitivo, a gestão da Cury cita a Vivaz (marca MCMV da Cyrela) como seu principal rival em SP e no RJ (fonte: sources/digested/notion_cyrela_cury_btg_2b700ca3_summary.md).
 
 ---
 
@@ -48,7 +56,7 @@ A Cyrela detém participação relevante em CURY3 como investimento em coligada,
 | Segmento principal | Alto Padrão (~45% receita 2025), Médio (~28%), MCMV (~27%) | MCMV exclusivamente (Faixas 1–3) |
 | Geração de receita | SP, RJ, MG, ES, Sul, Nordeste, Centro-Oeste | SP e RJ apenas |
 | Estrutura operacional | SPEs consolidadas + JVs (equivalência patrimonial), CashMe (fintech) | SPEs 100% (modelo puro), sem JVs externas relevantes |
-| Ticket médio | R$ 200–2.000 mil (varia por segmento) | R$ ~310–330 mil (MCMV) |
+| Ticket médio | R$ 200–2.000 mil (varia por segmento) | R$ ~300–380 mil (MCMV; faixa 3 até R$ 400 mil a partir de abr/2026) |
 | Marcas | Cyrela (AP), Living (médio), Vivaz/Vivaz Prime (MCMV), RJZ, JVs regionais | Cury (marca única) |
 | Modelo de funding | CRI + SFH + debêntures + CashMe | CEF SFH + debêntures LP |
 
@@ -230,9 +238,26 @@ O backlog de Cury tem margem 7 p.p. superior ao da Cyrela, sinalizando que a exp
 
 ## Governança e eventos recentes (2025–2026)
 
-**Cyrela**: 19ª emissão de [[debentures|debêntures]] de até R$ 875 mm aprovada em 2025 (R$ 700 mm liquidados em mai/2025) e 19ª emissão de até R$ 750 mm aprovada no 4T25. Alienação parcial de ações CURY3 no 3T25 gerou R$ 251 mm de caixa. Programa de recompra de até 9 milhões de ações aprovado até dez/2025 (fonte: sources/digested/cyrela_release_1T25_summary.md; sources/digested/cyrela_release_3T25_summary.md; sources/digested/cyrela_fatos_relevantes_batch_summary.md).
+**Cyrela**: 19ª emissão de [[debentures|debêntures]] de até R$ 875 mm aprovada em 2025 (R$ 700 mm liquidados em mai/2025) e 19ª emissão de até R$ 750 mm aprovada no 4T25. Alienação parcial de ações CURY3 no 3T25 gerou R$ 251 mm de caixa. Programa de recompra de até 9 milhões de ações aprovado até dez/2025. Pipeline 1T26: Vivaz SP (R$ 800–900 mm), Cyrela marca + Epic (R$ 395 mm), Living Vila Mariana SP (R$ 250 mm) e Living + última torre Peninsula RJ (~R$ 600 mm) — total ~R$ 2,0–2,1 bi; lançamento de R$ 600 mm deslizou para abril/2T26; Terra Encantada postergado para 2027 (fonte: sources/digested/cyrela_release_1T25_summary.md; sources/digested/cyrela_release_3T25_summary.md; sources/digested/cyrela_fatos_relevantes_batch_summary.md; sources/digested/notion_cyrela_call_cyrela_4t25_31900ca3_summary.md).
 
-**Cury**: Sucessão planejada executada em 2026 — Fabio Elias Cury (35 anos como CEO) passa à Presidência do Conselho; Leonardo Mesquita da Cruz e Paulo Sérgio Beyruti Curi assumem como Copresidentes (negócios e engenharia, respectivamente). Follow-on de R$ 574 mm realizado em dez/2025. Dividendos de R$ 140 mm aprovados em jan/2026 com lastro em balanço intermediário de jan–nov/2025 (fonte: sources/digested/cury_fatos_relevantes_batch_summary.md).
+**Cury**: Sucessão planejada executada em 2026 — Fabio Elias Cury (35 anos como CEO) passa à Presidência do Conselho; Leonardo Mesquita da Cruz permanece como VP e principal executivo. Follow-on de R$ 574 mm realizado em dez/2025. Dividendos de R$ 140 mm aprovados em jan/2026. Cyrela saiu do conselho em abr/2026, mantendo 15% de participação como acionista financeiro. Call do 4T25 confirmou meta "40 com 20" alcançada (MB 40%, ML 20% em 2025); gestão aponta 2026 como potencial melhor ano da história (fonte: sources/digested/cury_fatos_relevantes_batch_summary.md; sources/digested/notion_cury_cury_call_4t25_32000ca3_summary.md; sources/digested/notion_cury_cury_pos_previa_btg_1t26_33e00ca3_summary.md).
+
+---
+
+## Perspectivas e catalisadores 2026
+
+**Regulatório MCMV (favorável para Cury):**
+- Teto da faixa 3 elevado de R$ 350 mil para R$ 400 mil, válido a partir de 24/04/2026 — permite reajuste de preços sem perda de cliente (fonte: sources/digested/notion_cury_cury_pos_previa_btg_1t26_33e00ca3_summary.md).
+- Isenção de IR para renda até R$ 5 mil: efeito positivo sobre capacidade de crédito do público MCMV, com correspondentes bancários já orientando clientes de renda informal a declarar; impacto mais visível esperado no 2T26 (fonte: sources/digested/notion_cury_cury_pos_previa_btg_1t26_33e00ca3_summary.md).
+- Nova lei no RJ (jan/2026) permite empreendimentos com +500 unidades MCMV sem contrapartidas anteriores — destrava Zona Norte e Niterói para a Cury (fonte: sources/digested/notion_cury_cury_pos_previa_btg_1t26_33e00ca3_summary.md).
+
+**Operacional — 1T26 (Cury):** geração de caixa ~R$ 100 mm (sem one-offs), vendas brutas R$ 2.500 mm (R$ 2.000 mm em SP), VSO UDM 74–76%, carteira de recebíveis R$ 3.200 mm. Lançamentos deliberadamente menores que 1T25; meta de lançar 9 empreendimentos ("bifes") no ano; pior cenário com alvarás em SP ainda permite chegar a R$ 7 bi com mais volume no RJ (fonte: sources/digested/notion_cury_cury_pos_previa_btg_1t26_33e00ca3_summary.md).
+
+**Inovação construtiva (Cury):** primeiro lançamento com parede de concreto previsto em 2025/início 2026, motivado por disponibilidade de mão de obra. Expectativa: 10–15% do volume. Após ~1 ano com o método, empresa decidirá sobre aceleração. Produtividade média das obras subiu ~10% no 1T (fonte: sources/digested/notion_cury_cury_call_4t25_32000ca3_summary.md).
+
+**Reforma tributária:** estudos preliminares da Cury indicam possíveis benefícios na migração para IVA a partir de 2027, com descrição de resultados como "bem interessantes" no ticket médio de ~R$ 300 mil (redutor social + redutor de terrenos). Principais incertezas: materialização de créditos na cadeia (fonte: sources/digested/notion_cury_cury_call_4t25_32000ca3_summary.md).
+
+**Cyrela 1T26:** lançamentos de R$ 2,4 bi (+/-50% a/a, base alta de 1T25); BTG estimava R$ 2 bi e vendas de R$ 2,3 bi ex-permuta (fonte: sources/digested/notion_cyrela_call_cambauva_btg_1t26_33a00ca3_summary.md).
 
 ---
 
@@ -242,8 +267,10 @@ O backlog de Cury tem margem 7 p.p. superior ao da Cyrela, sinalizando que a exp
 |---|---|---|
 | Selic elevada | Alto — AP sensível ao crédito e confiança do consumidor | Baixo — MCMV tem juros subsidiados e demanda estrutural |
 | Concentração geográfica | Baixo — diversificação nacional | Alto — SP+RJ exclusivos |
-| Ciclo de lançamentos | Moderado — base comparativa exigente após 2025 recorde | Moderado — VSO forte mas distratos subiram para 9,0% em 1T26 |
-| Execução operacional | Moderado — 120 canteiros, JVs complexas | Baixo — modelo de SPE padronizado, 84 canteiros |
+| Ciclo de lançamentos | Moderado — base comparativa exigente após 2025 recorde; Terra Encantada postergado para 2027 | Moderado — VSO forte mas distratos subiram para 9,0% em 1T26 |
+| Alvarás SP | Baixo — portfólio diversificado de praças | Moderado — liminar suspendeu aprovações; nenhum terreno da Cury afetado, mas pior cenário implica -15% nos lançamentos do ano (fonte: sources/digested/notion_cury_cury_pos_previa_btg_1t26_33e00ca3_summary.md) |
+| Custos de insumos (petróleo) | Moderado — impacto indireto via frete e insumos plásticos | Moderado — impacto estimado de ~1% na MB e ~1% na ML; PVC já subiu 25%; obras lançadas há ~1 ano revisitadas (fonte: sources/digested/notion_cury_cury_pos_previa_btg_1t26_33e00ca3_summary.md) |
+| Execução operacional | Moderado — 120 canteiros, JVs complexas | Baixo — modelo de SPE padronizado, 84 canteiros; Caixa auditou e deu feedback positivo |
 | Dependência de subsidiárias | Alto — equivalência patrimonial = 24% do EBIT | Baixo — resultado 100% operacional |
 | Funding | Moderado — CRI (IPCA), CashMe | Baixo — CEF SFH taxa subsidiada |
 
@@ -264,6 +291,6 @@ O backlog de Cury tem margem 7 p.p. superior ao da Cyrela, sinalizando que a exp
 | Visibilidade (backlog / receita) | 1,2x | 1,4x |
 | Margem backlog | 36,0% | 43,3% |
 | VSO UDM 4T25 | ~45% | ~76% |
-| Elo estrutural | Cyrela detém participação em Cury (coligada) | Cyrela é sócia via mercado |
+| Elo estrutural | Cyrela detém ~15% em Cury (coligada, saiu do board em abr/2026) | Cyrela é acionista financeiro; Vivaz (Cyrela) é rival direto em SP/RJ |
 
 A Cyrela oferece exposição diversificada ao ciclo imobiliário com escala, JVs, fintech e Alto Padrão — perfil mais estável e defensivo. A Cury oferece um dos melhores perfis de retorno/crescimento do setor de capitais brasileiro: crescimento de ~37–38% ao ano, ROE em expansão para quase 80%, margens recordes e modelo difícil de replicar em SP e RJ. O elo societário entre as duas (Cyrela como sócia de Cury) cria interdependência que merece atenção em análises de portfólio.

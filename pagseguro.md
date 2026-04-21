@@ -83,8 +83,15 @@ Histórico de ciclos de abertura/fechamento da carteira:
 ## Software para PMEs
 
 - Venda de software para o cliente menor é difícil: o pequeno empresário precisa, mas não sabe que precisa — exige go-to-market dedicado, distinto do canal de adquirência (fonte: sources/digested/notion_reuniao_com_fernanda_stone_pagbank_a4100ca3_summary.md).
-- PagBank ainda não resolveu o desafio de escala em software; oferta atual é menos completa do que o legado Linx na Stone (fonte: sources/digested/notion_reuniao_com_fernanda_stone_pagbank_a4100ca3_summary.md).
+- PagBank ainda não resolveu o desafio de escala em software; oferta atual é menos completa do que o legado Linx na [[stone|Stone]] (fonte: sources/digested/notion_reuniao_com_fernanda_stone_pagbank_a4100ca3_summary.md).
 - Normativa de obrigatoriedade de emissão de nota fiscal (iniciada no RS, tendência nacional) favorece demanda por software fiscal — catalisador estrutural para o segmento (fonte: sources/digested/notion_reuniao_com_fernanda_stone_pagbank_a4100ca3_summary.md).
+
+### Referência competitiva — Stone/Linx
+
+- A Stone adquiriu a Linx para se diferenciar via software, mas encontrou dificuldades de escala e conflito cultural; fez rodadas de layoffs na Linx; estratégia atual parece ser "vender se fizer sentido", com foco em resultado financeiro (fonte: sources/digested/notion_reuniao_com_fernanda_stone_pagbank_a4100ca3_summary.md).
+- Caso postos de gasolina: segmento inicialmente descartado por margens apertadas, mas software de reconciliação demonstrou valor — a Stone conseguiu elevar o MDR em ~30 bps em uma cadeia de postos com TPV acima de R$ 100 milhões, e um cliente reduziu a equipe de reconciliação de 30 para 7 pessoas (fonte: sources/digested/notion_reuniao_com_fernanda_stone_pagbank_a4100ca3_summary.md).
+- TPV da Stone no segmento de postos de gasolina estimado em R$ 1 [?]–2 bi [?]/mês à época da nota (jun/2024) (fonte: sources/digested/notion_reuniao_com_fernanda_stone_pagbank_a4100ca3_summary.md).
+- Hering e Arezzo (lojas próprias) adotaram o POS móvel da Stone para fechar pagamentos sem depender de caixa fixo — exemplos de conversão de cliente por proposta de valor de software, não só por preço de MDR (fonte: sources/digested/notion_reuniao_com_fernanda_stone_pagbank_a4100ca3_summary.md).
 
 ---
 

@@ -17,13 +17,16 @@ sources:
   - sources/full/direcional/3T25/release.md
   - sources/structured/cury/2025/dfp.json
   - sources/structured/cury/4T25/release.json
+  - sources/structured/direcional/2022/dfp.json
   - sources/structured/direcional/2023/dfp.json
   - sources/structured/direcional/2024/dfp.json
   - sources/structured/direcional/2025/dfp.json
-  - sources/structured/direcional/4T25/release.json
+  - sources/structured/direcional/1T23/release.json
   - sources/structured/direcional/2T23/release.json
   - sources/structured/direcional/3T23/release.json
   - sources/structured/direcional/4T23/release.json
+  - sources/structured/direcional/3T25/release.json
+  - sources/structured/direcional/4T25/release.json
 created: 2026-04-11
 updated: 2026-04-21
 ---
@@ -65,13 +68,14 @@ A Direcional passou por expansão contínua de margens e aceleração de receita
 | Lucro líquido controladora (R$ mm) | 190 | 332 | 638 | **789** |
 | Margem líquida | 8,8% | 14,1% | 19,1% | 18,2% |
 | ROE ajustado | ~17% | ~20% | 33% | **44%** |
+| VSO anual | n/d | 44,0% | 56% | n/d |
 | Landbank VGV (R$ bi) | n/d | 36,3 | 46,0 | **58,5** |
 
 Fontes: (fonte: digested/direcional_dfp_2022_summary.md), (fonte: digested/direcional_dfp_2023_summary.md), (fonte: digested/direcional_dfp_2024_summary.md), (fonte: digested/direcional_dfp_2025_summary.md).
 
 **Leituras:**
 
-- A **aceleração em 2024** (+42% receita) foi o ponto de inflexão: fusão de fatores — expansão do teto MCMV para R$ 350 mil (1H2023), ramp-up da Riva, e maior proporção de projetos sem sócios minoritários.
+- A **aceleração em 2024** (+42% receita) foi o ponto de inflexão: fusão de fatores — expansão do teto MCMV para R$ 350 mil (1H2023), ramp-up da Riva (+67% em VGV vendido, R$ 2,4 bi), e maior proporção de projetos sem sócios minoritários. A VSO saltou de 44% (2023) para 56% (2024) — aceleração de absorção de estoque rara no setor.
 - A **expansão de MBA de 35,6% (2022) para 42,1% (2025)** é de +650 bps em 4 anos — rara no setor. Reflete mix crescente de Riva (maior margem bruta), eficiência operacional em mercados descentralizados, e diluição de INCC regional nas obras maduras.
 - O **salto de margem líquida de 8,8% (2022) para 19,1% (2024)** foi o mais dramático — impulsionado pela alavancagem operacional e pelo fim do efeito de pressão de custos pós-pandemia.
 - O **ROE de 17% (2022) a 44% (2025)** mostra a alavancagem financeira crescendo junto com a rentabilidade operacional — diferente da Cury, que já tinha ROE elevado estruturalmente por base de PL pequena.
@@ -133,7 +137,7 @@ Fontes: (fonte: full/cury/2025/dfp.md), (fonte: full/direcional/4T25/release.md)
 
 - A **Cury não tem segmentação interna** — é uma máquina de MCMV-médio/SBPE em um único modelo operacional e uma única marca. Todo o lucro vem do mesmo funil, o que simplifica execução mas concentra risco.
 - A **Direcional é efetivamente duas empresas**: um core Faixa 1/2 com margens médias + uma Riva com margem líquida de 27% que carrega todo o lucro. Isolando só a Riva, a Direcional tem o **segmento mais rentável do setor** — superior em margem à própria Cury. Mas o core MCMV Faixa 1/2 pesa a média.
-- **Se comparar Cury vs Riva**, o resultado é diferente: Riva tem margem líquida de 27% vs 18,1% da Cury. Mas Riva tem receita de R$ 1,70 bi vs R$ 5,40 bi da Cury — escala 3x menor.
+- **Se comparar Cury vs Riva**, o resultado é diferente: Riva tem margem líquida de 27% vs 18,1% da Cury. Mas Riva tem receita de R$ 1,70 bi vs R$ 5,40 bi da Cury — escala 3x menor. A Riva cresceu +41% em receita em 2025 (após +67% em VGV vendido em 2024) — motor de crescimento com pista longa.
 - A Cury **não tem opcionalidade estrutural no balanço** — se o mercado de MCMV/SBPE em SP+RJ desacelerar, não há subsidiária de alta rentabilidade para amortecer. A Direcional tem a Riva como amortecedor e motor de crescimento simultâneo.
 
 ## Operacional — 2025 completo
@@ -191,7 +195,7 @@ Fontes: (fonte: structured/cury/4T25/release.json :: canonical.bp), (fonte: stru
 
 **Leituras de estrutura de capital:**
 
-- **As duas empresas fizeram captações relevantes em 2025** — a Direcional via CRI ao longo do ano, a Cury via novas debêntures LP. Ambas mantêm duration longa (até 2035+) — as incorporadoras mais bem estruturadas do setor em termos de prazo.
+- **As duas empresas fizeram captações relevantes em 2025** — a Direcional via CRI ao longo do ano (incluindo R$ 600 mm no 3T25), a Cury via novas debêntures LP. Em jan/2026 a Direcional emitiu mais R$ 437,5 mm em CRI (CDI-0,95% a 96,2% CDI), estendendo o prazo médio de 64 para 68 meses. Ambas mantêm duration longa — as incorporadoras mais bem estruturadas do setor em termos de prazo.
 - **Cury mantém caixa líquido** mesmo após pagar R$ 1,35 bi em dividendos em 2025. Direcional terminou 2025 com dívida líquida positiva (R$ 533 mm) **transitoriamente**, exclusivamente por causa do pagamento extraordinário de R$ 804 mm antecipando a reforma tributária (Lei 15.270/2025). Ajustando por esse efeito, a Direcional teria encerrado 2025 com caixa líquido similar.
 - **Direcional tem rating brAAA** (S&P), a Cury **não tem rating público**. Direcional acessa o mercado com prêmios menores; Cury depende de relacionamento bancário direto. Em ambiente de estresse de crédito, a Direcional tem vantagem.
 - **A Cury reciclou equity via follow-on em 2025** — R$ 574 mm captados + R$ 573 mm distribuídos como dividendos na mesma data. O efeito foi elevar float (viabilizando entrada no Ibovespa), sem deteriorar o balanço material. Direcional **não fez follow-on**; sua estratégia de retorno ao acionista foi via distribuição de reservas acumuladas.
@@ -232,7 +236,7 @@ A margem REF da Direcional expandiu +210 bps de 4T23 a 3T25, consolidando antes 
 | 2024 | 484 | 74% | 577 | 90% |
 | 2025 | **1.352** | **138%** | **~1.450** | ~184% |
 
-Fontes: (fonte: digested/direcional_dfp_2022_summary.md), (fonte: structured/cury/{ano}/dfp.json :: canonical.bp.proventos), (fonte: full/direcional/4T24/release.md), (fonte: full/direcional/4T25/release.md).
+Fontes: (fonte: digested/direcional_dfp_2022_summary.md), (fonte: digested/direcional_dfp_2023_summary.md), (fonte: digested/direcional_dfp_2024_summary.md), (fonte: structured/cury/{ano}/dfp.json :: canonical.bp.proventos), (fonte: full/direcional/4T25/release.md).
 
 Ambas distribuíram ~R$ 1,4 bi em 2025 — **volumes absolutos comparáveis**. Mas os mecanismos foram bem diferentes:
 
@@ -253,13 +257,14 @@ Ambas distribuíram ~R$ 1,4 bi em 2025 — **volumes absolutos comparáveis**. M
 | 3T25 | Novo programa de recompra 2025 (13,71 mm ações); declaração de R$ 200 mm dividendos a pagar | — |
 | Ago/2025 | — | Desdobramento 3:1 (liquidez) |
 | 4T25 | **Ingresso no Ibovespa**; **follow-on primário** R$ 574 mm (dez/2025); **dividendos R$ 1,35 bi** no ano | **Dividendo extraordinário R$ 804 mm** (antecipação fiscal Lei 15.270/2025); conclusão total 15% Riva para Riza Viseu FII (~R$ 416 mm) |
+| Jan/2026 | — | CRI R$ 437,5 mm (CDI-0,95% a 96,2% CDI); prazo médio estendido para 68 meses |
 | 1T26 | **Sucessão CEO:** Fabio Elias Cury — Presidência do Conselho; modelo de copresidência (Leonardo Mesquita + Paulo Beyruti) | Prévia operacional 1T26 |
 
 ## Comparação final — dois modelos de alta rentabilidade
 
 **Tese Cury (CURY3):** máquina de eficiência única do setor, ROE 78,8% sem paralelo global, crescimento consistente, política de distribuição agressiva. **Riscos principais:** (i) concentração geográfica SP+RJ (zero diversificação regional), (ii) banco de terrenos de apenas ~3 anos exigindo aquisição acelerada em 2026-2027, (iii) sucessão do fundador em 1T26 sem histórico testado sob o novo modelo de copresidência, (iv) ROE 78,8% é estruturalmente insustentável no longo prazo — vem de base de capital pequena e payout de 138%, ambos reverterão à média conforme a empresa crescer e o mercado se normalizar.
 
-**Tese Direcional (DIRR3):** compounder disciplinado com dois motores (core MCMV + Riva), crescimento linear há anos, estrutura de capital ímpar (brAAA, duration 64 meses, banco de terrenos R$ 58,5 bi). **Riscos principais:** (i) distratos em alta acelerada (8,3% em 2024 → 14,8% no 4T25), (ii) geração de caixa operacional modesta (ex-cessão/monetização SPEs) — dependência de instrumentos financeiros para conversão de caixa, (iii) exposição à execução da Riva como motor de crescimento — se o mercado de média renda desacelerar, a dependência aumenta.
+**Tese Direcional (DIRR3):** compounder disciplinado com dois motores (core MCMV + Riva), crescimento linear há anos, estrutura de capital ímpar (brAAA, duration 68 meses pós-jan/2026, banco de terrenos R$ 58,5 bi). A carteira de financiamento direto ao cliente atingiu R$ 3,1 bi em 2025 (+62% a/a) — ativo crescente que garante recebimento sem depender de cessão bancária. **Riscos principais:** (i) distratos em alta acelerada (8,9% em 2023 → 8,3% em 2024 → 14,8% no 4T25), (ii) geração de caixa operacional modesta (R$ 104 mm em 2025 vs R$ 883 mm total — a diferença vem de cessão/monetização de SPEs) — dependência estrutural de instrumentos financeiros para conversão de caixa, (iii) exposição à execução da Riva como motor de crescimento — se o mercado de média renda desacelerar, a dependência aumenta.
 
 **Para o investidor:** a Cury é um **yield play de alta qualidade** (rendimento + crescimento + ROE extremo) com concentração de risco na geografia e na disciplina de execução. A Direcional é um **compounder estável** com opcionalidade via Riva e estrutura financeira mais conservadora. As duas teses **não são substituíveis** — são leituras diferentes do mesmo setor MCMV médio. Em um cenário de estresse macro (crédito, emprego, Selic), a Direcional tem mais amortecedores estruturais (rating brAAA, banco de terrenos longo, caixa maior); em um cenário normal ou positivo, a Cury tem mais upside via ROE composto e dividendo alto.
 

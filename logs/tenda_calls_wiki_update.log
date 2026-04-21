@@ -1,0 +1,38 @@
+=== Wiki Update ===
+Mode: incremental (queue)
+
+Digesteds to process: 22
+Scanning wiki pages...
+Wiki subgraph candidates: 39 pages (depth=2)
+Wiki pages found: 1
+Empresas with structured/: 4
+
+=== Phase 1: Planning (chunked) ===
+Chunking 22 digesteds into 1 chunk(s) of up to 50 each (per-chunk timeout: 1200s)
+
+Planning model: claude-opus-4-5
+  [chunk 1/1] 22 digesteds — invoking planner...
+    OK: create=0 update=5 skip=4
+
+Chunks complete: 1 ok, 0 failed
+Merging 1 chunk plans...
+
+Merged plan: create=0, update=5, skip=4
+
+=== Phase 2: Execution ===
+Write model: sonnet
+  [update] tenda.md (entity)
+  [update] alea.md (entity)
+  [update] incorporadoras.md (sector)
+    FAILED [update incorporadoras.md] rc=1 — skipping
+  [update] cury_vs_tenda.md (comparison)
+    FAILED [update cury_vs_tenda.md] rc=1 — skipping
+  [update] tenda_vs_direcional.md (comparison)
+    FAILED [update tenda_vs_direcional.md] rc=1 — skipping
+
+Queue consumed: batch_20260421_142435 (queue.json cleared)
+
+=== Wiki update complete ===
+  Planned create: 0 | update: 5 | skip: 4
+  Phase 2 written: 2 | failed: 3
+  Failed-page log: /c/Users/diogo.bodas/Desktop/Equity-wiki/equity-wiki/logs/wiki_plan_failures_20260421_140544.json_write_failures.json

@@ -13,6 +13,7 @@ sources:
   - sources/digested/notion_cyrela_cyrela_3t25_2ab00ca3_summary.md
   - sources/digested/notion_cyrela_cyrela_follow_ups_pos_apresenta_o_50700ca3_summary.md
   - sources/digested/notion_cyrela_cyrela_laic_2f500ca3_summary.md
+  - sources/digested/tenda_call_transcript_4T25_summary.md
 aliases:
   - reforma tributária
   - CBS
@@ -141,10 +142,12 @@ Além da reforma sobre consumo, a **Lei nº 15.270/2025** trouxe a possibilidade
 | [[cyrela\|Cyrela]] | R$ 1,4 bi | — | Recorde histórico de dividendos pagos (fonte: digested/cyrela_dfp_2025_summary.md) |
 | [[tenda\|Tenda]] | R$ 150 mm | — | R$ 100 mm pagos em jan/2026 (fonte: digested/tenda_dfp_2025_summary.md) |
 
-A Direcional foi a mais explícita: os R$ 804 mm pagos nos últimos dias úteis de 2025 foram deliberados "em função das mudanças nas regras de tributação trazidas pela Lei nº 15.270/2025" (fonte: full/direcional/4T25/release.md §endividamento).
+A Direcional foi a mais explícita: os R$ 804 mm pagos nos últimos dias úteis de 2025 foram deliberados "em função das mudanças nas regras de tributação trazidas pela Lei nº 15.270/2025" (fonte: full/direcional/4T25/release.md §endividamento). A Cyrela antecipou a discussão sobre dividendo extraordinário já no call do 3T25 (novembro de 2025) — a decisão de distribuição foi considerada independente da cancela do terreno Jardim das Perdizes e comunicada ao mercado em dezembro (fonte: digested/notion_cyrela_cyrela_3t25_2ab00ca3_summary.md).
 
 ## Posição das empresas (DFP 2025)
 
 Até a data de emissão das DFs 2025, nenhuma empresa reconheceu ajustes contábeis em suas demonstrações — a [[cury|Cury]] invocou o CPC 23, concluindo que não é possível mensurar com confiabilidade os impactos quantitativos, e instituiu plano estruturado de monitoramento e adequação (fonte: full/cury/2025/dfp.md §1.1).
 
-A Tenda destacou que a CBS começa a ser relevante a partir de 2027 e que empresas com alto grau de industrialização terão vantagem competitiva (fonte: full/tenda/4T25/release.md §mensagem_administração).
+A Tenda destacou que a CBS começa a ser relevante a partir de 2027 e que empresas com alto grau de industrialização terão vantagem competitiva (fonte: full/tenda/4T25/release.md §mensagem_administração). No call de resultados 4T25, o CFO confirmou que a **maioria dos projetos da Tenda deve migrar ao IVA a partir de 2027** — posição distinta do consenso de mercado (que favorece permanência no RET). A estimativa interna é de ganho de margem de **~4 pp para Tenda** e **~5 pp para Alea** ao longo de toda a transição; em 2027, contudo, o benefício para a Tenda é quase nulo e para a Alea ~2,5 pp. Para o segmento faixa 1 (MCMV), o RET continua mais favorável — a faixa 1 tende a ganhar relevância no mix exatamente por isso (fonte: digested/tenda_call_transcript_4T25_summary.md).
+
+A Cyrela utiliza patrimônio de afetação em todos os empreendimentos (fonte: digested/notion_cyrela_cyrela_follow_ups_pos_apresenta_o_50700ca3_summary.md), o que a coloca em posição de exercer a opção pelo RET transitório até 2029 — mas a decisão final dependerá de simulação projeto a projeto, dado o alto ticket médio e o volume de lançamentos que amplificam o descasamento de caixa no novo regime.

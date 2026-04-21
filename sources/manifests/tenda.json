@@ -1,6 +1,6 @@
 {
   "_schema": "manifest/v1",
-  "_updated": "2026-04-15",
+  "_updated": "2026-04-21",
   "empresa": "tenda",
   "display_name": "Construtora Tenda S.A.",
   "aliases": [
@@ -1744,6 +1744,167 @@
         "sources/structured/tenda/4T24/release.json"
       ],
       "digested": "sources/digested/tenda_release_4T24_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "4T25",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/4T25/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_4T25_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "1T21",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/1T21/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_1T21_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "1T22",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/1T22/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_1T22_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "1T23",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/1T23/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_1T23_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "1T24",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/1T24/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_1T24_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "1T25",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/1T25/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_1T25_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "2T20",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/2T20/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_2T20_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "2T21",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/2T21/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_2T21_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "2T22",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/2T22/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_2T22_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "2T23",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/2T23/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_2T23_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "2T24",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/2T24/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_2T24_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "2T25",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/2T25/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_2T25_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "3T20",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/3T20/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_3T20_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "3T21",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/3T21/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_3T21_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "3T22",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/3T22/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_3T22_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "3T23",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/3T23/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_3T23_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "3T24",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/3T24/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_3T24_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "3T25",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/3T25/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_3T25_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "4T20",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/4T20/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_4T20_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "4T21",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/4T21/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_4T21_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "4T22",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/4T22/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_4T22_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "4T23",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/4T23/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_4T23_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "4T24",
+      "ingested_on": "2026-04-21",
+      "full": "sources/full/tenda/4T24/call_transcript.md",
+      "digested": "sources/digested/tenda_call_transcript_4T24_summary.md"
     }
   ],
   "precedence": [
@@ -1873,5 +2034,6 @@
         "sample_files": []
       }
     }
-  }
+  },
+  "youtube_channel": "https://www.youtube.com/@tendaconstrutora"
 }

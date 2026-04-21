@@ -72,6 +72,12 @@ Fintech brasileira fundada em 2013, listada na NYSE (NU) e com BDRs na B3 (ROXO3
 
 (fonte: sources/digested/notion_nubank_capstone_2aa00ca3_summary.md)
 
+**Itens não-recorrentes — 4T25**
+
+- +USD 58 mm: remensuração de DTA após aumento da alíquota CSLL no Brasil (fonte: sources/digested/notion_nubank_nubank_call_4t25_31200ca3_summary.md)
+- -USD 22 mm: provisão para transição de retorno ao escritório (fonte: sources/digested/notion_nubank_nubank_call_4t25_31200ca3_summary.md)
+- -USD 25 mm: contribuição one-time PROSOFIPO no México (fundo de garantia de depósitos setorial) (fonte: sources/digested/notion_nubank_nubank_call_4t25_31200ca3_summary.md)
+
 **Base de clientes (final de 2025)**
 
 | Geografia | Clientes | Atividade |
@@ -124,6 +130,7 @@ Fintech brasileira fundada em 2013, listada na NYSE (NU) e com BDRs na B3 (ROXO3
 
 - NPL 15-90 dias: 4,1% no 4T25; quarto trimestre consecutivo de melhora; sazonalidade de piora esperada no 1T26 (fonte: sources/digested/notion_nubank_nubank_call_4t25_31200ca3_summary.md).
 - Cobertura estágio 3 (empréstimo pessoal): acima de 70% (referência 2T24) (fonte: sources/digested/notion_nubank_nubank_02_10_2025_33900ca3_summary.md).
+- Estratégia de recuperação: devolução do cartão ao cliente que quita a dívida, com emissão de cartão com garantia — avaliada como bem-sucedida (fonte: sources/digested/notion_nubank_nubank_laic_2f600ca3_summary.md).
 - Pix Financing: testes A/B por safra mostram que não causa mudança estatisticamente significativa na inadimplência (fonte: sources/digested/notion_nubank_nubank_lago_7b600ca3_summary.md).
 - Exposição de bets: menos de 1% do volume transacionado vai para as principais bets; clientes que transacionam têm perfil de risco pior, mas sem mudança na originação marginal de crédito (fonte: sources/digested/notion_nubank_nubank_02_10_2025_33900ca3_summary.md).
 
@@ -133,14 +140,16 @@ Fintech brasileira fundada em 2013, listada na NYSE (NU) e com BDRs na B3 (ROXO3
 
 **Consignado público (SIAPI)**: ~75% do mercado total de acordos já cobertos; principal driver é ganhar tração nos acordos existentes, não adicionar novos. Open finance deve reduzir fricções de portabilidade até final de 2026 (fonte: sources/digested/notion_nubank_reuni_o_nubank_souto_13_04_2026_34100ca3_summary.md; sources/digested/notion_nubank_nubank_callback_btg_4t25_31300ca3_summary.md).
 
-**Consignado privado**: posição cautelosa no curto prazo — primeiros defaults em patamar de dois dígitos; mais de 50% dos solicitantes com registro negativo no bureau. Hipótese: incumbentes convertendo relacionamentos existentes, Nubank recebendo perfis de maior risco. Outlook otimista no médio prazo, paralelo ao consignado público que levou 12–18 meses para amadurecer (fonte: sources/digested/notion_nubank_nubank_lago_pos_4t25_31400ca3_summary.md; sources/digested/notion_nubank_nubank_call_4t25_31200ca3_summary.md).
+**Consignado privado**: posição cautelosa no curto prazo — primeiros defaults em patamar de dois dígitos; mais de 50% dos solicitantes com registro negativo no bureau. Hipótese: incumbentes convertendo relacionamentos existentes, Nubank recebendo perfis de maior risco. Nota de jan/2026 registra apetite zero no momento, com monitoramento do impacto da isenção de IR sobre capacidade de pagamento. Outlook otimista no médio prazo, paralelo ao consignado público que levou 12–18 meses para amadurecer (fonte: sources/digested/notion_nubank_nubank_lago_pos_4t25_31400ca3_summary.md; sources/digested/notion_nubank_nubank_call_4t25_31200ca3_summary.md; sources/digested/notion_nubank_nubank_laic_2f600ca3_summary.md).
 
 ### Segmentos de Renda e Principalidade
 
 - High income (12.000 [?]+ R$/mês): crescimento de 40% a/a em 2025; 40% dos brasileiros nessa faixa já são clientes (fonte: sources/digested/notion_nubank_nubank_call_4t25_31200ca3_summary.md).
 - Super core (5.000 [?]–12.000 [?] R$/mês): crescimento de 100% em 2025 — segmento de maior crescimento (fonte: sources/digested/notion_nubank_nubank_call_4t25_31200ca3_summary.md).
-- Ultravioleta: ~1 milhão [?] de clientes ativos (dobrou a/a em 2025); definição interna de alta renda acima de 10 salários mínimos. Spread de câmbio 0% para clientes Ultra Violeta. Benchmark de mercado: Personnalité do [[itau|Itaú]]. Modelo low and grow não funciona nesse segmento — necessita de limite inicial maior (fonte: sources/digested/notion_nubank_nubank_laic_2f600ca3_summary.md; sources/digested/notion_nubank_nubank_citi_ec200ca3_summary.md).
+- Ultravioleta: ~1 milhão [?] de clientes ativos (dobrou a/a em 2025); definição interna de alta renda acima de 10 salários mínimos. Total de clientes alta renda no Nubank: ~3 milhões [?], dos quais ~1 milhão [?] são usuários ativos do Ultravioleta; ~6 milhões [?] de clientes brasileiros alta renda ainda não captados representam mercado endereçável adicional. Reformulação em ago/2025 elevou transacionalidade e principalidade dos usuários. Market share de principalidade na alta renda já próximo do segundo colocado (fonte: sources/digested/notion_nubank_nubank_souto_almo_o_bba_c1f00ca3_summary.md; sources/digested/notion_nubank_nubank_laic_2f600ca3_summary.md).
+- Spread de câmbio 0% para clientes Ultra Violeta. Benchmark de mercado: Personnalité do [[itau|Itaú]]. Modelo low and grow não funciona nesse segmento — necessita de limite inicial maior (fonte: sources/digested/notion_nubank_nubank_citi_ec200ca3_summary.md).
 - 60% dos clientes usam o Nubank como banco principal (fonte: sources/digested/notion_nubank_nubank_citi_ec200ca3_summary.md).
+- 15 milhões [?] de clientes ativos usando apenas o produto básico — potencial de cross-sell relevante (fonte: sources/digested/notion_nubank_nubank_laic_2f600ca3_summary.md).
 - Principalidade interna: share no ativo transacional é ok; no não-transacional é extremamente pequeno (~3% dos AUM dos clientes) (fonte: sources/digested/notion_nubank_nubank_lago_7b600ca3_summary.md).
 - Meta de plano de 4–5 anos: R$ 1 [?] trilhão em ativos no Nubank (fonte: sources/digested/notion_nubank_nubank_lago_7b600ca3_summary.md).
 - RPAC atual USD 15 vs. incumbentes em ~USD 40–45/mês — gap justifica prioridade de cross-sell via IA (fonte: sources/digested/notion_nubank_nubank_lago_pos_4t25_31400ca3_summary.md).
@@ -160,6 +169,12 @@ Fintech brasileira fundada em 2013, listada na NYSE (NU) e com BDRs na B3 (ROXO3
 - Letras financeiras têm crescido; detalhe disponível na nota 25 das demonstrações (fonte: sources/digested/notion_nubank_nubank_btg_8b300ca3_summary.md).
 - Pix Finance (Pix Parcelado): taxa de 2%–9%, média próxima de 8%; não entra no TPV de cartão (fonte: sources/digested/notion_nubank_nubank_btg_8b300ca3_summary.md).
 - Duration do parcelado sem juros: 120–140 dias (fonte: sources/digested/notion_nubank_nubank_btg_8b300ca3_summary.md).
+
+### Investimentos
+
+- Vertical de investimentos historicamente insatisfatória segundo David Vélez; aquisição do EasyInvest reconhecida internamente como erro (fonte: sources/digested/notion_nubank_nubank_laic_2f600ca3_summary.md).
+- AI Private Banker (AIPB) em desenvolvimento: acesso massificado a serviços de private banking via IA + open banking + pagamentos em tempo real (fonte: sources/digested/notion_nubank_nubank_lago_pos_4t25_31400ca3_summary.md).
+- Plataforma 100% digital; uso pontual de "human touch" não descartado. SLA de open finance: 94%–95% [?] de sucesso nas trocas de dados, vs. menos de 20% de alguns incumbentes (fonte: sources/digested/notion_nubank_nubank_lago_7b600ca3_summary.md; sources/digested/notion_nubank_nubank_laic_2f600ca3_summary.md).
 
 ### Licença Bancária — Brasil
 
@@ -211,7 +226,7 @@ Fintech brasileira fundada em 2013, listada na NYSE (NU) e com BDRs na B3 (ROXO3
 - Custo de captação atual: ~26% (otimizado em 2025) (fonte: sources/digested/notion_nubank_nubank_lago_pos_4t25_31400ca3_summary.md).
 - Depósitos caíram ~10% no 3T25 por reprecificação; retornaram a net inflow após (fonte: sources/digested/notion_nubank_ceo_series_nubank_3t25_jpm_2b000ca3_summary.md).
 - Custo de depósito a prazo curto: 30 bps da TIIE; custo de depósito imediato: 100% da TIIE; benchmark BBVA México: 30% da TIIE (fonte: sources/digested/notion_nubank_d_vidas_nubank_souto_28_08_08800ca3_summary.md).
-- Caixinha Turbo no México: yield de 15%, limitado a USD 1.000; após redução do yield de 15% para 13%, depósitos voltaram a crescer (fonte: sources/digested/notion_nubank_nubank_souto_almo_o_bba_c1f00ca3_summary.md; sources/digested/notion_nubank_nubank_callback_btg_4t25_31300ca3_summary.md).
+- Caixinha Turbo no México: yield de 15%, limitado a USD 1.000; após redução do yield de 15% para 13%, depósitos voltaram a crescer — simulação feita via agentic depositors (fonte: sources/digested/notion_nubank_nubank_souto_almo_o_bba_c1f00ca3_summary.md; sources/digested/notion_nubank_nubank_callback_btg_4t25_31300ca3_summary.md).
 - Parceria com Oxxo (cash-in) iniciada em maio/2025 — relevante para resolver gargalo de recebimento em espécie (fonte: sources/digested/notion_nubank_nubank_souto_almo_o_bba_c1f00ca3_summary.md).
 - México pré-pagou linhas de funding corporativo (USD 625 mm [?] sindicalizado) com crescimento dos depósitos; hoje zerado em dívida corporativa (fonte: sources/digested/notion_nubank_cris_ferraz_nubank_atacado_27900ca3_summary.md).
 - Estratégia: depósitos deveriam crescer menos do que a carteira de crédito em termos percentuais (fonte: sources/digested/notion_nubank_d_vidas_nubank_souto_28_08_08800ca3_summary.md).
@@ -254,7 +269,16 @@ Fintech brasileira fundada em 2013, listada na NYSE (NU) e com BDRs na B3 (ROXO3
 - CAC nos EUA tipicamente USD 150–1.000 [?] vs. USD 4–5 no LatAm (fonte: sources/digested/notion_nubank_nubank_lago_pos_4t25_31400ca3_summary.md).
 - Estratégia de marca: patrocínios globais (naming rights estádio Miami, Inter Miami, F1/Mercedes) beneficiam Brasil, México e Colômbia também (fonte: sources/digested/notion_nubank_reuni_o_nubank_souto_13_04_2026_34100ca3_summary.md).
 - Investimentos iniciais de minimis em 2026; escalonamento condicionado a PMF e unit economics positivos (fonte: sources/digested/notion_nubank_nubank_callback_btg_4t25_31300ca3_summary.md; sources/digested/notion_nubank_nubank_lago_pos_4t25_31400ca3_summary.md).
-- Consenso de analistas cético sobre EUA: nenhum segmento claramente desservido equivalente ao Brasil/México; depósitos de baixo custo sem presença física são estruturalmente difíceis (fonte: sources/digested/notion_nubank_nu_us_bofa_28b00ca3_summary.md).
+- Consenso de analistas cético sobre EUA: nenhum segmento claramente desservido equivalente ao Brasil/México; depósitos de baixo custo sem presença física são estruturalmente difíceis; bancos digitais existem há 20+ anos nos EUA sem modelo de custo baixo consolidado; presença física permanece top 3–5 no critério de escolha de banco mesmo quando nunca visitada (fonte: sources/digested/notion_nubank_nu_us_bofa_28b00ca3_summary.md).
+- Único neobank americano com estratégia de sucesso explícita: SoFi, focada em alta renda ("HENRY") via refinanciamento de student loans — segmento sem equivalente direto para o Nubank (fonte: sources/digested/notion_nubank_nu_us_bofa_28b00ca3_summary.md).
+
+---
+
+## Potencial Expansão — Chile
+
+- Chile em análise como potencial mercado: penetração de crédito consumer ~12% vs. ~18% do Brasil; bancos tradicionais saíram do segmento, abrindo espaço para fintechs (fonte: sources/digested/notion_nubank_chile_nubank_34700ca3_summary.md).
+- Constrangimentos: cap de juros (limita ticket e rentabilidade), teto de interchange de 0,80% em implementação faseada (fonte: sources/digested/notion_nubank_chile_nubank_34700ca3_summary.md).
+- Nota exploratória de set/2025 — sem decisão anunciada de entrada.
 
 ---
 
@@ -294,7 +318,7 @@ Fintech brasileira fundada em 2013, listada na NYSE (NU) e com BDRs na B3 (ROXO3
 - Três pilares estratégicos: vencer nos mercados core (Brasil/México/Colômbia); fortalecer fundações para expansão internacional; IA como superpoder (fonte: sources/digested/notion_nubank_nubank_call_4t25_31200ca3_summary.md).
 - Efficiency ratio com pressão altista nos próximos 4–6 trimestres por três headwinds: RTO (+80–100 bps), IA/tecnologia e globalização (fonte: sources/digested/notion_nubank_nubank_call_4t25_31200ca3_summary.md). Lago orientou investidores a analisar efficiency ratio e ETR em conjunto (fonte: sources/digested/notion_nubank_nubank_lago_pos_4t25_31400ca3_summary.md).
 - ETR esperada cair estruturalmente nos próximos 8–12 trimestres via: Lei do Bem (P&D), notas soberanas isentas, JCP entre subsidiária brasileira e holding (fonte: sources/digested/notion_nubank_nubank_callback_btg_4t25_31300ca3_summary.md).
-- Return to office: implementação faseada — dias designados a partir de julho/2026; modelo híbrido (3 [?] dias/semana) para todos os escritórios em jan/2027. One-off de USD 22–25 mm [?] já provisionado no 4T25 (fonte: sources/digested/notion_nubank_nubank_callback_btg_4t25_31300ca3_summary.md).
+- Return to office: implementação faseada — dias designados a partir de julho/2026; modelo híbrido (3 [?] dias/semana) para todos os escritórios em jan/2027. One-off de USD 22–25 mm [?] já provisionado no 4T25 (fonte: sources/digested/notion_nubank_nubank_callback_btg_4t25_31300ca3_summary.md; sources/digested/notion_nubank_reuni_o_nubank_souto_13_04_2026_34100ca3_summary.md).
 - Reforma tributária brasileira (vigência 01/01/2026): isenção de IRPF para renda até R$ 5.000 [?]; redução para renda até R$ 7.400 [?] — representa grande parcela da base. Ainda não incorporado nos modelos de provisão; potencial upside surpresa em 2026 (fonte: sources/digested/notion_nubank_nubank_lago_pos_4t25_31400ca3_summary.md).
 - Próximo earnings call: 14 de maio (1T26) (fonte: sources/digested/notion_nubank_reuni_o_nubank_souto_13_04_2026_34100ca3_summary.md).
 - Visão de longo prazo: core LatAm com earnings power de ~USD 3 bilhões; México seguindo trajetória do Brasil com defasagem de ~6–7 anos; EUA como terceira S-curve. Guidance de ROE longo prazo: 25%–30% [?] (fonte: sources/digested/notion_nubank_nubank_lago_pos_4t25_31400ca3_summary.md; sources/digested/notion_nubank_nubank_mexico_ce200ca3_summary.md).
@@ -304,7 +328,7 @@ Fintech brasileira fundada em 2013, listada na NYSE (NU) e com BDRs na B3 (ROXO3
 ## Dúvidas Abertas / Follow-ups
 
 - **Licença bancária México**: conclusão da auditoria CNBV/Banxico esperada em alguns meses a partir de abr/2026 — desbloqueador para múltiplos produtos.
-- **Consignado privado**: acompanhar evolução dos pipes de colateral e redução de first payment defaults ao longo de 2026.
+- **Consignado privado**: apetite zero registrado em jan/2026; acompanhar evolução dos pipes de colateral e redução de first payment defaults ao longo de 2026.
 - **Aprovação OCC (EUA)**: aprovação final estimada em ~18 meses; 2026 deve trazer clareza sobre estratégia de produto e diferenciação vs. Chime.
 - **Efficiency ratio 2026**: sem guidance granular; mercado aguarda sinal sobre se headwinds (RTO + IA + globalização) serão compensados por queda de ETR.
 - **Write-off rate México**: 10% a.m. atribuído a fonte set/2025 (SOFIPO) — confirmar contra séries CNBV/SOFIPO antes de usar em modelos.
@@ -312,4 +336,5 @@ Fintech brasileira fundada em 2013, listada na NYSE (NU) e com BDRs na B3 (ROXO3
 - **Reforma tributária**: impacto positivo potencial sobre inadimplência não provisionado — monitorar ao longo de 2026.
 - **Gastos totais no México**: pergunta registrada em ago/2025 sem resposta na fonte (linha de despesa consolidada).
 - **Estratégia de diferenciação vs. Chime**: anúncio mais detalhado previsto nos próximos meses (a partir de abr/2026).
+- **Ultravioleta principalidade**: 6 milhões [?] de potenciais clientes alta renda não captados — acompanhar velocidade de conversão via nova abordagem (limite inicial maior).
 - **Earnings call 1T26**: 14 de maio — NPL tendências, efeito mix FGTS e primeiro sinal de 2026 sobre eficiência.

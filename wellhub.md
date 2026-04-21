@@ -14,6 +14,7 @@ sources:
   - sources/digested/notion_smartfit_thiago_bizotto_franquiado_panobianco_7fe00ca3_summary.md
   - sources/digested/notion_smartfit_urquiza_bt_ceo_94300ca3_summary.md
   - sources/digested/notion_skyfit_franqueada_thais_2c000ca3_summary.md
+  - sources/digested/notion_smart_pos_1t25_rizzardo_36900ca3_summary.md
 created: 2026-04-16
 updated: 2026-04-21
 aliases:
@@ -54,7 +55,9 @@ A Wellhub remunera academias por check-in com cap de 10 visitas/mes por usuario.
 
 Mix da rede Panobianco (jan/2026): ~60% Basic+, ~20% Basic, ~20% Silver (fonte: sources/digested/notion_panobianco_panobianco_bob_ford_2e200ca3_summary.md). O objetivo declarado da Wellhub e precificar a academia parceira em torno de 40% a 50% abaixo do preco de balcao -- embora no caso do heavy user (minimo 2 check-ins/semana) o repasse ja se aproxime do balcao (fonte: sources/digested/notion_smartfit_wellhub_douglas_demore_5d100ca3_summary.md; sources/digested/notion_smartfit_wellhub_raphael_gouveia_3c700ca3_summary.md).
 
-Frequencia media da rede [[panobianco]]: 7 visitas/mes (~R$ 70/mes de repasse efetivo); em cidades nao turisticas: ~15 visitas/mes (~R$ 100/mes) (fonte: sources/digested/notion_panobianco_panobianco_bob_ford_2e200ca3_summary.md).
+Frequencia media da rede [[panobianco]]: 7 visitas/mes (~R$ 70/mes de repasse efetivo); em cidades nao turisticas: ~15 visitas/mes (~R$ 100/mes) (fonte: sources/digested/notion_panobianco_panobianco_bob_ford_2e200ca3_summary.md). Media de check-ins por usuario na plataforma Wellhub: 9x (periodo nao especificado) (fonte: sources/digested/notion_smartfit_wellhub_douglas_demore_5d100ca3_summary.md).
+
+**Canibalizacao interna:** o plano Basic custa ao usuario final ~R$ 89,90/mes -- em comparacao a mensalidade direta de R$ 139,90. Esse diferencial e reconhecido como fator que dificulta conversao de aluno de agregador para mensalidade propria; ha discussao interna na rede sobre se o preco deve ser mantido ou reduzido em nov/2026 para nao aprofundar a canibalizacao (fonte: sources/digested/notion_panobianco_panobianco_jessica_menali_25_03_32e00ca3_summary.md).
 
 ---
 
@@ -94,12 +97,13 @@ A Wellhub utiliza antecipacao de recebiveis (cash advance) como mecanismo de fid
 **Antecipacoes a rede [[panobianco]]:**
 - **Dezembro 2024 (1a rodada):** ~R$ 200 milhoes (~R$ 1M/unidade em media para toda a rede); 100% do repasse retido ate quitacao (fonte: sources/digested/notion_panobianco_panobianco_bob_ford_2e200ca3_summary.md).
 - **2026 (2a rodada):** valor similar (~R$ 200 milhoes), liberado para metade dos franqueados selecionados pela franqueadora; 50% do repasse retido mensalmente ate quitacao (fonte: sources/digested/notion_panobianco_panobianco_bob_ford_2e200ca3_summary.md).
-- **Antecipacao de expansao:** R$ 800 mil por novo ponto para franqueado abrir nova unidade; carencia de 3 meses, depois 50% do repasse WellHub retido ate quitar (fonte: sources/digested/notion_panobianco_panobianco_jessica_menali_25_03_32e00ca3_summary.md).
+- **Antecipacao de expansao (nova unidade):** R$ 800 mil por novo ponto para franqueado abrir nova unidade; carencia de 3 meses, depois 50% do repasse WellHub retido ate quitar (fonte: sources/digested/notion_panobianco_panobianco_jessica_menali_25_03_32e00ca3_summary.md).
+- **Antecipacao de expansao (unidade completa):** valor integral da unidade (exemplo: ~R$ 2 milhoes) adiantado com base nos recebiveis do franqueado existente; franqueado expande sem desembolso proprio (fonte: sources/digested/notion_panobianco_lucas_broggio_coo_panobianco_31700ca3_summary.md).
 - **Financiamento de transicao (saida TotalPass):** WellHub antecipou 87% da receita de agregadores de nov/2025 como credito; por 6 meses, libera mensalmente o equivalente ao que seria recebido do TotalPass; apos 6 meses, se receita sobe, 50% e retido ate quitar (fonte: sources/digested/notion_panobianco_panobianco_jessica_menali_25_03_32e00ca3_summary.md).
 
 A mesma mecanica foi usada pela [[smartfit]] com o [[totalpass]] no Mexico para travar parceiros em contratos de exclusividade (fonte: sources/digested/notion_smartfit_wellhub_douglas_demore_5d100ca3_summary.md).
 
-**Exclusividade e CADE:** contratos novos tem prazo maximo de exclusividade de 2 anos por exigencia do CADE (fonte: sources/digested/notion_smartfit_urquiza_bt_ceo_94300ca3_summary.md). Havia processo no CADE envolvendo Wellhub e [[totalpass]] (fonte: sources/digested/notion_panobianco_panobianco_andre_61f00ca3_summary.md). A liminar que impedia exclusividade Panobianco caiu em 30/12/2025, tornando o [[panobianco]] a primeira rede de academias exclusiva da Wellhub; beneficios: prioridade no app em raio de 2 km e melhores repasses (fonte: sources/digested/notion_panobianco_panobianco_bob_ford_2e200ca3_summary.md).
+**Exclusividade e CADE:** como referencia de set/2025, a Wellhub nao podia oferecer exclusividade a nenhum parceiro, por restricao regulatoria vigente (fonte: sources/digested/notion_wellhub_rodrigo_gomes_wellhub_e9800ca3_summary.md). Contratos novos com prazo maximo de exclusividade de 2 anos sao exigencia do CADE (fonte: sources/digested/notion_smartfit_urquiza_bt_ceo_94300ca3_summary.md). Havia processo no CADE envolvendo Wellhub e [[totalpass]] (fonte: sources/digested/notion_panobianco_panobianco_andre_61f00ca3_summary.md). A liminar que impedia exclusividade Panobianco caiu em 30/12/2025, tornando o [[panobianco]] a primeira rede de academias exclusiva da Wellhub; beneficios: prioridade no app em raio de 2 km e melhores repasses (fonte: sources/digested/notion_panobianco_panobianco_bob_ford_2e200ca3_summary.md).
 
 A [[bodytech]] utilizou a exclusividade com a Wellhub como poder de barganha para emitir um CRI de R$ 86 milhoes [?], melhorando o custo marginal de captacao (fonte: sources/digested/notion_smartfit_urquiza_bt_ceo_94300ca3_summary.md).
 
@@ -110,6 +114,8 @@ A [[bodytech]] utilizou a exclusividade com a Wellhub como poder de barganha par
 [[totalpass]] (subsidiaria da [[smartfit]]) e o principal concorrente direto no mercado B2B de beneficio fitness no Brasil. Diferencial desfavoravel ao TotalPass: presenca em apenas 5 das 30 academias mais demandadas; canal de vendas concentrado em SVA (Alelo), de rentabilidade mais baixa; academias parceiras tem receio de fechar exclusividade com TotalPass por saber que pertence a SmartFit -- risco de mapeamento de regioes para aberturas concorrentes (fonte: sources/digested/notion_smartfit_wellhub_raphael_gouveia_3c700ca3_summary.md).
 
 Comparacao de precificacao no canal B2B (referencia ~2024): TotalPass cotava ~R$ 7/vida vs. Gympass ~R$ 5/vida; Gympass era agressivo em isencao de cobranca por ate 6 meses (fonte: sources/digested/notion_smartfit_silvia_totalpass_9f400ca3_summary.md).
+
+Market share pre-migracao Panobianco (referencia mar/2026): aproximadamente 1/3 TotalPass, 2/3 WellHub na rede. Projecao para SP com entrada de novos players: agregadores podem chegar a 60-70% da base total de alunos (fonte: sources/digested/notion_panobianco_lucas_broggio_coo_panobianco_31700ca3_summary.md).
 
 **Saida do Panobianco (2025 a 2026):**
 - Panobianco descredenciou TotalPass -- rede caiu de +300 para -200 unidades credenciadas (fonte: sources/digested/notion_panobianco_lucas_broggio_coo_panobianco_31700ca3_summary.md).
@@ -138,6 +144,8 @@ Dinamicas observadas: frequencia de aluno de agregador subindo; frequencia de al
 
 Caso [[bluefit]] (set/2024): Bluefit exigiu ajuste de preco ou saida da rede; Wellhub perdeu 30% dos parceiros Bluefit, mas 70% dos usuarios Wellhub via Bluefit permaneceram na plataforma -- migrando para plano que incluia Bluefit ou ja estando em plano superior (fonte: sources/digested/notion_smartfit_wellhub_douglas_demore_5d100ca3_summary.md).
 
+**Q1 2026 -- primeira queda desde a pandemia:** unidades maduras Panobianco registraram queda de receita e alunos em Q1 2026 vs. Q1 2025 (que foi o melhor trimestre da historia do setor). Exemplo unidade Piracicaba 1: faturamento jan/25 R$ 285k -> jan/26 R$ 217k; alunos proprios 1.337 -> 972; lucro R$ 80k -> R$ 25k. Destino dos alunos perdidos: ~70% para concorrentes, ~30% para agregadores (fonte: sources/digested/notion_panobianco_panobianco_jessica_menali_25_03_32e00ca3_summary.md).
+
 ---
 
 ## Mercado enderecavel
@@ -156,7 +164,7 @@ Caso [[bluefit]] (set/2024): Bluefit exigiu ajuste de preco ou saida da rede; We
 
 ## Contexto regulatorio -- PAT e SVA
 
-O programa PAT e via de distribuicao B2B da Wellhub via operadoras como [[alelo]], Sodexo e Ticket. Com a mudanca regulatoria do SVA, o beneficio passou a poder ser oferecido apenas no ambito de seguranca alimentar. A avaliacao de Gouveia (set/2024): houve "construcao equivocada de narrativa" do Ministerio do Trabalho; na pratica, **pouco mudou** -- inclusive preco (fonte: sources/digested/notion_raphael_gouveia_wellhub_04800ca3_summary.md). Nota de analista (mai/2025) corrobora: mudanca de regulacao do PAT teve pouco efeito pratico (fonte: sources/digested/notion_smart_pos_1t25_rizzardo_36900ca3_summary.md).
+O programa PAT e via de distribuicao B2B da Wellhub via operadoras como [[alelo]], Sodexo e Ticket. Com a mudanca regulatoria do SVA, o beneficio passou a poder ser oferecido apenas no ambito de seguranca alimentar. A avaliacao de Gouveia (set/2024): houve "construcao equivocada de narrativa" do Ministerio do Trabalho; na pratica, **pouco mudou** -- inclusive preco (fonte: sources/digested/notion_raphael_gouveia_wellhub_04800ca3_summary.md). Analista de setor corrobora (mai/2025): mudanca de regulacao do PAT teve pouco efeito pratico (fonte: sources/digested/notion_smart_pos_1t25_rizzardo_36900ca3_summary.md).
 
 - O **rebate** ja havia sido eliminado cerca de um ano antes da mudanca do SVA -- o marco simbolico interno foi a "festa de final de ano com carrinho de pipoca" (fonte: sources/digested/notion_raphael_gouveia_wellhub_04800ca3_summary.md).
 - **Empresas menores** quase nao tinham esse beneficio antes da mudanca (fonte: sources/digested/notion_raphael_gouveia_wellhub_04800ca3_summary.md).
@@ -166,7 +174,7 @@ O programa PAT e via de distribuicao B2B da Wellhub via operadoras como [[alelo]
 
 ## Margens e geografia
 
-- **Brasil:** margens positivas mas descritas como "bem proximas de zero" (set/2024). A operacao tem "margem bem redonda"; 2023 registrou desafios de integracao que pressionaram a margem (fonte: sources/digested/notion_smartfit_wellhub_douglas_demore_5d100ca3_summary.md; sources/digested/notion_smartfit_wellhub_raphael_gouveia_3c700ca3_summary.md).
+- **Brasil:** margens positivas mas descritas como "bem proximas de zero" (set/2024). A operacao tem "margem bem redonda"; 2023 registrou desafios de integracao que pressionaram a margem (fonte: sources/digested/notion_smartfit_wellhub_douglas_demore_5d100ca3_summary.md; sources/digested/notion_smartfit_wellhub_raphael_gouveia_3c700ca3_summary.md). Set/2025: Brasil crescendo bem, sem impacto negativo na migracao de parceiros para tiers de preco mais altos (fonte: sources/digested/notion_wellhub_rodrigo_gomes_wellhub_e9800ca3_summary.md).
 - **Mexico:** margens negativas; engajamento mais baixo; mercado mais voltado ao balcao; empresas querem se associar a marca SmartFit, dinamica diferente do Brasil (fonte: sources/digested/notion_smartfit_wellhub_douglas_demore_5d100ca3_summary.md; sources/digested/notion_smartfit_wellhub_raphael_gouveia_3c700ca3_summary.md).
 - **EUA:** Wellhub "muito animada" com o desenvolvimento no mercado americano (set/2024) (fonte: sources/digested/notion_smartfit_wellhub_raphael_gouveia_3c700ca3_summary.md).
 
@@ -177,7 +185,8 @@ O programa PAT e via de distribuicao B2B da Wellhub via operadoras como [[alelo]
 - A estrutura de antecipacoes a parceiros cria fidelizacao real, mas implica capital imobilizado significativo e risco de credito sobre recebiveis de academia.
 - A concentracao de check-ins em SmartFit (~90%) e ponto de dependencia bilateral: SmartFit precisa da Wellhub para preencher ociosidade; a Wellhub precisa da SmartFit para entregar valor ao cliente corporativo.
 - O Panobianco tornou-se a primeira rede exclusiva; sustentabilidade da exclusividade e citada como risco pelo proprio COO da Panobianco.
-- Canibalizacao balcao vs. agregador esta sob investigacao interna na Panobianco; impacto liquido na receita por unidade ainda nao mensurado.
+- Canibalizacao balcao vs. agregador esta sob investigacao interna na Panobianco; Q1 2026 mostra pela primeira vez queda de receita e alunos simultaneamente, com parcela dos alunos perdidos migrando para agregadores.
+- A entrada massiva de agregadores (projetada em 60-70% da base em SP) pode comprimir estruturalmente o ticket medio das redes de academias parceiras no longo prazo.
 - **Duvida aberta:** qual o impacto concreto da mudanca do PAT (out/2024) sobre a base elegivel e o modelo de revenda?
 - **Follow-up:** confirmar base de usuarios atual (3 a 4 mm de set/2024) e evolucao para 2025-2026.
 - **Follow-up:** acompanhar resolucao do processo no CADE (Wellhub vs. TotalPass).

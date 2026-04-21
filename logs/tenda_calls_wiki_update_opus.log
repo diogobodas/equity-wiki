@@ -1,0 +1,31 @@
+=== Wiki Update ===
+Mode: incremental (queue)
+
+Digesteds to process: 23
+Scanning wiki pages...
+Wiki subgraph candidates: 39 pages (depth=2)
+Wiki pages found: 1
+Empresas with structured/: 4
+
+=== Phase 1: Planning (chunked) ===
+Chunking 23 digesteds into 1 chunk(s) of up to 50 each (per-chunk timeout: 1200s)
+
+Planning model: claude-opus-4-5
+  [chunk 1/1] 23 digesteds — invoking planner...
+    OK: create=0 update=2 skip=10
+
+Chunks complete: 1 ok, 0 failed
+Merging 1 chunk plans...
+
+Merged plan: create=0, update=2, skip=10
+
+=== Phase 2: Execution ===
+Write model: claude-opus-4-5
+  [update] vso.md (concept)
+  [update] incorporadoras.md (sector)
+
+Queue consumed: batch_20260421_183625 (queue.json cleared)
+
+=== Wiki update complete ===
+  Planned create: 0 | update: 2 | skip: 10
+  Phase 2 written: 2 | failed: 0

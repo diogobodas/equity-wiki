@@ -881,3 +881,76 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 [wiki-queue] 2026-04-17 | generic | notion | xp_safra_pos_3t25_2c300ca3 | sources/digested/notion_xp_safra_pos_3t25_2c300ca3_summary.md
 [wiki-done] 2026-04-20 | batch_20260420_200411 (resume)
 [wiki-done] 2026-04-21 | batch_20260421_005247 (resume)
+[wiki-done] 2026-04-21 | batch_20260421_073514 (resume)
+[fetch-calls] 2026-04-21 | tenda | 4T25 | https://www.youtube.com/watch?v=REdGd0xt3RI | auto_forced
+2026-04-21 — ingest call_transcript 4T25: sources/full/tenda/4T25/call_transcript.md, sources/digested/tenda_call_transcript_4T25_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 4T25 | sources/digested/tenda_call_transcript_4T25_summary.md
+[wiki-done] 2026-04-21 | batch_20260421_133924
+[fetch-calls] 2026-04-21 | tenda | 2T20 | https://www.youtube.com/watch?v=g7VEYo3rr2o | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 3T20 | https://www.youtube.com/watch?v=AzmmBTZfQgM | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 4T20 | https://www.youtube.com/watch?v=4GLwN5nHdwI | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 1T21 | https://www.youtube.com/watch?v=Fh5chdTOZfQ | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 2T21 | https://www.youtube.com/watch?v=wB66nkXcqu8 | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 3T21 | https://www.youtube.com/watch?v=bRezmJo5f20 | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 4T21 | https://www.youtube.com/watch?v=jMYCXMpoQhM | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 1T22 | https://www.youtube.com/watch?v=0ko92y7bNnc | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 2T22 | https://www.youtube.com/watch?v=pVqtIlDdLpg | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 3T22 | https://www.youtube.com/watch?v=R8KQoOM_qmE | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 4T22 | https://www.youtube.com/watch?v=I7jAkySqhIM | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 1T23 | https://www.youtube.com/watch?v=QntbUw5YBpM | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 2T23 | https://www.youtube.com/watch?v=5U7uzyx-hvk | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 3T23 | https://www.youtube.com/watch?v=W8xBCfDUZ9Q | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 4T23 | https://www.youtube.com/watch?v=UdwHan9qqrs | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 1T24 | https://www.youtube.com/watch?v=blIn3ISLFIo | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 2T24 | https://www.youtube.com/watch?v=kgYVGRwZYbw | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 3T24 | https://www.youtube.com/watch?v=fTfZYTICsis | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 4T24 | https://www.youtube.com/watch?v=EpDxhSBPaKA | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 1T25 | https://www.youtube.com/watch?v=GIqIJFrBDUA | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 2T25 | https://www.youtube.com/watch?v=F3EBF1xDyDg | auto_forced
+[fetch-calls] 2026-04-21 | tenda | 3T25 | https://www.youtube.com/watch?v=n1ObaGDUI8Q | auto_forced
+2026-04-21 — ingest call_transcript 1T21: sources/full/tenda/1T21/call_transcript.md, sources/digested/tenda_call_transcript_1T21_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 1T21 | sources/digested/tenda_call_transcript_1T21_summary.md
+2026-04-21 — ingest call_transcript 1T22: sources/full/tenda/1T22/call_transcript.md, sources/digested/tenda_call_transcript_1T22_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 1T22 | sources/digested/tenda_call_transcript_1T22_summary.md
+2026-04-21 — ingest call_transcript 1T23: sources/full/tenda/1T23/call_transcript.md, sources/digested/tenda_call_transcript_1T23_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 1T23 | sources/digested/tenda_call_transcript_1T23_summary.md
+2026-04-21 — ingest call_transcript 1T24: sources/full/tenda/1T24/call_transcript.md, sources/digested/tenda_call_transcript_1T24_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 1T24 | sources/digested/tenda_call_transcript_1T24_summary.md
+2026-04-21 — ingest call_transcript 1T25: sources/full/tenda/1T25/call_transcript.md, sources/digested/tenda_call_transcript_1T25_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 1T25 | sources/digested/tenda_call_transcript_1T25_summary.md
+2026-04-21 — ingest call_transcript 2T20: sources/full/tenda/2T20/call_transcript.md, sources/digested/tenda_call_transcript_2T20_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 2T20 | sources/digested/tenda_call_transcript_2T20_summary.md
+2026-04-21 — ingest call_transcript 2T21: sources/full/tenda/2T21/call_transcript.md, sources/digested/tenda_call_transcript_2T21_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 2T21 | sources/digested/tenda_call_transcript_2T21_summary.md
+2026-04-21 — ingest call_transcript 2T22: sources/full/tenda/2T22/call_transcript.md, sources/digested/tenda_call_transcript_2T22_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 2T22 | sources/digested/tenda_call_transcript_2T22_summary.md
+2026-04-21 — ingest call_transcript 2T23: sources/full/tenda/2T23/call_transcript.md, sources/digested/tenda_call_transcript_2T23_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 2T23 | sources/digested/tenda_call_transcript_2T23_summary.md
+2026-04-21 — ingest call_transcript 2T24: sources/full/tenda/2T24/call_transcript.md, sources/digested/tenda_call_transcript_2T24_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 2T24 | sources/digested/tenda_call_transcript_2T24_summary.md
+2026-04-21 — ingest call_transcript 2T25: sources/full/tenda/2T25/call_transcript.md, sources/digested/tenda_call_transcript_2T25_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 2T25 | sources/digested/tenda_call_transcript_2T25_summary.md
+2026-04-21 — ingest call_transcript 3T20: sources/full/tenda/3T20/call_transcript.md, sources/digested/tenda_call_transcript_3T20_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 3T20 | sources/digested/tenda_call_transcript_3T20_summary.md
+2026-04-21 — ingest call_transcript 3T21: sources/full/tenda/3T21/call_transcript.md, sources/digested/tenda_call_transcript_3T21_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 3T21 | sources/digested/tenda_call_transcript_3T21_summary.md
+2026-04-21 — ingest call_transcript 3T22: sources/full/tenda/3T22/call_transcript.md, sources/digested/tenda_call_transcript_3T22_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 3T22 | sources/digested/tenda_call_transcript_3T22_summary.md
+2026-04-21 — ingest call_transcript 3T23: sources/full/tenda/3T23/call_transcript.md, sources/digested/tenda_call_transcript_3T23_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 3T23 | sources/digested/tenda_call_transcript_3T23_summary.md
+2026-04-21 — ingest call_transcript 3T24: sources/full/tenda/3T24/call_transcript.md, sources/digested/tenda_call_transcript_3T24_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 3T24 | sources/digested/tenda_call_transcript_3T24_summary.md
+2026-04-21 — ingest call_transcript 3T25: sources/full/tenda/3T25/call_transcript.md, sources/digested/tenda_call_transcript_3T25_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 3T25 | sources/digested/tenda_call_transcript_3T25_summary.md
+2026-04-21 — ingest call_transcript 4T20: sources/full/tenda/4T20/call_transcript.md, sources/digested/tenda_call_transcript_4T20_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 4T20 | sources/digested/tenda_call_transcript_4T20_summary.md
+2026-04-21 — ingest call_transcript 4T21: sources/full/tenda/4T21/call_transcript.md, sources/digested/tenda_call_transcript_4T21_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 4T21 | sources/digested/tenda_call_transcript_4T21_summary.md
+2026-04-21 — ingest call_transcript 4T22: sources/full/tenda/4T22/call_transcript.md, sources/digested/tenda_call_transcript_4T22_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 4T22 | sources/digested/tenda_call_transcript_4T22_summary.md
+2026-04-21 — ingest call_transcript 4T23: sources/full/tenda/4T23/call_transcript.md, sources/digested/tenda_call_transcript_4T23_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 4T23 | sources/digested/tenda_call_transcript_4T23_summary.md
+2026-04-21 — ingest call_transcript 4T24: sources/full/tenda/4T24/call_transcript.md, sources/digested/tenda_call_transcript_4T24_summary.md
+[wiki-queue] 2026-04-21 | tenda | call_transcript | 4T24 | sources/digested/tenda_call_transcript_4T24_summary.md
+[wiki-done] 2026-04-21 | batch_20260421_142435
+[wiki-done] 2026-04-21 | batch_20260421_183625

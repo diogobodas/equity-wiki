@@ -8,6 +8,7 @@ sources:
   - sources/digested/notion_caixa_hailton_bbi_2a700ca3_summary.md
   - sources/digested/notion_caixa_painel_minha_casa_minha_vida_2026_31900ca3_summary.md
   - sources/digested/notion_conselho_curador_fgts_07_10_28500ca3_summary.md
+  - sources/digested/notion_caixa_vice_presidente_de_habitacao_67b00ca3_summary.md
 created: 2026-04-21
 updated: 2026-04-21
 ---

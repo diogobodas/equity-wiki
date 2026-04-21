@@ -33,3 +33,36 @@ Pages to write: 27 (skipped existing: 52)
   [update] unidas.md (entity)
     OK [update unidas.md]
   [update] nubank.md (entity)
+    OK [update nubank.md]
+  [update] wellhub.md (entity)
+    OK [update wellhub.md]
+  [update] totalpass.md (entity)
+    OK [update totalpass.md]
+  [update] pagseguro.md (entity)
+    OK [update pagseguro.md]
+  [update] sbpe.md (concept)
+    OK [update sbpe.md]
+  [update] reforma_tributaria.md (concept)
+    OK [update reforma_tributaria.md]
+  [update] banco_de_terrenos.md (concept)
+    OK [update banco_de_terrenos.md]
+  [update] mcmv.md (concept)
+    OK [update mcmv.md]
+  [update] vso.md (concept)
+    OK [update vso.md]
+  [update] incorporadoras.md (sector)
+    OK [update incorporadoras.md]
+  [update] cury_vs_direcional.md (comparison)
+    OK [update cury_vs_direcional.md]
+  [update] tenda_vs_direcional.md (comparison)
+    OK [update tenda_vs_direcional.md]
+  [update] cyrela_vs_cury.md (comparison)
+    OK [update cyrela_vs_cury.md]
+  [update] cury_vs_tenda.md (comparison)
+    OK [update cury_vs_tenda.md]
+Queue cleared: batch_20260421_073514
+
+=== Resume complete ===
+  Skipped (already existed): 52
+  Written: 27
+  Failed:  0
