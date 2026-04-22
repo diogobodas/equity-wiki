@@ -14,14 +14,14 @@ sources:
   - sources/digested/notion_cyrela_cyrela_follow_ups_pos_apresenta_o_50700ca3_summary.md
   - sources/digested/notion_cyrela_cyrela_laic_2f500ca3_summary.md
   - sources/digested/tenda_call_transcript_4T25_summary.md
-  - sources/digested/tenda_call_transcript_2025_summary.md
+  - sources/digested/tenda_investor_day_2025_summary.md
 aliases:
   - reforma tributária
   - CBS
   - IBS
   - LC 214/2025
 created: 2026-04-13
-updated: 2026-04-21
+updated: 2026-04-22
 ---
 
 # Reforma Tributária
@@ -151,6 +151,6 @@ Até a data de emissão das DFs 2025, nenhuma empresa reconheceu ajustes contáb
 
 A Tenda destacou que a CBS começa a ser relevante a partir de 2027 e que empresas com alto grau de industrialização terão vantagem competitiva (fonte: full/tenda/4T25/release.md §mensagem_administração). No call de resultados 4T25, o CFO confirmou que a **maioria dos projetos da Tenda deve migrar ao IVA a partir de 2027** — posição distinta do consenso de mercado (que favorece permanência no RET). A estimativa interna é de ganho de margem de **~4 pp para Tenda** e **~5 pp para Alea** ao longo de toda a transição; em 2027, contudo, o benefício para a Tenda é quase nulo e para a Alea ~2,5 pp. Para o segmento faixa 1 (MCMV), o RET continua mais favorável — a faixa 1 tende a ganhar relevância no mix exatamente por isso (fonte: digested/tenda_call_transcript_4T25_summary.md).
 
-No Tenda Day 2025 (Investor Day), a administração reafirmou a visão estratégica de que reforma tributária + escassez de mão de obra favorecem o modelo industrializado. O benefício potencial estimado para a [[alea|Alea]] é de **~5 pp de margem** — a operação fabril toma mais crédito IVA que canteiros tradicionais. A Tenda também se beneficia pelo menor price point (redutor social de R$ 100 mil). A administração ressalvou que ainda há dúvida se o benefício será integralmente capturado pela incorporadora ou diluído ao longo da cadeia de fornecedores (fonte: digested/tenda_call_transcript_2025_summary.md).
+No Tenda Day 2025 (Investor Day), a administração reafirmou a visão estratégica de que reforma tributária + escassez de mão de obra favorecem o modelo industrializado. O benefício potencial estimado para a [[alea|Alea]] é de **~5 pp de margem** — a operação fabril toma mais crédito IVA que canteiros tradicionais. A Tenda também se beneficia pelo menor price point (redutor social de R$ 100 mil). A administração ressalvou que ainda há dúvida se o benefício será integralmente capturado pela incorporadora ou diluído ao longo da cadeia de fornecedores (fonte: digested/tenda_investor_day_2025_summary.md).
 
 A Cyrela utiliza patrimônio de afetação em todos os empreendimentos (fonte: digested/notion_cyrela_cyrela_follow_ups_pos_apresenta_o_50700ca3_summary.md), o que a coloca em posição de exercer a opção pelo RET transitório até 2029 — mas a decisão final dependerá de simulação projeto a projeto, dado o alto ticket médio e o volume de lançamentos que amplificam o descasamento de caixa no novo regime.

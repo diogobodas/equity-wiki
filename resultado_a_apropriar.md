@@ -10,8 +10,9 @@ sources:
   - sources/digested/cury_itr_3T25_summary.md
   - sources/digested/cyrela_dfp_2025_summary.md
   - sources/digested/cyrela_release_4T25_summary.md
+  - sources/digested/tenda_estouro_custos_2020_2022_analise_summary.md
 created: 2026-04-11
-updated: 2026-04-13
+updated: 2026-04-22
 ---
 
 # Resultado a apropriar (REF)
@@ -42,6 +43,31 @@ A **margem REF é a margem bruta que a empresa está contratando hoje**, antes d
 ## Ajustes comuns
 
 Muitas incorporadoras reportam **margem REF ajustada**, adicionando de volta encargos financeiros capitalizados (INCC sobre obras, juros de SFH) que em IFRS são levados ao custo. Sempre usar a versão ajustada para comparar ano contra ano e entre empresas.
+
+## Derivada da margem REF como early warning em choques de custo
+
+Em cenários de choque exógeno de insumos (INCC, aço, commodities energéticas), a **derivada trimestral da margem REF** é o sinal antecedente mais confiável de deterioração futura da DRE — geralmente **2–3 trimestres antes** de o estouro aparecer na margem bruta realizada, e até **8 trimestres antes** do fundo (ciclo obra 10–15 meses + lag de POC).
+
+**Caso de referência — Tenda (TEND3) 2020–2022**, único episódio documentado de estouro estrutural no setor MCMV:
+
+| Trimestre | Mg REF (ex-PE) | MB aj DRE | Sinal |
+|---|---:|---:|---|
+| 2T20 | 37,1% | — | Primeira identificação de pressão em aço/cimento pelo CEO; tese errada ("só afeta ciclo seguinte") |
+| 2T21 | 32,7% | — | VSO bruto pico **38,2%** drenou estoque "bom"; empresa continua lançando |
+| 3T21 | — (safra nova 27,7% vs antiga 17,9%) | 22,6% | Breakdown explicito de safras: inflexão qualitativa |
+| 4T21 | REF antigo 34,8%→**26%** | — | Clímax: troca de CFO + prejuízo R$ 268 mm + reforço de **R$ 350 mm** no REF. Modelo de orçamento passa a incluir inflação projetada |
+| 3T22 | — | **5,6%** | Fundo da DRE — ~8 trimestres após primeiro sinal |
+
+(fonte: digested/tenda_estouro_custos_2020_2022_analise_summary.md)
+
+**O que a curva REF da Tenda ensinou:**
+
+- A **derivada cai 1–2 p.p./trimestre** por vários trimestres antes do estouro aparecer na DRE. No caso Tenda, a Mg REF caiu de 37,1% (2T20) para 32,7% (2T21) — ~4,4 p.p. em 4 trimestres — enquanto a MB aj DRE ainda seguia estável acima de 30%. **Esse descolamento da derivada é o sinal.**
+- **VSO alto em período de input inflation é contraintuitivamente ruim**: Tenda usou VSO bruto de 38,2% como "vantagem competitiva" e acabou drenando o backlog precificado a custo antigo, deixando o estoque "ruim" (teto MCMV velho + custo novo) para reconhecer na DRE.
+- A **quebra do REF por safra** (novo vs antigo) é o divulgação-chave para detectar deterioração cedo — só apareceu na Tenda no 3T21 (safra nova 27,7% vs antiga 17,9%).
+- O **% do custo orçado provisionado para inflação** virou, pós-episódio, linha permanente na Tenda: ~0% antes → mínimo 4% a.a. → **11%** hoje. Empresas com este % baixo ou inexistente em contexto de input shock são candidatas naturais ao "2T20 da Tenda".
+
+Ver framework completo em [[playbook_input_shock]].
 
 ## Benchmarks recentes
 
@@ -77,4 +103,4 @@ Muitas incorporadoras reportam **margem REF ajustada**, adicionando de volta enc
 - **Efeito mix:** no curto prazo, a margem REF pode subir por efeito de mix de projetos (mais lançamentos Faixa 3/4 em vez de Faixa 1, por exemplo), sem refletir melhora de pricing power.
 - **Imune a distratos:** o cálculo é *ex-distratos*, então não captura o risco de deterioração de qualidade da carteira.
 
-Relacionado: [[vgv]], [[distrato]], [[direcional]], [[tenda]], [[cury]], [[cyrela]], [[incorporadoras]]
+Relacionado: [[vgv]], [[distrato]], [[direcional]], [[tenda]], [[cury]], [[cyrela]], [[incorporadoras]], [[playbook_input_shock]]

@@ -1,6 +1,6 @@
 # Construtora Tenda S.A. — Tenda Day 2025 (Investor Day)
 
-(fonte: sources/full/tenda/2025/call_transcript.md)
+(fonte: sources/full/tenda/2025/investor_day.md)
 
 **Abertura / tom geral.** Tom confiante celebrando turnaround concluído. Administração enfatiza que a empresa saiu "mais bonita" do COVID do que entrou. Participaram Renan (CEO), Luís/Rodrigo (CFO), Dani (institucional/governo), Martine (Leia), Cris (RH). Evento presencial no escritório da Tenda no centro de SP com transmissão online. [00:04]
 

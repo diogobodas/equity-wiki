@@ -1,9 +1,9 @@
 ---
 type: entity
 aliases: [Construtora Tenda, Tenda, TEND3, Alea]
-sources: [full/tenda/1T26/previa_operacional.md, structured/tenda/1T26/previa_operacional.json, full/tenda/data_pack_1T26.md, structured/tenda/{1T11..1T26}/data_pack.json, full/tenda/2025/dfp.md, structured/tenda/2025/dfp.json, full/tenda/2024/dfp.md, structured/tenda/2024/dfp.json, full/tenda/2023/dfp.md, structured/tenda/2023/dfp.json, full/tenda/1T25/itr.md, structured/tenda/1T25/itr.json, full/tenda/2T25/itr.md, structured/tenda/2T25/itr.json, full/tenda/3T25/itr.md, structured/tenda/3T25/itr.json, full/tenda/1T24/itr.md, structured/tenda/1T24/itr.json, full/tenda/2T24/itr.md, structured/tenda/2T24/itr.json, full/tenda/3T24/itr.md, structured/tenda/3T24/itr.json, full/tenda/1T25/release.md, structured/tenda/1T25/release.json, full/tenda/2T25/release.md, structured/tenda/2T25/release.json, full/tenda/3T25/release.md, structured/tenda/3T25/release.json, full/tenda/4T25/release.md, structured/tenda/4T25/release.json, full/tenda/4T23/release.md, structured/tenda/4T23/release.json, full/tenda/1T24/release.md, structured/tenda/1T24/release.json, full/tenda/2T24/release.md, structured/tenda/2T24/release.json, full/tenda/3T24/release.md, structured/tenda/3T24/release.json, full/tenda/4T24/release.md, structured/tenda/4T24/release.json, full/tenda/2T25/fato_relevante_904079.md, full/tenda/2T25/fato_relevante_907345.md, full/tenda/2T25/fato_relevante_913498.md, full/tenda/2T25/fato_relevante_913576.md, full/tenda/2T25/fato_relevante_914604.md, full/tenda/2T25/fato_relevante_917092.md, full/tenda/3T25/fato_relevante_930915.md, full/tenda/3T25/fato_relevante_930916.md, full/tenda/3T25/fato_relevante_934724.md, full/tenda/3T25/fato_relevante_934734.md, full/tenda/3T25/fato_relevante_952756.md, full/tenda/3T25/fato_relevante_952757.md, full/tenda/4T25/fato_relevante_963021.md, full/tenda/4T25/fato_relevante_979561.md, full/tenda/4T25/fato_relevante_981189.md, full/tenda/4T25/fato_relevante_983829.md, full/tenda/4T25/fato_relevante_986338.md, full/tenda/1T26/fato_relevante_1013789.md, full/tenda/2T26/fato_relevante_1025459.md, full/generic/notas/ceo_talks_osmo_tenda_27e00ca3.md, full/generic/notas/cury_cfo_tenda_28d00ca3.md, full/generic/notas/tenda_2f500ca3.md, full/generic/notas/tenda_cfo_19_11_2b000ca3.md, full/generic/notas/cyrela_call_cambauva_btg_1t26_33a00ca3.md, full/tenda/4T25/call_transcript.md, full/tenda/2T20/call_transcript.md, full/tenda/3T20/call_transcript.md, full/tenda/4T20/call_transcript.md, full/tenda/1T21/call_transcript.md, full/tenda/2T21/call_transcript.md, full/tenda/3T21/call_transcript.md, full/tenda/4T21/call_transcript.md, full/tenda/1T22/call_transcript.md, full/tenda/2T22/call_transcript.md, full/tenda/3T22/call_transcript.md, full/tenda/4T22/call_transcript.md, full/tenda/1T23/call_transcript.md, full/tenda/2T23/call_transcript.md, full/tenda/3T23/call_transcript.md, full/tenda/4T23/call_transcript.md, full/tenda/1T24/call_transcript.md, full/tenda/2T24/call_transcript.md, full/tenda/3T24/call_transcript.md, full/tenda/4T24/call_transcript.md, full/tenda/1T25/call_transcript.md, full/tenda/2T25/call_transcript.md, full/tenda/3T25/call_transcript.md, full/tenda/2025/call_transcript.md]
+sources: [full/tenda/1T26/previa_operacional.md, structured/tenda/1T26/previa_operacional.json, full/tenda/data_pack_1T26.md, structured/tenda/{1T11..1T26}/data_pack.json, full/tenda/2025/dfp.md, structured/tenda/2025/dfp.json, full/tenda/2024/dfp.md, structured/tenda/2024/dfp.json, full/tenda/2023/dfp.md, structured/tenda/2023/dfp.json, full/tenda/1T25/itr.md, structured/tenda/1T25/itr.json, full/tenda/2T25/itr.md, structured/tenda/2T25/itr.json, full/tenda/3T25/itr.md, structured/tenda/3T25/itr.json, full/tenda/1T24/itr.md, structured/tenda/1T24/itr.json, full/tenda/2T24/itr.md, structured/tenda/2T24/itr.json, full/tenda/3T24/itr.md, structured/tenda/3T24/itr.json, full/tenda/1T25/release.md, structured/tenda/1T25/release.json, full/tenda/2T25/release.md, structured/tenda/2T25/release.json, full/tenda/3T25/release.md, structured/tenda/3T25/release.json, full/tenda/4T25/release.md, structured/tenda/4T25/release.json, full/tenda/4T23/release.md, structured/tenda/4T23/release.json, full/tenda/1T24/release.md, structured/tenda/1T24/release.json, full/tenda/2T24/release.md, structured/tenda/2T24/release.json, full/tenda/3T24/release.md, structured/tenda/3T24/release.json, full/tenda/4T24/release.md, structured/tenda/4T24/release.json, full/tenda/2T25/fato_relevante_904079.md, full/tenda/2T25/fato_relevante_907345.md, full/tenda/2T25/fato_relevante_913498.md, full/tenda/2T25/fato_relevante_913576.md, full/tenda/2T25/fato_relevante_914604.md, full/tenda/2T25/fato_relevante_917092.md, full/tenda/3T25/fato_relevante_930915.md, full/tenda/3T25/fato_relevante_930916.md, full/tenda/3T25/fato_relevante_934724.md, full/tenda/3T25/fato_relevante_934734.md, full/tenda/3T25/fato_relevante_952756.md, full/tenda/3T25/fato_relevante_952757.md, full/tenda/4T25/fato_relevante_963021.md, full/tenda/4T25/fato_relevante_979561.md, full/tenda/4T25/fato_relevante_981189.md, full/tenda/4T25/fato_relevante_983829.md, full/tenda/4T25/fato_relevante_986338.md, full/tenda/1T26/fato_relevante_1013789.md, full/tenda/2T26/fato_relevante_1025459.md, full/generic/notas/ceo_talks_osmo_tenda_27e00ca3.md, full/generic/notas/cury_cfo_tenda_28d00ca3.md, full/generic/notas/tenda_2f500ca3.md, full/generic/notas/tenda_cfo_19_11_2b000ca3.md, full/generic/notas/cyrela_call_cambauva_btg_1t26_33a00ca3.md, full/generic/tenda_estouro_custos_2020_2022_analise.md, full/tenda/4T25/call_transcript.md, full/tenda/2T20/call_transcript.md, full/tenda/3T20/call_transcript.md, full/tenda/4T20/call_transcript.md, full/tenda/1T21/call_transcript.md, full/tenda/2T21/call_transcript.md, full/tenda/3T21/call_transcript.md, full/tenda/4T21/call_transcript.md, full/tenda/1T22/call_transcript.md, full/tenda/2T22/call_transcript.md, full/tenda/3T22/call_transcript.md, full/tenda/4T22/call_transcript.md, full/tenda/1T23/call_transcript.md, full/tenda/2T23/call_transcript.md, full/tenda/3T23/call_transcript.md, full/tenda/4T23/call_transcript.md, full/tenda/1T24/call_transcript.md, full/tenda/2T24/call_transcript.md, full/tenda/3T24/call_transcript.md, full/tenda/4T24/call_transcript.md, full/tenda/1T25/call_transcript.md, full/tenda/2T25/call_transcript.md, full/tenda/3T25/call_transcript.md, full/tenda/2025/investor_day.md]
 created: 2026-04-08
-updated: 2026-04-21
+updated: 2026-04-22
 ---
 
 # Tenda
@@ -235,11 +235,11 @@ O CFO reafirmou o guidance de lucro liquido consolidado em **R$ 360–400 mm** �
 
 ## Tenda Day 2025 — Investor Day
 
-Evento presencial no escritorio da Tenda em SP com transmissao online. Tom confiante celebrando turnaround concluido. Administracao enfatiza que a empresa saiu "mais bonita" do COVID do que entrou. Participantes: Renan (CEO), Luis/Rodrigo (CFO), Dani (institucional/governo), Martine (Leia), Cris (RH) (fonte: full/tenda/2025/call_transcript.md).
+Evento presencial no escritorio da Tenda em SP com transmissao online. Tom confiante celebrando turnaround concluido. Administracao enfatiza que a empresa saiu "mais bonita" do COVID do que entrou. Participantes: Renan (CEO), Luis/Rodrigo (CFO), Dani (institucional/governo), Martine (Leia), Cris (RH) (fonte: full/tenda/2025/investor_day.md).
 
 ### Recordes operacionais Tenda 2025
 
-- **20.000 apartamentos concretados em 2025** — recorde historico da companhia (antes era ~17-18 mil) (fonte: full/tenda/2025/call_transcript.md).
+- **20.000 apartamentos concretados em 2025** — recorde historico da companhia (antes era ~17-18 mil) (fonte: full/tenda/2025/investor_day.md).
 - Jogos de forma: de 25 para ~42 (produzia ~50 apts/dia → ~80 apts/dia).
 - Eficiencia de concretagem: 96% (pico pandemia foi 90%).
 - Atividades de acabamento em atraso: apenas 5% (no pico pandemia chegou a 65%).
@@ -249,7 +249,7 @@ Evento presencial no escritorio da Tenda em SP com transmissao online. Tom confi
 
 ### Destaques financeiros — Investor Day
 
-- Margem bruta (ex-Pode Entrar): ~36,5% — estabilizada em patamares saudaveis (fonte: full/tenda/2025/call_transcript.md).
+- Margem bruta (ex-Pode Entrar): ~36,5% — estabilizada em patamares saudaveis (fonte: full/tenda/2025/investor_day.md).
 - Margem bruta rasa da venda: ~32-33%.
 - ROCE LTM: 40% (meta era 30%; regime esperado ~45%).
 - Geracao de caixa operacional positiva todo trimestre desde 2023.
@@ -260,7 +260,7 @@ Evento presencial no escritorio da Tenda em SP com transmissao online. Tom confi
 
 ### Guidance 2026 — confirmado no Investor Day
 
-Mesmos numeros do release 4T25, com detalhes adicionais (fonte: full/tenda/2025/call_transcript.md):
+Mesmos numeros do release 4T25, com detalhes adicionais (fonte: full/tenda/2025/investor_day.md):
 
 - Vendas Tenda: R$ 5,0–5,5 bi
 - Margem bruta Tenda: ~36%
@@ -272,7 +272,7 @@ Mesmos numeros do release 4T25, com detalhes adicionais (fonte: full/tenda/2025/
 
 ### Alea — atualizacao do freio de arrumacao
 
-Detalhes adicionais do Investor Day (fonte: full/tenda/2025/call_transcript.md):
+Detalhes adicionais do Investor Day (fonte: full/tenda/2025/investor_day.md):
 
 - Producao 2025: ~1.800-1.900 unidades (meta era 4.000).
 - Problema central: dependencia de empreiteiros terceiros no acabamento; desistencia de 7 manchas → foco em apenas 3 (Ribeirao Preto, Bauru, Campinas).
@@ -284,7 +284,7 @@ Detalhes adicionais do Investor Day (fonte: full/tenda/2025/call_transcript.md):
 
 ### Escassez de mao de obra — risco estrutural
 
-Discussao extensa no Q&A do Investor Day (fonte: full/tenda/2025/call_transcript.md):
+Discussao extensa no Q&A do Investor Day (fonte: full/tenda/2025/investor_day.md):
 
 - **Crise estrutural**: idade media dos mestres em SP subiu de 40 para 46 anos em 8 anos. Jovens nao querem construcao civil.
 - Solucao da Tenda: industrializacao + imigrantes (520 contratados, turnover 30% menor).
@@ -292,31 +292,31 @@ Discussao extensa no Q&A do Investor Day (fonte: full/tenda/2025/call_transcript
 
 ### Reforma tributaria — impacto por segmento
 
-- Beneficio potencial de **~5 pp de margem para Leia** (operacao fabril toma mais credito IVA) (fonte: full/tenda/2025/call_transcript.md).
+- Beneficio potencial de **~5 pp de margem para Leia** (operacao fabril toma mais credito IVA) (fonte: full/tenda/2025/investor_day.md).
 - Tenda tambem se beneficia pelo menor price point (redutor social de R$ 100 mil).
 - Ainda ha duvida se beneficio sera integralmente capturado ou diluido na cadeia.
 
 ### Base de investidores e valuation
 
-- Base de investidores estrangeiros: apenas **20%** (peers tem >50%) (fonte: full/tenda/2025/call_transcript.md).
+- Base de investidores estrangeiros: apenas **20%** (peers tem >50%) (fonte: full/tenda/2025/investor_day.md).
 - Retomada de roadshows internacionais apos 5 anos.
 - Desconto de multiplo vs peers: 5,7x vs 9,1x — equalizacao implicaria upside de 60%.
 
 ### Aferica programada Caixa — nova regra
 
-Nova regra permite medir materiais na fabrica antes da montagem — antecipa recebimento em 50% do valor de materiais comprados. Ja em implementacao (fonte: full/tenda/2025/call_transcript.md).
+Nova regra permite medir materiais na fabrica antes da montagem — antecipa recebimento em 50% do valor de materiais comprados. Ja em implementacao (fonte: full/tenda/2025/investor_day.md).
 
 ### Penetracao Faixa 3
 
-Operando no "comecinho" do F3 (R$ 250-280 mil), sem competicao relevante. Mix de faixas no mesmo empreendimento reduz risco. Preco ~23% menor que concorrentes (fonte: full/tenda/2025/call_transcript.md).
+Operando no "comecinho" do F3 (R$ 250-280 mil), sem competicao relevante. Mix de faixas no mesmo empreendimento reduz risco. Preco ~23% menor que concorrentes (fonte: full/tenda/2025/investor_day.md).
 
 ### Decisao sobre continuar investindo na Alea
 
-Rodrigo (CFO): "Se mantiver consumo de R$ 50 mi/ano e visao estrategica se solidificando, continuo investindo. Se voltar a R$ 175 mi/ano, ai preciso repensar." Assimetria: investir R$ 50 mi para potencial de capturar R$ 1-2 bi/ano no futuro (fonte: full/tenda/2025/call_transcript.md).
+Rodrigo (CFO): "Se mantiver consumo de R$ 50 mi/ano e visao estrategica se solidificando, continuo investindo. Se voltar a R$ 175 mi/ano, ai preciso repensar." Assimetria: investir R$ 50 mi para potencial de capturar R$ 1-2 bi/ano no futuro (fonte: full/tenda/2025/investor_day.md).
 
 ### Riscos adicionais levantados no Investor Day
 
-- Ganho de preco com atributos e premissa nova — precisa continuar validando (fonte: full/tenda/2025/call_transcript.md).
+- Ganho de preco com atributos e premissa nova — precisa continuar validando (fonte: full/tenda/2025/investor_day.md).
 - Orcamento FGTS pode pressionar alguma faixa no futuro.
 - Alea ainda volatil; verticalizacao pode encontrar obstaculos nao previstos.
 - Despesa financeira alta (Selic 15% + alavancagem) comprime margem liquida vs peers.
@@ -456,6 +456,51 @@ Fontes: `structured/tenda/{ano}/data_pack.json :: canonical.dre` e `canonical.fi
 5. **2025 — turnaround completo.** Receita R$ 4,17 bi (+27% A/A), margem bruta 30% (nível 2020), EBITDA ajustado R$ 686 mm (+43%), **lucro líquido R$ 505 mm, ROE LTM 47%**, ROCE LTM 36%. Dívida líquida sobe levemente para R$ 266 mm mas relativamente baixa contra PL de R$ 1,2 bi.
 
 **Implicação para modelagem:** qualquer série histórica pré-2024 é de uma Tenda *estruturalmente diferente* em margem e rentabilidade. Séries de múltiplos históricos são enganosas quando incluem 2021-2023. A base de comparação honesta para premissas forward começa em 2024/2025.
+
+## Anatomia do estouro de custos 2020-2022 — cronologia, mecânica e lições
+
+Síntese analítica cruzando call transcripts 2T20–1T23 com data_pack estruturado 1T20–4T23 (fonte: full/generic/tenda_estouro_custos_2020_2022_analise.md). Documenta o mecanismo pelo qual um choque de INCC em incorporadora MCMV atravessou ~8 trimestres entre o primeiro sinal (3T20) e o fundo da DRE (3T22), e codifica as mudanças permanentes no modelo operacional pós-crise.
+
+### Cronologia em 6 marcos
+
+1. **2T20 — tese errada ancorada.** Renan (então CFO) identifica pressão em aço/cimento mas considera contida: *"fechamos contrato no início da obra, afeta o próximo ciclo"*. Margem REF 37,1%, caixa líquido (DL/PL −16,9% no 3T20) (fonte: full/generic/tenda_estouro_custos_2020_2022_analise.md §cronologia).
+2. **3T20–4T20 — reconhecimento e antecipação.** Management reconhece o dilema (custo sobe, teto MCMV engessa repasse) e **antecipa obras queimando ~R$ 54 mm de caixa** para travar custo antigo. Primeira resposta operacional ao choque.
+3. **1T21–2T21 — fase de dominância competitiva.** Não reduz lançamentos; usa VSO elevado (pico bruto **38,2% no 2T21**) como vantagem. Resultado perverso: vende estoque "bom" (com preço antigo antes do teto subir) cedo, deixando backlog com teto antigo + custo novo. Margem REF cai para 32,7%.
+4. **3T21 — inflexão qualitativa.** Pela primeira vez a empresa divulga **quebra safra nova (27,7%) vs antiga (17,9%)** na margem bruta ajustada — sinalização explícita de que o problema não é pontual. MB ajustada consolidada desaba para 22,6%.
+5. **4T21 — clímax contábil (tríade seminal).** Três eventos simultâneos no mesmo trimestre: (i) **troca de CFO** (Renan → Marcos Pinheiro); (ii) **prejuízo de R$ 268,5 mm** no trimestre; (iii) **reforço de R$ 350 mm no [[resultado_a_apropriar|resultado a apropriar]]** com breakdown inédito publicamente — R$ 73 mm (matéria-prima realizada) + R$ 89 mm (inflação **projetada** — mudança de modelo de orçamento) + R$ 85 mm (contratos de verba) + R$ 103 mm (perda de produtividade). Margem REF das vendas antigas colapsou de 34,8% para 26% (fonte: full/generic/tenda_estouro_custos_2020_2022_analise.md §4T21).
+6. **1T22–3T22 — vale da DRE.** MB ajustada 20,6% → 16,3% → **5,6%**. DL/PL salta de 92,7% (3T22) para **111,5% (4T22)** — virada completa desde os −16,9% no 3T20. Prejuízo líquido anual 2022 de **R$ 547 mm**. Recuperação só se materializa no lucro em 2024 (+R$ 106 mm) (fonte: structured/tenda/2022/data_pack.json :: canonical.financeiro_ajustado).
+
+### Diagnóstico estrutural — por que a Tenda sofreu mais que peers
+
+O choque de INCC afetou toda a cadeia de incorporadoras em 2021–2022, mas a Tenda teve magnitude desproporcional. Causas estruturais (fonte: full/generic/tenda_estouro_custos_2020_2022_analise.md §diagnostico):
+
+- **Teto de preço MCMV é rígido.** Elasticidade preço-volume estimada em ~1:15 no segmento — repasse de custo via preço simplesmente não existia na janela relevante. [[cury|Cury]] e [[direcional|Direcional]] também operavam MCMV mas com mix de faixas mais alto e exposição parcial a SBPE/médio padrão, onde o preço acompanha custo.
+- **VSO alto drenou estoque "bom" cedo.** A dominância comercial da Tenda (market share >80% no segmento Mestre em 4 regiões) virou armadilha: vendeu rápido o estoque com custo antigo preservado, ficando com backlog exposto ao custo novo sob teto antigo.
+- **Ciclo longo amplifica o dano na DRE.** Obra MCMV dura 10–15 meses; [[resultado_a_apropriar|REF]] antecipa a queima da DRE em 2–3 trimestres. O gap de ~8 trimestres entre o primeiro sinal (3T20) e o fundo da DRE (3T22) reflete essa dinâmica.
+- **Modelo de orçamento sem provisão de inflação.** Pré-crise, a linha de "inflação projetada" simplesmente **não existia** no orçamento de obra. Orçamento bottom-up somava materiais + serviços nominais, ignorando drift inflacionário do ciclo.
+- **Gatilho de alavancagem triplo.** Caixa líquido (3T20) virou DL/PL 111% (4T22) via três forças: (i) antecipação voluntária de obras; (ii) mudança de modelo da Caixa no repasse (registro em cartório antes do crédito, lag de 3 meses); (iii) pró-soluto subindo de ~5% para ~11% da carteira; (iv) prejuízos reduzindo o PL — pior denominador.
+
+### Mudanças estruturais permanentes pós-4T21
+
+O reforço de R$ 350 mm no REF em 4T21 foi acompanhado de mudanças **permanentes** no modelo operacional, não apenas contábeis. Esses controles seguem em vigor em 2025–2026 (fonte: full/generic/tenda_estouro_custos_2020_2022_analise.md §mudancas_permanentes; full/tenda/2025/investor_day.md §custos):
+
+- **Inflação projetada entrou no orçamento.** Piso mínimo de **4% a.a.** para toda obra; a provisão total para inflação + eventuais é hoje de **~11% do orçamento de obra** (confirmado pelo CEO no Investor Day 2025).
+- **Contratos "por verba" desmembrados.** Antes, lotes grandes de serviços eram contratados como um único pacote (infraestrutura, fundação) — exposição consolidada sem decomposição. Agora, quebrados em materiais + serviços separadamente para rastreabilidade e repactuação.
+- **Janela de referência encurtada.** Orçamento passa a se basear nas obras em execução *agora*, não na média das 3 obras passadas. Reduz lag entre custo real e premissa.
+- **Engenharia digital completa.** 100% BIM + forecast mensal por obra + hedges parciais de insumos críticos + securitização recorrente de recebíveis.
+
+### Playbook de monitoramento — 6 early-warning indicators
+
+O caso Tenda serve como referência para identificar incorporadoras (ou qualquer negócio com backlog longo + repasse restrito) vulneráveis a choque de insumos. Indicadores-chave a monitorar em pares do setor (fonte: full/generic/tenda_estouro_custos_2020_2022_analise.md §playbook):
+
+1. **Margem backlog vs margem realizada descolando** — derivada caindo 1–2 pp por trimestre é sinal adiantado (3T20 → 4T21 na Tenda).
+2. **VSO alto em período de input inflation** — contraintuitivamente, é armadilha: drena o estoque com preço antigo.
+3. **Backlog longo com preço fixo não indexado** — restrição regulatória de preço (MCMV) ou contratual amplifica.
+4. **Alavancagem migrando de caixa líquido para DL/PL >1x** sem ter feito M&A ou grande capex — denominador colapsando.
+5. **% do custo orçado provisionado para inflação** — hoje a Tenda usa 11%; pré-crise era ~0%.
+6. **Troca de CFO + reestruturação contábil grande no mesmo trimestre** — coincidente, não causal; confirma que o mercado foi pego surpreso.
+
+**Implicação para modelagem de pares:** o framework é aplicado na análise de exposição de outras incorporadoras a choques de insumos futuros (ex.: [[section_232|tarifas metais]], petróleo). Ver [[cury]], [[direcional]], [[cyrela]] — mesma janela 2020–2022, mas cada uma com mix diferente e magnitude de impacto distinta.
 
 ## Perspectiva das calls (2T20–3T25) — narrativa qualitativa do colapso e turnaround
 
@@ -708,6 +753,9 @@ Fontes Notion digeridas:
 - **Reuniao com management/IR (jan-mar/2026)** — MCMV/cheques regionais, Ceara, atrasos de obra (elevadores/Enel), crescimento, Alea breakeven.
 - **Call BTG Cambauva (abr/2026)** — expectativas sell-side para 1T26; Tenda classificada como "Cara melhor".
 - **Call de resultados 4T25** — conferencia com analistas; destaques operacionais, guidance 2026 commentary, Q&A com BTG, BOFA, UBS, Santander, XP, Itau, Safra, Citibank e J.P. Morgan.
+
+Notas analíticas internas digeridas:
+- **Estouro de custos 2020–2022 — cronologia, mecânica e playbook** (research interno, abr/2026) — reconstrói o choque de INCC em 6 marcos, diagnóstico estrutural (por que Tenda sofreu mais que peers), mudanças permanentes pós-4T21 e framework de 6 early-warning indicators aplicável a outros setores com input-shock.
 
 Ainda faltam:
 - **Release completo do 1T26** (MD&A, release narrativo — o data pack nao cobre o 1T26 financeiro porque o release fechado ainda nao saiu).

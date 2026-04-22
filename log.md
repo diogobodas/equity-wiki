@@ -958,3 +958,8 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 2026-04-21 — ingest call_transcript 2025: sources/full/tenda/2025/call_transcript.md, sources/digested/tenda_call_transcript_2025_summary.md
 [wiki-queue] 2026-04-21 | tenda | call_transcript | 2025 | sources/digested/tenda_call_transcript_2025_summary.md
 [wiki-done] 2026-04-21 | batch_20260421_190836
+[wiki-queue] 2026-04-22 | generic | other | Bernstein Machinery & Electricals The Section 232 metals tariff c | sources/digested/Bernstein Machinery & Electricals The Section 232 metals tariff c_summary.md
+[wiki-done] 2026-04-22 | batch_20260422_101115
+[edit] 2026-04-22 — rename tenda call_transcript/2025 → investor_day/2025 (Tenda Day 2025); updated full, digested, manifest sources[], tenda.md, reforma_tributaria.md
+[wiki-queue] 2026-04-22 | generic | other | tenda_estouro_custos_2020_2022_analise | sources/digested/tenda_estouro_custos_2020_2022_analise_summary.md
+[wiki-done] 2026-04-22 | batch_20260422_110057

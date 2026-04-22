@@ -1,5 +1,5 @@
 ---
-type: call_transcript
+type: investor_day
 ticker: TEND3
 empresa: tenda
 periodo: 2025
