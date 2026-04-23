@@ -1,0 +1,230 @@
+{
+  "_schema": "manifest/v1",
+  "_updated": "2026-04-22",
+  "empresa": "porto",
+  "display_name": "Porto Seguro S.A.",
+  "aliases": [
+    "Porto",
+    "Porto Seguro",
+    "PSSA3"
+  ],
+  "ticker": "PSSA3",
+  "setor": "seguradora",
+  "wiki_page": "porto_seguro.md",
+  "sources": [
+    {
+      "type": "release",
+      "asof": "4T25",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/4T25/release.md",
+      "structured": [
+        "sources/structured/porto/4T25/release.json"
+      ],
+      "digested": "sources/digested/porto_release_4T25_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T25",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/1T25/fato_relevante_859709.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T25",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/1T25/fato_relevante_859724.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/1T26/fato_relevante_1016298.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/1T26/fato_relevante_1018154.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/1T26/fato_relevante_998030.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/1T26/fato_relevante_998121.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/1T26/fato_relevante_PSSA3_1T26_previa_operacional_1003567_extracted.md.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/1T26/fato_relevante_PSSA3_1T26_previa_operacional_1015167_extracted.md.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/1T26/fato_relevante_PSSA3_1T26_previa_operacional_1016297_extracted.md.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/1T26/fato_relevante_PSSA3_1T26_previa_operacional_1018255_extracted.md.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/1T26/fato_relevante_PSSA3_1T26_previa_operacional_988430_extracted.md.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/1T26/fato_relevante_PSSA3_1T26_previa_operacional_992950_extracted.md.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/1T26/fato_relevante_PSSA3_1T26_previa_operacional_998123_extracted.md.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T26",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/2T26/fato_relevante_1029267.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T26",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/2T26/fato_relevante_PSSA3_2T26_previa_operacional_1028965_extracted.md.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "3T25",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/3T25/fato_relevante_937067.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T25",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/4T25/fato_relevante_963148.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T25",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/4T25/fato_relevante_967980.md",
+      "digested": "sources/digested/porto_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "unknown",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/other/PSSA3_1T25_call_transcript.md",
+      "digested": "sources/digested/porto_other_PSSA3_1T25_call_transcript_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "unknown",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/other/PSSA3_2T25_call_transcript.md",
+      "digested": "sources/digested/porto_other_PSSA3_2T25_call_transcript_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "unknown",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/other/PSSA3_3T25_call_transcript.md",
+      "digested": "sources/digested/porto_other_PSSA3_3T25_call_transcript_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "unknown",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/other/PSSA3_4T25_call_transcript.md",
+      "digested": "sources/digested/porto_other_PSSA3_4T25_call_transcript_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "unknown",
+      "ingested_on": "2026-04-22",
+      "full": "sources/full/porto/other/PSSA3_4T25_data_pack.md",
+      "digested": "sources/digested/porto_other_PSSA3_4T25_data_pack_summary.md"
+    }
+  ],
+  "coverage": {
+    "4T25": {
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/porto/4T25/release.json"
+      }
+    }
+  },
+  "fetch_profile": {
+    "_created": "2026-04-22",
+    "_sample_period": "4T25",
+    "categories": {
+      "release_resultado_pt": {
+        "action": "include",
+        "description": "Divulgação de Resultados trimestral em PT-BR (earnings release/deck)",
+        "sample_files": [
+          "PSSA3_4T25_release_999062.pdf"
+        ]
+      },
+      "demonstracoes_financeiras_pt": {
+        "action": "include",
+        "description": "Demonstrações Financeiras completas PT-BR com notas explicativas",
+        "sample_files": [
+          "PSSA3_4T25_release_998725.pdf"
+        ]
+      },
+      "demonstracoes_financeiras_en": {
+        "action": "exclude",
+        "description": "Financial statements EN — tradução duplicada do PT",
+        "sample_files": [
+          "PSSA3_4T25_release_1002037.pdf"
+        ]
+      },
+      "fato_relevante": {
+        "action": "include",
+        "description": "Fatos relevantes (guidance update, M&A, governança)",
+        "sample_files": [
+          "PSSA3_4T25_fato_relevante_967980.pdf",
+          "PSSA3_4T25_fato_relevante_963148.pdf"
+        ]
+      }
+    }
+  }
+}

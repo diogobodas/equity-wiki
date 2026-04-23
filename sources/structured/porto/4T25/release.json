@@ -1,0 +1,463 @@
+{
+  "_schema": "seguradora/v1",
+  "_schema_path": "sources/structured/_schemas/seguradora.json",
+  "_empresa": "porto",
+  "_periodo": "4T25",
+  "_source": "sources/full/porto/4T25/release.md",
+  "_notes": "Release gerencial 4T25 Porto Seguro S.A. (encerramento do exercício 2025 — 80 anos da companhia). canonical.dre preenchida da DRE Societária IFRS 17 (pág. 37); BP em 31/12/2025 (pág. 36); financeiro_ajustado e segmentos da DRE Gerencial Ex-IFRS 17 (págs. 5 e 34). Taxa efetiva de IR excepcionalmente baixa no trimestre (14,1%) por benefícios fiscais não recorrentes: distribuição de JCP da Porto Saúde (+R$ 123,2 mm) e incorporação Porto Assistência/CDF pela Porto Serviço (+R$ 30 mm).",
+  "canonical": {
+    "operacional": {
+      "premios": {
+        "premio_retido_total": 8033.9,
+        "premio_ganho_total": 7783.7,
+        "premio_retido_seguros": 5776.4,
+        "premio_ganho_seguros": 5593.6,
+        "premio_retido_saude": 2245.5,
+        "premio_ganho_saude": 2176.8,
+        "crescimento_premio_retido_yoy_pct": 8.2
+      },
+      "sinistralidade": {
+        "sinistros_liquidos_retidos": -4494.8,
+        "indice_sinistralidade_pct": 57.7,
+        "indice_sinistralidade_seguros_pct": 51.4,
+        "indice_sinistralidade_saude_pct": 74.9
+      },
+      "indice_combinado": {
+        "indice_combinado_total_pct": null,
+        "indice_combinado_seguros_pct": 89.5,
+        "indice_combinado_saude_pct": 88.5,
+        "indice_combinado_auto_pct": null
+      },
+      "clientes": {
+        "total_clientes_grupo": 18600000,
+        "beneficiarios_seguro_saude": 831000,
+        "beneficiarios_odonto": 1184000,
+        "frota_segurada_auto": 6232800,
+        "apolices_patrimonial": 4507300,
+        "apolices_vida": 6077400
+      },
+      "bank": {
+        "carteira_credito_total": 23515.0,
+        "carteira_credito_liquida": null,
+        "provisao_pdd": -2206.0,
+        "provisao_sobre_carteira_pct": 9.7,
+        "inadimplencia_90d_pct": 7.3,
+        "receita_bank": 1797.6,
+        "cartao_operacoes": 20485.0,
+        "financiamentos": 3030.0
+      },
+      "servicos": {
+        "receita_servicos": 662.9,
+        "n_atendimentos": 1407000,
+        "pct_receita_b2c_parcerias": 25.1
+      },
+      "corretores_rede": {
+        "n_corretores_ativos": 47900,
+        "n_sucursais": null
+      }
+    },
+    "dre": {
+      "receita_total": 10780.8,
+      "receita_seguros": 8585.7,
+      "receita_operacoes_credito": 1258.7,
+      "receita_prestacao_servicos": 766.4,
+      "receita_titulos_capitalizacao": 31.2,
+      "resultado_bruto": null,
+      "despesas_receitas_operacionais": null,
+      "despesas_gerais_administrativas": -1544.3,
+      "despesas_administrativas": -1544.3,
+      "despesas_com_tributos": -356.0,
+      "outras_receitas_operacionais": 119.8,
+      "outras_despesas_operacionais": -1371.0,
+      "custos_aquisicao": -105.7,
+      "despesas_seguro": -6671.8,
+      "despesas_resseguro": -18.6,
+      "equivalencia_patrimonial": 18.9,
+      "resultado_operacional": 620.4,
+      "receita_financeira": 507.9,
+      "despesa_financeira": -167.7,
+      "resultado_financeiro": 340.2,
+      "lucro_antes_ir": 960.6,
+      "ir_corrente": 556.0,
+      "ir_diferido": -670.4,
+      "ir_csll": -114.4,
+      "lucro_operacoes_continuadas": 846.3,
+      "participacao_minoritarios": -7.6,
+      "lucro_liquido_controladores": 838.7,
+      "lucro_liquido_consolidado": 846.3,
+      "lpa_basico": null,
+      "lpa_diluido": null
+    },
+    "bp": {
+      "ativo_circulante": 33320.3,
+      "caixa_equivalentes": 1897.9,
+      "aplicacoes_financeiras_c": 10536.8,
+      "contas_receber_clientes_c": 718.3,
+      "emprestimos_financiamentos_bank": 16654.6,
+      "tributos_a_recuperar": 959.3,
+      "outros_ativos_c": 2553.4,
+      "ativo_nao_circulante": 22544.7,
+      "aplicacoes_vjr_nc": 2.9,
+      "aplicacoes_vjora_nc": 1966.7,
+      "aplicacoes_custo_amortizado_nc": 9198.0,
+      "contas_receber_nc": 1052.1,
+      "tributos_diferidos_a": 1378.3,
+      "depositos_judiciais": 1511.3,
+      "investimentos": 533.6,
+      "imobilizado": 936.3,
+      "intangivel": 3911.8,
+      "ativo_total": 55865.0,
+      "passivo_circulante": 26585.5,
+      "passivos_contrato_seguro_c": 6112.5,
+      "passivos_financeiros_c": 15630.7,
+      "obrigacoes_fiscais": 654.4,
+      "dividendos_jcp_pagar": 731.3,
+      "outros_passivos_c": 3456.6,
+      "passivo_nao_circulante": 13408.3,
+      "passivos_contrato_seguro_nc": 4894.6,
+      "passivos_financeiros_nc": 5600.5,
+      "tributos_diferidos_p": 692.3,
+      "provisoes_judiciais": 1420.8,
+      "outros_passivos_nc": 800.1,
+      "patrimonio_liquido_total": 15871.2,
+      "capital_social": 8500.0,
+      "reservas_capital": 770.0,
+      "reservas_lucros": 5975.8,
+      "outros_resultados_abrangentes": -61.7,
+      "acoes_tesouraria": -328.7,
+      "participacao_minoritarios_bp": 130.0,
+      "passivo_pl_total": 55865.0
+    },
+    "financeiro_ajustado": {
+      "lucro_liquido_ex_ifrs17": 832.2,
+      "ajuste_ifrs17": 6.5,
+      "lucro_liquido_societario": 838.7,
+      "roae_pct": 22.5,
+      "roae_12m_pct": 22.7,
+      "patrimonio_liquido_medio": 14896.0,
+      "taxa_efetiva_ir_pct": 14.1,
+      "indice_eficiencia_pct": 11.5,
+      "receita_aplicacoes_financeiras": 472.9,
+      "rentabilidade_carteira_pct_cdi": 79.3,
+      "resultado_financeiro_liquido": 288.7,
+      "participacao_nos_resultados": -307.7,
+      "segmentos": {
+        "seguro": {
+          "premio_retido": 5776.4,
+          "premio_ganho": 5593.6,
+          "sinistros_liquidos": -2877.8,
+          "despesa_comercializacao": -1387.6,
+          "resultado_operacional": 585.1,
+          "resultado_financeiro": 284.3,
+          "lair": 866.3,
+          "lucro_liquido": 459.1,
+          "indice_combinado_pct": 89.5
+        },
+        "saude": {
+          "premio_retido": 2245.5,
+          "premio_ganho": 2176.8,
+          "sinistros_liquidos": -1600.7,
+          "despesa_comercializacao": -171.4,
+          "resultado_operacional": 256.9,
+          "lucro_liquido": 169.7,
+          "indice_combinado_pct": 88.5
+        },
+        "bank": {
+          "receitas_nao_seguros": 1797.6,
+          "perdas_credito": -687.2,
+          "despesa_comercializacao": 72.0,
+          "resultado_operacional": 394.7,
+          "lucro_liquido": 219.4,
+          "inadimplencia_90d_pct": 7.3
+        },
+        "servico": {
+          "receita": 662.9,
+          "despesas_operacionais": -408.2,
+          "lucro_liquido": 83.5,
+          "n_atendimentos": 1407000
+        },
+        "demais": {
+          "receita": 91.8,
+          "lucro_liquido": -93.1
+        }
+      }
+    }
+  },
+  "company_specific": {
+    "_descricao": "Métricas idiossincráticas da Porto 4T25: breakdown por produto na vertical Seguro, detalhes Bank (cartão/consórcio/capitalização/fiança), capital regulatório, projeções 2026, ações de marca.",
+    "seguro_produtos_4T25": {
+      "auto": {
+        "premio_emitido": 4168.3,
+        "premio_ganho": 4061.9,
+        "sinistralidade_pct": 57.7,
+        "frota_segurada_mil": 6232.8,
+        "participacao_mercado_pct_11M25": 26.2
+      },
+      "patrimonial": {
+        "premio_emitido": 1014.7,
+        "premio_ganho": 873.0,
+        "sinistralidade_pct": 34.6,
+        "itens_mil": 4507.3,
+        "participacao_mercado_residencial_pct_11M25": 20.5,
+        "participacao_mercado_empresarial_pct_11M25": 25.2
+      },
+      "vida": {
+        "premio_emitido": 457.0,
+        "premio_ganho": 463.5,
+        "sinistralidade_pct": 37.1,
+        "vidas_mil": 6077.4,
+        "participacao_mercado_pct_11M25": 2.4
+      },
+      "uruguay_seguros": {
+        "premio_emitido": 211.5,
+        "premio_ganho": 195.2,
+        "sinistralidade_pct": 30.8,
+        "receita_servicos": 10.9
+      },
+      "resseguro": -75.1
+    },
+    "saude_detalhe": {
+      "seguro_saude_premios_emitidos": 2171.9,
+      "seguro_saude_beneficiarios_mil": 831,
+      "odonto_premios_emitidos": 73.6,
+      "odonto_beneficiarios_mil": 1184,
+      "outros_receitas": 40.2,
+      "outros_clientes_mil": 142,
+      "sinistralidade_saude_odonto_pct": 73.5,
+      "icA_saude_pct": 85.9
+    },
+    "bank_detalhe": {
+      "receita_total_ajustada": 2074.0,
+      "receita_total_ajustada_var_yoy_pct": 30.9,
+      "indice_eficiencia_pct": 32.2,
+      "nim_ajustado_risco_pct": 3.0,
+      "arpac_mensal": 160.4,
+      "cartao_credito": {
+        "carteira_mm": 20500.0,
+        "cartoes_mil": 3855.1,
+        "tpv_bi": 18.5,
+        "transacoes_mm": 90.3,
+        "receita_total": 1264.0
+      },
+      "emprestimos_financiamentos": {
+        "receita_total": 181.1,
+        "liberacao_credito_4T25": 687.0,
+        "carteira_mm": 3100.0
+      },
+      "consorcio": {
+        "receita_ajustada": 484.0,
+        "receita_reportada": 208.0,
+        "carteira_administrada_bi": 107.3,
+        "negocios_ativos_mil": 543.3
+      },
+      "riscos_financeiros": {
+        "receitas_financeiras_liquidas": 267.7,
+        "premio_ganho": 255.6,
+        "contratos_mil": 359.4,
+        "perda_credito_pct": 32.7
+      },
+      "capitalizacao": {
+        "receita_total": 53.6,
+        "receita_fee_based": 31.0,
+        "titulos_vigentes_mil": 108.1,
+        "arrecadacao": 464.5,
+        "carteira_bi": 2.44
+      },
+      "previdencia": {
+        "ativos_sob_gestao_bi": 6.33,
+        "participantes_ativos_mil": null,
+        "_nota": "A partir do 1T25 previdência migrou para Vertical Porto Bank"
+      }
+    },
+    "servico_detalhe": {
+      "parceria_porto_seguro_receita": 496.8,
+      "parceria_porto_seguro_negocios_mil": 1096.0,
+      "parcerias_estrategicas_receita": 159.9,
+      "parcerias_estrategicas_negocios_mil": 5536.6,
+      "produtos_digitais_receita": 6.3,
+      "produtos_digitais_negocios_mil": 11.6,
+      "produtos_digitais_crescimento_yoy_pct": 37.7,
+      "produtos_digitais_crescimento_2025_pct": 72.7,
+      "ebitda": 108.2,
+      "margem_ebitda_pct": 16.3,
+      "nps_servicos": 81
+    },
+    "financeiro_detalhe_4T25": {
+      "receita_recursos_geridos_tesouraria": 472.9,
+      "impacto_alm_previdencia_rolagem": -136.9,
+      "receita_total_aplicacoes": 336.0,
+      "resultado_aplicacoes_bank_nao_geridos": -78.3,
+      "resultado_aplicacoes_financeiras": 257.7,
+      "adicional_fracionamento": 39.5,
+      "juros_emprestimos": -13.6,
+      "outros_resultados": 5.2,
+      "resultado_financeiro_total": 288.7,
+      "carteira_investimentos_bi": 23.4,
+      "carteira_investimentos_ex_prev_bi": 17.2,
+      "rentabilidade_carteira_total_pct_cdi": 56.4,
+      "rentabilidade_carteira_ex_prev_pct_cdi": 79.3,
+      "rolagem_titulos_4T25": -109.4,
+      "composicao_carteira_pct": {
+        "pos_fixado": 38,
+        "inflacao_juro_real": 35,
+        "pre_fixado": 4,
+        "credito_privado": 19,
+        "acoes": 4
+      }
+    },
+    "capital_regulatorio": {
+      "pla_total": 11890.0,
+      "necessidade_capital": 7935.0,
+      "suficiencia_capital": 3955.0,
+      "seguradoras_pla": 6490.0,
+      "seguradoras_necessidade": 921.0,
+      "seguradoras_suficiencia": 5569.0,
+      "financeiras_pla": 2940.0,
+      "financeiras_necessidade": 2460.0,
+      "financeiras_suficiencia": 480.0,
+      "holding_pla": 2460.0,
+      "holding_necessidade": 2366.0,
+      "holding_suficiencia": 94.0,
+      "_nota": "Chart extraction de PLA por unidade é ambígua pela diagramação da pág. 29; totais (11.890 / 7.935 / 3.955) são confiáveis. Breakdown por unidade pode ter pequenas imprecisões."
+    },
+    "capex_anual": {
+      "2021": 363,
+      "2022": 367,
+      "2023": 421,
+      "2024": 470,
+      "2025": 543
+    },
+    "projecoes_2025_realizado": {
+      "seguro_var_premio_ganho_range": "+2% a +5%",
+      "seguro_var_premio_ganho_realizado_pct": 3.0,
+      "seguro_sinistralidade_range": "51% a 55%",
+      "seguro_sinistralidade_realizado_pct": 52.0,
+      "seguro_indice_ga_range": "10,0% a 10,5%",
+      "seguro_indice_ga_realizado_pct": 10.3,
+      "saude_var_premio_ganho_range": "+25% a +40%",
+      "saude_var_premio_ganho_realizado_pct": 29.0,
+      "saude_sinistralidade_range": "73% a 78%",
+      "saude_sinistralidade_realizado_pct": 75.0,
+      "saude_indice_ga_range": "4,5% a 5,5%",
+      "saude_indice_ga_realizado_pct": 5.0,
+      "bank_receita_range": "+20% a +28%",
+      "bank_receita_realizado_pct": 25.0,
+      "bank_perdas_credito_range": "-2,0 a -2,3 bi",
+      "bank_perdas_credito_realizado_bi": -2.3,
+      "bank_indice_eficiencia_range": "32% a 34%",
+      "bank_indice_eficiencia_realizado_pct": 33.0,
+      "servico_receita_range": "2,4 a 2,6 bi",
+      "servico_receita_realizado_bi": 2.6,
+      "servico_indice_ga_range": "7,5% a 8,5%",
+      "servico_indice_ga_realizado_pct": 7.4,
+      "financeiro_range": "1,2 a 1,4 bi",
+      "financeiro_realizado_bi": 1.4,
+      "taxa_efetiva_range": "28% a 32%",
+      "taxa_efetiva_realizado_pct": 27.0
+    },
+    "projecoes_2026": {
+      "seguro_var_premio_ganho_range": "+3% a +7%",
+      "seguro_sinistralidade_range": "50,5% a 54,5%",
+      "seguro_indice_ga_range": "10,0% a 10,6%",
+      "saude_var_premio_ganho_range": "+14% a +22%",
+      "saude_sinistralidade_range": "72% a 77%",
+      "saude_indice_ga_range": "4,7% a 5,7%",
+      "bank_receita_range_bi": "7,5 a 7,9",
+      "bank_perdas_credito_range_bi": "-2,7 a -3,1",
+      "bank_indice_eficiencia_novo_range": "27% a 31%",
+      "servico_receita_range_bi": "2,6 a 2,9",
+      "servico_indice_ga_range": "9% a 10%",
+      "financeiro_range_bi": "1,4 a 1,8",
+      "taxa_efetiva_range": "28% a 32%",
+      "_nota_bank": "Novo cálculo do Índice de Eficiência (despesas líquidas de Rewards/bandeiras); receita líquida de despesas com Rewards/bandeiras em 2026"
+    },
+    "acumulado_2025": {
+      "receita_total": 41083.2,
+      "receita_total_ajustada_bi": 41.4,
+      "lucro_liquido": 3380.9,
+      "lucro_liquido_ex_ifrs17": 3357.2,
+      "lucro_liquido_var_yoy_pct": 27.8,
+      "roae_pct": 22.7,
+      "indice_eficiencia_pct": 11.0,
+      "indice_eficiencia_ajustado_pct": 10.9,
+      "premio_retido": 30596.1,
+      "premio_ganho": 30044.7,
+      "receitas_nao_seguros": 10487.2,
+      "sinistros_liquidos": -17427.6,
+      "perdas_credito": -2305.3,
+      "despesa_comercializacao": -6955.1,
+      "despesas_tributos": -1413.0,
+      "despesas_operacionais": -3490.0,
+      "despesas_administrativas": -4525.6,
+      "lucro_operacional": 4415.3,
+      "resultado_financeiro": 1430.2,
+      "lair": 5801.2,
+      "ir_csll": -1254.2,
+      "plr": -1129.3,
+      "segmentos_2025": {
+        "seguro_lucro": 1657.8,
+        "seguro_roae_pct": 29.2,
+        "seguro_ic_pct": 90.2,
+        "saude_lucro": 581.1,
+        "saude_roae_pct": 28.0,
+        "saude_ic_pct": 89.2,
+        "bank_lucro": 811.7,
+        "bank_roae_pct": 26.2,
+        "bank_indice_eficiencia_pct": 33.1,
+        "servico_lucro": 220.6,
+        "servico_roae_pct": 23.8,
+        "servico_margem_ebitda_pct": 16.2
+      }
+    },
+    "eventos_extraordinarios_4T25": {
+      "rolagem_titulos": 50.2,
+      "lucro_liquido_recorrente": 888.8,
+      "lucro_liquido_recorrente_var_yoy_pct": 25.1,
+      "_nota": "JCP Porto Saúde para Porto Seguro S.A. gerou R$ 123,2 mi benefício IR e R$ 82,2 mi aumento PIS/COFINS"
+    },
+    "dre_gerencial_consolidado_4T25": {
+      "receita_total": 10627.5,
+      "lucro_operacional": 1029.1,
+      "resultado_financeiro": 288.7,
+      "lair": 1306.7,
+      "lucro_liquido_ex_ifrs17": 832.2,
+      "lucro_liquido_societario": 838.7,
+      "indice_eficiencia_pct": 11.5,
+      "indice_eficiencia_ajustado_pct": 11.2
+    },
+    "fluxo_caixa_2025": {
+      "caixa_operacional": 1368.4,
+      "caixa_investimento": -494.4,
+      "caixa_financiamento": -1167.5,
+      "variacao_caixa": -293.6,
+      "caixa_final": 1897.9,
+      "dividendos_jcp_pagos": -1190.1,
+      "recompras_acoes": -250.6,
+      "captacao": 2047.5,
+      "pagamento_emprestimos": -1774.4
+    },
+    "dividendos_adicionais_propostos_bp": 885.8,
+    "mercado": {
+      "cotacao_dez25": 48.36,
+      "variacao_12m_pct": 32.3,
+      "acoes_em_circulacao": 182476231,
+      "valor_mercado_bi": 31.3,
+      "data_divulgacao": "2026-02-05"
+    },
+    "operacoes_digitais": {
+      "app_porto_usuarios_mm": 4.6,
+      "app_rating_apple_store": 4.8,
+      "app_rating_google_play": 4.7,
+      "interacoes_atendimentos_digitais_4T25_mm": 149,
+      "acionamentos_app_whatsapp_mm": 9.1,
+      "pct_acionamentos_digitais": 55
+    },
+    "base_clientes_colaboradores": {
+      "clientes_mm": 18.6,
+      "corretores_pessoas_mil": 47.9,
+      "funcionarios_mil": 13.8,
+      "prestadores_servicos_mil": 12.6,
+      "seguidores_linkedin_mm": 1.5
+    }
+  }
+}

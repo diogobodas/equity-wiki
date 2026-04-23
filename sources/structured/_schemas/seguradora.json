@@ -1,0 +1,197 @@
+{
+  "_schema_id": "seguradora/v1",
+  "_description": "Canonical schema for grupos seguradoras brasileiros (Porto, BBSE, Caixa Seguridade, IRB, SulAmérica pré-fusão). Four canonical blocks: operacional (prêmios, sinistralidade, beneficiários — KPIs de negócio), dre (formal IFRS 17/CPC 50 income statement), bp (balance sheet), financeiro_ajustado (gerencial — Ex-IFRS17 results, índice combinado, ROAE, segmentos). Companies reporting under IFRS 17 post-2023 (Porto) should report both IFRS and gerencial views.",
+  "_created": "2026-04-22",
+  "_updated": "2026-04-22",
+  "_revisions": [
+    "2026-04-22 v1 — created from Porto Seguro DFP 2024 (first seguradora ingested). Accommodates multi-vertical groups (seguros + saúde + bank + serviços)."
+  ],
+  "operacional": {
+    "_description": "KPIs operacionais de seguro, saúde e crédito. Estrutura por vertical — nem toda seguradora tem todas as verticais.",
+    "premios": {
+      "premio_retido_total": "R$ mm",
+      "premio_ganho_total": "R$ mm",
+      "premio_retido_seguros": "R$ mm — vertical seguros patrimônio/auto/vida/previdência",
+      "premio_ganho_seguros": "R$ mm",
+      "premio_retido_saude": "R$ mm — vertical saúde/odonto",
+      "premio_ganho_saude": "R$ mm",
+      "crescimento_premio_retido_yoy_pct": "pct"
+    },
+    "sinistralidade": {
+      "sinistros_liquidos_retidos": "R$ mm (negativo)",
+      "indice_sinistralidade_pct": "pct — sinistros / prêmio ganho",
+      "indice_sinistralidade_seguros_pct": "pct",
+      "indice_sinistralidade_saude_pct": "pct"
+    },
+    "indice_combinado": {
+      "indice_combinado_total_pct": "pct — (sinistros + comissões + despesas admin/op) / prêmio ganho",
+      "indice_combinado_seguros_pct": "pct",
+      "indice_combinado_saude_pct": "pct",
+      "indice_combinado_auto_pct": "pct — opcional quando reportado"
+    },
+    "clientes": {
+      "total_clientes_grupo": "int — clientes no ecossistema",
+      "beneficiarios_seguro_saude": "int — vidas em plano médico",
+      "beneficiarios_odonto": "int — vidas em plano odontológico",
+      "frota_segurada_auto": "int — opcional, veículos em risco",
+      "apolices_patrimonial": "int — opcional",
+      "apolices_vida": "int — opcional"
+    },
+    "bank": {
+      "carteira_credito_total": "R$ mm — carteira bruta",
+      "carteira_credito_liquida": "R$ mm — líquida de PDD",
+      "provisao_pdd": "R$ mm",
+      "provisao_sobre_carteira_pct": "pct",
+      "inadimplencia_90d_pct": "pct",
+      "receita_bank": "R$ mm — vertical bank",
+      "cartao_operacoes": "R$ mm — opcional",
+      "financiamentos": "R$ mm — opcional"
+    },
+    "servicos": {
+      "receita_servicos": "R$ mm",
+      "n_atendimentos": "int — serviços prestados no período",
+      "pct_receita_b2c_parcerias": "pct — opcional"
+    },
+    "corretores_rede": {
+      "n_corretores_ativos": "int — opcional",
+      "n_sucursais": "int — opcional"
+    }
+  },
+  "dre": {
+    "_description": "DRE consolidada IFRS 17/CPC 50. Pode ou não bater com visão gerencial — ver financeiro_ajustado.lucro_liquido_ex_ifrs17.",
+    "receita_total": "R$ mm — 3.01 Receita de Venda de Bens e/ou Serviços",
+    "receita_seguros": "R$ mm — 3.01.07",
+    "receita_operacoes_credito": "R$ mm — 3.01.03",
+    "receita_prestacao_servicos": "R$ mm — 3.01.04",
+    "receita_titulos_capitalizacao": "R$ mm — 3.01.06",
+    "resultado_bruto": "R$ mm — 3.03",
+    "despesas_receitas_operacionais": "R$ mm (negativo) — 3.04",
+    "despesas_gerais_administrativas": "R$ mm — 3.04.02",
+    "despesas_administrativas": "R$ mm",
+    "despesas_com_tributos": "R$ mm",
+    "outras_receitas_operacionais": "R$ mm — 3.04.04",
+    "outras_despesas_operacionais": "R$ mm — 3.04.05",
+    "custos_aquisicao": "R$ mm — 3.04.05.08",
+    "despesas_seguro": "R$ mm — 3.04.05.11 (sinistros + provisões)",
+    "despesas_resseguro": "R$ mm — 3.04.05.12",
+    "equivalencia_patrimonial": "R$ mm — 3.04.06",
+    "resultado_operacional": "R$ mm — 3.05 antes resultado financeiro e IR",
+    "receita_financeira": "R$ mm",
+    "despesa_financeira": "R$ mm",
+    "resultado_financeiro": "R$ mm — 3.06",
+    "lucro_antes_ir": "R$ mm — 3.07",
+    "ir_corrente": "R$ mm",
+    "ir_diferido": "R$ mm",
+    "ir_csll": "R$ mm — 3.08",
+    "lucro_operacoes_continuadas": "R$ mm",
+    "participacao_minoritarios": "R$ mm",
+    "lucro_liquido_controladores": "R$ mm — atribuído à controladora",
+    "lucro_liquido_consolidado": "R$ mm — total",
+    "lpa_basico": "R$/ação",
+    "lpa_diluido": "R$/ação"
+  },
+  "bp": {
+    "_description": "BP Consolidado. Destaques: ativos financeiros (aplicações + recebíveis de crédito), provisões técnicas (contrato de seguro).",
+    "ativo_circulante": "R$ mm",
+    "caixa_equivalentes": "R$ mm",
+    "aplicacoes_financeiras_c": "R$ mm — valor justo resultado (circulante)",
+    "contas_receber_clientes_c": "R$ mm — inclui emprestimos + recebíveis serviços",
+    "emprestimos_financiamentos_bank": "R$ mm — carteira de crédito (Bank, sub-total)",
+    "tributos_a_recuperar": "R$ mm",
+    "outros_ativos_c": "R$ mm",
+    "ativo_nao_circulante": "R$ mm",
+    "aplicacoes_vjr_nc": "R$ mm",
+    "aplicacoes_vjora_nc": "R$ mm — carteira própria OCI",
+    "aplicacoes_custo_amortizado_nc": "R$ mm",
+    "contas_receber_nc": "R$ mm",
+    "tributos_diferidos_a": "R$ mm",
+    "depositos_judiciais": "R$ mm",
+    "investimentos": "R$ mm",
+    "imobilizado": "R$ mm",
+    "intangivel": "R$ mm",
+    "ativo_total": "R$ mm",
+    "passivo_circulante": "R$ mm",
+    "passivos_contrato_seguro_c": "R$ mm — provisões técnicas circulante",
+    "passivos_financeiros_c": "R$ mm — captações Porto Bank e similares",
+    "obrigacoes_fiscais": "R$ mm",
+    "dividendos_jcp_pagar": "R$ mm",
+    "outros_passivos_c": "R$ mm",
+    "passivo_nao_circulante": "R$ mm",
+    "passivos_contrato_seguro_nc": "R$ mm",
+    "passivos_financeiros_nc": "R$ mm",
+    "tributos_diferidos_p": "R$ mm",
+    "provisoes_judiciais": "R$ mm — fiscais + trabalhistas + cíveis",
+    "outros_passivos_nc": "R$ mm",
+    "patrimonio_liquido_total": "R$ mm — consolidado",
+    "capital_social": "R$ mm",
+    "reservas_capital": "R$ mm",
+    "reservas_lucros": "R$ mm",
+    "outros_resultados_abrangentes": "R$ mm",
+    "acoes_tesouraria": "R$ mm (negativo)",
+    "participacao_minoritarios_bp": "R$ mm",
+    "passivo_pl_total": "R$ mm"
+  },
+  "financeiro_ajustado": {
+    "_description": "Visão gerencial — resultados societários Ex-IFRS 17 (como reportam nas conferências e releases), ROAE, índice de eficiência, breakdown por vertical.",
+    "lucro_liquido_ex_ifrs17": "R$ mm — lucro societário ex-adoção IFRS 17/CPC 50 (mantém IFRS 4/CPC 11)",
+    "ajuste_ifrs17": "R$ mm — delta entre societário gerencial e IFRS 17",
+    "lucro_liquido_societario": "R$ mm — convergente com dre.lucro_liquido_controladores",
+    "roae_pct": "pct — lucro / PL médio",
+    "roae_12m_pct": "pct — anualizado",
+    "patrimonio_liquido_medio": "R$ mm",
+    "taxa_efetiva_ir_pct": "pct — IR+CSLL após PLR / LAIR",
+    "indice_eficiencia_pct": "pct — despesas administrativas / receita total",
+    "receita_aplicacoes_financeiras": "R$ mm — (excluindo Previdência, ALM, rolagem)",
+    "rentabilidade_carteira_pct_cdi": "pct — (0.85 = 85% do CDI)",
+    "resultado_financeiro_liquido": "R$ mm — gerencial",
+    "participacao_nos_resultados": "R$ mm — PLR Colaboradores",
+    "segmentos": {
+      "_description": "Breakdown por vertical conforme nota explicativa de segmentos (IFRS 8). Cada segmento traz lucro líquido, prêmios retidos/ganhos (se aplicável), receitas e sinistros.",
+      "seguro": {
+        "premio_retido": "R$ mm",
+        "premio_ganho": "R$ mm",
+        "sinistros_liquidos": "R$ mm",
+        "despesa_comercializacao": "R$ mm",
+        "resultado_operacional": "R$ mm",
+        "resultado_financeiro": "R$ mm",
+        "lair": "R$ mm",
+        "lucro_liquido": "R$ mm",
+        "indice_combinado_pct": "pct"
+      },
+      "saude": {
+        "premio_retido": "R$ mm",
+        "premio_ganho": "R$ mm",
+        "sinistros_liquidos": "R$ mm",
+        "despesa_comercializacao": "R$ mm",
+        "resultado_operacional": "R$ mm",
+        "lucro_liquido": "R$ mm",
+        "indice_combinado_pct": "pct"
+      },
+      "bank": {
+        "receitas_nao_seguros": "R$ mm — receita operacional bank",
+        "perdas_credito": "R$ mm (negativo)",
+        "despesa_comercializacao": "R$ mm",
+        "resultado_operacional": "R$ mm",
+        "lucro_liquido": "R$ mm",
+        "inadimplencia_90d_pct": "pct"
+      },
+      "servico": {
+        "receita": "R$ mm",
+        "despesas_operacionais": "R$ mm",
+        "lucro_liquido": "R$ mm",
+        "n_atendimentos": "int"
+      },
+      "demais": {
+        "receita": "R$ mm",
+        "lucro_liquido": "R$ mm"
+      }
+    }
+  },
+  "_notes": [
+    "Companies that migrated to IFRS 17/CPC 50 (Porto from 2023) report two views: societário IFRS and gerencial Ex-IFRS 17 (mantido em CPC 11 para convergir com SUSEP/ANS). Record both: lucro_liquido_societario in dre, lucro_liquido_ex_ifrs17 in financeiro_ajustado.",
+    "Índice Combinado = (sinistros + despesa comercialização + despesas admin + despesas op + tributos) / prêmio ganho. Diferentes empresas ajustam a fórmula — prefira o valor reportado.",
+    "Segment reporting follows IFRS 8/CPC 22 — estrutura varia: Porto reporta 4 verticais (Seguro/Saúde/Bank/Serviço) + Demais negócios; outras seguradoras podem ter menos.",
+    "company_specific captura idiossincrasias: Porto tem desmembramentos por produto (auto vs patrimonial vs vida), dados de rede (corretores, atendimentos) e métricas ESG/marca.",
+    "Numbers as reported. Em R$ mm (divide R$ mil by 1000). One decimal typically."
+  ]
+}

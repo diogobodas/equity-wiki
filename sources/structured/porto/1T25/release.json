@@ -1,0 +1,370 @@
+{
+  "_schema": "seguradora/v1",
+  "_schema_path": "sources/structured/_schemas/seguradora.json",
+  "_empresa": "porto",
+  "_periodo": "1T25",
+  "_source": "sources/full/porto/1T25/release.md",
+  "_note": "Task config indicou incorporadora.json; aplicamos seguradora.json (adequado para Porto). DRE gerencial usa padrão Ex-IFRS17 (conforme CPC 11/SUSEP); DRE societário IFRS17 registrado como bloco complementar em company_specific.dre_ifrs17. BP é societário IFRS17 (único reportado pela companhia).",
+  "canonical": {
+    "operacional": {
+      "premios": {
+        "premio_retido_total": 7332.0,
+        "premio_ganho_total": 7150.7,
+        "premio_retido_seguros": 5394.5,
+        "premio_ganho_seguros": 5267.2,
+        "premio_retido_saude": 1927.1,
+        "premio_ganho_saude": 1872.5,
+        "crescimento_premio_retido_yoy_pct": 12.9
+      },
+      "sinistralidade": {
+        "sinistros_liquidos_retidos": -4146.3,
+        "indice_sinistralidade_pct": null,
+        "indice_sinistralidade_seguros_pct": 53.6,
+        "indice_sinistralidade_saude_pct": 69.8
+      },
+      "indice_combinado": {
+        "indice_combinado_total_pct": null,
+        "indice_combinado_seguros_pct": 92.7,
+        "indice_combinado_saude_pct": 83.6,
+        "indice_combinado_auto_pct": null
+      },
+      "clientes": {
+        "total_clientes_grupo": 18100000,
+        "beneficiarios_seguro_saude": 702000,
+        "beneficiarios_odonto": 1032000,
+        "frota_segurada_auto": 6165800,
+        "apolices_patrimonial": 4802600,
+        "apolices_vida": 6354800
+      },
+      "bank": {
+        "carteira_credito_total": 20094.5,
+        "carteira_credito_liquida": null,
+        "provisao_pdd": null,
+        "provisao_sobre_carteira_pct": null,
+        "inadimplencia_90d_pct": 6.0,
+        "receita_bank": 1732.4,
+        "cartao_operacoes": 1062.8,
+        "financiamentos": 149.5
+      },
+      "servicos": {
+        "receita_servicos": 669.7,
+        "n_atendimentos": 1424000,
+        "pct_receita_b2c_parcerias": 24.6
+      },
+      "corretores_rede": {
+        "n_corretores_ativos": 45800,
+        "n_sucursais": null
+      }
+    },
+    "dre": {
+      "_note": "DRE societário IFRS17 consolidado (página 35 do release).",
+      "receita_total": 9792.7,
+      "receita_seguros": 7708.6,
+      "receita_operacoes_credito": 1098.1,
+      "receita_prestacao_servicos": 872.8,
+      "receita_titulos_capitalizacao": 26.4,
+      "resultado_bruto": null,
+      "despesas_receitas_operacionais": -8955.7,
+      "despesas_gerais_administrativas": -1428.1,
+      "despesas_administrativas": -1428.1,
+      "despesas_com_tributos": -277.7,
+      "outras_receitas_operacionais": 69.1,
+      "outras_despesas_operacionais": -957.5,
+      "custos_aquisicao": -212.2,
+      "despesas_seguro": -5994.5,
+      "despesas_resseguro": -6.5,
+      "equivalencia_patrimonial": 17.7,
+      "resultado_operacional": 836.9,
+      "receita_financeira": 712.8,
+      "despesa_financeira": -300.8,
+      "resultado_financeiro": 412.0,
+      "lucro_antes_ir": 1249.0,
+      "ir_corrente": -296.6,
+      "ir_diferido": -106.9,
+      "ir_csll": -403.5,
+      "lucro_operacoes_continuadas": 845.4,
+      "participacao_minoritarios": -13.2,
+      "lucro_liquido_controladores": 832.3,
+      "lucro_liquido_consolidado": 845.4,
+      "lpa_basico": null,
+      "lpa_diluido": null
+    },
+    "bp": {
+      "_note": "BP Consolidado IFRS17 em 31/03/2025 (página 34).",
+      "ativo_circulante": 27417.3,
+      "caixa_equivalentes": 2033.5,
+      "aplicacoes_financeiras_c": 7897.3,
+      "contas_receber_clientes_c": 587.9,
+      "emprestimos_financiamentos_bank": 14492.0,
+      "tributos_a_recuperar": 360.9,
+      "outros_ativos_c": 1948.6,
+      "ativo_nao_circulante": 22049.6,
+      "aplicacoes_vjr_nc": 2.6,
+      "aplicacoes_vjora_nc": 2045.1,
+      "aplicacoes_custo_amortizado_nc": 9376.6,
+      "contas_receber_nc": 1013.6,
+      "tributos_diferidos_a": 1555.7,
+      "depositos_judiciais": 1534.7,
+      "investimentos": 528.9,
+      "imobilizado": 922.9,
+      "intangivel": 3810.0,
+      "ativo_total": 49466.8,
+      "passivo_circulante": 24293.4,
+      "passivos_contrato_seguro_c": 5936.6,
+      "passivos_financeiros_c": 14357.7,
+      "obrigacoes_fiscais": 528.3,
+      "dividendos_jcp_pagar": 1400.8,
+      "outros_passivos_c": 2070.0,
+      "passivo_nao_circulante": 11273.6,
+      "passivos_contrato_seguro_nc": 4894.1,
+      "passivos_financeiros_nc": 3573.7,
+      "tributos_diferidos_p": 550.0,
+      "provisoes_judiciais": 1535.3,
+      "outros_passivos_nc": 720.3,
+      "patrimonio_liquido_total": 13899.9,
+      "capital_social": 8500.0,
+      "reservas_capital": 808.3,
+      "reservas_lucros": 4072.1,
+      "outros_resultados_abrangentes": -78.1,
+      "acoes_tesouraria": -231.3,
+      "participacao_minoritarios_bp": 43.1,
+      "passivo_pl_total": 49466.8
+    },
+    "financeiro_ajustado": {
+      "_note": "Visão gerencial Ex-IFRS17 (mantida em CPC 11 para convergência SUSEP/ANS).",
+      "lucro_liquido_ex_ifrs17": 820.0,
+      "ajuste_ifrs17": 12.3,
+      "lucro_liquido_societario": 832.3,
+      "roae_pct": 23.9,
+      "roae_12m_pct": null,
+      "patrimonio_liquido_medio": 13953.8,
+      "taxa_efetiva_ir_pct": 31.8,
+      "indice_eficiencia_pct": 10.9,
+      "receita_aplicacoes_financeiras": 432.7,
+      "rentabilidade_carteira_pct_cdi": 0.994,
+      "resultado_financeiro_liquido": 382.6,
+      "participacao_nos_resultados": -258.2,
+      "segmentos": {
+        "seguro": {
+          "premio_retido": 5394.5,
+          "premio_ganho": 5267.2,
+          "sinistros_liquidos": -2823.9,
+          "despesa_comercializacao": -1284.3,
+          "resultado_operacional": 386.0,
+          "resultado_financeiro": 194.0,
+          "lair": 576.8,
+          "lucro_liquido": 313.4,
+          "indice_combinado_pct": 92.7
+        },
+        "saude": {
+          "premio_retido": 1927.1,
+          "premio_ganho": 1872.5,
+          "sinistros_liquidos": -1306.8,
+          "despesa_comercializacao": -126.2,
+          "resultado_operacional": 312.8,
+          "lucro_liquido": 179.6,
+          "indice_combinado_pct": 83.6
+        },
+        "bank": {
+          "receitas_nao_seguros": 1732.4,
+          "perdas_credito": -503.5,
+          "despesa_comercializacao": -241.1,
+          "resultado_operacional": 358.4,
+          "lucro_liquido": 192.1,
+          "inadimplencia_90d_pct": 6.0
+        },
+        "servico": {
+          "receita": 669.7,
+          "despesas_operacionais": -404.7,
+          "lucro_liquido": 53.6,
+          "n_atendimentos": 1424000
+        },
+        "demais": {
+          "receita": 125.8,
+          "lucro_liquido": 93.5
+        }
+      }
+    }
+  },
+  "company_specific": {
+    "dre_gerencial_ex_ifrs17": {
+      "_note": "DRE gerencial consolidado Ex-IFRS17 (página 5) — visão reportada pelo RI que Porto considera a forma primária de análise operacional.",
+      "receita_total": 9900.6,
+      "premio_retido": 7332.0,
+      "premio_ganho_seg_saude": 7150.7,
+      "receitas_nao_seguros": 2568.7,
+      "sinistros_liquidos_retidos": -4146.3,
+      "perdas_credito": -503.1,
+      "despesa_comercializacao": -1711.7,
+      "despesas_tributos": -328.4,
+      "despesas_operacionais": -844.4,
+      "despesas_administrativas": -1076.2,
+      "lucro_operacional": 1109.4,
+      "resultado_financeiro_patrimonial": 382.6,
+      "amortizacao_intangivel": -11.2,
+      "lair": 1480.7,
+      "ir_csll": -388.9,
+      "participacao_resultados": -258.2,
+      "minoritarios": -13.2,
+      "resultado_investidas": -0.4,
+      "lucro_liquido_ex_ifrs17": 820.0,
+      "ajuste_ifrs17": 12.3,
+      "lucro_liquido": 832.3
+    },
+    "auto": {
+      "premios_emitidos": 3985.3,
+      "premio_ganho": 3882.9,
+      "sinistralidade_pct": 60.1,
+      "frota_segurada_mil": 6165.8,
+      "market_share_pct_2m25": 28.2
+    },
+    "patrimonial": {
+      "premios_emitidos": 841.8,
+      "premio_ganho": 787.6,
+      "sinistralidade_pct": 35.4,
+      "itens_mil": 4802.6
+    },
+    "vida": {
+      "premios_emitidos": 431.1,
+      "premio_ganho": 422.4,
+      "sinistralidade_pct": 39.1,
+      "vidas_mil": 6354.8
+    },
+    "uruguay_seguros": {
+      "premios_emitidos": 191.3,
+      "premio_ganho": 174.3,
+      "sinistralidade_pct": 30.1,
+      "receita_servicos": 10.5
+    },
+    "saude_detalhe": {
+      "beneficiarios_saude_mil": 702,
+      "beneficiarios_odonto_mil": 1032,
+      "sinistralidade_saude_pct": 70.8,
+      "sinistralidade_saude_odonto_pct": 69.8,
+      "premios_emitidos_saude": 1872.1,
+      "premios_emitidos_odonto": 55.0,
+      "outras_receitas": 37.5,
+      "base_aplicacoes_financeiras": 1017.4
+    },
+    "bank_detalhe": {
+      "cartao_receita_total": 1062.8,
+      "cartao_nii": 651.0,
+      "cartao_receita_fee": 411.8,
+      "cartao_pcld_360d_pct": 8.3,
+      "cartao_pcld_540d_pct": 9.8,
+      "cartoes_aptos_mil": 3557.8,
+      "transacoes_milhoes": 79.0,
+      "tpv_bi": 15.9,
+      "emprestimos_fin_liberacao": 437.0,
+      "emprestimos_fin_carteira": 2600.0,
+      "riscos_financeiros_receita_liquida": 237.5,
+      "riscos_financeiros_premio_ganho": 227.9,
+      "riscos_financeiros_perda_pct": 40.9,
+      "capitalizacao_receita": 47.5,
+      "capitalizacao_titulos_mil": 102.3,
+      "consorcio_receita": 372.7,
+      "consorcio_carteira_administrada_bi": 81.2,
+      "consorcio_negocios_ativos_mil": 415.7,
+      "fianca_capitalizacao_receita": 285.0,
+      "fianca_capitalizacao_contratos_mil": 441.9,
+      "previdencia_aum_bi": 5.98,
+      "indice_eficiencia_nova_pct": 33.4,
+      "carteira_credito_total": 20094.5,
+      "custo_risco_pct": 62.0,
+      "nim_pct": 13.9,
+      "nim_ajustado_risco_pct": 4.5,
+      "indice_cobertura_360d_pct": 138
+    },
+    "servico_detalhe": {
+      "parceria_porto_receita": 505.1,
+      "parcerias_estrategicas_receita": 160.1,
+      "b2c_receita": 4.5,
+      "ebitda": 113.5,
+      "margem_ebitda_pct": 16.9,
+      "lucro_antes_minoritarios": 66.7,
+      "minoritarios": -13.2,
+      "atendimentos_auto_mil": 731,
+      "atendimentos_residencia_empresa_mil": 693,
+      "nps_servicos": 80
+    },
+    "demais_negocios": {
+      "receita_total": 125.8,
+      "lucro_liquido_ex_ifrs17": 81.3,
+      "ajuste_ifrs17": 12.3,
+      "lucro_liquido": 93.5
+    },
+    "pl_medio_vertical": {
+      "seguro": 5539.3,
+      "saude": 1810.6,
+      "bank": 2851.2,
+      "servico": 815.2,
+      "consolidado": 13953.8
+    },
+    "carteira_investimentos": {
+      "carteira_total_bi": 21.1,
+      "ex_previdencia_bi": 15.1,
+      "rentabilidade_ex_previd_pct_cdi": 96.1,
+      "alocacao_prefixada_pct": 39,
+      "alocacao_juro_real_pct": 37,
+      "alocacao_credito_pct": 18,
+      "alocacao_posfixado_pct": 3,
+      "alocacao_acoes_pct": 3
+    },
+    "capex": {
+      "valor_1t25": 116.0,
+      "valor_1t24": 54.0
+    },
+    "capital_regulatorio": {
+      "pla_total": 11401.0,
+      "necessidade_capital": 7330.0,
+      "suficiencia_capital": 4071.0
+    },
+    "indicadores_mercado": {
+      "cotacao_marco_25": 40.00,
+      "valor_mercado_bi": 25.8,
+      "variacao_12m_pct": 27.9,
+      "acoes_circulacao": 184098759,
+      "dividend_yield_2024_pct": 5.6,
+      "payout_2024_pct": 50.0,
+      "pl_12m_dez24": 9.7
+    },
+    "projecoes_2025": {
+      "seguro_var_premio_ganho_pct": "+2% a +5%",
+      "seguro_sinistralidade_pct": "51% a 55%",
+      "seguro_indice_ga_pct": "10,3% a 11,2%",
+      "saude_var_premio_ganho_pct": "+25% a +40%",
+      "saude_sinistralidade_pct": "75% a 80%",
+      "saude_indice_ga_pct": "4,5% a 5,5%",
+      "bank_var_receita_total_pct": "+14% a +22%",
+      "bank_perdas_credito_bi": "-1,9 a -2,3",
+      "bank_indice_eficiencia_pct": "32,5% a 35%",
+      "servico_receita_total_bi": "2,5 a 2,8",
+      "servico_indice_ga_pct": "8,0% a 9,0%",
+      "resultado_financeiro_bi": "1,2 a 1,4",
+      "taxa_efetiva_ir_pct": "30% a 34%"
+    },
+    "contribuicao_vertical_lucro_pct": {
+      "seguro": 42,
+      "bank": 26,
+      "saude": 24,
+      "servico": 7,
+      "_note": "Soma = 99% (diferença = 'Demais/Outros' que passou de negativo 1T24 para positivo 1T25)"
+    },
+    "eventos_extraordinarios": {
+      "_note": "Nenhum evento não-recorrente reconhecido no 1T25 — lucro recorrente = lucro reportado = R$ 832,3 mi."
+    },
+    "destaques_ecosistema": {
+      "clientes_total_mi": 18.1,
+      "crescimento_clientes_yoy_pct": 6.4,
+      "app_usuarios_mi": 4.0,
+      "crescimento_app_yoy_pct": 20,
+      "corretores_independentes_mil": 45.8,
+      "funcionarios_mil": 13.7,
+      "prestadores_servicos_mil": 13,
+      "nps_seguro_auto_porto": 82,
+      "nps_seguro_auto_azul": 80,
+      "nps_residencia": 80,
+      "nps_cartao": 74
+    }
+  }
+}

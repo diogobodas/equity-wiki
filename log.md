@@ -963,3 +963,29 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 [edit] 2026-04-22 — rename tenda call_transcript/2025 → investor_day/2025 (Tenda Day 2025); updated full, digested, manifest sources[], tenda.md, reforma_tributaria.md
 [wiki-queue] 2026-04-22 | generic | other | tenda_estouro_custos_2020_2022_analise | sources/digested/tenda_estouro_custos_2020_2022_analise_summary.md
 [wiki-done] 2026-04-22 | batch_20260422_110057
+2026-04-22 — ingest release 4T25: sources/full/porto/4T25/release.md, sources/structured/porto/4T25/release.json, sources/digested/porto_release_4T25_summary.md
+2026-04-22 — ingest release 4T25: sources/full/porto/4T25/release.md, sources/structured/porto/4T25/release.json, sources/digested/porto_release_4T25_summary.md
+2026-04-22 — ingest fato_relevante 1T25: sources/full/porto/1T25/fato_relevante_859709.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 1T25: sources/full/porto/1T25/fato_relevante_859724.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 1T26: sources/full/porto/1T26/fato_relevante_1016298.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 1T26: sources/full/porto/1T26/fato_relevante_1018154.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 1T26: sources/full/porto/1T26/fato_relevante_998030.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 1T26: sources/full/porto/1T26/fato_relevante_998121.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 1T26: sources/full/porto/1T26/fato_relevante_PSSA3_1T26_previa_operacional_1003567_extracted.md.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 1T26: sources/full/porto/1T26/fato_relevante_PSSA3_1T26_previa_operacional_1015167_extracted.md.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 1T26: sources/full/porto/1T26/fato_relevante_PSSA3_1T26_previa_operacional_1016297_extracted.md.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 1T26: sources/full/porto/1T26/fato_relevante_PSSA3_1T26_previa_operacional_1018255_extracted.md.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 1T26: sources/full/porto/1T26/fato_relevante_PSSA3_1T26_previa_operacional_988430_extracted.md.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 1T26: sources/full/porto/1T26/fato_relevante_PSSA3_1T26_previa_operacional_992950_extracted.md.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 1T26: sources/full/porto/1T26/fato_relevante_PSSA3_1T26_previa_operacional_998123_extracted.md.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 2T26: sources/full/porto/2T26/fato_relevante_1029267.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 2T26: sources/full/porto/2T26/fato_relevante_PSSA3_2T26_previa_operacional_1028965_extracted.md.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 3T25: sources/full/porto/3T25/fato_relevante_937067.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 4T25: sources/full/porto/4T25/fato_relevante_963148.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest fato_relevante 4T25: sources/full/porto/4T25/fato_relevante_967980.md, sources/digested/porto_fatos_relevantes_batch_summary.md
+2026-04-22 — ingest release unknown: sources/full/porto/other/PSSA3_1T25_call_transcript.md, sources/digested/porto_other_PSSA3_1T25_call_transcript_summary.md
+2026-04-22 — ingest release unknown: sources/full/porto/other/PSSA3_2T25_call_transcript.md, sources/digested/porto_other_PSSA3_2T25_call_transcript_summary.md
+2026-04-22 — ingest release unknown: sources/full/porto/other/PSSA3_3T25_call_transcript.md, sources/digested/porto_other_PSSA3_3T25_call_transcript_summary.md
+2026-04-22 — ingest release unknown: sources/full/porto/other/PSSA3_4T25_call_transcript.md, sources/digested/porto_other_PSSA3_4T25_call_transcript_summary.md
+2026-04-22 — ingest release unknown: sources/full/porto/other/PSSA3_4T25_data_pack.md, sources/digested/porto_other_PSSA3_4T25_data_pack_summary.md
+[wiki-done] 2026-04-22 | batch_20260422_165204

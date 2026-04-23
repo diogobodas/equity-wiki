@@ -4,6 +4,24 @@ aliases:
   - PSSA3
   - Porto
 sources:
+  - sources/digested/porto_dfp_2024_summary.md
+  - sources/digested/porto_dfp_2025_summary.md
+  - sources/digested/porto_itr_1T25_summary.md
+  - sources/digested/porto_itr_2T25_summary.md
+  - sources/digested/porto_itr_3T25_summary.md
+  - sources/digested/porto_release_4T24_summary.md
+  - sources/digested/porto_release_1T25_summary.md
+  - sources/digested/porto_release_2T25_summary.md
+  - sources/digested/porto_release_3T25_summary.md
+  - sources/digested/porto_release_4T25_summary.md
+  - sources/digested/porto_call_transcript_1T25_summary.md
+  - sources/digested/porto_call_transcript_2T25_summary.md
+  - sources/digested/porto_call_transcript_3T25_summary.md
+  - sources/digested/porto_call_transcript_4T25_summary.md
+  - sources/digested/porto_data_pack_4T25_summary.md
+  - sources/digested/porto_fatos_relevantes_batch_summary.md
+  - sources/digested/porto_previa_operacional_1T26_summary.md
+  - sources/digested/porto_previa_operacional_2T26_summary.md
   - sources/digested/notion_porto_seguro_porto_call_resultados_4t25_2fe00ca3_summary.md
   - sources/digested/notion_porto_seguro_call_porto_seguro_3t25_2a800ca3_summary.md
   - sources/digested/notion_porto_seguro_kakinoff_3t25_jpm_2a800ca3_summary.md
@@ -17,12 +35,14 @@ sources:
   - sources/digested/notion_porto_seguro_porto_seguro_alexsander_update_byd_e_carro_el_trico_9e500ca3_summary.md
   - sources/digested/notion_nubank_perguntas_porto_seguro_porto_bank_26100ca3_summary.md
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-04-22
 ---
 
 # Porto Seguro (PSSA3)
 
-Conglomerado de seguros e serviços financeiros com quatro verticais: **Seguradora** (auto, vida, patrimonial), **Porto Saúde**, **Porto Bank** e **Porto Serviços**. Modelo baseado em ecossistema de ~45 mil corretores e 19 milhões de clientes ativos, com cross-sell entre verticais como principal alavanca de crescimento. CEO: Paulo Kakinoff ("Kaki").
+Conglomerado de seguros e serviços financeiros com quatro verticais: **Seguradora** (auto, vida, patrimonial), **Porto Saúde**, [[porto_bank]] e **Porto Serviços**. Modelo baseado em ecossistema de ~47,5 mil corretores e 19 milhões de clientes ativos, com cross-sell entre verticais como principal alavanca de crescimento. CEO holding: **Paulo Kakinoff** ("Kaki"); CFO: Celso Damadi; RI: Domingos Falavina. CEO da Seguradora (vertical auto/P&C/Vida) desde 02-jan-2026: **Patrícia Chacon** (substituindo Rivaldo Leite). (fonte: digested/porto_call_transcript_4T25_summary.md)
+
+2025 foi o ano dos 80 anos da companhia e entrada no **IBrX 50** (após entrar no Ibovespa em 2024, marcando 20 anos de IPO). (fonte: digested/porto_dfp_2025_summary.md)
 
 ---
 
@@ -30,168 +50,251 @@ Conglomerado de seguros e serviços financeiros com quatro verticais: **Segurado
 
 | Indicador | 4T25 | 2025 | 2024 |
 |---|---|---|---|
-| Receita | R$ 11 bi (+11% a/a) | R$ 41 bi (+12%) | — |
-| Lucro líquido | R$ 839 mm (+25% a/a) | R$ 3,4 bi (+28%) | — |
-| ROAE | 22,5% (+2,2 pp) | 22,7% (+2,7 pp) | ~20% |
-| ROAE ajust. (excesso capital) | — | ~32% | — |
-| Patrimônio líquido | ~R$ 28,4 bi | — | ~R$ 26,7 bi |
-| Clientes ativos | 19 mm (+4%) | — | — |
-| Negócios por cliente | 1,9 | — | 1,7 |
+| Receita total (gerencial) | R$ 10,6 bi (+8,1%; +10,9% aj.) | R$ 41,1 bi (+11,2%; +12,0% aj.) | R$ 36,9 bi (+13,2%) |
+| Prêmio retido | R$ 8,0 bi (+8,2%) | R$ 28,8 bi | R$ 27,8 bi (+10,9%) |
+| Lucro líquido (IFRS 17) | R$ 838,7 mm (+25,0%) | R$ 3,38 bi (+27,8%) | R$ 2,64 bi (+16,7%) |
+| Lucro Ex-IFRS 17 | R$ 832,2 mm (+24,8%) | — | R$ 2,65 bi (+17,1%) |
+| ROAE | 22,5% (+2,2 pp) | 22,7% (+2,7 pp) | 20,0% (+0,3 pp) |
+| ROAE ex-excesso de capital | — | ~32% | — |
+| PL médio | R$ 14,9 bi | R$ 14,9 bi | R$ 13,2 bi |
+| Ativo total | R$ 55,9 bi | R$ 55,9 bi (+16,6%) | R$ 47,9 bi (+8,3%) |
+| Índice de eficiência (G&A/Receita) | — | 10,9% (-0,4 pp) | 11,4% |
+| Taxa efetiva IR | 14,1% | 27% | 32,7% |
+| Clientes ativos | 19 mm (+4%) | — | 18 mm |
+| Negócios por cliente | 1,9 | 1,9 | 1,7 |
 
-(fonte: sources/digested/notion_porto_seguro_porto_call_resultados_4t25_2fe00ca3_summary.md)
+(fonte: digested/porto_release_4T25_summary.md, digested/porto_dfp_2025_summary.md, digested/porto_dfp_2024_summary.md)
 
-O ROAE consolidado (~22,7%) é inferior ao ROE de cada vertical individualmente porque ~R$ 3–4 bilhões de excesso de capital ficam presos na holding, precificados internamente a 100% do CDI. Excluindo esse excesso, o ROAE ajustado chega a 32%. (fonte: sources/digested/notion_porto_seguro_call_porto_seguro_3t25_2a800ca3_summary.md)
+**Trajetória trimestral 2025 (lucro, ROAE):** 1T25 R$ 832 mm / 23,9%; 2T25 R$ 878 mm / 24,6%; 3T25 R$ 832 mm / 23,0%; 4T25 R$ 839 mm / 22,5%. Nenhum trimestre abaixo de R$ 800 mm — sazonalidades descasadas entre as 4 verticais geram estabilidade quase linear tri-a-tri. 5º tri consecutivo com ROAE >20%. (fonte: digested/porto_call_transcript_4T25_summary.md, digested/porto_release_3T25_summary.md)
+
+**ROAE ajustado:** o ROAE consolidado (~22,7%) é inferior ao ROE de cada vertical individualmente porque ~R$ 2,5–4 bi de excesso de capital ficam presos na Porto S.A. (holding), precificados internamente a ~100% do CDI. Excluindo esse excesso, o ROAE consolidado ajustado chega a **32%** (Seguro 32%, Saúde 33%, Bank 28%, Serviço 36%). (fonte: digested/porto_previa_operacional_1T26_summary.md, digested/notion_porto_seguro_call_porto_seguro_3t25_2a800ca3_summary.md)
+
+### Mix do lucro — diversificação
+
+Verticais **não-Seguro** (Saúde + Bank + Serviço) passaram a representar **49% do lucro em 2025** (+7 pp vs 2024) e **56% no 4T25 isolado**. O mix 2024 → 2025 foi: Auto 51% → 40%, Saúde 14% → 18%, Bank 22% → 25%, Serviço 7% flat. (fonte: digested/porto_dfp_2025_summary.md, digested/porto_data_pack_4T25_summary.md, digested/porto_previa_operacional_1T26_summary.md)
 
 ---
 
-## Vertical 1 — Seguradora
+## Vertical 1 — Seguradora (Porto Seguro)
 
-Vertical principal. Líder em seguro de automóveis no Brasil com market share de 26–28% (atual ~26,7%). Portfólio de marcas segmentado: Azul (entrada), Mitsui, Itaú, Porto, Porto Premium e Porto Private. (fonte: sources/digested/notion_porto_seguro_kakinoff_3t25_jpm_2a800ca3_summary.md)
+Vertical principal (auto, patrimonial, vida). Líder em seguro de automóveis no Brasil com market share **26,2%** (Auto acumulado 11M25; 27,0% em 2M26 via SUSEP). Portfólio de marcas segmentado: Azul (entrada), Mitsui, Itaú, Porto, Porto Premium e Porto Private. (fonte: digested/porto_previa_operacional_1T26_summary.md, digested/notion_porto_seguro_kakinoff_3t25_jpm_2a800ca3_summary.md)
 
-| Indicador | 4T25 | 3T25 |
-|---|---|---|
-| Itens e negócios | 17 mm (+8% a/a) | — |
-| Receita | R$ 5,8 bi | — |
-| Lucro | +4% a/a | — |
-| ROE | 32% | 32% |
-| Sinistralidade auto | 58% (+1,2 pp a/a) | 58% (+1 pp a/a) |
-| Sinistralidade vida/patrimonial | ~30% | ~30% |
+| Indicador | 4T25 | 3T25 | 2T25 | 1T25 | 2025 | 2024 |
+|---|---|---|---|---|---|---|
+| Receita | R$ 5,79 bi (+3,0%) | R$ 5,66 bi (+3,3%) | R$ 5,4 bi (+4,7%) | R$ 5,41 bi (+6,1%) | R$ 22,0 bi (+4%) | R$ 21,2 bi |
+| Lucro | R$ 459,1 mm (+4,0%) | R$ 450,9 mm (+4,9%) | R$ 434,4 mm (+16,3%) | R$ 313,4 mm (-21,4%) | R$ 1,70 bi (+1%) | R$ 1,64 bi |
+| ROAE | 32,3% | 32,2% | 31,1% | 22,6% | 29% | — |
+| Sinistralidade Auto | 57,7% (+1,2 pp) | 58,2% (+1,0 pp) | 58,5% (-0,5 pp) | 60,1% (+3,9 pp) | — | — |
+| IC (combinado) | 89,5% | 89,6% | 89,1% | 92,7% | — | 89% |
+| Frota Auto | 6,23 mm (+3,9%) | 6,21 mm (+4,3%) | 6,2 mm (+2,7%) | 6,17 mm (+2,4%) | 6,23 mm (+4%) | — |
 
-(fonte: sources/digested/notion_porto_seguro_porto_call_resultados_4t25_2fe00ca3_summary.md, sources/digested/notion_porto_seguro_call_porto_seguro_3t25_2a800ca3_summary.md)
+(fonte: digested/porto_release_4T25_summary.md, digested/porto_release_3T25_summary.md, digested/porto_itr_2T25_summary.md, digested/porto_itr_1T25_summary.md, digested/porto_data_pack_4T25_summary.md)
 
-**Dinâmica competitiva:** guerra de preços iniciada no 3T23, duração típica de 1–1,5 ano. [[allianz]] é o player mais agressivo atualmente; [[tokyo_marine]] cresceu de 5% para 14–15% de market share em 10 anos. Estratégia da Porto: não participar da guerra, preservar ROE via mix de marcas. (fonte: sources/digested/notion_porto_seguro_kakinoff_3t25_jpm_2a800ca3_summary.md)
+**Auto — mix vs. preço:** prêmio Auto rodou estável em 2025 (+0,2% no 4T25, +0,9% no 3T25, +2,9% no 2T25, +4,5% no 1T25 — média ~+2% no ano) enquanto frota cresceu +4%. Queda de ticket médio deliberada via mix (Azul/Itaú) para preservar ROAE sem entrar em guerra de preços. (fonte: digested/porto_release_4T25_summary.md)
 
-**Elétricos / BYD:** 90% dos carros da [[byd]] no Brasil são segurados pela Porto — parceria iniciada em campanha de fim de 2023 em que a BYD pagou o seguro Porto para compradores. Concentração relevante a monitorar conforme frota elétrica cresce. (fonte: sources/digested/notion_porto_seguro_porto_seguro_alexsander_update_byd_e_carro_el_trico_9e500ca3_summary.md)
+**Patrimonial e Vida:** 2025 Patrimonial +10%, Vida +14% — aceleração vs Auto. Patrimonial cruzou R$ 1 bi em prêmios no 4T25 (residencial +19,4%); sinistralidade Patrimonial ~30% em 2025. Vida puxada por Prestamista (+24% vs mercado +9%), sinistralidade 39,5% no 3T25. (fonte: digested/porto_release_4T25_summary.md, digested/porto_release_3T25_summary.md)
 
-**Estrutura de custo do sinistro:** ~40% FIPE (tabela de veículos usados) e ~60% peças e serviços. Relação entre queda da FIPE e prêmio não é direta nem imediata. (fonte: sources/digested/notion_porto_seguro_porto_seguro_alexsander_update_byd_e_carro_el_trico_9e500ca3_summary.md)
+**Dinâmica competitiva:** guerra de preços iniciada no 3T23, duração típica de 1–1,5 ano. [[allianz]] é o player mais agressivo atualmente; [[tokyo_marine]] cresceu de 5% para 14–15% de market share em 10 anos. Estratégia da Porto: não participar da guerra, preservar ROE via mix de marcas. (fonte: digested/notion_porto_seguro_kakinoff_3t25_jpm_2a800ca3_summary.md)
 
-**Lançamento 2026:** seguro de motocicleta — mercado crescente, com mais motos vendidas por mês do que carros. (fonte: sources/digested/notion_porto_seguro_kakinoff_3t25_jpm_2a800ca3_summary.md)
+Gestão espera **ambiente menos competitivo em 2026** — sinistralidade "chega para todos"; final de 2025 já mostrou movimentos de reajuste. Sem guerra de preço por filosofia. (fonte: digested/porto_call_transcript_3T25_summary.md)
+
+**Unificação CNPJ:** Projeto R3 concluído em ago/2025 — Porto + Azul + Itaú em CNPJ único (Porto Cia.) gera **ganho de capital regulatório recorrente >R$ 100 mm/trim** (redução de PL requerido de R$ 110 mm no 3T25 via migração de fábricas) além de sinergia de custos e alocação maior na Holding. (fonte: digested/porto_call_transcript_1T25_summary.md, digested/porto_call_transcript_3T25_summary.md, digested/porto_call_transcript_4T25_summary.md)
+
+**Elétricos / BYD:** 90% dos carros da [[byd]] no Brasil são segurados pela Porto — parceria iniciada em campanha de fim de 2023 em que a BYD pagou o seguro Porto para compradores. Concentração relevante a monitorar conforme frota elétrica cresce. (fonte: digested/notion_porto_seguro_porto_seguro_alexsander_update_byd_e_carro_el_trico_9e500ca3_summary.md)
+
+**Estrutura de custo do sinistro:** ~40% FIPE (tabela de veículos usados) e ~60% peças e serviços. Relação entre queda da FIPE e prêmio não é direta nem imediata. (fonte: digested/notion_porto_seguro_porto_seguro_alexsander_update_byd_e_carro_el_trico_9e500ca3_summary.md)
+
+**SUSEP Fev/26 (prévia 2M26):** sinistralidade Auto Porto **55,2% no mês / 56,2% no 2M26** (-10,1 pp / -6,4 pp a/a) — queda muito superior ao mercado ex-Porto (-0,1 pp / -1,5 pp). Prêmio direto caiu 2,3% no mês / 3,3% no 2M26 enquanto mercado ex-Porto cresceu +3,4%/+3,9% (perda de share de volume, preservando preço e sinistralidade). (fonte: digested/porto_previa_operacional_2T26_summary.md)
+
+**Lançamentos 2026:** seguro de motocicleta (mercado crescente, mais motos vendidas/mês que carros); reativação da marca Itaú; produtos de inclusão securitária. (fonte: digested/notion_porto_seguro_kakinoff_3t25_jpm_2a800ca3_summary.md, digested/porto_call_transcript_3T25_summary.md)
+
+**Regulamentação APVs (Associações de Proteção Veicular):** vigente mas ainda em detalhamento — "já caiu dramaticamente" o número de agentes; Kakinoff vê como complementar/positivo para o setor. (fonte: digested/porto_call_transcript_4T25_summary.md)
 
 ---
 
 ## Vertical 2 — Porto Saúde
 
-Modelo "health tech" asset-light focado em SP, RJ e Brasília (70% do mercado nacional). Market share nas regiões: 1,5%–5% — muito abaixo do share em auto, com espaço endereçável relevante. (fonte: sources/digested/notion_porto_seguro_kakinoff_3t25_jpm_2a800ca3_summary.md)
+Modelo "health tech" asset-light focado em SP, RJ e Brasília (70% do mercado nacional). Market share nas regiões de 1,5%–5% — muito abaixo do share em auto, com espaço endereçável relevante. Market share nacional (Saúde + Odonto) 2,5% com crescimento +29,6% vs mercado +8,6% em 11M25. (fonte: digested/notion_porto_seguro_kakinoff_3t25_jpm_2a800ca3_summary.md, digested/porto_previa_operacional_1T26_summary.md)
 
-| Indicador | 4T25 | 3T25 |
-|---|---|---|
-| Clientes (saúde + odonto) | ~2 mm | ~800 k |
-| Novos beneficiários no trim. | 346 k | 143 k |
-| Receita | R$ 2,3 bi | R$ 2,2 bi |
-| Lucro | R$ 170 mm (+22% a/a) | R$ 126 mm (+65% a/a) |
-| ROE | 33% | 25,7% (+350 bps a/a) |
-| Sinistralidade | 73% (vs 77% em 2024) | 78,3% [?] |
+| Indicador | 4T25 | 3T25 | 2T25 | 1T25 | 2025 | 2024 |
+|---|---|---|---|---|---|---|
+| Receita | R$ 2,29 bi (+22,7%) | R$ 2,19 bi (+26,9%) | R$ 2,0 bi (+27,4%) | R$ 1,96 bi (+35,2%) | R$ 8,5 bi (+28%) | R$ 6,6 bi (+44%) |
+| Lucro | R$ 169,7 mm (+22,2%) | R$ 126,3 mm (+64,7%) | R$ 105,5 mm (+45,1%) | R$ 179,6 mm (+70,6%) | R$ 581,1 mm (+47,7%) | R$ 393,6 mm (+96%) |
+| ROAE | 32,7% | 25,7% | 22,4% | 39,7% | 28% | — |
+| Sinistralidade (seguro saúde) | 74,9% (-1,4 pp) | 78,3% (-0,9 pp) | 78,4% (-2,3 pp) | 70,8% (-1,9 pp) | 75% | 79% |
+| IC | 88,5% | 92,0% | 92,6% | 83,6% | 89% | 92% |
+| Vidas Seguro Saúde | 831 k (+23%) | 784 k (+22%) | 751 k (+24%) | 702 k (+25%) | — | 675 k |
+| Vidas Odonto | 1,18 mm (+19%) | 1,14 mm (+20%) | 1,1 mm (+24%) | 1,03 mm (+27%) | — | 995 k |
 
-(fonte: sources/digested/notion_porto_seguro_porto_call_resultados_4t25_2fe00ca3_summary.md, sources/digested/notion_porto_seguro_call_porto_seguro_3t25_2a800ca3_summary.md)
+(fonte: digested/porto_release_4T25_summary.md, digested/porto_release_3T25_summary.md, digested/porto_itr_2T25_summary.md, digested/porto_itr_1T25_summary.md, digested/porto_dfp_2025_summary.md)
 
-Crescimento 9M25: saúde +28% a/a, saúde+odonto +22% a/a. (fonte: sources/digested/notion_porto_seguro_call_porto_seguro_3t25_2a800ca3_summary.md)
+CAGR 2021-2025: receita 37,2%, lucro 78,6%, ROAE +15,9 pp. Vidas saúde passaram de 250 mil em 2021 para 831 mil em 2025. **21 trimestres consecutivos de crescimento** de beneficiários. (fonte: digested/porto_release_4T25_summary.md, digested/porto_call_transcript_3T25_summary.md)
 
-Mix: 2/3 PME, 1/3 corporate; PME ganhando share. Target de sinistralidade da gestão: 75%–80% — sinistralidade melhor nos produtos novos tende a ser reabsorvida com o crescimento. (fonte: sources/digested/notion_porto_seguro_porto_seguro_jpm_69c00ca3_summary.md)
+**Mix:** 2/3 PME, 1/3 corporate; PME ganhando share. Target de sinistralidade da gestão: 75%–80% — sinistralidade melhor nos produtos novos tende a ser reabsorvida com o crescimento. (fonte: digested/notion_porto_seguro_porto_seguro_jpm_69c00ca3_summary.md)
 
-Impacto do STF (reajuste de planos acima de 60 anos): marginal para a Porto — portfólio muito recente, sem carteira individual ou coletivo empresarial relevante. Negativo para a indústria em geral. (fonte: sources/digested/notion_porto_seguro_call_porto_seguro_3t25_2a800ca3_summary.md)
+**Verticalização virtual (Time Médico Porto):** atua em 40% das consultas em SP; produtos novos (Porto Saúde, Pro, Bairro — preços relativos 80/70/55 vs Tradicional=100) performando acima do esperado em sinistralidade. Combate a fraudes é alavanca complementar. (fonte: digested/porto_call_transcript_4T25_summary.md, digested/porto_call_transcript_2T25_summary.md)
 
-Concorrente mais agressivo: [[amil]] (UnitedHealth). Porto captura clientes do [[bradesco]] e do topo da [[hapvida]]; no Rio, principal fonte de portabilidade: Golden Cross. (fonte: sources/digested/notion_porto_seguro_porto_seguro_jpm_69c00ca3_summary.md)
+**STF (reajuste de planos acima de 60 anos):** impacto marginal para a Porto — portfólio pós-Estatuto do Idoso, sem individual, sem coletivo empresarial relevante. Negativo para a indústria em geral, pode aliviar marginalmente a guerra comercial. (fonte: digested/porto_call_transcript_3T25_summary.md)
+
+**Concorrência:** [[amil]] (UnitedHealth) é o player mais agressivo; Porto captura clientes do [[bradesco]] e do topo da [[hapvida]]; no Rio, principal fonte de portabilidade é Golden Cross. (fonte: digested/notion_porto_seguro_porto_seguro_jpm_69c00ca3_summary.md)
+
+**Ajuste de diferimento de comissões (set/24):** gerou +2,3 pp em IDC no 1T25 e +2,2 pp no 2T25 — efeito contábil com cauda de 12–18 meses. (fonte: digested/porto_release_1T25_summary.md, digested/porto_release_2T25_summary.md)
 
 ---
 
 ## Vertical 3 — Porto Bank
 
-Banco digital subsidiário com foco no ecossistema Porto. Transição de fase de startup para escala ("skywalk") a partir de 2026. Parceria com [[itau]] para conta digital. (fonte: sources/digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md)
+Banco digital subsidiário com foco no ecossistema Porto. Detalhamento da vertical em [[porto_bank]]. Transição de fase de startup para escala ("skywalk") a partir de 2026. Parceria com [[itau]] para conta digital. (fonte: digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md)
 
-| Indicador | 4T25 | 3T25 |
-|---|---|---|
-| Receita | +31% a/a | — |
-| Lucro | ~R$ 220 mm (+35% a/a) | R$ 196 mm [?] (+18,5% a/a) |
-| ROE | 28% | 26,1% |
-| Índice de eficiência | 32% (-130 bps) | 33,8% [?] |
-| ARPAC | R$ 160 | — |
-| Carteira garantias | +72% em 2025 | +20% a/a |
-| NIM (acumulado/trim.) | acum. 2025: 3,5% | 3,4% |
+| Indicador | 4T25 | 3T25 | 2T25 | 1T25 | 2025 | 2024 |
+|---|---|---|---|---|---|---|
+| Receita (aj.) | R$ 2,07 bi (+30,9%) | R$ 1,94 bi (+28,7%) | R$ 1,8 bi (+29,7%) | R$ 1,73 bi (+29,0%) | R$ 7,6 bi (+30%) | R$ 5,8 bi (+22%) |
+| Lucro | R$ 219,4 mm (+35,1%) | R$ 196,0 mm (+18,5%) | R$ 204,1 mm (+31,2%) | R$ 192,1 mm (+29,2%) | R$ 812 mm (+28%) | R$ 632 mm (+53%) |
+| ROAE | 28,4% | 26,1% | 27,6% | 27,0% | — | — |
+| Índice de eficiência | 32,2% (-1,3 pp) | 33,8% | 33,2% | — | 33,1% (estável) | — |
+| NIM ajust. a risco | 3,0% | 3,4% | 4,7% | 4,5% | 3,9% (+1,5 pp) | 2,4% |
+| ARPAC mensal | R$ 160 (+13%) | R$ 157 (+15%) | R$ 150 (+11%) | R$ 146 | — | — |
+| Carteira de crédito | R$ 23,5 bi (+22%) | R$ 21,7 bi (+20%) | R$ 20,9 bi (+18%) | R$ 20,1 bi (+14%) | R$ 23,5 bi | R$ 16,6 bi |
+| Consórcio administrado | R$ 107,3 bi (+36%) | R$ 102,5 bi (+31%) | R$ 82,2 bi (+29%) | R$ 81,2 bi (+36%) | R$ 107,3 bi | — |
+| Inadimplência 90d | 7,3% | 7,2% | 9,0% | 6,0% | 7,3% | 5,2% |
 
-(fonte: sources/digested/notion_porto_seguro_porto_call_resultados_4t25_2fe00ca3_summary.md, sources/digested/notion_porto_seguro_call_porto_seguro_3t25_2a800ca3_summary.md)
+(fonte: digested/porto_release_4T25_summary.md, digested/porto_release_3T25_summary.md, digested/porto_release_2T25_summary.md, digested/porto_release_1T25_summary.md, digested/porto_dfp_2025_summary.md)
 
-**Evolução do NIM:** 0,8% (2023) → 2,4% (2024) → 3,5% acumulado 2025. Contração no 3T25 para 3,4% por mix de parcelamento de fatura e adaptação ao Stop Accrual. Ponto de inflexão esperado no 1T26, com crescimento mais visível a partir do 2T26. (fonte: sources/digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md)
+**Evolução do NIM ajustado:** 0,8% (2023) → 2,4% (2024) → 3,9% (2025). Flutuação trimestral em 2025 afetada por (i) mudança de stop accrual de 60d para 90d (Resolução 4966), (ii) mix de parcelamento de fatura e Pix, (iii) migração de parte do book para Car Equity. Ponto de inflexão de crescimento mais visível esperado a partir do 2T26. (fonte: digested/porto_release_3T25_summary.md, digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md)
 
-**Penetração na base Porto:**
-- Porto Seguro (seguradora): 23%
-- Porto Saúde: 10%
-- Porto Serviços: 6%
-- ~1 milhão de portadores de cartão sem seguro ativo — universo relevante para cross-sell reverso
-
-(fonte: sources/digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md)
+**Penetração na base Porto:** Seguradora 23%, Saúde 10%, Serviços 6%; ~1 milhão de portadores de cartão sem seguro ativo — universo relevante para cross-sell reverso. (fonte: digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md)
 
 **Produtos principais:**
 
-*Consórcio:* 13% share em imóvel, 3% em auto (meta 1T: 6%). Consórcio auto cresceu 33% vs mercado +21% (9M25). Comissionamento 3%–3,5% sobre crédito vendido. Mix dominado por imobiliário (ticket ~R$ 200k vs ~R$ 50–70k em auto). (fonte: sources/digested/notion_porto_seguro_porto_bank_lou_o_14_05_2025_eb900ca3_summary.md, sources/digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md)
+*Consórcio:* carteira administrada R$ 107,3 bi (+36% em 2025). Market share 12,6% em imóveis, 4,2% em auto (cresceu +32% vs mercado +19% em 11M25). Comissionamento 3%–3,5% sobre crédito vendido. Mix dominado por imobiliário (ticket ~R$ 200k vs ~R$ 50–70k em auto). Em maio/2025 migrou para diferimento por cota (novo sistema) — efeito retroativo reduz receita em R$ 276 mm no 4T25 com efeito positivo simétrico em comissão (líquido ~zero). (fonte: digested/porto_release_4T25_summary.md, digested/porto_previa_operacional_1T26_summary.md, digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md)
 
-*Car equity (Carecut):* R$ 650 mm (era R$ 400 mm no 1T24). 70%+ originado via app; LTV máximo de 70%; 100% em carros segurados pela Porto (seguro funciona como filtro de qualidade do tomador). Substituto estratégico ao financiamento de veículos — maior ROE, menor custo de risco. (fonte: sources/digested/notion_porto_seguro_porto_bank_lou_o_14_05_2025_eb900ca3_summary.md, sources/digested/notion_nubank_perguntas_porto_seguro_porto_bank_26100ca3_summary.md)
+*Car equity (Carecut):* carteira R$ 650 mm (era R$ 400 mm no 1T24); +72% em 2025. 70%+ originado via app; LTV máximo de 70%; 100% em carros segurados pela Porto (seguro funciona como filtro de qualidade do tomador). Substituto estratégico ao financiamento de veículos — maior ROE, menor custo de risco. Produto com ~1–2 anos de histórico, ainda sem ciclo completo de crédito em cenário de alta de juros. (fonte: digested/notion_porto_seguro_porto_bank_lou_o_14_05_2025_eb900ca3_summary.md, digested/notion_nubank_perguntas_porto_seguro_porto_bank_26100ca3_summary.md)
 
-*Fiança locatícia:* 60% de share (era 86% quando mercado era 3x menor); lucro do segmento quadruplicou. Vantagem competitiva: relacionamento com imobiliárias vs. digitais (ex.: Quinto Andar) que tiveram que migrar para parcerias com imobiliárias. (fonte: sources/digested/notion_porto_seguro_porto_bank_lou_o_14_05_2025_eb900ca3_summary.md)
+*Fiança locatícia:* **55,2% de share em 11M25** (era 86% quando mercado era 3x menor); lucro do segmento quadruplicou nos últimos anos. Vantagem competitiva: relacionamento com imobiliárias vs. digitais (ex.: Quinto Andar) que tiveram que migrar para parcerias com imobiliárias. (fonte: digested/porto_previa_operacional_1T26_summary.md, digested/notion_porto_seguro_porto_bank_lou_o_14_05_2025_eb900ca3_summary.md)
 
-*Cartão de crédito:* market share de 2,8%; crescimento de 24% a/a (9M25); ~700 mil compras no 3T25. Parcelamento de fatura e de Pix disponíveis. ~1 milhão de clientes Porto Bank com cartão. TPV interno (ecossistema Porto): 12%. (fonte: sources/digested/notion_porto_seguro_call_porto_seguro_3t25_2a800ca3_summary.md, sources/digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md)
+*Cartão de crédito:* market share 2,8% (+24,6% vs mercado +17,4%); carteira R$ 20,5 bi; ~700 mil compras no 3T25. Parcelamento de fatura e de Pix disponíveis. TPV interno (ecossistema Porto): 12%. (fonte: digested/porto_previa_operacional_1T26_summary.md, digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md)
 
-**Funding:** ~R$ 5,7 bi via LFs e CDBs (sem capital nível 1 da holding). Abertura de 10 plataformas de varejo (incluindo Ágora/XP) para pulverizar CDB e reduzir spread de captação. Novas LFs: abaixo de CDI+0,5%; CDBs varejo: 101%–104% do CDI. Porto Bank Investimentos (caixinha) em lançamento. (fonte: sources/digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md)
+**Funding:** ~R$ 5,7 bi via LFs e CDBs (sem capital nível 1 da holding). Abertura de 10 plataformas de varejo (incluindo Ágora/XP) para pulverizar CDB e reduzir spread de captação. Novas LFs: abaixo de CDI+0,5%; CDBs varejo: 101%–104% do CDI. Porto Bank Investimentos (caixinha) em lançamento. Risco sacado/capital de giro: R$ 250 mm liberados no 4T25. (fonte: digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md, digested/porto_call_transcript_4T25_summary.md)
 
-**Conta PJ:** foco em centros automotivos e oficinas; lançamento completo esperado para 1T26. Despesas da Porto Seguro com oficinas: R$ 1,5 bi — base endereçável para capital de giro. (fonte: sources/digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md, sources/digested/notion_porto_seguro_porto_bank_lou_o_14_05_2025_eb900ca3_summary.md)
+**Conta PJ:** foco em centros automotivos e oficinas; lançamento completo esperado para 1T26. Despesas da Porto Seguradora com oficinas: R$ 1,5 bi — base endereçável para capital de giro. Consignado privado entra em 2026. (fonte: digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md, digested/porto_call_transcript_4T25_summary.md)
+
+**Previdência** migrou de Seguro para Bank a partir do 1T25 (AUM R$ 5,98 bi) — afeta comparabilidade YoY. (fonte: digested/porto_release_1T25_summary.md)
 
 ---
 
-## Vertical 4 — Porto Serviços
+## Vertical 4 — Porto Serviço
 
-| Indicador | 4T25 | 3T25 |
-|---|---|---|
-| EBITDA | R$ 108 mm (+5%) | ~R$ 50 mm [?] |
-| Margem EBITDA | 16,3% (+0,3 pp) | — |
-| Lucro líquido | R$ 91 mm | — |
-| ROE | 36% | 18,6% |
-| NPS | >80 pts | 81 pts |
+Registro CVM obtido em ago/2024 — preparando eventual abertura de capital autônoma. Em out/2025, incorporou **CDF Assistência** e **Porto Assistência Participações** (acordo de acionistas com BTG, que ingressou via PIP Multiestratégia). (fonte: digested/porto_dfp_2024_summary.md, digested/porto_fatos_relevantes_batch_summary.md)
 
-(fonte: sources/digested/notion_porto_seguro_porto_call_resultados_4t25_2fe00ca3_summary.md, sources/digested/notion_porto_seguro_call_porto_seguro_3t25_2a800ca3_summary.md)
+| Indicador | 4T25 | 3T25 | 2T25 | 1T25 | 2025 | 2024 |
+|---|---|---|---|---|---|---|
+| Receita | R$ 663 mm (+3,4%) | R$ 605,5 mm (-2,4%) | R$ 624 mm (-1,8%) | R$ 669,7 mm (+9,4%) | R$ 2,6 bi (+2%) | R$ 2,5 bi |
+| EBITDA | R$ 108 mm (+5%) | R$ 91 mm | R$ 101 mm | R$ 113,5 mm (+19,4%) | — | — |
+| Margem EBITDA | 16,3% (+0,3 pp) | 15,0% (-2,0 pp) | 16,2% | 16,9% (+1,4 pp) | — | — |
+| Lucro líquido | R$ 83,5 mm (+41,9%) | R$ 38,4 mm (-26,9%) | R$ 45,1 mm (-6,5%) | R$ 53,6 mm (+19,1%) | R$ 264 mm (+5,3%) | R$ 204,6 mm |
+| ROAE | 36,1% | 17,8% | 21,5% | 26,3% | 24,9% | — |
+| NPS | 81 | 81 | — | — | 81 | — |
 
-75% da receita é intercompany (Porto Seguradora como principal cliente). Crescimento de serviços digitais: ~60% no 3T25 a/a; ~95% no acumulado 9M25. Incorporação da CDF gerará benefício fiscal de R$ 35–40 mm/ano por amortização de ágio de R$ 500 mm. (fonte: sources/digested/notion_porto_seguro_porto_call_resultados_4t25_2fe00ca3_summary.md, sources/digested/notion_porto_seguro_porto_seguro_citi_efe00ca3_summary.md)
+(fonte: digested/porto_release_4T25_summary.md, digested/porto_release_3T25_summary.md, digested/porto_release_2T25_summary.md, digested/porto_release_1T25_summary.md)
+
+75% da receita é intercompany (Porto Seguradora como principal cliente). Receita cai quando sinistralidade Auto baixa — efeito contabilmente negativo, mas benéfico para o consolidado via menor sinistralidade. Dependência da Parceria Porto caiu de 76,5% (1T25) para 75,9% (2T25). **Produtos digitais +73% em 2025** (+60% no 3T, +37,7% no 4T25 a/a, +100% no 2T25). Treinamento nacional concluído no 2T25, viabilizando oferta em todo o território. (fonte: digested/porto_release_4T25_summary.md, digested/porto_call_transcript_2T25_summary.md, digested/porto_call_transcript_3T25_summary.md)
+
+**Incorporação CDF (4T25):** gerou ágio de R$ 500 mm com benefício fiscal de **R$ 30 mm no 4T25 + R$ 35–40 mm/ano** (amortização) — não contemplado no guidance de taxa efetiva contábil 2026, reduz a taxa caixa efetiva. (fonte: digested/porto_call_transcript_4T25_summary.md, digested/notion_porto_seguro_porto_seguro_citi_efe00ca3_summary.md)
+
+Operações: 698 k atendimentos Auto + 709 k residências no 4T25; 5,2 mm atendimentos em 2024. ~14 mil visitas/dia. Lançamento "15 minutos" em SP para assistência veicular noturna. (fonte: digested/porto_release_4T25_summary.md, digested/porto_dfp_2024_summary.md)
 
 ---
 
 ## Capital, dividendos e estrutura
 
-- Excesso de capital na holding: ~R$ 3–4 bilhões (~25% do PL)
-- Payout 2025: 55% bruto / 50% líquido (vs 50%/45% em 2024)
-- Programa de recompra: 5–6 milhões de ações/ano; recompra adicional para cancelamento esperada em 2026 se guidance cumprido
-- Rolagem de R$ 2 bi em títulos IPCA+4,5% para IPCA+7% — benefício no resultado financeiro 2026–2027
-- Resultado financeiro 2025: na ponta alta do guidance de R$ 1,4 bi
+- **Excesso de capital na Porto S.A.:** ~R$ 4 bi em dez/25 (R$ 3–4 bi ao longo de 2025). Suficiência regulatória consolidada: **PLA R$ 11,9 bi vs necessidade R$ 7,94 bi → suficiência R$ 3,96 bi** (+50% sobre o mínimo SUSEP/BACEN/ANS/BC Uruguai). (fonte: digested/porto_release_4T25_summary.md, digested/porto_call_transcript_4T25_summary.md)
+- **Payout 2025:** 55% bruto / 50% líquido (vs 50%/45% em 2024). Dividendos mínimos + JCP R$ 957,5 mm; adicionais propostos R$ 885,8 mm; recompras R$ 381,3 mm; total pago em 2025: R$ 1,19 bi. (fonte: digested/porto_dfp_2025_summary.md, digested/porto_call_transcript_4T25_summary.md)
+- **Programa de recompra 2026:** aprovado em 04/02/2026, limite de até 18.473.647 ações (10% em circulação), vigência até 03/02/2027, intermediário Itaú CV. Em adição, **recompra para cancelamento** aprovada para 2026 (além dos 5–6 mm ações/ano de remuneração), condicionada a cumprimento do guidance. (fonte: digested/porto_fatos_relevantes_batch_summary.md, digested/porto_call_transcript_4T25_summary.md)
+- **Rolagem NTN-B R$ 2 bi:** IPCA+4,5% → IPCA+7%; impacto pontual -R$ 105 mm no 4T25 → propicia melhor resultado financeiro em 2026–2027. (fonte: digested/porto_call_transcript_4T25_summary.md)
+- **Cotação e market cap:** PSSA3 R$ 48,36 em dez/25 (+32,3% em 12m); market cap R$ 31,3 bi; P/L 9,2; 184,74 mm ações; tesouraria 6,21 mm. Free float geográfico (set/25): Brasil 42%, EUA 28%, UK 5%, outros 26% (deslocamento relevante para investidor americano ao longo de 2025). (fonte: digested/porto_release_4T25_summary.md, digested/porto_release_3T25_summary.md)
 
-(fonte: sources/digested/notion_porto_seguro_porto_call_resultados_4t25_2fe00ca3_summary.md)
+### Resultado financeiro e carteira de investimentos
+
+Resultado financeiro 2025: **R$ 1,43 bi (+55,7%)** — na ponta alta do guidance de R$ 1,2–1,4 bi. Carteira total ~R$ 23,4 bi (inclui previdência); ex-previdência R$ 17,2 bi. Rentabilidade da tesouraria (ex-previdência/ALM/rolagem) **84,5% do CDI no ano** (79,3% no 4T25), pressionada por alocação em títulos indexados à inflação (IPCA 0,6% no 3T25). (fonte: digested/porto_release_4T25_summary.md, digested/porto_release_3T25_summary.md)
+
+Composição 4T25: pós-fixado 35%, pré-fixado 15%, inflação/juro real 41%, crédito 4%, ações 3%. Internamente precificam excesso de capital com 100% do CDI (risco fica na Holding). Benchmark gerencial é IPCA — Kakinoff pediu explicitamente para modelos não ancorarem em CDI. Série histórica 5–10 anos mostra retorno ~110–140% do CDI. (fonte: digested/porto_previa_operacional_1T26_summary.md, digested/porto_call_transcript_1T25_summary.md)
+
+---
+
+## Market share (acumulado 11M25 / 9M25 — SUSEP/ANS/Anbima)
+
+| Segmento | Porto | Δ Porto | Δ Mercado | Posição |
+|---|---|---|---|---|
+| Auto | **26,2%** | +1,9% | +6,4% | Líder |
+| Residencial | 20,5% | +9,2% | +10,5% | Líder |
+| Empresarial P&C | 25,2% | +15,7% | +14,0% | Líder (ganhando share) |
+| Fiança locatícia | 55,2% | +9,3% | +18,3% | Líder |
+| Consórcio imóveis | 12,6% | +32,7% | +39,3% | — |
+| Cartão de crédito | 2,8% | +24,6% | +17,4% | — |
+| Consórcio veículos leves | 4,2% | +32,0% | +19,1% | — |
+| Saúde + Odonto | 2,5% | +29,6% | +8,6% | — |
+| Vida | 2,4% | +13,3% | +8,6% | — |
+
+Auto 2M26 (SUSEP GAAP): Porto 27,0% (R$ 2,6 bi); 2º player 16,8%; 3º 15,5%; 4º 13,4%; 5º 10,7%. (considera fusão HDI/Liberty/Sompo). (fonte: digested/porto_previa_operacional_1T26_summary.md, digested/porto_previa_operacional_2T26_summary.md)
 
 ---
 
 ## Guidance 2026
 
-| Vertical | Indicador | Direção |
-|---|---|---|
-| Seguros | Prêmios | Crescimento > 2025 |
-| Seguros | Sinistralidade | Saudável vs 2025 |
-| Saúde | Crescimento | Similar a 2025 |
-| Saúde | Sinistralidade | Flat vs 2025 (midpoint) |
-| Banco | Receita ajustada | ~+20% |
-| Banco | Novos produtos | Crédito sacado, consignado privado |
-| Resultado financeiro | — | R$ 1,4–1,8 bi (Selic ~12%, IPCA Focus) |
+| Vertical | Métrica | 2026 (range) | Realizado 2025 |
+|---|---|---|---|
+| Seguro | Prêmio ganho Δ | +3% a +7% | +3% |
+| Seguro | Sinistralidade | 50,5%–54,5% | 52% |
+| Seguro | G&A | 10,0%–10,6% | 10,3% |
+| Saúde | Prêmio ganho Δ | +14% a +22% | +29% |
+| Saúde | Sinistralidade | 72%–77% | 75% |
+| Saúde | G&A | 4,7%–5,7% | 5,0% |
+| Bank | Receita total | R$ 7,5–7,9 bi (novo critério — líquido de rewards/bandeiras) | R$ 7,6 bi reportado |
+| Bank | Perdas de crédito | R$ -2,7 a -3,1 bi | R$ -2,3 bi |
+| Bank | Índice de eficiência | 27%–31% (nova metodologia) | 33% (critério antigo) |
+| Serviço | Receita total | R$ 2,6–2,9 bi | R$ 2,6 bi |
+| Serviço | G&A | 9%–10% | 7,4% |
+| Consolidado | Resultado financeiro | R$ 1,4–1,8 bi | R$ 1,4 bi |
+| Consolidado | Taxa efetiva IR | 28%–32% | 27% |
 
-Guidance 2026 inclui impacto de R$ 276 mm no 4T25 por mudança contábil no consórcio (diferimento por cota) e reclassificação de despesas de bandeira e loyalty (>R$ 700 mm) como dedutoras de receita — crescimento ~20% é ajustado por essas mudanças contábeis. (fonte: sources/digested/notion_porto_seguro_porto_call_resultados_4t25_2fe00ca3_summary.md)
+(fonte: digested/porto_previa_operacional_1T26_summary.md, digested/porto_release_4T25_summary.md)
+
+**Mudanças contábeis 2026 afetam comparabilidade Bank:**
+1. Consórcio migrou para diferimento por cota (maio/25, retroativo) — impacto -R$ 276 mm em receita no 4T25 + efeito positivo simétrico em comissão (líquido ~zero).
+2. Despesas de bandeira/loyalty (~R$ 720 mm em 2025) passam a dedutoras de receita (antes eram despesa operacional).
+
+Ajustada pelas duas, receita 2026 cresce **~+20% no midpoint** (Falavina); ranges 2026 **não são comparáveis** com 2025 reportado. Usar 2025 pro-forma R$ 1,6 bi de OA+DO implícito e R$ ~5–6 bi de receita pro-forma implícita. (fonte: digested/porto_call_transcript_4T25_summary.md, digested/porto_previa_operacional_1T26_summary.md)
+
+**Premissas macro do guidance:** Selic média ~12% ±1 pp (CDI cai 0,5 pp a partir de março/26); IPCA conforme Focus. A partir de 2027, ineficiência PIS/COFINS em JCP/dividendos entre entidades deve deixar de existir com novas regras tributárias. (fonte: digested/porto_call_transcript_4T25_summary.md)
+
+---
+
+## M&A e fatos relevantes recentes
+
+- **Oncoclínicas (março–abril/2026):** term sheet não-vinculante de 13/03/2026 previa aporte primário de R$ 500 mm por participação de controle + R$ 500 mm em debêntures conversíveis (110% CDI, 48 meses, conversão a partir do 36º mês), com até R$ 2,5 bi em dívidas/passivos a serem transferidos ao novo veículo. Investimento equivaleria a ~3,1% do PL da Porto (classificado como não relevante). Fleury ingressou como potencial co-investidor em 23/03/2026. **Negociações encerradas em 13/04/2026**, liberando a Oncoclínicas da exclusividade. (fonte: digested/porto_fatos_relevantes_batch_summary.md)
+- **Reorganização Porto Serviço (31/10/2025):** aprovada incorporação, pela Porto Serviço, da CDF Assistência e da Porto Assistência Participações; acordo de acionistas com BTG Pactual Economia Real FIP Multiestratégia celebrado na mesma data. (fonte: digested/porto_fatos_relevantes_batch_summary.md)
+- **Recompras:** CA de 12/02/2025 aprovou programa de até 18.472.080 ações (vigência 21/02/2025–20/02/2026); em 04/02/2026 foi aprovado novo programa (vigência até 03/02/2027). (fonte: digested/porto_fatos_relevantes_batch_summary.md)
+- **Revisões de guidance 2025:** duas revisões via fato relevante (13/08/2025 e 11/11/2025), com ajustes finos em sinistralidade Saúde, receita Bank, eficiência Bank, taxa efetiva IR e G&A Seguro/Serviço. (fonte: digested/porto_fatos_relevantes_batch_summary.md)
 
 ---
 
 ## Estratégia e prioridades 2026
 
-1. **Cross-sell acelerado** — cartão como payment universal; serviços embutidos nos seguros; ampliação da oferta de saúde; novos corretores especialistas por segmento. (fonte: sources/digested/notion_porto_seguro_kakinoff_3t25_jpm_2a800ca3_summary.md)
-2. **Penetração de corretores** — 45.000 corretores ativos de ~65.000 existentes no Brasil. Apenas ~10–11 mil corretores vendem produtos bancários atualmente. (fonte: sources/digested/notion_porto_seguro_kakinoff_3t25_jpm_2a800ca3_summary.md, sources/digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md)
-3. **Proteção de ROE no auto via segmentação de marca** — portfólio de 6 marcas permite capturar diferentes segmentos sem participar de guerra de preços. (fonte: sources/digested/notion_porto_seguro_kakinoff_3t25_jpm_2a800ca3_summary.md)
+1. **Cross-sell acelerado** — cartão como payment universal; serviços embutidos nos seguros; ampliação da oferta de saúde; novos corretores especialistas por segmento. (fonte: digested/notion_porto_seguro_kakinoff_3t25_jpm_2a800ca3_summary.md)
+2. **Penetração de corretores** — 47,5 mil corretores ativos de ~65 mil existentes no Brasil. Apenas ~10–11 mil corretores vendem produtos bancários atualmente. (fonte: digested/porto_release_3T25_summary.md, digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md)
+3. **Proteção de ROE no auto via segmentação de marca** — portfólio de 6 marcas permite capturar diferentes segmentos sem participar de guerra de preços. Expectativa de ambiente menos competitivo em 2026. (fonte: digested/notion_porto_seguro_kakinoff_3t25_jpm_2a800ca3_summary.md, digested/porto_call_transcript_3T25_summary.md)
+4. **Porto Bank "skywalk" 2026** — novo critério de receita (líquido de rewards), nova metodologia de eficiência (27–31%), entrada em crédito sacado/consignado privado, lançamento completo de conta PJ, Porto Bank Investimentos. (fonte: digested/porto_call_transcript_4T25_summary.md, digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md)
+5. **Filosofia conservadora** — preservar margem sobre market share, crescer com recursos próprios, navegar volatilidade macro sem acessar mercado (inclusive pandemia). (fonte: digested/porto_call_transcript_3T25_summary.md)
 
 ---
 
 ## Riscos e pontos de atenção
 
-- **Guerra de preços em auto:** ciclo em andamento com [[allianz]] como agressor; Porto perdeu share de ~28% para ~26,7%. Gestão mantém abordagem técnica focada em margem.
-- **Inadimplência Porto Bank:** +30 bps no 3T25 vs 2T25 (vs +70 bps do sistema); provisão preventiva para ~12 mil clientes com perfil de uso preocupante (<0,5% da carteira de 3 mm). (fonte: sources/digested/notion_porto_seguro_porto_call_resultados_4t25_2fe00ca3_summary.md)
-- **Tributação de dividendos em 2026:** gestão monitora legislação, sem decisão sobre antecipação de proventos. (fonte: sources/digested/notion_porto_seguro_call_porto_seguro_3t25_2a800ca3_summary.md)
-- **Car equity:** produto com ~1–2 anos de histórico; ainda não passou por ciclo completo de crédito em cenário de alta de juros. (fonte: sources/digested/notion_porto_seguro_porto_bank_lou_o_14_05_2025_eb900ca3_summary.md)
-- **Competição em saúde:** [[amil]] mais agressiva; gestão não observa aumento de liminares judiciais (contexto Hapvida), mas monitora. (fonte: sources/digested/notion_porto_seguro_porto_seguro_jpm_69c00ca3_summary.md)
+- **Guerra de preços em auto:** ciclo em andamento com [[allianz]] como agressor; Porto perdeu share de ~28% em 2024 para 26,2% em 11M25 (recuperando para 27,0% em 2M26). Gestão mantém abordagem técnica focada em margem — volume fica abaixo do mercado no curto prazo. (fonte: digested/porto_previa_operacional_2T26_summary.md)
+- **Inadimplência Porto Bank:** 90d em 7,3% no 4T25 (vs mercado 6,0%); +30 bps no 3T25 vs 2T25 (vs +70 bps do sistema); provisão preventiva (PDD +30% no midpoint 2026) para ~12 mil clientes com perfil de uso preocupante (<0,5% da carteira de 3 mm cartão). Indicador 15–90 dias em 4,3% caindo — sem piora real de safra. (fonte: digested/porto_call_transcript_4T25_summary.md, digested/porto_release_4T25_summary.md)
+- **Tributação de dividendos em 2026:** gestão monitora legislação, sem decisão sobre antecipação de proventos. Ambição de crescimento até 2030 justifica retenção. (fonte: digested/porto_call_transcript_3T25_summary.md)
+- **Car equity:** produto com ~1–2 anos de histórico; ainda não passou por ciclo completo de crédito em cenário de alta de juros. (fonte: digested/notion_porto_seguro_porto_bank_lou_o_14_05_2025_eb900ca3_summary.md)
+- **Competição em saúde:** [[amil]] mais agressiva; gestão não observa aumento de liminares judiciais (contexto Hapvida), mas monitora. (fonte: digested/notion_porto_seguro_porto_seguro_jpm_69c00ca3_summary.md)
+- **Sensibilidade à sinistralidade:** documentado em notas IFRS 17 (DFP 2024), +5% na sinistralidade dos contratos de seguro impactaria o lucro em R$ (15,8) bi — **principal risco do modelo**, alta alavancagem operacional. (fonte: digested/porto_dfp_2024_summary.md)
+- **Rentabilidade da carteira abaixo do CDI:** 84,5% em 2025, 85% em 2024 — alocação em IPCA pressiona em cenário de inflação baixa; pode se recuperar em 2026 com rolagem NTN-B para IPCA+7%. (fonte: digested/porto_release_4T25_summary.md)
+- **Concentração em BYD/elétricos:** 90% dos carros BYD segurados pela Porto — risco de concentração conforme frota elétrica cresce; estrutura de custo do sinistro pode divergir (bateria, peças específicas). (fonte: digested/notion_porto_seguro_porto_seguro_alexsander_update_byd_e_carro_el_trico_9e500ca3_summary.md)

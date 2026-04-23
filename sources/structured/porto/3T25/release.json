@@ -1,0 +1,439 @@
+{
+  "_schema": "seguradora/v1",
+  "_schema_path": "sources/structured/_schemas/seguradora.json",
+  "_empresa": "porto",
+  "_periodo": "3T25",
+  "_source": "sources/full/porto/3T25/release.md",
+  "_notes": "Release gerencial 3T25. DRE canonical preenchida a partir da DRE Societária IFRS 17 (pág. 36). BP em 30/09/2025 (pág. 35). financeiro_ajustado reflete DRE Gerencial consolidada (pág. 5) com lucro Ex-IFRS 17. Segmentos conforme DRE Gerencial por vertical (pág. 33). Números trimestrais para DRE; 9M25 e YoY capturados em company_specific para contexto.",
+  "canonical": {
+    "operacional": {
+      "premios": {
+        "premio_retido_total": 7802.1,
+        "premio_ganho_total": 7692.4,
+        "premio_retido_seguros": 5650.1,
+        "premio_ganho_seguros": 5564.9,
+        "premio_retido_saude": 2151.3,
+        "premio_ganho_saude": 2129.5,
+        "crescimento_premio_retido_yoy_pct": 9.2
+      },
+      "sinistralidade": {
+        "sinistros_liquidos_retidos": -4508.5,
+        "indice_sinistralidade_pct": 58.6,
+        "indice_sinistralidade_seguros_pct": 51.6,
+        "indice_sinistralidade_saude_pct": 77.3
+      },
+      "indice_combinado": {
+        "indice_combinado_total_pct": null,
+        "indice_combinado_seguros_pct": 89.6,
+        "indice_combinado_saude_pct": 92.0,
+        "indice_combinado_auto_pct": null
+      },
+      "clientes": {
+        "total_clientes_grupo": 18100000,
+        "beneficiarios_seguro_saude": 784000,
+        "beneficiarios_odonto": 1138000,
+        "frota_segurada_auto": 6209900,
+        "apolices_patrimonial": 4433700,
+        "apolices_vida": 5760900
+      },
+      "bank": {
+        "carteira_credito_total": 21700.0,
+        "carteira_credito_liquida": null,
+        "provisao_pdd": -1989.0,
+        "provisao_sobre_carteira_pct": 9.4,
+        "inadimplencia_90d_pct": 7.2,
+        "receita_bank": 1941.7,
+        "cartao_operacoes": 18900.0,
+        "financiamentos": 2800.0
+      },
+      "servicos": {
+        "receita_servicos": 605.5,
+        "n_atendimentos": 1399000,
+        "pct_receita_b2c_parcerias": 23.3
+      },
+      "corretores_rede": {
+        "n_corretores_ativos": 47500,
+        "n_sucursais": null
+      }
+    },
+    "dre": {
+      "receita_total": 10596.9,
+      "receita_seguros": 8358.6,
+      "receita_operacoes_credito": 1188.9,
+      "receita_prestacao_servicos": 910.4,
+      "receita_titulos_capitalizacao": 29.6,
+      "resultado_bruto": 10596.9,
+      "despesas_receitas_operacionais": -9801.0,
+      "despesas_gerais_administrativas": -1855.3,
+      "despesas_administrativas": -1558.4,
+      "despesas_com_tributos": -296.9,
+      "outras_receitas_operacionais": 95.1,
+      "outras_despesas_operacionais": -1111.1,
+      "custos_aquisicao": -224.5,
+      "despesas_seguro": -6500.3,
+      "despesas_resseguro": -17.4,
+      "equivalencia_patrimonial": 14.4,
+      "resultado_operacional": 795.9,
+      "receita_financeira": 490.1,
+      "despesa_financeira": -88.9,
+      "resultado_financeiro": 401.2,
+      "lucro_antes_ir": 1197.1,
+      "ir_corrente": -567.0,
+      "ir_diferido": 212.6,
+      "ir_csll": -354.4,
+      "lucro_operacoes_continuadas": 842.7,
+      "participacao_minoritarios": -10.7,
+      "lucro_liquido_controladores": 831.9,
+      "lucro_liquido_consolidado": 842.7,
+      "lpa_basico": null,
+      "lpa_diluido": null
+    },
+    "bp": {
+      "ativo_circulante": 31940.6,
+      "caixa_equivalentes": 1486.3,
+      "aplicacoes_financeiras_c": 11628.5,
+      "contas_receber_clientes_c": 16112.0,
+      "emprestimos_financiamentos_bank": 15435.7,
+      "tributos_a_recuperar": 367.9,
+      "outros_ativos_c": 2346.1,
+      "ativo_nao_circulante": 21408.4,
+      "aplicacoes_vjr_nc": 2.8,
+      "aplicacoes_vjora_nc": 2212.0,
+      "aplicacoes_custo_amortizado_nc": 7597.6,
+      "contas_receber_nc": 1021.3,
+      "tributos_diferidos_a": 2045.2,
+      "depositos_judiciais": 1581.5,
+      "investimentos": 517.6,
+      "imobilizado": 997.6,
+      "intangivel": 3848.7,
+      "ativo_total": 53349.0,
+      "passivo_circulante": 25340.3,
+      "passivos_contrato_seguro_c": 6435.5,
+      "passivos_financeiros_c": 14271.6,
+      "obrigacoes_fiscais": 807.5,
+      "dividendos_jcp_pagar": 1276.3,
+      "outros_passivos_c": 2549.4,
+      "passivo_nao_circulante": 13028.1,
+      "passivos_contrato_seguro_nc": 4746.5,
+      "passivos_financeiros_nc": 5285.4,
+      "tributos_diferidos_p": 663.0,
+      "provisoes_judiciais": 1596.2,
+      "outros_passivos_nc": 736.9,
+      "patrimonio_liquido_total": 14980.7,
+      "capital_social": 8500.0,
+      "reservas_capital": 808.3,
+      "reservas_lucros": 4348.8,
+      "outros_resultados_abrangentes": -115.0,
+      "acoes_tesouraria": -237.7,
+      "participacao_minoritarios_bp": 65.7,
+      "passivo_pl_total": 53349.0
+    },
+    "financeiro_ajustado": {
+      "lucro_liquido_ex_ifrs17": 835.9,
+      "ajuste_ifrs17": -4.0,
+      "lucro_liquido_societario": 831.9,
+      "roae_pct": 23.0,
+      "roae_12m_pct": 23.4,
+      "patrimonio_liquido_medio": 14482.9,
+      "taxa_efetiva_ir_pct": 30.7,
+      "indice_eficiencia_pct": 10.7,
+      "receita_aplicacoes_financeiras": 450.5,
+      "rentabilidade_carteira_pct_cdi": 76.7,
+      "resultado_financeiro_liquido": 382.8,
+      "participacao_nos_resultados": -271.3,
+      "segmentos": {
+        "seguro": {
+          "premio_retido": 5650.1,
+          "premio_ganho": 5564.9,
+          "sinistros_liquidos": -2869.0,
+          "despesa_comercializacao": -1347.7,
+          "resultado_operacional": 578.0,
+          "resultado_financeiro": 280.0,
+          "lair": 854.8,
+          "lucro_liquido": 450.9,
+          "indice_combinado_pct": 89.6
+        },
+        "saude": {
+          "premio_retido": 2151.3,
+          "premio_ganho": 2129.5,
+          "sinistros_liquidos": -1646.2,
+          "despesa_comercializacao": -163.8,
+          "resultado_operacional": 175.8,
+          "lucro_liquido": 126.3,
+          "indice_combinado_pct": 92.0
+        },
+        "bank": {
+          "receitas_nao_seguros": 1941.7,
+          "perdas_credito": -569.8,
+          "despesa_comercializacao": -298.2,
+          "resultado_operacional": 377.3,
+          "lucro_liquido": 196.0,
+          "inadimplencia_90d_pct": 7.2
+        },
+        "servico": {
+          "receita": 605.5,
+          "despesas_operacionais": -387.6,
+          "lucro_liquido": 38.4,
+          "n_atendimentos": 1399000
+        },
+        "demais": {
+          "receita": 107.3,
+          "lucro_liquido": 20.3
+        }
+      }
+    }
+  },
+  "company_specific": {
+    "_description": "Release gerencial 3T25 Porto Seguro S.A. — holding com 4 verticais (Seguro, Saúde, Bank, Serviço) + Controladora/Demais. Dados em R$ mm para o trimestre, com 9M25 e YoY em notas.",
+    "headline": {
+      "receita_total_trimestre": 10507.5,
+      "receita_total_yoy_pct": 10.7,
+      "lucro_liquido_trimestre": 831.9,
+      "lucro_liquido_yoy_pct": 12.6,
+      "lucro_liquido_ex_ifrs17_trimestre": 835.9,
+      "lucro_liquido_ex_ifrs17_yoy_pct": 12.2,
+      "roae_trimestre_pct": 23.0,
+      "delta_roae_yoy_pp": 0.1,
+      "indice_eficiencia_pct": 10.7,
+      "delta_eficiencia_pp": -0.3,
+      "comentario": "5º trimestre consecutivo com ROAE acima de 20%. Receita R$ 10,5 bi (+11% YoY), lucro R$ 832 mm (+13%). Verticais não-seguro (Saúde+Bank+Serviço) passam a representar 44% do lucro do Grupo."
+    },
+    "acumulado_9m25": {
+      "receita_total": 30455.7,
+      "receita_total_yoy_pct": 12.4,
+      "premio_retido": 22562.2,
+      "premio_ganho": 22261.0,
+      "lucro_liquido": 2542.2,
+      "lucro_liquido_yoy_pct": 28.8,
+      "lucro_liquido_ex_ifrs17": 2525.0,
+      "lucro_liquido_ex_ifrs17_yoy_pct": 27.1,
+      "roae_9m25_pct": 23.4,
+      "delta_roae_yoy_pp": 3.0,
+      "indice_eficiencia_pct": 10.8,
+      "taxa_efetiva_ir_pct": 30.3
+    },
+    "vertical_seguro_detalhe": {
+      "receita_total_trimestre": 5662.7,
+      "yoy_pct": 3.3,
+      "lucro_liquido_trimestre": 450.9,
+      "yoy_pct_lucro": 4.9,
+      "roae_pct": 32.2,
+      "delta_roae_yoy_pp": 3.2,
+      "indice_combinado_pct": 89.6,
+      "indice_combinado_ampliado_pct": 85.3,
+      "comentario": "Vertical seguro tradicional: crescimento maior no Vida (+12,9%) e Patrimonial (+10,7%); Auto com apenas +0,9% de prêmios e frota +4,3%. Vida destaque: Prestamista +53,5% YoY. Market share Auto 26,8% (SUSEP 8M25), liderança consolidada. Itens/vidas: 16,75 mm (+6,4%). ROAE de 32% supera demais verticais.",
+      "produtos": {
+        "auto": {
+          "premios_emitidos": 4072.3,
+          "yoy_pct": 0.9,
+          "premio_ganho": 4062.5,
+          "sinistralidade_pct": 58.2,
+          "delta_sinistralidade_yoy_pp": 1.0,
+          "frota_segurada_mil": 6209.9,
+          "yoy_frota_pct": 4.3,
+          "market_share_pct": 26.8
+        },
+        "patrimonial": {
+          "premios_emitidos": 938.8,
+          "yoy_pct": 10.7,
+          "premio_ganho": 862.3,
+          "sinistralidade_pct": 30.7,
+          "delta_sinistralidade_yoy_pp": 2.1,
+          "itens_mil": 4433.7,
+          "yoy_itens_pct": 10.2,
+          "market_share_residencial_pct": 20.7,
+          "market_share_empresarial_pct": 24.9
+        },
+        "vida": {
+          "premios_emitidos": 479.9,
+          "yoy_pct": 12.9,
+          "premio_ganho": 450.4,
+          "sinistralidade_pct": 39.5,
+          "delta_sinistralidade_yoy_pp": 1.8,
+          "vidas_mil": 5760.9,
+          "yoy_vidas_pct": 2.2,
+          "market_share_pct": 2.5
+        },
+        "uruguay": {
+          "premios_emitidos": 196.6,
+          "yoy_pct": 17.2,
+          "premio_ganho": 189.7,
+          "sinistralidade_pct": 32.8
+        }
+      }
+    },
+    "vertical_saude_detalhe": {
+      "receita_total_trimestre": 2190.2,
+      "yoy_pct": 26.9,
+      "lucro_liquido_trimestre": 126.3,
+      "yoy_pct_lucro": 64.7,
+      "lucro_9m25": 411.4,
+      "yoy_pct_lucro_9m": 61.5,
+      "roae_pct": 25.7,
+      "delta_roae_yoy_pp": 3.5,
+      "indice_combinado_pct": 92.0,
+      "indice_combinado_ampliado_pct": 89.2,
+      "melhora_ic_yoy_pp": -1.7,
+      "sinistralidade_saude_pct": 78.3,
+      "sinistralidade_saude_odonto_pct": 77.3,
+      "beneficiarios_saude_mil": 784,
+      "yoy_beneficiarios_pct": 22.3,
+      "beneficiarios_odonto_mil": 1138,
+      "yoy_odonto_pct": 20.3,
+      "receita_saude_core": 2090.6,
+      "receita_odonto": 60.7,
+      "comentario": "20 trimestres consecutivos de crescimento de vidas em Saúde. Sinistralidade recuou 0,9 p.p. YoY, refletindo verticalização virtual (Time Médico Porto, parcerias, combate a fraudes). Receita +27% é o maior crescimento entre verticais. Alavancagem operacional: lucro +65% vs receita +27%."
+    },
+    "vertical_bank_detalhe": {
+      "receita_total_trimestre": 1941.7,
+      "yoy_pct": 28.7,
+      "lucro_liquido_trimestre": 196.0,
+      "yoy_pct_lucro": 18.5,
+      "delta_lucro_qoq_pct": -3.9,
+      "lucro_9m25": 592.3,
+      "yoy_pct_lucro_9m": 26.1,
+      "roae_pct": 26.1,
+      "delta_roae_yoy_pp": -2.9,
+      "indice_eficiencia_pct": 33.8,
+      "arpac_mensal": 157.4,
+      "yoy_arpac_pct": 14.9,
+      "negocios_ativos_mi": 5.6,
+      "yoy_negocios_pct": 30.9,
+      "nim_ajustado_risco_pct": 3.4,
+      "delta_nim_ajustado_yoy_pp": 0.2,
+      "carteira_credito_total": 21700.0,
+      "yoy_carteira_pct": 19.5,
+      "carteira_cartao": 18900.0,
+      "yoy_cartao_pct": 20.6,
+      "carteira_ef": 2800.0,
+      "inadimplencia_90d_pct_360d": 7.2,
+      "delta_inadimplencia_yoy_pp": 0.3,
+      "indice_cobertura_pct": 130.0,
+      "carteira_administrada_consorcio": 102500.0,
+      "yoy_consorcio_pct": 30.6,
+      "reservas_previdencia": 6170.0,
+      "capitalizacao_carteira": 2340.0,
+      "comentario": "Porto Bank acelera receita +28,7% com lucro +18,5%. QoQ de lucro (-3,9%) é efeito de benefícios não recorrentes que favoreceram 1T25/2T25; tendência estrutural segue de crescimento. Cartão de Crédito com TPV R$ 16,9 bi (+13,7% YoY), principal motor. Inadimplência subiu 0,3 p.p. (stop accrual mudou de 60 para 90 dias — efeito metodológico); ajustado ficou +0,2 p.p., abaixo do mercado (+0,7 p.p.). Consórcio +30,6% é destaque de crescimento: nova plataforma implantada 2T25-3T25."
+    },
+    "vertical_servico_detalhe": {
+      "receita_total_trimestre": 605.5,
+      "yoy_pct": -2.4,
+      "lucro_liquido_trimestre": 38.4,
+      "yoy_pct_lucro": -26.9,
+      "ebitda": 91.0,
+      "margem_ebitda_pct": 15.0,
+      "delta_margem_ebitda_yoy_pp": -2.0,
+      "roae_pct": 17.8,
+      "delta_roae_yoy_pp": -6.0,
+      "atendimentos_auto_trimestre": 691000,
+      "atendimentos_residencia_trimestre": 708000,
+      "receita_parceria_porto_seguro": 464.3,
+      "receita_parcerias_estrategicas": 136.6,
+      "receita_produtos_digitais": 4.6,
+      "yoy_digital_pct": 59.8,
+      "yoy_digital_9m_pct": 95.4,
+      "nps_servicos": 81,
+      "comentario": "Vertical mais fraca do trimestre: receita -2,4% e lucro -27% YoY. Causa: menor sinistralidade do seguro Auto reduziu atendimentos da Parceria Porto Seguro (-2%), principal linha. Produtos Digitais crescem 60% mas ainda pequenos (R$ 4,6 mm). Redução de PL em 1T25 (aquisição de 6,7% minoritários + dividendos) impactou ROAE via base menor."
+    },
+    "controladora_demais": {
+      "receita_total": 107.3,
+      "lucro_liquido": 20.3,
+      "comentario": "Holding + negócios residuais. Despesas admin holding R$ 152 mm, compensadas parcialmente por resultado financeiro patrimonial R$ 36,2 mm. Lucro baixo (+39% YoY por base fraca)."
+    },
+    "resultado_financeiro_detalhe": {
+      "resultado_financeiro_total_trimestre": 382.8,
+      "yoy_pct": 53.4,
+      "resultado_9m25": 1141.5,
+      "yoy_9m_pct": 76.5,
+      "receita_tesouraria_ex_prev_alm": 450.5,
+      "rentabilidade_pct_cdi_trimestre": 76.7,
+      "rentabilidade_pct_cdi_9m": 86.7,
+      "carteira_investimentos_total": 22800.0,
+      "carteira_ex_previdencia": 16600.0,
+      "composicao_3t25": {
+        "acoes_pct": 2,
+        "pos_fixado_pct": 41,
+        "inflacao_juro_real_pct": 37,
+        "credito_pct": 15,
+        "pre_fixado_pct": 4
+      },
+      "comentario": "Carteira R$ 22,8 bi (+17% YoY). Retorno 76,7% do CDI no trimestre — abaixo do benchmark devido a alocações em títulos indexados à inflação (IPCA 0,6% no 3T25, menor nível do ano). Composição majoritariamente pós-fixada (41%) + inflação (37%). Resultado financeiro +53% YoY refletindo mix alocação e crescimento da base ALM Porto Bank."
+    },
+    "capital_regulatorio": {
+      "pla_total_mm": 11735.0,
+      "capital_necessario_mm": 7673.0,
+      "suficiencia_capital_mm": 4062.0,
+      "pla_seguradoras_mm": 5403.0,
+      "pla_financeiras_mm": 3033.0,
+      "pla_holding_mm": 2595.0,
+      "pla_uruguay_mm": 704.0,
+      "comentario": "Suficiência de capital R$ 4,06 bi acima dos mínimos regulatórios (SUSEP/BACEN/ANS/BC Uruguai). Distribuição: holding R$ 2,6 bi + seguradoras R$ 5,4 bi + financeiras R$ 3,0 bi."
+    },
+    "ifrs17_impacto": {
+      "lucro_societario": 831.9,
+      "lucro_ex_ifrs17": 835.9,
+      "ajuste_ifrs17_trimestre": -4.0,
+      "ajuste_ifrs17_9m25": 17.2,
+      "comentario": "Impacto IFRS 17 marginal no trimestre (-R$ 4 mm) e positivo no 9M25 (+R$ 17 mm). SUSEP/ANS ainda regulam pela IFRS 4/CPC 11, então companhia reporta ambas visões. Gerencial Ex-IFRS 17 é a visão de negócio."
+    },
+    "projecoes_2025": {
+      "seguros": {
+        "var_premio_ganho": "+2% a +5%",
+        "sinistralidade": "51% a 55%",
+        "ga_pct": "10,0% a 10,5% (revisado para baixo de 10,3-11,2%)"
+      },
+      "saude": {
+        "var_premio_ganho": "+25% a +40%",
+        "sinistralidade": "73% a 78%",
+        "ga_pct": "4,5% a 5,5%"
+      },
+      "bank": {
+        "var_receita_total": "+20% a +28%",
+        "perdas_credito_rbi": "-2,0 a -2,3",
+        "indice_eficiencia": "32% a 34%"
+      },
+      "servico": {
+        "receita_total_rbi": "2,4 a 2,6 (revisado para baixo de 2,5-2,8)",
+        "ga_pct": "7,5% a 8,5% (revisado para baixo de 8,0-9,0%)"
+      },
+      "holding": {
+        "resultado_financeiro_rbi": "1,2 a 1,4",
+        "taxa_efetiva_ir": "28% a 32%"
+      },
+      "comentario": "Projeções mantidas em quase todas as linhas. Revisões para baixo: G&A Seguros (melhor eficiência), receita Porto Serviço (menor demanda), G&A Serviço (melhor eficiência). Sem revisão para cima."
+    },
+    "governanca": {
+      "ticker": "PSSA3",
+      "segmento_listagem": "Novo Mercado",
+      "cotacao_fim_periodo_rs": 49.86,
+      "valor_mercado_rbi": 32.2,
+      "acoes_circulacao_mil": 184341,
+      "variacao_12m_pct": 36.8,
+      "data_divulgacao": "2025-11-11",
+      "teleconferencia": "2025-11-11 09:30 BRT",
+      "comentario": "PSSA3 a R$ 49,86 em 30/09/2025 (+37% em 12 meses). Free float R$ 32,2 bi. IPO em nov/2004: retorno acumulado +1.416% vs Ibovespa +506%."
+    },
+    "indicadores_marca_operacao": {
+      "clientes_totais": 18100000,
+      "corretores_independentes": 47500,
+      "funcionarios": 13900,
+      "prestadores_servicos": 13000,
+      "usuarios_app_12m": 4400000,
+      "seguidores_linkedin": 1500000,
+      "interacoes_digitais_trimestre": 120000000,
+      "nps_auto_porto": 82,
+      "nps_auto_azul": 81,
+      "nps_residencia_porto": 83,
+      "nps_cartao": 74,
+      "nps_time_medico_saude": 91,
+      "avaliacao_app": "4,8 Apple / 4,7 Google",
+      "comentario": "12º ano consecutivo como marca mais lembrada (Top of Mind Folha) em Seguradoras. 4º ano consecutivo no Top 10 GPTW. NPS muito altos em Auto/Residência (82/83)."
+    },
+    "mudancas_metodologicas": {
+      "resolucao_4966": "Mudança do stop accrual de 60 para 90 dias impacta comparação sequencial de lucro Porto Bank e NIM ajustado ao risco.",
+      "previdencia": "A partir de 1T25 Previdência migrou de Vertical Seguro para Vertical Bank — afeta comparabilidade histórica.",
+      "uruguay_itens": "A partir de 2T25 itens da Porto Uruguay incluídos na volumetria da Vertical Seguro.",
+      "amortizacao_intangivel": "A partir de 1T25 amortização do intangível alocada por vertical em vez de só na holding."
+    }
+  }
+}

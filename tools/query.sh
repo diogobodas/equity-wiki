@@ -66,14 +66,19 @@ INVENTORY+="- $DIGESTED_LIST"$'\n'
 # --- Build prompt ---
 PROMPT_TEMPLATE="$SCRIPT_DIR/prompts/query_system.md"
 PROMPT_FILE=$(mktemp "${TMPDIR:-/tmp}/query_prompt_XXXXXX.md")
+INVENTORY_FILE=$(mktemp "${TMPDIR:-/tmp}/query_inventory_XXXXXX.md")
+printf '%s' "$INVENTORY" > "$INVENTORY_FILE"
 
 python -c "
 import sys
 template = open(sys.argv[1], encoding='utf-8').read()
+inventory = open(sys.argv[3], encoding='utf-8').read()
 template = template.replace('{{QUERY}}', sys.argv[2])
-template = template.replace('{{INVENTORY}}', sys.argv[3])
+template = template.replace('{{INVENTORY}}', inventory)
 open(sys.argv[4], 'w', encoding='utf-8').write(template)
-" "$PROMPT_TEMPLATE" "$QUERY" "$INVENTORY" "$PROMPT_FILE"
+" "$PROMPT_TEMPLATE" "$QUERY" "$INVENTORY_FILE" "$PROMPT_FILE"
+
+rm -f "$INVENTORY_FILE"
 
 # --- Invoke Claude ---
 cat "$PROMPT_FILE" | claude --print \

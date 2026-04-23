@@ -1,0 +1,342 @@
+{
+  "_schema": "seguradora/v1",
+  "_schema_path": "sources/structured/_schemas/seguradora.json",
+  "_empresa": "porto",
+  "_periodo": "2T25",
+  "_source": "sources/full/porto/2T25/PSSA3_2T25_call_transcript.md",
+  "canonical": {
+    "operacional": {
+      "premios": {
+        "premio_retido_total": null,
+        "premio_ganho_total": null,
+        "premio_retido_seguros": null,
+        "premio_ganho_seguros": null,
+        "premio_retido_saude": null,
+        "premio_ganho_saude": null,
+        "crescimento_premio_retido_yoy_pct": null
+      },
+      "sinistralidade": {
+        "sinistros_liquidos_retidos": null,
+        "indice_sinistralidade_pct": null,
+        "indice_sinistralidade_seguros_pct": 50.4,
+        "indice_sinistralidade_saude_pct": 77.3
+      },
+      "indice_combinado": {
+        "indice_combinado_total_pct": null,
+        "indice_combinado_seguros_pct": null,
+        "indice_combinado_saude_pct": null,
+        "indice_combinado_auto_pct": null
+      },
+      "clientes": {
+        "total_clientes_grupo": 18000000,
+        "beneficiarios_seguro_saude": null,
+        "beneficiarios_odonto": null,
+        "frota_segurada_auto": null,
+        "apolices_patrimonial": null,
+        "apolices_vida": null
+      },
+      "bank": {
+        "carteira_credito_total": null,
+        "carteira_credito_liquida": null,
+        "provisao_pdd": null,
+        "provisao_sobre_carteira_pct": null,
+        "inadimplencia_90d_pct": null,
+        "receita_bank": null,
+        "cartao_operacoes": null,
+        "financiamentos": null
+      },
+      "servicos": {
+        "receita_servicos": null,
+        "n_atendimentos": null,
+        "pct_receita_b2c_parcerias": null
+      },
+      "corretores_rede": {
+        "n_corretores_ativos": null,
+        "n_sucursais": null
+      }
+    },
+    "dre": {
+      "receita_total": 10000.0,
+      "receita_seguros": 5400.0,
+      "receita_operacoes_credito": null,
+      "receita_prestacao_servicos": null,
+      "receita_titulos_capitalizacao": null,
+      "resultado_bruto": null,
+      "despesas_receitas_operacionais": null,
+      "despesas_gerais_administrativas": null,
+      "despesas_administrativas": null,
+      "despesas_com_tributos": null,
+      "outras_receitas_operacionais": null,
+      "outras_despesas_operacionais": null,
+      "custos_aquisicao": null,
+      "despesas_seguro": null,
+      "despesas_resseguro": null,
+      "equivalencia_patrimonial": null,
+      "resultado_operacional": null,
+      "receita_financeira": null,
+      "despesa_financeira": null,
+      "resultado_financeiro": null,
+      "lucro_antes_ir": null,
+      "ir_corrente": null,
+      "ir_diferido": null,
+      "ir_csll": null,
+      "lucro_operacoes_continuadas": null,
+      "participacao_minoritarios": null,
+      "lucro_liquido_controladores": 878.0,
+      "lucro_liquido_consolidado": 878.0,
+      "lpa_basico": null,
+      "lpa_diluido": null
+    },
+    "bp": {
+      "ativo_circulante": null,
+      "caixa_equivalentes": null,
+      "aplicacoes_financeiras_c": null,
+      "contas_receber_clientes_c": null,
+      "emprestimos_financiamentos_bank": null,
+      "tributos_a_recuperar": null,
+      "outros_ativos_c": null,
+      "ativo_nao_circulante": null,
+      "aplicacoes_vjr_nc": null,
+      "aplicacoes_vjora_nc": null,
+      "aplicacoes_custo_amortizado_nc": null,
+      "contas_receber_nc": null,
+      "tributos_diferidos_a": null,
+      "depositos_judiciais": null,
+      "investimentos": null,
+      "imobilizado": null,
+      "intangivel": null,
+      "ativo_total": null,
+      "passivo_circulante": null,
+      "passivos_contrato_seguro_c": null,
+      "passivos_financeiros_c": null,
+      "obrigacoes_fiscais": null,
+      "dividendos_jcp_pagar": null,
+      "outros_passivos_c": null,
+      "passivo_nao_circulante": null,
+      "passivos_contrato_seguro_nc": null,
+      "passivos_financeiros_nc": null,
+      "tributos_diferidos_p": null,
+      "provisoes_judiciais": null,
+      "outros_passivos_nc": null,
+      "patrimonio_liquido_total": null,
+      "capital_social": null,
+      "reservas_capital": null,
+      "reservas_lucros": null,
+      "outros_resultados_abrangentes": null,
+      "acoes_tesouraria": null,
+      "participacao_minoritarios_bp": null,
+      "passivo_pl_total": null
+    },
+    "financeiro_ajustado": {
+      "lucro_liquido_ex_ifrs17": null,
+      "ajuste_ifrs17": null,
+      "lucro_liquido_societario": 878.0,
+      "roae_pct": 24.6,
+      "roae_12m_pct": null,
+      "patrimonio_liquido_medio": null,
+      "taxa_efetiva_ir_pct": null,
+      "indice_eficiencia_pct": null,
+      "receita_aplicacoes_financeiras": null,
+      "rentabilidade_carteira_pct_cdi": 86.0,
+      "resultado_financeiro_liquido": null,
+      "participacao_nos_resultados": null,
+      "segmentos": {
+        "seguro": {
+          "premio_retido": null,
+          "premio_ganho": null,
+          "sinistros_liquidos": null,
+          "despesa_comercializacao": null,
+          "resultado_operacional": null,
+          "resultado_financeiro": null,
+          "lair": null,
+          "lucro_liquido": 434.0,
+          "indice_combinado_pct": null
+        },
+        "saude": {
+          "premio_retido": null,
+          "premio_ganho": null,
+          "sinistros_liquidos": null,
+          "despesa_comercializacao": null,
+          "resultado_operacional": null,
+          "lucro_liquido": 105.0,
+          "indice_combinado_pct": null
+        },
+        "bank": {
+          "receitas_nao_seguros": null,
+          "perdas_credito": null,
+          "despesa_comercializacao": null,
+          "resultado_operacional": null,
+          "lucro_liquido": 204.0,
+          "inadimplencia_90d_pct": null
+        },
+        "servico": {
+          "receita": null,
+          "despesas_operacionais": null,
+          "lucro_liquido": 57.0,
+          "n_atendimentos": null
+        },
+        "demais": {
+          "receita": null,
+          "lucro_liquido": null
+        }
+      }
+    }
+  },
+  "company_specific": {
+    "_note": "Derivado da teleconferência de resultados 2T25 (13-ago-2025). Valores qualitativos/arredondados conforme narrativa dos executivos; valores precisos e completos de DRE/BP estão em itr.json e release.json do mesmo período. Indicadores de ROAE/sinistralidade/lucro por vertical reportados pela administração.",
+    "consolidado": {
+      "receita_total_trimestre_rmm": 10000,
+      "receita_total_crescimento_yoy_pct": 12,
+      "lucro_liquido_trimestre_rmm": 878,
+      "lucro_liquido_crescimento_yoy_pct": 50,
+      "roae_trimestre_pct": 24.6,
+      "roae_delta_pp_yoy": 6.2,
+      "margem_operacional_crescimento_yoy_pct": 25,
+      "nota_receita_historica": "Maior receita da série histórica até aqui"
+    },
+    "semestre_1s25": {
+      "receita_total_rmm": 20000,
+      "receita_crescimento_yoy_pct": 13,
+      "lucro_liquido_rmm": 1700,
+      "lucro_liquido_crescimento_yoy_pct": 38,
+      "roae_pct": 24.0,
+      "roae_delta_pp_yoy": 4.5,
+      "margem_operacional_crescimento_yoy_pct": 13
+    },
+    "ecossistema_clientes": {
+      "clientes_ativos_total": 18000000,
+      "transacoes_vigentes_ultimo_mes": 31000000,
+      "nota": "18 milhões de clientes ativos com 31 milhões de transações/negócios vigentes no último mês"
+    },
+    "porto_seguro": {
+      "receita_trimestre_rmm": 5400,
+      "receita_crescimento_yoy_pct": 4.7,
+      "itens_negocios_mm": 16.5,
+      "itens_crescimento_yoy_pct": 8,
+      "sinistralidade_pct": 50.4,
+      "sinistralidade_delta_pp_yoy": -2.1,
+      "roae_pct": 31.1,
+      "lucro_liquido_rmm": 434,
+      "participacao_no_lucro_consolidado_pct": null,
+      "auto": {
+        "premio_crescimento_yoy_pct": 3,
+        "itens_crescimento_yoy_pct": 3,
+        "sinistralidade_pct": 58.5,
+        "roae_trimestre_pct": 22,
+        "roae_semestre_pct": 22,
+        "participacao_lucro_pct": 32,
+        "participacao_lucro_pct_2t24": 36,
+        "nota_ticket": "Prêmio médio estável — pegada de inclusão securitária (produtos menor ticket, rentabilidade saudável); base histórica mínima de roubo/furto; tabela Fipe estabilizando",
+        "frota_jovem_1_ano_pct": 10,
+        "frota_financiada_estimado_pct_range": "60-70"
+      },
+      "patrimonial": {
+        "premio_crescimento_yoy_pct": 6.5,
+        "sinistralidade_pct": 26,
+        "nota_sinistralidade": "26% surpreendeu, não é piso recorrente — 2-3 casos de valores muito altos afetam, resseguro cobre maioria"
+      },
+      "vida": {
+        "premio_crescimento_yoy_pct": 16,
+        "destaques": ["Vida individual", "Prestamista"],
+        "prestamista_crescimento_yoy_pct": 30,
+        "nota_sinistralidade": "Sinistralidade mais baixa — integrações de sistema + carteira Prestamista com resultado muito bom"
+      }
+    },
+    "porto_saude": {
+      "receita_trimestre_rmm": 2000,
+      "receita_crescimento_yoy_pct": 27,
+      "premio_crescimento_yoy_pct": 30,
+      "beneficiarios_adicionados_mil": 357,
+      "beneficiarios_adicionados_seguro_saude_mil": 145,
+      "beneficiarios_adicionados_odonto_mil": 212,
+      "sinistralidade_pct_consolidada": 77.3,
+      "sinistralidade_delta_pp_yoy": -2.1,
+      "sinistralidade_seguro_saude_pct": 78.4,
+      "sinistralidade_seguro_saude_delta_bps_yoy": -230,
+      "lucro_liquido_rmm": 105,
+      "roae_pct": 22.4,
+      "roae_pct_2t24": 22.2,
+      "nota": "Marco de R$ 2 bi de receita trimestral; menos dependente de efeitos não-recorrentes (sem contribuição relevante de parceria Oncoclínicas como no 2T24); sazonalidade 1T→2T em torno de 9% histórica (pré-pandemia 2015-2019)",
+      "linhas_produto": {
+        "nota": "4 linhas em SP, 3 no resto do Brasil. Preço relativo: Tradicional=100, Porto Saúde=80, Pro=70, Bairro=55. Mesmo sinistro alvo em todas — linhas novas performando melhor do que esperado"
+      }
+    },
+    "porto_bank": {
+      "receita_crescimento_yoy_pct": 29,
+      "lucro_liquido_rmm": 204,
+      "lucro_crescimento_yoy_pct": 30,
+      "roae_pct": 28,
+      "indice_eficiencia_pct": 33.2,
+      "indice_eficiencia_pct_2t24": 34,
+      "nps_pontos": 76,
+      "carteira_credito_crescimento_yoy_pct": 18,
+      "inadimplencia_90d_delta_bps_yoy": 90,
+      "inadimplencia_90d_ajustada_stop_accrual_pct_range": "6.0-6.3",
+      "nim_ajustado_risco_pct": 4.0,
+      "nim_delta_4t_1t_bps": 50,
+      "nim_delta_1t_2t_bps": 20,
+      "pct_concessao_no_ecossistema": 95,
+      "car_equity_liberacao_mensal_rmm": 70,
+      "nota_nim": "Trabalho de mix/reconstrução produtos últimos 2 anos: foco em ecossistema (95%), car equity substituindo financiamento tradicional, ajuste precificação cartão; NIM crescendo trimestre-a-trimestre desde 1T23",
+      "nota_iof_previdencia": "Sem impacto significativo do IOF na Previdência",
+      "nota_inad_accrual": "Stop accrual 60→90 dias (1T25) joga inad 90d+ para cima; 15-90 dias indica melhora de 20 bps — sem piora real de safra; write-off público 540 dias"
+    },
+    "porto_servico": {
+      "receita_crescimento_yoy_pct": -1.8,
+      "margem_ebitda_pct": 16.2,
+      "margem_ebitda_delta_pp_yoy": -0.7,
+      "lucro_liquido_rmm": 57,
+      "roae_pct": 22,
+      "roae_pct_2t24": 21.9,
+      "dependencia_porto_seguradora_pct": 75.9,
+      "dependencia_porto_seguradora_pct_2t24": 76.5,
+      "crescimento_canais_digitais_b2c_pct": 100,
+      "nota": "Queda de receita é favorável — menor sinistralidade Auto reduz demanda; foco em diversificação (B2C, canais digitais, B2B varejista); treinamento/qualificação nacional concluído no 2T25"
+    },
+    "carteira_investimentos": {
+      "rentabilidade_pct_cdi": 86,
+      "alocacao_carteira_rmm": 13000,
+      "nota_alocacao": "Alocação muito estável — pequena redução em crédito privado, aumento em prefixado; reduziu juro real (após rolagem 2024 que elevou taxa média para próximos anos); vol comportado",
+      "receita_financeira_1s25_rmm": 750,
+      "nota_ipca_2s25": "IPCA 2025E ~5%; mais de 60% já realizado no 1T; carteira juro real ~R$5 bi (40% do portfolio); diferença IPCA pode impactar R$50-80 mm receita financeira; possível giro/rolagem no 2S para travar yield 2026"
+    },
+    "guidance_revisao_2025": {
+      "seguros_crescimento_premio": "mantido — aderente ao centro",
+      "bank_crescimento_carteira": "20% a 28% (revisado para cima)",
+      "bank_perda_credito_rbi": "2,0 a 2,3 (piso elevado de 1,9 para 2,0; teto mantido)",
+      "bank_indice_eficiencia_pct": "32 a 34 (revisado)",
+      "saude_sinistralidade_pct_range": "73 a 78 (revisado para baixo)",
+      "servico": "todos os intervalos mantidos",
+      "receita_financeira_rbi_range": "1,2 a 1,4 (mantido)",
+      "taxa_efetiva_ir_pct_range": "28 a 32 (revisado de 30-34 — Selic alta → TJLP alta → JCP maior)"
+    },
+    "integracao_marcas": {
+      "unificacao_concluida_em": "agosto 2025",
+      "marcas_unificadas": ["Porto Seguro", "Azul Seguros", "Itaú Seguros"],
+      "beneficios_esperados": [
+        "Redução DA via plataforma única",
+        "Melhoria NPS",
+        "Experiência corretor unificada (pré + pós-venda)",
+        "Redução exigência de capital (CMR) por diversificação em CNPJ único",
+        "Realocação de recursos para Holding (isenção tributária + TJLP + prejuízo fiscal provisionado)"
+      ],
+      "nota_residual": "Apólices vigentes emitidas em fábricas antigas ainda rodam por ~10 meses até todas serem emitidas pela fábrica unificada"
+    },
+    "qualitative_temas": [
+      "80 anos de história — cultura centrada em atendimento",
+      "4 verticais com sazonalidades descasadas → crescimento quase linear tri-a-tri",
+      "Diversificação reduzindo dependência do Auto (32% do lucro vs 36% no 2T24)",
+      "Principal ativo = canal corretor (capilaridade, confiança geracional, relacionamento 80 anos)",
+      "Spread ROAE vs Selic alvo >20% com Selic em 15%",
+      "Ganhos de escala em serviços corporativos compartilhados → espaço adicional para redução DA"
+    ],
+    "executivos_presentes": [
+      "Paulo Kakinoff (CEO)",
+      "Celso Damadi (CFO)",
+      "Domingos Falavina (DRI)",
+      "Marcos Roberto Loução (CEO Porto Bank)",
+      "Rivaldo Leite (Porto Saúde)",
+      "Sami Foguel (Porto Saúde)"
+    ]
+  }
+}
