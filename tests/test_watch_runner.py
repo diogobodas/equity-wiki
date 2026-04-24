@@ -96,3 +96,33 @@ def test_diff_urls_new_and_updated():
     hits = wr.diff_urls(known, fresh)
     urls = {h["url"] for h in hits}
     assert urls == {"https://a", "https://b"}
+
+
+def test_run_watch_integrates_cadence_and_diff(tmp_path, monkeypatch):
+    # Page with one watch entry, no prior state
+    page = tmp_path / "demo.md"
+    page.write_text(
+        "---\n"
+        "type: concept\n"
+        "watches:\n"
+        "  - query: test query\n"
+        "    sites: [example.com]\n"
+        "    cadence: weekly\n"
+        "---\n\nbody\n",
+        encoding="utf-8",
+    )
+    state_dir = tmp_path / "watch_state"
+
+    def fake_search(query, sites, today):
+        return [
+            {"url": "https://example.com/a", "title": "A", "snippet": "...",
+             "published_date": "2026-04-22"},
+        ]
+
+    monkeypatch.setattr(wr, "search_web", fake_search)
+    hits = wr.run_watch(page, state_dir, today=date(2026, 4, 23))
+    assert len(hits) == 1
+    assert hits[0]["url"] == "https://example.com/a"
+    # Second run: state now has the URL -> cadence blocks
+    hits2 = wr.run_watch(page, state_dir, today=date(2026, 4, 23))
+    assert hits2 == []
