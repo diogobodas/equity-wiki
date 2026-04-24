@@ -96,10 +96,11 @@ Porto Seguro S.A. (PSSA3) — holding listada (IBrX 50)
 │   └── Porto Seguro Capitalização (títulos de capitalização)
 │
 ├── Porto Saúde Participações ──────────────────────────────── vertical SAÚDE ──── EP R$ 666 mm (20%)
-│   └── Porto Saúde - Operações de Saúde (sub-holding pura)
-│       ├── Porto Seguro - Seguro Saúde (seguradora ANS — 97% da receita do segmento)
-│       ├── Portomed (operadora ANS, exclusivamente empresarial)
-│       └── Porto Seguro Serviços Odontológicos (operadora odonto, em run-down)
+│   └── Porto Saúde - Operações de Saúde S.A. (sub-holding técnica, criada jun/2022)
+│       ├── Porto Seguro - Seguro Saúde S.A. (seguradora SUSEP/ANS — cobre produtos SAÚDE **e** ODONTO; 831k + 1,184M vidas)
+│       ├── Portomed (operadora ANS — planos de saúde exclusivamente empresariais; em ramp-up: receita saltou 80× em 2025)
+│       └── Porto Seguro Serviços Odontológicos (**shell** com licença ANS, nunca operou; objeto social "operará" no futuro)
+│   + Porto Seguro Saúde Ocupacional e Segurança do Trabalho Ltda. (entidade adjacente — saúde ocupacional/medicina do trabalho, presta serviços ao ecossistema; não consolida em Participações, aparece como parte de intangíveis/aquisição em outras entidades do grupo)
 │
 ├── Porto Bank ─────────────────────────────────────────────── vertical BANK ───── EP R$ 497 mm (15%)
 │   └── Porto Negócios Financeiros (holding financeira pura)
@@ -138,7 +139,7 @@ Cada linha é uma DF publicada (IFRS 4/SUSEP, ANS ou BACEN conforme o regulador)
 | **Portoseg** (CFI) | Bank | BACEN | R$ 3,32 bi RIF | R$ 147 mm | R$ 1.093 mm | ~14,3% |
 | **Porto Negócios Financeiros** (holding) | Bank | BACEN | R$ 286 mm EP | R$ 285 mm | R$ 2.165 mm | ~14,3% |
 | **Portopar DTVM** | Bank | BACEN | R$ 16 mm | R$ (2) mm | R$ 29 mm | negativo |
-| **Porto Consórcio** | Bank | BACEN | n/d (PDF só-imagem) | n/d | n/d | n/d |
+| **Porto Consórcio** | Bank | BACEN | R$ 1,15 bi | R$ 288 mm | R$ 725 mm | ~40% |
 | **Porto Serviço** (controladora) | Serviços | — | R$ 397 mm | R$ 227 mm | R$ 1.035 mm | ~23,8% |
 | **Porto Serviço** (consolidado) | Serviços | — | R$ 2,31 bi | EBITDA R$ 414 mm | — | — |
 
@@ -148,9 +149,40 @@ Cada linha é uma DF publicada (IFRS 4/SUSEP, ANS ou BACEN conforme o regulador)
 
 A camada gerencial do release publica as 4 verticais em blocos homogêneos ("Saúde = R$ 581 mm lucro, ROAE 28%"). As DFs individuais expõem cinco divergências materiais entre a narrativa e a contabilidade regulatória:
 
-1. **Saúde é quase 100% seguradora, não operadora ANS.** Porto Saúde Participações reporta consolidado R$ 666 mm, mas **97% da receita e do lucro vem da Porto Seguro - Seguro Saúde** (a seguradora, R$ 705 mm individual, sinistralidade 75,9%). A operadora ANS (Portomed) tem prejuízo de R$ (4) mm, a odonto é imaterial. O marketing "health tech" é precisamente a seguradora-saúde; a operadora ANS existe para compliance mas contribui <1% do lucro do segmento. (fonte: digested/porto_subsidiarias_saude_2025_summary.md)
+1. **Saúde tem uma cascata de 2 holdings e o produto odonto vive na seguradora** — não na entidade "Porto Odonto". A estrutura é engraçada e materialmente importante entendê-la antes de ler o release:
 
-2. **O "banco" é Portoseg, e o custo de crédito está comendo o spread.** Porto Bank e Porto Negócios Financeiros são holdings/shells; todo crédito regulado pelo BACEN fica em **Portoseg** (R$ 147 mm lucro em 2025 vs R$ 231 mm em 2024 — **queda de -36%**, mesmo com RIF crescendo +27% para R$ 3,32 bi). Inadimplência deteriorou: vencidos >180 dias +91% a/a para R$ 2,37 bi, **93,8% concentrado em cartão de crédito**. Carteira bruta R$ 8,63 bi (90% PF). A tabela gerencial do Bank (R$ 841 mm lucro, ROAE 28%) não explicita essa compressão porque Porto Consórcio (lucro ~R$ 290 mm) e ganho de equivalência via PNF compensam no nível de vertical. (fonte: digested/porto_subsidiarias_financeiro_2025_summary.md)
+    **Cascata contábil do lucro Saúde 2025 (IFRS 4/regulatório):**
+
+    | Nível | Entidade | Lucro (R$ mm) | Nota |
+    |---|---|---|---|
+    | Operações legais | Porto Seguro - Seguro Saúde (seguradora SUSEP/ANS) | +706,5 | Cobre produtos Saúde (831k vidas) **E** Odonto (1,184M vidas) |
+    | Operações legais | Portomed (operadora ANS) | (3,3) | Planos privados empresariais; receita 2024→2025: R$ 358k → R$ 29 mm (**×80 YoY**) — em ramp-up |
+    | Operações legais | Porto Odonto | (0,03) | Shell com licença ANS, nunca operou (objeto "operará"); PL R$ 504 parado desde 2024 |
+    | **Subtotal operado** | | **703,2** | = Equivalência patrimonial que Porto Saúde Operações reconhece |
+    | Sub-holding | (−) Despesa admin Porto Saúde Operações | (29,5) | Holding técnica criada 2022; objeto social limitado a participações |
+    | **Sub-holding reporta** | Porto Saúde Operações individual | **673,7** | Lucro individual da sub-holding |
+    | Holding topo | (−) Despesa admin Porto Saúde Participações | (7,4) | Holding topo; outras receitas/despesas pequenas |
+    | **Holding topo reporta (IFRS 4)** | Porto Saúde Participações consolidado | **666,3** | = **EP que a PSSA3 holding reconhece** |
+    | Release gerencial (IFRS 17) | Vertical Saúde | **581** | Gap de R$ 85 mm = ajustes IFRS 4→17 (CSM, risk adjustment) |
+
+    (fonte: full/porto_seguro/2025/subsidiarias/porto_saude_operacoes.md §6.1, §Investimentos em controladas; full/porto_seguro/2025/subsidiarias/porto_saude_participacoes.md)
+
+    **Implicações operacionais:**
+
+    - **Cascata custa ~R$ 37 mm/ano** em despesa admin entre Operações e Participações — drag de 5-6% sobre o lucro da seguradora. É desenho societário, não operacional: provavelmente existe para dar flexibilidade a eventual spin-off, IPO parcial do segmento Saúde ou M&A estrutural (Participações é holding ampla; Operações é sub-holding pura — ativos e dívidas podem ser isolados).
+    - **Entidade "Porto Odonto" é shell, não operadora.** Licença ANS mantida em standby (objeto verbal "operará"). Produto odonto (1,184 mm vidas, R$ 241 mm receita) é comercializado sob o CNPJ da seguradora (Porto Seguro - Seguro Saúde), **não** em Porto Odonto. A separação legal ficaria disponível caso regulatoriamente fosse exigido isolar odonto em operadora dedicada.
+    - **Portomed não é simples compliance** — é operadora ANS real com carteira própria em PME. Crescimento 80× em 2025 partindo de base quase zero sugere push estratégico ativo para capturar segmento onde produto "plano ANS tradicional" (rede referenciada, preço preestabelecido) é preferido ao "seguro saúde" (modelo reembolso). Hoje dá R$ (3) mm de prejuízo por escala ainda insuficiente vs constituição de provisões técnicas; a economics vai se virar se a carteira continuar crescendo.
+    - **Seguradora é a engine real, mas não é única linha.** Da receita consolidada do segmento (R$ 8,44 bi em 2025), a seguradora entrega R$ 8,17 bi (97%); Portomed adiciona R$ 29 mm (0,3%); Porto Odonto entidade praticamente zero. O "97%" é a leitura correta para receita — mas subestima a importância estratégica de Portomed como opcionalidade de produto.
+    - **Verticalização "Time Médico Porto"** citada no release (40% das consultas em SP) é **programa**, não entidade legal. Opera via contratos com prestadores + parcerias conduzidos pela própria seguradora. Não aparece como entidade independente no perímetro de consolidação.
+    - **Porto Seguro Saúde Ocupacional e Segurança do Trabalho Ltda.** é entidade adjacente (serviços de medicina do trabalho / ergonomia) que presta serviços internos ao grupo (inclusive para a seguradora Auto/Azul) — aparece como intangível de aquisição em balanço de entidades que a compraram. Não consolida em Porto Saúde Participações.
+
+2. **O "banco" é Portoseg + Consórcio. Portoseg isoladamente está com custo de crédito comendo o spread; Consórcio é a segunda metade da vertical.** Porto Bank e Porto Negócios Financeiros são holdings/shells; as duas operadas materialmente sob BACEN são:
+    - **Portoseg** (CFI, crédito/cartão): lucro R$ 147 mm em 2025 vs R$ 231 mm em 2024 — **queda de -36%** mesmo com RIF crescendo +27% (R$ 3,32 bi). Inadimplência deteriorou: vencidos >180 dias +91% a/a para R$ 2,37 bi, **93,8% concentrado em cartão de crédito**. Carteira bruta R$ 8,63 bi (90% PF).
+    - **Porto Consórcio** (administradora de consórcios): lucro **R$ 288 mm em 2025** — quase 2× o lucro da Portoseg. Receita R$ 1,15 bi, PL R$ 725 mm (ROE ~40%). Gerencia 869 grupos (492 autos + 44 pesados + 333 imóveis), 492 mil consorciados, R$ 12,87 bi em ativos dos grupos (R$ 5 bi em caixa dos consorciados). Negócio de capital-leve clássico — receita é taxa de administração sobre os recursos dos grupos, custo principal é overhead operacional; a alavanca de lucro é escala de grupos ativos, que cresceu em todas as linhas em 2025.
+
+    A composição Bank fica então: Portoseg deteriorando + Consórcio estável/crescendo. A tabela gerencial consolidada Bank (R$ 841 mm lucro, ROAE 28%) **esconde a divergência entre as duas linhas** — Consórcio sustenta quando o resultado de Portoseg cai. Olhar vertical sem decompor dá falsa sensação de estabilidade.
+
+    Reconciliando o PNF: lucro PNF R$ 285 mm = EP(Portoseg R$ 147 + Consórcio R$ 288 + Portopar R$ (2)) − despesas admin/tributos PNF R$ (148). As duas holdings intermediárias (Porto Bank + PNF) consomem cerca de R$ 64 mm em 2025 entre despesas admin e tributos até chegar aos R$ 497 mm de EP que a PSSA3 reconhece via Porto Bank. (fonte: full/porto_seguro/2025/subsidiarias/porto_consorcio.md §DRE; full/porto_seguro/2025/subsidiarias/portoseg.md §Carteira; full/porto_seguro/2025/subsidiarias/porto_negocios_financeiros.md)
 
 3. **Vida/Prev e Capitalização são negócios de float puro.** Porto Vida e Previdência: lucro individual R$ 31 mm em 2025 (vs R$ (15) mm em 2024, reversão); R$ 38,5 mm veio de resultado financeiro. Operacional stricto sensu é R$ 17,8 mm sobre receitas de R$ 434 mm — margem operacional ~4%. Porto Capitalização idem: R$ 49 mm de lucro sobre R$ 1,77 bi de arrecadação, quase integralmente financeiro. Corte material na Selic comprimiria ambas significativamente. (fonte: digested/porto_subsidiarias_vida_cap_holding_2025_summary.md)
 

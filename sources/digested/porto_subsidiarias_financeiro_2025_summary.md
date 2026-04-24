@@ -258,3 +258,92 @@ A queda de receita de prestação de serviços de ~96% em 2025 é substancial. A
 6. **Índice de Basileia pós-homologação dos aportes:** o PR de dez/2025 (Basileia 10,91%) não inclui os aportes de capital realizados pela Porto Seguro S.A. em processo de homologação pelo BACEN. O índice real pós-aprovação é desconhecido.
 
 7. **Natureza da queda de receita na Portopar:** a DF não explica o colapso de 96% nas receitas de distribuição. Pode ser migração de mandatos para Porto Asset Management/Porto Gestora ou reestruturação intragrupo, mas não é declarado.
+
+---
+
+## 6. Porto Consórcio — Adendo 2026-04-24
+
+Esta subsidiária não foi incluída no digest original porque seu PDF estava em formato imagem (37 páginas renderizadas como PNG) e não pôde ser extraído pelo opendataloader em modo standard. Reprocessado via PyMuPDF + Claude vision.
+
+### 6.1 Identificação
+
+**Porto Seguro Administradora de Consórcios Ltda.** — CNPJ 60.833.540/0001-43. Autorizada pelo BACEN como administradora de consórcios. Controlada 100% pela Porto Negócios Financeiros S.A. (holding financeira do grupo). Sede em São Paulo/SP.
+
+Opera três linhas: consórcio de **automóveis leves** (492 grupos ativos), **veículos pesados** (44 grupos) e **imóveis** (333 grupos). Total de 869 grupos ativos, 492.208 consorciados. (fonte: full/porto_seguro/2025/subsidiarias/porto_consorcio.md §Relatório da Administração, §Notas Explicativas)
+
+### 6.2 Desempenho 2025
+
+| Métrica | 2025 (R$ mil) |
+|---|---|
+| Receita de prestação de serviços | 1.145.563 |
+| Resultado do exercício (lucro líquido) | 287.824 |
+| Patrimônio líquido | 724.959 |
+| Total do ativo (entidade) | 3.130.547 |
+| Disponibilidades dos grupos (fundo consolidado) | 5.036.293 |
+| Total dos recursos de consórcio (ativos dos grupos) | 12.865.991 |
+| Lucro por cota (R$) | 1,5729 |
+| ROE (lucro / PL) | ~39,7% |
+
+(fonte: full/porto_seguro/2025/subsidiarias/porto_consorcio.md §Balanço Patrimonial, §DRE)
+
+### 6.3 Lógica econômica
+
+Administradora de consórcio é **negócio de taxa de administração** sobre fundos de consorciados. Capital próprio é leve — o balanço da entidade (R$ 3,1 bi) é pequeno comparado aos R$ 12,87 bi de ativos que ela **administra em nome dos grupos** (fora do balanço individual da entidade — regime de administração fiduciária). Os R$ 5,04 bi em disponibilidades dos grupos são caixa dos consorciados aguardando contemplação ou compra de bem.
+
+A receita de R$ 1,15 bi vem quase integralmente da taxa de administração sobre o fluxo de contribuições dos consorciados. Custos principais: comissões de corretores, marketing e overhead operacional. Como a carteira de grupos é estoque estável e crescente (novos grupos entram ao longo do ano), a receita é relativamente recorrente e previsível — característica diferente de crédito (onde inadimplência muda a margem).
+
+### 6.4 Comparação com Portoseg dentro da vertical Bank
+
+| | Portoseg (CFI) | Porto Consórcio | Bank (consol. release) |
+|---|---|---|---|
+| Receita principal | R$ 3.319 mm (RIF) | R$ 1.145 mm (taxa adm.) | R$ ~4,5 bi |
+| Lucro líquido 2025 | R$ 147 mm (−36% a/a) | R$ 288 mm | R$ 841 mm |
+| PL | R$ 1.093 mm | R$ 725 mm | — |
+| ROE indiv. | ~14,3% | ~39,7% | ~28% (vertical) |
+| Característica | Spread sensível a inadimplência | Taxa sobre AUM fiduciário | — |
+
+**Implicação:** o Consórcio entrega **~2× o lucro** de Portoseg com PL menor e ROE 3× maior. É o negócio de melhor qualidade unitária da vertical Bank. O fato de a vertical Bank reportar ROAE de 28% enquanto Portoseg individual é 14% só é possível porque Consórcio puxa a média para cima.
+
+### 6.5 Reconciliação com EP de Porto Bank na holding
+
+Caminho de consolidação:
+
+```
+EP direto reconhecido por PSSA3 em Porto Bank (NE 17.1):  R$ 497 mm
+    ↑
+Porto Bank (holding topo da vertical Bank) consolida:
+    - PNF (via equivalência)
+    - outras participações menores (ConectCar 50%, outras)
+    - menos despesas admin/tributos Porto Bank
+
+PNF individual lucro:  R$ 285 mm
+    ↑
+PNF consolida (via equivalência):
+    - Portoseg:         R$ 147 mm
+    - Porto Consórcio:  R$ 288 mm
+    - Portopar:         R$ (2) mm
+    - Subtotal EP:      R$ 433 mm
+    - menos despesas admin/tributos PNF: R$ (148) mm
+    = PNF individual lucro R$ 285 mm
+```
+
+As despesas de R$ 148 mm em PNF + adicional ~R$ 64 mm em Porto Bank (gap entre R$ 285 PNF e R$ 497 EP Porto Bank não fecha linearmente — diferença de R$ 212 mm — sugere que Porto Bank também reconhece participações diretas fora do PNF, possivelmente ConectCar, Porto Asset, ou ajustes de equivalência em outros investimentos).
+
+**Pergunta aberta:** confirmar o caminho de equivalência entre PNF (R$ 285 mm) e Porto Bank (R$ 497 mm EP reconhecido) via leitura direta das DFs de Porto Bank S.A. como entidade — não foi obtida neste ciclo. Pode haver ganho por equivalência em ativos fora do PNF (ConectCar 50%) ou ajustes IFRS.
+
+(fonte: full/porto_seguro/2025/subsidiarias/porto_consorcio.md; full/porto_seguro/2025/subsidiarias/porto_negocios_financeiros.md; full/porto_seguro/2025/subsidiarias/porto_seguro_sa.md §NE 17.1)
+
+### 6.6 Incertezas de leitura (via vision/OCR)
+
+Nove células foram flagged `[?]` pelo subagente durante leitura vision:
+1. Despesas antecipadas na BP (coluna compacta)
+2. Coluna comparativa 2024 na BP ausente (confirmado por NE 2.1: dispensa de apresentação de valores comparativos via Resolução BCB 352/23 — não é erro de leitura)
+3. Aumento de capital em DMPL: R$ 460.474 (capital saltou de R$ 29,5 mm para R$ 489,97 mm — **aporte material** da controladora)
+4. Soma de itens "Diversos" em Nota 9.2: 177.251 vs total apresentado 177.348 (Δ R$ 97 — arredondamento)
+5. IRPJ+CSLL Nota 10.2: total 158.896 vs conferência 158.898 (Δ R$ 2 — arredondamento)
+6. Soma de Outras Despesas Operacionais no 2S: não fecha com total (R$ (84.827)) — possível linha oculta
+7. Benefício pós-emprego Nota 22.2: saldo final (758) não bate soma dos movimentos
+8. Saldo DMPL duplicado (visão semestre + exercício)
+9. Leitura de "Outros" em Recursos Utilizados: R$ (445.911)
+
+Nenhuma dessas incertezas afeta os números principais (receita, lucro, PL) que foram lidos com confiança alta. O **aporte de capital de R$ 460 mm** no meio do ano é o item mais material a confirmar — sugere capitalização da entidade pela controladora (PNF ou Porto Bank) durante 2025, provavelmente por requisito de capital regulatório do BACEN (Resolução 352/23 mudou regras de capital para administradoras de consórcio).

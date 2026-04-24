@@ -1002,3 +1002,4 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 [watch] 2026-04-24 hits=0 report=sources/lint_reports/2026-04-24-watch.md
 [lint] 2026-04-24 sources/lint_reports/2026-04-24.md action=416 warn=0 hint=238
 [edit] 2026-04-24 | porto_seguro.md | new §Estrutura organizacional e contribuição por entidade legal + 4 digests de subsidiárias (seguros_auto_home, saúde, financeiro, vida_cap_holding) + 15 fulls extraídos de DFs individuais 2025 publicadas em 13/02/2026 no OESP | one-off investigativo — não reingerir periodicamente | consorcio skipped (PDF só-imagem, 37pg PNG, precisa hybrid OCR)
+[edit] 2026-04-24 | porto_seguro.md + porto_consorcio.md full + financeiro digest §6 | re-extração consorcio via PyMuPDF+Claude vision (PDF só-imagem 37pg); análise Saúde aprofundada (cascata holding 2 andares, odonto vive na seguradora, Portomed ramp 80× YoY); Bank reconciliado com Consórcio R$ 288mm lucro (2× Portoseg)
