@@ -200,7 +200,7 @@ Scans every `*.md` at the wiki root for `(fonte: X, em: YYYY-MM-DD)` citations a
 ### Watchlist
 
 ```bash
-# Run all elegible watches (respects cadence)
+# Run all eligible watches (respects cadence)
 bash tools/watch.sh
 
 # Force all entries regardless of cadence
