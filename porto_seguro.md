@@ -38,6 +38,7 @@ sources:
   - sources/digested/porto_subsidiarias_saude_2025_summary.md
   - sources/digested/porto_subsidiarias_financeiro_2025_summary.md
   - sources/digested/porto_subsidiarias_vida_cap_holding_2025_summary.md
+  - sources/full/generic/susep_sinistralidade_auto_analise_2010_2026.md
 created: 2026-04-20
 updated: 2026-04-24
 ---
@@ -245,7 +246,9 @@ Gestão espera **ambiente menos competitivo em 2026** — sinistralidade "chega 
 
 **Estrutura de custo do sinistro:** ~40% FIPE (tabela de veículos usados) e ~60% peças e serviços. Relação entre queda da FIPE e prêmio não é direta nem imediata. (fonte: digested/notion_porto_seguro_porto_seguro_alexsander_update_byd_e_carro_el_trico_9e500ca3_summary.md)
 
-**SUSEP Fev/26 (prévia 2M26):** sinistralidade Auto Porto **55,2% no mês / 56,2% no 2M26** (-10,1 pp / -6,4 pp a/a) — queda muito superior ao mercado ex-Porto (-0,1 pp / -1,5 pp). Prêmio direto caiu 2,3% no mês / 3,3% no 2M26 enquanto mercado ex-Porto cresceu +3,4%/+3,9% (perda de share de volume, preservando preço e sinistralidade). (fonte: digested/porto_previa_operacional_2T26_summary.md)
+**SUSEP Fev/26 (prévia 2M26):** [[sinistralidade_auto|sinistralidade]] Auto Porto **55,2% no mês / 56,2% no 2M26** (-10,1 pp / -6,4 pp a/a) — queda muito superior ao mercado ex-Porto (-0,1 pp / -1,5 pp). Prêmio direto caiu 2,3% no mês / 3,3% no 2M26 enquanto mercado ex-Porto cresceu +3,4%/+3,9% (perda de share de volume, preservando preço e sinistralidade). (fonte: digested/porto_previa_operacional_2T26_summary.md)
+
+**Leitura de fev/26 — não é efeito calendário.** Análise SUSEP 2014-2025 (194 obs mensais) mostra que Fev historicamente é mês de sinistralidade **mediana** (ex-outlier 2022, gap de apenas +0,05pp vs média global de 61,8%). Dias úteis importam (+0,94 a +1,78pp por dia útil na regressão), mas Fev tem calendário parecido todo ano — a variação YoY de Fev NÃO vem de calendário. Fev/26 do **mercado** em ~0,59 está alinhado com o rolling 12M estável de 0,60 desde meados 2024. O gap de -10,1 pp da Porto vs mercado é **outperformance idiossincrática** (mix de marcas, pricing, frota, Carecut como filtro), não reflexo de Fev particularmente favorável. (fonte: full/generic/susep_sinistralidade_auto_analise_2010_2026.md)
 
 **Lançamentos 2026:** seguro de motocicleta (mercado crescente, mais motos vendidas/mês que carros); reativação da marca Itaú; produtos de inclusão securitária. (fonte: digested/notion_porto_seguro_kakinoff_3t25_jpm_2a800ca3_summary.md, digested/porto_call_transcript_3T25_summary.md)
 
@@ -270,6 +273,19 @@ Modelo "health tech" asset-light focado em SP, RJ e Brasília (70% do mercado na
 (fonte: digested/porto_release_4T25_summary.md, digested/porto_release_3T25_summary.md, digested/porto_itr_2T25_summary.md, digested/porto_itr_1T25_summary.md, digested/porto_dfp_2025_summary.md)
 
 CAGR 2021-2025: receita 37,2%, lucro 78,6%, ROAE +15,9 pp. Vidas saúde passaram de 250 mil em 2021 para 831 mil em 2025. **21 trimestres consecutivos de crescimento** de beneficiários. (fonte: digested/porto_release_4T25_summary.md, digested/porto_call_transcript_3T25_summary.md)
+
+### Como ler o DRE de Porto Saúde
+
+Diferente da Seguradora Auto, em saúde **[[premio_retido_vs_ganho|Prêmio Retido ≈ Prêmio Ganho]]** (98-100%) — dois motivos estruturais:
+1. **Resseguro cedido ~0%** em saúde suplementar (ANS regulada, mercado local não opera resseguro material);
+2. **Ciclo mensal** — contratos PME/corporate/individual são todos mensais, então PPNG (Provisão de Prêmios Não Ganhos) é residual. Contraste com Auto, onde PPNG desloca 10-20% do Retido em meses-pico de renovação.
+
+A linha **"Outras Receitas Operacionais"** em Porto Saúde merece atenção explícita para modelagem (8-15% da receita de prêmio típica):
+- **Coparticipação** (maior item) — usuário paga 20-40% do custo de cada evento (consulta/exame); infla numerador e denominador da sinistralidade em valores iguais, **reduzindo a razão**. Produtos PME/corporate concentram.
+- **Taxa de administração ASO/autogestão** — empresas grandes que bancam risco próprio contratam a Porto como TPA; fee 3-8% sobre custo assistencial, sem assumir risco.
+- Glosas recuperadas, taxas de adesão, multas de mensalidade em atraso.
+
+Para separação limpa na análise: **sinistralidade** técnica usa sinistro_bruto / prêmio_ganho (exclua outras receitas do denominador); **margem operacional** inclui outras receitas como lucro real. A [[sinistralidade_auto|sinistralidade]] de 74,9% no 4T25 (vs target 72-77% em 2026) é a métrica técnica pura — não compará-la com indicadores gerenciais que já rebatem coparticipação. Ver detalhamento em [[premio_retido_vs_ganho]].
 
 **Mix:** 2/3 PME, 1/3 corporate; PME ganhando share. Target de sinistralidade da gestão: 75%–80% — sinistralidade melhor nos produtos novos tende a ser reabsorvida com o crescimento. (fonte: digested/notion_porto_seguro_porto_seguro_jpm_69c00ca3_summary.md)
 

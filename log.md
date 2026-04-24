@@ -1003,3 +1003,12 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 [lint] 2026-04-24 sources/lint_reports/2026-04-24.md action=416 warn=0 hint=238
 [edit] 2026-04-24 | porto_seguro.md | new §Estrutura organizacional e contribuição por entidade legal + 4 digests de subsidiárias (seguros_auto_home, saúde, financeiro, vida_cap_holding) + 15 fulls extraídos de DFs individuais 2025 publicadas em 13/02/2026 no OESP | one-off investigativo — não reingerir periodicamente | consorcio skipped (PDF só-imagem, 37pg PNG, precisa hybrid OCR)
 [edit] 2026-04-24 | porto_seguro.md + porto_consorcio.md full + financeiro digest §6 | re-extração consorcio via PyMuPDF+Claude vision (PDF só-imagem 37pg); análise Saúde aprofundada (cascata holding 2 andares, odonto vive na seguradora, Portomed ramp 80× YoY); Bank reconciliado com Consórcio R$ 288mm lucro (2× Portoseg)
+[generic-ingest] 2026-04-24 | full/generic/susep_sinistralidade_auto_analise_2010_2026.md | SUSEP export auto mercado 2010-2026 (194 obs mensais, ramos 0520-0553) | análise sazonalidade sinistralidade: regressão OLS com days_biz/carnaval/year FE, decomposição numerador/denominador, rolling 12M; Fev ex-outlier é mediano não baixo; calendário não explica fev/26 do mercado
+[new] 2026-04-24 | sinistralidade_auto.md | concept page — sazonalidade + decomposição + rolling 12M; referencia generic susep + porto_seguro
+[new] 2026-04-24 | premio_retido_vs_ganho.md | concept page — Emitido→Retido→Ganho + PPNG + sinistros regime competência + outras receitas saúde (coparticipação/ASO)
+[edit] 2026-04-24 | porto_seguro.md | wikilinks [[sinistralidade_auto]] e [[premio_retido_vs_ganho]]; §Vertical 1 Auto adiciona interpretação Fev/26 (não é calendário, é outperformance Porto); §Vertical 2 Saúde adiciona "Como ler o DRE" (Retido≈Ganho ciclo mensal + outras receitas coparticipação/ASO)
+[lint] 2026-04-24 sources/lint_reports/2026-04-24.md action=418 warn=0 hint=240
+[lint] 2026-04-24 sources/lint_reports/2026-04-24.md action=0 warn=0 hint=0
+[lint] 2026-04-24 sources/lint_reports/2026-04-24.md action=0 warn=0 hint=0
+[lint] 2026-04-24 sources/lint_reports/2026-04-24.md action=0 warn=0 hint=11
+[lint] 2026-04-24 sources/lint_reports/2026-04-24.md action=418 warn=0 hint=240
