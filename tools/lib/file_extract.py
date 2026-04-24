@@ -34,29 +34,36 @@ def extract_pdf_from_zip(zip_path: Path) -> Path:
 
 
 def try_opendataloader(pdf_path: Path, output_path: Path) -> bool:
-    """Try opendataloader-pdf. Returns True if successful."""
+    """Try opendataloader-pdf. Returns True if successful.
+
+    opendataloader's `-o` is OUTPUT_DIR (not a file path). It writes
+    `<input_stem>.md` inside that directory. We point it at a temp dir,
+    then copy the generated file to the requested output_path.
+    """
     try:
-        result = subprocess.run(
-            [
-                sys.executable, '-m', 'opendataloader_pdf',
-                str(pdf_path),
-                '--format', 'markdown',
-                '--use-struct-tree',
-                '--table-method', 'cluster',
-                '-o', str(output_path),
-            ],
-            capture_output=True, text=True, timeout=300,
-        )
-        # opendataloader may create a directory instead of a file — check is_file()
-        if result.returncode == 0 and output_path.is_file() and output_path.stat().st_size > 100:
+        with tempfile.TemporaryDirectory(prefix='odl_') as tmpdir:
+            result = subprocess.run(
+                [
+                    sys.executable, '-m', 'opendataloader_pdf',
+                    str(pdf_path),
+                    '--format', 'markdown',
+                    '--use-struct-tree',
+                    '--table-method', 'cluster',
+                    '-o', tmpdir,
+                ],
+                capture_output=True, text=True, timeout=300,
+            )
+            if result.returncode != 0:
+                return False
+            generated = Path(tmpdir) / (pdf_path.stem + '.md')
+            if not generated.is_file() or generated.stat().st_size < 100:
+                return False
+            output_path.write_text(
+                generated.read_text(encoding='utf-8'), encoding='utf-8'
+            )
             return True
-        # Clean up if it created a directory
-        if output_path.is_dir():
-            import shutil
-            shutil.rmtree(output_path, ignore_errors=True)
     except (subprocess.TimeoutExpired, FileNotFoundError):
-        pass
-    return False
+        return False
 
 
 def extract_with_pdfplumber(pdf_path: Path, output_path: Path) -> int:

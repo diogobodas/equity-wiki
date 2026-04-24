@@ -179,11 +179,13 @@ Searches structured/ → full/ → digested/ with spaced-text normalization. Ret
 ### File extraction (standalone)
 
 ```bash
-python tools/lib/file_extract.py <file.pdf>       # PDF (opendataloader + pdfplumber)
+python tools/lib/file_extract.py <file.pdf>       # PDF → opendataloader-pdf (padrão); pdfplumber só como fallback se opendataloader falhar
 python tools/lib/file_extract.py <file.xlsx>      # Excel (markitdown)
 python tools/lib/file_extract.py <file.docx>      # Word (markitdown)
-# Returns JSON: {"output": "path/to/extracted.md", ...}
+# Returns JSON: {"output": "path/to/extracted.md", "method": "opendataloader"|"pdfplumber", ...}
 ```
+
+**Sempre verifique `method: opendataloader` no JSON de saída.** Se veio `pdfplumber`, o output terá artefatos (letras duplicadas tipo `PPoortrtoo`, listas sem estrutura) — investigue por que opendataloader falhou (Java ausente? subprocess timeout?) e corrija antes de prosseguir. Ver bullet correspondente em §Non-obvious rules.
 
 ### Manifest update (standalone)
 
@@ -318,6 +320,7 @@ To inspect pending items: `python tools/lib/wiki_queue.py peek`.
 - **Filenames**: `snake_case`, lowercase, Portuguese when natural. **No ticker prefixes** on wiki pages (`itau.md`, not `ITUB4_itau.md`) — tickers go in `aliases`. Period codes: `1T25`, `2T25`, `3T25`, `4T25`, `2025` (annual). Source type tokens: `itr`, `dfp`, `release`, `apresentacao`, `fato_relevante`, `call_transcript`, `previa_operacional`, `rca`, `data_pack`.
 - **Frontmatter is mandatory** on every wiki page: `type`, `sources` (paths into `sources/`), `created`, `updated` (and optional `aliases`).
 - **`full/` is a direct copy from file_extract.py output.** The LLM does NOT produce `full/` files — they are copied verbatim from the extracted markdown. This guarantees 100% content preservation (notas explicativas, tables, etc.).
+- **PDF → markdown é SEMPRE via opendataloader-pdf** (heading structure + table cluster method). `pdfplumber` é apenas fallback automático se opendataloader falhar. Se o JSON do `file_extract.py` voltar `"method": "pdfplumber"`, o output NÃO está no padrão do projeto — letras duplicadas, listas bagunçadas, tabelas perdidas. Não use esse output em ingests; investigue o motivo (Java ausente, timeout, PDF só-imagem que precisa de hybrid/OCR) e corrija antes de prosseguir. PDFs só-imagem (14MB e 37 páginas vindo como PNGs embedded) exigem hybrid mode com docling — ver `SCHEMA.md §PDF pre-processing`.
 - **`structured/` shape**: `{_schema, _schema_path, _empresa, _periodo, _source, canonical, company_specific}`. Missing canonical keys → `null`, never omit. Numbers as reported; normalizations belong to the modeling layer.
 - **`manifests/{empresa}.json` is mandatory** — every heavy/light ingest MUST update it. A cold-start modeling agent reads this file first.
 - **Citations** — prefer `(fonte: full/itau/3T25/itr.md §nota_18)` for qualitative, `(fonte: structured/itau/3T25/itr.json :: canonical.dre.margem_financeira)` for numeric, `(fonte: url, confiabilidade: nivel)` for web.
