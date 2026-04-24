@@ -126,3 +126,94 @@ def test_run_watch_integrates_cadence_and_diff(tmp_path, monkeypatch):
     # Second run: state now has the URL -> cadence blocks
     hits2 = wr.run_watch(page, state_dir, today=date(2026, 4, 23))
     assert hits2 == []
+
+
+def test_parse_watches_frontmatter_multiline_sites(tmp_path):
+    page = tmp_path / "demo.md"
+    page.write_text(
+        "---\n"
+        "watches:\n"
+        "  - query: q1\n"
+        "    sites:\n"
+        "      - planalto.gov.br\n"
+        "      - mattosfilho.com.br\n"
+        "    cadence: weekly\n"
+        "---\n\nbody\n",
+        encoding="utf-8",
+    )
+    entries = wr.parse_watches_frontmatter(page)
+    assert len(entries) == 1
+    assert entries[0]["query"] == "q1"
+    assert entries[0]["sites"] == ["planalto.gov.br", "mattosfilho.com.br"]
+    assert entries[0]["cadence"] == "weekly"
+
+
+def test_parse_watches_frontmatter_multiple_entries(tmp_path):
+    page = tmp_path / "demo.md"
+    page.write_text(
+        "---\n"
+        "watches:\n"
+        "  - query: first\n"
+        "    sites: [a.com]\n"
+        "    cadence: weekly\n"
+        "  - query: second\n"
+        "    sites:\n"
+        "      - b.com\n"
+        "      - c.com\n"
+        "    cadence: monthly\n"
+        "---\n\nbody\n",
+        encoding="utf-8",
+    )
+    entries = wr.parse_watches_frontmatter(page)
+    assert len(entries) == 2
+    assert entries[0]["query"] == "first"
+    assert entries[0]["sites"] == ["a.com"]
+    assert entries[1]["query"] == "second"
+    assert entries[1]["sites"] == ["b.com", "c.com"]
+
+
+def test_run_watch_writes_to_separate_watch_report(tmp_path, monkeypatch):
+    # Verify the watch report goes to YYYY-MM-DD-watch.md, NOT YYYY-MM-DD.md
+    # (critical fix preventing lint.sh from clobbering watch hits)
+    page = tmp_path / "demo.md"
+    page.write_text(
+        "---\n"
+        "watches:\n"
+        "  - query: q\n"
+        "    sites: [example.com]\n"
+        "    cadence: weekly\n"
+        "---\n\nbody\n",
+        encoding="utf-8",
+    )
+
+    # Mock search_web to return a hit
+    def fake_search(query, sites, today):
+        return [{"url": "https://example.com/a", "title": "A", "snippet": "...",
+                 "published_date": "2026-04-22"}]
+    monkeypatch.setattr(wr, "search_web", fake_search)
+
+    state_dir = tmp_path / "sources" / "watch_state"
+    today = date(2026, 4, 23)
+    hits = wr.run_watch(page, state_dir, today=today)
+    assert len(hits) == 1
+
+
+def test_search_web_json_extraction_handles_prose_wrapped_array(tmp_path, monkeypatch):
+    # Simulate claude --print stdout that includes prose before the JSON array
+    class FakeProc:
+        def __init__(self, stdout):
+            self.stdout = stdout
+            self.stderr = ""
+            self.returncode = 0
+
+    def fake_run(*args, **kwargs):
+        return FakeProc(
+            'Here is what I found:\n'
+            '[{"url": "https://x", "title": "X", "snippet": "s", "published_date": "2026-04-22"}]\n'
+            'That is all.'
+        )
+
+    monkeypatch.setattr(wr.subprocess, "run", fake_run)
+    out = wr.search_web("q", ["example.com"], date(2026, 4, 23))
+    assert len(out) == 1
+    assert out[0]["url"] == "https://x"

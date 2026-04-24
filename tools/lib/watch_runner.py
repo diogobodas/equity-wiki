@@ -71,7 +71,7 @@ _WATCHES_BLOCK_RE = re.compile(
     r"^watches:\s*\n((?:\s{2,}.*\n?)+)", re.MULTILINE
 )
 _ENTRY_START_RE = re.compile(r"^\s*-\s*query:\s*(.+?)\s*$")
-_FIELD_RE = re.compile(r"^\s*(query|sites|cadence):\s*(.+?)\s*$")
+_FIELD_RE = re.compile(r"^\s*(query|sites|cadence):\s*(.*?)\s*$")
 
 
 def parse_watches_frontmatter(page_path: Path) -> list[dict]:
@@ -96,27 +96,57 @@ def parse_watches_frontmatter(page_path: Path) -> list[dict]:
     block = m.group(1)
     entries: list[dict] = []
     current: Optional[dict] = None
+    accumulating_sites: Optional[list] = None
+
+    def _flush_sites():
+        nonlocal accumulating_sites
+        if current is not None and accumulating_sites is not None:
+            current["sites"] = accumulating_sites
+        accumulating_sites = None
+
     for raw in block.splitlines():
-        if not raw.strip():
+        stripped = raw.strip()
+        if not stripped:
             continue
+
+        # Multi-line sites list continuation: `    - example.com`
+        if accumulating_sites is not None and stripped.startswith("- "):
+            item = stripped[2:].strip().strip('"').strip("'")
+            if item:
+                accumulating_sites.append(item)
+            continue
+
+        # Any non-continuation line closes an in-progress multi-line sites list.
+        _flush_sites()
+
         start_match = _ENTRY_START_RE.match(raw)
         if start_match:
             if current is not None:
                 entries.append(current)
             current = {"query": start_match.group(1).strip().strip('"').strip("'")}
             continue
+
         if current is None:
             continue
+
         field_match = _FIELD_RE.match(raw)
         if not field_match:
             continue
+
         key, val = field_match.group(1), field_match.group(2).strip()
-        if key == "sites" and val.startswith("[") and val.endswith("]"):
-            current["sites"] = [s.strip() for s in val[1:-1].split(",") if s.strip()]
+        if key == "sites":
+            if val.startswith("[") and val.endswith("]"):
+                current["sites"] = [s.strip() for s in val[1:-1].split(",") if s.strip()]
+            elif val == "":
+                # Start of multi-line sites list; items collected by the
+                # continuation branch above.
+                accumulating_sites = []
         elif key == "cadence":
             current["cadence"] = val
         elif key == "query":
             current["query"] = val.strip('"').strip("'")
+
+    _flush_sites()
     if current is not None:
         entries.append(current)
     return entries
@@ -150,15 +180,49 @@ def search_web(query: str, sites: list[str], today: date) -> list[dict]:
         )
     except (subprocess.CalledProcessError, subprocess.TimeoutExpired, FileNotFoundError) as e:
         print(f"search_web error: {e}", file=sys.stderr)
+        stderr_text = getattr(e, "stderr", None)
+        if stderr_text:
+            snippet = stderr_text.strip()
+            if len(snippet) > 500:
+                snippet = snippet[:500] + "... [truncated]"
+            print(f"search_web stderr: {snippet}", file=sys.stderr)
         return []
     out = proc.stdout.strip()
-    m = re.search(r"\[\s*\{.*\}\s*\]", out, re.DOTALL)
-    if not m:
-        return []
-    try:
-        return json.loads(m.group(0))
-    except json.JSONDecodeError:
-        return []
+    # Try to extract a balanced JSON array. Search all candidate brackets and
+    # return the first that parses successfully. Handles LLM outputs where the
+    # array is embedded in prose or preceded by a thinking-style array.
+    candidates = list(re.finditer(r"\[", out))
+    for start_m in candidates:
+        start = start_m.start()
+        depth = 0
+        in_str = False
+        escape = False
+        for i in range(start, len(out)):
+            ch = out[i]
+            if in_str:
+                if escape:
+                    escape = False
+                elif ch == "\\":
+                    escape = True
+                elif ch == '"':
+                    in_str = False
+                continue
+            if ch == '"':
+                in_str = True
+            elif ch == "[":
+                depth += 1
+            elif ch == "]":
+                depth -= 1
+                if depth == 0:
+                    candidate = out[start:i + 1]
+                    try:
+                        result = json.loads(candidate)
+                    except json.JSONDecodeError:
+                        break
+                    if isinstance(result, list):
+                        return result
+                    break
+    return []
 
 
 def run_watch(
@@ -271,21 +335,27 @@ def main() -> int:
 
     lint_reports = root / "sources" / "lint_reports"
     lint_reports.mkdir(parents=True, exist_ok=True)
-    report_path = lint_reports / f"{today.isoformat()}.md"
-    with report_path.open("a", encoding="utf-8") as fh:
+    # Watch hits live in a separate daily file so that rerunning lint (which
+    # fully overwrites its own report) cannot erase them.
+    report_path = lint_reports / f"{today.isoformat()}-watch.md"
+    mode = "a" if report_path.exists() else "w"
+    with report_path.open(mode, encoding="utf-8") as fh:
+        if mode == "w":
+            fh.write(f"# Watch Report — {today.isoformat()}\n\n")
         if hits:
-            fh.write(f"\n## Watch hits — {today.isoformat()}\n\n")
+            fh.write(f"## Run at {today.isoformat()}\n\n")
             for h in hits:
                 fh.write(
                     f"- [watch-hit] {h['page']} query=\"{h['query']}\" → {h['url']} "
                     f"(publicado {h.get('published_date','?')}, cadence {h['cadence']})\n"
                 )
+            fh.write("\n")
 
     log_path = root / "log.md"
     with log_path.open("a", encoding="utf-8") as fh:
         fh.write(
             f"[watch] {today.isoformat()} hits={len(hits)} "
-            f"report=sources/lint_reports/{today.isoformat()}.md\n"
+            f"report=sources/lint_reports/{today.isoformat()}-watch.md\n"
         )
     print(f"Watch: {len(hits)} hits appended to {report_path}")
     return 0
