@@ -7,10 +7,8 @@ Implemented:
     age_threshold_flags(claims, config)   -> list[Flag]
     missing_em_flags(claims, config)      -> list[Flag]
     newer_source_flags(claims, root)      -> list[Flag]
-    write_report(flags, report_path)      -> None
-
-Planned (task 9):
     contradiction_flags(claims)           -> list[Flag]
+    write_report(flags, report_path)      -> None
 
 CLI:
     python tools/lib/dated_lint.py [--severity S] [--page P]
@@ -355,6 +353,97 @@ def newer_source_flags(
     return flags
 
 
+_KEY_PHRASE_RE = re.compile(r"[A-Za-zÀ-ÿ]{4,}(?:\s+[A-Za-zÀ-ÿ0-9]+){0,3}")
+_VALUE_RE = re.compile(
+    r"(?:R\$\s*)?([\d]{1,3}(?:[.\s]\d{3})+|\d+)(?:,(\d+))?\s*(bi|mm|mil|milhões|mi|k|%)?",
+    re.IGNORECASE,
+)
+
+
+def _normalize_value(match: re.Match) -> Optional[float]:
+    """Convert a matched number with unit to a float in canonical units.
+
+    Percentage stays in pct. Monetary is normalized to reais (bi=1e9, mm=1e6, mil=1e3).
+    Returns None if parse fails.
+    """
+    int_part = match.group(1).replace(".", "").replace(" ", "")
+    dec_part = match.group(2)
+    unit = (match.group(3) or "").lower()
+    try:
+        raw = float(int_part)
+        if dec_part:
+            raw += float(f"0.{dec_part}")
+    except ValueError:
+        return None
+    if unit == "%":
+        return raw
+    mult = {"bi": 1e9, "mm": 1e6, "mi": 1e6, "milhões": 1e6, "mil": 1e3, "k": 1e3}.get(unit, 1.0)
+    return raw * mult
+
+
+def _extract_key_phrase(excerpt: str) -> Optional[str]:
+    """Pick a 2-5 word key phrase from the excerpt (used as contradiction bucket key).
+
+    Strategy: longest capitalised/alpha phrase near the end of the excerpt.
+    """
+    candidates = _KEY_PHRASE_RE.findall(excerpt)
+    if not candidates:
+        return None
+    return candidates[-1].strip().lower()
+
+
+def contradiction_flags(claims: list[ClaimCitation]) -> list[Flag]:
+    """Flag pairs of claims on different pages with same key phrase but different values.
+
+    Heuristic — groups claims by an extracted "key phrase" (alphabetic word group
+    near the end of the claim excerpt) and flags within-group disagreement on
+    normalised numeric value. Intentionally imperfect; prefers recall over
+    precision at `action` severity. Expect false positives to be triaged by
+    human review rather than suppressed in code.
+    """
+    buckets: dict[str, list[tuple[ClaimCitation, float]]] = {}
+    for c in claims:
+        # Use the largest-magnitude value in the excerpt so that monetary amounts
+        # (e.g. R$ 350.000) dominate nearby count/classifier digits (e.g. "3" in
+        # "Faixa 3"). re.search would return the leftmost match, which is wrong.
+        best_val: Optional[float] = None
+        for m in _VALUE_RE.finditer(c.excerpt):
+            v = _normalize_value(m)
+            if v is None:
+                continue
+            if best_val is None or abs(v) > abs(best_val):
+                best_val = v
+        if best_val is None:
+            continue
+        key = _extract_key_phrase(c.excerpt)
+        if not key:
+            continue
+        buckets.setdefault(key, []).append((c, best_val))
+
+    flags: list[Flag] = []
+    for key, items in buckets.items():
+        pages = {c.page for c, _ in items}
+        if len(pages) < 2:
+            continue
+        values = {round(v, 4) for _, v in items}
+        if len(values) < 2:
+            continue
+        for c, v in items:
+            other_vals = sorted({round(v2, 4) for _, v2 in items if v2 != v})
+            flags.append(
+                Flag(
+                    claim=c,
+                    rule="contradiction",
+                    severity="action",
+                    detail=(
+                        f'key="{key}" value={v} conflicts with values {other_vals} '
+                        f"on other pages"
+                    ),
+                )
+            )
+    return flags
+
+
 # Files at wiki root that are documentation/audit artifacts, not wiki pages.
 # Their `(fonte: ...)` patterns are illustrative examples or log entries, not
 # factual claims to lint.
@@ -443,6 +532,7 @@ def main() -> int:
     all_flags.extend(age_threshold_flags(claims, config))
     all_flags.extend(missing_em_flags(claims, config))
     all_flags.extend(newer_source_flags(claims, root))
+    all_flags.extend(contradiction_flags(claims))
 
     sev_rank = {"action": 0, "warn": 1, "hint": 2}
     min_rank = sev_rank[args.severity]

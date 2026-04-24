@@ -359,3 +359,32 @@ def test_newer_source_handles_scalar_aliases_manifest(tmp_path):
     # Even with scalar aliases, matching should succeed (via string guard)
     assert len(flags) == 1
     assert flags[0].rule == "newer_source"
+
+
+def test_contradiction_across_pages(tmp_path):
+    (tmp_path / "mcmv.md").write_text(
+        "Teto Faixa 3 R$ 350.000 (fonte: x.md, em: 2025-01-01).\n",
+        encoding="utf-8",
+    )
+    (tmp_path / "pode_entrar.md").write_text(
+        "Teto Faixa 3 R$ 380.000 (fonte: y.md, em: 2026-03-01).\n",
+        encoding="utf-8",
+    )
+    claims = dl.scan_wiki(tmp_path)
+    flags = dl.contradiction_flags(claims)
+    # Two claims → two flags (one per side) OR one combined flag; accept either
+    assert len(flags) >= 1
+    assert all(f.rule == "contradiction" for f in flags)
+    assert all(f.severity == "action" for f in flags)
+
+
+def test_no_contradiction_when_values_agree(tmp_path):
+    (tmp_path / "a.md").write_text(
+        "Teto Faixa 3 R$ 350.000 (fonte: x.md, em: 2025-01-01).\n", encoding="utf-8"
+    )
+    (tmp_path / "b.md").write_text(
+        "Teto Faixa 3 R$ 350.000 (fonte: y.md, em: 2026-03-01).\n", encoding="utf-8"
+    )
+    claims = dl.scan_wiki(tmp_path)
+    flags = dl.contradiction_flags(claims)
+    assert flags == []
