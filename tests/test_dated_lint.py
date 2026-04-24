@@ -134,3 +134,45 @@ def test_write_report_groups_by_page(tmp_path):
     dl.write_report(flags, report)
     out = report.read_text(encoding="utf-8")
     assert out.index("## a.md") < out.index("## b.md")
+
+
+def test_parse_citation_with_confiabilidade(tmp_path):
+    page = tmp_path / "demo.md"
+    page.write_text(
+        "Dado (fonte: https://exemplo.com, confiabilidade: oficial).\n",
+        encoding="utf-8",
+    )
+    claims = dl.parse_claims(page)
+    assert len(claims) == 1
+    assert claims[0].fonte == "https://exemplo.com"
+    assert claims[0].em is None
+
+
+def test_parse_citation_with_em_and_confiabilidade(tmp_path):
+    page = tmp_path / "demo.md"
+    page.write_text(
+        "Dado (fonte: https://exemplo.com, em: 2026-01-15, confiabilidade: oficial).\n",
+        encoding="utf-8",
+    )
+    claims = dl.parse_claims(page)
+    assert len(claims) == 1
+    assert claims[0].fonte == "https://exemplo.com"
+    assert claims[0].em == date(2026, 1, 15)
+
+
+def test_scan_wiki_skips_documentation_files(tmp_path):
+    (tmp_path / "SCHEMA.md").write_text(
+        "Doc example (fonte: x.md, em: 2020-01-01).\n", encoding="utf-8"
+    )
+    (tmp_path / "CLAUDE.md").write_text(
+        "Doc (fonte: y.md, em: 2020-01-01).\n", encoding="utf-8"
+    )
+    (tmp_path / "log.md").write_text(
+        "(fonte: z.md, em: 2020-01-01)\n", encoding="utf-8"
+    )
+    (tmp_path / "real_page.md").write_text(
+        "Claim (fonte: real.md, em: 2026-01-15).\n", encoding="utf-8"
+    )
+    claims = dl.scan_wiki(tmp_path)
+    assert len(claims) == 1
+    assert claims[0].page.name == "real_page.md"

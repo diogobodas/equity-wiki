@@ -1,14 +1,16 @@
 """Dated Lint — parse `(fonte: X, em: YYYY-MM-DD)` citations across the wiki
 and flag claims that are stale, contradictory, or missing dates.
 
-Public API:
+Implemented:
     parse_claims(page_path)               -> list[ClaimCitation]
     scan_wiki(root)                       -> list[ClaimCitation]
     age_threshold_flags(claims, config)   -> list[Flag]
+    write_report(flags, report_path)      -> None
+
+Planned (tasks 7-9):
     missing_em_flags(claims, config)      -> list[Flag]
     newer_source_flags(claims, root)      -> list[Flag]
     contradiction_flags(claims)           -> list[Flag]
-    write_report(flags, report_path)      -> None
 
 CLI:
     python tools/lib/dated_lint.py [--severity S] [--page P]
@@ -25,8 +27,15 @@ from pathlib import Path
 from typing import Optional
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
+# (fonte: PATH[, em: YYYY-MM-DD][, ARBITRARY ATTRS])
+# Trailing comma-separated attributes (e.g., confiabilidade, §nota) are tolerated
+# but not captured. `em:` may appear anywhere after `fonte:` within the parens.
+# The fonte group uses greedy `[^,)]+` so it captures the full path up to the
+# first comma or closing paren (lazy `+?` caused regression — see Task 6 fixup).
 CITATION_RE = re.compile(
-    r"\(fonte:\s*(?P<fonte>[^,)]+?)(?:,\s*em:\s*(?P<em>\d{4}-\d{2}-\d{2}))?\)"
+    r"\(fonte:\s*(?P<fonte>[^,)]+)"
+    r"(?:,[^)]*?em:\s*(?P<em>\d{4}-\d{2}-\d{2}))?"
+    r"[^)]*\)"
 )
 EXCERPT_CHARS_BEFORE = 200
 
@@ -83,9 +92,14 @@ def parse_claims(page_path: Path) -> list[ClaimCitation]:
 def _read_frontmatter(page_path: Path) -> dict:
     """Extract YAML frontmatter as a dict. Returns empty dict if none found.
 
-    Minimal parser: only `key: value` and `key: [a, b]` on single lines.
-    Nested structures (used by `watches:`) are returned as raw string blocks
-    under their top-level key and not parsed further here.
+    Minimal parser: handles `key: value` scalars and `key: [a, b]` inline arrays
+    on single lines. For keys with multi-line YAML list syntax (``sources:``
+    followed by ``- item`` lines, common in all real wiki pages), the value
+    is silently stored as an empty string — multi-line lists are NOT parsed.
+
+    This is deliberate: `age_threshold_flags` only consumes scalar `type`.
+    Rules that need `aliases` or `sources` (e.g., Task 8's newer_source_flags)
+    must parse those fields themselves or use a dedicated helper.
     """
     text = page_path.read_text(encoding="utf-8")
     if not text.startswith("---\n"):
@@ -110,8 +124,17 @@ def _read_frontmatter(page_path: Path) -> dict:
 def _classify_claim_tipo(claim: ClaimCitation, config: dict) -> str:
     """Decide which threshold bucket applies to a claim.
 
-    Priority: keyword match in excerpt > page_type match > default.
-    First tipo whose keyword matches the excerpt wins.
+    Priority chain:
+      1. First tipo whose keyword matches the excerpt wins.
+      2. Else: first tipo whose `page_types` includes the page's YAML `type:`.
+      3. Else: return "default".
+
+    Tie-break: iteration order follows the `tipo_inference` dict in
+    `lint_config.json` (Python dicts preserve insertion order since 3.7).
+    A page with `type: entity` and no keyword match will therefore classify as
+    the first tipo in the config that lists `entity` under `page_types` —
+    currently `guidance_corporativo` (6-month threshold). Reorder the config
+    if a different default is desired.
     """
     excerpt_lower = claim.excerpt.lower()
     inference = config["tipo_inference"]
@@ -146,30 +169,41 @@ def age_threshold_flags(
             continue
         tipo = _classify_claim_tipo(c, config)
         threshold = thresholds.get(tipo, thresholds["default"])
-        if _months_between(c.em, today) >= threshold:
+        age_months = _months_between(c.em, today)
+        if age_months >= threshold:
             flags.append(
                 Flag(
                     claim=c,
                     rule="age_threshold",
                     severity="warn",
                     detail=(
-                        f"em={c.em.isoformat()} is {_months_between(c.em, today)} months "
-                        f"old (threshold for tipo={tipo} is {threshold})"
+                        f"em={c.em.isoformat()} is {age_months} months old "
+                        f"(threshold for tipo={tipo} is {threshold})"
                     ),
                 )
             )
     return flags
 
 
+# Files at wiki root that are documentation/audit artifacts, not wiki pages.
+# Their `(fonte: ...)` patterns are illustrative examples or log entries, not
+# factual claims to lint.
+SKIP_FILES = {"SCHEMA.md", "CLAUDE.md", "README.md", "Melnick.md", "log.md", "index.md"}
+
+
 def scan_wiki(root: Path) -> list[ClaimCitation]:
-    """Parse all top-level wiki pages under `root` (excluding docs/, sources/, tools/)."""
+    """Parse all top-level wiki pages under `root`.
+
+    Excludes infrastructure directories (docs/, sources/, tools/, .git/, etc.)
+    and documentation/log files at the root (see SKIP_FILES).
+    """
     skip_dirs = {"docs", "sources", "tools", "tests", "logs", ".git", ".obsidian",
                  ".playwright-cli", ".claude", ".pytest_cache", "__pycache__"}
     claims: list[ClaimCitation] = []
     for entry in sorted(root.iterdir()):
         if entry.is_dir() and entry.name in skip_dirs:
             continue
-        if entry.is_file() and entry.suffix == ".md":
+        if entry.is_file() and entry.suffix == ".md" and entry.name not in SKIP_FILES:
             claims.extend(parse_claims(entry))
     return claims
 
