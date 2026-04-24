@@ -388,3 +388,52 @@ def test_no_contradiction_when_values_agree(tmp_path):
     claims = dl.scan_wiki(tmp_path)
     flags = dl.contradiction_flags(claims)
     assert flags == []
+
+
+def test_contradiction_ignores_citation_metadata_fragments(tmp_path):
+    # Two pages both have aggregation lines with fonte spans but same prose.
+    # The bucket key must come from the prose, not from the fonte path tokens.
+    (tmp_path / "a.md").write_text(
+        "Receita R$ 100 milhões (fonte: structured/a/release.json :: canonical).\n",
+        encoding="utf-8",
+    )
+    (tmp_path / "b.md").write_text(
+        "Receita R$ 200 milhões (fonte: structured/b/release.json :: canonical).\n",
+        encoding="utf-8",
+    )
+    claims = dl.scan_wiki(tmp_path)
+    flags = dl.contradiction_flags(claims)
+    # Should flag the genuine disagreement (100M vs 200M for "receita"),
+    # not be distracted by shared tokens like 'canonical' or 'structured'.
+    assert len(flags) >= 1
+    assert all(f.rule == "contradiction" for f in flags)
+
+
+def test_contradiction_ignores_year_tokens(tmp_path):
+    # A pattern where year 2026 is adjacent to a tiny value. Without the year
+    # guard, finditer+largest-magnitude would pick 2026 as the value and
+    # bucket it against other unrelated claims.
+    (tmp_path / "a.md").write_text(
+        "Guidance 2026: R$ 5 milhões (fonte: x.md, em: 2026-01-01).\n",
+        encoding="utf-8",
+    )
+    (tmp_path / "b.md").write_text(
+        "Guidance 2026: R$ 10 milhões (fonte: y.md, em: 2026-02-01).\n",
+        encoding="utf-8",
+    )
+    claims = dl.scan_wiki(tmp_path)
+    flags = dl.contradiction_flags(claims)
+    # Should flag the genuine disagreement (5M vs 10M), not a year conflict.
+    # Both claims must report values in millions, NOT 2026.
+    assert len(flags) >= 1
+    for f in flags:
+        assert "2026.0" not in f.detail, f"Year token leaked into value: {f.detail}"
+
+
+def test_normalize_value_rejects_bare_year(tmp_path):
+    # Unit tests the guard directly: feed a match representing "2025" with no
+    # unit/decimal and verify _normalize_value returns None.
+    match = dl._VALUE_RE.search("Evento em 2025 teve impacto")
+    assert match is not None, "regex should match '2025'"
+    result = dl._normalize_value(match)
+    assert result is None, "bare year 2025 should be rejected"

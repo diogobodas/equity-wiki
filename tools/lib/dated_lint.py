@@ -355,7 +355,7 @@ def newer_source_flags(
 
 _KEY_PHRASE_RE = re.compile(r"[A-Za-zÀ-ÿ]{4,}(?:\s+[A-Za-zÀ-ÿ0-9]+){0,3}")
 _VALUE_RE = re.compile(
-    r"(?:R\$\s*)?([\d]{1,3}(?:[.\s]\d{3})+|\d+)(?:,(\d+))?\s*(bi|mm|mil|milhões|mi|k|%)?",
+    r"(?:R\$\s*)?([\d]{1,3}(?:[.\s]\d{3})+|\d+)(?:,(\d+))?\s*(bi|mm|mil|milhões|milhão|mi|k|%)?",
     re.IGNORECASE,
 )
 
@@ -364,7 +364,9 @@ def _normalize_value(match: re.Match) -> Optional[float]:
     """Convert a matched number with unit to a float in canonical units.
 
     Percentage stays in pct. Monetary is normalized to reais (bi=1e9, mm=1e6, mil=1e3).
-    Returns None if parse fails.
+    Returns None if parse fails or the match is a bare year token (1900-2100
+    without unit or decimal) — year tokens are excluded to prevent them from
+    polluting numeric buckets in contradiction_flags.
     """
     int_part = match.group(1).replace(".", "").replace(" ", "")
     dec_part = match.group(2)
@@ -375,16 +377,23 @@ def _normalize_value(match: re.Match) -> Optional[float]:
             raw += float(f"0.{dec_part}")
     except ValueError:
         return None
+    # Year-token guard: bare integer in [1900, 2100] with no unit/decimal is a
+    # date, not a claim value.
+    if not unit and not dec_part and 1900 <= raw <= 2100 and "." not in match.group(1) and " " not in match.group(1):
+        return None
     if unit == "%":
         return raw
-    mult = {"bi": 1e9, "mm": 1e6, "mi": 1e6, "milhões": 1e6, "mil": 1e3, "k": 1e3}.get(unit, 1.0)
+    mult = {"bi": 1e9, "mm": 1e6, "mi": 1e6, "milhões": 1e6, "milhão": 1e6, "mil": 1e3, "k": 1e3}.get(unit, 1.0)
     return raw * mult
 
 
 def _extract_key_phrase(excerpt: str) -> Optional[str]:
     """Pick a 2-5 word key phrase from the excerpt (used as contradiction bucket key).
 
-    Strategy: longest capitalised/alpha phrase near the end of the excerpt.
+    Strategy: returns the LAST alphabetic phrase in the excerpt (positional last,
+    not longest). The trailing phrase is typically the subject of the citation
+    ("teto Faixa 3", "receita bruta", "alíquota IBS"), so using it as the bucket
+    key naturally groups claims about the same quantity.
     """
     candidates = _KEY_PHRASE_RE.findall(excerpt)
     if not candidates:
@@ -392,22 +401,38 @@ def _extract_key_phrase(excerpt: str) -> Optional[str]:
     return candidates[-1].strip().lower()
 
 
+_EMBEDDED_CITATION_RE = re.compile(r"\(fonte:[^)]*\)")
+
+
+def _clean_excerpt_for_contradiction(excerpt: str) -> str:
+    """Strip `(fonte: ...)` spans so that source-path tokens don't pollute the
+    key-phrase extraction in contradiction_flags (e.g., 'company_specific',
+    'canonical', 'operacional' from aggregation lines).
+    """
+    return _EMBEDDED_CITATION_RE.sub("", excerpt).strip()
+
+
 def contradiction_flags(claims: list[ClaimCitation]) -> list[Flag]:
     """Flag pairs of claims on different pages with same key phrase but different values.
 
     Heuristic — groups claims by an extracted "key phrase" (alphabetic word group
-    near the end of the claim excerpt) and flags within-group disagreement on
+    at the end of the claim excerpt) and flags within-group disagreement on
     normalised numeric value. Intentionally imperfect; prefers recall over
     precision at `action` severity. Expect false positives to be triaged by
     human review rather than suppressed in code.
+
+    Pre-processing: strips embedded `(fonte: ...)` spans from the excerpt so that
+    source-path tokens (canonical, company_specific, operacional, ...) don't
+    become key phrases on multi-citation aggregation lines.
     """
     buckets: dict[str, list[tuple[ClaimCitation, float]]] = {}
     for c in claims:
+        cleaned_excerpt = _clean_excerpt_for_contradiction(c.excerpt)
         # Use the largest-magnitude value in the excerpt so that monetary amounts
         # (e.g. R$ 350.000) dominate nearby count/classifier digits (e.g. "3" in
         # "Faixa 3"). re.search would return the leftmost match, which is wrong.
         best_val: Optional[float] = None
-        for m in _VALUE_RE.finditer(c.excerpt):
+        for m in _VALUE_RE.finditer(cleaned_excerpt):
             v = _normalize_value(m)
             if v is None:
                 continue
@@ -415,7 +440,7 @@ def contradiction_flags(claims: list[ClaimCitation]) -> list[Flag]:
                 best_val = v
         if best_val is None:
             continue
-        key = _extract_key_phrase(c.excerpt)
+        key = _extract_key_phrase(cleaned_excerpt)
         if not key:
             continue
         buckets.setdefault(key, []).append((c, best_val))
