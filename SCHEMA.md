@@ -236,12 +236,85 @@ Every factual claim must trace back to a source. Citation format depends on laye
 - **Legacy / digest-only:** `(fonte: digested/{name}_summary.md)` — only when the underlying source has no `full/` (notion notes, web sources).
 - **Web:** `(fonte: url, confiabilidade: oficial|editorial|community)`
 
+### Dated Claims
+
+Claims that can become factually wrong over time without the period changing carry an explicit `em: YYYY-MM-DD` in the citation:
+
+- `(fonte: digested/Texto Reforma tributaria jan-2025_summary.md, em: 2025-01-16)` — `em:` is the date the information is **true in the real world** (publication date of a law/MP/LC, announcement date of corporate guidance, effective date of a portaria). It is **not** the ingest date.
+- Ingest date stays in `manifests/{empresa}.json :: sources[].ingested_on`. Do not replicate it on the claim.
+
+| Claim type | Gets `em:`? | Example |
+|---|---|---|
+| Alíquota, regra fiscal, dispositivo de lei | yes | `em: 2025-01-16` (LC 214/2025) |
+| Guidance corporativo forward-looking | yes | `em: 2026-04-10` |
+| Valor regulatório (teto MCMV, faixa) | yes | `em: 2024-10-03` |
+| Meta operacional datada (frota, capex) | yes | `em: 2026-03-15` |
+| Número de DF por período (margem 3T25, ROE) | no | período já codifica a data |
+| Definição conceitual ("CBS substitui PIS/Cofins") | no | atemporal |
+
+Rule of thumb for the LLM when writing a claim: if the claim can be factually wrong tomorrow without the accounting period changing, it carries `em:`. If it is tied to an explicit accounting period or is definitional, it does not.
+
+## Supersession
+
+When new information updates a dated claim, the LLM chooses one of two modalities based on the nature of the change.
+
+### Modality 1 — Silent overwrite (default)
+
+For guidance refreshes, number updates, or effective date changes without regime changes. Old claim removed, new claim written, `em:` updated. History lives in git log.
+
+```
+antes: Alíquota reduzida em 50% (fonte: X, em: 2025-01-16)
+depois: Alíquota reduzida em 60% (fonte: Y, em: 2026-08-10)
+```
+
+### Modality 2 — Structural supersession ("antes × depois")
+
+For regime changes, law amendments with transition rules, or restructured tariffs. The LLM writes an inline table or section comparing the old and new states — because the contrast itself is the analytical content. See [section_232.md](section_232.md):18-29 for an example pattern ("Revisão de abril/2026 — antes × depois").
+
+**Triggers for Modality 2:**
+1. The change invalidates an analytical premise (not just the number), OR
+2. The old claim is referenced from other pages via wikilink/cross-cite (silent overwrite would break cross-page consistency).
+
+**Not used:** strikethrough inline, HTML-comment history, separate "history" pages. Git log preserves evolution; the page stays readable.
+
 ## Wikilinks
 
 - `[[page_name]]` between wiki pages, Obsidian-compatible.
 - Only link to pages that exist or should exist.
 - First mention in a section gets linked; subsequent mentions in the same section do not.
 - Wikilinks are for the wiki layer only — `full/` and `structured/` files use plain paths, not wikilinks.
+
+## Watchlist
+
+Opt-in mechanism for pages with claims that can change outside the CVM/Notion/calls ingest pipeline (laws, regulations, corporate forward-looking statements not yet reported in a filing).
+
+### Declaration
+
+Frontmatter gains an optional `watches:` array:
+
+```yaml
+---
+type: concept
+aliases: [CBS, IBS, LC 214/2025]
+watches:
+  - query: "LC 214/2025 alteração alíquota"
+    sites: [planalto.gov.br, mattosfilho.com.br]
+    cadence: weekly
+  - query: "reforma tributária incorporadora IBS CBS 2026"
+    sites: [valor.globo.com, infomoney.com.br]
+    cadence: monthly
+sources: [...]
+updated: 2026-04-22
+---
+```
+
+Fields: `query` (string for WebSearch), `sites` (domain list restricting the search), `cadence` (`weekly` | `monthly` | `quarterly`).
+
+### Flow
+
+`tools/watch.sh` → `tools/lib/watch_runner.py` → reads pages with `watches:` → checks each entry against its cadence (via `sources/watch_state/{page_slug}.json`) → runs a WebSearch restricted to the `sites:` → diffs results against `known_urls` in state → emits `[watch-hit]` entries to the next lint report.
+
+**Not auto-ingested.** The runner signals only. The human decides whether to pull the hit through `fetch_notion.sh` or `fetch.sh`.
 
 ## Quality Principles
 
@@ -421,4 +494,9 @@ Periodic health check:
    - (b) *Rotten*: the manifest references a path in `coverage[*].source` or `sources[*]` that does not exist on disk.
    - (c) *Missing*: a `sources/structured/{empresa}/` directory exists but no corresponding manifest file.
    - (d) *Coverage mismatch*: `coverage[period][block].status == "filled"` but the referenced structured file has that block all-null (or vice versa).
-10. Report in `log.md`.
+10. **Dated claim staleness** — parse `(fonte: X, em: YYYY-MM-DD)` across all pages and flag:
+    - (a) *Age threshold exceeded*: `em_date + threshold < today` and no newer source on the same topic. Severity `warn`. Thresholds: legal/regulatório 12 months, guidance 6 months, metric absoluto 3 months (configurable via `tools/lint_config.json`).
+    - (b) *Newer source available*: a `digested/`/`full/`/`structured/` file exists with `ingested_on > em_date` and matches the page's empresa/concept. Severity `action`.
+    - (c) *Cross-page contradiction*: two pages with numerically conflicting claims on the same item, different `em:` dates. Severity `action`.
+    - (d) *Missing `em:`*: claim contains a number plus a temporal verb (`vigente`, `a partir de`, `até`) but has no `em:`. Severity `hint`.
+11. Report in `log.md`.
