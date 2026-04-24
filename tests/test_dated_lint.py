@@ -176,3 +176,41 @@ def test_scan_wiki_skips_documentation_files(tmp_path):
     claims = dl.scan_wiki(tmp_path)
     assert len(claims) == 1
     assert claims[0].page.name == "real_page.md"
+
+
+def test_missing_em_flag_triggered(tmp_path):
+    page = tmp_path / "mcmv.md"
+    page.write_text(
+        "Teto de R$ 350k vigente para Faixa 3 (fonte: x.md).\n",
+        encoding="utf-8",
+    )
+    claims = dl.parse_claims(page)
+    config = _load_config()
+    flags = dl.missing_em_flags(claims, config)
+    assert len(flags) == 1
+    assert flags[0].rule == "missing_em"
+    assert flags[0].severity == "hint"
+
+
+def test_missing_em_ignored_when_em_present(tmp_path):
+    page = tmp_path / "mcmv.md"
+    page.write_text(
+        "Teto vigente R$ 350k (fonte: x.md, em: 2026-01-15).\n",
+        encoding="utf-8",
+    )
+    claims = dl.parse_claims(page)
+    config = _load_config()
+    flags = dl.missing_em_flags(claims, config)
+    assert flags == []
+
+
+def test_missing_em_requires_number(tmp_path):
+    page = tmp_path / "defs.md"
+    page.write_text(
+        "Regime vigente para incorporadoras (fonte: x.md).\n",
+        encoding="utf-8",
+    )
+    claims = dl.parse_claims(page)
+    config = _load_config()
+    flags = dl.missing_em_flags(claims, config)
+    assert flags == []  # has temporal verb but no number

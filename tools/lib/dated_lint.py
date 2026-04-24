@@ -5,10 +5,10 @@ Implemented:
     parse_claims(page_path)               -> list[ClaimCitation]
     scan_wiki(root)                       -> list[ClaimCitation]
     age_threshold_flags(claims, config)   -> list[Flag]
+    missing_em_flags(claims, config)      -> list[Flag]
     write_report(flags, report_path)      -> None
 
-Planned (tasks 7-9):
-    missing_em_flags(claims, config)      -> list[Flag]
+Planned (tasks 8-9):
     newer_source_flags(claims, root)      -> list[Flag]
     contradiction_flags(claims)           -> list[Flag]
 
@@ -185,6 +185,36 @@ def age_threshold_flags(
     return flags
 
 
+_NUMBER_RE = re.compile(r"\d")
+
+
+def missing_em_flags(claims: list[ClaimCitation], config: dict) -> list[Flag]:
+    """Flag claims without `em:` that contain both a number and a temporal verb."""
+    heuristic = config["missing_em_heuristic"]
+    verbs = [v.lower() for v in heuristic["temporal_verbs"]]
+    requires_number = heuristic.get("requires_number", True)
+    flags: list[Flag] = []
+    for c in claims:
+        if c.em is not None:
+            continue
+        excerpt_lower = c.excerpt.lower()
+        has_verb = any(v in excerpt_lower for v in verbs)
+        if not has_verb:
+            continue
+        if requires_number and not _NUMBER_RE.search(c.excerpt):
+            continue
+        hit_verb = next(v for v in verbs if v in excerpt_lower)
+        flags.append(
+            Flag(
+                claim=c,
+                rule="missing_em",
+                severity="hint",
+                detail=f'contains temporal verb "{hit_verb}" + number but lacks `em:`',
+            )
+        )
+    return flags
+
+
 # Files at wiki root that are documentation/audit artifacts, not wiki pages.
 # Their `(fonte: ...)` patterns are illustrative examples or log entries, not
 # factual claims to lint.
@@ -271,6 +301,7 @@ def main() -> int:
 
     all_flags: list[Flag] = []
     all_flags.extend(age_threshold_flags(claims, config))
+    all_flags.extend(missing_em_flags(claims, config))
 
     sev_rank = {"action": 0, "warn": 1, "hint": 2}
     min_rank = sev_rank[args.severity]
