@@ -109,13 +109,53 @@ O LLM puxa `canonical` de todos os `structured/itau/*/itr.json`, usa `company_sp
 
 Quando uma nota explicativa virar referência recorrente (citada por 3+ páginas), o LLM pode promovê-la a uma página própria, tipo `itau_nota_instrumentos_financeiros.md`, consolidando a nota ao longo dos trimestres.
 
-### 8. Lint (saúde da wiki)
+### 8. Lint datado (saúde de claims datáveis)
 
-```
-Faz um lint da wiki.
+```bash
+bash tools/lint.sh                        # relatório completo, todas severidades
+bash tools/lint.sh --severity action      # só action e acima
+bash tools/lint.sh --page cyrela.md       # uma página
 ```
 
-Checa: links mortos, páginas órfãs, páginas desatualizadas, cross-refs faltando, contradições, **schema drift** (`structured/` com chaves canônicas faltando) e notas recorrentes não promovidas.
+Varre todas as páginas da wiki em busca de `(fonte: X, em: YYYY-MM-DD)` e aplica quatro regras em três níveis (`hint` < `warn` < `action`):
+
+- **`age_threshold` (warn)** — claim com `em:` mais velho que o limiar configurado (default: 12 meses para legal/regulatório, 6 para guidance, 3 para métrica). Não dispara se `newer_source` já está flaggando o mesmo claim.
+- **`newer_source` (action)** — existe `digested/`/`full/` com `ingested_on > em:` na manifest da empresa/conceito da página. Significa "source nova ingerida mas a página ainda não incorporou".
+- **`contradiction` (action)** — duas páginas com valores numéricos conflitantes sobre o mesmo item-chave.
+- **`missing_em` (hint)** — claim com número + verbo temporal (`vigente`, `a partir de`, `até`) sem `em:`. Candidato a retrofit.
+
+Saída: `sources/lint_reports/YYYY-MM-DD.md` + linha `[lint]` em `log.md`. Thresholds em `tools/lint_config.json`.
+
+**Primeiro run**: `hint` vai ser alto (cada claim legado sem `em:` vira um hint — isso É a lista de retrofit). `action` domina por falsos-positivos de contradição até ~15 páginas terem `em:` populado. Triage sugerido: hint → warn → action.
+
+### 9. Watch (sinais externos — legal, guidance, metas)
+
+```bash
+bash tools/watch.sh                       # respeita cadência
+bash tools/watch.sh --force               # ignora cadência
+bash tools/watch.sh --page reforma_tributaria.md
+```
+
+Para páginas opt-in (declaram `watches:` no frontmatter), executa WebSearch restrito a sites confiáveis, compara com estado salvo e sinaliza URLs novas/atualizadas. **Não ingere nada automaticamente** — só avisa.
+
+Use quando a página tem claim volátil **fora do ciclo CVM/Notion/calls** (lei, portaria, guidance corporativo em press release, meta anunciada em Investor Day). Exemplo de declaração no frontmatter:
+
+```yaml
+---
+type: concept
+aliases: [CBS, IBS, LC 214/2025]
+watches:
+  - query: "LC 214/2025 alteração alíquota"
+    sites: [planalto.gov.br, mattosfilho.com.br]
+    cadence: weekly
+  - query: "reforma tributária incorporadora 2026"
+    sites: [valor.globo.com]
+    cadence: monthly
+sources: [...]
+---
+```
+
+Cadências: `weekly` (7 dias), `monthly` (30 dias), `quarterly` (90 dias). Estado persiste em `sources/watch_state/{page_slug}.json`. Hits vão para `sources/lint_reports/YYYY-MM-DD-watch.md` (arquivo separado, não é sobrescrito pelo lint).
 
 ---
 
@@ -177,6 +217,26 @@ bash tools/reingest_full.sh CURY3 --horizon 3y    # re-baixa PDFs e copia direto
 
 Não invoca o LLM. Usado para corrigir fulls que foram truncados pelo pipeline antigo.
 
+### Lint datado — validar freshness de claims
+
+```bash
+bash tools/lint.sh                        # relatório completo
+bash tools/lint.sh --severity action      # só action
+bash tools/lint.sh --page cyrela.md       # uma página
+```
+
+Quatro regras sobre citações `(fonte: X, em: YYYY-MM-DD)`: `age_threshold` (warn, com dedup contra `newer_source`), `newer_source` (action, usa `manifests/` para cross-referência), `contradiction` (action, heurístico), `missing_em` (hint, para retrofit). Relatório em `sources/lint_reports/YYYY-MM-DD.md`. Thresholds configuráveis em `tools/lint_config.json`. Edge-cases de falso-positivo documentados no próprio `log.md` e em SCHEMA.md §Lint §10.
+
+### Watch — monitorar sinais externos
+
+```bash
+bash tools/watch.sh                       # respeita cadência por entrada
+bash tools/watch.sh --force               # força re-check de tudo
+bash tools/watch.sh --page X.md           # uma página
+```
+
+Lê páginas com `watches:` no frontmatter (opt-in por página), roda `claude --print` com WebSearch restrito aos `sites:` declarados, salva estado em `sources/watch_state/{page_slug}.json` e emite `[watch-hit]` em `sources/lint_reports/YYYY-MM-DD-watch.md` quando URLs novas/atualizadas aparecem. Nunca ingere automaticamente — só sinaliza. Bom para: mudanças em lei/portaria, revisão de guidance fora de call, timing de lançamento de produto via press release.
+
 ### Fila do wiki update
 
 A fila é gerenciada por `tools/lib/wiki_queue.py` e persiste em `sources/wiki_queue.json`. O `ingest.sh` enfileira via `wiki_queue.py enqueue` e ainda appenda uma linha de auditoria em `log.md`:
@@ -210,6 +270,8 @@ Maior banco privado do Brasil por ativos...
 
 Margem financeira de R$ 27,3 bi no 3T25 (fonte: structured/itau/3T25/itr.json :: canonical.dre.margem_financeira), impulsionada por [...] (fonte: full/itau/3T25/itr.md §mdna).
 
+Alíquota reduzida em 60% da padrão (fonte: digested/LC_214_2025_summary.md, em: 2025-01-16) — esta linha carrega `em:` porque o valor pode mudar se a lei for alterada. Números com período contábil (margem 3T25, ROE 2024) NÃO levam `em:` — o período já carimba a data.
+
 Relacionado: [[bancos]], [[nim]], [[custo_risco]]
 ```
 
@@ -223,6 +285,7 @@ Relacionado: [[bancos]], [[nim]], [[custo_risco]]
 - Sem prefixo de ticker (`itau.md`, não `ITUB4_itau.md`) — tickers no `aliases`.
 - Períodos: `1T25`, `2T25`, `3T25`, `4T25`, `2025` (anual).
 - Tipos de fonte: `itr`, `dfp`, `release`, `apresentacao`, `fato_relevante`, `call_transcript`.
+- **`em: YYYY-MM-DD` em citações** — sinaliza claims datáveis (alíquotas, guidance, metas, regras fiscais). Data = efetividade real, não data do ingest. Não usar em números com período contábil. Ver SCHEMA.md §Dated Claims.
 
 ---
 
