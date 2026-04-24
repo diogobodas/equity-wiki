@@ -61,3 +61,38 @@ def test_cadence_gate_monthly_quarterly():
 
 def test_cadence_gate_no_last_run():
     assert wr.should_run("weekly", None, today=date(2026, 4, 23)) is True
+
+
+def test_diff_urls_empty_known():
+    fresh = [
+        {"url": "https://a", "title": "A", "snippet": "...", "published_date": "2026-04-20"}
+    ]
+    hits = wr.diff_urls({}, fresh)
+    assert len(hits) == 1
+    assert hits[0]["url"] == "https://a"
+
+
+def test_diff_urls_all_known():
+    known = {
+        "https://a": {"title": "A", "snippet": "...", "published": "2026-04-20"}
+    }
+    fresh = [
+        {"url": "https://a", "title": "A", "snippet": "...", "published_date": "2026-04-20"}
+    ]
+    hits = wr.diff_urls(known, fresh)
+    assert hits == []
+
+
+def test_diff_urls_new_and_updated():
+    known = {
+        "https://a": {"title": "A-old", "snippet": "...", "published": "2026-04-10"}
+    }
+    fresh = [
+        # updated publish date
+        {"url": "https://a", "title": "A", "snippet": "...", "published_date": "2026-04-20"},
+        # brand new
+        {"url": "https://b", "title": "B", "snippet": "...", "published_date": "2026-04-22"},
+    ]
+    hits = wr.diff_urls(known, fresh)
+    urls = {h["url"] for h in hits}
+    assert urls == {"https://a", "https://b"}

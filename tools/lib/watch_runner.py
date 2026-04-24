@@ -50,6 +50,23 @@ def should_run(cadence: str, last_run: Optional[date], today: Optional[date] = N
     return (today - last_run) >= timedelta(days=days)
 
 
+def diff_urls(known: dict, fresh: list[dict]) -> list[dict]:
+    """Return fresh entries that are new URLs or have a later published_date than known."""
+    hits = []
+    for f in fresh:
+        url = f.get("url")
+        if not url:
+            continue
+        if url not in known:
+            hits.append(f)
+            continue
+        known_pub = known[url].get("published", "")
+        fresh_pub = f.get("published_date", "")
+        if fresh_pub and fresh_pub > known_pub:
+            hits.append(f)
+    return hits
+
+
 def main() -> int:
     # filled in Task 12
     print("not yet implemented", file=sys.stderr)
