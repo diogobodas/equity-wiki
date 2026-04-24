@@ -34,8 +34,12 @@ sources:
   - sources/digested/notion_porto_seguro_porto_seguro_alexsander_27_05_b4d00ca3_summary.md
   - sources/digested/notion_porto_seguro_porto_seguro_alexsander_update_byd_e_carro_el_trico_9e500ca3_summary.md
   - sources/digested/notion_nubank_perguntas_porto_seguro_porto_bank_26100ca3_summary.md
+  - sources/digested/porto_seguros_auto_home_2025_summary.md
+  - sources/digested/porto_subsidiarias_saude_2025_summary.md
+  - sources/digested/porto_subsidiarias_financeiro_2025_summary.md
+  - sources/digested/porto_subsidiarias_vida_cap_holding_2025_summary.md
 created: 2026-04-20
-updated: 2026-04-22
+updated: 2026-04-24
 ---
 
 # Porto Seguro (PSSA3)
@@ -72,6 +76,111 @@ Conglomerado de seguros e serviços financeiros com quatro verticais: **Segurado
 ### Mix do lucro — diversificação
 
 Verticais **não-Seguro** (Saúde + Bank + Serviço) passaram a representar **49% do lucro em 2025** (+7 pp vs 2024) e **56% no 4T25 isolado**. O mix 2024 → 2025 foi: Auto 51% → 40%, Saúde 14% → 18%, Bank 22% → 25%, Serviço 7% flat. (fonte: digested/porto_dfp_2025_summary.md, digested/porto_data_pack_4T25_summary.md, digested/porto_previa_operacional_1T26_summary.md)
+
+---
+
+## Estrutura organizacional e contribuição por entidade legal
+
+As 4 verticais gerenciais (**Seguros, Saúde, Bank, Serviços**) correspondem a **4 sub-holdings diretas da PSSA3**. Cada vertical concentra entidades reguladas com DFs individuais publicadas anualmente; o holding reconhece o resultado via equivalência patrimonial das sub-holdings. Esta seção destrincha cada vertical na camada regulatória para expor o que a quebra gerencial consolida — fontes: DFs individuais publicadas em 13/02/2026 no OESP, digeridas em `sources/digested/porto_subsidiarias_*_2025_summary.md`.
+
+### Organograma das participações diretas
+
+```
+Porto Seguro S.A. (PSSA3) — holding listada (IBrX 50)
+│
+├── Porto Seguro Cia. de Seguros Gerais ("Porto Cia") ─────── vertical SEGUROS ─── EP R$ 1.825 mm (55%)
+│   ├── Porto Seguros Gerais (auto/patrimonial — core da Porto)
+│   ├── Azul Cia. de Seguros Gerais (marca de entrada; em run-off pós Projeto R3)
+│   ├── Itaú Seguros de Auto e Residência (JV legacy; SUSEP autorizou incorporação a Porto Cia em 05/01/2026, conclusão em até 90 dias)
+│   ├── Porto Seguro Vida e Previdência (vida puro + PGBL/VGBL)
+│   └── Porto Seguro Capitalização (títulos de capitalização)
+│
+├── Porto Saúde Participações ──────────────────────────────── vertical SAÚDE ──── EP R$ 666 mm (20%)
+│   └── Porto Saúde - Operações de Saúde (sub-holding pura)
+│       ├── Porto Seguro - Seguro Saúde (seguradora ANS — 97% da receita do segmento)
+│       ├── Portomed (operadora ANS, exclusivamente empresarial)
+│       └── Porto Seguro Serviços Odontológicos (operadora odonto, em run-down)
+│
+├── Porto Bank ─────────────────────────────────────────────── vertical BANK ───── EP R$ 497 mm (15%)
+│   └── Porto Negócios Financeiros (holding financeira pura)
+│       ├── Portoseg — CFI (líder do Conglomerado Prudencial BACEN, S3); o "banco" real
+│       ├── Porto Seguro Administradora de Consórcios
+│       ├── Portopar DTVM (distribuição de cotas de fundos)
+│       └── ConectCar (50%, JV meios de pagamento, via Portoseg)
+│
+├── Porto Serviço ──────────────────────────────────────────── vertical SERVIÇOS ─ EP R$ 221 mm (7%)
+│   ├── CDF — call center/assistência (incorporada em out/2025)
+│   └── Porto Assistência Participações (incorporada em out/2025)
+│
+├── Porto Uruguay ──────────────────────────────────────────── operação externa ── EP R$ 81 mm (2%)
+│
+└── Porto Gestora de Recursos + Porto Serviços e Comércio + Porto Asset Management (minor) ─ EP R$ 39 mm (1%)
+```
+
+(fonte: full/porto_seguro/2025/subsidiarias/porto_seguro_sa.md §NE 17.1)
+
+### Entidades reguladas com DF individual 2025
+
+Cada linha é uma DF publicada (IFRS 4/SUSEP, ANS ou BACEN conforme o regulador). O lucro individual pode divergir do lucro IFRS 17 consolidado que aparece na tabela gerencial do release.
+
+| Entidade legal | Vertical | Regulador | Receita 2025 | Lucro indiv. 2025 | PL dez/25 | ROE indiv. |
+|---|---|---|---|---|---|---|
+| **Porto Seguros Gerais** (auto/pat.) | Seguros | SUSEP | R$ 19,46 bi PG | R$ 1.781 mm | R$ 6.986 mm | 25,5% |
+| **Azul Cia. Seguros Gerais** (run-off) | Seguros | SUSEP | R$ 2,75 bi PG | R$ 144 mm | R$ 762 mm | 19,0% |
+| **Itaú Auto e Residência** (run-off ≤90d) | Seguros | SUSEP | R$ 25 mm PG | R$ 8 mm | R$ 59 mm | 13,8% |
+| **Porto Vida e Previdência** | Seguros | SUSEP | R$ 434 mm | R$ 31 mm (IFRS 4) | R$ 469 mm | ~6,7% |
+| **Porto Capitalização** | Seguros | SUSEP | R$ 1,77 bi arrec. | R$ 49 mm | R$ 292 mm | ~18,7% |
+| **Porto Seguro - Seguro Saúde** | Saúde | ANS/SUSEP | R$ 8,17 bi PG | R$ 705 mm | R$ 2.238 mm | ~34% |
+| **Porto Saúde Operações** (sub-holding) | Saúde | — | R$ 703 mm EP | R$ 674 mm | R$ 2.243 mm | ~32% |
+| **Porto Saúde Participações** (consol.) | Saúde | — | R$ 8,44 bi | R$ 666 mm | R$ 2.342 mm | ~30% |
+| **Portomed** (operadora empresarial) | Saúde | ANS | R$ 29 mm | R$ (4) mm | R$ 19 mm | negativo |
+| **Porto Seguro Odontológicos** | Saúde | ANS | ~0 | R$ (0) mm | R$ 504 mm | imaterial |
+| **Portoseg** (CFI) | Bank | BACEN | R$ 3,32 bi RIF | R$ 147 mm | R$ 1.093 mm | ~14,3% |
+| **Porto Negócios Financeiros** (holding) | Bank | BACEN | R$ 286 mm EP | R$ 285 mm | R$ 2.165 mm | ~14,3% |
+| **Portopar DTVM** | Bank | BACEN | R$ 16 mm | R$ (2) mm | R$ 29 mm | negativo |
+| **Porto Consórcio** | Bank | BACEN | n/d (PDF só-imagem) | n/d | n/d | n/d |
+| **Porto Serviço** (controladora) | Serviços | — | R$ 397 mm | R$ 227 mm | R$ 1.035 mm | ~23,8% |
+| **Porto Serviço** (consolidado) | Serviços | — | R$ 2,31 bi | EBITDA R$ 414 mm | — | — |
+
+(fonte: full/porto_seguro/2025/subsidiarias/{slug}.md para cada linha; equivalências patrimoniais e org structure: fonte: full/porto_seguro/2025/subsidiarias/porto_seguro_sa.md §NE 17.1)
+
+### O que a DF revela que o release esconde
+
+A camada gerencial do release publica as 4 verticais em blocos homogêneos ("Saúde = R$ 581 mm lucro, ROAE 28%"). As DFs individuais expõem cinco divergências materiais entre a narrativa e a contabilidade regulatória:
+
+1. **Saúde é quase 100% seguradora, não operadora ANS.** Porto Saúde Participações reporta consolidado R$ 666 mm, mas **97% da receita e do lucro vem da Porto Seguro - Seguro Saúde** (a seguradora, R$ 705 mm individual, sinistralidade 75,9%). A operadora ANS (Portomed) tem prejuízo de R$ (4) mm, a odonto é imaterial. O marketing "health tech" é precisamente a seguradora-saúde; a operadora ANS existe para compliance mas contribui <1% do lucro do segmento. (fonte: digested/porto_subsidiarias_saude_2025_summary.md)
+
+2. **O "banco" é Portoseg, e o custo de crédito está comendo o spread.** Porto Bank e Porto Negócios Financeiros são holdings/shells; todo crédito regulado pelo BACEN fica em **Portoseg** (R$ 147 mm lucro em 2025 vs R$ 231 mm em 2024 — **queda de -36%**, mesmo com RIF crescendo +27% para R$ 3,32 bi). Inadimplência deteriorou: vencidos >180 dias +91% a/a para R$ 2,37 bi, **93,8% concentrado em cartão de crédito**. Carteira bruta R$ 8,63 bi (90% PF). A tabela gerencial do Bank (R$ 841 mm lucro, ROAE 28%) não explicita essa compressão porque Porto Consórcio (lucro ~R$ 290 mm) e ganho de equivalência via PNF compensam no nível de vertical. (fonte: digested/porto_subsidiarias_financeiro_2025_summary.md)
+
+3. **Vida/Prev e Capitalização são negócios de float puro.** Porto Vida e Previdência: lucro individual R$ 31 mm em 2025 (vs R$ (15) mm em 2024, reversão); R$ 38,5 mm veio de resultado financeiro. Operacional stricto sensu é R$ 17,8 mm sobre receitas de R$ 434 mm — margem operacional ~4%. Porto Capitalização idem: R$ 49 mm de lucro sobre R$ 1,77 bi de arrecadação, quase integralmente financeiro. Corte material na Selic comprimiria ambas significativamente. (fonte: digested/porto_subsidiarias_vida_cap_holding_2025_summary.md)
+
+4. **Porto Cia mostra deterioração técnica que o ROAE consolidado absorve.** IC Porto Seguros Gerais individual: 90,8% em 2025 (vs 88,6% em 2024, +2,2 pp). Sinistralidade consolidada 50,5% (+1,8 pp). **RCF Veículos saltou de 55,4% para 65,0% (+9,6 pp)** — deterioração concentrada. O lucro individual ainda cresceu +13,7% (R$ 1,57 bi → R$ 1,78 bi) porque o resultado financeiro pulou +72% a/a para R$ 715 mm (Selic alta). A narrativa de "margem estável da Seguradora" é parcialmente verdadeira no ROAE mas mascara a compressão de underwriting puro. (fonte: digested/porto_seguros_auto_home_2025_summary.md)
+
+5. **Porto Serviço é genuíno, mas 2025 tem R$ 30 mm de benefício fiscal não-recorrente.** Receita consolidada R$ 2,31 bi, EBITDA R$ 414 mm (margem 16,2%), ROAE reportado 23,8%. Três segmentos ativos: Parceria Porto (B2B interno), Parcerias Estratégicas (B2B2C — montadoras, locadoras, varejo), Produtos Digitais (B2C direto). **As incorporações de CDF e Porto Assistência em outubro/2025 geraram R$ 30 mm de benefício fiscal one-off** — excluindo, o lucro recorrente normaliza para ~R$ 197 mm. (fonte: digested/porto_subsidiarias_financeiro_2025_summary.md)
+
+### Reconciliação holding ↔ consolidado
+
+O lucro de R$ 3,38 bi do holding controladora = EP de R$ 3,33 bi + resultado financeiro da PSSA3 R$ 253 mm − despesas admin/tributos R$ (195) mm. EP direto é o driver único relevante:
+
+| Sub-holding direta | Vertical gerencial | EP 2025 | % EP total | Variação a/a |
+|---|---|---|---|---|
+| Porto Cia | Seguros | R$ 1.825 mm | 54,8% | +? (ex-R3: incorporação Azul/Itaú ago/2025) |
+| Porto Saúde Participações | Saúde | R$ 666 mm | 20,0% | ~+89% (Saúde foi o segmento que mais cresceu em lucro) |
+| Porto Bank | Bank | R$ 497 mm | 14,9% | ~+16% mas com qualidade deteriorando (ver Portoseg) |
+| Porto Serviço | Serviços | R$ 221 mm | 6,6% | R$ 30 mm é one-off |
+| Porto Uruguay | internacional | R$ 81 mm | 2,4% | — |
+| Outros (Gestora + S&C + Asset) | — | R$ 39 mm | 1,2% | — |
+| **EP total** | | **R$ 3.328 mm** | 100% | +27,6% a/a |
+
+(fonte: full/porto_seguro/2025/subsidiarias/porto_seguro_sa.md §NE 17.1, §DRE controladora)
+
+Dividendos/JCP efetivamente recebidos em caixa pela holding: R$ 2,14 bi em 2025 (vs R$ 1,90 bi em 2024). Diferença vs EP (R$ 1,19 bi) reflete dividendos declarados pelas subsidiárias ainda não liquidados. Payout aos acionistas PSSA3: **50,0% em 2025** (vs 45,0% em 2024), majoritariamente via JCP. (fonte: full/porto_seguro/2025/subsidiarias/porto_seguro_sa.md §DFC, §Dividendos NE 5(e))
+
+### Como ler as DFs na análise
+
+- **Lucro gerencial ≠ soma de lucros individuais.** Release usa IFRS 17; DFs individuais das seguradoras usam IFRS 4/SUSEP. Divergência material em Porto Vida (R$ 31 mm IFRS 4 vs R$ 13 mm na visão consolidada IFRS 17). Para reconciliação, o roll-up correto é pela coluna EP da NE 17.1 do holding.
+- **Quando o ROAE da vertical diverge do ROAE da principal regulada:** olhar para ganho/perda de capital não-operacional, one-offs fiscais, incorporações e equivalência intra-vertical. Exemplo: ROAE Porto Bank vertical 28% vs ROAE Portoseg individual 14,3% — a diferença vem de Consórcio (alta margem) e alocação de capital.
+- **IC da seguradora individual é o melhor proxy de saúde técnica.** Se o release diz "ROAE estável" mas o IC individual está se deteriorando, o underwriting estrito piorou e o lucro está sendo sustentado por resultado financeiro (sensível a Selic).
 
 ---
 

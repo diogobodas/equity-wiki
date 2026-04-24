@@ -989,3 +989,16 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 2026-04-22 — ingest release unknown: sources/full/porto/other/PSSA3_4T25_call_transcript.md, sources/digested/porto_other_PSSA3_4T25_call_transcript_summary.md
 2026-04-22 — ingest release unknown: sources/full/porto/other/PSSA3_4T25_data_pack.md, sources/digested/porto_other_PSSA3_4T25_data_pack_summary.md
 [wiki-done] 2026-04-22 | batch_20260422_165204
+[lint] 2026-04-23 sources/lint_reports/2026-04-23.md action=0 warn=1 hint=0
+[lint] 2026-04-23 sources/lint_reports/2026-04-23.md action=0 warn=1 hint=0
+[lint] 2026-04-23 sources/lint_reports/2026-04-23.md action=0 warn=0 hint=0
+[lint] 2026-04-23 sources/lint_reports/2026-04-23.md action=0 warn=0 hint=238
+[lint] 2026-04-23 sources/lint_reports/2026-04-23.md action=0 warn=0 hint=238
+[lint] 2026-04-23 sources/lint_reports/2026-04-23.md action=0 warn=0 hint=238
+[lint] 2026-04-23 sources/lint_reports/2026-04-23.md action=0 warn=0 hint=238
+[lint] 2026-04-23 sources/lint_reports/2026-04-23.md action=646 warn=0 hint=238
+[lint] 2026-04-23 sources/lint_reports/2026-04-23.md action=416 warn=0 hint=238
+[watch] 2026-04-23 hits=0 report=sources/lint_reports/2026-04-23.md
+[watch] 2026-04-24 hits=0 report=sources/lint_reports/2026-04-24-watch.md
+[lint] 2026-04-24 sources/lint_reports/2026-04-24.md action=416 warn=0 hint=238
+[edit] 2026-04-24 | porto_seguro.md | new §Estrutura organizacional e contribuição por entidade legal + 4 digests de subsidiárias (seguros_auto_home, saúde, financeiro, vida_cap_holding) + 15 fulls extraídos de DFs individuais 2025 publicadas em 13/02/2026 no OESP | one-off investigativo — não reingerir periodicamente | consorcio skipped (PDF só-imagem, 37pg PNG, precisa hybrid OCR)
