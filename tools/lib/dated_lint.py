@@ -6,10 +6,10 @@ Implemented:
     scan_wiki(root)                       -> list[ClaimCitation]
     age_threshold_flags(claims, config)   -> list[Flag]
     missing_em_flags(claims, config)      -> list[Flag]
+    newer_source_flags(claims, root)      -> list[Flag]
     write_report(flags, report_path)      -> None
 
-Planned (tasks 8-9):
-    newer_source_flags(claims, root)      -> list[Flag]
+Planned (task 9):
     contradiction_flags(claims)           -> list[Flag]
 
 CLI:
@@ -92,14 +92,16 @@ def parse_claims(page_path: Path) -> list[ClaimCitation]:
 def _read_frontmatter(page_path: Path) -> dict:
     """Extract YAML frontmatter as a dict. Returns empty dict if none found.
 
-    Minimal parser: handles `key: value` scalars and `key: [a, b]` inline arrays
-    on single lines. For keys with multi-line YAML list syntax (``sources:``
-    followed by ``- item`` lines, common in all real wiki pages), the value
-    is silently stored as an empty string — multi-line lists are NOT parsed.
+    Supports three value shapes:
+      key: scalar_value
+      key: [inline, list, of, items]
+      key:
+        - multi
+        - line
+        - list
 
-    This is deliberate: `age_threshold_flags` only consumes scalar `type`.
-    Rules that need `aliases` or `sources` (e.g., Task 8's newer_source_flags)
-    must parse those fields themselves or use a dedicated helper.
+    Nested maps are NOT parsed; keys under a nested structure are ignored.
+    Keys other than the three above are coerced to strings.
     """
     text = page_path.read_text(encoding="utf-8")
     if not text.startswith("---\n"):
@@ -107,17 +109,57 @@ def _read_frontmatter(page_path: Path) -> dict:
     end = text.find("\n---\n", 4)
     if end == -1:
         return {}
+
     fm: dict = {}
+    current_key: Optional[str] = None
+    current_list: Optional[list] = None
     for raw in text[4:end].splitlines():
-        if not raw.strip() or ":" not in raw:
+        # Close any in-progress multi-line list when we hit a non-indented or
+        # non-list-item line.
+        if current_key is not None and current_list is not None:
+            stripped = raw.lstrip()
+            if raw and not raw[0].isspace() or (stripped and not stripped.startswith("-")):
+                fm[current_key] = current_list
+                current_key = None
+                current_list = None
+
+        if not raw.strip():
             continue
+
+        if current_list is not None:
+            stripped = raw.lstrip()
+            if stripped.startswith("- "):
+                current_list.append(stripped[2:].strip())
+                continue
+            if stripped == "-":
+                continue
+
+        if ":" not in raw:
+            continue
+        if raw[0].isspace():
+            # Indented line that is not part of a tracked multi-line list — ignore.
+            continue
+
         key, _, val = raw.partition(":")
         key = key.strip()
         val = val.strip()
+
+        if val == "":
+            # Start of a potential multi-line list. Peek behavior handled
+            # on the next iteration via current_list.
+            current_key = key
+            current_list = []
+            continue
+
         if val.startswith("[") and val.endswith("]"):
             fm[key] = [s.strip() for s in val[1:-1].split(",") if s.strip()]
         else:
             fm[key] = val
+
+    # Close any trailing multi-line list.
+    if current_key is not None and current_list is not None:
+        fm[current_key] = current_list
+
     return fm
 
 
@@ -215,6 +257,79 @@ def missing_em_flags(claims: list[ClaimCitation], config: dict) -> list[Flag]:
     return flags
 
 
+def _load_manifests(root: Path) -> list[dict]:
+    manifest_dir = root / "sources" / "manifests"
+    if not manifest_dir.exists():
+        return []
+    manifests = []
+    for path in manifest_dir.glob("*.json"):
+        if path.name.startswith("_"):
+            continue
+        try:
+            manifests.append(json.loads(path.read_text(encoding="utf-8")))
+        except (json.JSONDecodeError, OSError):
+            continue
+    return manifests
+
+
+def _page_aliases(page_path: Path) -> set[str]:
+    """Return aliases of a page as a lowercased set. Includes filename stem."""
+    fm = _read_frontmatter(page_path)
+    aliases = set()
+    raw = fm.get("aliases")
+    if isinstance(raw, list):
+        aliases.update(a.lower() for a in raw)
+    elif isinstance(raw, str) and raw:
+        aliases.add(raw.lower())
+    aliases.add(page_path.stem.lower())
+    return aliases
+
+
+def newer_source_flags(
+    claims: list[ClaimCitation], root: Path
+) -> list[Flag]:
+    """Flag claims whose page has a matching manifest entry with ingested_on > em."""
+    manifests = _load_manifests(root)
+    flags: list[Flag] = []
+    for c in claims:
+        if c.em is None:
+            continue
+        page_aliases = _page_aliases(c.page)
+        newest_ingested: Optional[date] = None
+        newest_source: Optional[str] = None
+        for m in manifests:
+            m_aliases = {str(a).lower() for a in m.get("aliases", [])}
+            m_aliases.add(str(m.get("empresa", "")).lower())
+            if not (page_aliases & m_aliases):
+                continue
+            for src in m.get("sources", []):
+                ingested_raw = src.get("ingested_on")
+                if not ingested_raw:
+                    continue
+                try:
+                    ingested = date.fromisoformat(ingested_raw)
+                except (ValueError, TypeError):
+                    continue
+                if ingested <= c.em:
+                    continue
+                if newest_ingested is None or ingested > newest_ingested:
+                    newest_ingested = ingested
+                    newest_source = src.get("digested") or src.get("full") or "<unknown>"
+        if newest_ingested is not None:
+            flags.append(
+                Flag(
+                    claim=c,
+                    rule="newer_source",
+                    severity="action",
+                    detail=(
+                        f"source {newest_source} ingested_on={newest_ingested.isoformat()} "
+                        f"is newer than claim em={c.em.isoformat()}"
+                    ),
+                )
+            )
+    return flags
+
+
 # Files at wiki root that are documentation/audit artifacts, not wiki pages.
 # Their `(fonte: ...)` patterns are illustrative examples or log entries, not
 # factual claims to lint.
@@ -302,6 +417,7 @@ def main() -> int:
     all_flags: list[Flag] = []
     all_flags.extend(age_threshold_flags(claims, config))
     all_flags.extend(missing_em_flags(claims, config))
+    all_flags.extend(newer_source_flags(claims, root))
 
     sev_rank = {"action": 0, "warn": 1, "hint": 2}
     min_rank = sev_rank[args.severity]

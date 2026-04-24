@@ -214,3 +214,103 @@ def test_missing_em_requires_number(tmp_path):
     config = _load_config()
     flags = dl.missing_em_flags(claims, config)
     assert flags == []  # has temporal verb but no number
+
+
+def test_read_frontmatter_multiline_list(tmp_path):
+    page = tmp_path / "demo.md"
+    page.write_text(
+        "---\n"
+        "type: entity\n"
+        "aliases:\n"
+        "  - Cyrela\n"
+        "  - CYRE3\n"
+        "  - CURY3\n"
+        "sources:\n"
+        "  - sources/digested/x_summary.md\n"
+        "  - sources/digested/y_summary.md\n"
+        "created: 2025-01-01\n"
+        "---\n\nbody\n",
+        encoding="utf-8",
+    )
+    fm = dl._read_frontmatter(page)
+    assert fm["type"] == "entity"
+    assert fm["aliases"] == ["Cyrela", "CYRE3", "CURY3"]
+    assert fm["sources"] == ["sources/digested/x_summary.md", "sources/digested/y_summary.md"]
+    assert fm["created"] == "2025-01-01"
+
+
+def test_read_frontmatter_inline_list_still_works(tmp_path):
+    page = tmp_path / "demo.md"
+    page.write_text(
+        "---\ntype: concept\naliases: [Reforma, LC 214/2025]\n---\n\nbody\n",
+        encoding="utf-8",
+    )
+    fm = dl._read_frontmatter(page)
+    assert fm["aliases"] == ["Reforma", "LC 214/2025"]
+
+
+def test_newer_source_flag_triggered(tmp_path):
+    # Create wiki page with claim em: 2024-01-01 about cyrela
+    (tmp_path / "cyrela.md").write_text(
+        "---\ntype: entity\naliases:\n  - Cyrela\n  - CYRE3\n---\n\n"
+        "Guidance (fonte: digested/cyrela_dfp_2023_summary.md, em: 2024-01-01).\n",
+        encoding="utf-8",
+    )
+    # Create a newer digest for cyrela
+    digested = tmp_path / "sources" / "digested"
+    digested.mkdir(parents=True)
+    (digested / "cyrela_dfp_2025_summary.md").write_text(
+        "newer digest\n", encoding="utf-8"
+    )
+    # Manifest for cyrela
+    manifests = tmp_path / "sources" / "manifests"
+    manifests.mkdir(parents=True)
+    (manifests / "cyrela.json").write_text(
+        json.dumps(
+            {
+                "empresa": "cyrela",
+                "aliases": ["Cyrela", "CYRE3"],
+                "sources": [
+                    {
+                        "type": "dfp",
+                        "asof": "2025",
+                        "ingested_on": "2026-03-15",
+                        "digested": "sources/digested/cyrela_dfp_2025_summary.md",
+                    }
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    page = tmp_path / "cyrela.md"
+    claims = dl.parse_claims(page)
+    flags = dl.newer_source_flags(claims, tmp_path)
+    assert len(flags) == 1
+    assert flags[0].rule == "newer_source"
+    assert flags[0].severity == "action"
+
+
+def test_newer_source_ignored_when_no_alias_match(tmp_path):
+    (tmp_path / "cyrela.md").write_text(
+        "---\ntype: entity\naliases:\n  - Cyrela\n---\n\n"
+        "Claim (fonte: x.md, em: 2024-01-01).\n",
+        encoding="utf-8",
+    )
+    manifests = tmp_path / "sources" / "manifests"
+    manifests.mkdir(parents=True)
+    (manifests / "tenda.json").write_text(
+        json.dumps(
+            {
+                "empresa": "tenda",
+                "aliases": ["Tenda", "TEND3"],
+                "sources": [
+                    {"type": "dfp", "asof": "2025", "ingested_on": "2026-03-15"}
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    page = tmp_path / "cyrela.md"
+    claims = dl.parse_claims(page)
+    flags = dl.newer_source_flags(claims, tmp_path)
+    assert flags == []
