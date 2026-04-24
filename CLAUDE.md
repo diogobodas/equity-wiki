@@ -134,6 +134,37 @@ Called automatically by `ingest.sh --notion` after the digest is produced, befor
 
 Unit tests: `python -m pytest tests/test_number_guard.py` (6 acceptance cases from the design spec).
 
+### Dated-claim lint
+
+```bash
+# Full report — all pages, all severities
+bash tools/lint.sh
+
+# Filter severity
+bash tools/lint.sh --severity action   # only action and above
+bash tools/lint.sh --severity hint     # everything
+
+# Single page
+bash tools/lint.sh --page cyrela.md
+```
+
+Scans every `*.md` at the wiki root for `(fonte: X, em: YYYY-MM-DD)` citations and applies four rules (age threshold, newer source available, cross-page contradiction, missing `em:`). Writes report to `sources/lint_reports/YYYY-MM-DD.md` and appends a `[lint]` audit line to `log.md`. Thresholds live in `tools/lint_config.json`.
+
+### Watchlist
+
+```bash
+# Run all elegible watches (respects cadence)
+bash tools/watch.sh
+
+# Force all entries regardless of cadence
+bash tools/watch.sh --force
+
+# Single page
+bash tools/watch.sh --page reforma_tributaria.md
+```
+
+Reads `watches:` frontmatter on wiki pages, runs restricted WebSearch via `claude --print`, diffs hits against `sources/watch_state/{page_slug}.json`, emits `[watch-hit]` entries to the next lint report. Never ingests automatically — signals only.
+
 ### Query data
 
 ```bash
@@ -288,6 +319,7 @@ To inspect pending items: `python tools/lib/wiki_queue.py peek`.
 - **`structured/` shape**: `{_schema, _schema_path, _empresa, _periodo, _source, canonical, company_specific}`. Missing canonical keys → `null`, never omit. Numbers as reported; normalizations belong to the modeling layer.
 - **`manifests/{empresa}.json` is mandatory** — every heavy/light ingest MUST update it. A cold-start modeling agent reads this file first.
 - **Citations** — prefer `(fonte: full/itau/3T25/itr.md §nota_18)` for qualitative, `(fonte: structured/itau/3T25/itr.json :: canonical.dre.margem_financeira)` for numeric, `(fonte: url, confiabilidade: nivel)` for web.
+- **Dated claims** — any claim that can become factually wrong without the period changing (alíquotas, regras fiscais, guidance, metas datadas, valores regulatórios) carries `em: YYYY-MM-DD` in the citation: `(fonte: X, em: 2026-04-10)`. `em:` is the real-world effective date, not the ingest date. See `SCHEMA.md §Dated Claims` for criteria and `SCHEMA.md §Supersession` for update modalities.
 - **Never invent numbers** — every figure traces to `structured/`/`full/`/web/notion. Mark stale with `[stale: last verified YYYY-MM-DD]`. When data is missing from `digested/`, **always search `full/` and `structured/` before reporting as unavailable**. Never fill gaps with estimates, interpolations, or "approximate" values — if the number is not in a source, say "n/d" and cite what was searched.
 - **Wikilinks** only to pages that exist or should exist. First mention in a section gets linked; subsequent mentions do not.
 - **Do not edit files in `sources/`** — sources are immutable. To correct, re-ingest.
