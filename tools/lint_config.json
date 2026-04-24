@@ -1,0 +1,26 @@
+{
+  "thresholds_months": {
+    "legal_regulatorio": 12,
+    "guidance_corporativo": 6,
+    "metric_absoluto": 3,
+    "default": 12
+  },
+  "tipo_inference": {
+    "legal_regulatorio": {
+      "page_types": ["concept"],
+      "keywords": ["alíquota", "LC ", "MP ", "portaria", "decreto", "lei ", "IN ", "RFB", "tarifa", "reforma", "regulação", "vigente"]
+    },
+    "guidance_corporativo": {
+      "page_types": ["entity"],
+      "keywords": ["guidance", "meta", "target", "projeção", "capex", "orçamento", "previsão"]
+    },
+    "metric_absoluto": {
+      "page_types": ["entity", "sector"],
+      "keywords": ["banco de terrenos", "frota", "funcionários", "lojas", "unidades", "ativos", "caixa"]
+    }
+  },
+  "missing_em_heuristic": {
+    "temporal_verbs": ["vigente", "a partir de", "até", "desde", "válido para"],
+    "requires_number": true
+  }
+}
