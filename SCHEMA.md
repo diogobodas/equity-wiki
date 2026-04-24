@@ -251,12 +251,17 @@ Claims that can become factually wrong over time without the period changing car
 | Meta operacional datada (frota, capex) | yes | `em: 2026-03-15` |
 | Número de DF por período (margem 3T25, ROE) | no | período já codifica a data |
 | Definição conceitual ("CBS substitui PIS/Cofins") | no | atemporal |
+| Descrição mecânica ("IBS é devido a cada pagamento recebido") | no | descreve como funciona, não um valor volátil |
+| Nome de lei ou dispositivo ("LC 214/2025") | no | o nome é imutável; o conteúdo carrega seu próprio `em:` |
 
 Rule of thumb for the LLM when writing a claim: if the claim can be factually wrong tomorrow without the accounting period changing, it carries `em:`. If it is tied to an explicit accounting period or is definitional, it does not.
 
 ## Supersession
 
-When new information updates a dated claim, the LLM chooses one of two modalities based on the nature of the change.
+When new information bears on a dated claim, the writer first decides whether the claim is still true.
+
+- **Reaffirmation** — claim is still factually correct. Bump `em:` to the date of the new source. No content change. This is not supersession — it is reconfirmation on fresh evidence.
+- **Supersession** — claim must change. Choose one of two modalities below based on the nature of the change.
 
 ### Modality 1 — Silent overwrite (default)
 

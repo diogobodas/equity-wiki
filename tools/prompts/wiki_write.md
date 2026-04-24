@@ -103,8 +103,16 @@ If the plan input includes `dated_claims_to_review` (non-empty array), for **eac
    - **Atualizado estrutural (Modalidade 2)** — a regime changed. Write an inline "antes × depois" table or comparison section. Use this when the change invalidates an analytical premise (not just the number) OR the old claim is cross-cited from other pages.
 4. Append a `[claim-update]` line to `log.md` for each dated claim touched:
 
+Use `printf` with separate arguments so `claim_excerpt` cannot break the command. Before constructing the call, sanitize `<claim_excerpt>`: replace any `"`, `$`, `` ` ``, `!`, or newline with a space; truncate to 80 chars.
+
 ```bash
-echo "[claim-update] $(date +%F) {{PAGE_NAME}} \"<claim_excerpt>\" em:<old>→<new> modo:<reafirmado|silent|estrutural>" >> log.md
+printf '[claim-update] %s | %s | %s | em:%s→%s | modo:%s\n' \
+  "$(date +%F)" \
+  "{{PAGE_NAME}}" \
+  "<sanitized_claim_excerpt>" \
+  "<old_em>" "<new_em>" \
+  "<reafirmado|silent|estrutural>" \
+  >> log.md
 ```
 
 Preserve **existing** dated claims that the plan did NOT flag for review — do not remove or strip their `em:` markers.
