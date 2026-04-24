@@ -269,7 +269,7 @@ depois: Alíquota reduzida em 60% (fonte: Y, em: 2026-08-10)
 
 ### Modality 2 — Structural supersession ("antes × depois")
 
-For regime changes, law amendments with transition rules, or restructured tariffs. The LLM writes an inline table or section comparing the old and new states — because the contrast itself is the analytical content. See [section_232.md](section_232.md):18-29 for an example pattern ("Revisão de abril/2026 — antes × depois").
+For regime changes, law amendments with transition rules, or restructured tariffs. The LLM writes an inline table or section comparing the old and new states — because the contrast itself is the analytical content. See [[section_232]] for an example pattern — the "Revisão de abril/2026 — antes × depois" table.
 
 **Triggers for Modality 2:**
 1. The change invalidates an analytical premise (not just the number), OR
@@ -321,7 +321,8 @@ Fields: `query` (string for WebSearch), `sites` (domain list restricting the sea
 - Never invent data — every number traces to `structured/` or `full/` (or to a registered web/notion source).
 - Prefer specific over vague: "ROE de 23.4% em 2025" not "ROE alto".
 - Flag contradictions explicitly rather than silently choosing.
-- Mark stale claims: `[stale: last verified YYYY-MM-DD]`.
+- For dated claims (those carrying `em:` per §Dated Claims), supersession follows §Supersession — update `em:` or write an "antes × depois" block. Do NOT add `[stale: ...]` on top of `em:` claims.
+- The `[stale: last verified YYYY-MM-DD]` marker remains available for claims that lack a citable source date (editorial annotation, legacy pages not yet migrated).
 - **Never edit files in `sources/`** — sources are immutable. To correct, re-ingest.
 - **`log.md` is append-only.**
 - **One source at a time** during ingest, so cross-linking stays coherent.
