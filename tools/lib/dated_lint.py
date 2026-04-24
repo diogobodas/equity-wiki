@@ -118,7 +118,9 @@ def _read_frontmatter(page_path: Path) -> dict:
         # non-list-item line.
         if current_key is not None and current_list is not None:
             stripped = raw.lstrip()
-            if raw and not raw[0].isspace() or (stripped and not stripped.startswith("-")):
+            is_comment = stripped.startswith("#")
+            is_list_continuation = stripped.startswith("-") or is_comment
+            if (raw and not raw[0].isspace()) or (stripped and not is_list_continuation):
                 fm[current_key] = current_list
                 current_key = None
                 current_list = None
@@ -129,7 +131,8 @@ def _read_frontmatter(page_path: Path) -> dict:
         if current_list is not None:
             stripped = raw.lstrip()
             if stripped.startswith("- "):
-                current_list.append(stripped[2:].strip())
+                item = stripped[2:].strip().strip('"').strip("'")
+                current_list.append(item)
                 continue
             if stripped == "-":
                 continue
@@ -288,17 +291,34 @@ def _page_aliases(page_path: Path) -> set[str]:
 def newer_source_flags(
     claims: list[ClaimCitation], root: Path
 ) -> list[Flag]:
-    """Flag claims whose page has a matching manifest entry with ingested_on > em."""
+    """Flag claims whose page has a matching manifest entry with ingested_on > em.
+
+    Note on breadth: this rule matches any manifest source with `ingested_on > em`,
+    regardless of whether the specific source is topically relevant to the
+    individual claim. Per the design, the rule surfaces a cross-pipeline signal
+    (a newer ingest exists for the same empresa/concept) and leaves topical
+    triage to the human. Expect multiple claims on the same page to be flagged
+    against the same newest source.
+    """
     manifests = _load_manifests(root)
+    alias_cache: dict[Path, set[str]] = {}
     flags: list[Flag] = []
     for c in claims:
         if c.em is None:
             continue
-        page_aliases = _page_aliases(c.page)
+        if c.page not in alias_cache:
+            alias_cache[c.page] = _page_aliases(c.page)
+        page_aliases = alias_cache[c.page]
         newest_ingested: Optional[date] = None
         newest_source: Optional[str] = None
         for m in manifests:
-            m_aliases = {str(a).lower() for a in m.get("aliases", [])}
+            raw_aliases = m.get("aliases", [])
+            if isinstance(raw_aliases, list):
+                m_aliases = {str(a).lower() for a in raw_aliases}
+            elif isinstance(raw_aliases, str):
+                m_aliases = {raw_aliases.lower()}
+            else:
+                m_aliases = set()
             m_aliases.add(str(m.get("empresa", "")).lower())
             if not (page_aliases & m_aliases):
                 continue
@@ -314,7 +334,12 @@ def newer_source_flags(
                     continue
                 if newest_ingested is None or ingested > newest_ingested:
                     newest_ingested = ingested
-                    newest_source = src.get("digested") or src.get("full") or "<unknown>"
+                    newest_source = (
+                        src.get("digested")
+                        or src.get("full")
+                        or src.get("structured")
+                        or "<unknown>"
+                    )
         if newest_ingested is not None:
             flags.append(
                 Flag(

@@ -314,3 +314,48 @@ def test_newer_source_ignored_when_no_alias_match(tmp_path):
     claims = dl.parse_claims(page)
     flags = dl.newer_source_flags(claims, tmp_path)
     assert flags == []
+
+
+def test_read_frontmatter_quoted_list_items(tmp_path):
+    page = tmp_path / "demo.md"
+    page.write_text(
+        "---\n"
+        "aliases:\n"
+        '  - "CBS"\n'
+        "  - 'IBS'\n"
+        "  - LC 214/2025\n"
+        "---\n\nbody\n",
+        encoding="utf-8",
+    )
+    fm = dl._read_frontmatter(page)
+    assert fm["aliases"] == ["CBS", "IBS", "LC 214/2025"]
+
+
+def test_newer_source_handles_scalar_aliases_manifest(tmp_path):
+    (tmp_path / "cyrela.md").write_text(
+        "---\ntype: entity\naliases:\n  - Cyrela\n---\n\n"
+        "Claim (fonte: x.md, em: 2024-01-01).\n",
+        encoding="utf-8",
+    )
+    manifests = tmp_path / "sources" / "manifests"
+    manifests.mkdir(parents=True)
+    # aliases as scalar string (authoring mistake)
+    (manifests / "cyrela.json").write_text(
+        json.dumps(
+            {
+                "empresa": "cyrela",
+                "aliases": "Cyrela",
+                "sources": [
+                    {"type": "dfp", "asof": "2025",
+                     "ingested_on": "2026-03-15",
+                     "digested": "sources/digested/cyrela_dfp_2025.md"}
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    claims = dl.parse_claims(tmp_path / "cyrela.md")
+    flags = dl.newer_source_flags(claims, tmp_path)
+    # Even with scalar aliases, matching should succeed (via string guard)
+    assert len(flags) == 1
+    assert flags[0].rule == "newer_source"
