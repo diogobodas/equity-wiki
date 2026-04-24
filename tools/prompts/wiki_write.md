@@ -100,6 +100,8 @@ If the plan input includes `dated_claims_to_review` (non-empty array), for **eac
 3. Decide one of three outcomes:
    - **Reafirmado** — the claim is still true. Bump `em:` to the digest's effective date. No content change beyond the date.
    - **Atualizado silent (Modalidade 1)** — the number/date changed but the regime is the same. Overwrite the value in place, update `em:`. Used for guidance refreshes, incremental rule changes.
+
+**Deriving `em:` for bumps/updates:** prefer the effective date stated inside the digest (publication date of a law/MP/portaria, date of a guidance release, date a target was reaffirmed). Do NOT use today's date or the digest's `ingested_on` unless the digest does not state an effective date. When no effective date is available, use the digest's publication/as-of date and mark `em:` with no qualifier — avoid `em: [estimated]` to keep the marker machine-parseable.
    - **Atualizado estrutural (Modalidade 2)** — a regime changed. Write an inline "antes × depois" table or comparison section. Use this when the change invalidates an analytical premise (not just the number) OR the old claim is cross-cited from other pages.
 4. Append a `[claim-update]` line to `log.md` for each dated claim touched:
 

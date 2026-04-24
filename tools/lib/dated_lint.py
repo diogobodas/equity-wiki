@@ -200,15 +200,28 @@ def _months_between(earlier: date, later: date) -> int:
 
 
 def age_threshold_flags(
-    claims: list[ClaimCitation], config: dict, today: Optional[date] = None
+    claims: list[ClaimCitation],
+    config: dict,
+    today: Optional[date] = None,
+    exclude_claims: Optional[set[tuple[Path, int]]] = None,
 ) -> list[Flag]:
-    """Flag claims whose `em:` is older than the configured threshold for its tipo."""
+    """Flag claims whose `em:` is older than the configured threshold for its tipo.
+
+    Per SCHEMA.md §Lint §10(a): only fires when no newer source is available on
+    the same topic. Callers pass `exclude_claims` — a set of (page, line) tuples
+    for claims that already have a `newer_source` flag — so age_threshold does
+    not produce a redundant `warn` on top of the `action` flag.
+    """
     if today is None:
         today = date.today()
+    if exclude_claims is None:
+        exclude_claims = set()
     thresholds = config["thresholds_months"]
     flags: list[Flag] = []
     for c in claims:
         if c.em is None:
+            continue
+        if (c.page, c.line) in exclude_claims:
             continue
         tipo = _classify_claim_tipo(c, config)
         threshold = thresholds.get(tipo, thresholds["default"])
@@ -553,10 +566,16 @@ def main() -> int:
     else:
         claims = scan_wiki(root)
 
+    # Run newer_source first so that age_threshold can dedupe against it
+    # (per SCHEMA.md §Lint §10(a): age_threshold fires only when no newer
+    # source is available on the same topic).
+    newer_source_result = newer_source_flags(claims, root)
+    newer_source_keys = {(f.claim.page, f.claim.line) for f in newer_source_result}
+
     all_flags: list[Flag] = []
-    all_flags.extend(age_threshold_flags(claims, config))
+    all_flags.extend(age_threshold_flags(claims, config, exclude_claims=newer_source_keys))
     all_flags.extend(missing_em_flags(claims, config))
-    all_flags.extend(newer_source_flags(claims, root))
+    all_flags.extend(newer_source_result)
     all_flags.extend(contradiction_flags(claims))
 
     sev_rank = {"action": 0, "warn": 1, "hint": 2}

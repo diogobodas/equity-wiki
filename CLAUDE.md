@@ -150,6 +150,8 @@ bash tools/lint.sh --page cyrela.md
 
 Scans every `*.md` at the wiki root for `(fonte: ...)` citations — both dated (with `em:`) and undated — and applies four rules at three severity levels (`hint` < `warn` < `action`): age threshold, newer source available, cross-page contradiction, and missing `em:`. Writes report to `sources/lint_reports/YYYY-MM-DD.md` and appends a `[lint]` audit line to `log.md`. Thresholds live in `tools/lint_config.json`.
 
+**First-run expectations.** On an un-retrofitted wiki, expect `hint` count to be high (every legacy temporal-number claim without `em:` fires one hint — this IS the retrofit backlog). `action` count is dominated by contradiction-rule false positives until ~15 pages have `em:` markers; start triage with `--severity hint`, then `warn`, then `action` last. Manual edits to wiki pages bypass Path A (the reactive-at-ingest prompt logic) — if you update a dated claim by hand, remember to update `em:` to the source's publication date.
+
 ### Watchlist
 
 ```bash

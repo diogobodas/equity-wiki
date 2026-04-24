@@ -256,6 +256,8 @@ Claims that can become factually wrong over time without the period changing car
 
 Rule of thumb for the LLM when writing a claim: if the claim can be factually wrong tomorrow without the accounting period changing, it carries `em:`. If it is tied to an explicit accounting period or is definitional, it does not.
 
+**Tables.** When a table groups claims that share a single source and effective date, place one citation directly below the table with the table's `em:` (e.g., `(fonte: X, em: 2026-04-10)` after the table). When the rows carry materially different effective dates, split into separate tables — one per date. Do not embed per-row `em:` inside cells; the lint parser does not inspect table-cell content and will silently miss per-row dates.
+
 ## Supersession
 
 When new information bears on a dated claim, the writer first decides whether the claim is still true.

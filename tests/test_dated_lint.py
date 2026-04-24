@@ -437,3 +437,39 @@ def test_normalize_value_rejects_bare_year(tmp_path):
     assert match is not None, "regex should match '2025'"
     result = dl._normalize_value(match)
     assert result is None, "bare year 2025 should be rejected"
+
+
+def test_age_threshold_deduped_by_newer_source(tmp_path):
+    # Create a page with a stale dated claim AND a manifest with a newer ingest
+    # for the same empresa. Expected: only the `newer_source` action flag fires,
+    # NOT an additional `age_threshold` warn on the same claim.
+    (tmp_path / "cyrela.md").write_text(
+        "---\ntype: entity\naliases:\n  - Cyrela\n  - CYRE3\n---\n\n"
+        "Guidance (fonte: digested/cyrela_dfp_2020_summary.md, em: 2020-01-01).\n",
+        encoding="utf-8",
+    )
+    digested = tmp_path / "sources" / "digested"
+    digested.mkdir(parents=True)
+    (digested / "cyrela_dfp_2025_summary.md").write_text("newer\n", encoding="utf-8")
+    manifests = tmp_path / "sources" / "manifests"
+    manifests.mkdir(parents=True)
+    (manifests / "cyrela.json").write_text(
+        json.dumps({
+            "empresa": "cyrela",
+            "aliases": ["Cyrela", "CYRE3"],
+            "sources": [{"type": "dfp", "asof": "2025",
+                         "ingested_on": "2026-03-15",
+                         "digested": "sources/digested/cyrela_dfp_2025_summary.md"}],
+        }),
+        encoding="utf-8",
+    )
+    claims = dl.parse_claims(tmp_path / "cyrela.md")
+    config = _load_config()
+    newer_flags = dl.newer_source_flags(claims, tmp_path)
+    assert len(newer_flags) == 1
+    # Call age_threshold with the exclude_claims set from newer_source
+    exclude = {(f.claim.page, f.claim.line) for f in newer_flags}
+    age_flags = dl.age_threshold_flags(claims, config, today=date(2026, 4, 23),
+                                        exclude_claims=exclude)
+    # The claim is stale but has a newer source → age_threshold must skip
+    assert age_flags == []
