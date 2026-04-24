@@ -33,6 +33,7 @@ Analyze ALL the digesteds and the current state of wiki pages. Produce a JSON pl
 1. **Which pages to CREATE** — entity pages for companies without one, concept pages for wikilink targets that don't exist, comparison pages when 2+ companies have overlapping data, subsidiary pages (e.g. riva.md, cashme.md, alea.md)
 2. **Which pages to UPDATE** — pages whose data is stale vs the digesteds, pages missing a company that now has data
 3. **Which pages to SKIP** — pages that are already current
+4. **Which dated claims on each page may be invalidated** — for every page in `create`/`update`, scan the existing page content (if any) and the digesteds being applied. List every dated claim (citations of the form `(fonte: ..., em: YYYY-MM-DD)`) whose underlying fact could plausibly be changed by the new digest. Include even uncertain matches; it is better to over-flag than miss. Write the field as `dated_claims_to_review: []` (explicit empty) when there are no candidates — never omit.
 
 For each page in create/update, list exactly which digested files contain relevant data for that page.
 
@@ -50,10 +51,26 @@ Produce the plan as JSON between these exact markers:
 ===WIKI_PLAN_START===
 {
   "create": [
-    {"page": "example.md", "type": "entity", "digesteds": ["empresa_dfp_2025_summary.md", "empresa_release_4T25_summary.md"]}
+    {
+      "page": "example.md",
+      "type": "entity",
+      "digesteds": ["empresa_dfp_2025_summary.md", "empresa_release_4T25_summary.md"],
+      "dated_claims_to_review": []
+    }
   ],
   "update": [
-    {"page": "incorporadoras.md", "type": "sector", "digesteds": ["cury_dfp_2025_summary.md", "direcional_dfp_2025_summary.md"]}
+    {
+      "page": "reforma_tributaria.md",
+      "type": "concept",
+      "digesteds": ["notion_nova_IN_RFB_summary.md"],
+      "dated_claims_to_review": [
+        {
+          "claim_excerpt": "alíquota reduzida em 50%",
+          "current_em": "2025-01-16",
+          "reason": "digest describes new IN RFB that may alter effective rate"
+        }
+      ]
+    }
   ],
   "skip": [
     {"page": "mcmv.md", "reason": "no new data affecting this concept"}
@@ -71,3 +88,5 @@ Produce the plan as JSON between these exact markers:
 - Digested filenames follow the pattern: {empresa}_{tipo}_{periodo}_summary.md
 - Only include digesteds in the list if they are actually relevant to that specific page
 - Do NOT create pages for concepts that are too generic or don't have company-specific data to cite
+- For every `create`/`update` entry, include `dated_claims_to_review` explicitly — empty array if none apply, never omit the field.
+- Parse existing pages looking for citations of the form `(fonte: ..., em: YYYY-MM-DD)`. For each, judge whether any of the digesteds being applied could change that claim. If yes, include it in `dated_claims_to_review` with `claim_excerpt` (≤120 chars of surrounding text), `current_em` (the date from the citation), and `reason` (one line).
