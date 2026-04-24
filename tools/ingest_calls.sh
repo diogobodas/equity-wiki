@@ -17,6 +17,11 @@ usage() {
 [[ $# -lt 1 ]] && usage
 TICKER="$1"; shift
 
+# --- Model selection ---
+# Call transcripts are qualitative digests — default to Sonnet.
+# Override via: INGEST_CLAUDE_MODEL=claude-opus-4-7 bash tools/ingest_calls.sh ...
+INGEST_CLAUDE_MODEL="${INGEST_CLAUDE_MODEL:-claude-sonnet-4-6}"
+
 CONCURRENCY=4
 while [[ $# -gt 0 ]]; do
     case "$1" in

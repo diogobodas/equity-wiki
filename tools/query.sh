@@ -12,6 +12,10 @@ usage() {
 [[ $# -lt 1 ]] && usage
 QUERY="$1"
 
+# --- Model selection ---
+# Override via: QUERY_CLAUDE_MODEL=claude-opus-4-7 bash tools/query.sh ...
+QUERY_CLAUDE_MODEL="${QUERY_CLAUDE_MODEL:-claude-sonnet-4-6}"
+
 # --- Paths ---
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
@@ -81,7 +85,10 @@ open(sys.argv[4], 'w', encoding='utf-8').write(template)
 rm -f "$INVENTORY_FILE"
 
 # --- Invoke Claude ---
+model_args=()
+[[ -n "$QUERY_CLAUDE_MODEL" ]] && model_args=(--model "$QUERY_CLAUDE_MODEL")
 cat "$PROMPT_FILE" | claude --print \
+    "${model_args[@]}" \
     --allowedTools "Bash" \
     --permission-mode bypassPermissions
 

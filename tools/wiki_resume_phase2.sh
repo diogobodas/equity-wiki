@@ -7,7 +7,7 @@
 #   bash tools/wiki_resume_phase2.sh --plan logs/wiki_plan_merged_20260420.json
 #
 # Env tunables:
-#   WIKI_CLAUDE_MODEL       e.g. "sonnet" (default: unset = claude default)
+#   WIKI_CLAUDE_MODEL       model for page writes (default: claude-sonnet-4-6 — Phase 2 is page-scoped)
 #   WIKI_WRITE_TIMEOUT      seconds per page (default: 1800)
 #   WIKI_WRITE_CONCURRENCY  parallel page writers (default: 4)
 set -euo pipefail
@@ -34,6 +34,8 @@ REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 
 WRITE_TIMEOUT="${WIKI_WRITE_TIMEOUT:-1800}"
 CONCURRENCY="${WIKI_WRITE_CONCURRENCY:-4}"
+# Phase 2 is page-scoped / template-driven — default to Sonnet.
+WIKI_CLAUDE_MODEL="${WIKI_CLAUDE_MODEL:-claude-sonnet-4-6}"
 
 echo "=== Wiki Phase 2 Resume (parallel, concurrency=$CONCURRENCY) ==="
 echo "Plan: $PLAN_FILE"

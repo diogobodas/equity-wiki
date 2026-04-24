@@ -218,10 +218,13 @@ open(sys.argv[-1], 'w', encoding='utf-8').write(template)
 }
 
 # --- Per-phase model selection ---
-# WIKI_PLAN_MODEL  → Phase 1 planning  (default: WIKI_CLAUDE_MODEL or claude default)
-# WIKI_WRITE_MODEL → Phase 2 page writes (default: WIKI_CLAUDE_MODEL or claude default)
-PLAN_MODEL="${WIKI_PLAN_MODEL:-${WIKI_CLAUDE_MODEL:-}}"
-WRITE_MODEL="${WIKI_WRITE_MODEL:-${WIKI_CLAUDE_MODEL:-}}"
+# Policy: Opus for Phase 1 planner (many-to-many reasoning over all digesteds),
+#         Sonnet for Phase 2 writes (page-scoped, template-driven).
+# WIKI_PLAN_MODEL  → Phase 1 planning  (default: claude-opus-4-7)
+# WIKI_WRITE_MODEL → Phase 2 page writes (default: claude-sonnet-4-6)
+# WIKI_CLAUDE_MODEL overrides both if set (legacy compat).
+PLAN_MODEL="${WIKI_PLAN_MODEL:-${WIKI_CLAUDE_MODEL:-claude-opus-4-7}}"
+WRITE_MODEL="${WIKI_WRITE_MODEL:-${WIKI_CLAUDE_MODEL:-claude-sonnet-4-6}}"
 
 # --- Phase 1: Planning (chunked) ---
 # The planner LLM `cat`s each digest individually via Bash. With ~500+ digesteds

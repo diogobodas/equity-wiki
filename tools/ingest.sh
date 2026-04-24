@@ -15,6 +15,14 @@ usage() {
 
 [[ $# -lt 1 ]] && usage
 
+# --- Model selection (shared across all modes) ---
+# Heavy: ITR/DFP, releases, other full ingests needing structured JSON extraction.
+# Light: fatos relevantes, prévias, generic, notion — digest only.
+# Override per-run by exporting INGEST_HEAVY_MODEL / INGEST_LIGHT_MODEL.
+INGEST_HEAVY_MODEL="${INGEST_HEAVY_MODEL:-claude-opus-4-7}"
+INGEST_LIGHT_MODEL="${INGEST_LIGHT_MODEL:-claude-sonnet-4-6}"
+export INGEST_HEAVY_MODEL INGEST_LIGHT_MODEL
+
 # --- Generic mode ---
 if [[ "$1" == "--generic" ]]; then
     shift
@@ -47,7 +55,10 @@ for k, v in replacements.items():
     template = template.replace(k, v)
 open(sys.argv[-1], 'w', encoding='utf-8').write(template)
 " "$template" "${@:2}" "$prompt_file"
+        local model_args=()
+        [[ -n "${INGEST_LIGHT_MODEL:-}" ]] && model_args=(--model "$INGEST_LIGHT_MODEL")
         cat "$prompt_file" | claude --print \
+            "${model_args[@]}" \
             --allowedTools "Bash" \
             --permission-mode bypassPermissions
         rm -f "$prompt_file"
@@ -178,7 +189,10 @@ for k, v in replacements.items():
     template = template.replace(k, v)
 open(sys.argv[-1], 'w', encoding='utf-8').write(template)
 " "$template" "${@:2}" "$prompt_file"
+        local model_args=()
+        [[ -n "${INGEST_LIGHT_MODEL:-}" ]] && model_args=(--model "$INGEST_LIGHT_MODEL")
         cat "$prompt_file" | claude --print \
+            "${model_args[@]}" \
             --allowedTools "Bash" \
             --permission-mode bypassPermissions
         rm -f "$prompt_file"
@@ -424,7 +438,11 @@ for k, v in replacements.items():
 open(sys.argv[-1], 'w', encoding='utf-8').write(template)
 " "$template" "${@:2}" "$prompt_file"
 
+    local model_args=()
+    [[ -n "${INVOKE_CLAUDE_MODEL:-}" ]] && model_args=(--model "$INVOKE_CLAUDE_MODEL")
+
     cat "$prompt_file" | claude --print \
+        "${model_args[@]}" \
         --allowedTools "Bash" \
         --permission-mode bypassPermissions
 
@@ -439,7 +457,7 @@ ingest_one_heavy() {
 
     echo "$log_prefix Starting..."
 
-    invoke_claude "$SCRIPT_DIR/prompts/ingest_heavy.md" \
+    INVOKE_CLAUDE_MODEL="$INGEST_HEAVY_MODEL" invoke_claude "$SCRIPT_DIR/prompts/ingest_heavy.md" \
         "{{TICKER}}" "$TICKER" \
         "{{EMPRESA}}" "$EMPRESA" \
         "{{DOC_TYPE}}" "$doc_type" \
@@ -456,7 +474,7 @@ ingest_one_light() {
 
     echo "$log_prefix Starting..."
 
-    invoke_claude "$SCRIPT_DIR/prompts/ingest_light.md" \
+    INVOKE_CLAUDE_MODEL="$INGEST_LIGHT_MODEL" invoke_claude "$SCRIPT_DIR/prompts/ingest_light.md" \
         "{{TICKER}}" "$TICKER" \
         "{{EMPRESA}}" "$EMPRESA" \
         "{{FULL_PATH}}" "$full_path"

@@ -33,6 +33,10 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
+# --- Model selection ---
+# Override via: FETCH_CLAUDE_MODEL=claude-opus-4-7 bash tools/fetch.sh ...
+FETCH_CLAUDE_MODEL="${FETCH_CLAUDE_MODEL:-claude-sonnet-4-6}"
+
 # --- Paths (relative to repo root) ---
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
@@ -216,7 +220,10 @@ open(sys.argv[8], 'w', encoding='utf-8').write(template)
   "$FILE_LIST" "$TODAY" "$PROMPT_FILE"
 
     # 4. Invoke Claude for classification
+    model_args=()
+    [[ -n "$FETCH_CLAUDE_MODEL" ]] && model_args=(--model "$FETCH_CLAUDE_MODEL")
     DISCOVERY_OUTPUT=$(cat "$PROMPT_FILE" | claude --print \
+        "${model_args[@]}" \
         --allowedTools "Bash" \
         --permission-mode bypassPermissions)
 
@@ -341,6 +348,9 @@ echo "========================"
 echo ""
 
 # --- Invoke Claude ---
+model_args=()
+[[ -n "$FETCH_CLAUDE_MODEL" ]] && model_args=(--model "$FETCH_CLAUDE_MODEL")
 cat "$PROMPT_FILE" | claude --print \
+    "${model_args[@]}" \
     --allowedTools "Bash" \
     --permission-mode bypassPermissions
