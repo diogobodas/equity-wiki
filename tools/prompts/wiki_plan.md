@@ -33,7 +33,7 @@ Analyze ALL the digesteds and the current state of wiki pages. Produce a JSON pl
 1. **Which pages to CREATE** — entity pages for companies without one, concept pages for wikilink targets that don't exist, comparison pages when 2+ companies have overlapping data, subsidiary pages (e.g. riva.md, cashme.md, alea.md)
 2. **Which pages to UPDATE** — pages whose data is stale vs the digesteds, pages missing a company that now has data
 3. **Which pages to SKIP** — pages that are already current
-4. **Which dated claims on each page may be invalidated** — for every page in `create`/`update`, scan the existing page content (if any) and the digesteds being applied. List every dated claim (citations of the form `(fonte: ..., em: YYYY-MM-DD)`) whose underlying fact could plausibly be changed by the new digest. Include even uncertain matches; it is better to over-flag than miss. Write the field as `dated_claims_to_review: []` (explicit empty) when there are no candidates — never omit.
+4. **Which dated claims on each page may be invalidated** by the new digesteds — populate `dated_claims_to_review` per the rules below.
 
 For each page in create/update, list exactly which digested files contain relevant data for that page.
 
@@ -89,4 +89,4 @@ Produce the plan as JSON between these exact markers:
 - Only include digesteds in the list if they are actually relevant to that specific page
 - Do NOT create pages for concepts that are too generic or don't have company-specific data to cite
 - For every `create`/`update` entry, include `dated_claims_to_review` explicitly — empty array if none apply, never omit the field.
-- Parse existing pages looking for citations of the form `(fonte: ..., em: YYYY-MM-DD)`. For each, judge whether any of the digesteds being applied could change that claim. If yes, include it in `dated_claims_to_review` with `claim_excerpt` (≤120 chars of surrounding text), `current_em` (the date from the citation), and `reason` (one line).
+- Parse existing pages looking for citations of the form `(fonte: ..., em: YYYY-MM-DD)`. Flag a citation only when the digest contains a specific number, date, named rule, or entity that directly addresses the same fact — not merely the same broad subject. When the digest is topical-only (e.g., "notes about reforma tributária" with no specific rule change), prefer fewer, higher-confidence flags. Include the flagged claim in `dated_claims_to_review` with `claim_excerpt` (≤120 chars of surrounding text), `current_em` (the date from the citation), and `reason` (one line naming the specific matching fact in the digest).
