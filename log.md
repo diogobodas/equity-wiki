@@ -1012,3 +1012,24 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 [lint] 2026-04-24 sources/lint_reports/2026-04-24.md action=0 warn=0 hint=0
 [lint] 2026-04-24 sources/lint_reports/2026-04-24.md action=0 warn=0 hint=11
 [lint] 2026-04-24 sources/lint_reports/2026-04-24.md action=418 warn=0 hint=240
+[new] 2026-04-25 | sources/manifests/weg.json | manifest skeleton WEG (WEGE3) — pre-ingest. Setor industrial, youtube_channel @WEGoficial (a verificar local), wiki_page weg.md, related_digests aponta para 16 digesteds Notion existentes. Fetch profile ainda não criado (precisa rodar fetch.sh --discover na máquina local com CVM-API ativa).
+[new] 2026-04-25 | sources/structured/_schemas/industrial.json | schema canônico industrial/v1 — DRE, BP, FC, segmentos (eei/gtd/tintas_vernizes/outros) e kpis_industriais (capex/receita, ROIC, dívida líquida/EBITDA, working capital, headcount, mix Brasil/Externo). Modelado a partir do conhecimento qualitativo dos digesteds Notion de WEG; será refinado quando o primeiro ITR for ingerido.
+[fetch-plan] 2026-04-25 | empresa=weg ticker=WEGE3 | escopo: 1T24 → 4T25 (8 trimestres). PDFs e transcrições não estão disponíveis neste sandbox (sandbox-egress bloqueia CVM/YouTube/RI da WEG — só permite GitHub). Plano para execução local, em ordem:
+  1. cd /caminho/equity-wiki && bash tools/fetch.sh WEGE3 --discover  → cria fetch_profile no manifest após review humano
+  2. bash tools/fetch.sh WEGE3 --horizon 2y --types itr,dfp,release,fato_relevante  → baixa para sources/undigested/
+     Esperados (8 ITRs + 2 DFPs + 8 releases trimestrais; fatos relevantes filtrados via fetch_profile):
+       [ ] ITR 1T24    [ ] release 1T24   [ ] DFP 2024 (anual, cobre 4T24)
+       [ ] ITR 2T24    [ ] release 2T24
+       [ ] ITR 3T24    [ ] release 3T24
+                        [ ] release 4T24 (publicado em fev/2025)
+       [ ] ITR 1T25    [ ] release 1T25   [ ] DFP 2025 (anual, cobre 4T25 — sai ~fev/2026)
+       [ ] ITR 2T25    [ ] release 2T25
+       [ ] ITR 3T25    [ ] release 3T25
+                        [ ] release 4T25 (publicado em fev/2026)
+  3. bash tools/fetch_calls.sh WEGE3 --discover  → confirma handle do canal (manifest hoje grava @WEGoficial; ajustar se necessário) e gera audit plan trimestral
+  4. bash tools/fetch_calls.sh WEGE3  → 8 transcrições esperadas (1T24, 2T24, 3T24, 4T24, 1T25, 2T25, 3T25, 4T25)
+  5. WEG Day 2024 e WEG Day 2025: NÃO estão na CVM. Baixar manualmente do site de RI (ri.weg.net) e colocar em sources/undigested/ como weg_apresentacao_weg_day_2024.pdf e weg_apresentacao_weg_day_2025.pdf antes do ingest. Light path (full + digested, sem structured).
+  6. bash tools/ingest.sh WEGE3 --concurrency 4  → heavy path (ITR/DFP/release → full/structured/digested) + light (fato_relevante, WEG Day → full/digested)
+  7. bash tools/ingest_calls.sh WEGE3  → 8 transcrições → full/digested
+  8. bash tools/wiki_update.sh  → mescla digesteds novos com weg.md existente (já há 254 linhas baseadas em digesteds Notion — wiki update vai integrar com números trimestrais oficiais)
+  Notas: 4T (release 4T24 e 4T25) deve ser ingerido como release próprio mesmo que a DFP do ano cubra os mesmos números — release vem antes da DFP e tem material gerencial. Próximo resultado WEG sai na semana de 28/abr–02/mai/2026 (1T26) — após esse cold start, ingest 1T26 incremental fica trivial.

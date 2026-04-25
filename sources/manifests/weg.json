@@ -1,0 +1,45 @@
+{
+  "_schema": "manifest/v1",
+  "_updated": "2026-04-25",
+  "empresa": "weg",
+  "display_name": "WEG S.A.",
+  "aliases": [
+    "WEG",
+    "WEGE3",
+    "WEG S.A.",
+    "Weg"
+  ],
+  "ticker": "WEGE3",
+  "youtube_channel": "https://www.youtube.com/@WEGoficial",
+  "setor": "industrial",
+  "setor_schema": "sources/structured/_schemas/industrial.json",
+  "wiki_page": "weg.md",
+  "sources": [],
+  "coverage": {},
+  "precedence": [],
+  "caveats": [
+    "Cold start em 2026-04-25 — manifesto criado antes do primeiro ingest CVM. Sources/coverage serão populados pela primeira execução de tools/ingest.sh WEGE3.",
+    "Setor industrial: schema canônico v1 criado junto com este manifest (sources/structured/_schemas/industrial.json) — inicialmente baseado em conhecimento qualitativo dos digesteds Notion existentes; será refinado quando o primeiro ITR/release for ingerido.",
+    "Estrutura de segmentos reportada por WEG: EEI (Equipamentos Elétricos Industriais — ciclo curto, ~80% do negócio: motores, automação, drives, WEG Home) e GTD (Geração, Transmissão e Distribuição — ciclo longo: transformadores, alternadores, geradores eólicos, BESS, compensadores síncronos). Cada segmento se desdobra em Brasil vs Externo.",
+    "Aquisições estruturais relevantes no período coberto: Regal Rexnord (mai/2024 — alternadores Marathon, integração 3-5 anos) e Sanalec (Índia, dez/2025 — reguladores de tensão e excitação para plataforma eólica 4,2 MW).",
+    "youtube_channel ainda não verificado neste sandbox (proxy bloqueia YouTube) — confirmar handle correto em fetch_calls.sh --discover na máquina local."
+  ],
+  "related_digests": [
+    "sources/digested/notion_weg_4t25_call_31300ca3_summary.md",
+    "sources/digested/notion_weg_2t25_call_eac00ca3_summary.md",
+    "sources/digested/notion_weg_day_2025_28100ca3_summary.md",
+    "sources/digested/notion_weg_call_jpm_28d00ca3_summary.md",
+    "sources/digested/notion_weg_citi_23000ca3_summary.md",
+    "sources/digested/notion_weg_cfo_andr_rodrigues_80e00ca3_summary.md",
+    "sources/digested/notion_weg_14_08_79400ca3_summary.md",
+    "sources/digested/notion_weg_56200ca3_summary.md",
+    "sources/digested/notion_weg_89600ca3_summary.md",
+    "sources/digested/notion_weg_carlos_grillo_e_harry_neto_bess_fbb00ca3_summary.md",
+    "sources/digested/notion_weg_follow_up_pos_resultado_29500ca3_summary.md",
+    "sources/digested/notion_weg_direcional_laic_2f600ca3_summary.md",
+    "sources/digested/notion_call_weg_friday_may_3_2024_def00ca3_summary.md",
+    "sources/digested/notion_fw_convite_j_safra_15h_videoconfer_ncia_com_weg_andr_menegueti_salgueiro_diretor_de_finan_as_e_ri_e_felipe_scopel_hoffmann_gerente_de_ri_tuesday_may_7_2024_88700ca3_summary.md",
+    "sources/digested/notion_bess_weg_citi_3t25_cbre_2ae00ca3_summary.md",
+    "sources/digested/notion_d_vidas_weg_reuni_o_11_10_93900ca3_summary.md"
+  ]
+}
