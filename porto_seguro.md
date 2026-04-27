@@ -40,7 +40,7 @@ sources:
   - sources/digested/porto_subsidiarias_vida_cap_holding_2025_summary.md
   - sources/full/generic/susep_sinistralidade_auto_analise_2010_2026.md
 created: 2026-04-20
-updated: 2026-04-24
+updated: 2026-04-27
 ---
 
 # Porto Seguro (PSSA3)
@@ -179,7 +179,7 @@ A camada gerencial do release publica as 4 verticais em blocos homogêneos ("Sa�
 
 2. **O "banco" é Portoseg + Consórcio. Portoseg isoladamente está com custo de crédito comendo o spread; Consórcio é a segunda metade da vertical.** Porto Bank e Porto Negócios Financeiros são holdings/shells; as duas operadas materialmente sob BACEN são:
     - **Portoseg** (CFI, crédito/cartão): lucro R$ 147 mm em 2025 vs R$ 231 mm em 2024 — **queda de -36%** mesmo com RIF crescendo +27% (R$ 3,32 bi). Inadimplência deteriorou: vencidos >180 dias +91% a/a para R$ 2,37 bi, **93,8% concentrado em cartão de crédito**. Carteira bruta R$ 8,63 bi (90% PF).
-    - **Porto Consórcio** (administradora de consórcios): lucro **R$ 288 mm em 2025** — quase 2× o lucro da Portoseg. Receita R$ 1,15 bi, PL R$ 725 mm (ROE ~40%). Gerencia 869 grupos (492 autos + 44 pesados + 333 imóveis), 492 mil consorciados, R$ 12,87 bi em ativos dos grupos (R$ 5 bi em caixa dos consorciados). Negócio de capital-leve clássico — receita é taxa de administração sobre os recursos dos grupos, custo principal é overhead operacional; a alavanca de lucro é escala de grupos ativos, que cresceu em todas as linhas em 2025.
+    - **Porto Consórcio** (administradora de consórcios): lucro **R$ 288 mm em 2025** — quase 2× o lucro da Portoseg. Receita R$ 1,15 bi, PL R$ 725 mm (ROE ~40%). Gerencia 869 grupos (492 autos + 44 pesados + 333 imóveis), 492 mil consorciados, R$ 12,87 bi em ativos dos grupos (R$ 5 bi em caixa dos consorciados). Negócio dominantemente fee — taxa de administração sobre o crédito vendido representa ~92% da receita gerencial Bank-Consórcio (R$ 1.269 mm em 2025); os ~8% restantes (R$ 105 mm de "Receita Financeira Líquida") são **juros de mora sobre parcelas em atraso (R$ 59 mm) + TVM próprio + atualização de depósitos judiciais, líquidos do funding da própria administradora** — **não é spread sobre os R$ 5 bi de caixa dos grupos**, que é fiduciário pela Resolução BCB 352/23 e cujo rendimento (R$ 435 mm em 2025) é apropriado pelos próprios consorciados.
 
     A composição Bank fica então: Portoseg deteriorando + Consórcio estável/crescendo. A tabela gerencial consolidada Bank (R$ 841 mm lucro, ROAE 28%) **esconde a divergência entre as duas linhas** — Consórcio sustenta quando o resultado de Portoseg cai. Olhar vertical sem decompor dá falsa sensação de estabilidade.
 
@@ -324,6 +324,8 @@ Banco digital subsidiário com foco no ecossistema Porto. Detalhamento da vertic
 **Produtos principais:**
 
 *Consórcio:* carteira administrada R$ 107,3 bi (+36% em 2025). Market share 12,6% em imóveis, 4,2% em auto (cresceu +32% vs mercado +19% em 11M25). Comissionamento 3%–3,5% sobre crédito vendido. Mix dominado por imobiliário (ticket ~R$ 200k vs ~R$ 50–70k em auto). Em maio/2025 migrou para diferimento por cota (novo sistema) — efeito retroativo reduz receita em R$ 276 mm no 4T25 com efeito positivo simétrico em comissão (líquido ~zero). (fonte: digested/porto_release_4T25_summary.md, digested/porto_previa_operacional_1T26_summary.md, digested/notion_porto_seguro_porto_bank_lou_o_bbi_pos_3t25_2a900ca3_summary.md)
+
+**Decomposição da receita Bank-Consórcio gerencial 2025 — fee vs. financeiro:** R$ 1.374 mm = R$ 1.269 mm Fee-Based (92%) + R$ 105,5 mm Receita Financeira Líquida (8%). O componente financeiro **NÃO é spread sobre os R$ 5 bi de caixa dos grupos** — esse caixa é fiduciário, off-balance pela Resolução BCB 352/23 e DRE Consolidada dos Recursos de Consórcio, e seu rendimento (R$ 435 mm em 2025) é apropriado pelos próprios consorciados. Os R$ 105 mm gerenciais reúnem majoritariamente: (i) juros sobre parcelas em atraso de consorciados R$ 59 mm; (ii) TVM próprio da administradora R$ 11,7 mm; (iii) atualização monetária de depósitos judiciais R$ 12,7 mm; (iv) outros itens com natureza financeira embutida — líquidos do custo de funding próprio da administradora (R$ 45,6 mm; capta ~R$ 204 mm em LFs/CDBs no balanço individual). O salto +148,7% YoY (de R$ 42,4 mm em 2024 para R$ 105,5 mm em 2025) é parcialmente reclassificação contábil ligada à adequação à Resolução BCB 4.966/352 e à evolução do método de diferimento, com efeitos retroativos — não é growth orgânico do componente financeiro. (fonte: full/porto/4T25/release.md p. 22; full/porto_seguro/2025/subsidiarias/porto_consorcio.md §DRE, §NE 16, §NE 20, §NE 21)
 
 *Car equity (Carecut):* carteira R$ 650 mm (era R$ 400 mm no 1T24); +72% em 2025. 70%+ originado via app; LTV máximo de 70%; 100% em carros segurados pela Porto (seguro funciona como filtro de qualidade do tomador). Substituto estratégico ao financiamento de veículos — maior ROE, menor custo de risco. Produto com ~1–2 anos de histórico, ainda sem ciclo completo de crédito em cenário de alta de juros. (fonte: digested/notion_porto_seguro_porto_bank_lou_o_14_05_2025_eb900ca3_summary.md, digested/notion_nubank_perguntas_porto_seguro_porto_bank_26100ca3_summary.md)
 

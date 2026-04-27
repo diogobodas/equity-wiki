@@ -1035,3 +1035,5 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
   Notas: 4T (release 4T24 e 4T25) deve ser ingerido como release próprio mesmo que a DFP do ano cubra os mesmos números — release vem antes da DFP e tem material gerencial. Próximo resultado WEG sai na semana de 28/abr–02/mai/2026 (1T26) — após esse cold start, ingest 1T26 incremental fica trivial.
 
 [tese-new] 2026-04-27 cury — created cury_tese.md (verdict: neutro a R$ 30,25); 3 pilares de Lente, sem seção legada para migrar
+
+[edit] 2026-04-27 | porto_seguro.md | refinamento §Bank-Consórcio: decomposição da Receita gerencial 2025 em Fee-Based 92% + Receita Financeira Líquida 8% (R$ 105,5 mm); natureza dos R$ 105 mm via NE 20/21 da DF (juros mora R$ 59 mm + TVM próprio R$ 12 mm + atualização judiciais R$ 13 mm − funding R$ 46 mm); explicita que NÃO é spread sobre R$ 5 bi caixa dos grupos (fiduciário Res BCB 352/23, rendimento R$ 435 mm vai pros consorciados); flag de salto +149% YoY como parcialmente reclassificação por Res 4.966/352
