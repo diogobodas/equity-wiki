@@ -207,6 +207,121 @@ First ingest of a new empresa creates the manifest from scratch.
 | comparison | Side-by-side analysis of 2+ entities/concepts | `itau_vs_bradesco.md` |
 | synthesis | Cross-cutting analysis or thesis | `tese_selic_alta.md` |
 | nota | Promoted nota explicativa (see `promote_nota`) | `itau_nota_instrumentos_financeiros.md` |
+| tese | Investment thesis com Lente estável + Checkpoints datados price-aware (uma por empresa investível) | `cury_tese.md`, `bradesco_tese.md` |
+
+## Tese pages
+
+Uma página de tese (`type: tese`) carrega a **opinião datada** sobre uma empresa investível, separada da entity page (que carrega o **fato**: modelo, números, eventos). Estrutura: Lente estável + Stream de Checkpoints datados price-aware, mais recente no topo.
+
+**Quando criar:** uma `_tese.md` é criada quando o analista forma uma opinião sobre a empresa pela primeira vez. Empresas sem opinião não têm `_tese.md`. Empresas privadas (sem preço público) não recebem `_tese.md` — checkpoint price-aware não cabe.
+
+### Naming
+
+`{empresa}_tese.md` no root do wiki (Obsidian-friendly). Lowercase, snake_case. Slug `{empresa}` igual ao do entity page. Exemplos: `cury_tese.md`, `porto_seguro_tese.md`.
+
+### Frontmatter (mandatory)
+
+```yaml
+---
+type: tese
+empresa: cury                       # slug igual ao do entity page
+ticker: CURY3                       # ticker B3 ou bolsa estrangeira
+fact_base: cury.md                  # caminho relativo para entity page
+verdict_atual: neutro               # compra | neutro | venda
+verdict_em: 2026-04-27              # data ISO do checkpoint vigente
+preco_em: 30.20                     # preço ajustado em R$ (ou USD para ticker estrangeiro)
+checkpoints:                        # array, mais recente primeiro
+  - {data: 2026-04-27, verdict: neutro, preco: 30.20}
+  - {data: 2026-01-10, verdict: compra, preco: 25.00}
+created: 2026-01-10
+updated: 2026-04-27
+---
+```
+
+**Regras de invariantes (validar a cada `/tese checkpoint`):**
+- `verdict_atual` ∈ `{compra, neutro, venda}` — lowercase, exato (necessário para extração via `/tese --carteira`).
+- `verdict_atual` == `checkpoints[0].verdict`.
+- `verdict_em` == `checkpoints[0].data`.
+- `preco_em` == `checkpoints[0].preco`.
+
+### Body structure
+
+```markdown
+# Tese — {Empresa} ({TICKER})
+
+> **Fact base:** [[{empresa}]] · **Verdict atual:** **{verdict}** (em {data} a R$ {preco})
+>
+> *Esta página carrega a opinião datada. Tudo que é fato (modelo, números, eventos) vive em [[{empresa}]].*
+
+## Lente
+
+3-5 bullets sobre como o analista fundamentalmente entende a empresa.
+Estável; muda raramente. Cada bullet com citação para `full/` / `structured/` / `digested/`.
+
+- Pilar 1 ... (fonte: ...)
+- Pilar 2 ... (fonte: ...)
+
+**A tese se quebra se:**
+- Condição 1
+- Condição 2
+- Condição 3
+
+---
+
+## Checkpoints
+
+### YYYY-MM-DD — {Verdict capitalizado} a R$ {preço}
+
+Preço R$ X,XX · P/L LTM X,X× · {múltiplos relevantes do setor}
+
+{1-3 parágrafos: visão atual, lente intacta ou não, o que mudou, com (fonte: ...) a cada claim factual}
+
+vs. último ({data anterior}, {verdict anterior} a R$ X): {delta resumido}
+
+(fonte: ...)
+
+---
+
+### YYYY-MM-DD — ... (mais antigo)
+
+[...]
+
+---
+
+## Notas
+
+- Próximo trigger natural: ...
+- Watches leves: ...
+```
+
+### Convenção de link entity ↔ tese
+
+- **Entity page** (`{empresa}.md`) ganha um callout no topo, **logo após o parágrafo intro**:
+  ```markdown
+  > Tese: ver [[{empresa}_tese]] (verdict atual: {verdict} em {data}).
+  ```
+- **Tese page** (`{empresa}_tese.md`) tem callout fixo logo após H1 (ver "Body structure" acima).
+
+A linha do entity page é mantida em sincronia pelo skill `/tese` ao criar/atualizar checkpoints.
+
+### Cadência (norma editorial)
+
+Event-driven. Triggers:
+- ITR/DFP/release ingerido com surpresa (vs. expectativa do analista no checkpoint anterior).
+- Fato relevante material.
+- Mudança de preço >15% desde último checkpoint (em qualquer direção).
+- News exógena que afeta a tese (regulatória, M&A no setor, etc).
+- Releitura espontânea em que a visão do analista mudou.
+
+Sem cadência mínima. Páginas podem ficar paradas por 6-9 meses se nada material aconteceu.
+
+### Vocabulário do verdict
+
+`compra` / `neutro` / `venda` (lowercase, exato). Conviction e horizonte vão na prosa do checkpoint, sem campo separado.
+
+### Valuation
+
+Sem âncora estrutural (sem TP / IRR / cenários obrigatórios). P/L é o múltiplo default; o analista escolhe o que faz sentido por setor (P/VP para bancos, EV/EBITDA para industriais, etc). Múltiplos vão na linha de header do checkpoint; valuation prose vai no corpo livre.
 
 ## Frontmatter (mandatory)
 
@@ -508,3 +623,22 @@ Periodic health check:
     - (c) *Cross-page contradiction*: two pages with numerically conflicting claims on the same item, different `em:` dates. Severity `action`.
     - (d) *Missing `em:`*: claim contains a number plus a temporal verb (`vigente`, `a partir de`, `até`) but has no `em:`. Severity `hint`.
 11. Report in `log.md`.
+
+### Tese (novo / checkpoint)
+
+Manual, interativo via skill `/tese {empresa}`. **Não passa pela queue de `wiki_update.sh`** — o skill grava direto.
+
+Modos do skill:
+- `/tese {empresa}` — auto-detecta. Se `{empresa}_tese.md` não existe → modo `new` (entrevista de Lente + 1º checkpoint). Se existe → modo `checkpoint` (entrevista leve, prepend de checkpoint).
+- `/tese {empresa} --lens` — força modo `lens-update`. Reescreve a Lente + cria checkpoint marcando "Mudança de lente".
+- `/tese {empresa} --status` — read-only. Imprime cabeçalho da `_tese.md` (verdict atual, data, preço, # de checkpoints).
+- `/tese --carteira` — read-only. Lê todos `*_tese.md` no root, imprime tabela de teses ativas (verdict, data, preço por empresa).
+
+**Log entries:** cada operação que escreve append uma linha ao `log.md`:
+- `[tese-new]` — criação de nova `_tese.md` (e atualização da entity page, se houver remoção de seção legada).
+- `[tese-checkpoint]` — adição de checkpoint a `_tese.md` existente.
+- `[tese-lens]` — reescrita de Lente + checkpoint forçado.
+
+**Cadência:** event-driven (ver §Tese pages > Cadência). Sem disparo automático por cron/cadência.
+
+**Skill não invoca `claude --print`.** É interativa por design — o analista é entrevistado no terminal da sessão atual, com Claude propondo drafts de bullets e o analista confirmando/editando. Diferente do resto do pipeline.
