@@ -1033,3 +1033,5 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
   7. bash tools/ingest_calls.sh WEGE3  → 8 transcrições → full/digested
   8. bash tools/wiki_update.sh  → mescla digesteds novos com weg.md existente (já há 254 linhas baseadas em digesteds Notion — wiki update vai integrar com números trimestrais oficiais)
   Notas: 4T (release 4T24 e 4T25) deve ser ingerido como release próprio mesmo que a DFP do ano cubra os mesmos números — release vem antes da DFP e tem material gerencial. Próximo resultado WEG sai na semana de 28/abr–02/mai/2026 (1T26) — após esse cold start, ingest 1T26 incremental fica trivial.
+
+[tese-new] 2026-04-27 cury — created cury_tese.md (verdict: neutro a R$ 30,25); 3 pilares de Lente, sem seção legada para migrar

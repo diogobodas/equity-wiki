@@ -65,7 +65,7 @@ sources:
   - sources/digested/notion_cury_cury_jan_2026_2e000ca3_summary.md
   - sources/digested/notion_cury_cury_pos_previa_btg_1t26_33e00ca3_summary.md
 created: 2026-04-11
-updated: 2026-04-21
+updated: 2026-04-27
 ---
 
 # Cury
@@ -73,6 +73,8 @@ updated: 2026-04-21
 **Cury Construtora e Incorporadora S.A.** (B3: **CURY3**, Novo Mercado) — [[incorporadoras|incorporadora]] brasileira focada em habitação popular e média-baixa via [[mcmv|MCMV]], com atuação exclusiva em **São Paulo** e **Rio de Janeiro**. Fundada em 1963 e listada em 21/09/2020 (IPO primário de R$ 154 mm no Novo Mercado), a empresa se consolidou como o **player mais rentável do setor de incorporação brasileiro**: o **ROE LTM atingiu 78,8% em 4T25**, patamar sem precedente para uma incorporadora listada no Brasil — ou no mundo (fonte: full/cury/2025/dfp.md, full/cury/4T25/release.md).
 
 A Cury opera modelo *capital-light* via SPEs, concentra lançamentos no 1S, mantém [[banco_de_terrenos|banco de terrenos]] em expansão acelerada (R$ 24,6 bi em 4T25) e pratica payout elevado (~70-140% do lucro líquido da controladora). Em 2025, tornou-se membro do **Ibovespa**, atingiu a meta histórica **"40 com 20"** (40% de margem bruta e 20% de margem líquida simultaneamente) e executou **follow-on primário** de ~R$ 574 mm simultaneamente à distribuição de **R$ 1,35 bi em dividendos** — movimento que reciclou parte da base de equity (fonte: full/cury/2025/dfp.md §eventos, sources/digested/notion_cury_cury_call_4t25_32000ca3_summary.md).
+
+> Tese: ver [[cury_tese]] (verdict atual: neutro em 2026-04-27).
 
 ## Estrutura e modelo de negócio
 
