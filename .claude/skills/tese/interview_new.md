@@ -100,7 +100,11 @@ Pergunte uma coisa de cada vez:
 5. `Verdict: compra / neutro / venda?`
 6. `Em 1-3 parágrafos: por que esse verdict a esse preço, hoje? O que pesa mais? Não precisa enumerar tudo da Lente — só o que move a agulha agora.`
 
-Após o último, proponha o checkpoint completo (header + corpo + citações que você consiga extrair do contexto carregado), peça confirmação:
+Após o último, proponha o checkpoint completo. Para cada afirmação factual na prosa do analista, insira uma citação inline `(fonte: ...)` seguindo o formato de `SCHEMA.md §Source Citations`:
+- Qualitativo / contexto: `(fonte: full/{empresa}/{periodo}/{tipo}.md §{seção})`
+- Numérico: `(fonte: structured/{empresa}/{periodo}/{tipo}.json :: canonical.{path})`
+- Legacy / digest-only: `(fonte: digested/{name}_summary.md)`
+- Web: `(fonte: url, confiabilidade: oficial|editorial|community)`
 
 ```
 Draft do checkpoint inicial:
@@ -118,7 +122,14 @@ OK assim ou edita?
 
 ## Passo 7 — Escrita do `_tese.md`
 
-Quando o usuário confirmar, escreva `equity-wiki/{empresa}_tese.md` com este template (substituindo placeholders):
+Quando o usuário confirmar, **antes de escrever, normalize:**
+
+- **Verdict:** converta para lowercase exato (`compra`, `neutro`, `venda`). Se o analista digitou variantes (`Compra`, `comprar`, `BUY`, `buy`, `Vender`, etc), mapeie para o canônico antes de gravar. Variante reconhecida ≠ exata é OK; variante não reconhecida → pergunte ao analista qual dos 3 buckets se aplica.
+- **Preço:** se o analista digitou vírgula decimal (PT-BR: `30,20`), converta para ponto decimal antes de gravar (`30.20`). YAML trata `30,20` como string, não como número, e quebra a ordenação numérica em `/tese --carteira`.
+- **Ticker:** pegue o ticker do campo `aliases` em `equity-wiki/{empresa}.md` (primeiro item que case com padrão B3 `^[A-Z]{4}\d{1,2}$` ou US `^[A-Z]{1,5}$`). Se houver múltiplos, prefira o B3.
+- **Display Name:** use o título H1 de `{empresa}.md` (a primeira linha `# ...`); se não houver, use a primeira menção em negrito do empresa no parágrafo intro.
+
+Escreva `equity-wiki/{empresa}_tese.md` com este template (substituindo placeholders):
 
 ```markdown
 ---
@@ -159,7 +170,7 @@ updated: {hoje}
 
 ### {hoje} — {Verdict capitalizado} a R$ {preço}
 
-Preço R$ {X,XX} · P/L LTM {X,X}× · {outros múltiplos}
+Preço R$ {X,XX} · P/L LTM {X,X}× · P/VP {X,X}× · {outros múltiplos relevantes — omita campos que o analista deixou em branco}
 
 {prosa do checkpoint}
 
@@ -181,6 +192,8 @@ Edite `equity-wiki/{empresa}.md`:
    > Tese: ver [[{empresa}_tese]] (verdict atual: {verdict} em {hoje}).
    ```
 
+   **Fallback:** se a entity page não tem parágrafo intro (começa direto com `##`, com tabela, ou com YAML adicional), insira o callout imediatamente antes do primeiro `##`, com uma linha em branco antes e depois do callout.
+
 2. **Remover seção legada:** se você detectou no Passo 1 uma seção começando com heading que parece tese, remova as linhas dessa seção (do heading até a próxima linha `## ` ou `---` que delimita a próxima seção). **Pergunte confirmação** antes de remover, mostrando as primeiras 3 linhas removidas.
 
 3. **Bump `updated`** no frontmatter de `{empresa}.md` para `{hoje}`.
@@ -200,7 +213,7 @@ Imprima:
 ```
 Pronto. Criei:
 - equity-wiki/{empresa}_tese.md (tese page com Lente + 1 checkpoint)
-- Atualizei equity-wiki/{empresa}.md (callout + remoção da seção legada)
+- Atualizei equity-wiki/{empresa}.md (callout{, e remoção da seção legada — só inclua se foi removida})
 - Append em equity-wiki/log.md
 
 Próxima vez que rodar /tese {empresa} sem flag, vai cair em modo checkpoint.
