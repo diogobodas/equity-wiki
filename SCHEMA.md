@@ -219,7 +219,7 @@ Uma página de tese (`type: tese`) carrega a **opinião datada** sobre uma empre
 
 `{empresa}_tese.md` no root do wiki (Obsidian-friendly). Lowercase, snake_case. Slug `{empresa}` igual ao do entity page. Exemplos: `cury_tese.md`, `porto_seguro_tese.md`.
 
-### Frontmatter (mandatory)
+### Frontmatter da tese (mandatory)
 
 ```yaml
 ---
@@ -243,6 +243,8 @@ updated: 2026-04-27
 - `verdict_atual` == `checkpoints[0].verdict`.
 - `verdict_em` == `checkpoints[0].data`.
 - `preco_em` == `checkpoints[0].preco`.
+
+**Por que `sources:` está ausente:** `tese` é a única page type que omite o campo `sources:` do frontmatter. As citações em página de tese vivem **inline** — cada bullet de Lente e cada claim factual em checkpoint carrega seu próprio `(fonte: ...)`. Listar fontes no frontmatter duplicaria a informação sem agregar.
 
 ### Body structure
 
@@ -327,7 +329,7 @@ Sem âncora estrutural (sem TP / IRR / cenários obrigatórios). P/L é o múlti
 
 ```yaml
 ---
-type: entity | concept | sector | comparison | synthesis | nota
+type: entity | concept | sector | comparison | synthesis | nota | tese
 aliases: [Alternative Name, TICKER]            # optional
 sources: [full/itau/3T25/itr.md, ...]          # paths into sources/
 created: YYYY-MM-DD
