@@ -152,6 +152,27 @@ Scans every `*.md` at the wiki root for `(fonte: ...)` citations — both dated 
 
 **First-run expectations.** On an un-retrofitted wiki, expect `hint` count to be high (every legacy temporal-number claim without `em:` fires one hint — this IS the retrofit backlog). `action` count is dominated by contradiction-rule false positives until ~15 pages have `em:` markers; start triage with `--severity hint`, then `warn`, then `action` last. Manual edits to wiki pages bypass Path A (the reactive-at-ingest prompt logic) — if you update a dated claim by hand, remember to update `em:` to the source's publication date.
 
+### Tese (interactive — investment thesis pages)
+
+```bash
+/tese {empresa}              # auto-detecta modo (new se não existe, checkpoint se existe)
+/tese {empresa} --status     # mostra cabeçalho da _tese.md
+/tese --carteira             # lista todas as teses ativas (extraído de frontmatters)
+/tese {empresa} --lens       # força modo lens-update
+```
+
+Skill é **interativa** — Claude entrevista o analista no terminal da sessão atual.
+Vive em `.claude/skills/tese/`. Diferente do resto do pipeline, **não passa por `claude --print`**.
+
+Modos:
+- `new` — cria `{empresa}_tese.md` via entrevista de Lente (3-5 pilares + kill-switch) + 1º checkpoint datado.
+- `checkpoint` — entrevista leve sobre o que mudou; prepend de checkpoint, atualização de frontmatter.
+- `lens-update` — reescreve a Lente + força checkpoint marcando "Mudança de lente".
+
+Log entries: `[tese-new]` / `[tese-checkpoint]` / `[tese-lens]` em `log.md`.
+
+Ver `SCHEMA.md §Tese pages` para convenções de frontmatter, body e cadência.
+
 ### Watchlist
 
 ```bash
@@ -331,3 +352,4 @@ To inspect pending items: `python tools/lib/wiki_queue.py peek`.
 - **`log.md` is append-only and audit-only.** Every operation appends an entry. `[wiki-queue]` / `[wiki-done]` lines are historical audit markers — the live queue state lives in `sources/wiki_queue.json`. Do NOT write `[wiki-done]` manually to mark a page edit; use standard `[edit]` / `[update]` entry formats.
 - **One source at a time** during ingest so cross-linking stays coherent.
 - **Write-through backfill**: when a query reads `full/` for a structurable fact not in `structured/`, backfill it into `company_specific` before responding (see SCHEMA.md §Query step 6).
+- **Tese ≠ entity.** Investment thesis vive em `{empresa}_tese.md` (type: tese), com Lente estável + Checkpoints datados (frontmatter expõe `verdict_atual` + `verdict_em` para extração via `/tese --carteira`). Entity page (`{empresa}.md`) é fact base e não carrega opinião sobre preço/timing. Criar/atualizar via `/tese {empresa}` (interativo). Ver `SCHEMA.md §Tese pages`.
