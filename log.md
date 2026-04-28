@@ -1037,3 +1037,56 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 [tese-new] 2026-04-27 cury — created cury_tese.md (verdict: neutro a R$ 30,25); 3 pilares de Lente, sem seção legada para migrar
 
 [edit] 2026-04-27 | porto_seguro.md | refinamento §Bank-Consórcio: decomposição da Receita gerencial 2025 em Fee-Based 92% + Receita Financeira Líquida 8% (R$ 105,5 mm); natureza dos R$ 105 mm via NE 20/21 da DF (juros mora R$ 59 mm + TVM próprio R$ 12 mm + atualização judiciais R$ 13 mm − funding R$ 46 mm); explicita que NÃO é spread sobre R$ 5 bi caixa dos grupos (fiduciário Res BCB 352/23, rendimento R$ 435 mm vai pros consorciados); flag de salto +149% YoY como parcialmente reclassificação por Res 4.966/352
+[fetch-discover] 2026-04-27 | empresa=weg ticker=WEGE3 | sample=4T25 | profile categories: release_resultado_pt=include, demonstracoes_financeiras_pt=include, demonstracoes_financeiras_en=exclude, fato_relevante=include. Profile aplicado direto no manifest (read REPLY do interactive prompt timeoutou no run em background); discovery agent classificou ok via Sonnet.
+[fix] 2026-04-27 | tools/lib/file_extract.py | adicionado flag -q ao subprocess do opendataloader_pdf. Sem ela, no Windows o JAR escreve em stdout bytes cp1252 e o wrapper Python (que le com text=True UTF-8) falha com UnicodeDecodeError, retornando exit !=0 mesmo apos gerar o .md correto. Resultado: ingest fallback no pdfplumber (proibido pelo CLAUDE.md). Confirmado em wege3_4T25_call_transcript.pdf — pre-fix vinha pdfplumber 14p/61911 chars com layout quebrado; pos-fix vem opendataloader 48p/64530 chars com headings preservados.
+[ingest-resume] 2026-04-28 | empresa=weg ticker=WEGE3 | run anterior bateu rate-limit (org monthly usage limit) apos processar 11 de 22: ITRs 1T24-3T25, DFPs 2024+2025, releases 1T24/2T24/1T25. Pendentes: 5 releases (3T24,4T24,2T25,3T25,4T25), 2 DFs anuais (4T24,4T25 heavy_other), 4 fatos relevantes. Cleanup parcial: removidos 11 PDFs+extracted dos prontos do undigested/; manifesto NAO foi atualizado pelo run anterior (step 4 nao chegou a rodar); sera reconstruido com manifest_rebuild apos completar.
+[fix] 2026-04-28 | tools/ingest.sh | SCHEMA_PATH agora le do manifest (campo setor_schema). Antes era hardcoded sources/structured/_schemas/incorporadora.json — todos os 8 ingests heavy do WEG no run anterior reportaram schema mismatch e tiveram que corrigir manualmente para industrial.json. Fallback para incorporadora.json se manifest nao declarar setor_schema.
+2026-04-28 — ingest release 2T25: sources/full/weg/2T25/release.md, sources/structured/weg/2T25/release.json, sources/digested/weg_release_2T25_summary.md
+2026-04-28 — ingest release 3T24: sources/full/weg/3T24/release.md, sources/structured/weg/3T24/release.json, sources/digested/weg_release_3T24_summary.md
+2026-04-28 — ingest release 3T25: sources/full/weg/3T25/release.md, sources/structured/weg/3T25/release.json, sources/digested/weg_release_3T25_summary.md
+2026-04-28 — ingest release 4T24: sources/full/weg/4T24/release.md, sources/structured/weg/4T24/release.json, sources/digested/weg_release_4T24_summary.md
+2026-04-28 — ingest release 4T25: sources/full/weg/4T25/release.md, sources/structured/weg/4T25/release.json, sources/digested/weg_release_4T25_summary.md
+2026-04-28 — ingest fato_relevante 1T25: sources/full/weg/1T25/fato_relevante_863996.md, sources/digested/weg_fatos_relevantes_batch_summary.md
+2026-04-28 — ingest fato_relevante 3T25: sources/full/weg/3T25/fato_relevante_952369.md, sources/digested/weg_fatos_relevantes_batch_summary.md
+2026-04-28 — ingest fato_relevante 4T25: sources/full/weg/4T25/fato_relevante_975725.md, sources/digested/weg_fatos_relevantes_batch_summary.md
+2026-04-28 — ingest fato_relevante 4T25: sources/full/weg/4T25/fato_relevante_975729.md, sources/digested/weg_fatos_relevantes_batch_summary.md
+2026-04-28 — ingest release unknown: sources/full/weg/other/WEGE3_4T24_dfs.md, sources/digested/weg_other_WEGE3_4T24_dfs_summary.md
+2026-04-28 — ingest release unknown: sources/full/weg/other/WEGE3_4T25_dfs.md, sources/digested/weg_other_WEGE3_4T25_dfs_summary.md
+[fix] 2026-04-28 | tools/ingest.sh | substituido 'rev | cut | rev' por bash parameter expansion (period=${suffix##*_}, tipo=${suffix%_*}) na linha 659. Causa: 'rev' command nao existe no git-bash do Windows (gotcha conhecido em memory). Sintoma: ingest #2 do WEG processou todos 11 itens, manifest_update rodou, mas step 6 (wiki queue) e step 7 (cleanup) abortaram com 'rev: command not found'. Resultado pre-fix: 11 PDFs+extracted ainda em undigested/ + wiki_queue nao populada.
+2026-04-28 — ingest call_transcript 1T24: sources/full/weg/1T24/call_transcript.md, sources/digested/weg_call_transcript_1T24_summary.md
+[wiki-queue] 2026-04-28 | weg | call_transcript | 1T24 | sources/digested/weg_call_transcript_1T24_summary.md
+2026-04-28 — ingest call_transcript 1T25: sources/full/weg/1T25/call_transcript.md, sources/digested/weg_call_transcript_1T25_summary.md
+[wiki-queue] 2026-04-28 | weg | call_transcript | 1T25 | sources/digested/weg_call_transcript_1T25_summary.md
+2026-04-28 — ingest call_transcript 2T24: sources/full/weg/2T24/call_transcript.md, sources/digested/weg_call_transcript_2T24_summary.md
+[wiki-queue] 2026-04-28 | weg | call_transcript | 2T24 | sources/digested/weg_call_transcript_2T24_summary.md
+2026-04-28 — ingest call_transcript 2T25: sources/full/weg/2T25/call_transcript.md, sources/digested/weg_call_transcript_2T25_summary.md
+[wiki-queue] 2026-04-28 | weg | call_transcript | 2T25 | sources/digested/weg_call_transcript_2T25_summary.md
+2026-04-28 — ingest call_transcript 3T24: sources/full/weg/3T24/call_transcript.md, sources/digested/weg_call_transcript_3T24_summary.md
+[wiki-queue] 2026-04-28 | weg | call_transcript | 3T24 | sources/digested/weg_call_transcript_3T24_summary.md
+2026-04-28 — ingest call_transcript 3T25: sources/full/weg/3T25/call_transcript.md, sources/digested/weg_call_transcript_3T25_summary.md
+[wiki-queue] 2026-04-28 | weg | call_transcript | 3T25 | sources/digested/weg_call_transcript_3T25_summary.md
+2026-04-28 — ingest call_transcript 4T24: sources/full/weg/4T24/call_transcript.md, sources/digested/weg_call_transcript_4T24_summary.md
+[wiki-queue] 2026-04-28 | weg | call_transcript | 4T24 | sources/digested/weg_call_transcript_4T24_summary.md
+2026-04-28 — ingest call_transcript 4T25: sources/full/weg/4T25/call_transcript.md, sources/digested/weg_call_transcript_4T25_summary.md
+[wiki-queue] 2026-04-28 | weg | call_transcript | 4T25 | sources/digested/weg_call_transcript_4T25_summary.md
+[wiki-queue] 2026-04-28 | weg | itr | 1T24 | sources/digested/weg_itr_1T24_summary.md
+[wiki-queue] 2026-04-28 | weg | itr | 2T24 | sources/digested/weg_itr_2T24_summary.md
+[wiki-queue] 2026-04-28 | weg | itr | 3T24 | sources/digested/weg_itr_3T24_summary.md
+[wiki-queue] 2026-04-28 | weg | itr | 1T25 | sources/digested/weg_itr_1T25_summary.md
+[wiki-queue] 2026-04-28 | weg | itr | 2T25 | sources/digested/weg_itr_2T25_summary.md
+[wiki-queue] 2026-04-28 | weg | itr | 3T25 | sources/digested/weg_itr_3T25_summary.md
+[wiki-queue] 2026-04-28 | weg | dfp | 2024 | sources/digested/weg_dfp_2024_summary.md
+[wiki-queue] 2026-04-28 | weg | dfp | 2025 | sources/digested/weg_dfp_2025_summary.md
+[wiki-queue] 2026-04-28 | weg | release | 1T24 | sources/digested/weg_release_1T24_summary.md
+[wiki-queue] 2026-04-28 | weg | release | 2T24 | sources/digested/weg_release_2T24_summary.md
+[wiki-queue] 2026-04-28 | weg | release | 3T24 | sources/digested/weg_release_3T24_summary.md
+[wiki-queue] 2026-04-28 | weg | release | 4T24 | sources/digested/weg_release_4T24_summary.md
+[wiki-queue] 2026-04-28 | weg | release | 1T25 | sources/digested/weg_release_1T25_summary.md
+[wiki-queue] 2026-04-28 | weg | release | 2T25 | sources/digested/weg_release_2T25_summary.md
+[wiki-queue] 2026-04-28 | weg | release | 3T25 | sources/digested/weg_release_3T25_summary.md
+[wiki-queue] 2026-04-28 | weg | release | 4T25 | sources/digested/weg_release_4T25_summary.md
+[wiki-queue] 2026-04-28 | weg | dfs | 2024 | sources/digested/weg_dfs_2024_summary.md
+[wiki-queue] 2026-04-28 | weg | dfs | 2025 | sources/digested/weg_dfs_2025_summary.md
+[wiki-queue] 2026-04-28 | weg | fato_relevante | batch | sources/digested/weg_fatos_relevantes_batch_summary.md
+[wiki-done] 2026-04-28 | weg.md | update | digesteds: weg_dfp_2024/2025, weg_dfs_2024/2025, weg_fatos_relevantes_batch, weg_itr_1T24-3T25, weg_release_1T24-4T25, weg_call_transcript_1T24-4T25 | added quarterly financial tables, segment tables, Distribuicao ao Acionista section, 2025 M&A, updated capex/guidance/posicionamento
+[wiki-done] 2026-04-28 | batch_20260428_084518

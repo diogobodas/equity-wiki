@@ -1,6 +1,6 @@
 {
   "_schema": "manifest/v1",
-  "_updated": "2026-04-25",
+  "_updated": "2026-04-28",
   "empresa": "weg",
   "display_name": "WEG S.A.",
   "aliases": [
@@ -14,15 +14,372 @@
   "setor": "industrial",
   "setor_schema": "sources/structured/_schemas/industrial.json",
   "wiki_page": "weg.md",
-  "sources": [],
-  "coverage": {},
+  "sources": [
+    {
+      "type": "call_transcript",
+      "asof": "1T24",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/1T24/call_transcript.md",
+      "digested": "sources/digested/weg_call_transcript_1T24_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "1T24",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/1T24/itr.md",
+      "structured": [
+        "sources/structured/weg/1T24/itr.json"
+      ],
+      "digested": "sources/digested/weg_itr_1T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "1T24",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/1T24/release.md",
+      "structured": [
+        "sources/structured/weg/1T24/release.json"
+      ],
+      "digested": "sources/digested/weg_release_1T24_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "1T25",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/1T25/call_transcript.md",
+      "digested": "sources/digested/weg_call_transcript_1T25_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T25",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/1T25/fato_relevante_863996.md",
+      "digested": "sources/digested/weg_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "1T25",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/1T25/itr.md",
+      "structured": [
+        "sources/structured/weg/1T25/itr.json"
+      ],
+      "digested": "sources/digested/weg_itr_1T25_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "1T25",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/1T25/release.md",
+      "structured": [
+        "sources/structured/weg/1T25/release.json"
+      ],
+      "digested": "sources/digested/weg_release_1T25_summary.md"
+    },
+    {
+      "type": "dfp",
+      "asof": "2024",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/2024/dfp.md",
+      "structured": [
+        "sources/structured/weg/2024/dfp.json"
+      ],
+      "digested": "sources/digested/weg_dfp_2024_summary.md"
+    },
+    {
+      "type": "dfp",
+      "asof": "2025",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/2025/dfp.md",
+      "structured": [
+        "sources/structured/weg/2025/dfp.json"
+      ],
+      "digested": "sources/digested/weg_dfp_2025_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "2T24",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/2T24/call_transcript.md",
+      "digested": "sources/digested/weg_call_transcript_2T24_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "2T24",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/2T24/itr.md",
+      "structured": [
+        "sources/structured/weg/2T24/itr.json"
+      ],
+      "digested": "sources/digested/weg_itr_2T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "2T24",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/2T24/release.md",
+      "structured": [
+        "sources/structured/weg/2T24/release.json"
+      ],
+      "digested": "sources/digested/weg_release_2T24_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "2T25",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/2T25/call_transcript.md",
+      "digested": "sources/digested/weg_call_transcript_2T25_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "2T25",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/2T25/itr.md",
+      "structured": [
+        "sources/structured/weg/2T25/itr.json"
+      ],
+      "digested": "sources/digested/weg_itr_2T25_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "2T25",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/2T25/release.md",
+      "structured": [
+        "sources/structured/weg/2T25/release.json"
+      ],
+      "digested": "sources/digested/weg_release_2T25_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "3T24",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/3T24/call_transcript.md",
+      "digested": "sources/digested/weg_call_transcript_3T24_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "3T24",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/3T24/itr.md",
+      "structured": [
+        "sources/structured/weg/3T24/itr.json"
+      ],
+      "digested": "sources/digested/weg_itr_3T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "3T24",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/3T24/release.md",
+      "structured": [
+        "sources/structured/weg/3T24/release.json"
+      ],
+      "digested": "sources/digested/weg_release_3T24_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "3T25",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/3T25/call_transcript.md",
+      "digested": "sources/digested/weg_call_transcript_3T25_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "3T25",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/3T25/fato_relevante_952369.md",
+      "digested": "sources/digested/weg_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "3T25",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/3T25/itr.md",
+      "structured": [
+        "sources/structured/weg/3T25/itr.json"
+      ],
+      "digested": "sources/digested/weg_itr_3T25_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "3T25",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/3T25/release.md",
+      "structured": [
+        "sources/structured/weg/3T25/release.json"
+      ],
+      "digested": "sources/digested/weg_release_3T25_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "4T24",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/4T24/call_transcript.md",
+      "digested": "sources/digested/weg_call_transcript_4T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "4T24",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/4T24/release.md",
+      "structured": [
+        "sources/structured/weg/4T24/release.json"
+      ],
+      "digested": "sources/digested/weg_release_4T24_summary.md"
+    },
+    {
+      "type": "WEGE3_4T24_dfs",
+      "asof": "4T24",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/4T24/WEGE3_4T24_dfs.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "4T25",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/4T25/call_transcript.md",
+      "digested": "sources/digested/weg_call_transcript_4T25_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T25",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/4T25/fato_relevante_975725.md",
+      "digested": "sources/digested/weg_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T25",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/4T25/fato_relevante_975729.md",
+      "digested": "sources/digested/weg_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "4T25",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/4T25/release.md",
+      "structured": [
+        "sources/structured/weg/4T25/release.json"
+      ],
+      "digested": "sources/digested/weg_release_4T25_summary.md"
+    },
+    {
+      "type": "WEGE3_4T25_dfs",
+      "asof": "4T25",
+      "ingested_on": "2026-04-28",
+      "full": "sources/full/weg/4T25/WEGE3_4T25_dfs.md"
+    }
+  ],
+  "coverage": {
+    "1T24": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/weg/1T24/itr.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/weg/1T24/itr.json"
+      }
+    },
+    "1T25": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/weg/1T25/itr.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/weg/1T25/itr.json"
+      }
+    },
+    "2024": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/weg/2024/dfp.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/weg/2024/dfp.json"
+      }
+    },
+    "2025": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/weg/2025/dfp.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/weg/2025/dfp.json"
+      }
+    },
+    "2T24": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/weg/2T24/itr.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/weg/2T24/itr.json"
+      }
+    },
+    "2T25": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/weg/2T25/itr.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/weg/2T25/itr.json"
+      }
+    },
+    "3T24": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/weg/3T24/itr.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/weg/3T24/itr.json"
+      }
+    },
+    "3T25": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/weg/3T25/release.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/weg/3T25/release.json"
+      }
+    },
+    "4T24": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/weg/4T24/release.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/weg/4T24/release.json"
+      }
+    },
+    "4T25": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/weg/4T25/release.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/weg/4T25/release.json"
+      }
+    }
+  },
   "precedence": [],
   "caveats": [
-    "Cold start em 2026-04-25 — manifesto criado antes do primeiro ingest CVM. Sources/coverage serão populados pela primeira execução de tools/ingest.sh WEGE3.",
-    "Setor industrial: schema canônico v1 criado junto com este manifest (sources/structured/_schemas/industrial.json) — inicialmente baseado em conhecimento qualitativo dos digesteds Notion existentes; será refinado quando o primeiro ITR/release for ingerido.",
     "Estrutura de segmentos reportada por WEG: EEI (Equipamentos Elétricos Industriais — ciclo curto, ~80% do negócio: motores, automação, drives, WEG Home) e GTD (Geração, Transmissão e Distribuição — ciclo longo: transformadores, alternadores, geradores eólicos, BESS, compensadores síncronos). Cada segmento se desdobra em Brasil vs Externo.",
     "Aquisições estruturais relevantes no período coberto: Regal Rexnord (mai/2024 — alternadores Marathon, integração 3-5 anos) e Sanalec (Índia, dez/2025 — reguladores de tensão e excitação para plataforma eólica 4,2 MW).",
-    "youtube_channel ainda não verificado neste sandbox (proxy bloqueia YouTube) — confirmar handle correto em fetch_calls.sh --discover na máquina local."
+    "youtube_channel ainda não verificado neste sandbox (proxy bloqueia YouTube) — confirmar handle correto em fetch_calls.sh --discover na máquina local.",
+    "Primeiro ingest CVM completo em 2026-04-28 (1T24 a 4T25): 6 ITR + 2 DFP + 8 releases trimestrais + 2 DFs anuais (PT IPE) + 4 fatos relevantes + 8 transcricoes oficiais teleconferencia (site ri.weg.net, captions: official_transcript). Schema industrial/v1 validado nos 27 digesteds."
   ],
   "related_digests": [
     "sources/digested/notion_weg_4t25_call_31300ca3_summary.md",
@@ -41,5 +398,40 @@
     "sources/digested/notion_fw_convite_j_safra_15h_videoconfer_ncia_com_weg_andr_menegueti_salgueiro_diretor_de_finan_as_e_ri_e_felipe_scopel_hoffmann_gerente_de_ri_tuesday_may_7_2024_88700ca3_summary.md",
     "sources/digested/notion_bess_weg_citi_3t25_cbre_2ae00ca3_summary.md",
     "sources/digested/notion_d_vidas_weg_reuni_o_11_10_93900ca3_summary.md"
-  ]
+  ],
+  "fetch_profile": {
+    "_created": "2026-04-27",
+    "_sample_period": "4T25",
+    "categories": {
+      "release_resultado_pt": {
+        "action": "include",
+        "description": "Earnings release trimestral em portugues (ROL, EBITDA, ROIC)",
+        "sample_files": [
+          "WEGE3_4T25_release_1006239.pdf"
+        ]
+      },
+      "demonstracoes_financeiras_pt": {
+        "action": "include",
+        "description": "Demonstracoes financeiras auditadas completas em portugues",
+        "sample_files": [
+          "WEGE3_4T25_release_1006238.pdf"
+        ]
+      },
+      "demonstracoes_financeiras_en": {
+        "action": "exclude",
+        "description": "Financial statements em ingles (duplicata das DFs em PT)",
+        "sample_files": [
+          "WEGE3_4T25_release_1013568.pdf"
+        ]
+      },
+      "fato_relevante": {
+        "action": "include",
+        "description": "Fatos relevantes: dividendos, JCP, acoes corporativas",
+        "sample_files": [
+          "WEGE3_4T25_fato_relevante_975725.pdf",
+          "WEGE3_4T25_fato_relevante_975729.pdf"
+        ]
+      }
+    }
+  }
 }

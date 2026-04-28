@@ -1,0 +1,301 @@
+{
+  "_schema": "industrial/v1",
+  "_schema_path": "sources/structured/_schemas/industrial.json",
+  "_empresa": "weg",
+  "_periodo": "1T25",
+  "_source": "sources/full/weg/1T25/release.md",
+  "_schema_override_note": "Orchestrator passou incorporadora.json, mas weg.json declara setor=industrial e setor_schema=sources/structured/_schemas/industrial.json. Schema correto aplicado.",
+  "canonical": {
+    "dre": {
+      "receita_liquida": 10078.6,
+      "receita_bruta": null,
+      "deducoes_receita": null,
+      "custo_produtos_servicos": -6762.6,
+      "lucro_bruto": 3316.0,
+      "margem_bruta_pct": 32.9,
+      "despesas_operacionais": -1372.6,
+      "despesas_com_vendas": -840.2,
+      "despesas_administrativas": -367.3,
+      "despesas_pesquisa_desenvolvimento": null,
+      "outras_receitas_despesas_op": -164.7,
+      "ebitda": 2173.0,
+      "margem_ebitda_pct": 21.6,
+      "depreciacao_amortizacao": 229.6,
+      "ebit": 1943.4,
+      "lucro_operacional": 1943.4,
+      "margem_operacional_pct": 19.3,
+      "equivalencia_patrimonial": -0.5,
+      "receita_financeira": 477.2,
+      "despesa_financeira": -437.1,
+      "resultado_financeiro_liquido": 40.1,
+      "variacao_cambial_liquida": null,
+      "lucro_antes_ir": 1983.5,
+      "ir_csll": -323.4,
+      "impostos_diferidos": -22.9,
+      "aliquota_efetiva_pct": 17.5,
+      "lucro_apos_ir": 1637.2,
+      "participacao_minoritarios": -91.1,
+      "lucro_liquido": 1546.0,
+      "margem_liquida_pct": 15.3,
+      "lpa": 0.36848,
+      "lpa_diluido": null
+    },
+    "bp": {
+      "ativo_circulante": 25120.5,
+      "caixa_e_equivalentes": 5657.7,
+      "aplicacoes_financeiras_c": null,
+      "contas_a_receber_c": 7227.4,
+      "estoques": 10220.7,
+      "tributos_a_recuperar_c": null,
+      "outros_ativos_c": 2014.7,
+      "ativo_nao_circulante": 14203.0,
+      "realizavel_lp": 1389.6,
+      "aplicacoes_financeiras_nc": 16.4,
+      "contas_a_receber_nc": null,
+      "tributos_a_recuperar_nc": null,
+      "imposto_renda_diferido_ativo": 1052.5,
+      "investimentos": 68.2,
+      "imobilizado": 9964.5,
+      "intangivel": 2780.7,
+      "direito_de_uso_arrendamento": 831.7,
+      "ativo_total": 39323.5,
+      "passivo_circulante": 14715.7,
+      "fornecedores_c": 3367.5,
+      "emprestimos_financiamentos_c": 2986.5,
+      "debentures_c": null,
+      "arrendamentos_c": 103.0,
+      "obrigacoes_sociais_trabalhistas": 891.9,
+      "obrigacoes_tributarias_c": 846.9,
+      "dividendos_jcp_a_pagar": 314.9,
+      "adiantamentos_clientes_c": 3828.5,
+      "outros_passivos_c": 2376.4,
+      "passivo_nao_circulante": 2379.1,
+      "emprestimos_financiamentos_nc": 248.8,
+      "debentures_nc": null,
+      "arrendamentos_nc": 660.0,
+      "obrigacoes_tributarias_nc": null,
+      "imposto_renda_diferido_passivo": 163.9,
+      "provisao_contingencias": 782.3,
+      "outros_passivos_nc": 524.0,
+      "patrimonio_liquido": 21281.6,
+      "capital_social": null,
+      "reservas_capital": null,
+      "reservas_lucro": null,
+      "ajustes_avaliacao_patrimonial": null,
+      "lucros_acumulados": null,
+      "acoes_em_tesouraria": null,
+      "patrimonio_liquido_controladores": 21281.6,
+      "participacao_nao_controladores": 947.2,
+      "patrimonio_liquido_total": 22228.8,
+      "passivo_pl_total": 39323.5
+    },
+    "fc": {
+      "fc_operacional_antes_capital_giro": 2707.8,
+      "variacao_capital_giro": -2167.3,
+      "fc_operacional": 540.5,
+      "fc_operacional_apos_juros_ir": 540.5,
+      "capex": -621.2,
+      "aquisicoes_combinacao_negocios": -82.0,
+      "investimentos_aplicacoes_financeiras": -0.2,
+      "fc_investimento": -701.8,
+      "fcl": -80.7,
+      "captacoes_emprestimos": 776.3,
+      "amortizacoes_emprestimos": -975.0,
+      "dividendos_jcp_pagos": -1808.5,
+      "recompra_acoes": 4.2,
+      "fc_financiamento": -2003.0,
+      "variacao_cambial_caixa": -194.1,
+      "variacao_caixa_liquida": -2358.4,
+      "caixa_inicial": 7347.6,
+      "caixa_final": 4989.2
+    },
+    "segmentos": {
+      "eei": {
+        "_label": "Equipamentos Eletroeletrônicos Industriais",
+        "receita_liquida": 4448.6,
+        "receita_brasil": 1369.4,
+        "receita_externo": 3079.2,
+        "ebitda": null,
+        "margem_ebitda_pct": null,
+        "lucro_operacional": null,
+        "margem_operacional_pct": null
+      },
+      "gtd": {
+        "_label": "Geração, Transmissão e Distribuição de Energia",
+        "receita_liquida": 4436.2,
+        "receita_brasil": 2388.5,
+        "receita_externo": 2047.6,
+        "ebitda": null,
+        "margem_ebitda_pct": null,
+        "lucro_operacional": null,
+        "margem_operacional_pct": null
+      },
+      "tintas_vernizes": {
+        "_label": "Tintas e Vernizes (T&V)",
+        "receita_liquida": 381.9,
+        "ebitda": null,
+        "margem_ebitda_pct": null
+      },
+      "outros": {
+        "_label": "Motores Comerciais e Appliance (MCA)",
+        "receita_liquida": 811.9,
+        "ebitda": null
+      }
+    },
+    "kpis_industriais": {
+      "capex_total": 621.2,
+      "capex_receita_pct": 6.2,
+      "ebitda_ajustado": 2173.0,
+      "margem_ebitda_ajustada_pct": 21.6,
+      "divida_bruta": 3235.3,
+      "caixa_aplicacoes": 5689.3,
+      "divida_liquida": -2454.0,
+      "divida_liquida_ebitda": null,
+      "roic_pct": 33.2,
+      "roe_pct": null,
+      "working_capital": null,
+      "working_capital_receita_pct": null,
+      "ciclo_de_caixa_dias": null,
+      "dso_dias": null,
+      "dpo_dias": null,
+      "dio_dias": null,
+      "headcount": null,
+      "receita_brasil_pct": 44.0,
+      "receita_externo_pct": 56.0,
+      "carteira_pedidos_backlog": null,
+      "lucro_liquido_ltm": null,
+      "fcl_ltm": null,
+      "dividendos_jcp_lpa": null
+    }
+  },
+  "company_specific": {
+    "share_segmento_pct": {
+      "eei": 44.1,
+      "gtd": 44.0,
+      "mca": 8.1,
+      "tintas_vernizes": 3.8
+    },
+    "mca_detalhe": {
+      "_label": "Motores Comerciais e Appliance — exposto separadamente no release; agregado em segmentos.outros para conformidade com schema canônico",
+      "receita_liquida": 811.9,
+      "receita_brasil": 357.0,
+      "receita_externo": 454.9
+    },
+    "receita_externo_geografia_usd_mil": {
+      "total": 966406,
+      "america_norte": 494488,
+      "america_sul_central": 74607,
+      "europa": 235232,
+      "africa": 49748,
+      "asia_pacifico": 112331
+    },
+    "receita_externo_usd_mm": 966.4,
+    "receita_externo_share_geografia_pct": {
+      "america_norte": 51.2,
+      "america_sul_central": 7.7,
+      "europa": 24.3,
+      "africa": 5.2,
+      "asia_pacifico": 11.6
+    },
+    "cambio_medio_brl_usd": {
+      "1T25": 5.85,
+      "1T24": 4.95,
+      "valorizacao_pct": 18.2
+    },
+    "crescimento_organico_yoy_pct": 16.3,
+    "crescimento_externo_local_currency_yoy_pct": 3.6,
+    "aquisicoes_consolidadas_no_trimestre": [
+      "Marathon",
+      "Rotor",
+      "Cemp",
+      "Volt Electric Motor",
+      "Reivax"
+    ],
+    "receita_marathon_rotor_cemp_no_trimestre": 649.7,
+    "receita_marathon_rotor_cemp_split_pct": {
+      "eei": 63.3,
+      "gtd": 36.7
+    },
+    "vga_total": 1207.4,
+    "vga_yoy_pct": 36.6,
+    "vga_qoq_pct": -4.1,
+    "vga_receita_pct": 12.0,
+    "cpv_composicao_pct": {
+      "1T25": {
+        "materiais": 69.6,
+        "pessoal": 18.6,
+        "outros": 8.9,
+        "depreciacao": 2.9
+      },
+      "1T24": {
+        "materiais": 70.2,
+        "pessoal": 17.8,
+        "outros": 9.4,
+        "depreciacao": 2.6
+      }
+    },
+    "capex_distribuicao_pct": {
+      "brasil": 56.3,
+      "exterior": 43.7
+    },
+    "capex_brasil": 349.9,
+    "capex_exterior": 271.3,
+    "capex_evolucao_trimestral_total": {
+      "1T24": 391.5,
+      "2T24": 351.5,
+      "3T24": 434.9,
+      "4T24": 672.4,
+      "1T25": 621.2
+    },
+    "rd_inovacao_dispendio": 312.2,
+    "rd_inovacao_receita_pct": 3.1,
+    "duration_endividamento_meses": 8.8,
+    "duration_endividamento_meses_anterior": 11.3,
+    "aplicacoes_sem_liquidez_imediata_inclui_derivativos": 713.4,
+    "endividamento_split_prazo_pct": {
+      "curto_prazo": 92,
+      "longo_prazo": 8
+    },
+    "endividamento_curto_prazo_em_outras_moedas": 2979.6,
+    "endividamento_longo_prazo_em_reais": 248.8,
+    "jcp_declarado_18mar2025": 338.6,
+    "jcp_pagamento_previsto": "2025-08-13",
+    "outros_eventos": [
+      "Aquisição da parcela remanescente da V2COM (4-fev-2025) — IoT, Smart Grid, telemedição"
+    ],
+    "caixa_aplicacoes_e_derivativos_total": 5689.3,
+    "caixa_liquido": 2454.0,
+    "caixa_liquido_anterior": {
+      "dez_2024": 4608.7,
+      "mar_2024": 3796.5
+    },
+    "minoritarios_pl": 947.2,
+    "comparativos_quarter_anterior_4T24": {
+      "receita_liquida": 10822.3,
+      "ebitda": 2387.7,
+      "margem_ebitda_pct": 22.1,
+      "lucro_liquido": 1694.3,
+      "margem_liquida_pct": 15.7,
+      "roic_pct": 34.2
+    },
+    "comparativos_yoy_1T24": {
+      "receita_liquida": 8033.3,
+      "ebitda": 1769.9,
+      "margem_ebitda_pct": 22.0,
+      "lucro_liquido": 1328.0,
+      "margem_liquida_pct": 16.5,
+      "roic_pct": 38.9,
+      "lpa": 0.31653
+    },
+    "roic_caveat": "ROIC 1T24 (38,9%) inflado por incentivo fiscal não recorrente referente à nova controlada na Suíça — base de comparação distorcida.",
+    "capex_destinos_brasil": [
+      "Modernização e ampliação de transformadores em Betim e Blumenau",
+      "Aumento de capacidade de motores industriais em Jaraguá do Sul"
+    ],
+    "capex_destinos_exterior": [
+      "México — nova fábrica de transformadores",
+      "Colômbia — nova fábrica de transformadores",
+      "Estados Unidos — capacidade produtiva"
+    ]
+  }
+}

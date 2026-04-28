@@ -1,0 +1,294 @@
+{
+  "_schema": "industrial/v1",
+  "_schema_path": "sources/structured/_schemas/industrial.json",
+  "_empresa": "weg",
+  "_periodo": "1T25",
+  "_source": "sources/full/weg/1T25/itr.md",
+  "_notes": [
+    "Numbers em R$ mm (DFs originais em R$ mil, divididos por 1000), 1 decimal salvo quando original tem mais precisão (LPA).",
+    "DRE/FC = trimestre 01/01/2025 a 31/03/2025 (acumulado coincide com trimestre por ser 1T). BP = posição em 31/03/2025.",
+    "Schema path no system prompt do agente apontava para 'incorporadora.json' por engano; manifesto weg.json corretamente aponta para industrial.json — schema usado é industrial/v1.",
+    "Segmentos: receita líquida por segmento extraída do Comentário do Desempenho (release embutido). EBITDA por segmento NÃO é reportado pela WEG no ITR — apenas margem EBITDA consolidada. Por isso ebitda/margem por segmento ficam null.",
+    "MCA (Motores Comerciais e Appliance) reportado como segmento próprio — alocado em segmentos.outros já que schema canônico contempla apenas EEI/GTD/T&V.",
+    "Caixa Líquido reportado pela WEG (R$ 2.454,0 mm) inclui derivativos líquidos (+15,3); divida_liquida no schema usa apenas dívida bruta menos disponibilidades+aplicações financeiras."
+  ],
+  "canonical": {
+    "dre": {
+      "receita_liquida": 10078.6,
+      "receita_bruta": null,
+      "deducoes_receita": null,
+      "custo_produtos_servicos": -6762.6,
+      "lucro_bruto": 3316.0,
+      "margem_bruta_pct": 32.9,
+      "despesas_operacionais": -1372.6,
+      "despesas_com_vendas": -840.2,
+      "despesas_administrativas": -367.3,
+      "despesas_pesquisa_desenvolvimento": null,
+      "outras_receitas_despesas_op": -164.7,
+      "ebitda": 2173.0,
+      "margem_ebitda_pct": 21.6,
+      "depreciacao_amortizacao": 229.6,
+      "ebit": 1943.4,
+      "lucro_operacional": 1943.4,
+      "margem_operacional_pct": 19.3,
+      "equivalencia_patrimonial": -0.5,
+      "receita_financeira": 477.2,
+      "despesa_financeira": -437.1,
+      "resultado_financeiro_liquido": 40.1,
+      "variacao_cambial_liquida": null,
+      "lucro_antes_ir": 1983.5,
+      "ir_csll": -323.4,
+      "impostos_diferidos": -22.9,
+      "aliquota_efetiva_pct": 17.5,
+      "lucro_apos_ir": 1637.2,
+      "participacao_minoritarios": -91.1,
+      "lucro_liquido": 1546.0,
+      "margem_liquida_pct": 15.3,
+      "lpa": 0.36848,
+      "lpa_diluido": 0.36841
+    },
+    "bp": {
+      "ativo_circulante": 25120.5,
+      "caixa_e_equivalentes": 4989.2,
+      "aplicacoes_financeiras_c": 668.5,
+      "contas_a_receber_c": 7227.4,
+      "estoques": 10220.7,
+      "tributos_a_recuperar_c": 1085.2,
+      "outros_ativos_c": 929.5,
+      "ativo_nao_circulante": 14203.0,
+      "realizavel_lp": 1389.6,
+      "aplicacoes_financeiras_nc": 16.4,
+      "contas_a_receber_nc": null,
+      "tributos_a_recuperar_nc": 141.0,
+      "imposto_renda_diferido_ativo": 1052.5,
+      "investimentos": 68.2,
+      "imobilizado": 9132.7,
+      "intangivel": 2780.7,
+      "direito_de_uso_arrendamento": 831.7,
+      "ativo_total": 39323.5,
+      "passivo_circulante": 14715.7,
+      "fornecedores_c": 3367.5,
+      "emprestimos_financiamentos_c": 2986.5,
+      "debentures_c": null,
+      "arrendamentos_c": 103.0,
+      "obrigacoes_sociais_trabalhistas": 891.9,
+      "obrigacoes_tributarias_c": 846.9,
+      "dividendos_jcp_a_pagar": 314.9,
+      "adiantamentos_clientes_c": 3828.5,
+      "outros_passivos_c": 2295.4,
+      "passivo_nao_circulante": 2379.1,
+      "emprestimos_financiamentos_nc": 248.8,
+      "debentures_nc": null,
+      "arrendamentos_nc": 660.0,
+      "obrigacoes_tributarias_nc": 27.2,
+      "imposto_renda_diferido_passivo": 163.9,
+      "provisao_contingencias": 782.3,
+      "outros_passivos_nc": 496.8,
+      "patrimonio_liquido": 21281.6,
+      "capital_social": 7504.5,
+      "reservas_capital": -170.6,
+      "reservas_lucro": 10196.3,
+      "ajustes_avaliacao_patrimonial": 273.2,
+      "lucros_acumulados": 1209.6,
+      "acoes_em_tesouraria": -43.6,
+      "patrimonio_liquido_controladores": 21281.6,
+      "participacao_nao_controladores": 947.2,
+      "patrimonio_liquido_total": 22228.8,
+      "passivo_pl_total": 39323.5
+    },
+    "fc": {
+      "fc_operacional_antes_capital_giro": 2707.8,
+      "variacao_capital_giro": -2167.3,
+      "fc_operacional": 540.5,
+      "fc_operacional_apos_juros_ir": 540.5,
+      "capex": -621.2,
+      "aquisicoes_combinacao_negocios": -82.0,
+      "investimentos_aplicacoes_financeiras": -0.2,
+      "fc_investimento": -701.8,
+      "fcl": -80.7,
+      "captacoes_emprestimos": 776.3,
+      "amortizacoes_emprestimos": -975.0,
+      "dividendos_jcp_pagos": -1808.5,
+      "recompra_acoes": 4.2,
+      "fc_financiamento": -2003.0,
+      "variacao_cambial_caixa": -194.1,
+      "variacao_caixa_liquida": -2358.4,
+      "caixa_inicial": 7347.6,
+      "caixa_final": 4989.2
+    },
+    "segmentos": {
+      "eei": {
+        "_label": "Equipamentos Eletroeletrônicos Industriais",
+        "receita_liquida": 4448.6,
+        "receita_brasil": 1369.4,
+        "receita_externo": 3079.2,
+        "ebitda": null,
+        "margem_ebitda_pct": null,
+        "lucro_operacional": null,
+        "margem_operacional_pct": null
+      },
+      "gtd": {
+        "_label": "Geração, Transmissão e Distribuição de Energia",
+        "receita_liquida": 4436.2,
+        "receita_brasil": 2388.5,
+        "receita_externo": 2047.6,
+        "ebitda": null,
+        "margem_ebitda_pct": null,
+        "lucro_operacional": null,
+        "margem_operacional_pct": null
+      },
+      "tintas_vernizes": {
+        "_label": "Tintas e Vernizes",
+        "receita_liquida": 381.9,
+        "ebitda": null,
+        "margem_ebitda_pct": null
+      },
+      "outros": {
+        "_label": "Motores Comerciais e Appliance (MCA)",
+        "receita_liquida": 811.9,
+        "ebitda": null
+      }
+    },
+    "kpis_industriais": {
+      "capex_total": 621.2,
+      "capex_receita_pct": 6.2,
+      "ebitda_ajustado": 2173.0,
+      "margem_ebitda_ajustada_pct": 21.6,
+      "divida_bruta": 3235.3,
+      "caixa_aplicacoes": 5674.0,
+      "divida_liquida": -2438.8,
+      "divida_liquida_ebitda": null,
+      "roic_pct": 33.2,
+      "roe_pct": null,
+      "working_capital": 10404.8,
+      "working_capital_receita_pct": null,
+      "ciclo_de_caixa_dias": null,
+      "dso_dias": null,
+      "dpo_dias": null,
+      "dio_dias": null,
+      "headcount": null,
+      "receita_brasil_pct": 44.0,
+      "receita_externo_pct": 56.0,
+      "carteira_pedidos_backlog": null,
+      "lucro_liquido_ltm": null,
+      "fcl_ltm": null,
+      "dividendos_jcp_lpa": null
+    }
+  },
+  "company_specific": {
+    "segmento_mca": {
+      "_label": "Motores Comerciais e Appliance — segmento próprio reportado pela WEG",
+      "receita_liquida": 811.9,
+      "receita_brasil": 357.0,
+      "receita_externo": 454.9,
+      "yoy_brasil_pct": 21.5,
+      "yoy_externo_pct": 41.0
+    },
+    "tintas_vernizes_breakdown": {
+      "receita_brasil": 323.5,
+      "receita_externo": 58.3,
+      "yoy_brasil_pct": 13.3,
+      "yoy_externo_pct": 2.4
+    },
+    "eei_breakdown_yoy_pct": {
+      "yoy_brasil_pct": 5.9,
+      "yoy_externo_pct": 32.5
+    },
+    "gtd_breakdown_yoy_pct": {
+      "yoy_brasil_pct": 18.1,
+      "yoy_externo_pct": 42.7
+    },
+    "aquisicoes_contribuicao_1t25": {
+      "_description": "Receita incremental dos negócios adquiridos (Marathon, Rotor, Cemp) consolidados em 1T25 vs 1T24.",
+      "receita_total": 649.7,
+      "pct_eei": 63.3,
+      "pct_gtd": 36.7,
+      "mercado": "externo",
+      "marcas": ["Marathon", "Rotor", "Cemp", "Volt Electric Motor", "Reivax"]
+    },
+    "crescimento_receita_ajustado_pct": {
+      "_description": "Receita consolidada ex-aquisições e ex-Volt/Reivax — proxy de crescimento orgânico.",
+      "receita_total_ex_aquisicoes_yoy_pct": 16.3,
+      "receita_externa_local_currency_ex_aquisicoes_yoy_pct": 3.6
+    },
+    "mercado_externo_geografico_us_mm": {
+      "_description": "Receita líquida do mercado externo desagregada por região, em US$ milhões (cotação trimestral média).",
+      "total_us_mm": 966.4,
+      "america_norte": {"valor_us_mm": 494.5, "pct": 51.2, "yoy_pct": 23.5},
+      "america_sul_central": {"valor_us_mm": 74.6, "pct": 7.7, "yoy_pct": -18.9},
+      "europa": {"valor_us_mm": 235.2, "pct": 24.3, "yoy_pct": 13.9},
+      "africa": {"valor_us_mm": 49.7, "pct": 5.2, "yoy_pct": -19.6},
+      "asia_pacifico": {"valor_us_mm": 112.3, "pct": 11.6, "yoy_pct": 50.2}
+    },
+    "cambio_medio_brl_usd": {
+      "_1t25": 5.85,
+      "_1t24": 4.95,
+      "yoy_pct": 18.2
+    },
+    "vga_consolidado": {
+      "valor_mm": 1207.4,
+      "pct_rol": 12.0,
+      "yoy_pct": 36.6,
+      "qoq_pct": -4.1
+    },
+    "pesquisa_desenvolvimento_inovacao": {
+      "valor_mm": 312.2,
+      "pct_rol": 3.1
+    },
+    "capex_breakdown": {
+      "valor_mm": 621.2,
+      "pct_brasil": 56.3,
+      "pct_externo": 43.7,
+      "areas_brasil": ["Betim (transformadores)", "Blumenau (transformadores)", "Jaraguá do Sul (motores industriais)"],
+      "areas_externo": ["México", "Colômbia", "Estados Unidos"]
+    },
+    "caixa_liquido_reportado": {
+      "_description": "Caixa Líquido conforme reportado pela WEG = (Disponibilidades+Aplicações) + Derivativos líquidos − Dívida Bruta.",
+      "disponibilidades_aplicacoes": 5674.0,
+      "derivativos_liquidos": 15.3,
+      "divida_bruta": 3235.3,
+      "caixa_liquido": 2454.0
+    },
+    "endividamento": {
+      "duration_meses": 8.8,
+      "duration_meses_anterior_dez24": 11.3,
+      "moeda_nacional_pct_total": 7.9,
+      "moeda_estrangeira_pct_total": 92.1,
+      "curto_prazo_pct": 92.0,
+      "longo_prazo_pct": 8.0
+    },
+    "remuneracao_capital": {
+      "jcp_deliberado_18mar2025_mm": 338.6,
+      "data_pagamento_prevista": "2025-08-13",
+      "dividendos_jcp_pagos_periodo_mm": 1808.5
+    },
+    "lpa_basico_on": 0.36848,
+    "lpa_diluido_on": 0.36841,
+    "acoes_circulantes": {
+      "ordinarias_total": 4197317998,
+      "em_tesouraria": 1645411,
+      "em_circulacao": 4195672587
+    },
+    "destaque_drivers": {
+      "_description": "Drivers qualitativos do trimestre por segmento (Comentário do Desempenho, p. 21-22).",
+      "eei_brasil": "Demanda mantida em motores baixa tensão e automação seriada; destaques em óleo & gás e água & saneamento; oscilação na entrega de projetos de ciclo longo (média tensão).",
+      "eei_externo": "Marathon/Cemp/Rotor/Volt contribuíram para crescimento; melhora na entrada de pedidos de ciclo longo construindo carteira saudável.",
+      "gtd_brasil": "Concentração de geração solar centralizada (GC) + boa GD; mais que compensou queda de aerogeradores (carteira em conclusão); T&D positivo (transformadores + subestações para leilões de transmissão).",
+      "gtd_externo": "T&D forte (transformadores para infraestrutura e renováveis); negócios de geradores Marathon + carteira saudável Índia/EUA.",
+      "mca": "Crescimento volume vs YoY com ar-condicionado, construção civil, compressores; externo destaque China e América do Norte + Volt Electric Motor.",
+      "tintas_vernizes": "Demanda pulverizada com destaque em água & saneamento e implementos agrícolas; externo puxado pelo México."
+    },
+    "mix_cpv_pct": {
+      "_description": "Composição do CPV (Figura 2). Percentuais 1T25.",
+      "materiais": null,
+      "pessoal": null,
+      "depreciacao": null,
+      "outros": null,
+      "_obs": "Figura 2 textualmente ilegível na extração; valores não preenchidos para evitar invenção."
+    },
+    "incentivo_fiscal_nao_recorrente_1t24": {
+      "_description": "ROIC do 1T24 foi positivamente impactado por reconhecimento de incentivo fiscal não recorrente referente a controlada na Suíça — flag para comparabilidade YoY.",
+      "comentario": "Mencionado em p.24 do Comentário do Desempenho como fator que infla a base de comparação 1T24."
+    }
+  }
+}

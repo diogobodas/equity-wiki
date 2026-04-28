@@ -1,0 +1,363 @@
+{
+  "_schema": "industrial/v1",
+  "_schema_path": "sources/structured/_schemas/industrial.json",
+  "_empresa": "weg",
+  "_periodo": "2024",
+  "_source": "sources/full/weg/2024/dfp.md",
+  "_notes": [
+    "DFP anual 2024 (exercício 01/01/2024 a 31/12/2024). Numbers em R$ mm (convertidos de R$ mil reportados, 1 decimal).",
+    "Schema correto: industrial. O ingest_heavy.md gerado pelo orquestrador apontou erroneamente para 'incorporadora' — manifest weg.json define setor_schema = sources/structured/_schemas/industrial.json, que foi seguido aqui.",
+    "DRE/BP/FC = consolidado IFRS. Individual DFs (controladora) ignorados (holding pura, eq. patrimonial).",
+    "EBITDA = EBIT (R$ 7.690,5 mm) + D&A (R$ 812,5 mm) = R$ 8.503,0 mm. Margem 22,4% (Tabela 1, CVM 156/2022).",
+    "Segmentação canônica EEI/GTD não é reportada nominalmente no DFP — companhia divide gerencialmente em Brasil-Indústria, Brasil-Energia, Exterior (Nota 30). Brasil-Indústria inclui motores, automação, drives, comerciais&appliance, tintas — escopo MAIS amplo que 'EEI' do release. Receita por segmento + ativos/passivos identificáveis movidos para company_specific.segmentos_dfp para preservar dado bruto. EEI/GTD canônico do schema permanece null aqui; release 4T24 deve preencher.",
+    "Aquisições do ano: Marathon/Cemp/Rotor (Regal Rexnord, mai/2024 — consolidação iniciada) e Volt Electric Motors (Turquia, dez/2024 — fechada 02/12/2024). REIVAX anunciada 26/11/2024 mas pendente de aprovações. Impactam comparabilidade ano-contra-ano: receita 2024 cresceu 16,9%; ex-aquisições, +11,8%.",
+    "Resultado financeiro 2023 incluiu R$ 28,9 mm de crédito tributário não recorrente (exclusão ICMS PIS/COFINS); ROIC 2023 também impactado por incentivos fiscais não recorrentes (constituição controlada Suíça) — base de comparação 2023 elevada.",
+    "ROE inicial 34,8% (LL controladora R$ 6.042,6 mm / PL controladora inicial R$ 17.342,1 mm).",
+    "Capex puro de imobilizado/intangível (excluindo M&A): R$ 1.850,3 mm (4,9% da ROL). Aquisições combinação de negócios: R$ 2.263,7 mm. Total FC investimento -R$ 4.094,6 mm.",
+    "Caixa líquido positivo: R$ 4.608,7 mm (Tabela 2 do RA — caixa+aplicações R$ 8.013,2 mm + derivativos líquidos R$ 190,7 mm − dívida bruta R$ 3.595,2 mm). Dívida líquida/EBITDA = -0,54x (caixa líquido)."
+  ],
+  "canonical": {
+    "operacional": null,
+    "dre": {
+      "receita_liquida": 37986.9,
+      "receita_bruta": null,
+      "deducoes_receita": null,
+      "custo_produtos_servicos": -25173.1,
+      "lucro_bruto": 12813.8,
+      "margem_bruta_pct": 33.7,
+      "despesas_operacionais": -5123.3,
+      "despesas_com_vendas": -2987.3,
+      "despesas_administrativas": -1299.4,
+      "despesas_pesquisa_desenvolvimento": null,
+      "outras_receitas_despesas_op": -831.4,
+      "ebitda": 8503.0,
+      "margem_ebitda_pct": 22.4,
+      "depreciacao_amortizacao": 812.5,
+      "ebit": 7690.5,
+      "lucro_operacional": 7690.5,
+      "margem_operacional_pct": 20.2,
+      "equivalencia_patrimonial": -5.2,
+      "receita_financeira": 1942.1,
+      "despesa_financeira": -1724.1,
+      "resultado_financeiro_liquido": 218.0,
+      "variacao_cambial_liquida": null,
+      "lucro_antes_ir": 7908.5,
+      "ir_csll": -1589.7,
+      "impostos_diferidos": 21.9,
+      "aliquota_efetiva_pct": 20.1,
+      "lucro_apos_ir": 6318.8,
+      "participacao_minoritarios": 276.2,
+      "lucro_liquido": 6042.6,
+      "margem_liquida_pct": 15.9,
+      "lpa": 1.44,
+      "lpa_diluido": 1.44
+    },
+    "bp": {
+      "ativo_circulante": 27221.4,
+      "caixa_e_equivalentes": 7347.6,
+      "aplicacoes_financeiras_c": 648.5,
+      "contas_a_receber_c": 7394.4,
+      "estoques": 9904.0,
+      "tributos_a_recuperar_c": 817.4,
+      "outros_ativos_c": 1109.5,
+      "ativo_nao_circulante": 14268.3,
+      "realizavel_lp": 1442.2,
+      "aplicacoes_financeiras_nc": 17.1,
+      "contas_a_receber_nc": null,
+      "tributos_a_recuperar_nc": 123.6,
+      "imposto_renda_diferido_ativo": 1141.8,
+      "investimentos": 71.8,
+      "imobilizado": 9035.2,
+      "intangivel": 2820.7,
+      "direito_de_uso_arrendamento": 898.4,
+      "ativo_total": 41489.7,
+      "passivo_circulante": 15454.3,
+      "fornecedores_c": 3778.1,
+      "emprestimos_financiamentos_c": 2851.0,
+      "debentures_c": null,
+      "arrendamentos_c": 107.7,
+      "obrigacoes_sociais_trabalhistas": 728.5,
+      "obrigacoes_tributarias_c": 799.6,
+      "dividendos_jcp_a_pagar": 561.7,
+      "adiantamentos_clientes_c": 4040.3,
+      "outros_passivos_c": 2587.5,
+      "passivo_nao_circulante": 2910.2,
+      "emprestimos_financiamentos_nc": 744.3,
+      "debentures_nc": null,
+      "arrendamentos_nc": 715.5,
+      "obrigacoes_tributarias_nc": 23.6,
+      "imposto_renda_diferido_passivo": 170.5,
+      "provisao_contingencias": 783.0,
+      "outros_passivos_nc": 473.3,
+      "patrimonio_liquido": 23125.2,
+      "capital_social": 7504.5,
+      "reservas_capital": -155.2,
+      "reservas_lucro": 11466.1,
+      "ajustes_avaliacao_patrimonial": 277.5,
+      "lucros_acumulados": 1269.8,
+      "acoes_em_tesouraria": -47.8,
+      "patrimonio_liquido_controladores": 22204.2,
+      "participacao_nao_controladores": 921.0,
+      "patrimonio_liquido_total": 23125.2,
+      "passivo_pl_total": 41489.7
+    },
+    "fc": {
+      "fc_operacional_antes_capital_giro": 9562.3,
+      "variacao_capital_giro": -2310.0,
+      "fc_operacional": 7252.3,
+      "fc_operacional_apos_juros_ir": 7252.3,
+      "capex": -1850.3,
+      "aquisicoes_combinacao_negocios": -2263.7,
+      "investimentos_aplicacoes_financeiras": 1.4,
+      "fc_investimento": -4094.6,
+      "fcl": 5402.0,
+      "captacoes_emprestimos": 4331.2,
+      "amortizacoes_emprestimos": -4169.0,
+      "dividendos_jcp_pagos": -2934.6,
+      "recompra_acoes": 0.0,
+      "fc_financiamento": -2764.2,
+      "variacao_cambial_caixa": 465.7,
+      "variacao_caixa_liquida": 859.1,
+      "caixa_inicial": 6488.5,
+      "caixa_final": 7347.6
+    },
+    "segmentos": {
+      "eei": {
+        "receita_liquida": null,
+        "receita_brasil": null,
+        "receita_externo": null,
+        "ebitda": null,
+        "margem_ebitda_pct": null,
+        "lucro_operacional": null,
+        "margem_operacional_pct": null
+      },
+      "gtd": {
+        "receita_liquida": null,
+        "receita_brasil": null,
+        "receita_externo": null,
+        "ebitda": null,
+        "margem_ebitda_pct": null,
+        "lucro_operacional": null,
+        "margem_operacional_pct": null
+      },
+      "tintas_vernizes": {
+        "receita_liquida": null,
+        "ebitda": null,
+        "margem_ebitda_pct": null
+      },
+      "outros": {
+        "receita_liquida": null,
+        "ebitda": null
+      }
+    },
+    "kpis_industriais": {
+      "capex_total": 1850.3,
+      "capex_receita_pct": 4.9,
+      "ebitda_ajustado": null,
+      "margem_ebitda_ajustada_pct": null,
+      "divida_bruta": 3595.2,
+      "caixa_aplicacoes": 8013.2,
+      "divida_liquida": -4608.7,
+      "divida_liquida_ebitda": -0.54,
+      "roic_pct": 34.2,
+      "roe_pct": 34.8,
+      "working_capital": 9480.0,
+      "working_capital_receita_pct": 24.9,
+      "ciclo_de_caixa_dias": 159.9,
+      "dso_dias": 71.1,
+      "dpo_dias": 54.8,
+      "dio_dias": 143.6,
+      "headcount": 47529,
+      "receita_brasil_pct": 43.0,
+      "receita_externo_pct": 57.0,
+      "carteira_pedidos_backlog": null,
+      "lucro_liquido_ltm": 6042.6,
+      "fcl_ltm": 5402.0,
+      "dividendos_jcp_lpa": 0.76
+    }
+  },
+  "company_specific": {
+    "receita_geografica": {
+      "mercado_interno_rs_mm": 16340.6,
+      "mercado_externo_rs_mm": 21646.3,
+      "mercado_interno_pct": 43.0,
+      "mercado_externo_pct": 57.0,
+      "mercado_externo_yoy_brl_pct": 25.9,
+      "mercado_externo_yoy_usd_pct": 15.8,
+      "mercado_externo_yoy_moeda_local_ponderada_pct": 7.7,
+      "mercado_interno_yoy_pct": 6.7,
+      "rol_yoy_pct": 16.9,
+      "rol_yoy_organico_ex_aquisicoes_pct": 11.8
+    },
+    "segmentos_dfp_2024": {
+      "_descricao": "Nota 30 do DFP 2024. Receita pre-eliminação intercompany. Brasil-Indústria inclui motores, automação, drives, mobilidade, infra civil, comerciais&appliance, tintas — escopo + amplo que EEI do release. Brasil-Energia ≈ GTD nacional. Exterior consolida todas controladas externas.",
+      "brasil_industria": {
+        "receita": 16898.9,
+        "resultado_antes_impostos": 8553.1,
+        "depreciacao_amortizacao": 251.4,
+        "ativos_identificaveis": 10410.2,
+        "passivos_identificaveis": 3780.0,
+        "_yoy_receita_pct": 8.0
+      },
+      "brasil_energia": {
+        "receita": 7011.2,
+        "resultado_antes_impostos": 4787.0,
+        "depreciacao_amortizacao": 101.2,
+        "ativos_identificaveis": 4605.5,
+        "passivos_identificaveis": 2139.7,
+        "_yoy_receita_pct": 9.5
+      },
+      "exterior": {
+        "receita": 30728.8,
+        "resultado_antes_impostos": 5857.8,
+        "depreciacao_amortizacao": 467.3,
+        "ativos_identificaveis": 24849.4,
+        "passivos_identificaveis": 14426.6,
+        "_yoy_receita_pct": 24.2
+      },
+      "eliminacoes_e_ajustes": {
+        "receita": -16652.0,
+        "resultado_antes_impostos": -11289.4,
+        "depreciacao_amortizacao": -7.4,
+        "ativos_identificaveis": -8788.9,
+        "passivos_identificaveis": -7941.7
+      },
+      "consolidado": {
+        "receita": 37986.9,
+        "resultado_antes_impostos": 7908.5,
+        "depreciacao_amortizacao": 812.5,
+        "ativos_identificaveis": 31076.2,
+        "passivos_identificaveis": 12404.6
+      }
+    },
+    "endividamento": {
+      "disponibilidades_e_aplicacoes_total": 8013.2,
+      "disponibilidades_curto_prazo": 7996.1,
+      "disponibilidades_longo_prazo": 17.1,
+      "instrumentos_derivativos_ativo_curto": 210.7,
+      "instrumentos_derivativos_ativo_longo": 6.2,
+      "instrumentos_derivativos_passivo_curto": -26.2,
+      "instrumentos_derivativos_passivo_longo": 0,
+      "divida_curto_prazo": 2851.0,
+      "divida_curto_prazo_em_reais": 6.1,
+      "divida_curto_prazo_em_moeda_estrangeira": 2844.9,
+      "divida_longo_prazo": 744.3,
+      "divida_longo_prazo_em_reais": 248.9,
+      "divida_longo_prazo_em_moeda_estrangeira": 495.4,
+      "divida_bruta_total": 3595.2,
+      "caixa_liquido_oficial_tabela2": 4608.7
+    },
+    "remuneracao_acionistas": {
+      "dividendos_jcp_propostos_2024_rs_mm": 3190.9,
+      "payout_ratio_pct": 52.8,
+      "dividendos_pagos_em_caixa_2024": 2934.6,
+      "dividendos_pagos_1s_em_14_08_2024": 1292.5,
+      "dividendos_complementares_pagos_em_12_03_2025": 1898.4,
+      "dividendo_adicional_proposto_no_pl": 1269.8
+    },
+    "capex_2024_breakdown": {
+      "capex_total_imobilizado_para_expansao_modernizacao": 1850.3,
+      "capex_brasil_pct": 63,
+      "capex_exterior_pct": 37,
+      "investimentos_imobilizado_dfc": 1780.7,
+      "investimentos_intangivel_dfc": 69.7,
+      "aquisicoes_combinacao_negocios_dfc": 2263.7
+    },
+    "capex_2025_orcamento": {
+      "imobilizado_previsto": 2661.6,
+      "intangivel_previsto": 12.3,
+      "incremento_capital_giro_previsto": 1162.0,
+      "total_investimentos_previstos": 3835.9,
+      "fonte_recursos_proprios": 2564.9,
+      "fonte_recursos_terceiros_financiamentos": 1271.1
+    },
+    "pdi_2024": {
+      "investimento_rs_mm": 1082.5,
+      "pct_da_rol": 2.8
+    },
+    "headcount_por_regiao": {
+      "total": 47529,
+      "yoy_pct": 16.5,
+      "america_do_norte": 7691,
+      "america_do_sul": 31755,
+      "europa": 2665,
+      "africa": 885,
+      "asia_pacifico": 4533
+    },
+    "mercado_de_capitais": {
+      "cotacao_31_12_2024_rs": 52.77,
+      "cotacao_31_12_2023_rs": 36.91,
+      "valor_mercado_rs_bi": 221.5,
+      "valor_patrimonial_por_acao": 5.51,
+      "volume_financeiro_negociado_2024_rs_mm": 73658.1
+    },
+    "acoes": {
+      "ordinarias_emitidas": 4197317998,
+      "em_tesouraria": 1780620,
+      "media_ponderada_basico_mil": 4195474,
+      "media_ponderada_diluido_mil": 4196422
+    },
+    "aquisicoes_2024": {
+      "regal_rexnord_marathon_cemp_rotor": {
+        "data_fechamento": "2024-05-01",
+        "descricao": "Negócios de motores industriais e geradores adquiridos da Regal Rexnord (marcas Marathon, Cemp, Rotor). Consolidação iniciada em maio/2024.",
+        "impacto_qualitativo": "Contribuiu positivamente para a receita do ano; sem contribuição não-orgânica isolada, ROL ex-aquisições teria crescido +11,8% vs. +16,9% reportado."
+      },
+      "volt_electric_motors": {
+        "data_anuncio": "2024-09-12",
+        "data_fechamento": "2024-12-02",
+        "descricao": "Fabricante turco de motores elétricos industriais e comerciais, fábrica 27.000 m² em Istambul, ~690 funcionários, motores até 450 kW.",
+        "racional": "Expandir presença em Leste Europeu, Oriente Médio, Ásia Central e Norte da África."
+      },
+      "reivax": {
+        "data_anuncio": "2024-11-26",
+        "status": "pendente_aprovacoes_regulatorias",
+        "descricao": "Empresa brasileira de sistemas de controle para geração de energia (hidro, fotovoltaico, eólico, térmico, subestações). ~220 colaboradores. Sede em Florianópolis, filiais Suíça/Canadá."
+      }
+    },
+    "evento_subsequente": {
+      "v2com_aquisicao_parcela_remanescente": {
+        "data": "2025-02-04",
+        "descricao": "Comunicado de aquisição da parcela remanescente da V2COM (IoT/telemedição/automação para Smart Grid), em continuidade ao acordo de 02/10/2019."
+      }
+    },
+    "sucessao_executiva_2024": {
+      "presidente_executivo": "Alberto Yoshikazu Kuba (a partir de 2024-04-01) substituiu Harry Schmelzer Junior",
+      "diretor_motores_industriais": "Rodrigo Fumo Fernandes (a partir de 2024-04-01)",
+      "china": "Cargo de diretor único da China extinto em 2025-02-01; nomeado Zong Xin como Diretor Superintendente de Nantong/Rugao reportando à divisão de Motores Industriais."
+    },
+    "sustentabilidade_2024": {
+      "reducao_gee_acumulada_pct": 25,
+      "meta_2030_reducao_gee_pct": 52,
+      "meta_2050": "net_zero_escopos_1_e_2",
+      "ecovadis_selo": "Gold (2º ano consecutivo, top 2% global)",
+      "cdp_nota": "A-",
+      "sustainalytics_classificacao": "baixo risco"
+    },
+    "auditoria": {
+      "auditor": "KPMG Auditores Independentes",
+      "honorarios_auditoria_rs_mil": 8641.7,
+      "honorarios_nao_auditoria_rs_mil": 271.0,
+      "ressalva": false,
+      "principais_assuntos_auditoria": [
+        "Avaliação do valor recuperável dos ágios (goodwill)",
+        "Reconhecimento de receita de contratos com clientes",
+        "Mensuração do valor justo dos ativos identificáveis em combinações de negócios"
+      ]
+    },
+    "perspectivas_2025": {
+      "pib_mundial_estimado_pct": 3.3,
+      "pib_brasil_estimado_pct": 2.2,
+      "drivers_brasil": "T&D aquecido; geração solar/hídrica/térmica; ciclo curto motor industrial; comercial&appliance; mobilidade elétrica; potencial BESS via leilões",
+      "drivers_externo": "T&D EUA forte (data centers, infra elétrica); Marathon contribuindo em motores industriais e geradores; Volt expansão Turquia/Leste Europeu/Norte África; índia e China crescendo via Marathon e operações próprias",
+      "geração_solar_distribuída_brasil": "cenário desafiador para crescimento da receita"
+    },
+    "macros_2024": {
+      "pib_mundial_pct": 3.2,
+      "pib_brasil_pct": 3.7,
+      "usd_brl_medio_2024": 5.39,
+      "usd_brl_medio_2023": 4.99,
+      "usd_brl_valorizacao_pct": 7.9
+    }
+  }
+}

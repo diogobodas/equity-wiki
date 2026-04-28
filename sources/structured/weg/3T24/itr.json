@@ -1,0 +1,365 @@
+{
+  "_schema": "industrial/v1",
+  "_schema_path": "sources/structured/_schemas/industrial.json",
+  "_empresa": "weg",
+  "_periodo": "3T24",
+  "_source": "sources/full/weg/3T24/itr.md",
+  "canonical": {
+    "dre": {
+      "receita_liquida": 9856.9,
+      "receita_bruta": null,
+      "deducoes_receita": null,
+      "custo_produtos_servicos": -6458.2,
+      "lucro_bruto": 3398.7,
+      "margem_bruta_pct": 34.5,
+      "despesas_operacionais": -1385.9,
+      "despesas_com_vendas": -776.3,
+      "despesas_administrativas": -355.9,
+      "despesas_pesquisa_desenvolvimento": null,
+      "outras_receitas_despesas_op": -253.8,
+      "ebitda": 2224.6,
+      "margem_ebitda_pct": 22.6,
+      "depreciacao_amortizacao": 211.8,
+      "ebit": 2012.8,
+      "lucro_operacional": 2012.8,
+      "margem_operacional_pct": 20.4,
+      "equivalencia_patrimonial": 0.2,
+      "receita_financeira": 538.2,
+      "despesa_financeira": -473.8,
+      "resultado_financeiro_liquido": 64.4,
+      "variacao_cambial_liquida": null,
+      "lucro_antes_ir": 2077.3,
+      "ir_csll": -416.8,
+      "impostos_diferidos": 33.8,
+      "aliquota_efetiva_pct": 20.1,
+      "lucro_apos_ir": 1660.5,
+      "participacao_minoritarios": -81.8,
+      "lucro_liquido": 1578.7,
+      "margem_liquida_pct": 16.0,
+      "lpa": 0.37628,
+      "lpa_diluido": 0.3762
+    },
+    "bp": {
+      "ativo_circulante": 23752.1,
+      "caixa_e_equivalentes": 5474.2,
+      "aplicacoes_financeiras_c": 636.8,
+      "contas_a_receber_c": 6820.2,
+      "estoques": 9109.0,
+      "tributos_a_recuperar_c": 720.8,
+      "outros_ativos_c": 991.1,
+      "ativo_nao_circulante": 12563.5,
+      "realizavel_lp": 1371.0,
+      "aplicacoes_financeiras_nc": 12.1,
+      "contas_a_receber_nc": null,
+      "tributos_a_recuperar_nc": 119.96,
+      "imposto_renda_diferido_ativo": 1071.8,
+      "investimentos": 75.4,
+      "imobilizado": 7973.0,
+      "intangivel": 2351.0,
+      "direito_de_uso_arrendamento": 793.1,
+      "ativo_total": 36315.6,
+      "passivo_circulante": 13328.9,
+      "fornecedores_c": 3131.4,
+      "emprestimos_financiamentos_c": 2552.4,
+      "debentures_c": null,
+      "arrendamentos_c": 93.6,
+      "obrigacoes_sociais_trabalhistas": 986.2,
+      "obrigacoes_tributarias_c": 871.7,
+      "dividendos_jcp_a_pagar": 273.8,
+      "adiantamentos_clientes_c": 3090.2,
+      "outros_passivos_c": 2329.5,
+      "passivo_nao_circulante": 2518.2,
+      "emprestimos_financiamentos_nc": 474.7,
+      "debentures_nc": null,
+      "arrendamentos_nc": 655.6,
+      "obrigacoes_tributarias_nc": 24.6,
+      "imposto_renda_diferido_passivo": 102.1,
+      "provisao_contingencias": 838.4,
+      "outros_passivos_nc": 422.5,
+      "patrimonio_liquido": 19724.5,
+      "capital_social": 7504.5,
+      "reservas_capital": -149.5,
+      "reservas_lucro": 7329.3,
+      "ajustes_avaliacao_patrimonial": 277.7,
+      "lucros_acumulados": 2774.2,
+      "acoes_em_tesouraria": -48.6,
+      "patrimonio_liquido_controladores": 19724.5,
+      "participacao_nao_controladores": 744.1,
+      "patrimonio_liquido_total": 20468.6,
+      "passivo_pl_total": 36315.6
+    },
+    "fc": {
+      "fc_operacional_antes_capital_giro": 6936.0,
+      "variacao_capital_giro": -2265.7,
+      "fc_operacional": 4670.3,
+      "fc_operacional_apos_juros_ir": 4670.3,
+      "capex": -1177.9,
+      "aquisicoes_combinacao_negocios": -1895.0,
+      "investimentos_aplicacoes_financeiras": 4.2,
+      "fc_investimento": -3064.1,
+      "fcl": 3492.4,
+      "captacoes_emprestimos": 3312.3,
+      "amortizacoes_emprestimos": -3260.5,
+      "dividendos_jcp_pagos": -2936.8,
+      "recompra_acoes": 7.4,
+      "fc_financiamento": -2877.5,
+      "variacao_cambial_caixa": 257.1,
+      "variacao_caixa_liquida": -1014.3,
+      "caixa_inicial": 6488.5,
+      "caixa_final": 5474.2
+    },
+    "segmentos": {
+      "_description": "Breakdown 3T24 por área de negócio (release): receita líquida do trimestre (R$ mm) por mercado. ITR não divulga EBITDA por área de negócio — apenas ROL.",
+      "eei": {
+        "_label": "Equipamentos Eletroeletrônicos Industriais (ciclo curto + médio: motores elétricos baixa/média tensão, redutores, drives, automação)",
+        "receita_liquida": 4863.8,
+        "receita_brasil": 1406.4,
+        "receita_externo": 3457.4,
+        "ebitda": null,
+        "margem_ebitda_pct": null,
+        "lucro_operacional": null,
+        "margem_operacional_pct": null
+      },
+      "gtd": {
+        "_label": "Geração, Transmissão e Distribuição de Energia (transformadores, alternadores, aerogeradores, geração solar distribuída, painéis de controle, T&D)",
+        "receita_liquida": 3835.7,
+        "receita_brasil": 1794.1,
+        "receita_externo": 2041.5,
+        "ebitda": null,
+        "margem_ebitda_pct": null,
+        "lucro_operacional": null,
+        "margem_operacional_pct": null
+      },
+      "tintas_vernizes": {
+        "_label": "Tintas e Vernizes (T&V) — tintas em pó, líquidas e vernizes eletroisolantes",
+        "receita_liquida": 403.5,
+        "ebitda": null,
+        "margem_ebitda_pct": null
+      },
+      "outros": {
+        "_label": "MCA — Motores Comerciais e Appliance (motores monofásicos para bens de consumo durável: ar-condicionado, lavadoras, motobombas)",
+        "receita_liquida": 753.9,
+        "ebitda": null
+      }
+    },
+    "financeiro_ajustado": null,
+    "kpis_industriais": {
+      "capex_total": 434.9,
+      "capex_receita_pct": 4.4,
+      "ebitda_ajustado": null,
+      "margem_ebitda_ajustada_pct": null,
+      "divida_bruta": 3027.0,
+      "caixa_aplicacoes": 6123.1,
+      "divida_liquida": -3112.5,
+      "divida_liquida_ebitda": null,
+      "roic_pct": 37.1,
+      "roe_pct": null,
+      "working_capital": 9708.0,
+      "working_capital_receita_pct": null,
+      "ciclo_de_caixa_dias": null,
+      "dso_dias": null,
+      "dpo_dias": null,
+      "dio_dias": null,
+      "headcount": null,
+      "receita_brasil_pct": 39.4,
+      "receita_externo_pct": 60.6,
+      "carteira_pedidos_backlog": null,
+      "lucro_liquido_ltm": null,
+      "fcl_ltm": null,
+      "dividendos_jcp_lpa": null
+    }
+  },
+  "company_specific": {
+    "segmentos_por_area_negocio_3T24_R$_mm": {
+      "_description": "Granularidade do release WEG: 4 áreas de negócio (EEI, GTD, MCA, T&V) × 2 mercados (Brasil, Externo). Receita do trimestre.",
+      "eei": {
+        "brasil": 1406.4,
+        "externo": 3457.4,
+        "total": 4863.8,
+        "var_aa_brasil_pct": 3.9,
+        "var_aa_externo_pct": 40.2
+      },
+      "gtd": {
+        "brasil": 1794.1,
+        "externo": 2041.5,
+        "total": 3835.7,
+        "var_aa_brasil_pct": -6.0,
+        "var_aa_externo_pct": 54.9
+      },
+      "mca": {
+        "_label": "Motores Comerciais e Appliance",
+        "brasil": 353.3,
+        "externo": 400.6,
+        "total": 753.9,
+        "var_aa_brasil_pct": 29.0,
+        "var_aa_externo_pct": 1.8
+      },
+      "tintas_vernizes": {
+        "brasil": 329.7,
+        "externo": 73.9,
+        "total": 403.5,
+        "var_aa_brasil_pct": 12.9,
+        "var_aa_externo_pct": 5.3
+      }
+    },
+    "segmentos_estatutarios_9M24_nota_30_R$_mm": {
+      "_description": "Segmentação reportada na nota explicativa 30 (CPC 22): Indústria + Energia (Brasil) + Exterior. Inclui transações intercompany; coluna 'Eliminações' ajusta para o consolidado. Acumulado 9M24.",
+      "industria_brasil": {
+        "receita": 12131.7,
+        "lucro_antes_ir": 6106.1,
+        "depreciacao_amortizacao": 184.8,
+        "ativos_identificaveis_30_09_24": 9466.5,
+        "passivos_identificaveis_30_09_24": 3497.9
+      },
+      "energia_brasil": {
+        "receita": 5380.0,
+        "lucro_antes_ir": 3505.3,
+        "depreciacao_amortizacao": 74.9,
+        "ativos_identificaveis_30_09_24": 4485.3,
+        "passivos_identificaveis_30_09_24": 2000.2
+      },
+      "exterior": {
+        "receita": 21448.7,
+        "lucro_antes_ir": 3993.4,
+        "depreciacao_amortizacao": 313.9,
+        "ativos_identificaveis_30_09_24": 20720.1,
+        "passivos_identificaveis_30_09_24": 11045.6
+      },
+      "eliminacoes_e_ajustes": {
+        "receita": -11795.7,
+        "lucro_antes_ir": -7895.1,
+        "depreciacao_amortizacao": -5.7,
+        "ativos_identificaveis_30_09_24": -6555.6,
+        "passivos_identificaveis_30_09_24": -5720.5
+      },
+      "consolidado": {
+        "receita": 27164.7,
+        "lucro_antes_ir": 5709.7,
+        "depreciacao_amortizacao": 567.8,
+        "ativos_identificaveis_30_09_24": 28116.3,
+        "passivos_identificaveis_30_09_24": 10823.1
+      }
+    },
+    "mercado_externo_usd_3T24_mm": {
+      "total": 1077.2,
+      "america_norte": 533.4,
+      "america_sul_central": 104.5,
+      "europa": 245.1,
+      "africa": 66.7,
+      "asia_pacifico": 127.5,
+      "var_aa_pct": 23.8,
+      "var_tt_pct": 9.4,
+      "_observacao": "Em moedas locais ponderadas, crescimento foi de 11,7% aa (desconsiderando hiperinflação e aquisições). USD/BRL médio: 5,54 (3T24) vs 4,88 (3T23) = +13,5%."
+    },
+    "ebitda_reconciliacao_3T24_R$_mm": {
+      "lucro_liquido_controladora": 1578.7,
+      "lucro_liquido_antes_minoritarios": 1660.5,
+      "irpj_csll": 416.8,
+      "resultado_financeiro_liquido_subtraido": -64.4,
+      "depreciacao_amortizacao": 211.8,
+      "ebitda": 2224.6,
+      "margem_ebitda_pct": 22.6,
+      "_observacao": "Cálculo conforme Resolução CVM 156/2022. EBITDA = LLC + IR/CSLL - Resultado Financeiro + D&A."
+    },
+    "disponibilidades_endividamento_30_09_24_R$_mm": {
+      "disponibilidades_aplicacoes": 6123.1,
+      "curto_prazo": 6111.0,
+      "longo_prazo": 12.1,
+      "instrumentos_derivativos_liquidos": 16.4,
+      "financiamentos_total": -3027.0,
+      "financiamentos_curto_prazo": -2552.4,
+      "financiamentos_longo_prazo": -474.7,
+      "financiamentos_em_reais": -218.1,
+      "financiamentos_em_moeda_estrangeira": -2808.9,
+      "caixa_liquido": 3112.5,
+      "duration_meses": 14.0,
+      "_observacao": "Composição moeda: 92,8% em moeda estrangeira (mostly Marathon-related US$ financing). Duration aumentou de 10,7 meses (dez/2023) para 14,0 meses (set/2024) com a captação para Regal Rexnord."
+    },
+    "aquisicoes_periodo": {
+      "regal_rexnord_motores_industriais_geradores": {
+        "_descricao": "Aquisição de 100% dos negócios de motores industriais e geradores da Regal Rexnord (marcas Marathon, Rotor, Cemp). Inclui 10 fábricas em 7 países (EUA, México, China, Índia, Itália, Países Baixos, Canadá), filiais comerciais em 11 países e ~2.800 colaboradores.",
+        "data_conclusao": "2024-04-30",
+        "contraprestacao_total_R$_mm": 2280.2,
+        "contraprestacao_via_controladas_americas_R$_mm": 2224.8,
+        "contraprestacao_ativos_outras_controladas_R$_mm": 55.4,
+        "ativos_adquiridos_R$_mm": 2211.7,
+        "passivos_assumidos_R$_mm": 622.1,
+        "ativos_liquidos_R$_mm": 1589.7,
+        "minoritarios_R$_mm": -41.8,
+        "alocacao_intangivel_total_R$_mm": 676.9,
+        "alocacao_relacionamento_clientes_R$_mm": 188.9,
+        "alocacao_marcas_licencas_direitos_R$_mm": 92.5,
+        "alocacao_tecnologia_R$_mm": 64.6,
+        "alocacao_acordo_nao_competicao_R$_mm": 38.3,
+        "goodwill_provisorio_R$_mm": 292.6,
+        "_observacao_ppa": "Avaliação preliminar; aguardando conclusão do Laudo (PPA — Purchase Price Allocation).",
+        "receita_negocios_adquiridos_9M24_R$_mm": 1816.1,
+        "receita_consolidada_5M_mai_set_R$_mm": 1044.9,
+        "receita_3T24_consolidada_R$_mm": 637.7,
+        "_breakdown_3T24_pct": {
+          "eei": 68.4,
+          "gtd": 31.6,
+          "mercado_externo": 100.0
+        }
+      },
+      "volt_electric_motors": {
+        "_descricao": "Anunciada em 12/09/2024. Fabricante turco verticalizado de motores elétricos industriais e comerciais (até 450 kW); fundada em 1987; capacidade 1mm motores/ano; fábrica de 27.000 m². Fortalece presença Leste Europeu / Oriente Médio / Ásia Central / Norte da África.",
+        "data_anuncio": "2024-09-12",
+        "ev_us_mm": 88,
+        "status": "Pendente — aprovações regulatórias (não consolidado em 3T24).",
+        "headcount_a_incorporar": 690,
+        "receita_2023_us_mm": 70,
+        "margem_ebitda_2023_pct": 18.5
+      }
+    },
+    "roic_ltm_3T24": {
+      "valor_pct": 37.1,
+      "valor_ex_efeito_suica_pct": 34.3,
+      "_observacao": "ROIC LTM impactado positivamente por incentivos fiscais relacionados à nova controlada na Suíça reconhecidos no 4T23. Excluindo este efeito não recorrente, ROIC seria 34,3%. Crescimento do NOPAT (margem operacional + ROL) compensou expansão do capital empregado (Regal Rexnord + capex)."
+    },
+    "pesquisa_desenvolvimento_9M24_R$_mm": {
+      "valor": 799.0,
+      "pct_rol": 2.9
+    },
+    "vga_3T24_R$_mm": {
+      "total": 1132.2,
+      "var_aa_pct": 31.6,
+      "var_tt_pct": 12.0,
+      "pct_rol": 11.5,
+      "_observacao": "Aumento de 31,6% aa devido principalmente à consolidação Marathon e maiores despesas com frete."
+    },
+    "proventos_declarados_2024_ate_3T24": {
+      "_lista": [
+        {"data": "2024-03-19", "tipo": "JCP", "valor_R$_mm": 242.3, "lpa_bruto": 0.0577},
+        {"data": "2024-06-25", "tipo": "JCP", "valor_R$_mm": 263.3, "lpa_bruto": 0.0625},
+        {"data": "2024-07-30", "tipo": "Dividendos intermediários", "valor_R$_mm": 786.9, "lpa_bruto": 0.1875},
+        {"data": "2024-09-24", "tipo": "JCP (a pagar 12/03/2025)", "valor_R$_mm": 293.9, "lpa_bruto": 0.0700}
+      ],
+      "_pratica_corporativa": "JCP trimestral + dividendos intermediários e complementares baseados no lucro semestral; pagamento semestral (6 proventos/ano)."
+    },
+    "cambio_medio_brl_usd": {
+      "3T24": 5.54,
+      "3T23": 4.88,
+      "var_aa_pct": 13.5
+    },
+    "acoes_em_tesouraria_30_09_24": {
+      "qtd_unidades": 1807626,
+      "total_acoes_capital": 4197317998,
+      "pct_capital": 0.04
+    },
+    "auditor": {
+      "firma": "KPMG Auditores Independentes Ltda.",
+      "tipo_relatorio": "Revisão Especial - Sem Ressalva",
+      "data_relatorio": "2024-10-29",
+      "responsavel": "Felipe Brutti da Silva (CRC RS-083891/O-0 T-SC)"
+    },
+    "diretoria_relevante_periodo": {
+      "ceo": "Alberto Yoshikazu Kuba (Diretor Presidente Executivo)",
+      "cfo": "André Luis Rodrigues (Diretor Administrativo e Financeiro)",
+      "ri": "André Menegueti Salgueiro (Diretor de Finanças e RI)"
+    },
+    "_metodologia_capex": {
+      "_observacao": "canonical.kpis_industriais.capex_total = R$ 434,9 mm refere-se ao 3T24 standalone (release MD&A); canonical.fc.capex = -R$ 1.177,9 mm refere-se ao 9M24 acumulado (imobilizado R$ 1.123,8 mm + intangível R$ 54,1 mm), conforme Demonstração do Fluxo de Caixa consolidada."
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "_schema": "industrial/v1",
+  "_schema_path": "sources/structured/_schemas/industrial.json",
+  "_empresa": "weg",
+  "_periodo": "1T24",
+  "_source": "C:/Users/diogo.bodas/Desktop/Equity-wiki/equity-wiki/sources/full/weg/1T24/itr.md",
+  "canonical": {
+    "dre": {
+      "receita_liquida": 8033.3,
+      "receita_bruta": null,
+      "deducoes_receita": null,
+      "custo_produtos_servicos": -5362.6,
+      "lucro_bruto": 2670.7,
+      "margem_bruta_pct": 33.2,
+      "despesas_operacionais": -1067.4,
+      "despesas_com_vendas": -624.2,
+      "despesas_administrativas": -260.0,
+      "despesas_pesquisa_desenvolvimento": null,
+      "outras_receitas_despesas_op": -183.3,
+      "ebitda": 1769.9,
+      "margem_ebitda_pct": 22.0,
+      "depreciacao_amortizacao": 166.5,
+      "ebit": 1603.3,
+      "lucro_operacional": 1603.3,
+      "margem_operacional_pct": 20.0,
+      "equivalencia_patrimonial": 0.1,
+      "receita_financeira": 324.6,
+      "despesa_financeira": -252.2,
+      "resultado_financeiro_liquido": 72.5,
+      "variacao_cambial_liquida": null,
+      "lucro_antes_ir": 1675.8,
+      "ir_csll": -344.3,
+      "impostos_diferidos": 45.8,
+      "aliquota_efetiva_pct": 17.8,
+      "lucro_apos_ir": 1377.3,
+      "participacao_minoritarios": -49.3,
+      "lucro_liquido": 1328.0,
+      "margem_liquida_pct": 16.5,
+      "lpa": 0.31653,
+      "lpa_diluido": 0.31645
+    },
+    "bp": {
+      "ativo_circulante": 21485.0,
+      "caixa_e_equivalentes": 5921.1,
+      "aplicacoes_financeiras_c": 609.1,
+      "contas_a_receber_c": 6374.3,
+      "estoques": 7215.2,
+      "tributos_a_recuperar_c": 597.3,
+      "outros_ativos_c": 768.0,
+      "ativo_nao_circulante": 10496.7,
+      "realizavel_lp": 1237.4,
+      "aplicacoes_financeiras_nc": 47.0,
+      "contas_a_receber_nc": null,
+      "tributos_a_recuperar_nc": 84.7,
+      "imposto_renda_diferido_ativo": 955.0,
+      "investimentos": 76.0,
+      "imobilizado": 7686.7,
+      "intangivel": 1496.6,
+      "direito_de_uso_arrendamento": 638.5,
+      "ativo_total": 31981.7,
+      "passivo_circulante": 11688.9,
+      "fornecedores_c": 2332.0,
+      "emprestimos_financiamentos_c": 2073.5,
+      "debentures_c": null,
+      "arrendamentos_c": 72.2,
+      "obrigacoes_sociais_trabalhistas": 742.3,
+      "obrigacoes_tributarias_c": 810.3,
+      "dividendos_jcp_a_pagar": 219.4,
+      "adiantamentos_clientes_c": 3561.0,
+      "outros_passivos_c": 1873.7,
+      "passivo_nao_circulante": 2325.6,
+      "emprestimos_financiamentos_nc": 611.6,
+      "debentures_nc": null,
+      "arrendamentos_nc": 536.5,
+      "obrigacoes_tributarias_nc": 17.1,
+      "imposto_renda_diferido_passivo": 92.7,
+      "provisao_contingencias": 868.0,
+      "outros_passivos_nc": 199.7,
+      "patrimonio_liquido": 17407.3,
+      "capital_social": 6504.5,
+      "reservas_capital": -135.7,
+      "reservas_lucro": 8329.3,
+      "ajustes_avaliacao_patrimonial": 286.7,
+      "lucros_acumulados": 1094.2,
+      "acoes_em_tesouraria": -52.8,
+      "patrimonio_liquido_controladores": 17407.3,
+      "participacao_nao_controladores": 559.8,
+      "patrimonio_liquido_total": 17967.2,
+      "passivo_pl_total": 31981.7
+    },
+    "fc": {
+      "fc_operacional_antes_capital_giro": 2058.3,
+      "variacao_capital_giro": -480.0,
+      "fc_operacional": 1578.4,
+      "fc_operacional_apos_juros_ir": 1578.4,
+      "capex": -351.5,
+      "aquisicoes_combinacao_negocios": 0.0,
+      "investimentos_aplicacoes_financeiras": -35.6,
+      "fc_investimento": -386.2,
+      "fcl": 1226.9,
+      "captacoes_emprestimos": 602.2,
+      "amortizacoes_emprestimos": -678.4,
+      "dividendos_jcp_pagos": -1725.1,
+      "recompra_acoes": 3.2,
+      "fc_financiamento": -1798.1,
+      "variacao_cambial_caixa": 38.6,
+      "variacao_caixa_liquida": -567.4,
+      "caixa_inicial": 6488.5,
+      "caixa_final": 5921.1
+    },
+    "segmentos": {
+      "eei": {
+        "_label": "Equipamentos Eletroeletrônicos Industriais — ciclo curto + ciclo longo industrial (motores BT/MT/AT, automação, drives, redutores, geração solar, mobilidade elétrica)",
+        "receita_liquida": 3617.5,
+        "receita_brasil": 1293.1,
+        "receita_externo": 2324.4,
+        "ebitda": null,
+        "margem_ebitda_pct": null,
+        "lucro_operacional": null,
+        "margem_operacional_pct": null
+      },
+      "gtd": {
+        "_label": "Geração, Transmissão e Distribuição de Energia (transformadores, subestações, aerogeradores, alternadores, turbinas, GD)",
+        "receita_liquida": 3457.1,
+        "receita_brasil": 2022.1,
+        "receita_externo": 1434.9,
+        "ebitda": null,
+        "margem_ebitda_pct": null,
+        "lucro_operacional": null,
+        "margem_operacional_pct": null
+      },
+      "tintas_vernizes": {
+        "receita_liquida": 342.4,
+        "ebitda": null,
+        "margem_ebitda_pct": null
+      },
+      "outros": {
+        "_label": "Motores Comerciais e Appliance (MCA) — motores monofásicos para bens de consumo (ar-condicionado, lavadoras, motobombas)",
+        "receita_liquida": 616.3,
+        "ebitda": null
+      }
+    },
+    "kpis_industriais": {
+      "capex_total": 351.5,
+      "capex_receita_pct": 4.4,
+      "ebitda_ajustado": 1769.9,
+      "margem_ebitda_ajustada_pct": 22.0,
+      "divida_bruta": 2685.1,
+      "caixa_aplicacoes": 6577.2,
+      "divida_liquida": -3796.5,
+      "divida_liquida_ebitda": null,
+      "roic_pct": 38.9,
+      "roe_pct": null,
+      "working_capital": null,
+      "working_capital_receita_pct": null,
+      "ciclo_de_caixa_dias": null,
+      "dso_dias": null,
+      "dpo_dias": null,
+      "dio_dias": null,
+      "headcount": null,
+      "receita_brasil_pct": 48.5,
+      "receita_externo_pct": 51.5,
+      "carteira_pedidos_backlog": null,
+      "lucro_liquido_ltm": null,
+      "fcl_ltm": null,
+      "dividendos_jcp_lpa": null
+    }
+  },
+  "company_specific": {
+    "segmentos_release_por_mercado": {
+      "_descricao": "Breakdown management view do release (Tabelas EEI/GTD/MCA/T&V) por mercado interno/externo, em R$ mm. Soma reconcilia com a ROL consolidada de 8.033,3.",
+      "eei": {"interno": 1293.1, "externo": 2324.4, "total": 3617.5},
+      "gtd": {"interno": 2022.1, "externo": 1434.9, "total": 3457.1},
+      "mca": {"interno": 293.7, "externo": 322.6, "total": 616.3},
+      "tintas_vernizes": {"interno": 285.5, "externo": 56.9, "total": 342.4}
+    },
+    "segmentos_ifrs_nota_30": {
+      "_descricao": "Segmentos operacionais reportados na nota 30 do ITR (CPC 22/IFRS 8). Diferentes do recorte EEI/GTD do release: agrupa Brasil em Indústria + Energia, com Exterior como segmento único e Eliminações. Valores em R$ mm.",
+      "brasil_industria": {
+        "receita": 3657.0,
+        "lair": 1735.2,
+        "depreciacao": 59.2,
+        "ativos_identificaveis": 8569.4,
+        "passivos_identificaveis": 2993.9
+      },
+      "brasil_energia": {
+        "receita": 1860.9,
+        "lair": 1095.5,
+        "depreciacao": 24.4,
+        "ativos_identificaveis": 4866.7,
+        "passivos_identificaveis": 2518.8
+      },
+      "exterior": {
+        "receita": 5698.8,
+        "lair": 1027.1,
+        "depreciacao": 85.2,
+        "ativos_identificaveis": 15896.5,
+        "passivos_identificaveis": 8841.7
+      },
+      "eliminacoes_ajustes": {
+        "receita": -3183.4,
+        "lair": -2182.0,
+        "depreciacao": -2.2,
+        "ativos_identificaveis": -5719.5,
+        "passivos_identificaveis": -4918.8
+      }
+    },
+    "mercado_geografico": {
+      "interno": 3894.4,
+      "externo_brl": 4138.9,
+      "externo_usd_milhoes": 835.6,
+      "usd_brl_medio_1t24": 4.95,
+      "usd_brl_medio_1t23": 5.20,
+      "var_externo_moeda_local_pct_yoy": 6.8
+    },
+    "capex_split": {
+      "total_brl_mm": 351.5,
+      "brasil_pct": 64,
+      "exterior_pct": 36
+    },
+    "pesquisa_desenvolvimento": {
+      "valor_brl_mm": 272.8,
+      "pct_receita_liquida": 3.4
+    },
+    "vga_consolidada": {
+      "valor_brl_mm": 884.2,
+      "pct_receita_liquida": 11.0,
+      "yoy_pct": 6.9,
+      "qoq_pct": -5.0
+    },
+    "endividamento_detalhe": {
+      "duration_meses": 9.4,
+      "duration_meses_dez23": 10.7,
+      "divida_cp_brl_mm": 2073.5,
+      "divida_cp_pct": 77,
+      "divida_cp_em_reais": 8.0,
+      "divida_cp_em_outras_moedas": 2065.5,
+      "divida_lp_brl_mm": 611.6,
+      "divida_lp_pct": 23,
+      "divida_lp_em_reais": 119.4,
+      "divida_lp_em_outras_moedas": 492.2,
+      "instrumentos_financeiros_derivativos_passivo_liquido": -95.6,
+      "caixa_liquido_brl_mm": 3796.5,
+      "caixa_liquido_dez23": 4114.9,
+      "caixa_liquido_mar23": 2053.0
+    },
+    "roic": {
+      "roic_pct_ltm_1t24": 38.9,
+      "roic_pct_ltm_4t23": 39.2,
+      "roic_pct_ltm_1t23": 31.4,
+      "roic_pct_ex_incentivo_suica": 35.8,
+      "obs": "Incentivo fiscal não-recorrente reconhecido no 4T23 (constituição de controlada na Suíça) infla ROIC LTM ~3,1 pp. Ex-Suíça, ROIC seria 35,8%."
+    },
+    "dividendos_jcp": {
+      "jcp_declarado_1t24_brl_mm": 242.3,
+      "jcp_data_aprovacao": "2024-03-19",
+      "jcp_data_pagamento": "2024-08-14",
+      "politica": "JCP trimestrais + dividendos intermediários e complementares semestrais (6 proventos/ano)"
+    },
+    "estoques_breakdown": {
+      "interno_brl_mm": 3482.8,
+      "externo_brl_mm": 3732.4,
+      "produtos_acabados_total": 3037.5,
+      "produtos_em_elaboracao_total": 1928.2,
+      "materias_primas_total": 2313.2,
+      "provisao_perdas_total": -253.3
+    },
+    "clientes_breakdown": {
+      "interno_brl_mm": 3055.5,
+      "externo_brl_mm": 3384.7,
+      "subtotal_brl_mm": 6440.2,
+      "provisao_pdd_brl_mm": -65.9,
+      "vencidos_acima_180d_brl_mm": 93.8
+    },
+    "acoes": {
+      "total_capital_unidades": 4197317998,
+      "tesouraria_unidades": 1964872,
+      "media_ponderada_basica_mil": 4195353,
+      "media_ponderada_diluida_mil": 4196468
+    },
+    "auditoria": {
+      "auditor": "KPMG Auditores Independentes Ltda.",
+      "data_aprovacao_ca": "2024-04-30",
+      "ressalvas": "sem ressalva"
+    },
+    "yoy_destaques": {
+      "receita_yoy_pct": 4.4,
+      "receita_qoq_pct": -6.2,
+      "interno_yoy_pct": 6.5,
+      "externo_yoy_pct": 2.5,
+      "externo_usd_yoy_pct": 7.5,
+      "ebitda_yoy_pct": 4.8,
+      "ebitda_qoq_pct": -3.2,
+      "margem_ebitda_yoy_pp": 0.1,
+      "lucro_liquido_yoy_pct": 1.6,
+      "lucro_liquido_qoq_pct": -23.9,
+      "margem_liquida_yoy_pp": -0.5,
+      "lpa_yoy_pct": 1.7
+    }
+  }
+}

@@ -4,8 +4,10 @@ sources:
   - sources/digested/notion_baterias_bbi_alvarez_mar_al_rafael_rodrigues_ea800ca3_summary.md
   - sources/digested/notion_bess_absae_2a700ca3_summary.md
   - sources/digested/notion_bess_jesse_catl_54500ca3_summary.md
+  - sources/digested/weg_call_transcript_4T25_summary.md
+  - sources/digested/weg_release_4T25_summary.md
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-04-28
 aliases:
   - Battery Energy Storage System
   - armazenamento de energia
@@ -28,6 +30,7 @@ A CATL identifica 8 aplicações para ESS; as principais são (fonte: sources/di
 4. **Datacenters** — offset de consumo no horário de pico + backup para geradores; segmento de crescimento acelerado.
 5. **Mitigação de curtailment** — projetos solares que pagam TUST proporcional ao pico usam baterias para cortar o pico exportado (fonte: sources/digested/notion_baterias_bbi_alvarez_mar_al_rafael_rodrigues_ea800ca3_summary.md).
 6. **Serviços ancilares** — regulação de frequência, reserva de potência; atualmente mal remunerados no Brasil (fonte: sources/digested/notion_baterias_bbi_alvarez_mar_al_rafael_rodrigues_ea800ca3_summary.md).
+7. **Ônibus elétricos / mobilidade** — baterias para tração de frotas urbanas; segmento em crescimento no portfólio industrial de fabricantes como [[weg|WEG]] (fonte: sources/digested/weg_release_4T25_summary.md).
 
 ---
 
@@ -38,10 +41,10 @@ A CATL identifica 8 aplicações para ESS; as principais são (fonte: sources/di
 Teses ainda majoritariamente teóricas; o principal catalisador é o **Leilão de Reserva de Capacidade (LRK)** (fonte: sources/digested/notion_bess_absae_2a700ca3_summary.md). A ONS historicamente não "enxergava" a bateria no modelo de despacho — a MP 304 estabeleceu o arcabouço legal que viabilizou o leilão (fonte: sources/digested/notion_baterias_bbi_alvarez_mar_al_rafael_rodrigues_ea800ca3_summary.md).
 
 **LRK — parâmetros esperados:**
-- Volume: 1–2 GW de potência para 4 horas = 4–8 GWh de armazenamento (fonte: sources/digested/notion_bess_absae_2a700ca3_summary.md)
-- Blocos de 30 MW distribuídos estrategicamente no sistema elétrico
+- Volume: ~2 GW de potência para 4 horas = ~8 GWh de armazenamento (fonte: sources/digested/notion_bess_absae_2a700ca3_summary.md; sources/digested/weg_call_transcript_4T25_summary.md)
+- Projetos de no mínimo 30 MW; blocos distribuídos estrategicamente no sistema elétrico
 - Modelo de receita garantida por 10 anos com penalidades por performance (semelhante a leilão de transmissão)
-- Cronograma: edital digital em abril de 2026; primeiras instalações ~2028 (12–18 meses após contratação)
+- Cronograma: edital digital previsto para abril de 2026; **leilão previsto para junho 2026** (fonte: sources/digested/weg_call_transcript_4T25_summary.md, em: 2026-04-28); primeiras instalações ~2028 (12–18 meses após contratação)
 - Transmissoras são prováveis grandes players pelo modelo de receita garantida
 - Risco: possível judicialização por inovações regulatórias e critérios locacionais
 
@@ -58,7 +61,7 @@ Mercado já existente: ~100 mil sistemas na Amazônia (~500 MW instalados); hibr
 
 ### Mobilidade elétrica
 
-Garagem com 10% da frota elétrica (~1.000 ônibus) demandaria BESS de ~4–5 MW; financiamento ainda indefinido (fonte: sources/digested/notion_bess_absae_2a700ca3_summary.md).
+Garagem com 10% da frota elétrica (~1.000 ônibus) demandaria BESS de ~4–5 MW; financiamento ainda indefinido (fonte: sources/digested/notion_bess_absae_2a700ca3_summary.md). Fabricantes industriais como WEG já reportam tração e baterias para ônibus elétricos como novo negócio relevante no segmento EEI (fonte: sources/digested/weg_release_4T25_summary.md).
 
 ---
 
@@ -109,7 +112,7 @@ Preços globais caíram ~20% (oversupply na China); mundo instalou ~200 GW em 20
 - **Tecnologia dominante**: LFP (Lítio-Ferro-Fosfato) — estável, ciclos longos, custo em queda (fonte: sources/digested/notion_bess_absae_2a700ca3_summary.md)
 - **Unidade básica**: DC block (~5 MWh); descarga típica de 2–4 horas dependendo do inversor (fonte: sources/digested/notion_bess_jesse_catl_54500ca3_summary.md)
 - **Diferenciador real**: inversor/PCS (Power Conversion System) e software de gestão (SOC/BMS) — não a célula em si (fonte: sources/digested/notion_bess_absae_2a700ca3_summary.md)
-- **Brasil**: sem expertise local para utility-scale; modelo provável é joint venture com fabricantes chineses. MP 304 (isenção de importação) reduziu incentivos para adensamento da cadeia local (fonte: sources/digested/notion_bess_absae_2a700ca3_summary.md)
+- **Brasil**: sem expertise local consolidada para utility-scale; modelo provável é joint venture com fabricantes chineses. MP 304 (isenção de importação) reduziu incentivos para adensamento da cadeia local (fonte: sources/digested/notion_bess_absae_2a700ca3_summary.md)
 - **Depreciação**: fator crítico no modelo econômico — quanto mais ciclos, maior o desgaste (fonte: sources/digested/notion_baterias_bbi_alvarez_mar_al_rafael_rodrigues_ea800ca3_summary.md)
 - **Wait time**: GSU (Grid Step-Up transformer) tem espera de 1,5–2 anos — gargalo de supply chain relevante (fonte: sources/digested/notion_bess_jesse_catl_54500ca3_summary.md)
 
@@ -135,7 +138,7 @@ Preços globais caíram ~20% (oversupply na China); mundo instalou ~200 GW em 20
 
 | Empresa | Ticker | Papel |
 |---|---|---|
-| [[weg\|WEG]] | WEGE3 | Player local relevante; incapaz de competir em utility-scale sem parceria chinesa |
+| [[weg\|WEG]] | WEGE3 | Player local com track record em BESS desde 2019 (tecnologia NPS/EUA); nova fábrica em Itajaí (SC) em construção (conclusão prevista 2S27); enfrenta competição chinesa em utility-scale |
 | [[byd\|BYD]] | BYD34 | Fabricante chinês com presença local |
 | Huawei | — | Maior player mencionado; time local estabelecido |
 | Eletrobrás | ELET3/ELET6 | Associada ABSAE; papel na hibridização de térmicas no Amazonas |
@@ -143,7 +146,18 @@ Preços globais caíram ~20% (oversupply na China); mundo instalou ~200 GW em 20
 | UCB Power | — | Cofundador da ABSAE; especialista em soluções de armazenamento |
 | Matrix / Brasol | — | Comercializadoras operando BaaS no mercado SIENAI |
 
-(fonte: sources/digested/notion_bess_absae_2a700ca3_summary.md; sources/digested/notion_baterias_bbi_alvarez_mar_al_rafael_rodrigues_ea800ca3_summary.md)
+(fonte: sources/digested/notion_bess_absae_2a700ca3_summary.md; sources/digested/notion_baterias_bbi_alvarez_mar_al_rafael_rodrigues_ea800ca3_summary.md; sources/digested/weg_call_transcript_4T25_summary.md)
+
+---
+
+## WEG — posicionamento em BESS
+
+A [[weg|WEG]] tem histórico em BESS desde 2019 via tecnologia da subsidiária NPS (EUA), com relacionamento estabelecido junto a utilities americanas. Para o leilão brasileiro (LRK 2026), a empresa conta com:
+- Track record de soluções BESS aplicadas no mercado norte-americano
+- Nova fábrica em Itajaí (SC) incluída no CAPEX aprovado para 2026 (R$ 3,6 bi total — o maior da história da companhia), com conclusão prevista para 2S27 (fonte: sources/digested/weg_call_transcript_4T25_summary.md, em: 2026-04-28)
+- Regulação de conteúdo local para BESS ainda indefinida, mas monitorada de perto pela empresa
+
+Competição com fabricantes chineses é esperada no segmento utility-scale, como ocorreu anteriormente em eólico e solar (fonte: sources/digested/weg_call_transcript_4T25_summary.md).
 
 ---
 
@@ -162,8 +176,9 @@ Preços globais caíram ~20% (oversupply na China); mundo instalou ~200 GW em 20
 | Instrumento | Conteúdo |
 |---|---|
 | **MP 304** | Estabelece conceito, legislação e transversalidade do armazenamento; isenção de importação para projetos de infraestrutura (REIT, até ~R$ 1 bi [?]) |
-| **LRK** | Leilão de Reserva de Capacidade; publicação da portaria em 10/11/2025 |
+| **LRK** | Leilão de Reserva de Capacidade; publicação da portaria em 10/11/2025; leilão previsto junho 2026 |
 | **ONS** | Historicamente não reconhecia baterias no despacho; mudança em curso com MP 304 |
+| **Conteúdo local** | Regulação ainda indefinida para BESS; monitorada por fabricantes nacionais como WEG (fonte: sources/digested/weg_call_transcript_4T25_summary.md, em: 2026-04-28) |
 
 Ponto não contemplado pela MP 304: figura do agente agregador de serviços energéticos (demanda do setor). Remuneração por ancilares sem regulamentação clara (fonte: sources/digested/notion_bess_absae_2a700ca3_summary.md).
 
@@ -171,9 +186,11 @@ Ponto não contemplado pela MP 304: figura do agente agregador de serviços ener
 
 ## Riscos e pontos em aberto
 
-- Leilão de capacidade sem cronograma definitivo confirmado; risco de judicialização
+- Leilão de capacidade (LRK) previsto para junho 2026 mas ainda sem cronograma definitivo confirmado; risco de judicialização (fonte: sources/digested/weg_call_transcript_4T25_summary.md, em: 2026-04-28)
 - Isenção fiscal da MP 304: aplica-se a componentes individuais ou apenas ao BESS completo? Interpretação em debate
 - Regulamentação de licenciamento ambiental e segurança contra incêndios ainda pendente
+- Regulação de conteúdo local para BESS indefinida — impacto relevante sobre competitividade de fabricantes nacionais vs. chineses (fonte: sources/digested/weg_call_transcript_4T25_summary.md, em: 2026-04-28)
 - Opex no Brasil (~5%) muito acima do padrão EUA (~1–2%) — dado incerto, requer verificação independente (fonte: sources/digested/notion_baterias_bbi_alvarez_mar_al_rafael_rodrigues_ea800ca3_summary.md)
 - SELIC alta comprime modelos BaaS e aumenta custo de capital para projetos de longa maturação
 - Adensamento local improvável enquanto MP 304 zera tarifa de importação
+- Competição com chineses no segmento utility-scale esperada, como ocorreu em eólico e solar (fonte: sources/digested/weg_call_transcript_4T25_summary.md)
