@@ -49,6 +49,7 @@ def try_opendataloader(pdf_path: Path, output_path: Path) -> bool:
                     '--format', 'markdown',
                     '--use-struct-tree',
                     '--table-method', 'cluster',
+                    '-q',
                     '-o', tmpdir,
                 ],
                 capture_output=True, text=True, timeout=300,

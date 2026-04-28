@@ -278,7 +278,7 @@ echo ""
 EMPRESA=""
 MANIFEST_PATH=""
 DISPLAY_NAME=""
-SCHEMA_PATH="sources/structured/_schemas/incorporadora.json"
+SCHEMA_PATH=""
 
 for f in "$MANIFESTS"/*.json; do
     [[ -f "$f" ]] || continue
@@ -286,6 +286,7 @@ for f in "$MANIFESTS"/*.json; do
         EMPRESA=$(basename "$f" .json)
         MANIFEST_PATH="$f"
         DISPLAY_NAME=$(python -c "import sys,json; print(json.load(open(sys.argv[1])).get('display_name',''))" "$f")
+        SCHEMA_PATH=$(python -c "import sys,json; print(json.load(open(sys.argv[1])).get('setor_schema',''))" "$f")
         break
     fi
 done
@@ -295,8 +296,12 @@ if [[ -z "$EMPRESA" ]]; then
     exit 1
 fi
 
+# Fall back to incorporadora schema when manifest doesn't declare one (legacy default).
+[[ -z "$SCHEMA_PATH" ]] && SCHEMA_PATH="sources/structured/_schemas/incorporadora.json"
+
 echo "Empresa:  $EMPRESA ($DISPLAY_NAME)"
 echo "Manifest: $MANIFEST_PATH"
+echo "Schema:   $SCHEMA_PATH"
 echo ""
 
 # --- Scan undigested/ ---
@@ -651,8 +656,9 @@ TODAY=$(date +%Y-%m-%d)
 for digested in "${DIGESTED_FILES[@]}"; do
     dname=$(basename "$digested" _summary.md)
     suffix="${dname#${EMPRESA}_}"
-    tipo=$(echo "$suffix" | rev | cut -d_ -f2- | rev)
-    period=$(echo "$suffix" | rev | cut -d_ -f1 | rev)
+    # rev(1) is missing on git-bash for Windows — use bash parameter expansion instead.
+    period="${suffix##*_}"
+    tipo="${suffix%_*}"
     echo "[wiki-queue] $TODAY | $EMPRESA | $tipo | $period | $digested" >> "$REPO_ROOT/log.md"
     python "$SCRIPT_DIR/lib/wiki_queue.py" enqueue \
         --empresa "$EMPRESA" --type "$tipo" --periodo "$period" \
