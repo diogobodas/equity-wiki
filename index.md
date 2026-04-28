@@ -31,3 +31,7 @@ _No pages yet._
 ## Notas (promoted)
 
 _No pages yet._
+
+## Trackers
+
+- [[calendario_resultados]] — Calendário de divulgação por trimestre + status de cobertura (wiki/tese) das 37 empresas em cobertura ativa.
