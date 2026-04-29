@@ -3,14 +3,15 @@ type: digested
 empresa: weg
 ticker: WEGE3
 documento: fatos_relevantes_batch
-periodos: [1T25, 3T25, 4T25]
+periodos: [1T25, 3T25, 4T25, 2T26]
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-04-29
 sources:
   - sources/full/weg/1T25/fato_relevante_863996.md
   - sources/full/weg/3T25/fato_relevante_952369.md
   - sources/full/weg/4T25/fato_relevante_975725.md
   - sources/full/weg/4T25/fato_relevante_975729.md
+  - sources/full/weg/2T26/previa_operacional.md
 ---
 
 # WEG — Fatos Relevantes (batch)
@@ -32,3 +33,8 @@ Conselho convocou AGE para 19/12/2025 para declarar dividendos de R$5,196bi sobr
 
 **2025-11-28 | seq 975729 | Dividendos complementares + JCP (pagamento dez/2025)**
 Conselho aprovou: (i) dividendos complementares de R$1,434bi (R$0,3417/ação, ex-date 04/dez, pagamento 12/dez/2025, sem IR); (ii) JCP de R$467mi (R$0,1113/ação bruto / R$0,0946 líquido após 15% IR, mesmas datas); (iii) antecipação do JCP anunciado em 23/set/2025 — antes previsto para 11/mar/2026, adiantado para 12/dez/2025. (fonte: sources/full/weg/4T25/fato_relevante_975729.md)
+
+## 2T26
+
+**2026-04-14 | Comunicado ao Mercado | Agenda de divulgação 1T26**
+Companhia em período de silêncio a partir de 14/04/2026; resultados do 1T26 divulgados em 29/04/2026 (antes da abertura); teleconferência em 30/04/2026 às 11h BRT / 10h EDT / 15h BST. (fonte: sources/full/weg/2T26/previa_operacional.md)

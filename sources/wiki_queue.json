@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "empresa": "weg",
+    "type": "fatos_relevantes",
+    "periodo": "batch",
+    "digested": "sources/digested/weg_fatos_relevantes_batch_summary.md",
+    "queued_on": "2026-04-29"
+  },
+  {
+    "empresa": "weg",
+    "type": "itr",
+    "periodo": "1T26",
+    "digested": "sources/digested/weg_itr_1T26_summary.md",
+    "queued_on": "2026-04-29"
+  },
+  {
+    "empresa": "weg",
+    "type": "release",
+    "periodo": "1T26",
+    "digested": "sources/digested/weg_release_1T26_summary.md",
+    "queued_on": "2026-04-29"
+  }
+]
