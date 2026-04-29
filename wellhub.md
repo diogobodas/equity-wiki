@@ -15,15 +15,16 @@ sources:
   - sources/digested/notion_smartfit_urquiza_bt_ceo_94300ca3_summary.md
   - sources/digested/notion_skyfit_franqueada_thais_2c000ca3_summary.md
   - sources/digested/notion_smart_pos_1t25_rizzardo_36900ca3_summary.md
+  - sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md
 created: 2026-04-16
-updated: 2026-04-21
+updated: 2026-04-29
 aliases:
   - Gympass
 ---
 
 # Wellhub
 
-Empresa privada (antiga Gympass) de beneficios corporativos de bem-estar e fitness. Opera via modelo B2B -- conecta empresas empregadoras a redes de academias, estudios e parceiros de saude. Nao listada no Brasil. Informacoes baseadas em conversas com executivos da Wellhub (Raphael Gouveia jun/2024, set/2024; Rodrigo Gomes set/2025) e com parceiros do setor (Panobianco, Bodytech, SmartFit, Skyfit, TotalPass) entre 2024 e 2026.
+Empresa privada (antiga Gympass) de beneficios corporativos de bem-estar e fitness. Opera via modelo B2B -- conecta empresas empregadoras a redes de academias, estudios e parceiros de saude. Nao listada no Brasil. Informacoes baseadas em conversas com executivos da Wellhub (Raphael Gouveia jun/2024, set/2024; Rodrigo Gomes set/2025; Renato VP PME abr/2026) e com parceiros do setor (Panobianco, Bodytech, SmartFit, Skyfit, TotalPass) entre 2024 e 2026.
 
 ---
 
@@ -35,9 +36,13 @@ A Wellhub opera com tres tipos de clientes: (1) empresa empregadora (contrata sl
 
 A empresa paga um valor por vida (por colaborador ativo) em funcao do tamanho do quadro. Existe o "Wellhub Plus" que permite subsidio adicional -- podendo baratear ou isentar completamente algumas modalidades do plano para o colaborador (fonte: sources/digested/notion_smartfit_wellhub_raphael_gouveia_3c700ca3_summary.md). Nem toda empresa que contrata subsidia integralmente o plano (fonte: sources/digested/notion_wellhub_rodrigo_gomes_wellhub_e9800ca3_summary.md).
 
-**Sem o subsidio corporativo, o modelo nao e viavel para o colaborador** -- o custo do plano sem subsidio nao compete com mensalidade direta na academia (fonte: sources/digested/notion_smartfit_wellhub_raphael_gouveia_3c700ca3_summary.md). Isso torna a Wellhub estruturalmente dependente do canal B2B e do ciclo de emprego formal/orcamento de RH (fonte: sources/digested/notion_smartfit_wellhub_douglas_demore_5d100ca3_summary.md).
+**Sem o subsidio corporativo, o modelo nao e viavel para o colaborador** -- o custo do plano sem subsidio nao compete com mensalidade direta na academia (fonte: sources/digested/notion_smartfit_wellhub_raphael_gouveia_3c700ca3_summary.md). Isso torna a Wellhub estruturalmente dependente do canal B2B e do ciclo de emprego formal/orcamento de RH (fonte: sources/digested/notion_smartfit_wellhub_douglas_demore_5d100ca3_summary.md). A Wellhub acredita fortemente no modelo B2B e nao pretende migrar para B2C no estilo Classpass (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
 
 **70% das vendas** (referencia jun/2024) vinham de parcerias B2B -- brokers, seguradoras e bancos. O beneficio pode ser oferecido via programa de rewards, desconto em folha ou desconto direto na folha de pagamentos (fonte: sources/digested/notion_raphael_gouveia_wellhub_04800ca3_summary.md).
+
+**Segmento PME:** Wellhub surgiu mais focado em grandes corporacoes, mas o PME cresceu muito nos ultimos anos e e segmento relevante tanto no Brasil quanto globalmente (referencia abr/2026) (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
+
+**"Breakage" e margem do usuario:** Renato (VP PME Global) define "breakage" como a margem do usuario no modelo; quando cai abaixo de zero, cria incentivo interno para parar de crescer a base (assumindo ausencia de fee de RH). A Wellhub tem 100% dos incentivos voltados para crescer ao maximo a base de usuarios (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md). A questao estrategica de longo prazo e o que ocorre com essa margem num mercado com dois produtos cada vez mais similares -- a Alemanha (quatro players maduros) pode ser o laboratorio de referencia.
 
 ---
 
@@ -57,7 +62,11 @@ Mix da rede Panobianco (jan/2026): ~60% Basic+, ~20% Basic, ~20% Silver (fonte: 
 
 Frequencia media da rede [[panobianco]]: 7 visitas/mes (~R$ 70/mes de repasse efetivo); em cidades nao turisticas: ~15 visitas/mes (~R$ 100/mes) (fonte: sources/digested/notion_panobianco_panobianco_bob_ford_2e200ca3_summary.md). Media de check-ins por usuario na plataforma Wellhub: 9x (periodo nao especificado) (fonte: sources/digested/notion_smartfit_wellhub_douglas_demore_5d100ca3_summary.md).
 
+**Copay e reajuste:** a Wellhub faz reajuste de copay 1x por ano em todas as geografias; excecao foi EUA em 2025, sem reajuste (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
+
 **Canibalizacao interna:** o plano Basic custa ao usuario final ~R$ 89,90/mes -- em comparacao a mensalidade direta de R$ 139,90. Esse diferencial e reconhecido como fator que dificulta conversao de aluno de agregador para mensalidade propria; ha discussao interna na rede sobre se o preco deve ser mantido ou reduzido em nov/2026 para nao aprofundar a canibalizacao (fonte: sources/digested/notion_panobianco_panobianco_jessica_menali_25_03_32e00ca3_summary.md).
+
+**Feature de multiplos check-ins por dia** (movimento do [[totalpass]]): avaliacao da Wellhub (abr/2026) e que quase ninguem faz mais de um exercicio por dia; o percentual de usuarios que fariam double check-in e "bem pequeno" -- nicho de recovery e yoga. Categorizado junto com international check-in (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
 
 ---
 
@@ -113,7 +122,15 @@ A [[bodytech]] utilizou a exclusividade com a Wellhub como poder de barganha par
 
 [[totalpass]] (subsidiaria da [[smartfit]]) e o principal concorrente direto no mercado B2B de beneficio fitness no Brasil. Diferencial desfavoravel ao TotalPass: presenca em apenas 5 das 30 academias mais demandadas; canal de vendas concentrado em SVA (Alelo), de rentabilidade mais baixa; academias parceiras tem receio de fechar exclusividade com TotalPass por saber que pertence a SmartFit -- risco de mapeamento de regioes para aberturas concorrentes (fonte: sources/digested/notion_smartfit_wellhub_raphael_gouveia_3c700ca3_summary.md).
 
+**Diferencial de preco:** a Wellhub cobra aproximadamente 3x mais do que o TotalPass na maioria dos processos competitivos nos quais tem acesso ao preco do concorrente (referencia abr/2026). A Wellhub esta sendo "mais flexivel com desconto, de forma comportada" -- preco medio por segmento caiu levemente, mas nao e fator de preocupacao interna. O TotalPass tem queimado preco ha anos, principalmente no Mexico; avaliacao interna da Wellhub e que dinamica similar deve ocorrer no Brasil (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md, em: 2026-04-27).
+
 Comparacao de precificacao no canal B2B (referencia ~2024): TotalPass cotava ~R$ 7/vida vs. Gympass ~R$ 5/vida; Gympass era agressivo em isencao de cobranca por ate 6 meses (fonte: sources/digested/notion_smartfit_silvia_totalpass_9f400ca3_summary.md).
+
+**Convergencia de produto:** em numero de academias, a Wellhub ainda esta a frente e presente em locais onde o TotalPass nao esta; porem os produtos ja sao muito similares. Ja ha empresas pedindo o TotalPass ativamente. Quantidade de empresas contratando ambos simultaneamente (Wellhub + TotalPass) ainda e baixa no Brasil (referencia abr/2026) (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md, em: 2026-04-27). A Wellhub tem aproximadamente 15 anos de vantagem de tempo de mercado frente ao TotalPass (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
+
+**Movimento B2C do TotalPass (fev/2026):** TotalPass anunciou modalidade B2C -- qualquer portador de cartao Ticket ou Alelo pode acessar o produto independentemente de a empresa pagar o plano. Avaliacao da Wellhub: o plano B2C e mais caro e nao da o mesmo acesso a planos na maior parte da SmartFit; produto com poucos players selecionados. Estimativa da Wellhub sobre percentual B2C (family & friends) do TotalPass: "entre 5%-30%" (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md, em: 2026-02-01).
+
+**Estrategia no PME via beneficios:** TotalPass se moveu agressivamente no segmento PME via canais de beneficios (Ticket e Alelo), oferecendo o produto gratuitamente para clientes a partir de 100 vidas (referencia abr/2026) (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md, em: 2026-04-27).
 
 Market share pre-migracao Panobianco (referencia mar/2026): aproximadamente 1/3 TotalPass, 2/3 WellHub na rede. Projecao para SP com entrada de novos players: agregadores podem chegar a 60-70% da base total de alunos (fonte: sources/digested/notion_panobianco_lucas_broggio_coo_panobianco_31700ca3_summary.md).
 
@@ -144,7 +161,7 @@ Dinamicas observadas: frequencia de aluno de agregador subindo; frequencia de al
 
 Caso [[bluefit]] (set/2024): Bluefit exigiu ajuste de preco ou saida da rede; Wellhub perdeu 30% dos parceiros Bluefit, mas 70% dos usuarios Wellhub via Bluefit permaneceram na plataforma -- migrando para plano que incluia Bluefit ou ja estando em plano superior (fonte: sources/digested/notion_smartfit_wellhub_douglas_demore_5d100ca3_summary.md).
 
-**Q1 2026 -- primeira queda desde a pandemia:** unidades maduras Panobianco registraram queda de receita e alunos em Q1 2026 vs. Q1 2025 (que foi o melhor trimestre da historia do setor). Exemplo unidade Piracicaba 1: faturamento jan/25 R$ 285k -> jan/26 R$ 217k; alunos proprios 1.337 -> 972; lucro R$ 80k -> R$ 25k. Destino dos alunos perdidos: ~70% para concorrentes, ~30% para agregadores (fonte: sources/digested/notion_panobianco_panobianco_jessica_menali_25_03_32e00ca3_summary.md).
+**Q1 2026 -- primeira queda desde a pandemia:** unidades maduras Panobianco registraram queda de receita e alunos em Q1 2026 vs. Q1 2025 (que foi o melhor trimestre da historia do setor). Exemplo unidade Piracicaba 1: faturamento jan/25 R$ 285k -> jan/26 R$ 217k; alunos proprios 1.337 -> 972; lucro R$ 80k -> R$ 25k. Destino dos alunos perdidos: ~70% para concorrentes, ~30% para agregadores (fonte: sources/digested/notion_panobianco_panobianco_jessica_menali_25_03_32e00ca3_summary.md). A avaliacao da Wellhub (abr/2026) e que a atividade do mercado de academias como um todo no 1Q nao foi aquem do esperado (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
 
 ---
 
@@ -164,7 +181,9 @@ Caso [[bluefit]] (set/2024): Bluefit exigiu ajuste de preco ou saida da rede; We
 
 ## Contexto regulatorio -- PAT e SVA
 
-O programa PAT e via de distribuicao B2B da Wellhub via operadoras como [[alelo]], Sodexo e Ticket. Com a mudanca regulatoria do SVA, o beneficio passou a poder ser oferecido apenas no ambito de seguranca alimentar. A avaliacao de Gouveia (set/2024): houve "construcao equivocada de narrativa" do Ministerio do Trabalho; na pratica, **pouco mudou** -- inclusive preco (fonte: sources/digested/notion_raphael_gouveia_wellhub_04800ca3_summary.md). Analista de setor corrobora (mai/2025): mudanca de regulacao do PAT teve pouco efeito pratico (fonte: sources/digested/notion_smart_pos_1t25_rizzardo_36900ca3_summary.md).
+O programa PAT e via de distribuicao B2B da Wellhub via operadoras como [[alelo]], Sodexo e Ticket. A Wellhub usa nomenclatura interna "Food Voucher" para o que o mercado chama de PAT; nem todos os modelos enquadrados internamente sao o PAT da lei em sentido estrito (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md). Mudancas regulatorias recentes tem limitado cada vez mais o que pode ser usado no modelo; a dinamica com parceiros (Ticket, Alelo) esta em transformacao -- a Wellhub ainda tem parceiros exclusivos e novas modalidades comecando a aparecer (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
+
+Com a mudanca regulatoria do SVA, o beneficio passou a poder ser oferecido apenas no ambito de seguranca alimentar. A avaliacao de Gouveia (set/2024): houve "construcao equivocada de narrativa" do Ministerio do Trabalho; na pratica, **pouco mudou** -- inclusive preco (fonte: sources/digested/notion_raphael_gouveia_wellhub_04800ca3_summary.md). Analista de setor corrobora (mai/2025): mudanca de regulacao do PAT teve pouco efeito pratico (fonte: sources/digested/notion_smart_pos_1t25_rizzardo_36900ca3_summary.md).
 
 - O **rebate** ja havia sido eliminado cerca de um ano antes da mudanca do SVA -- o marco simbolico interno foi a "festa de final de ano com carrinho de pipoca" (fonte: sources/digested/notion_raphael_gouveia_wellhub_04800ca3_summary.md).
 - **Empresas menores** quase nao tinham esse beneficio antes da mudanca (fonte: sources/digested/notion_raphael_gouveia_wellhub_04800ca3_summary.md).
@@ -176,7 +195,8 @@ O programa PAT e via de distribuicao B2B da Wellhub via operadoras como [[alelo]
 
 - **Brasil:** margens positivas mas descritas como "bem proximas de zero" (set/2024). A operacao tem "margem bem redonda"; 2023 registrou desafios de integracao que pressionaram a margem (fonte: sources/digested/notion_smartfit_wellhub_douglas_demore_5d100ca3_summary.md; sources/digested/notion_smartfit_wellhub_raphael_gouveia_3c700ca3_summary.md). Set/2025: Brasil crescendo bem, sem impacto negativo na migracao de parceiros para tiers de preco mais altos (fonte: sources/digested/notion_wellhub_rodrigo_gomes_wellhub_e9800ca3_summary.md).
 - **Mexico:** margens negativas; engajamento mais baixo; mercado mais voltado ao balcao; empresas querem se associar a marca SmartFit, dinamica diferente do Brasil (fonte: sources/digested/notion_smartfit_wellhub_douglas_demore_5d100ca3_summary.md; sources/digested/notion_smartfit_wellhub_raphael_gouveia_3c700ca3_summary.md).
-- **EUA:** Wellhub "muito animada" com o desenvolvimento no mercado americano (set/2024) (fonte: sources/digested/notion_smartfit_wellhub_raphael_gouveia_3c700ca3_summary.md).
+- **EUA:** Wellhub "muito animada" com o desenvolvimento no mercado americano (set/2024) (fonte: sources/digested/notion_smartfit_wellhub_raphael_gouveia_3c700ca3_summary.md). Copay sem reajuste em 2025 -- excecao a politica anual (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
+- **Alemanha:** Wellhub adquiriu recentemente um player local (abr/2026). Mercado mais maduro, com quatro players fazendo o mesmo produto -- referencia para entender a dinamica de longo prazo do segmento de agregadores. Particularidade: muitas empresas tem dois ou mais provedores simultaneamente; usuario e pago por player aderido (unico mercado no mundo nesse formato). A Wellhub avalia que esse formato educou o mercado local (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
 
 ---
 
@@ -187,18 +207,21 @@ O programa PAT e via de distribuicao B2B da Wellhub via operadoras como [[alelo]
 - O Panobianco tornou-se a primeira rede exclusiva; sustentabilidade da exclusividade e citada como risco pelo proprio COO da Panobianco.
 - Canibalizacao balcao vs. agregador esta sob investigacao interna na Panobianco; Q1 2026 mostra pela primeira vez queda de receita e alunos simultaneamente, com parcela dos alunos perdidos migrando para agregadores.
 - A entrada massiva de agregadores (projetada em 60-70% da base em SP) pode comprimir estruturalmente o ticket medio das redes de academias parceiras no longo prazo.
-- **Duvida aberta:** qual o impacto concreto da mudanca do PAT (out/2024) sobre a base elegivel e o modelo de revenda?
+- **O diferencial de produto Wellhub vs. TotalPass esta se estreitando** (abr/2026): com produtos cada vez mais similares e TotalPass queimando preco, o colchao estrutural da Wellhub parece ser o fee de RH e a vantagem de escala de academias. A Alemanha (mercado com 4 players maduros e modelo payer-subscriber) e o laboratorio de referencia para o longo prazo.
+- **Duvida aberta:** qual o floor de "breakage" (margem do usuario) num mercado com dois produtos equivalentes, sem fee de RH?
+- **Duvida aberta:** qual o impacto concreto da mudanca do PAT/Food Voucher sobre a base elegivel e o modelo de revenda com Ticket e Alelo?
 - **Follow-up:** confirmar base de usuarios atual (3 a 4 mm de set/2024) e evolucao para 2025-2026.
 - **Follow-up:** acompanhar resolucao do processo no CADE (Wellhub vs. TotalPass).
+- **Follow-up:** acompanhar execucao da aquisicao alema e impacto do modelo payer-subscriber no produto/go-to-market no Brasil.
 
 ---
 
 ## Empresas relacionadas
 
 - **[[smartfit]]** (SMFT3) -- maior rede parceira; ~90% dos check-ins; SmartFit e dona do [[totalpass]] (concorrente)
-- **[[totalpass]]** -- concorrente direto; encerrou relacao com Panobianco em fev/2026
+- **[[totalpass]]** -- concorrente direto; encerrou relacao com Panobianco em fev/2026; lancou modalidade B2C em fev/2026
 - **[[panobianco]]** -- primeira rede de academias com exclusividade Wellhub (desde dez/2025)
 - **[[bodytech]]** -- parceiro ancora; usou exclusividade para emitir CRI
 - **[[bluefit]]** -- ex-parceiro com conflito de precificacao (set/2024)
 - **[[selfit]]** -- rede de academias, parceira indireta
-- **[[alelo]]**, Sodexo, Ticket -- operadoras PAT, parceiras no canal indireto B2B
+- **[[alelo]]**, Sodexo, Ticket -- operadoras PAT/Food Voucher, parceiras no canal indireto B2B

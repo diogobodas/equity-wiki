@@ -24,10 +24,11 @@ sources:
   - sources/digested/notion_panobianco_panobianco_antovio_vicentim_franquiado_4d600ca3_summary.md
   - sources/digested/notion_smartfit_thiago_bizotto_franquiado_panobianco_7fe00ca3_summary.md
   - sources/digested/notion_smart_pos_1t25_rizzardo_36900ca3_summary.md
+  - sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md
 aliases:
   - TotalPass
 created: 2026-04-16
-updated: 2026-04-21
+updated: 2026-04-29
 ---
 
 # TotalPass
@@ -80,6 +81,8 @@ Quatro canais principais (fonte: sources/digested/notion_smartfit_smartfit_xp_co
 Histórico: o TotalPass iniciou mais em PMEs pela cobertura de rede inicialmente limitada; grandes corporações (Bradesco, Banco do Brasil, Magalu) exigem escala de rede (fonte: sources/digested/notion_smartfit_smartfit_edgar_xp_pos_1t25_76e00ca3_summary.md). Taxa de adesão no canal direto: 40-45% das vidas contratadas de fato utilizavam (fonte: sources/digested/notion_smartfit_silvia_totalpass_9f400ca3_summary.md).
 
 Clientes conquistados (Brasil): **Carrefour** e **Bradesco** (iniciais), **Nestlé**, **Simpar** (fim de 2024), **Banco do Brasil** (2025), **Uber** (passou a pagar após renegociação — antes pagava zero) (fonte: sources/digested/notion_smartfit_smartfit_3b400ca3_summary.md, sources/digested/notion_smartfit_smartfit_xp_conference_87800ca3_summary.md, sources/digested/notion_smartfit_smartfit_laic_2f500ca3_summary.md).
+
+**Estratégia PME via canais de benefícios (2026):** TotalPass está se movendo agressivamente no segmento PME via Ticket e Alelo, com estratégia de oferecer o produto gratuitamente para empresas a partir de 100 vidas (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md). Em torno de fev/2026, o TotalPass anunciou uma modalidade **B2C**: qualquer portador de cartão Ticket ou Alelo pode acessar o TotalPass independentemente de a empresa pagar o benefício. Na avaliação da Wellhub, o B2C do TotalPass é mais caro e não dá acesso aos mesmos planos da maior parte da Smart Fit — produto com poucos parceiros selecionados; estimativa de Renato (VP PME Wellhub) sobre o percentual B2C do TotalPass: "entre 5%-30%" (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
 
 ---
 
@@ -157,6 +160,12 @@ Gap de tarifas entre TP1 e TP2 ficou na média de 12-17% em 2025; expectativa de
 - Gestão Smart Fit está disposta a sacrificar bps de margem das lojas se necessário, priorizando crescimento B2B (fonte: sources/digested/notion_smartfit_smartfit_laic_2f500ca3_summary.md).
 - Janela de entrada em novas corporações: renovação de contratos (fonte: sources/digested/notion_smartfit_smartfit_03600ca3_summary.md).
 - Wellhub aumentou o copay por usuário no plano de entrada em janeiro de 2026; TotalPass não acompanhou o aumento (fonte: sources/digested/notion_smartfit_smartfit_laic_2f500ca3_summary.md).
+- Na perspectiva da Wellhub (abr/2026): Wellhub cobra ~3x mais do que o TotalPass na maioria dos processos competitivos com acesso ao preço; a Wellhub responde sendo "mais flexível com desconto, mas de forma comportada" — preço médio por segmento caiu um pouco, mas não é fator de preocupação (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
+- TotalPass tem queimado preço há anos, principalmente no México; cresceu recebendo muito pouco das empresas e pagando mais para as academias — na visão da Wellhub, dinâmica parecida ocorre no Brasil (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
+- Wellhub avalia ter ~15 anos de vantagem de tempo de mercado frente ao TotalPass; em número de academias ainda está à frente e presente em locais onde o TotalPass não está. Porém, os produtos já são muito similares e empresas já pedem o TotalPass ativamente (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
+- Quantidade de empresas com os dois produtos (Wellhub + TotalPass) ainda é baixa no Brasil (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
+- Feature de múltiplos check-ins por dia (movimento do TotalPass): Wellhub avalia que quase ninguém faz mais de um exercício por dia — % de usuários com double check-in é "bem pequeno" (nicho de recovery, yoga); categorizado junto com international check-in (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
+- **Referência da Alemanha:** mercado mais maduro com quatro players fazendo o mesmo produto; muitas empresas têm dois ou mais provedores (única geografia do mundo nesse formato, pago por player aderido). Wellhub adquiriu recentemente um player alemão — Alemanha como laboratório para a dinâmica de longo prazo do segmento (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
 
 ---
 
@@ -204,3 +213,5 @@ Franquiados relatavam que o TotalPass crescia de forma "assustadora": de ~2% par
 - Qual o impacto quantitativo do crescimento rápido de academias no TP2 (0 em fin/2024 para ~406 em mar/2026) sobre a dinâmica de alunos e ticket médio das academias Smart? (fonte: sources/digested/notion_smartfit_perguntas_smartfit_pos_4t25_32000ca3_summary.md).
 - Frequência de disclosure do gap receita vs. frequência é anual — limita granularidade de acompanhamento trimestral (fonte: sources/digested/notion_smartfit_smartfit_2t25_call_84e00ca3_summary.md).
 - Queda de alunos médios por academia Smart (-13% no 4T25) é muito maior do que o mix TotalPass sozinho explicaria (~2%) — driver adicional não identificado (fonte: sources/digested/notion_smartfit_perguntas_smartfit_pos_4t25_32000ca3_summary.md).
+- Percentual B2C do TotalPass: Renato (VP PME Wellhub) estima "entre 5%-30%" — range amplo confirma que a dimensão da modalidade B2C via Ticket/Alelo é ainda pouco observável externamente (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).
+- O que faria o "breakage" de margem do usuário cair num mercado com dois produtos já equivalentes? Wellhub aponta o fee de RH como colchão estrutural — acompanhar se TotalPass começa a cobrar fee de RH sistematicamente (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md).

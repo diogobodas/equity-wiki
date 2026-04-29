@@ -20,8 +20,10 @@ sources:
   - sources/digested/notion_caixa_seguridade_9cc00ca3_summary.md
   - sources/digested/notion_capstone_pine_2ea00ca3_summary.md
   - sources/digested/notion_fgts_conselho_curador_24_03_32d00ca3_summary.md
+  - sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md
+  - sources/digested/notion_call_fgts_34b00ca3_summary.md
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-04-29
 ---
 
 # Consignado Privado
@@ -58,7 +60,7 @@ O mecanismo de proteção ao credor combina múltiplas camadas:
 - **Seguro prestamista**: embutido na operação; cobre saldo devedor em eventos como demissão ou morte. (fonte: sources/digested/notion_consignado_privado_bmp_maria_do_socorro_2fd00ca3_summary.md)
 - **Multa ao empregador**: 30%, prevista na Lei 15.179/2025, por não efetuar a escrituração; ainda não operacional em set/2025. (fonte: sources/digested/notion_caixa_diretor_de_produtos_varejo_caixa_a9a00ca3_summary.md)
 
-**Prazo médio**: as notas apontam 24 meses (BMP) e 39 meses ([[caixa]], prazo médio mais longo dado funding mais barato). [[inter]] operava com ~20 meses de prazo médio em fins de 2025. (fonte: sources/digested/notion_consignado_privado_bmp_maria_do_socorro_2fd00ca3_summary.md; sources/digested/notion_caixa_diretor_de_produtos_varejo_caixa_a9a00ca3_summary.md; sources/digested/notion_inter_call_inter_19_02_pos_resultado_4t25_30c00ca3_summary.md)
+**Prazo médio**: varia bastante por player — 24 meses (BMP), 39 meses ([[caixa]], funding mais barato), ~20 meses ([[inter]], conservador), 52 meses ([[banco_do_brasil|BB]], prazo mais longo da amostra, reflete seleção de empresas estáveis). (fonte: sources/digested/notion_consignado_privado_bmp_maria_do_socorro_2fd00ca3_summary.md; sources/digested/notion_caixa_diretor_de_produtos_varejo_caixa_a9a00ca3_summary.md; sources/digested/notion_inter_call_inter_19_02_pos_resultado_4t25_30c00ca3_summary.md; sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md)
 
 **Restrições de elegibilidade** (exemplo Neon): excluem empresas em recuperação judicial, MEI, micro/pequenas com faturamento abaixo de R$ 4 mi, empregadores CPF e empresas com débito trabalhista. (fonte: sources/digested/notion_gabriel_neon_consignado_privado_2ce00ca3_summary.md)
 
@@ -103,16 +105,18 @@ Melhorias que explicam a trajetória de queda: escrituração ficando mais robus
 | Player / contexto | Taxa |
 |-------------------|------|
 | Caixa (set/2025) | **2,49% a.m.** (funding mais barato) |
+| BB (abr/2026) | **3,0% a.m.** (taxa média; opera só com correntistas) |
 | Inter (abr/2025) | **~3,5% a.m.** |
 | Inter (3T25 → 4T25) | **~3,80–3,90%**, caindo para ~3,60–3,70% no 4T25 |
 | Neon (dez/2025) | **~5% a.m.** |
 | Pine (jan/2026) | **4,5%–5,5%** |
 | Mercado (set/2025) | referência regulatória anterior: **5,17%**; discussão de teto ~4,9% |
 
-(fonte: sources/digested/notion_caixa_diretor_de_produtos_varejo_caixa_a9a00ca3_summary.md; sources/digested/notion_inter_inter_alexandre_consignado_privado_cac00ca3_summary.md; sources/digested/notion_inter_call_inter_19_02_pos_resultado_4t25_30c00ca3_summary.md; sources/digested/notion_gabriel_neon_consignado_privado_2ce00ca3_summary.md; sources/digested/notion_capstone_pine_2ea00ca3_summary.md)
+(fonte: sources/digested/notion_caixa_diretor_de_produtos_varejo_caixa_a9a00ca3_summary.md; sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md; sources/digested/notion_inter_inter_alexandre_consignado_privado_cac00ca3_summary.md; sources/digested/notion_inter_call_inter_19_02_pos_resultado_4t25_30c00ca3_summary.md; sources/digested/notion_gabriel_neon_consignado_privado_2ce00ca3_summary.md; sources/digested/notion_capstone_pine_2ea00ca3_summary.md)
 
 ### Retorno por player
 
+- **[[banco_do_brasil|BB]]**: carteira de R$ 17,2 bi com **13% de market share** (partindo de praticamente zero); meta de 20%. Ticket médio R$ 7,9 mil; taxa 3% a.m.; prazo 52 meses. Opera apenas com correntistas (53% dos tomadores já recebem salário no BB; 86% dos empregadores são clientes). Score combinado empregado + empregador; débito em conta como fallback se perder emprego. (fonte: sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md, em: 2026-04-23)
 - **[[inter]]**: NIM ~30%, ROE do produto acima de 30%; cost of risk com potencial de single digit no longo prazo. Aprovação conservadora: apenas **15%** dos requests recebem oferta de taxa. (fonte: sources/digested/notion_inter_inter_alexandre_consignado_privado_cac00ca3_summary.md)
 - **[[bradesco]]**: ROE do segmento acima de 30%; market share de 7% em jan/2026 com perspectiva de 10%–12%. Dobrou a produção de um ano para o outro. (fonte: sources/digested/notion_bradesco_bradesco_19_01_2ed00ca3_summary.md; sources/digested/notion_bradesco_callback_bradesco_2ff00ca3_summary.md)
 - **Neon**: a 5% de taxa e 15% de perda, o produto "dá dinheiro" dentro do target de gross profit. (fonte: sources/digested/notion_gabriel_neon_consignado_privado_2ce00ca3_summary.md)
@@ -125,6 +129,8 @@ Melhorias que explicam a trajetória de queda: escrituração ficando mais robus
 Ao lançamento (abr/2025): **R$ 4 bilhões** ofertados. Projeção de **R$ 120 bilhões** até o final de 2025 considerada "bem possível" — volume interpretado principalmente como **migração de crédito pessoal sem garantia** (cartão, crédito clean), não dinheiro novo na economia. (fonte: sources/digested/notion_dataprev_consignado_privado_41400ca3_summary.md)
 
 A [[caixa]] cruzou **R$ 100 bilhões** em carteira ao longo de 2025, saindo de saldo de R$ 45 bilhões que ficou estagnado por 15 anos, com 562 mil contratos realizados. (fonte: sources/digested/notion_caixa_caixa_economica_4t25_31a00ca3_summary.md)
+
+O [[banco_do_brasil|BB]] acumulou **R$ 17,2 bilhões** em carteira com 13% de market share em abril de 2026, com 2,2 milhões de operações realizadas junto a 197 mil empresas. (fonte: sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md, em: 2026-04-23)
 
 O [[inter]] detém **25% dos clientes CLT do Brasil**, com 20 milhões de clientes elegíveis na base — mas nem todos passam nos critérios de rentabilidade do banco. (fonte: sources/digested/notion_inter_inter_alexandre_consignado_privado_cac00ca3_summary.md)
 
@@ -147,6 +153,7 @@ Participação dos grandes bancos via open banking medida em **2%–3%** em dez/
 ### Canal de originação
 
 - **Caixa**: 83% das contratações via App Caixa em set/2025. (fonte: sources/digested/notion_caixa_diretor_de_produtos_varejo_caixa_a9a00ca3_summary.md)
+- **BB**: opera exclusivamente via canal próprio (apenas correntistas); 86% dos empregadores já são clientes do banco. (fonte: sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md)
 - **Inter**: 35%–40% via app; em jun/2025, 70% da originação era via CTPS (66% clientes Inter); migrou para 50/50 CTPS/canal próprio ao longo do 2T25. (fonte: sources/digested/notion_inter_inter_2t25_89800ca3_summary.md; sources/digested/notion_inter_inter_2t25_call_follow_up_be200ca3_summary.md)
 - **Bradesco**: preferência por originação via conta-corrente com desconto em folha vs. CTPS; garantia avaliada como "relativamente fraca". (fonte: sources/digested/notion_bradesco_bradesco_19_01_2ed00ca3_summary.md)
 
@@ -182,6 +189,7 @@ A [[caixa_seguridade]] lançou o seguro prestamista em agosto de 2025 (código S
 | Player | Ticker | Perfil / observação |
 |--------|--------|---------------------|
 | [[caixa]] | — | Primeiro dia de operação; funding mais barato (2,49% a.m.); cruzou R$ 100 bi |
+| [[banco_do_brasil|BB]] | BBAS3 | R$ 17,2 bi; 13% market share (meta: 20%); 3% a.m.; 52 meses; só correntistas |
 | [[bradesco]] | BBDC4 | Market share 7% em jan/2026; ROE >30%; dobrou produção em 2025 |
 | [[inter]] | INBR32 | 25% dos CLTs do Brasil; estratégia conservadora de preço; NIM ~30% |
 | [[banco_pine\|Pine]] | PINE4 | Pivot do público para privado; CLT ≥ 2 anos + CNPJ > 5 anos; meta de 40% dos ativos |

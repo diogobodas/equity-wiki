@@ -7,8 +7,9 @@ sources:
   - sources/digested/notion_caixa_e_mercantil_consignado_diretor_cef_ceo_mercantil_dd100ca3_summary.md
   - sources/digested/notion_caixa_hailton_bbi_2a700ca3_summary.md
   - sources/digested/notion_caixa_painel_minha_casa_minha_vida_2026_31900ca3_summary.md
+  - sources/digested/notion_call_fgts_34b00ca3_summary.md
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-04-29
 ---
 
 # Caixa Econômica Federal
@@ -110,6 +111,49 @@ A Caixa é o principal operador do programa [[mcmv|Minha Casa Minha Vida]], exec
 - Caixa deve retomar financiamento de PJ com recursos de poupança, reduzindo pressão sobre FGTS (fonte: digested/notion_caixa_hailton_bbi_2a700ca3_summary.md)
 - Transição monitorada por 6–10 meses; ajustes serão feitos conforme necessário (fonte: digested/notion_caixa_hailton_bbi_2a700ca3_summary.md)
 
+## FGTS — Estrutura, Orçamento e Riscos
+
+O [[fgts|FGTS]] é o principal funding do crédito habitacional da Caixa. A Caixa é a operadora primária do fundo.
+
+### Orçamento 2026 e plurianual
+
+- Orçamento total aprovado para 2026: **R$ 169 bilhões**, distribuídos em: R$ 144,5 bi habitação · R$ 8 bi saneamento · R$ 8 bi infraestrutura · R$ 12,5 bi subsídios · saúde (5% do total, aprovado recentemente) (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+- Planejamento plurianual até 2029: volumes similares em 2027; redução em 2028–2029, sobretudo do Fundo Social (de ~R$ 15 bi para ~R$ 10 bi) (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+
+### Remuneração do fundo
+
+- Desde 2017, o FGTS remunera cotistas no mínimo à poupança; na prática tem pago IPCA, ficando acima de 6% a.a. (fonte: digested/notion_call_fgts_34b00ca3_summary.md, em: 2026-04-23)
+- Taxa de financiamento FGTS no Norte e Nordeste: 4,5% a.a. — abaixo da remuneração do fundo, o que implica subsídio cruzado estrutural (fonte: digested/notion_call_fgts_34b00ca3_summary.md, em: 2026-04-23)
+
+### Subsídios
+
+- Volume 2026: **R$ 12,5 bilhões**, integralmente financiados pelo FGTS — sem contrapartida da União (fonte: digested/notion_call_fgts_34b00ca3_summary.md, em: 2026-04-23)
+  - Evolução da divisão: 75% FGTS / 25% União → 82,5/17,5 → 90/10 → 100% FGTS (governo Bolsonaro em diante) (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+- Dois tipos de subsídio: **desconto** (complemento de preço — famílias faixa 1 em grandes metrópoles recebem até R$ 55 mil) e **complemento/equilíbrio** (cobre parte do spread bancário embutido no financiamento) (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+- Distribuição atual: 50% desconto, 50% complemento — antes era ~2/3 desconto, 1/3 complemento (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+- Regras de entrada: 20% para tabela Price; 10% para SAC (norma Banco Central) (fonte: digested/notion_call_fgts_34b00ca3_summary.md, em: 2026-04-23)
+
+### Fundo Social do Pré-Sal — detalhamento operacional
+
+- Saldo aplicado a habitação: R$ 15 bi em 2024; R$ 15 bi adicionais aprovados para 2025; expectativa de mais R$ 20 bi (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+- Estrutura: blend 50% FGTS (incluindo Fundo Social) + 50% tesouraria dos agentes financeiros; taxa média de 10% — agentes recebem ~12%, FGTS recebe no máximo 8,66% (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+- Uso restrito às faixas 1, 2 e 3; extensão à faixa 4 dependeria de alteração legal (fonte: digested/notion_call_fgts_34b00ca3_summary.md, em: 2026-04-23)
+- Risco político: continuidade depende da vontade do governo de ocasião — diferente do FGTS em si, que tem destinação institucional garantida (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+
+### Saque-Aniversário — impacto e riscos
+
+- Desde 2020, o saque-aniversário drenou mais de **R$ 211 bilhões** do patrimônio do FGTS: R$ 83,8 bi em saques diretos + R$ 127 bi em antecipações pagas a bancos + R$ 131 bi comprometidos para saques até 2057 (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+- Em fins de 2024, o Conselho Curador estabeleceu limites: máximo dois exercícios de antecipação, máximo três operações por trabalhador, teto de R$ 500 (fonte: digested/notion_call_fgts_34b00ca3_summary.md, em: 2024-12-31)
+- Ministro do Trabalho manifestou intenção de extinguir o saque-aniversário, porém há resistência no Congresso (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+- Classificado como principal risco ao FGTS pelo representante do Conselho Curador — maior até que eventual aumento de desemprego (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+
+### Sustentabilidade do fundo
+
+- Arrecadação líquida ainda positiva — sustentabilidade não está ameaçada no curtíssimo prazo (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+- Risco 1 — emprego formal: queda significativa comprometeria arrecadação líquida (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+- Risco 2 — rebalanceamento de portfolio: com saques massivos, o fundo perde capacidade de recomprar títulos públicos no volume dos que vencem, pressionando o equilíbrio de taxa (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+- Fundo Saúde (5% do orçamento FGTS, aprovado recentemente): no primeiro ano será usado principalmente para pagar dívidas e salários de entidades de saúde — ponto de atenção para equilíbrio futuro (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+
 ## Transformação Digital
 
 - Investimento em tecnologia 2025: **R$ 5,3 bilhões** (+73% vs 2022) (fonte: digested/notion_caixa_caixa_economica_4t25_31a00ca3_summary.md)
@@ -150,3 +194,6 @@ A Caixa é o principal operador do programa [[mcmv|Minha Casa Minha Vida]], exec
 - Sustentabilidade do [[sbpe]] no Faixa 4 depende da trajetória da Selic — sem queda, bancos privados podem elevar spreads fora do SFH, pressionando o mercado de média/alta renda (fonte: digested/notion_caixa_hailton_bbi_2a700ca3_summary.md)
 - Inadimplência cresceu levemente (+0,3 p.p. jan/25 → jan/26), mas ainda controlada; modelos comportamentais devem ampliar acesso ao informal, com impacto de risco a monitorar (fonte: digested/notion_caixa_painel_minha_casa_minha_vida_2026_31900ca3_summary.md)
 - [[reforma_tributaria|Isenção do IR]] (teto R$ 5 mil): Caixa adota postura observadora — não incorpora automaticamente o ganho de renda como capacidade de pagamento adicional (fonte: digested/notion_caixa_painel_minha_casa_minha_vida_2026_31900ca3_summary.md)
+- Saque-aniversário já drenou R$ 211 bi do FGTS desde 2020 (mais R$ 131 bi comprometidos até 2057); novos limites desde fins de 2024 reduzem fluxo futuro mas não equacionam o passivo acumulado. Risco estrutural ao orçamento habitacional caso emprego formal recue ou o Congresso reverta os limites (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+- Fundo Saúde FGTS (5% do orçamento aprovado recentemente): reduz capacidade de suplementação habitacional no médio prazo — impacto sobre o crescimento da carteira FGTS da Caixa a monitorar (fonte: digested/notion_call_fgts_34b00ca3_summary.md)
+- Plurianual FGTS 2028–2029 prevê redução do Fundo Social (de ~R$ 15 bi para ~R$ 10 bi); incorporadoras de baixa renda (faixas 1–3) terão menor colchão de subsídio a partir de 2028 (fonte: digested/notion_call_fgts_34b00ca3_summary.md)

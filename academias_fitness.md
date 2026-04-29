@@ -6,8 +6,9 @@ sources:
   - sources/digested/notion_bluefit_respons_vel_por_opera_o_de_lojas_proprias_0b000ca3_summary.md
   - sources/digested/notion_bodytech_e3900ca3_summary.md
   - sources/digested/notion_bodytech_fev_2026_30200ca3_summary.md
+  - sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-04-29
 ---
 
 # Academias Fitness — Setor
@@ -140,6 +141,45 @@ Bluefit é academia de baixo custo, capital fechado, controlada pelo Mubadala. O
 - Impacto eventual seria repassado via preço ao longo do tempo (fonte: sources/digested/notion_bodytech_e3900ca3_summary.md)
 
 Ver também: [[reforma_tributaria]]
+
+---
+
+## Agregadores de Benefícios — Wellhub vs. Totalpass
+
+Os dois principais agregadores de benefícios fitness no Brasil são [[wellhub]] (global, ~15 anos de mercado) e [[totalpass]] (subsidiária da [[smartfit]]). Ambos atuam no modelo B2B, intermediando empresas e redes de academias.
+
+### Posicionamento e pricing
+
+- Wellhub cobra ~3x mais que o Totalpass na maioria dos processos competitivos onde tem acesso ao preço (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+- Wellhub está sendo "mais flexível com desconto, mas de forma comportada"; preço médio por segmento caiu marginalmente, mas sem ser fator de preocupação na visão da empresa (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+- Wellhub tem ~15 anos de vantagem de tempo de mercado frente ao Totalpass (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+- Em número de academias e capilaridade, Wellhub ainda está à frente; porém os produtos já são avaliados como muito similares (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+
+### Movimento Totalpass — B2B via PAT e B2C
+
+- Totalpass se moveu agressivamente no PME via canais de benefícios ([[ticket]] e Alelo), com estratégia de oferecer o produto gratuitamente para clientes a partir de 100 vidas (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+- Em aproximadamente fev/2026, Totalpass lançou modalidade B2C: qualquer portador de cartão Ticket ou Alelo pode acessar independentemente de a empresa pagar o Totalpass (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+- O produto B2C do Totalpass é mais caro e dá acesso limitado à SmartFit; avaliado internamente pelo Wellhub como produto com poucos players selecionados (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+- Estimativa interna do Wellhub sobre o percentual B2C (family & friends) do Totalpass: "entre 5%–30%" (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+- Totalpass cresceu recebendo muito pouco das empresas e pagando mais para as academias; Wellhub avalia que haverá dinâmica de queima de preço semelhante à observada no México (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+- Quantidade de empresas com os dois produtos (Wellhub + Totalpass) ainda é baixa no Brasil (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+
+### Modelo de negócio Wellhub — B2B e "breakage"
+
+- Wellhub acredita fortemente no modelo B2B e não pretende migrar para B2C no estilo Classpass (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+- "Breakage" é definido como margem do usuário: quando cai abaixo de zero, cria incentivo para parar de crescer a base (na ausência de fee de RH). Wellhub tem 100% dos incentivos voltados para crescer ao máximo a base de usuários (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+- Questão estratégica central: o que acontece com o "breakage" num mercado com dois produtos já equivalentes (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+- Wellhub faz reajuste de copay 1x por ano em todas as geografias; EUA foi exceção em 2025, sem reajuste (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+
+### Referência internacional — Alemanha
+
+- Wellhub adquiriu recentemente um player na Alemanha, mercado com quatro players fazendo o mesmo produto — referência para entender a dinâmica de longo prazo de agregadores (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+- Na Alemanha, muitas empresas têm dois ou mais provedores; usuário é pago por player aderido (único lugar do mundo nesse formato) — modelo que educou o mercado local (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+
+### PAT / Food Voucher — mudanças regulatórias
+
+- Wellhub usa nomenclatura interna "Food Voucher" para o que o mercado chama de PAT; nem todos os modelos correspondem ao PAT em sentido estrito (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+- Mudanças regulatórias recentes têm limitado o uso do modelo; dinâmica com parceiros (Ticket, Alelo) está em transformação; Wellhub ainda tem parceiros exclusivos e novas modalidades começando a aparecer (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md, em: 2026-04-27)
 
 ---
 

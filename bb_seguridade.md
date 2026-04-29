@@ -6,8 +6,9 @@ sources:
   - sources/digested/notion_bb_seguridade_call_ceo_bbse_jpmorgan_2a200ca3_summary.md
   - sources/digested/notion_bb_seguridade_bb_seguridade_xp_conference_2025_30900ca3_summary.md
   - sources/digested/notion_bb_seguridades_07_11_2025_17b00ca3_summary.md
+  - sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-04-29
 ---
 
 # BB Seguridade (BBSE3)
@@ -22,12 +23,12 @@ A holding consolida quatro empresas investidas:
 
 | Empresa | Segmento | Destaques |
 |---------|----------|-----------|
-| BB Seguros (Brasilseg) | Seguros rurais, vida, prestamista, residencial | Maior linha por prêmio |
-| Brasilprev | Previdência privada (VGBL/PGBL) | Market share ~30%; solvência de 160% |
-| Brasilcap | Capitalização | Reservas ~R$ 6,8 bilhões |
+| BB Seguros (Brasilseg) | Seguros rurais, vida, prestamista, residencial | 62% market share seguros rurais; 12% seguros vida/morte mista |
+| Brasilprev | Previdência privada (VGBL/PGBL) | Líder; market share ~30%; solvência de 160% |
+| Brasilcap | Capitalização | Líder; reservas ~R$ 6,8 bilhões |
 | BB Corretora | Distribuição e corretagem | Canal exclusivo Banco do Brasil |
 
-(fonte: sources/digested/notion_bb_seguridade_bb_seguridades_call_4t25_30300ca3_summary.md)
+Market shares de seguros rurais e vida/morte mista: (fonte: sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md, em: 2026-04-23). Demais dados: (fonte: sources/digested/notion_bb_seguridade_bb_seguridades_call_4t25_30300ca3_summary.md)
 
 ---
 
@@ -125,11 +126,20 @@ Resultado financeiro consolidado esperado pela gestão: R$ 2 bilhões (ponderado
 
 ### Seguro Rural / Agrícola
 
+- Market share: 62% no seguros rurais (fonte: sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md, em: 2026-04-23)
 - Queda de ~40% em prêmios no acumulado de 2025; ~75% do risco cedido em resseguro (fonte: sources/digested/notion_bb_seguridade_bb_seguridades_call_4t25_30300ca3_summary.md)
 - 40% dos produtos de seguro rural têm algum tipo de subvenção; redução da subvenção afeta menos a BBSE3 do que pares, com maior concentração em soja e milho (fonte: sources/digested/notion_bb_seguridade_bb_seguridade_xp_conference_2025_30900ca3_summary.md)
 - Agrícola expandiu para mais de 40 novas culturas e cobertura em mais de 1.030 municípios adicionados em 2025 (fonte: sources/digested/notion_bb_seguridade_call_ceo_bbse_jpmorgan_2a200ca3_summary.md)
-- Banco do Brasil perdeu ~25 pp de market share em financiamento rural: de ~55% em 2020 para ~30% atualmente — comprime a base de cross-sell do seguro (fonte: sources/digested/notion_bb_seguridade_call_ceo_bbse_jpmorgan_2a200ca3_summary.md)
+- [[banco_do_brasil]] perdeu ~25 pp de market share em financiamento rural: de ~55% em 2020 para ~30% atualmente — comprime a base de cross-sell do seguro (fonte: sources/digested/notion_bb_seguridade_call_ceo_bbse_jpmorgan_2a200ca3_summary.md)
 - Inadimplência atual do produtor rural é de estrutura de balanço (reestruturação, desinvestimento), não de evento climático
+
+**Contexto da crise agro no BB (BB Day 2026):** A provisão histórica na carteira agro do BB era ~R$ 1 bilhão/trimestre; saltou para ~R$ 8 bilhões/trimestre em 2025, atingindo R$ 10 bilhões no 4T25. Tempestade perfeita: conflito Rússia-Ucrânia, hiper-alavancagem dos produtores, inflação de custos, Selic alta, queda da soja em 2023 e eventos climáticos. MP 13/14 (Regulariza Agro) renegociou R$ 36,5 bilhões, com 92% das operações com garantia real do imóvel. (fonte: sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md, em: 2026-04-23)
+
+**Recuperação safra 25-26:** BB espera pontualização de 95% na safra 25-26; primeiros 15 dias de abril já mostram melhora nos contratos novos (com alienação fiduciária), que representam ~20% do total vencendo em abril. (fonte: sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md, em: 2026-04-23)
+
+**Risco geopolítico safra 26-27:** Fosfatados e ureia subiram 80% após conflito Irã/Rússia; efeito sobre custo de produção estimado para a safra 26-27 (insumos da safra atual já estavam nas fazendas). Compra de insumos da safra 26-27 ocorre majoritariamente a partir de junho/julho — prazo ainda aberto para reequilíbrio. (fonte: sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md, em: 2026-04-23)
+
+**Base de cross-sell em 2026:** BB adotou postura conservadora para a carteira de crédito — guidance de crescimento de -2% a +2% em 2026 — o que limita a expansão da base de financiamento rural disponível para cross-sell de seguro. (fonte: sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md, em: 2026-04-23)
 
 ### Seguro Prestamista
 
@@ -138,6 +148,7 @@ Resultado financeiro consolidado esperado pela gestão: R$ 2 bilhões (ponderado
 - Penetração no consignado privado: ~30%; taxa de ~8%–9% de prêmio sobre concessão (fonte: sources/digested/notion_bb_seguridade_bb_seguridade_xp_conference_2025_30900ca3_summary.md)
 - Prestamista na carteira de consórcio do BB: ~11 mil propostas, ~R$ 88 milhões em prêmios durante a vigência (fonte: sources/digested/notion_bb_seguridade_bb_seguridades_call_4t25_30300ca3_summary.md)
 - ~70% do prêmio emitido total tem vinculação ao crédito
+- [[banco_do_brasil]] tem carteira de R$ 17,2 bilhões em consignado privado (13% de market share, partindo de praticamente zero) com meta de alcançar 20% — crescimento da carteira suporta expansão do prestamista; ticket médio R$ 7,9 mil, taxa 3% a.m., prazo médio 52 meses; 2,2 milhões de operações com 197 mil empresas (fonte: sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md, em: 2026-04-23)
 
 ### Previdência (Brasilprev)
 
@@ -164,6 +175,8 @@ Resultado financeiro consolidado esperado pela gestão: R$ 2 bilhões (ponderado
 
 Canal de distribuição exclusivo via [[banco_do_brasil]]. No Investor Day do BB em Nova York (nov/2025), a primeira pergunta da audiência foi sobre renovação do contrato e eventual venda da participação do banco. Gestão informa que não há conversa formal em andamento sobre renovação — nem com a CEO do BB (Tarsiana), nem com vice-presidentes. (fonte: sources/digested/notion_bb_seguridade_call_ceo_bbse_jpmorgan_2a200ca3_summary.md)
 
+No BB Day 2026 (abr/2026), o BB enquadrou o conglomerado (denominado "Galáxia BB", 80+ empresas) como pilar estratégico central: empresas do conglomerado respondem por 52% do resultado consolidado. A BB Seguridade foi citada como líder em previdência, capitalização, seguros vida/morte mista e seguros rurais. (fonte: sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md, em: 2026-04-23)
+
 ---
 
 ## Payout e Capital
@@ -179,9 +192,9 @@ Canal de distribuição exclusivo via [[banco_do_brasil]]. No Investor Day do BB
 
 ## Teses e Riscos
 
-**Bull:** Alta Selic beneficia resultado financeiro; sinistralidade em mínima histórica; distribuição extraordinária de capital como catalisador pontual; recuperação do prestamista PJ conforme crédito ceder.
+**Bull:** Alta Selic beneficia resultado financeiro; sinistralidade em mínima histórica; distribuição extraordinária de capital como catalisador pontual; recuperação do prestamista PJ conforme crédito ceder; safra 25-26 mostrando sinais iniciais de normalização no BB.
 
-**Bear:** Guidance operacional 2026 negativo (-7% a -3%); colapso da captação em previdência por IOF; rural estruturalmente menor após perda de market share do BB; pressão secular na taxa de gestão da Brasilprev; risco de renovação do contrato de distribuição com o BB.
+**Bear:** Guidance operacional 2026 negativo (-7% a -3%); colapso da captação em previdência por IOF; rural estruturalmente menor após perda de market share do BB; pressão secular na taxa de gestão da Brasilprev; risco de renovação do contrato de distribuição com o BB; custo de insumos agro +80% na safra 26-27 pode atrasar recuperação do seguro rural.
 
 **Monitorar:**
 - Evolução do prestamista PJ com corte da Selic
@@ -189,3 +202,6 @@ Canal de distribuição exclusivo via [[banco_do_brasil]]. No Investor Day do BB
 - Lançamento da CPR e rampa de prêmios
 - Renovação do contrato com o Banco do Brasil
 - Decisão sobre distribuição extraordinária de capital (prevista para dez/2025)
+- Pontualização safra 25-26 a partir de abr/maio 2026 — indicador-chave para retomada do prêmio rural
+- Impacto do custo de insumos na safra 26-27 (fosfatados +80%): decisivo a partir de jun/jul 2026
+- Evolução da carteira consignado privado do BB rumo à meta de 20% de market share (base do prestamista)

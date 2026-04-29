@@ -46,8 +46,10 @@ sources:
   - sources/digested/weg_call_transcript_2T25_summary.md
   - sources/digested/weg_call_transcript_3T25_summary.md
   - sources/digested/weg_call_transcript_4T25_summary.md
+  - sources/digested/weg_itr_1T26_summary.md
+  - sources/digested/weg_release_1T26_summary.md
 created: 2026-04-20
-updated: 2026-04-28
+updated: 2026-04-29
 ---
 
 # WEG (WEGE3)
@@ -58,20 +60,20 @@ WEG é uma das maiores fabricantes diversificadas de equipamentos elétricos e i
 
 ### Desempenho trimestral (R$ mm)
 
-| Métrica | 1T24 | 2T24 | 3T24 | 4T24 | 1T25 | 2T25 | 3T25 | 4T25 |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| ROL | 8.033 | 9.274 | 9.857 | 10.822 | 10.079 | 10.207 | 10.272 | 10.247 |
-| EBITDA | 1.770 | 2.121 | 2.225 | 2.388 | 2.173 | 2.260 | 2.276 | 2.292 |
-| Margem bruta | 33,2% | 33,7% | 34,5% | 33,4% | 32,9% | 33,7% | 33,6% | 34,0% |
-| Margem EBITDA | 22,0% | 22,9% | 22,6% | 22,1% | 21,6% | 22,1% | 22,2% | 22,4% |
-| LL controladores | 1.328 | 1.442 | 1.579 | 1.694 | 1.546 | 1.592 | 1.651 | 1.588 |
-| Margem líquida | 16,5% | 15,5% | 16,0% | 15,7% | 15,3% | 15,6% | 16,1% | 15,5% |
-| ROIC LTM¹ | 38,9% | 37,4% | 37,1% | 34,2% | 33,2% | 32,9% | 32,4% | 32,5% |
-| Caixa líquido | 3.797 | 3.017 | 3.113 | 4.609 | 2.454 | 3.040 | 3.442 | 2.652 |
+| Métrica | 1T24 | 2T24 | 3T24 | 4T24 | 1T25 | 2T25 | 3T25 | 4T25 | 1T26 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| ROL | 8.033 | 9.274 | 9.857 | 10.822 | 10.079 | 10.207 | 10.272 | 10.247 | 9.468 |
+| EBITDA | 1.770 | 2.121 | 2.225 | 2.388 | 2.173 | 2.260 | 2.276 | 2.292 | 2.103 |
+| Margem bruta | 33,2% | 33,7% | 34,5% | 33,4% | 32,9% | 33,7% | 33,6% | 34,0% | 31,6% |
+| Margem EBITDA | 22,0% | 22,9% | 22,6% | 22,1% | 21,6% | 22,1% | 22,2% | 22,4% | 22,2% |
+| LL controladores | 1.328 | 1.442 | 1.579 | 1.694 | 1.546 | 1.592 | 1.651 | 1.588 | 1.457 |
+| Margem líquida | 16,5% | 15,5% | 16,0% | 15,7% | 15,3% | 15,6% | 16,1% | 15,5% | 15,4% |
+| ROIC LTM¹ | 38,9% | 37,4% | 37,1% | 34,2% | 33,2% | 32,9% | 32,4% | 32,5% | 33,1% |
+| Caixa líquido | 3.797 | 3.017 | 3.113 | 4.609 | 2.454 | 3.040 | 3.442 | 2.652 | 3.322 |
 
 ¹ ROIC 1T24–3T24 carrega o efeito positivo não-recorrente do incentivo fiscal da controlada na Suíça reconhecido no 4T23 (ROIC orgânico ex-Suíça: 1T24 35,8%; 2T24 34,4%; 3T24 34,3%). O efeito sai da janela LTM a partir do 4T24.
 
-(fonte: digested/weg_itr_1T24_summary.md; digested/weg_itr_2T24_summary.md; digested/weg_itr_3T24_summary.md; digested/weg_release_4T24_summary.md; digested/weg_itr_1T25_summary.md; digested/weg_itr_2T25_summary.md; digested/weg_itr_3T25_summary.md; digested/weg_release_4T25_summary.md)
+(fonte: digested/weg_itr_1T24_summary.md; digested/weg_itr_2T24_summary.md; digested/weg_itr_3T24_summary.md; digested/weg_release_4T24_summary.md; digested/weg_itr_1T25_summary.md; digested/weg_itr_2T25_summary.md; digested/weg_itr_3T25_summary.md; digested/weg_release_4T25_summary.md; digested/weg_itr_1T26_summary.md; digested/weg_release_1T26_summary.md)
 
 ### Resumo anual
 
@@ -107,14 +109,14 @@ Margem EBITDA oscilou entre 21,6% e 22,9% ao longo de 2024–2025, mantendo o pa
 
 Segmentação gerencial EEI/GTD/MCA/T&V dos releases — diferente da segmentação contábil da Nota 30 IFRS (Brasil Indústria / Brasil Energia / Exterior).
 
-| Segmento (R$ mm) | 1T24 | 2T24 | 3T24 | 4T24 | 1T25 | 2T25 | 3T25 | 4T25 |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| EEI | 3.618 | 4.373 | 4.864 | 5.063 | 4.449 | 4.909 | 5.297 | 5.111 |
-| GTD | 3.457 | 3.843 | 3.836 | 4.617 | 4.436 | 4.090 | 3.683 | 3.962 |
-| MCA | 616 | 697 | 754 | 720 | 812 | 810 | 852 | 738 |
-| T&V | 342 | 361 | 404 | 423 | 382 | 399 | 440 | 436 |
+| Segmento (R$ mm) | 1T24 | 2T24 | 3T24 | 4T24 | 1T25 | 2T25 | 3T25 | 4T25 | 1T26 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| EEI | 3.618 | 4.373 | 4.864 | 5.063 | 4.449 | 4.909 | 5.297 | 5.111 | 4.663 |
+| GTD | 3.457 | 3.843 | 3.836 | 4.617 | 4.436 | 4.090 | 3.683 | 3.962 | 3.630 |
+| MCA | 616 | 697 | 754 | 720 | 812 | 810 | 852 | 738 | 779 |
+| T&V | 342 | 361 | 404 | 423 | 382 | 399 | 440 | 436 | 397 |
 
-EEI ganhou participação relativa ao longo de 2025 (44% → 50% da ROL) enquanto GTD retraiu (44% → 39%), reflexo do fim do ciclo eólico e ausência de novos projetos de geração solar centralizada. (fonte: digested/weg_release_1T25_summary.md; digested/weg_release_4T25_summary.md)
+EEI ganhou participação relativa ao longo de 2025 (44% → 50% da ROL) enquanto GTD retraiu (44% → 39%), reflexo do fim do ciclo eólico e ausência de novos projetos de geração solar centralizada. Em 1T26, EEI se manteve em ~49% e GTD em ~38% — GTD-Brasil despencou 36,4% YoY pela ausência de solar centralizada (1T25 era pico histórico), parcialmente compensado por GTD-Externo +3,2% YoY. (fonte: digested/weg_release_1T25_summary.md; digested/weg_release_4T25_summary.md; digested/weg_release_1T26_summary.md)
 
 Segmentação contábil IFRS (Nota 30, pré-eliminações):
 
@@ -307,7 +309,7 @@ EUA representa ~30% da receita WEG; ~10% da receita total está diretamente expo
 
 **Aço:** custo em queda em meados de 2024; subindo em 2025 nos EUA e Brasil — citado como pressão adicional no 3T25. (fonte: digested/notion_weg_14_08_79400ca3_summary.md; digested/weg_call_transcript_3T25_summary.md)
 
-**VG&A:** subiu de 11,0% da ROL em 1T24 para 12,2% em 4T25, impulsionado pela consolidação Marathon (estrutura administrativa) e maiores fretes. Integração prevista em 3–5 anos deverá diluir esse efeito gradualmente. (fonte: digested/weg_release_4T25_summary.md; digested/weg_call_transcript_3T24_summary.md)
+**VG&A:** subiu de 11,0% da ROL em 1T24 para 12,2% em 4T25 e 12,6% em 1T26, impulsionado pela consolidação Marathon (estrutura administrativa) e maiores fretes; menor diluição com top-line mais fraco no 1T26. Integração prevista em 3–5 anos deverá diluir esse efeito gradualmente. (fonte: digested/weg_release_4T25_summary.md; digested/weg_itr_1T26_summary.md; digested/weg_call_transcript_3T24_summary.md)
 
 ## Aquisições
 
@@ -373,10 +375,37 @@ Desde a entrada do CEO Kuba (efetiva em 01/04/2024, sucedendo Harri Schmelzer Jr
 ### Hidrogênio Renovável e Pumped Hydro
 Mercado estudado mas ainda não avançou. WEG tem portfólio de bombeamento de água com motores de grande porte, aplicável ao conceito de hidrelétrica reversível (pumped hydro) — funciona como "bateria gigante" usando energia excedente para bombear água de volta ao reservatório (fonte: digested/notion_weg_follow_up_pos_resultado_29500ca3_summary.md; digested/notion_weg_direcional_laic_2f600ca3_summary.md).
 
+## 1T26 — Resultados
+
+**ROL R$ 9.468 mm (-6,1% YoY; -7,6% QoQ)** — queda concentrada no GTD-Brasil (-36,4% YoY) pela ausência de solar centralizada (1T25 era o recorde histórico do segmento), enquanto mercado externo cresceu +16,1% em USD (+4,5% em BRL dado câmbio apreciado: USD/BRL médio R$ 5,26 no 1T26 vs R$ 5,85 no 1T25). Em moedas locais e ajustado por M&A (Reivax, Heresite, Tupinambá, Sanelec), receita externa cresceu +11,2% YoY; receita orgânica consolidada -6,3% YoY. (fonte: digested/weg_release_1T26_summary.md; digested/weg_itr_1T26_summary.md)
+
+**Margem EBITDA 22,2% (+0,6 pp YoY; -0,3 pp QoQ)** — margem resiliente apesar do top-line mais fraco, sustentada por (i) mix de ciclo longo (T&D externo, alta tensão), (ii) reversão de provisão de PLR (~R$ 162 mm em 1T26 vs R$ 241 mm no 1T25). Margem bruta recuou para 31,6% (-1,3 pp YoY; -2,4 pp QoQ), pressionada por cobre, tarifas de importação nos EUA e menor diluição de pessoal. (fonte: digested/weg_itr_1T26_summary.md)
+
+**FCO R$ 1.262 mm (+134% YoY)** — melhora significativa de capital de giro vs 1T25; FCL ~R$ 640 mm após CAPEX de R$ 622 mm (6,6% da receita; 50,6% Brasil / 49,4% exterior). (fonte: digested/weg_itr_1T26_summary.md)
+
+**Caixa líquido R$ 3.322 mm** (vs R$ 2.652 mm em dez/25), normalizando após distribuição extraordinária de dezembro. ROIC LTM 33,1% (-0,1 pp YoY; +0,6 pp QoQ). Alíquota efetiva 16,4%, beneficiada por JCP. P&D R$ 366,6 mm (3,9% da receita, acima da média 2025 de 3,4%). (fonte: digested/weg_itr_1T26_summary.md)
+
+**JCP** de R$ 420,1 mm creditado em 17/mar/2026; pagamento previsto 10/mar/2027. (fonte: digested/weg_itr_1T26_summary.md, em: 2026-03-17)
+
+**Receita externa por região (USD, 1T26):**
+
+| Região | US$ mm | YoY |
+|---|---:|---|
+| América do Norte | 571,6 | +15,6% |
+| Europa | 273,6 | +16,3% |
+| Ásia-Pacífico | 121,4 | +8,0% |
+| América do Sul/Central | 89,4 | +19,9% |
+| África | 66,3 | +33,3% |
+| **Total externo** | **1.122,3** | **+16,1%** |
+
+(fonte: digested/weg_release_1T26_summary.md)
+
+**Aquisições consolidadas no 1T26:** Reivax, Heresite (R$ 59,2 mm), Tupinambá/Tupi Mob (R$ 38 mm, ~54%), Sanelec (Índia, R$ 26,6 mm, consolidada a partir de fev/2026). Além disso: cisão parcial WEG Turbinas (jan/2026) e constituição WEG Africa Empowerment (mar/2026, regulação local África do Sul). (fonte: digested/weg_itr_1T26_summary.md)
+
 ## Guidance e Perspectivas 2026
 
-- **Receita**: crescimento de dois dígitos baixos (meta inicial); desafiador com câmbio apreciado (BRL ~5,14 no momento da call 4T25 vs ~5,84 no 1T25) e ausência de solar centralizada. Perfil assimétrico: 1S mais fraco, 2S mais forte com capacidade entrando (fonte: digested/weg_call_transcript_4T25_summary.md, em: 2026-02-26)
-- **Margens**: meta similar à média dos últimos anos (~22%); 1S beneficiado por mix favorável similar ao 1S25 (fonte: digested/weg_call_transcript_4T25_summary.md, em: 2026-02-26)
+- **Receita**: crescimento de dois dígitos baixos (meta inicial); desafiador com câmbio apreciado (BRL ~5,14 no momento da call 4T25 vs ~5,84 no 1T25) e ausência de solar centralizada. Perfil assimétrico: 1S mais fraco, 2S mais forte com capacidade entrando — 1T26 confirmou o 1S fraco (-6,1% YoY), com externo em USD (+16,1%) sustentando a demanda real. (fonte: digested/weg_call_transcript_4T25_summary.md, em: 2026-02-26; digested/weg_release_1T26_summary.md)
+- **Margens**: meta similar à média dos últimos anos (~22%); 1S beneficiado por mix favorável similar ao 1S25 — 1T26 validou com margem EBITDA 22,2% (+0,6 pp YoY) apesar do top-line menor. (fonte: digested/weg_call_transcript_4T25_summary.md, em: 2026-02-26; digested/weg_itr_1T26_summary.md)
 - **CAPEX 2026**: R$ 3.562 mm (maior da história; 46% Brasil / 54% exterior) (fonte: digested/weg_dfp_2025_summary.md, em: 2026-02-24)
 - **T&D**: crescimento de receita em 2026 esperado menor do que nos últimos anos — capacidade atual plena; próximo grande salto concentrado no final de 2026 / início de 2027; resultado pleno somente a partir de 2028 (fonte: digested/weg_call_transcript_4T25_summary.md, em: 2026-02-26)
 - **Perspectivas DFP**: T&D Brasil ainda aquecido mas com capacidade muito utilizada — expansão somente em 2027; renováveis seguem desafiadores; foco em BESS, mobilidade elétrica e ciclo curto industrial; mercado externo como driver via Marathon (NA), Europa em retomada, China motores+drives, Índia geradores (fonte: digested/weg_dfp_2025_summary.md)
