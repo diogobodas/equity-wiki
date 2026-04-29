@@ -1,6 +1,6 @@
 {
   "_schema": "manifest/v1",
-  "_updated": "2026-04-15",
+  "_updated": "2026-04-29",
   "empresa": "cyrela",
   "display_name": "Cyrela Brazil Realty S.A.",
   "aliases": [
@@ -12,6 +12,18 @@
   "setor_schema": "sources/structured/_schemas/incorporadora.json",
   "wiki_page": "cyrela.md",
   "sources": [
+    {
+      "type": "itr",
+      "asof": "1T21",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/cyrela/1T21/itr.md"
+    },
+    {
+      "type": "itr",
+      "asof": "1T22",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/cyrela/1T22/itr.md"
+    },
     {
       "type": "itr",
       "asof": "1T23",
@@ -93,6 +105,18 @@
     },
     {
       "type": "dfp",
+      "asof": "2021",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/cyrela/2021/dfp.md"
+    },
+    {
+      "type": "dfp",
+      "asof": "2022",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/cyrela/2022/dfp.md"
+    },
+    {
+      "type": "dfp",
       "asof": "2023",
       "ingested_on": "2026-04-15",
       "full": "sources/full/cyrela/2023/dfp.md",
@@ -120,6 +144,18 @@
         "sources/structured/cyrela/2025/dfp.json"
       ],
       "digested": "sources/digested/cyrela_dfp_2025_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "2T21",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/cyrela/2T21/itr.md"
+    },
+    {
+      "type": "itr",
+      "asof": "2T22",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/cyrela/2T22/itr.md"
     },
     {
       "type": "fato_relevante",
@@ -204,6 +240,18 @@
         "sources/structured/cyrela/2T25/release.json"
       ],
       "digested": "sources/digested/cyrela_release_2T25_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "3T21",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/cyrela/3T21/itr.md"
+    },
+    {
+      "type": "itr",
+      "asof": "3T22",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/cyrela/3T22/itr.md"
     },
     {
       "type": "itr",

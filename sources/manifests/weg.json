@@ -16,6 +16,18 @@
   "wiki_page": "weg.md",
   "sources": [
     {
+      "type": "itr",
+      "asof": "1T22",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/weg/1T22/itr.md"
+    },
+    {
+      "type": "itr",
+      "asof": "1T23",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/weg/1T23/itr.md"
+    },
+    {
       "type": "call_transcript",
       "asof": "1T24",
       "ingested_on": "2026-04-28",
@@ -77,6 +89,44 @@
       "digested": "sources/digested/weg_release_1T25_summary.md"
     },
     {
+      "type": "itr",
+      "asof": "1T26",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/weg/1T26/itr.md",
+      "structured": [
+        "sources/structured/weg/1T26/itr.json"
+      ],
+      "digested": "sources/digested/weg_itr_1T26_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "1T26",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/weg/1T26/release.md",
+      "structured": [
+        "sources/structured/weg/1T26/release.json"
+      ],
+      "digested": "sources/digested/weg_release_1T26_summary.md"
+    },
+    {
+      "type": "dfp",
+      "asof": "2021",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/weg/2021/dfp.md"
+    },
+    {
+      "type": "dfp",
+      "asof": "2022",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/weg/2022/dfp.md"
+    },
+    {
+      "type": "dfp",
+      "asof": "2023",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/weg/2023/dfp.md"
+    },
+    {
       "type": "dfp",
       "asof": "2024",
       "ingested_on": "2026-04-28",
@@ -95,6 +145,24 @@
         "sources/structured/weg/2025/dfp.json"
       ],
       "digested": "sources/digested/weg_dfp_2025_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "2T21",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/weg/2T21/itr.md"
+    },
+    {
+      "type": "itr",
+      "asof": "2T22",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/weg/2T22/itr.md"
+    },
+    {
+      "type": "itr",
+      "asof": "2T23",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/weg/2T23/itr.md"
     },
     {
       "type": "call_transcript",
@@ -149,6 +217,30 @@
         "sources/structured/weg/2T25/release.json"
       ],
       "digested": "sources/digested/weg_release_2T25_summary.md"
+    },
+    {
+      "type": "previa_operacional",
+      "asof": "2T26",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/weg/2T26/previa_operacional.md"
+    },
+    {
+      "type": "itr",
+      "asof": "3T21",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/weg/3T21/itr.md"
+    },
+    {
+      "type": "itr",
+      "asof": "3T22",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/weg/3T22/itr.md"
+    },
+    {
+      "type": "itr",
+      "asof": "3T23",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/weg/3T23/itr.md"
     },
     {
       "type": "call_transcript",
@@ -270,33 +362,6 @@
       "asof": "4T25",
       "ingested_on": "2026-04-28",
       "full": "sources/full/weg/4T25/WEGE3_4T25_dfs.md"
-    },
-    {
-      "type": "itr",
-      "asof": "1T26",
-      "ingested_on": "2026-04-29",
-      "full": "sources/full/weg/1T26/itr.md",
-      "structured": [
-        "sources/structured/weg/1T26/itr.json"
-      ],
-      "digested": "sources/digested/weg_itr_1T26_summary.md"
-    },
-    {
-      "type": "release",
-      "asof": "1T26",
-      "ingested_on": "2026-04-29",
-      "full": "sources/full/weg/1T26/release.md",
-      "structured": [
-        "sources/structured/weg/1T26/release.json"
-      ],
-      "digested": "sources/digested/weg_release_1T26_summary.md"
-    },
-    {
-      "type": "fato_relevante",
-      "asof": "2T26",
-      "ingested_on": "2026-04-29",
-      "full": "sources/full/weg/2T26/fato_relevante_WEGE3_2T26_previa_operacional_1028875_extracted.md.md",
-      "digested": "sources/digested/weg_fatos_relevantes_batch_summary.md"
     }
   ],
   "coverage": {
@@ -318,6 +383,16 @@
       "dre": {
         "status": "filled",
         "source": "sources/structured/weg/1T25/itr.json"
+      }
+    },
+    "1T26": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/weg/1T26/itr.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/weg/1T26/itr.json"
       }
     },
     "2024": {
@@ -398,20 +473,6 @@
       "dre": {
         "status": "filled",
         "source": "sources/structured/weg/4T25/release.json"
-      }
-    },
-    "1T26": {
-      "dre": {
-        "status": "filled",
-        "source": "sources/structured/weg/1T26/itr.json"
-      },
-      "bp": {
-        "status": "filled",
-        "source": "sources/structured/weg/1T26/itr.json"
-      },
-      "financeiro_ajustado": {
-        "status": "filled",
-        "source": "sources/structured/weg/1T26/release.json"
       }
     }
   },
