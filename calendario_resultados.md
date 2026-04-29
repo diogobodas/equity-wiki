@@ -31,11 +31,11 @@ updated: 2026-04-28
 
 ## Seguros / Capitalização
 
-| Empresa | Ticker | Wiki | Tese | 4T25 | 1T26 | 2T26 | 3T26 | 4T26 | Atualizada |
-|---|---|---|---|---|---|---|---|---|---|
-| BB Seguridade | BBSE3 | [[bb_seguridade]] | — | | | | | | 2026-04-28 |
-| Caixa Seguridade | CXSE3 | [[cxse]] | — | 26/02 | 07/05 | 10/08 | 09/11 |  | 2026-04-28 |
-| Porto Seguro | PSSA3 | [[porto_seguro]] | — | ✓ | 07/05 | 07/08 | 05/11 |  | 2026-04-28 |
+| Empresa          | Ticker | Wiki              | Tese | 4T25  | 1T26  | 2T26  | 3T26  | 4T26 | Atualizada |
+| ---------------- | ------ | ----------------- | ---- | ----- | ----- | ----- | ----- | ---- | ---------- |
+| BB Seguridade    | BBSE3  | [[bb_seguridade]] | —    |       |       |       |       |      | 2026-04-28 |
+| Caixa Seguridade | CXSE3  | [[cxse]]          | —    | 26/02 | 07/05 | 10/08 | 09/11 |      | 2026-04-28 |
+| Porto Seguro     | PSSA3  | [[porto_seguro]]  | —    | ✓     | 07/05 | 07/08 | 05/11 |      | 2026-04-28 |
 
 ## Incorporadoras
 
