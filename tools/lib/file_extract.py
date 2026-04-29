@@ -33,19 +33,54 @@ def extract_pdf_from_zip(zip_path: Path) -> Path:
         return tmp
 
 
+def sanitize_pdf_trailing_padding(pdf_path: Path) -> Path:
+    """Strip trailing NUL/whitespace padding after the last %%EOF.
+
+    CVM ITR/DFP zips carry PAdES-style padding (megabytes of \\x00 after the
+    last %%EOF, reserved for digital signatures). verapdf — the engine
+    behind opendataloader-pdf — refuses to parse those PDFs with
+    "Document doesn't contain startxref keyword in the last 1024 bytes".
+    pdfplumber tolerates it but produces flat text.
+
+    Returns a path to the sanitized PDF (in same dir as input). If the
+    tail is already clean, returns the original path unchanged.
+    """
+    data = pdf_path.read_bytes()
+    eof_idx = data.rfind(b'%%EOF')
+    if eof_idx == -1:
+        return pdf_path  # not a parseable PDF; let opendataloader fail naturally
+    tail = data[eof_idx + 5:]
+    # Tail is "clean" if it's empty or only NUL/whitespace bytes
+    if not tail or all(b in (0, 0x09, 0x0a, 0x0d, 0x20) for b in tail):
+        if not tail:
+            return pdf_path
+        cleaned = data[:eof_idx + 5] + b'\n'
+        out = pdf_path.parent / f"{pdf_path.stem}_sanitized.pdf"
+        out.write_bytes(cleaned)
+        return out
+    # Tail has non-trivial bytes (likely an incremental update / valid trailer);
+    # don't touch it.
+    return pdf_path
+
+
 def try_opendataloader(pdf_path: Path, output_path: Path) -> bool:
     """Try opendataloader-pdf. Returns True if successful.
 
     opendataloader's `-o` is OUTPUT_DIR (not a file path). It writes
     `<input_stem>.md` inside that directory. We point it at a temp dir,
     then copy the generated file to the requested output_path.
+
+    Pre-processes the PDF to strip CVM-style trailing padding so verapdf
+    can find the xref table.
     """
+    sanitized = sanitize_pdf_trailing_padding(pdf_path)
+    sanitized_is_temp = sanitized != pdf_path
     try:
         with tempfile.TemporaryDirectory(prefix='odl_') as tmpdir:
             result = subprocess.run(
                 [
                     sys.executable, '-m', 'opendataloader_pdf',
-                    str(pdf_path),
+                    str(sanitized),
                     '--format', 'markdown',
                     '--use-struct-tree',
                     '--table-method', 'cluster',
@@ -56,7 +91,7 @@ def try_opendataloader(pdf_path: Path, output_path: Path) -> bool:
             )
             if result.returncode != 0:
                 return False
-            generated = Path(tmpdir) / (pdf_path.stem + '.md')
+            generated = Path(tmpdir) / (sanitized.stem + '.md')
             if not generated.is_file() or generated.stat().st_size < 100:
                 return False
             output_path.write_text(
@@ -65,6 +100,12 @@ def try_opendataloader(pdf_path: Path, output_path: Path) -> bool:
             return True
     except (subprocess.TimeoutExpired, FileNotFoundError):
         return False
+    finally:
+        if sanitized_is_temp:
+            try:
+                sanitized.unlink(missing_ok=True)
+            except (PermissionError, OSError):
+                pass
 
 
 def extract_with_pdfplumber(pdf_path: Path, output_path: Path) -> int:
