@@ -1100,3 +1100,8 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 [wiki-queue] 2026-04-29 | weg | fatos_relevantes | batch | sources/digested/weg_fatos_relevantes_batch_summary.md
 [wiki-queue] 2026-04-29 | weg | itr | 1T26 | sources/digested/weg_itr_1T26_summary.md
 [wiki-queue] 2026-04-29 | weg | release | 1T26 | sources/digested/weg_release_1T26_summary.md
+[wiki-queue] 2026-04-29 | wellhub | notion | wellhub_renato_vp_pme_global_wellhub_34f00ca3 | sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md
+[wiki-queue] 2026-04-29 | generic | notion | call_fgts_34b00ca3 | sources/digested/notion_call_fgts_34b00ca3_summary.md
+[wiki-queue] 2026-04-29 | banco_do_brasil | notion | banco_do_brasil_bb_day_2026_34b00ca3 | sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md
+[wiki-queue] 2026-04-29 | santander | notion | santander_santander_call_4t25_35100ca3 | sources/digested/notion_santander_santander_call_4t25_35100ca3_summary.md
+[wiki-queue] 2026-04-29 | generic | notion | select_data_tcb_modalidade_porte_sum_vencido_acima_de_15_dias_as_vencido_acima_d_2af00ca3 | sources/digested/notion_select_data_tcb_modalidade_porte_sum_vencido_acima_de_15_dias_as_vencido_acima_d_2af00ca3_summary.md

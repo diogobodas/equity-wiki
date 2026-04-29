@@ -19,5 +19,40 @@
     "periodo": "1T26",
     "digested": "sources/digested/weg_release_1T26_summary.md",
     "queued_on": "2026-04-29"
+  },
+  {
+    "empresa": "wellhub",
+    "type": "notion",
+    "periodo": "wellhub_renato_vp_pme_global_wellhub_34f00ca3",
+    "digested": "sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md",
+    "queued_on": "2026-04-29"
+  },
+  {
+    "empresa": "generic",
+    "type": "notion",
+    "periodo": "call_fgts_34b00ca3",
+    "digested": "sources/digested/notion_call_fgts_34b00ca3_summary.md",
+    "queued_on": "2026-04-29"
+  },
+  {
+    "empresa": "banco_do_brasil",
+    "type": "notion",
+    "periodo": "banco_do_brasil_bb_day_2026_34b00ca3",
+    "digested": "sources/digested/notion_banco_do_brasil_bb_day_2026_34b00ca3_summary.md",
+    "queued_on": "2026-04-29"
+  },
+  {
+    "empresa": "santander",
+    "type": "notion",
+    "periodo": "santander_santander_call_4t25_35100ca3",
+    "digested": "sources/digested/notion_santander_santander_call_4t25_35100ca3_summary.md",
+    "queued_on": "2026-04-29"
+  },
+  {
+    "empresa": "generic",
+    "type": "notion",
+    "periodo": "select_data_tcb_modalidade_porte_sum_vencido_acima_de_15_dias_as_vencido_acima_d_2af00ca3",
+    "digested": "sources/digested/notion_select_data_tcb_modalidade_porte_sum_vencido_acima_de_15_dias_as_vencido_acima_d_2af00ca3_summary.md",
+    "queued_on": "2026-04-29"
   }
 ]

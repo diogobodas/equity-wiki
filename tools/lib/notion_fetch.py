@@ -335,10 +335,16 @@ def _iter_blocks(block_id: str, config: dict):
 _SLUG_RE = re.compile(r"[^a-z0-9_]+")
 
 
-def _slugify(s: str) -> str:
+def _slugify(s: str, max_len: int = 80) -> str:
+    """Slugify with length cap. Windows MAX_PATH is 260; long Notion titles
+    (e.g. SQL queries) blew past this and made write_text crash. 80 chars
+    leaves room for empresa prefix + short_id suffix + path."""
     s = (s or "").lower().strip()
     s = _SLUG_RE.sub("_", s)
-    return s.strip("_") or "untitled"
+    s = s.strip("_") or "untitled"
+    if len(s) > max_len:
+        s = s[:max_len].rstrip("_")
+    return s
 
 
 def _build_slug(meta: dict) -> str:
