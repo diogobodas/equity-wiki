@@ -171,15 +171,48 @@ bash tools/fetch.sh TEND3 --discover               # modo discovery (cria fetch_
 
 Requer CVM-API rodando em `localhost:8100`.
 
+### Fetch Calls — transcrições de teleconferência
+
+```bash
+bash tools/fetch_calls.sh DIRR3 --discover                  # lista canal YouTube, pontua trimestres, escreve audit plan
+bash tools/fetch_calls.sh DIRR3                              # baixa transcrições novas (high-confidence do plan)
+bash tools/fetch_calls.sh DIRR3 --url URL --period 4T24      # forçar vídeo específico
+```
+
+Requer `youtube_channel` no manifest da empresa. Lista os tabs `/videos` e `/streams` (calls são frequentemente live-streams). Output: `{empresa}_call_transcript_{periodo}.md` em `undigested/` com YAML frontmatter e anchors `[mm:ss]` a cada ~60s. Caption priority: manual `pt`/`pt-BR` → auto `pt`/`pt-BR` → skip com `[fetch-calls-skip]` no log.
+
+**Alternativa para WEG (e empresas em CMS MZIQ)**: transcrição oficial em PDF disponível na Central de Resultados do site IR. Qualidade muito superior a auto-captions YouTube. Drop manual em `undigested/` como `weg_call_transcript_<P>.md` com frontmatter `captions: official_transcript`, depois `ingest_calls.sh`.
+
+### Fetch Notion — puxar páginas do Capstone
+
+```bash
+bash tools/fetch_notion.sh --discover         # no-op: count + primeiras 20
+bash tools/fetch_notion.sh                    # puxa pages novas/editadas
+bash tools/fetch_notion.sh --limit 10         # apenas N pages neste run
+bash tools/fetch_notion.sh --page <id>        # forçar uma page específica
+```
+
+Requer `NOTION_TOKEN` em `.env`. Config em `sources/manifests/_notion.json`, state persistente em `sources/manifests/_notion_state.json` (chaveado por `last_edited_time` — re-rodar só surfaces pages que foram editadas após o último ingest). Escreve markdown com frontmatter em `undigested/notion_<slug>.md`. Loop fecha localmente quando `ingest.sh --notion` completa.
+
 ### Ingest — processar documentos
 
 ```bash
-bash tools/ingest.sh TEND3                         # processa tudo em sources/undigested/ para o ticker
-bash tools/ingest.sh TEND3 --concurrency 4         # controlar paralelismo
-bash tools/ingest.sh --generic planilha_setor.xlsx # ingerir fonte avulsa (sem ticker)
+bash tools/ingest.sh TEND3                              # processa tudo em sources/undigested/ para o ticker
+bash tools/ingest.sh TEND3 --concurrency 4              # controlar paralelismo
+bash tools/ingest.sh --generic planilha_setor.xlsx      # ingerir fonte avulsa (sem ticker)
+bash tools/ingest.sh --notion sources/undigested/notion_<slug>.md  # ingerir page Notion específica
 ```
 
 O ingest produz `full/` + `structured/` + `digested/` e registra na fila do wiki update.
+
+### Ingest Calls — processar transcrições
+
+```bash
+bash tools/ingest_calls.sh DIRR3                  # padrão concurrency 4
+bash tools/ingest_calls.sh DIRR3 -j 2             # limitar paralelismo
+```
+
+Scaneia `undigested/{empresa}_call_transcript_*.md`, copia pra `full/{empresa}/{periodo}/call_transcript.md`, gera digest qualitativo via Sonnet, atualiza manifest e wiki queue. **Não produz `structured/`** — números pertencem ao release/ITR.
 
 ### Wiki Update — atualizar páginas da wiki
 
@@ -216,6 +249,16 @@ bash tools/reingest_full.sh CURY3 --horizon 3y    # re-baixa PDFs e copia direto
 ```
 
 Não invoca o LLM. Usado para corrigir fulls que foram truncados pelo pipeline antigo.
+
+### Refresh Calendário — atualizar datas de divulgação
+
+```bash
+bash tools/refresh_calendario.sh                       # dry-run: JSON report (sem mudanças)
+bash tools/refresh_calendario.sh --apply               # aplica updates ao calendario_resultados.md
+bash tools/refresh_calendario.sh --ticker WEGE3 -v     # debug single ticker
+```
+
+Pra cada ticker BR coberto, puxa o IPE_9 ("Calendário de Eventos Corporativos") mais recente via CVM-API, parser regex (sem LLM) extrai datas DRE/ITR/DFP, e atualiza `calendario_resultados.md` **preservando edits manuais** — só preenche cells vazias, bumpa `Atualizada` na linha tocada e o frontmatter `updated`. Cobre ~26 de 30 tickers BR (4 sem IPE_9: SANB11, INBR32, BFFT3, LCAM3 → fallback IPE_6 fica como roadmap). Estrangeiros (XP, STLA, SIE.DE, BFIT.NA, LOMA, PICS) ficam manuais. Cadência sugerida: rodar semanalmente conforme empresas filiarem o calendário do novo ano (típico jan-fev).
 
 ### Lint datado — validar freshness de claims
 
@@ -317,9 +360,25 @@ Esta wiki é 100% compatível com [Obsidian](https://obsidian.md/). Abra a pasta
 | `SCHEMA.md` | Contrato operacional — o LLM lê antes de qualquer operação |
 | `index.md` | Catálogo de páginas da wiki por categoria |
 | `log.md` | Histórico append-only |
+| `calendario_resultados.md` | Tracker de cobertura — datas de divulgação por trimestre + status wiki/tese (atualizável via `tools/refresh_calendario.sh`) |
 | `sources/index.md` | Registro de fontes brutas |
 | `sources/structured/_schemas/` | Schemas canônicos por setor |
+| `sources/wiki_queue.json` | Fila do wiki update (live state) |
 | `README.md` | Este tutorial |
+| `CLAUDE.md` | Manual operacional para LLM (mais detalhado/atualizado que o README) |
+
+## Skills interativas
+
+`/tese` vive em `.claude/skills/tese/` — diferente do resto do pipeline, **não passa por `claude --print`**, entrevista o analista no terminal:
+
+```
+/tese {empresa}              # auto-detecta modo (new se não existe, checkpoint se existe)
+/tese {empresa} --status     # mostra cabeçalho de {empresa}_tese.md
+/tese --carteira             # lista todas as teses ativas
+/tese {empresa} --lens       # força reescrita da Lente + checkpoint
+```
+
+Cria/atualiza `{empresa}_tese.md` (Lente estável + Checkpoints datados). Investment thesis fica isolada da entity page (`{empresa}.md`) — entity é fact base, tese carrega opinião sobre preço/timing. Ver SCHEMA.md §Tese pages.
 
 ---
 
