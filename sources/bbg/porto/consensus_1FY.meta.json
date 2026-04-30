@@ -1,0 +1,20 @@
+{
+  "fetched_at": "2026-04-29T21:28:43-03:00",
+  "rows": 1,
+  "columns": [
+    "ticker",
+    "BEST_EPS",
+    "BEST_NET_INCOME",
+    "BEST_SALES"
+  ],
+  "ticker_b3": "PORTO",
+  "ticker_bbg": "PSSA3 BZ Equity",
+  "period": "1FY",
+  "fields_requested": [
+    "BEST_EPS",
+    "BEST_NET_INCOME",
+    "BEST_SALES",
+    "BEST_EBITDA"
+  ],
+  "source": "Bloomberg via API_TUNEL"
+}

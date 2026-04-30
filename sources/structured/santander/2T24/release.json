@@ -1,0 +1,292 @@
+{
+  "_schema": "banco/v1",
+  "_schema_path": "sources/structured/_schemas/banco.json",
+  "_empresa": "santander",
+  "_periodo": "2T24",
+  "_source": "sources/full/santander/2T24/release.md",
+  "canonical": {
+    "operacional": null,
+    "dre_gerencial": {
+      "margem_financeira_bruta": 14751.0,
+      "margem_com_clientes": 14493.0,
+      "margem_com_mercado": 258.0,
+      "comissoes": 5182.0,
+      "receita_total": 19933.0,
+      "pdd_resultado": -5896.0,
+      "despesa_provisao": -6631.0,
+      "recuperacao_credito": 735.0,
+      "despesas_gerais": -6314.0,
+      "despesas_pessoal": -2979.0,
+      "despesas_administrativas": -3336.0,
+      "despesas_tributarias": -1369.0,
+      "equivalencia_patrimonial": 44.0,
+      "outras_receitas_despesas_op": -2535.0,
+      "resultado_operacional": 3863.0,
+      "resultado_nao_operacional": 44.0,
+      "resultado_antes_impostos": 3907.0,
+      "ir_csll": -530.0,
+      "participacao_minoritarios": -45.0,
+      "lucro_liquido_gerencial": 3332.0,
+      "lucro_liquido_contabil": 3247.0
+    },
+    "dre": {
+      "margem_financeira_bruta": 14545.0,
+      "pdd_resultado": -7685.0,
+      "variacoes_cambiais_liquidas": null,
+      "margem_financeira_liquida": 6860.0,
+      "receitas_servicos_tarifas": 5583.0,
+      "despesas_gerais": -5715.0,
+      "despesas_pessoal": -2385.0,
+      "despesas_administrativas": -3331.0,
+      "despesas_tributarias": -1092.0,
+      "equivalencia_patrimonial": 44.0,
+      "outras_receitas_despesas_op": -3238.0,
+      "resultado_operacional": 2442.0,
+      "resultado_nao_operacional": 1974.0,
+      "resultado_antes_impostos": 4416.0,
+      "ir_csll": -530.0,
+      "participacoes_no_lucro": -594.0,
+      "participacao_minoritarios": -45.0,
+      "lucro_liquido": 3247.0
+    },
+    "bp": {
+      "ativo_total": 1248625.0,
+      "disponibilidades": 10784.0,
+      "ativos_financeiros_vjr": null,
+      "ativos_financeiros_vjora": null,
+      "aplicacoes_interfinanceiras": 121389.0,
+      "tvm_custo_amortizado": null,
+      "carteira_credito_bp": 417435.0,
+      "outros_ativos_financeiros_e_fiscais": 267683.0,
+      "permanente": 15927.0,
+      "investimentos": 2888.0,
+      "imobilizado": 5223.0,
+      "intangivel": 7816.0,
+      "passivos_financeiros_vjr": null,
+      "depositos": 497074.0,
+      "captacoes_mercado_aberto": 143563.0,
+      "obrigacoes_emprestimos": 99328.0,
+      "obrigacoes_repasses": 9137.0,
+      "recursos_aceites_titulos": 150973.0,
+      "outros_passivos_financeiros_e_fiscais": 224790.0,
+      "participacao_minoritarios_bp": 1131.0,
+      "patrimonio_liquido": 87955.0,
+      "passivo_total": 1248625.0
+    },
+    "carteira_credito": {
+      "ampliada_total": 665592.0,
+      "por_segmento": {
+        "pessoa_fisica": 248932.0,
+        "financiamento_consumo": 75450.0,
+        "pmes": 70922.0,
+        "grandes_empresas": 143199.0
+      },
+      "concentracao_top_100_pct": 23.7
+    },
+    "qualidade_credito": {
+      "npl_15_90_total_pct": 3.5,
+      "npl_15_90_pf_pct": 4.9,
+      "npl_15_90_pj_pct": 1.6,
+      "npl_90_total_pct": 3.2,
+      "npl_90_pf_pct": 4.2,
+      "npl_90_pj_pct": 1.6,
+      "cobertura_estagio_3_pct": 215.0,
+      "npl_formation_brl": 6313.0,
+      "npl_formation_pct": 1.2,
+      "write_off_brl": 5939.0,
+      "write_off_pct": 1.12,
+      "carteira_renegociada_brl": 30290.0,
+      "carteira_renegociada_cobertura_pct": 53.7
+    },
+    "pdd_custo_credito": {
+      "despesa_provisao": -6631.0,
+      "recuperacao_credito": 735.0,
+      "pdd_resultado": -5896.0,
+      "custo_credito_anualizado_pct": 3.7
+    },
+    "captacoes": {
+      "depositos_a_vista": 39159.0,
+      "poupanca": 57980.0,
+      "depositos_a_prazo": 395408.0,
+      "compromissadas_lastro_debentures": 15942.0,
+      "lci_lca": 81384.0,
+      "lf_outros": 52533.0,
+      "captacoes_clientes_total": 642406.0,
+      "depositos_compulsorios": -86104.0,
+      "captacoes_liquidas_compulsorios": 556302.0,
+      "obrig_repasses_emprestimos_pais": 9143.0,
+      "divida_subordinada": 21382.0,
+      "captacoes_no_exterior": 114913.0,
+      "captacoes_total": 701740.0,
+      "fundos": 413220.0,
+      "credito_clientes_sobre_captacoes_pct": 93.2,
+      "pf_share_captacoes_clientes_pct": 44.0
+    },
+    "capital": {
+      "capital_nivel_1": 84219.0,
+      "capital_principal_cet1": 77058.0,
+      "capital_complementar": 7160.0,
+      "capital_nivel_2": 14507.0,
+      "patrimonio_referencia": 98726.0,
+      "rwa_total": 686455.0,
+      "rwa_credito": 593481.0,
+      "rwa_mercado": 35494.0,
+      "rwa_operacional": 57479.0,
+      "basileia_pct": 14.4,
+      "cet1_pct": 11.2,
+      "nivel_1_pct": 12.3,
+      "nivel_2_pct": 2.1,
+      "capital_complementar_pct": 1.0
+    },
+    "indicadores": {
+      "roae_pct": 15.5,
+      "roaa_pct": 1.1,
+      "indice_eficiencia_pct": 39.3,
+      "ativos_totais": 1248625.0,
+      "patrimonio_liquido": 87955.0,
+      "carteira_credito_ampliada": 665592.0,
+      "captacoes_clientes": 642406.0
+    },
+    "indicadores_acoes": {
+      "valor_mercado": 103239.0,
+      "lucro_liquido_unit_gerencial_anualizado": 3.57,
+      "lucro_liquido_unit_societario_anualizado": 3.48,
+      "qtd_acoes_milhoes": 7460.0,
+      "valor_patrimonial_unit": 22.93,
+      "jcp_dividendos": 1500.0
+    },
+    "outros_dados": {
+      "funcionarios": 55091,
+      "lojas": 2507,
+      "pabs": null,
+      "atms_proprios": 8404,
+      "atms_rede24h": 23872,
+      "clientes_total_milhoes": 67.2,
+      "clientes_ativos_milhoes": 31.9
+    },
+    "financeiro_ajustado": {
+      "lucro_liquido_recorrente": 3332.0,
+      "roae_recorrente_pct": 15.5,
+      "roaa_recorrente_pct": 1.1,
+      "indice_eficiencia_recorrente_pct": 39.3,
+      "indice_recorrencia_pct": 82.1,
+      "indice_inadimplencia_60d_pct": 3.9,
+      "ajustes_recorrencia": [
+        {
+          "evento": "Provisao adicional 2T24",
+          "valor_brl_mm": -1930,
+          "tipo": "PDD"
+        },
+        {
+          "evento": "Parceria estrategica Pluxee (joint venture Ben)",
+          "valor_brl_mm": 1930,
+          "tipo": "Resultado nao operacional"
+        }
+      ]
+    }
+  },
+  "company_specific": {
+    "comissoes_breakdown": {
+      "cartoes": 1328.0,
+      "conta_corrente": 887.0,
+      "seguros": 992.0,
+      "operacoes_credito": 578.0,
+      "corretagem_colocacao_titulos": 441.0,
+      "administracao_recursos": 381.0,
+      "fundos_investimentos": 150.0,
+      "consorcios": 231.0,
+      "cobranca_arrecadacoes": 302.0,
+      "outras": 273.0,
+      "total": 5182.0
+    },
+    "outras_receitas_despesas_op_breakdown": {
+      "resultado_cartoes": -465.0,
+      "provisoes_contingencias": -1105.0,
+      "outras": -964.0,
+      "total": -2535.0
+    },
+    "despesas_administrativas_breakdown": {
+      "servicos_terceiros_transportes_seguranca": -983.0,
+      "propaganda_promocoes_publicidade": -162.0,
+      "processamento_dados": -696.0,
+      "comunicacoes": -78.0,
+      "alugueis": -186.0,
+      "manutencao_conservacao": -72.0,
+      "agua_energia_gas": -44.0,
+      "material": -29.0,
+      "outras": -280.0,
+      "subtotal_ex_dep_amort": -2531.0,
+      "depreciacoes_amortizacoes": -805.0,
+      "total": -3336.0
+    },
+    "despesas_pessoal_breakdown": {
+      "remuneracao": -1988.0,
+      "encargos": -524.0,
+      "beneficios": -436.0,
+      "treinamento": -14.0,
+      "outras": -17.0,
+      "total": -2979.0
+    },
+    "carteira_credito_pf_por_produto": {
+      "leasing_veiculos": 7333.0,
+      "cartao_credito": 51015.0,
+      "consignado": 73227.0,
+      "credito_imobiliario": 60939.0,
+      "credito_rural": 11910.0,
+      "credito_pessoal_outros": 44509.0,
+      "total_pf_ex_financiamento_consumo": 248932.0
+    },
+    "carteira_credito_pj_por_produto": {
+      "leasing_veiculos": 3690.0,
+      "credito_imobiliario": 2255.0,
+      "comercio_exterior": 40005.0,
+      "repasses": 7711.0,
+      "credito_rural": 13236.0,
+      "capital_giro_outros": 147223.0,
+      "total_pj": 214120.0
+    },
+    "carteira_credito_imobiliario_total": 63193.0,
+    "carteira_veiculos_pf_total": 68148.0,
+    "carteira_credito_ampliada_pj": {
+      "grandes_empresas_ampliada": 246548.0,
+      "pmes_ampliada": 78386.0,
+      "total_pj_ampliada": 324935.0,
+      "share_avais_fiancas_titulos_privados_pct": 34.1
+    },
+    "tvm_breakdown": {
+      "titulos_publicos": 187080.0,
+      "titulos_privados": 84029.0,
+      "instrumentos_financeiros": 31047.0,
+      "total": 302157.0
+    },
+    "saldo_pdd_total": 36545.0,
+    "carteira_por_rating_pct": {
+      "AA": 39.0,
+      "A": 33.0,
+      "B": 11.0,
+      "C": 8.0,
+      "D_a_H": 10.0,
+      "AA_A_total": 71.5
+    },
+    "captacao_liquida_varejo_2T24_brl_mm": 9400.0,
+    "premios_emitidos_seguros_brl_mm": 3500.0,
+    "carteira_negocios_sustentaveis_brl_bi": 32.9,
+    "carteira_use_casa_home_equity_pf_brl_mm": 4500.0,
+    "patrimonio_liquido_ex_agio": 87221.0,
+    "saldo_agio_brl_mm": 2412.0,
+    "valor_recorrente_lucro_liquido_2T23": 2309.0,
+    "valor_recorrente_lucro_liquido_1T24": 3021.0,
+    "carteira_credito_pf_share_ampliada_pct": 39.8,
+    "carteira_credito_grandes_empresas_share_ampliada_pct": 37.0,
+    "exposicao_top_devedor_brl_mm": 11311.0,
+    "exposicao_top_10_devedores_brl_mm": 61483.0,
+    "exposicao_top_50_devedores_brl_mm": 138134.0,
+    "exposicao_top_100_devedores_brl_mm": 178692.0,
+    "ltv_credito_imobiliario_pf_safra_pct": 49.0,
+    "ltv_veiculos_pf_pct": 58.8,
+    "lojas_e_pontos_atendimento": 2507,
+    "clientes_vinculados_milhoes": 9.1,
+    "clientes_total_milhoes": 67.2,
+    "clientes_ativos_milhoes": 31.9
+  }
+}

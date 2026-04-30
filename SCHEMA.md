@@ -9,7 +9,7 @@ Two complementary uses:
 1. **Knowledge wiki** — entity, concept, sector, comparison and synthesis pages about Brazilian listed companies, with citations.
 2. **Modeling substrate** — preserved, structured source material that an LLM can use to build/maintain detailed financial models (planilha completa) for those companies. The wiki and the modeling layer live side by side: the wiki carries the *thesis*, the modeling layer carries the *numbers and the qualitative footing* (notas explicativas, MD&A).
 
-## Architecture — five layers
+## Architecture — six layers
 
 ```
 sources/
@@ -19,6 +19,7 @@ sources/
 │   ├── _schemas/{setor}.json                     # canonical schema per sector (created on demand)
 │   └── {empresa}/{periodo}/{tipo}.json           # canonical + company_specific data
 ├── digested/{name}_summary.md                    # wiki-facing TL;DR
+├── bbg/{empresa}/                                # Bloomberg cache (snapshot, history, consensus) + .meta.json
 ├── manifests/{empresa}.json                      # per-empresa discovery manifest (coverage, sources, precedence)
 ├── index.md                                      # registry of all sources
 └── notion_tracker.md                             # Notion ingest state
@@ -34,6 +35,7 @@ Wiki pages (`*.md` at repo root) are the synthesis layer on top of all of the ab
 | `full/`      | ~content-lossless (loses only PDF layout/images) | The "floor" — LLM reads this when modeling, re-extracting, or verifying a claim. **Replaces keeping the raw PDF.** | LLM during ingest |
 | `structured/` | structured subset only | Feeds the planilha. Cross-empresa comparable. Determinístico. | LLM during ingest, only for ITR/DFP/release |
 | `digested/`  | high — editorial extract | Wiki-facing TL;DR, used to write entity pages | LLM during ingest |
+| `bbg/`       | structured (CSV) + meta | **Secondary market data layer.** Snapshot/history/consensus from Bloomberg via `tools/bbg.sh`. Each dataset has a `.meta.json` with `fetched_at` for citation freshness. **Citations always require `em:`**. | `tools/bbg.sh` (deterministic, no LLM) |
 | `manifests/` | index-only  | **Discovery layer.** One JSON per empresa listing available periods, coverage per canonical block, source inventory, precedence rules and caveats. **A cold-start modeling agent reads this file FIRST** to know what data exists and where to find it. | LLM at end of every heavy/light ingest |
 | Wiki pages   | narrative | Thesis, comparisons, concepts. Cite the layers above. | LLM, ongoing |
 
@@ -197,6 +199,43 @@ At the end of every `file` ingest (heavy or light) for an empresa, the LLM MUST:
 
 First ingest of a new empresa creates the manifest from scratch.
 
+## The `bbg/` layer
+
+Layer de market data via Bloomberg (preço, múltiplos, consenso). Não é gerada por LLM — é fetch determinístico via `tools/bbg.sh` ou `python tools/lib/bbg.py`. O cliente HTTP reusa `_shared/bbg/client.py` do Projeto Servidor (gateway Flask em `http://10.10.60.147`).
+
+### Layout
+
+```
+sources/bbg/{empresa}/
+├── snapshot.csv                  # wide: 1 linha × N campos (px, multiplos, consenso)
+├── snapshot.meta.json            # { fetched_at, ticker_b3, ticker_bbg, fields_requested, source }
+├── consensus_1FY.csv             # wide: estimativas BEst para o periodo
+├── consensus_1FY.meta.json
+├── consensus_2FY.csv
+├── consensus_2FY.meta.json
+├── consensus_history.csv         # append-only: snapshot_date + period + valores (longitudinal)
+├── px_last_history.csv           # long: date, ticker, field, value (BDH)
+└── px_last_history.meta.json
+```
+
+### Conventions
+
+- **Ticker resolution:** input pode ser empresa slug (`porto`) ou B3 ticker (`PSSA3`). Resolve via manifest (`bbg_ticker` field se presente, senão `{ticker} BZ Equity`).
+- **Cache freshness:** default 24h. Override via `--max-age=N` (horas) ou `--refresh` para forçar.
+- **Manifest field (opcional):** adicionar `bbg_ticker` no manifest quando o default `{ticker} BZ Equity` não basta (BDRs, ADRs, tickers preferenciais com sufixo, etc.).
+- **Citation requires `em:`** sempre — Bloomberg é dado vivo. Use `fetched_at` do `.meta.json` para preencher: `(fonte: bbg/porto/snapshot.csv, em: 2026-04-29)`.
+- **Bloomberg = secondary source.** Não use BBG para sobrescrever um valor primário (CVM, release oficial). Use para: consenso, target price, recomendações de analistas, market cap implícito, múltiplos, preço/retorno, reação a evento.
+- **`consensus_history.csv` é append-only por design** — para tracking de consenso ao longo do tempo (ex.: revisões pós-resultado). Dedupe por `(snapshot_date, period)` para idempotência em re-runs no mesmo dia.
+
+### Operations
+
+Comandos em CLAUDE.md §Bloomberg. Rules of thumb:
+
+- **Antes de modelar uma tese:** `bash tools/bbg.sh {ticker} --full` puxa snapshot + consensus 1FY/2FY + price history.
+- **Pós-resultado:** `bash tools/bbg.sh {ticker} --history --since={D-5}` para reação de preço.
+- **Comparação setorial:** `python tools/lib/bbg.py raw '{"method":"ref","tickers":["X","Y","Z"],"flds":["PE_RATIO","BEST_PE_NXT_YR"]}'`.
+- **Descoberta de campos:** `python tools/lib/bbg.py field-search "target price"`.
+
 ## Page Types (wiki layer)
 
 | Type | Description | Naming Example |
@@ -351,6 +390,7 @@ Every factual claim must trace back to a source. Citation format depends on laye
 - **Qualitative / context:** `(fonte: full/itau/3T25/itr.md §nota_18)`
 - **Numeric claim:** `(fonte: structured/itau/3T25/itr.json :: canonical.dre.margem_financeira)`
 - **Legacy / digest-only:** `(fonte: digested/{name}_summary.md)` — only when the underlying source has no `full/` (notion notes, web sources).
+- **Bloomberg (secondary, dated):** `(fonte: bbg/{empresa}/snapshot.csv, em: 2026-04-29)` — **always** carries `em:` (snapshot date). Cache lives in `sources/bbg/{empresa}/` with companion `.meta.json` recording `fetched_at`. Treat BBG as secondary: never override a primary source (CVM/empresa) with BBG; use it for consensus, multiples, market-implied data.
 - **Web:** `(fonte: url, confiabilidade: oficial|editorial|community)`
 
 ### Dated Claims
@@ -366,6 +406,7 @@ Claims that can become factually wrong over time without the period changing car
 | Guidance corporativo forward-looking | yes | `em: 2026-04-10` |
 | Valor regulatório (teto MCMV, faixa) | yes | `em: 2024-10-03` |
 | Meta operacional datada (frota, capex) | yes | `em: 2026-03-15` |
+| Bloomberg snapshot (preço, múltiplo, consenso, target) | yes | `em: 2026-04-29` (data do snapshot, não do dia atual) |
 | Número de DF por período (margem 3T25, ROE) | no | período já codifica a data |
 | Definição conceitual ("CBS substitui PIS/Cofins") | no | atemporal |
 | Descrição mecânica ("IBS é devido a cada pagamento recebido") | no | descreve como funciona, não um valor volátil |

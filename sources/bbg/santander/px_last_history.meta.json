@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-29T22:54:31-03:00",
+  "rows": 581,
+  "columns": [
+    "date",
+    "ticker",
+    "field",
+    "value"
+  ],
+  "ticker_b3": "SANB11",
+  "ticker_bbg": "SANB11 BZ Equity",
+  "field": "PX_LAST",
+  "start": "2024-01-01",
+  "end": "2026-04-29",
+  "source": "Bloomberg via API_TUNEL"
+}

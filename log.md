@@ -1117,3 +1117,64 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 [edit] 2026-04-29 | consignado_privado.md | add BB (R$ 17.2 bi, 13% market share, 3% a.m., 52 meses) from BB Day 2026 digest; add call_fgts to sources
 [update] 2026-04-29 | incorporadoras.md | add FGTS call digest (34b00ca3): saque-aniversário risk, orçamento 2026 R$ 169 bi, Fundo Social Pré-Sal, estrutura subsídios | fonte: notion_call_fgts_34b00ca3_summary.md
 [wiki-done] 2026-04-29 | batch_20260429_180601
+[wiki-queue] 2026-04-29 | porto_seguro | call_ri | 1T26 | sources/digested/porto_seguro_call_28042026_summary.md
+[wiki-update] 2026-04-29 | porto_seguro.md | ingest porto_seguro_call_28042026_summary.md | call investidores 28/04/2026 1T26 — auto/saude/bank/servico
+[edit] 2026-04-29 | porto_bank.md | wiki-write update | fonte: sources/digested/porto_seguro_call_28042026_summary.md | adds: composicao receita cartao, rewards clarification, consorcio guidance high-teens 2026, NIM 1T26 pressionado melhora 2S26, Estagio3>NPL90, endurecimento criterios concessao
+[wiki-done] 2026-04-29 | batch_20260429_193251
+[edit] 2026-04-29 | porto_bank.md | manual: added DA+DO R$ 1,8-2,0 bi guidance row + official efficiency formula + 2025 pro-forma R$ 1,6 bi + tributos/comercialização breakdown — closes modeling gap from generic ingest
+[bbg-fetch] 2026-04-29 | porto (PSSA3 BZ Equity) | mode=full | sources/bbg/porto/
+[bbg-fetch] 2026-04-29 | porto (PSSA3 BZ Equity) | mode=full | sources/bbg/porto/
+[edit] 2026-04-29 | tools/bbg.sh, tools/lib/bbg.py | new: BBG layer integration — reusa _shared/bbg do Projeto Servidor, cache em sources/bbg/{empresa}/, CLI snapshot/consensus/history/raw/field-search; CLAUDE.md + SCHEMA.md atualizados (six layers, citation com em: obrigatorio, bbg como secondary source)
+[bbg-fetch] 2026-04-29 | santander (SANB11 BZ Equity) | mode=full | sources/bbg/santander/
+2026-04-29 — ingest itr 1T26: sources/full/santander/1T26/itr.md, sources/structured/santander/1T26/itr.json, sources/digested/santander_itr_1T26_summary.md
+2026-04-29 — ingest release 1T26: sources/full/santander/1T26/release.md, sources/structured/santander/1T26/release.json, sources/digested/santander_release_1T26_summary.md
+2026-04-29 — ingest release 1T26: sources/full/santander/1T26/release.md, sources/structured/santander/1T26/release.json, sources/digested/santander_release_1T26_summary.md
+2026-04-29 — ingest release 1T26: sources/full/santander/1T26/release.md, sources/structured/santander/1T26/release.json, sources/digested/santander_release_1T26_summary.md
+2026-04-29 — ingest fato_relevante 1T26: sources/full/santander/1T26/fato_relevante_1017486.md, sources/digested/santander_fatos_relevantes_batch_summary.md
+[wiki-queue] 2026-04-29 | santander | fatos_relevantes | batch | sources/digested/santander_fatos_relevantes_batch_summary.md
+[wiki-queue] 2026-04-29 | santander | itr | 1T26 | sources/digested/santander_itr_1T26_summary.md
+[wiki-queue] 2026-04-29 | santander | release | 1T26 | sources/digested/santander_release_1T26_summary.md
+[claim-update] 2026-04-29 | santander.md | completou 26 anos no banco e 5 como CEO | em:none->2026-03-19 | modo:silent
+[wiki-done] 2026-04-29 | batch_20260429_231258
+2026-04-30 — ingest itr 1T24: sources/full/santander/1T24/itr.md, sources/structured/santander/1T24/itr.json, sources/digested/santander_itr_1T24_summary.md
+2026-04-30 — ingest itr 1T25: sources/full/santander/1T25/itr.md, sources/structured/santander/1T25/itr.json, sources/digested/santander_itr_1T25_summary.md
+2026-04-30 — ingest dfp 2023: sources/full/santander/2023/dfp.md, sources/structured/santander/2023/dfp.json, sources/digested/santander_dfp_2023_summary.md
+2026-04-30 — ingest dfp 2024: sources/full/santander/2024/dfp.md, sources/structured/santander/2024/dfp.json, sources/digested/santander_dfp_2024_summary.md
+2026-04-30 — ingest dfp 2025: sources/full/santander/2025/dfp.md, sources/structured/santander/2025/dfp.json, sources/digested/santander_dfp_2025_summary.md
+2026-04-30 — ingest itr 2T24: sources/full/santander/2T24/itr.md, sources/structured/santander/2T24/itr.json, sources/digested/santander_itr_2T24_summary.md
+2026-04-30 — ingest itr 2T25: sources/full/santander/2T25/itr.md, sources/structured/santander/2T25/itr.json, sources/digested/santander_itr_2T25_summary.md
+2026-04-30 — ingest itr 3T24: sources/full/santander/3T24/itr.md, sources/structured/santander/3T24/itr.json, sources/digested/santander_itr_3T24_summary.md
+2026-04-30 — ingest itr 3T25: sources/full/santander/3T25/itr.md, sources/structured/santander/3T25/itr.json, sources/digested/santander_itr_3T25_summary.md
+2026-04-30 — ingest release 1T24: sources/full/santander/1T24/release.md, sources/structured/santander/1T24/release.json, sources/digested/santander_release_1T24_summary.md
+2026-04-30 — ingest release 1T25: sources/full/santander/1T25/release.md, sources/structured/santander/1T25/release.json, sources/digested/santander_release_1T25_summary.md
+2026-04-30 — ingest release 2T24: sources/full/santander/2T24/release.md, sources/structured/santander/2T24/release.json, sources/digested/santander_release_2T24_summary.md
+2026-04-30 — ingest release 2T25: sources/full/santander/2T25/release.md, sources/structured/santander/2T25/release.json, sources/digested/santander_release_2T25_summary.md
+2026-04-30 — ingest release 3T24: sources/full/santander/3T24/release.md, sources/structured/santander/3T24/release.json, sources/digested/santander_release_3T24_summary.md
+2026-04-30 — ingest release 3T25: sources/full/santander/3T25/release.md, sources/structured/santander/3T25/release.json, sources/digested/santander_release_3T25_summary.md
+2026-04-30 — ingest release 4T25: sources/full/santander/4T25/release.md, sources/structured/santander/4T25/release.json, sources/digested/santander_release_4T25_summary.md
+2026-04-30 — ingest fato_relevante 1T24: sources/full/santander/1T24/fato_relevante_714456.md, sources/digested/santander_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 4T25: sources/full/santander/4T25/fato_relevante_961874.md, sources/digested/santander_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 4T25: sources/full/santander/4T25/fato_relevante_984733.md, sources/digested/santander_fatos_relevantes_batch_summary.md
+[wiki-queue] 2026-04-30 | santander | dfp | 2023 | sources/digested/santander_dfp_2023_summary.md
+[wiki-queue] 2026-04-30 | santander | dfp | 2024 | sources/digested/santander_dfp_2024_summary.md
+[wiki-queue] 2026-04-30 | santander | dfp | 2025 | sources/digested/santander_dfp_2025_summary.md
+[wiki-queue] 2026-04-30 | santander | fatos_relevantes | batch | sources/digested/santander_fatos_relevantes_batch_summary.md
+[wiki-queue] 2026-04-30 | santander | itr | 1T24 | sources/digested/santander_itr_1T24_summary.md
+[wiki-queue] 2026-04-30 | santander | itr | 1T25 | sources/digested/santander_itr_1T25_summary.md
+[wiki-queue] 2026-04-30 | santander | itr | 2T24 | sources/digested/santander_itr_2T24_summary.md
+[wiki-queue] 2026-04-30 | santander | itr | 2T25 | sources/digested/santander_itr_2T25_summary.md
+[wiki-queue] 2026-04-30 | santander | itr | 3T24 | sources/digested/santander_itr_3T24_summary.md
+[wiki-queue] 2026-04-30 | santander | itr | 3T25 | sources/digested/santander_itr_3T25_summary.md
+[wiki-queue] 2026-04-30 | santander | release | 1T24 | sources/digested/santander_release_1T24_summary.md
+[wiki-queue] 2026-04-30 | santander | release | 1T25 | sources/digested/santander_release_1T25_summary.md
+[wiki-queue] 2026-04-30 | santander | release | 2T24 | sources/digested/santander_release_2T24_summary.md
+[wiki-queue] 2026-04-30 | santander | release | 2T25 | sources/digested/santander_release_2T25_summary.md
+[wiki-queue] 2026-04-30 | santander | release | 3T24 | sources/digested/santander_release_3T24_summary.md
+[wiki-queue] 2026-04-30 | santander | release | 3T25 | sources/digested/santander_release_3T25_summary.md
+[wiki-queue] 2026-04-30 | santander | release | 4T25 | sources/digested/santander_release_4T25_summary.md
+[wiki-done] 2026-04-30 | batch_20260430_064422
+[wiki-done] 2026-04-30 | batch_20260430_105942
+2026-04-30 — ingest release 4T24: sources/full/santander/4T24/release.md, sources/structured/santander/4T24/release.json, sources/digested/santander_release_4T24_summary.md
+[wiki-queue] 2026-04-30 | santander | release | 4T24 | sources/digested/santander_release_4T24_summary.md
+[wiki-done] 2026-04-30 | batch_20260430_112739
+[edit] 2026-04-30 | reforma_tributaria.md | add §Tratamento transitório dos bens de capital — Art. 406 LC 214/2025 com cenários numéricos para Localiza/Movida (CBS/IBS sobre seminovos durante a transição, fórmula com piso zero, fatores 1,0→0,6, valor líquido de aquisição §6)

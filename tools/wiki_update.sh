@@ -17,7 +17,7 @@ usage() {
     echo "  WIKI_PLAN_CHUNK_SIZE     Digesteds per planning chunk (default: 50)"
     echo "  WIKI_PLAN_CHUNK_TIMEOUT  Seconds per planning chunk (default: 1200)"
     echo "  WIKI_WRITE_TIMEOUT       Seconds per page write (default: 1800)"
-    echo "  WIKI_GRAPH_DEPTH         Subgraph BFS depth for incremental mode (default: 2)"
+    echo "  WIKI_GRAPH_DEPTH         Subgraph BFS depth for incremental mode (default: 1; set to 2 for cross-page propagation)"
     exit 1
 }
 
@@ -77,11 +77,15 @@ fi
 
 # --- Collect existing wiki pages with frontmatter ---
 # In incremental mode: use wiki_graph.py to restrict to the BFS subgraph of
-# affected pages (depth=WIKI_GRAPH_DEPTH, default 2). The planner still
+# affected pages (depth=WIKI_GRAPH_DEPTH, default 1). At depth=1 only the
+# directly affected pages enter the subgraph (the entity page of the empresa
+# whose digesteds are being processed plus any page directly wikilinked from
+# them). Set WIKI_GRAPH_DEPTH=2 when an update truly needs to ripple to the
+# neighbours of those neighbours (rare, expensive). The planner still
 # receives ALL page names as a lightweight reference so it can detect missing
 # pages and decide on creates; only the subgraph candidates get full metadata.
 # In --full mode: pass all pages as before.
-GRAPH_DEPTH="${WIKI_GRAPH_DEPTH:-2}"
+GRAPH_DEPTH="${WIKI_GRAPH_DEPTH:-1}"
 
 echo "Scanning wiki pages..."
 WIKI_PAGES=""
@@ -390,19 +394,28 @@ for item in plan.get('update', []):
         fi
 
         WRITE_RC=0
+        WRITE_OUT=$(mktemp "${TMPDIR:-/tmp}/wiki_write_XXXXXX.log")
         INVOKE_CLAUDE_TIMEOUT="$WRITE_TIMEOUT" INVOKE_CLAUDE_MODEL="$WRITE_MODEL" invoke_claude "$SCRIPT_DIR/prompts/wiki_write.md" \
             "{{PAGE_NAME}}" "$PAGE_NAME" \
             "{{ACTION}}" "$ACTION" \
             "{{PAGE_TYPE}}" "$PAGE_TYPE" \
             "{{DIGESTED_LIST}}" "$PAGE_DIGESTEDS" \
             "{{EXISTING_CONTENT}}" "$EXISTING_CONTENT" \
-            "{{ALL_PAGES}}" "$ALL_PAGES" > /dev/null || WRITE_RC=$?
+            "{{ALL_PAGES}}" "$ALL_PAGES" > "$WRITE_OUT" 2>&1 || WRITE_RC=$?
 
         if [[ "$WRITE_RC" -ne 0 ]]; then
             echo "    FAILED [$ACTION $PAGE_NAME] rc=$WRITE_RC — skipping"
+            # Capture last 50 lines of agent output to surface the error
+            WRITE_TAIL=$(tail -n 50 "$WRITE_OUT" 2>/dev/null || echo "")
+            echo "    --- agent output (tail) ---"
+            echo "$WRITE_TAIL" | sed 's/^/      /'
+            echo "    ---------------------------"
+            FAILED_OUT_LOG="${FAILED_PAGES_LOG%.json}_${PAGE_NAME//\//_}.txt"
+            cp "$WRITE_OUT" "$FAILED_OUT_LOG" 2>/dev/null || true
             python -c "
 import json, sys
-log='$FAILED_PAGES_LOG'; rec={'page':'$PAGE_NAME','action':'$ACTION','type':'$PAGE_TYPE','rc':$WRITE_RC}
+log='$FAILED_PAGES_LOG'
+rec={'page':'$PAGE_NAME','action':'$ACTION','type':'$PAGE_TYPE','rc':$WRITE_RC,'log':'$FAILED_OUT_LOG'}
 try:
     data=json.load(open(log))
 except Exception:
@@ -414,6 +427,7 @@ json.dump(data, open(log,'w'), ensure_ascii=False, indent=2)
         else
             WRITTEN_PAGES=$((WRITTEN_PAGES+1))
         fi
+        rm -f "$WRITE_OUT"
 
         ALL_PAGES+=",$PAGE_NAME"
 

@@ -1,0 +1,440 @@
+{
+  "_schema": "manifest/v1",
+  "_updated": "2026-04-30",
+  "empresa": "santander",
+  "display_name": "Banco Santander (Brasil) S.A.",
+  "aliases": [
+    "Santander",
+    "Santander Brasil",
+    "SANB11",
+    "SANB3",
+    "SANB4"
+  ],
+  "ticker": "SANB11",
+  "setor": "banco",
+  "setor_schema": "sources/structured/_schemas/banco.json",
+  "wiki_page": "santander.md",
+  "sources": [
+    {
+      "type": "itr",
+      "asof": "1T26",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/santander/1T26/itr.md",
+      "structured": [
+        "sources/structured/santander/1T26/itr.json"
+      ],
+      "digested": "sources/digested/santander_itr_1T26_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "1T26",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/santander/1T26/release.md",
+      "structured": [
+        "sources/structured/santander/1T26/release.json"
+      ],
+      "digested": "sources/digested/santander_release_1T26_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-29",
+      "full": "sources/full/santander/1T26/fato_relevante_1017486.md",
+      "digested": "sources/digested/santander_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "1T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/1T24/itr.md",
+      "structured": [
+        "sources/structured/santander/1T24/itr.json"
+      ],
+      "digested": "sources/digested/santander_itr_1T24_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "1T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/1T25/itr.md",
+      "structured": [
+        "sources/structured/santander/1T25/itr.json"
+      ],
+      "digested": "sources/digested/santander_itr_1T25_summary.md"
+    },
+    {
+      "type": "dfp",
+      "asof": "2023",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/2023/dfp.md",
+      "structured": [
+        "sources/structured/santander/2023/dfp.json"
+      ],
+      "digested": "sources/digested/santander_dfp_2023_summary.md"
+    },
+    {
+      "type": "dfp",
+      "asof": "2024",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/2024/dfp.md",
+      "structured": [
+        "sources/structured/santander/2024/dfp.json"
+      ],
+      "digested": "sources/digested/santander_dfp_2024_summary.md"
+    },
+    {
+      "type": "dfp",
+      "asof": "2025",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/2025/dfp.md",
+      "structured": [
+        "sources/structured/santander/2025/dfp.json"
+      ],
+      "digested": "sources/digested/santander_dfp_2025_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "2T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/2T24/itr.md",
+      "structured": [
+        "sources/structured/santander/2T24/itr.json"
+      ],
+      "digested": "sources/digested/santander_itr_2T24_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "2T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/2T25/itr.md",
+      "structured": [
+        "sources/structured/santander/2T25/itr.json"
+      ],
+      "digested": "sources/digested/santander_itr_2T25_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "3T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/3T24/itr.md",
+      "structured": [
+        "sources/structured/santander/3T24/itr.json"
+      ],
+      "digested": "sources/digested/santander_itr_3T24_summary.md"
+    },
+    {
+      "type": "itr",
+      "asof": "3T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/3T25/itr.md",
+      "structured": [
+        "sources/structured/santander/3T25/itr.json"
+      ],
+      "digested": "sources/digested/santander_itr_3T25_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "1T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/1T24/release.md",
+      "structured": [
+        "sources/structured/santander/1T24/release.json"
+      ],
+      "digested": "sources/digested/santander_release_1T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "1T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/1T25/release.md",
+      "structured": [
+        "sources/structured/santander/1T25/release.json"
+      ],
+      "digested": "sources/digested/santander_release_1T25_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "2T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/2T24/release.md",
+      "structured": [
+        "sources/structured/santander/2T24/release.json"
+      ],
+      "digested": "sources/digested/santander_release_2T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "2T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/2T25/release.md",
+      "structured": [
+        "sources/structured/santander/2T25/release.json"
+      ],
+      "digested": "sources/digested/santander_release_2T25_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "3T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/3T24/release.md",
+      "structured": [
+        "sources/structured/santander/3T24/release.json"
+      ],
+      "digested": "sources/digested/santander_release_3T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "3T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/3T25/release.md",
+      "structured": [
+        "sources/structured/santander/3T25/release.json"
+      ],
+      "digested": "sources/digested/santander_release_3T25_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "4T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/4T25/release.md",
+      "structured": [
+        "sources/structured/santander/4T25/release.json"
+      ],
+      "digested": "sources/digested/santander_release_4T25_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/1T24/fato_relevante_714456.md",
+      "digested": "sources/digested/santander_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/4T25/fato_relevante_961874.md",
+      "digested": "sources/digested/santander_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/4T25/fato_relevante_984733.md",
+      "digested": "sources/digested/santander_fatos_relevantes_batch_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "4T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/santander/4T24/release.md",
+      "structured": [
+        "sources/structured/santander/4T24/release.json"
+      ],
+      "digested": "sources/digested/santander_release_4T24_summary.md"
+    }
+  ],
+  "coverage": {
+    "1T26": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/santander/1T26/itr.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/santander/1T26/itr.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/santander/1T26/release.json"
+      }
+    },
+    "1T24": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/santander/1T24/itr.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/santander/1T24/itr.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/santander/1T24/release.json"
+      }
+    },
+    "1T25": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/santander/1T25/itr.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/santander/1T25/itr.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/santander/1T25/release.json"
+      }
+    },
+    "2023": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/santander/2023/dfp.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/santander/2023/dfp.json"
+      }
+    },
+    "2024": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/santander/2024/dfp.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/santander/2024/dfp.json"
+      }
+    },
+    "2025": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/santander/2025/dfp.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/santander/2025/dfp.json"
+      }
+    },
+    "2T24": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/santander/2T24/itr.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/santander/2T24/itr.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/santander/2T24/release.json"
+      }
+    },
+    "2T25": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/santander/2T25/itr.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/santander/2T25/itr.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/santander/2T25/release.json"
+      }
+    },
+    "3T24": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/santander/3T24/itr.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/santander/3T24/itr.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/santander/3T24/release.json"
+      }
+    },
+    "3T25": {
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/santander/3T25/itr.json"
+      },
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/santander/3T25/itr.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/santander/3T25/release.json"
+      }
+    },
+    "4T25": {
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/santander/4T25/release.json"
+      }
+    },
+    "4T24": {
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/santander/4T24/release.json"
+      }
+    }
+  },
+  "fetch_profile": {
+    "_created": "2026-04-29",
+    "_sample_period": "1T26",
+    "categories": {
+      "release_resultado_pt": {
+        "action": "include",
+        "description": "Informe de Resultados trimestral em portugues (BRGAAP)",
+        "sample_files": [
+          "SANB11_1T26_release_1035025.pdf"
+        ]
+      },
+      "release_resultado_en": {
+        "action": "exclude",
+        "description": "Earnings Release em ingles (BRGAAP) — duplicata do PT",
+        "sample_files": [
+          "SANB11_1T26_release_1035026.pdf"
+        ]
+      },
+      "demonstracoes_financeiras_brgaap_pt": {
+        "action": "include",
+        "description": "Demonstracoes Financeiras Condensadas BRGAAP em portugues",
+        "sample_files": [
+          "SANB11_1T26_release_1035024.pdf"
+        ]
+      },
+      "demonstracoes_financeiras_brgaap_en": {
+        "action": "exclude",
+        "description": "Condensed Financial Statements BRGAAP em ingles — duplicata do PT (inclui reapresentacoes)",
+        "sample_files": [
+          "SANB11_1T26_release_1035023.pdf",
+          "SANB11_1T26_release_1036300.pdf"
+        ]
+      },
+      "demonstracoes_financeiras_ifrs_pt": {
+        "action": "include",
+        "description": "Demonstracoes Financeiras Condensadas IFRS em portugues",
+        "sample_files": [
+          "SANB11_1T26_release_1035022.pdf"
+        ]
+      },
+      "demonstracoes_financeiras_ifrs_en": {
+        "action": "exclude",
+        "description": "Condensed Financial Statements IFRS em ingles — duplicata do PT",
+        "sample_files": [
+          "SANB11_1T26_release_1035021.pdf"
+        ]
+      },
+      "fato_relevante": {
+        "action": "include",
+        "description": "Fato Relevante — eventos materiais (ex: mudanca de CEO)",
+        "sample_files": [
+          "SANB11_1T26_fato_relevante_1017486.pdf"
+        ]
+      }
+    }
+  },
+  "caveats": [
+    "Santander reporta em BRGAAP e IFRS — duas DFs distintas. Manifest mantem ambas em PT.",
+    "Versoes EN sao duplicatas das PT e ficam excluidas do fetch.",
+    "Documento 1036300 e reapresentacao do 1035023 (BRGAAP EN) — ambos excluidos."
+  ]
+}

@@ -16,18 +16,18 @@ updated: 2026-04-28
 
 ## Bancos
 
-| Empresa | Ticker | Wiki | Tese | 4T25 | 1T26 | 2T26 | 3T26 | 4T26 | Atualizada |
-|---|---|---|---|---|---|---|---|---|---|
-| Banco do Brasil | BBAS3 | [[banco_do_brasil]] | — | | | | | | 2026-04-28 |
-| Bradesco | BBDC4 | [[bradesco]] | — | 05/02 | 05/05 | 29/07 | 28/10 |  | 2026-04-28 |
-| BTG Pactual | BPAC11 | [[btg]] | — | 09/02 | 12/05 | 11/08 | 10/11 |  | 2026-04-28 |
-| Daycoval | DAYC4 | — | — | 10/02 | 06/05 | 05/08 | 04/11 |  | 2026-04-28 |
-| Inter | INBR32 | [[inter]] | — | | | | | | 2026-04-28 |
-| Itaú | ITUB4 | [[itau]] | — | 04/02 | 05/05 | 04/08 | 03/11 |  | 2026-04-28 |
-| Mercantil | BMEB4 | [[mercantil]] | — | | | | | | 2026-04-28 |
-| Nubank | NU | [[nubank]] | — | | | | | | 2026-04-28 |
-| Pine | PINE4 | [[banco_pine]] | — | 18/02 | 05/05 | 12/08 | 11/11 |  | 2026-04-28 |
-| Santander | SANB11 | [[santander]] | — | | | | | | 2026-04-28 |
+| Empresa         | Ticker | Wiki                | Tese | 4T25  | 1T26  | 2T26  | 3T26  | 4T26 | Atualizada |
+| --------------- | ------ | ------------------- | ---- | ----- | ----- | ----- | ----- | ---- | ---------- |
+| Banco do Brasil | BBAS3  | [[banco_do_brasil]] | —    |       |       |       |       |      | 2026-04-28 |
+| Bradesco        | BBDC4  | [[bradesco]]        | —    | 05/02 | 05/05 | 29/07 | 28/10 |      | 2026-04-28 |
+| BTG Pactual     | BPAC11 | [[btg]]             | —    | 09/02 | 12/05 | 11/08 | 10/11 |      | 2026-04-28 |
+| Daycoval        | DAYC4  | —                   | —    | 10/02 | 06/05 | 05/08 | 04/11 |      | 2026-04-28 |
+| Inter           | INBR32 | [[inter]]           | —    |       |       |       |       |      | 2026-04-28 |
+| Itaú            | ITUB4  | [[itau]]            | —    | 04/02 | 05/05 | 04/08 | 03/11 |      | 2026-04-28 |
+| Mercantil       | BMEB4  | [[mercantil]]       | —    |       |       |       |       |      | 2026-04-28 |
+| Nubank          | NU     | [[nubank]]          | —    |       |       |       |       |      | 2026-04-28 |
+| Pine            | PINE4  | [[banco_pine]]      | —    | 18/02 | 05/05 | 12/08 | 11/11 |      | 2026-04-28 |
+| Santander       | SANB11 | [[santander]]       | —    |       |       |       |       |      | 2026-04-28 |
 
 ## Seguros / Capitalização
 

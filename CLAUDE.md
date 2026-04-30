@@ -197,6 +197,31 @@ bash tools/query.sh "compare a margem bruta da Direcional vs Cury em 2024"
 
 Searches structured/ → full/ → digested/ with spaced-text normalization. Returns cited answers. Never invents data.
 
+### Bloomberg (price, multiples, consensus)
+
+```bash
+# Snapshot wide: px + multiplos + consenso (default 24h cache)
+bash tools/bbg.sh PSSA3 --snapshot
+
+# Estimativas BEst para periodos (1FY=ano corrente, 2FY=proximo)
+bash tools/bbg.sh PSSA3 --consensus 1FY,2FY
+
+# Serie historica (default PX_LAST)
+bash tools/bbg.sh PSSA3 --history --since=2024-01-01 --field=PX_LAST
+
+# Tudo de uma vez (snapshot + 1FY/2FY + history)
+bash tools/bbg.sh PSSA3 --full
+
+# Forca refresh do cache
+bash tools/bbg.sh PSSA3 --snapshot --refresh
+
+# CLI direta (escape hatch)
+python tools/lib/bbg.py raw '{"method":"ref","tickers":["PSSA3 BZ Equity","BBSE3 BZ Equity"],"flds":["PX_LAST","BEST_TARGET_PRICE"]}'
+python tools/lib/bbg.py field-search "target price"
+```
+
+Reusa `_shared/bbg/client.py` do Projeto Servidor via sys.path (override com `BBG_PROJETOS_PATH`). Cliente HTTP fala com gateway Flask em `http://10.10.60.147` (BDP/BDH/BDS/BQL/field-search). Cache citável em `sources/bbg/{empresa}/` com `.meta.json` carregando `fetched_at` ISO. `consensus_history.csv` faz append longitudinal (datado por `snapshot_date` + `period`) para tracking de consenso ao longo do tempo. **Bloomberg = secondary source** — sempre cite com `em: YYYY-MM-DD` (data do snapshot, não do dia atual).
+
 ### File extraction (standalone)
 
 ```bash
@@ -230,7 +255,7 @@ Scans `sources/structured/`, `sources/full/`, `sources/digested/` for the given 
 
 **Caveat:** do NOT use on Tenda — its manifest uses a `data_pack` pattern with grouped `full` lists that the rebuilder doesn't handle. Use surgical edits instead.
 
-## Architecture — five layers under `sources/`
+## Architecture — six layers under `sources/`
 
 ```
 sources/
@@ -241,6 +266,7 @@ sources/
 │   ├── _schemas/{setor}.json                   # canonical schema per sector (on demand)
 │   └── {empresa}/{periodo}/{tipo}.json         # canonical + company_specific (with _schema_path)
 ├── digested/{name}_summary.md                  # wiki-facing TL;DR
+├── bbg/{empresa}/                              # Bloomberg cache (snapshot, history, consensus) + .meta.json
 ├── manifests/{empresa}.json                    # discovery manifest — coverage, sources, precedence
 ├── index.md                                    # source registry
 └── notion_tracker.md                           # notion ingest state
@@ -262,7 +288,9 @@ tools/
 ├── wiki_update.sh              # orchestrator: digesteds → wiki pages (two-phase: plan + execute)
 ├── query.sh                    # query agent: answers questions by searching structured/full/digested
 ├── reingest_full.sh            # re-download PDFs → full/ (no LLM, bypasses manifest)
+├── bbg.sh                      # orchestrator: Bloomberg snapshot/history/consensus → sources/bbg/{empresa}/
 ├── lib/
+│   ├── bbg.py                  # BBG client (reusa _shared/bbg do Projeto Servidor) + cache layer + CLI
 │   ├── calls_plan.py           # builds sources/manifests/{empresa}_calls_plan.json from yt-dlp output
 │   ├── cvm_fetch.py            # CVM-API client (resolve ticker, list docs, download, batch-download)
 │   ├── file_extract.py          # PDF/XLSX/DOCX/PPTX → markdown (opendataloader/pdfplumber/markitdown)

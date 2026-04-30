@@ -19,8 +19,9 @@ sources:
   - sources/digested/porto_call_transcript_2T25_summary.md
   - sources/digested/porto_call_transcript_3T25_summary.md
   - sources/digested/porto_call_transcript_4T25_summary.md
+  - sources/digested/porto_seguro_call_28042026_summary.md
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-04-29
 ---
 
 # Porto Bank
@@ -93,6 +94,8 @@ Motor principal da carteira de crédito. Base de ~1 milhão de portadores; ~1 mi
 - **Transações internacionais:** +120% YoY (IOF Zero em cartão internacional lançado em 2024)
 - **TPV interno (ecossistema Porto):** 12% do total
 - Parcelamento de fatura e parcelamento de Pix disponíveis como produto dedicado
+- **Composição de receita fee-based:** 60% interchange, 30% anuidade, 10% outras (inclui fee de venda de seguros para Porto Seguro) (fonte: sources/digested/porto_seguro_call_28042026_summary.md, em: 2026-04-28)
+- **Rewards 2025 ajustado:** ~R$ 730 M (reportado como R$ 450 M; diferença reflete reclassificações contábeis do consórcio); crescimento de rewards em 2026 deve ser moderado (fonte: sources/digested/porto_seguro_call_28042026_summary.md, em: 2026-04-28)
 
 (fonte: sources/digested/porto_release_2T25_summary.md, sources/digested/porto_release_1T25_summary.md, sources/digested/porto_dfp_2024_summary.md)
 
@@ -107,7 +110,9 @@ Carteira administrada **R$ 107,3 bi em 4T25 (+36% YoY)** — liderança históri
 - **Ticket médio:** ~R$ 200k (imobiliário) vs ~R$ 50–70k (auto)
 - Comissionamento: 3%–3,5% sobre crédito vendido
 
-**Mudança contábil 4T25:** novo modelo de controle granular por grupo/cota (sistema implementado em maio/2025) gera ajuste retroativo com impacto de **-R$ 276 mm de receita no 4T25**, compensado por efeito positivo simétrico em comissão (líquido ~zero). Versão "ajustada" exclui o efeito para fins de comparabilidade YoY (+38% ajustado vs +13,5% reportado) (fonte: sources/digested/porto_release_4T25_summary.md, sources/digested/porto_call_transcript_4T25_summary.md).
+**Mudança contábil 4T25:** novo modelo de controle granular por grupo/cota (sistema implementado em maio/2025) gera ajuste retroativo com impacto de **-R$ 276 mm de receita no 4T25**, compensado por efeito positivo simétrico em comissão (líquido ~zero). Versão "ajustada" exclui o efeito para fins de comparabilidade YoY (+38% ajustado vs +13,5% reportado) (fonte: sources/digested/porto_release_4T25_summary.md, sources/digested/porto_call_transcript_4T25_summary.md). Na base comparável pós-ajuste: receita trimestral do consórcio ~R$ 265 M; comissões caíram ~R$ 300 M+; EBT gerado: R$ 35 M (fonte: sources/digested/porto_seguro_call_28042026_summary.md, em: 2026-04-28).
+
+**Guidance 2026 para o consórcio (base comparável):** crescimento em "high teens" (fonte: sources/digested/porto_seguro_call_28042026_summary.md, em: 2026-04-28).
 
 ### Car equity (Carecut) — crédito colateralizado
 
@@ -185,7 +190,9 @@ Novo produto para 2026 mencionado no guidance (fonte: sources/digested/porto_cal
 
 Inadimplência 90d de 5,2% em 2024 (vs 6,6% em 2023, -1,4 p.p.) posicionou o Porto Bank **abaixo da média de mercado** mesmo num ano de deterioração sistêmica — mérito da colateralização (veículos segurados) e da base proprietária de corretores (fonte: sources/digested/porto_dfp_2024_summary.md).
 
-**PDD preventiva 2026 (+30% mid):** expansão atribuída a ~12 mil clientes (de 3 mm no cartão) com alavancagem alta em outras instituições; 15-90d caindo, sem piora real de safra. Caráter preventivo, não reativo (fonte: sources/digested/porto_call_transcript_4T25_summary.md).
+**PDD preventiva 2026 (+30% mid):** expansão atribuída a ~12 mil clientes (de 3 mm no cartão) com alavancagem alta em outras instituições; 15-90d caindo, sem piora real de safra. Caráter preventivo, não reativo. Companhia está endurecendo critérios de concessão — carteira crescendo **menos** que as perdas em 2026 (fonte: sources/digested/porto_call_transcript_4T25_summary.md, sources/digested/porto_seguro_call_28042026_summary.md).
+
+**Estágio 3 (IFRS 9) vs NPL 90:** Estágio 3 é estruturalmente **maior** que inadimplência 90d — diferença metodológica (IFRS 9 classifica créditos por deterioração esperada, não apenas pelo atraso). Comparação direta entre as métricas não é válida (fonte: sources/digested/porto_seguro_call_28042026_summary.md, em: 2026-04-28).
 
 ---
 
@@ -226,8 +233,24 @@ Novo critério de medição (líquido de Rewards/bandeiras; novo cálculo de efi
 | Receita total | R$ 7,5–7,9 bi | Novo critério — líquido de rewards/bandeiras (~R$ 720 mm/ano). Ajustado por esses e pela mudança de consórcio, cresce **~+20% no midpoint** |
 | Perdas de crédito | −R$ 2,7 a −R$ 3,1 bi | **+30% no midpoint** — preventiva para ~12k clientes com alavancagem alta em outras instituições |
 | Índice de eficiência | 27–31% | Nova metodologia: rewards/bandeiras saem de despesa operacional e viram redutor de receita |
+| **DA + DO (implícito)** | **R$ 1,8–2,0 bi** | Despesas administrativas + operacionais **líquidas de rewards** — implícito no índice de eficiência. 2025 pro-forma pelo novo critério: **R$ 1,6 bi**. Crescimento implícito mid: **+18,8%** |
 
-(fonte: sources/digested/porto_release_4T25_summary.md, sources/digested/porto_call_transcript_4T25_summary.md)
+(fonte: full/porto/4T25/release.md §pág. 30 nota 2, sources/digested/porto_release_4T25_summary.md, sources/digested/porto_call_transcript_4T25_summary.md)
+
+**Fórmula da eficiência (oficial, release 4T25 pág. 30):**
+
+```
+Eficiência = (DA + DO líq rewards) ÷ (Receita líq tributos, rewards, bandeiras − Despesa de Comercialização)
+```
+
+Numerador e denominador **ambos** excluem rewards/bandeiras; o denominador também exclui tributos e comercialização. Aplicar `eficiência × receita líq rewards` para chegar em despesas **superestima** o opex — use o range R$ 1,8–2,0 bi diretamente. Tributos Bank 2025: R$ 432,7 mm; Comercialização Bank 2025: R$ 732,1 mm (fonte: full/porto/4T25/release.md §DRE Vertical Bank 2025).
+
+**Rewards/bandeiras (linha redutora de receita):** R$ 730 mm em 2025 já reclassificados (reportado R$ 450 mm; diferença são reclassificações entre linhas); crescimento moderado em 2026 (RI: "não deveria crescer tanto") — modelar **R$ 770–800 mm** (fonte: sources/digested/porto_seguro_call_28042026_summary.md, em: 2026-04-28).
+
+**Outlook 1T26 / 2S26 (call 28/04/2026):**
+- NIM ajustado ao risco pressionado no 1T26; gestão espera melhora no 2S26 (fonte: sources/digested/porto_seguro_call_28042026_summary.md, em: 2026-04-28)
+- Consórcio: crescimento receita em "high teens" na base comparável (fonte: sources/digested/porto_seguro_call_28042026_summary.md, em: 2026-04-28)
+- ~90% da receita do Bank concentrada em cartão (fonte: sources/digested/porto_seguro_call_28042026_summary.md, em: 2026-04-28)
 
 ---
 
@@ -252,7 +275,7 @@ Novo critério de medição (líquido de Rewards/bandeiras; novo cálculo de efi
 
 ## Pontos de atenção
 
-- **NIM em normalização** pós-stop accrual: 4,7% (2T25) → 3,4% (3T25) → 3,0% (4T25). Gestão defende que a queda é metodológica, não de spread; ponto de inflexão esperado no 1T26 (fonte: sources/digested/porto_call_transcript_3T25_summary.md).
+- **NIM pressionado:** trajetória 4,7% (2T25) → 3,4% (3T25) → 3,0% (4T25) e continuação da pressão no 1T26. Gestão projeta melhora no 2S26 (fonte: sources/digested/porto_call_transcript_3T25_summary.md, sources/digested/porto_seguro_call_28042026_summary.md, em: 2026-04-28).
 - **Inadimplência 90d em 7,3% (4T25)** vs 5,2% em 2024 — cuidado ao comparar, pois stop accrual mudou. Ajustado à metodologia antiga, inadimplência subiu ~30 bps vs 3T25 (vs +70 bps do sistema BCB).
 - **PDD +30% em 2026** sinalizada como preventiva, não reativa — mas magnitude merece monitoramento.
 - **Car equity** em fase de escala com histórico crítico limitado.

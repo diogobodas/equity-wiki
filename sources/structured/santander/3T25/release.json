@@ -1,0 +1,350 @@
+{
+  "_schema": "banco/v1",
+  "_schema_path": "sources/structured/_schemas/banco.json",
+  "_empresa": "santander",
+  "_periodo": "3T25",
+  "_source": "sources/full/santander/3T25/release.md",
+  "canonical": {
+    "dre_gerencial": {
+      "margem_financeira_bruta": 15208.0,
+      "margem_com_clientes": 16556.0,
+      "margem_com_mercado": -1348.0,
+      "comissoes": 5552.0,
+      "receita_total": 20760.0,
+      "pdd_resultado": -6524.0,
+      "despesa_provisao": -7510.0,
+      "recuperacao_credito": 986.0,
+      "despesas_gerais": -6423.0,
+      "despesas_pessoal": -3005.0,
+      "despesas_administrativas": -3419.0,
+      "despesas_tributarias": -1420.0,
+      "equivalencia_patrimonial": 98.0,
+      "outras_receitas_despesas_op": -2298.0,
+      "resultado_operacional": 4192.0,
+      "resultado_nao_operacional": 97.0,
+      "resultado_antes_impostos": 4289.0,
+      "ir_csll": -190.0,
+      "participacao_minoritarios": -90.0,
+      "lucro_liquido_gerencial": 4009.0,
+      "lucro_liquido_contabil": 3944.0
+    },
+    "dre": {
+      "margem_financeira_bruta": 13030.0,
+      "pdd_resultado": -6540.0,
+      "variacoes_cambiais_liquidas": 2336.0,
+      "margem_financeira_liquida": 8825.0,
+      "receitas_servicos_tarifas": 5978.0,
+      "despesas_gerais": -5900.0,
+      "despesas_pessoal": -2420.0,
+      "despesas_administrativas": -3480.0,
+      "despesas_tributarias": -1499.0,
+      "equivalencia_patrimonial": 98.0,
+      "outras_receitas_despesas_op": -2740.0,
+      "resultado_operacional": 4763.0,
+      "resultado_nao_operacional": 97.0,
+      "resultado_antes_impostos": 4860.0,
+      "ir_csll": -190.0,
+      "participacoes_no_lucro": -635.0,
+      "participacao_minoritarios": -90.0,
+      "lucro_liquido": 3944.0
+    },
+    "bp": {
+      "ativo_total": 1253877.0,
+      "disponibilidades": 10739.0,
+      "ativos_financeiros_vjr": 263599.0,
+      "ativos_financeiros_vjora": 66711.0,
+      "aplicacoes_interfinanceiras": 29764.0,
+      "tvm_custo_amortizado": 124346.0,
+      "carteira_credito_bp": 410844.0,
+      "outros_ativos_financeiros_e_fiscais": 332628.0,
+      "permanente": 15247.0,
+      "investimentos": 2966.0,
+      "imobilizado": 4438.0,
+      "intangivel": 7843.0,
+      "passivos_financeiros_vjr": 48435.0,
+      "depositos": 491640.0,
+      "captacoes_mercado_aberto": 158330.0,
+      "obrigacoes_emprestimos": 109168.0,
+      "obrigacoes_repasses": 9740.0,
+      "recursos_aceites_titulos": 179741.0,
+      "outros_passivos_financeiros_e_fiscais": 160437.0,
+      "participacao_minoritarios_bp": 2214.0,
+      "patrimonio_liquido": 94171.0,
+      "passivo_total": 1253877.0
+    },
+    "carteira_credito": {
+      "ampliada_total": 688801.0,
+      "por_segmento": {
+        "pessoa_fisica": 249025.0,
+        "financiamento_consumo": 89008.0,
+        "pmes": 81675.0,
+        "grandes_empresas": 130553.0
+      },
+      "concentracao_top_100_pct": 18.1
+    },
+    "qualidade_credito": {
+      "npl_15_90_total_pct": 3.9,
+      "npl_15_90_pf_pct": 5.1,
+      "npl_15_90_pj_pct": 2.2,
+      "npl_90_total_pct": 3.4,
+      "npl_90_pf_pct": 4.2,
+      "npl_90_pj_pct": 2.1,
+      "cobertura_estagio_3_pct": 74.0,
+      "npl_formation_brl": 6637.0,
+      "npl_formation_pct": 1.23,
+      "write_off_brl": 4875.0,
+      "write_off_pct": 0.89,
+      "carteira_renegociada_brl": 45200.0,
+      "carteira_renegociada_cobertura_pct": 45.2
+    },
+    "pdd_custo_credito": {
+      "despesa_provisao": -7510.0,
+      "recuperacao_credito": 986.0,
+      "pdd_resultado": -6524.0,
+      "custo_credito_anualizado_pct": 3.86
+    },
+    "captacoes": {
+      "depositos_a_vista": 42930.0,
+      "poupanca": 52776.0,
+      "depositos_a_prazo": 391572.0,
+      "compromissadas_lastro_debentures": 10497.0,
+      "lci_lca": 84876.0,
+      "lf_outros": 76828.0,
+      "captacoes_clientes_total": 659479.0,
+      "depositos_compulsorios": -92432.0,
+      "captacoes_liquidas_compulsorios": 567047.0,
+      "obrig_repasses_emprestimos_pais": 10034.0,
+      "divida_subordinada": 24943.0,
+      "captacoes_no_exterior": 125178.0,
+      "captacoes_total": 727203.0,
+      "fundos": 441129.0,
+      "credito_clientes_sobre_captacoes_pct": 93.9,
+      "pf_share_captacoes_clientes_pct": 47.0
+    },
+    "capital": {
+      "capital_nivel_1": 92862.0,
+      "capital_principal_cet1": 85070.0,
+      "capital_complementar": 7792.0,
+      "capital_nivel_2": 17396.0,
+      "patrimonio_referencia": 110258.0,
+      "rwa_total": 724933.0,
+      "rwa_credito": 617085.0,
+      "rwa_mercado": 32741.0,
+      "rwa_operacional": 75106.0,
+      "basileia_pct": 15.2,
+      "cet1_pct": 11.7,
+      "nivel_1_pct": 12.8,
+      "nivel_2_pct": 2.4,
+      "capital_complementar_pct": 1.1
+    },
+    "indicadores": {
+      "roae_pct": 17.5,
+      "roaa_pct": 1.3,
+      "indice_eficiencia_pct": 37.5,
+      "ativos_totais": 1253877.0,
+      "patrimonio_liquido": 94171.0,
+      "carteira_credito_ampliada": 688801.0,
+      "captacoes_clientes": 659479.0
+    },
+    "indicadores_acoes": {
+      "valor_mercado": 110580.0,
+      "lucro_liquido_unit_gerencial_anualizado": 4.29,
+      "lucro_liquido_unit_societario_anualizado": 4.22,
+      "qtd_acoes_milhoes": 7471.0,
+      "valor_patrimonial_unit": 24.72,
+      "jcp_dividendos": 2000.0
+    },
+    "outros_dados": {
+      "funcionarios": 51747,
+      "lojas": 961,
+      "pabs": 828,
+      "atms_proprios": 6285,
+      "atms_rede24h": 25497,
+      "clientes_total_milhoes": 72.8,
+      "clientes_ativos_milhoes": 33.7
+    },
+    "operacional": null,
+    "financeiro_ajustado": null
+  },
+  "company_specific": {
+    "_description": "Breakdowns idiossincráticos do release SANB11 3T25 — comissões por linha, carteira PF/PJ por produto, NPL por subsegmento, vintages auto loan, recorrência.",
+    "comissoes_breakdown_3T25": {
+      "cards": 1568.0,
+      "current_account": 892.0,
+      "insurance_fees": 1148.0,
+      "credit_operations": 522.0,
+      "securities_brokerage_placement": 426.0,
+      "asset_management_total": 462.0,
+      "asset_management_funds_only": 171.0,
+      "consorcios": 291.0,
+      "collection_services": 283.0,
+      "others": 252.0,
+      "total": 5552.0
+    },
+    "client_nii_decomposicao_3T25": {
+      "client_nii": 16556.0,
+      "product_nii": 15753.0,
+      "working_capital": 803.0,
+      "volume_medio": 598959.0,
+      "spread_pa_pct": 10.85
+    },
+    "carteira_pf_por_produto_set25": {
+      "leasing_auto_loan": 7258.0,
+      "credit_card": 59863.0,
+      "payroll_loans": 63235.0,
+      "mortgages": 71841.0,
+      "agricultural_loans": 9253.0,
+      "personal_loans_other": 37574.0,
+      "subtotal_pf": 249025.0
+    },
+    "consumer_finance_set25": {
+      "individuals": 75013.0,
+      "companies": 13995.0,
+      "total": 89008.0,
+      "vehicles_share_pct": 88.0,
+      "goods_services_share_pct": 12.0,
+      "auto_individuals_total_carteira": 78189.0,
+      "auto_originacao_3T25": 12705.0,
+      "auto_originacao_via_santander_financiamentos_3T25": 70931.0,
+      "auto_ltv_pct": 58.0
+    },
+    "carteira_corp_pme_por_produto_set25": {
+      "leasing_auto_loan": 3217.0,
+      "mortgages": 4132.0,
+      "trade_finance": 91996.0,
+      "on_lending": 8361.0,
+      "agricultural_loans": 11566.0,
+      "working_capital_others": 92957.0,
+      "subtotal_corp_pmes": 212229.0,
+      "expanded_corporate": 245693.0,
+      "expanded_smes": 89623.0,
+      "expanded_corp_pmes_total": 335316.0,
+      "guarantees_private_securities_share_pct": 36.7
+    },
+    "carteira_ampliada_componentes_set25": {
+      "loan_portfolio": 550261.0,
+      "private_securities": 68715.0,
+      "guarantees": 69825.0,
+      "expanded_total": 688801.0
+    },
+    "loan_concentration_set25": {
+      "biggest_debtor": 6695.0,
+      "top_10": 38096.0,
+      "top_20": 57998.0,
+      "top_50": 93673.0,
+      "top_100": 125180.0,
+      "biggest_debtor_pct": 1.0,
+      "top_10_pct": 5.5,
+      "top_20_pct": 8.4,
+      "top_50_pct": 13.5,
+      "top_100_pct": 18.1
+    },
+    "npl_15_90_por_segmento_set25_pct": {
+      "individuals": 5.1,
+      "corporate_smes": 2.2,
+      "smes": 5.1,
+      "corporate": 0.2,
+      "total": 3.9
+    },
+    "npl_90_por_segmento_set25_pct": {
+      "individuals": 4.2,
+      "corporate_smes": 2.1,
+      "smes": 5.1,
+      "corporate": 0.3,
+      "total": 3.4
+    },
+    "carteira_renegociada_breakdown_set25": {
+      "renegociada_total": 45.2,
+      "restructured_subset": 22.7,
+      "coverage_renegociada_pct": 45.2,
+      "coverage_restructured_pct": 50.2,
+      "unidade": "R$ bilhoes"
+    },
+    "despesas_administrativas_breakdown_3T25": {
+      "outsourced_services_transports_security": -971.0,
+      "advertising_promotions_publicity": -116.0,
+      "data_processing": -825.0,
+      "communications": -58.0,
+      "rentals": -127.0,
+      "maintenance_conservation": -69.0,
+      "water_electricity_gas": -37.0,
+      "material": -14.0,
+      "other": -359.0,
+      "subtotal": -2575.0,
+      "depreciation_amortization": -843.0,
+      "total_administrative": -3419.0
+    },
+    "despesas_pessoal_breakdown_3T25": {
+      "compensation": -2033.0,
+      "charges": -517.0,
+      "benefits": -439.0,
+      "training": -15.0,
+      "other": 0.0,
+      "total_personnel": -3005.0
+    },
+    "outras_receitas_despesas_breakdown_3T25": {
+      "results_credit_cards": -476.0,
+      "provisions_contingencies": -957.0,
+      "other": -865.0,
+      "total": -2298.0
+    },
+    "indicadores_complementares_3T25": {
+      "recurrence_ratio_pct": 86.4,
+      "cards_credit_turnover_yoy_pct": 12.0,
+      "cards_avg_spending_yoy_pct": 15.0,
+      "cards_account_holders_share_pct": 88.0,
+      "cards_high_income_share_pct": 55.0,
+      "select_revenue_yoy_9m25_pct": 8.0,
+      "smes_npl_lowest_revenue_chapter11_impact_pp_yoy": 1.0,
+      "individuals_share_funding_3T25_pct": 47.0,
+      "individuals_share_funding_3T24_pct": 44.0,
+      "goodwill_balance_set25": 1838.0
+    },
+    "outros_dados_complementares_set25": {
+      "customers_with_primacy_yoy_pct": 7.0,
+      "shared_atms_total": 25497,
+      "smes_expanded_portfolio": 90000.0,
+      "individuals_ex_consumer_finance_expanded": 264000.0,
+      "consumer_finance_vehicles_portfolio": 79000.0,
+      "consumer_finance_origination_3T25": 13000.0,
+      "consumer_finance_market_share_auto_pf_pct": 21.0,
+      "advisors_count": 1700,
+      "advisors_cities": 180,
+      "investment_clients_yoy_pct": 7.0,
+      "sustainable_business_enabled_3T25_brl_bi": 36.5,
+      "sustainable_portfolio_brl_bi": 44.9,
+      "cbio_market_share_pct": 43.0,
+      "pronampe_portfolio_brl_bi": 5.5,
+      "prospera_microfinance_portfolio_brl_bi": 3.3,
+      "prospera_clients_milhoes": 1.1
+    },
+    "reconciliacao_contabil_gerencial_3T25": {
+      "_descricao": "Reconciliacao contabil -> gerencial. Ajustes principais: hedge cambial (FX hedge), recuperacao de credito reclassificada para PDD, amortizacao de agio reversao, profit sharing reclassificado para pessoal, FX effects (variacoes cambiais liquidas) reclassificadas para NII, outros eventos.",
+      "lucro_contabil": 3944.0,
+      "lucro_gerencial": 4009.0,
+      "diferenca": 65.0,
+      "amortizacao_agio_revertida": 64.0
+    },
+    "tendencia_lucro_liquido_gerencial_brl_mm": {
+      "3T24": 3664.0,
+      "4T24": 3855.0,
+      "1T25": 3861.0,
+      "2T25": 3659.0,
+      "3T25": 4009.0
+    },
+    "tendencia_roae_pct": {
+      "3T24": 17.0,
+      "4T24": 17.6,
+      "1T25": 17.4,
+      "2T25": 16.4,
+      "3T25": 17.5
+    },
+    "tendencia_eficiencia_pct": {
+      "3T24": 38.9,
+      "4T24": 38.0,
+      "1T25": 37.2,
+      "2T25": 36.8,
+      "3T25": 37.5
+    }
+  }
+}

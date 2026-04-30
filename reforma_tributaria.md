@@ -21,7 +21,7 @@ aliases:
   - IBS
   - LC 214/2025
 created: 2026-04-13
-updated: 2026-04-22
+updated: 2026-04-30
 ---
 
 # Reforma Tributária
@@ -115,6 +115,48 @@ Durante o período de transição:
 - O crédito de IBS/CBS poderá ser tomado de forma integral e imediata, proporcionalmente ao avanço da reforma no período (fonte: digested/notion_abla_reforma_tribut_ria_7e800ca3_summary.md).
 
 O impacto sobre [[localiza|Localiza]], [[movida|Movida]] e demais locadoras listadas depende da alíquota efetiva de IBS/CBS aplicável à locação no regime definitivo e do tratamento do estoque de frota já adquirido integralmente no regime anterior — pontos ainda sem divulgação oficial completa (fonte: digested/notion_abla_reforma_tribut_ria_7e800ca3_summary.md).
+
+### Tratamento transitório dos bens de capital — Art. 406 LC 214/2025
+
+Locadoras vendendo seminovos durante a transição beneficiam-se de redução estrutural na carga IBS+CBS. A regra aplica-se à venda de **máquinas, veículos e equipamentos usados** que (i) estavam no ativo imobilizado por mais de 12 meses, (ii) foram adquiridos com NF idônea e (iii) foram adquiridos até 31/12/2032 (fonte: full/generic/Texto Reforma tributaria jan-2025.md §Art. 406, em: 2026-04-22).
+
+**CBS** (§§1-2):
+- Aplicável a veículos adquiridos **até 31/12/2026** que pagaram PIS/Cofins na compra. Para aquisições posteriores (≥2027), a redução **não se aplica** — CBS incide normal sobre o preço de venda total (com o crédito CBS já tomado upfront na compra, regime regular).
+- Quando aplicável, na revenda a partir de 1/1/2027:
+    - Alíquota CBS = **0** sobre a parcela do preço de venda **inferior ou igual ao valor líquido de aquisição**.
+    - Alíquota CBS = normal sobre a parcela que **exceder** o valor líquido.
+
+**IBS** (§§3-4):
+- Aplicável a veículos adquiridos **até 31/12/2032** com ICMS positivo na compra (escopo mais largo que CBS).
+- Na revenda a partir de 1/1/2029:
+    - Alíquota IBS = **0** sobre a parcela ≤ valor líquido × **fator decrescente** (1,0× para aquisições ≤2028; 0,9× em 2029; 0,8× em 2030; 0,7× em 2031; 0,6× em 2032).
+    - Alíquota IBS = normal sobre o excedente.
+
+**Valor líquido de aquisição** (§6):
+- Para aquisições ≤31/12/2026: valor da NF − ICMS+PIS+Cofins efetivamente creditados (presume-se PIS+Cofins = 9,25% se a NF não informar).
+- Para aquisições 1/1/2027 a 31/12/2032: base de cálculo IBS+CBS na NF + ICMS sem crédito. Como a locadora no regime regular já credita o ICMS, na prática `valor líquido ≈ preço da NF`.
+
+A fórmula é piso zero (não gera crédito extra): `IBS/CBS devido = alíquota × max(0, preço de venda − valor líquido × fator)`.
+
+#### Cenários práticos para [[localiza|Localiza]] / [[movida|Movida]]
+
+Premissa: compra R$ 100k na NF, venda como seminovo R$ 80k (depreciação típica 20%). Alíquota IBS+CBS combinada de referência ~27% no regime pleno.
+
+| Cenário | Compra | Venda | CBS na venda | IBS na venda | Carga total |
+|---|---|---|---|---|---|
+| Frota legada | 2025 | 2027 | 0 sobre R$ 80k (≤ líquido) | n/d (alíquota-teste 0,1%) | **~zero** |
+| Frota nova | 2027 | 2029 | full ~R$ 17,3k (alíq CBS) | 0 sobre R$ 80k (≤ líquido × 1,0) | **só CBS full** |
+| Frota nova | 2029 | 2031 | full ~R$ 17,3k | 0 (R$ 80k ≤ R$ 100k × 0,9 = R$ 90k) | **só CBS full** |
+| Frota lucrativa | 2027 | 2029 a R$ 110k | full ~R$ 23,8k | normal × R$ 10k = ~R$ 1k | **CBS full + IBS sobre spread** |
+| Pós-transição | 2033 | 2035 | full | full | regime pleno |
+
+**Leitura analítica:**
+- Como locadoras **vendem seminovo abaixo do preço de NF** (depreciação contábil), o IBS na venda fica **em zero ou muito próximo** durante a transição inteira (2027-2032), independente do ano da aquisição.
+- A **CBS** é o vetor de tributação na venda da frota nova: incide full, mas a locadora já tomou o crédito integral upfront na compra, então o impacto líquido no resultado é menor que parece — é predominantemente um **mismatch de fluxo de caixa** (crédito agora, débito na venda).
+- A **frota legada (≤2026)** vendida em 2027-2032 tem CBS reduzido pelo §2 e IBS reduzido pelo §4 — **carga combinada quase nula** durante a transição. Isso valida a leitura da [[abla|ABLA]] de impacto "muito pouco relevante" e favorece locadoras com **alto giro de renovação** que conseguem girar o estoque legado antes de 2033.
+- A partir de **2033** (regime pleno): frotas adquiridas sob IBS+CBS pagam tanto CBS quanto IBS full na venda, mas o crédito tomado upfront na compra compensa — economicamente neutro, mas com necessidade de capital de giro adicional.
+
+(fonte: full/generic/Texto Reforma tributaria jan-2025.md §Art. 406 LC 214/2025, em: 2026-04-22)
 
 ## Impactos para shoppings
 

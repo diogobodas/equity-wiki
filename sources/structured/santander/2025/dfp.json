@@ -1,0 +1,224 @@
+{
+  "_schema": "banco/v1",
+  "_schema_path": "sources/structured/_schemas/banco.json",
+  "_empresa": "santander",
+  "_periodo": "2025",
+  "_source": "sources/full/santander/2025/dfp.md",
+  "_norma_contabil": "BRGAAP/Cosif (DFs Consolidadas filed at CVM). Ver also dre_gerencial para visão managerial reportada no Relatório da Administração.",
+  "canonical": {
+    "operacional": null,
+    "dre": {
+      "_descricao_origem": "DFs Consolidadas / Demonstração do Resultado (Cosif/BRGAAP), exercício 01/01/2025 a 31/12/2025. Lucro líquido consolidado total = 12.965,1; controlador = 12.766,0; minoritários = 199,1.",
+      "margem_financeira_bruta": 57634.3,
+      "pdd_resultado": -29539.9,
+      "variacoes_cambiais_liquidas": -10814.1,
+      "margem_financeira_liquida": null,
+      "receitas_servicos_tarifas": 25521.8,
+      "despesas_gerais": -58267.5,
+      "despesas_pessoal": -11699.3,
+      "despesas_administrativas": -46568.2,
+      "despesas_tributarias": null,
+      "equivalencia_patrimonial": 458.3,
+      "outras_receitas_despesas_op": -40905.3,
+      "resultado_operacional": 16728.9,
+      "resultado_nao_operacional": null,
+      "resultado_antes_impostos": 16728.9,
+      "ir_csll": -3763.9,
+      "participacoes_no_lucro": null,
+      "participacao_minoritarios": -199.1,
+      "lucro_liquido": 12965.1
+    },
+    "dre_gerencial": {
+      "_descricao_origem": "Demonstração de resultados gerencial publicada no Relatório da Administração (DFP), 2025 vs 2024. Reclassifica reversão de amortização de ágios, PDD sobre debêntures e descontos. Convergência: lucro líquido contábil consolidado IFRS R$ 15.339 mm.",
+      "margem_financeira_bruta": 61858.0,
+      "margem_com_clientes": null,
+      "margem_com_mercado": null,
+      "comissoes": 21647.0,
+      "receita_total": 83505.0,
+      "pdd_resultado": -25880.0,
+      "despesa_provisao": null,
+      "recuperacao_credito": null,
+      "despesas_gerais": -26042.0,
+      "despesas_pessoal": null,
+      "despesas_administrativas": null,
+      "despesas_tributarias": -5566.0,
+      "equivalencia_patrimonial": null,
+      "outras_receitas_despesas_op": -8433.0,
+      "resultado_operacional": null,
+      "resultado_nao_operacional": null,
+      "resultado_antes_impostos": 17584.0,
+      "ir_csll": -1969.0,
+      "participacao_minoritarios": null,
+      "lucro_liquido_gerencial": 15615.0,
+      "lucro_liquido_contabil": 15339.0
+    },
+    "bp": {
+      "_descricao_origem": "DFs Consolidadas / Balanço Patrimonial (Cosif/BRGAAP) em 31/12/2025. Sub-categorias 1.02.04.x reclassificadas em 2025 sob nova nomenclatura Res CMN 4.966 — total agregado preservado em ativos_financeiros_custo_amortizado mas breakdown não disponível na CVM-DFP. Empréstimos e depósitos de clientes obtidos da Nota 44 (Informações por Segmento).",
+      "ativo_total": 1270029.5,
+      "disponibilidades": 20232.7,
+      "ativos_financeiros_vjr": 262624.6,
+      "ativos_financeiros_vjora": 69446.6,
+      "aplicacoes_interfinanceiras": null,
+      "tvm_custo_amortizado": null,
+      "carteira_credito_bp": 564548.6,
+      "outros_ativos_financeiros_e_fiscais": 75389.5,
+      "permanente": 41790.2,
+      "investimentos": 3517.1,
+      "imobilizado": 5046.1,
+      "intangivel": 33227.0,
+      "passivos_financeiros_vjr": 112471.3,
+      "depositos": 593328.8,
+      "captacoes_mercado_aberto": null,
+      "obrigacoes_emprestimos": null,
+      "obrigacoes_repasses": null,
+      "recursos_aceites_titulos": null,
+      "outros_passivos_financeiros_e_fiscais": 38618.5,
+      "participacao_minoritarios_bp": 1379.6,
+      "patrimonio_liquido": 125173.5,
+      "passivo_total": 1270029.5
+    },
+    "carteira_credito": {
+      "ampliada_total": 708200.0,
+      "por_segmento": null,
+      "concentracao_top_100_pct": null
+    },
+    "qualidade_credito": null,
+    "pdd_custo_credito": {
+      "despesa_provisao": null,
+      "recuperacao_credito": null,
+      "pdd_resultado": -25880.0,
+      "custo_credito_anualizado_pct": null
+    },
+    "captacoes": {
+      "_descricao_origem": "Relatório da Administração 2025. PF share = 50% em Dez/25 vs 43% em Dez/23.",
+      "depositos_a_vista": null,
+      "poupanca": null,
+      "depositos_a_prazo": null,
+      "compromissadas_lastro_debentures": null,
+      "lci_lca": null,
+      "lf_outros": null,
+      "captacoes_clientes_total": 670000.0,
+      "depositos_compulsorios": null,
+      "captacoes_liquidas_compulsorios": null,
+      "obrig_repasses_emprestimos_pais": null,
+      "divida_subordinada": null,
+      "captacoes_no_exterior": null,
+      "captacoes_total": null,
+      "fundos": null,
+      "credito_clientes_sobre_captacoes_pct": null,
+      "pf_share_captacoes_clientes_pct": 50.0
+    },
+    "capital": null,
+    "indicadores": {
+      "roae_pct": 17.2,
+      "roaa_pct": null,
+      "indice_eficiencia_pct": null,
+      "ativos_totais": 1270029.5,
+      "patrimonio_liquido": 125173.5,
+      "carteira_credito_ampliada": 708200.0,
+      "captacoes_clientes": 670000.0
+    },
+    "indicadores_acoes": {
+      "valor_mercado": null,
+      "lucro_liquido_unit_gerencial_anualizado": null,
+      "lucro_liquido_unit_societario_anualizado": null,
+      "qtd_acoes_milhoes": 7471.2,
+      "valor_patrimonial_unit": null,
+      "jcp_dividendos": 7620.0
+    },
+    "outros_dados": {
+      "funcionarios": 49661,
+      "lojas": null,
+      "pabs": null,
+      "atms_proprios": null,
+      "atms_rede24h": null,
+      "clientes_total_milhoes": null,
+      "clientes_ativos_milhoes": null
+    },
+    "financeiro_ajustado": {
+      "lucro_liquido_gerencial": 15615.0,
+      "lucro_liquido_contabil_consolidado": 15339.0,
+      "patrimonio_liquido_controlador": 125173.5,
+      "ativo_total": 1270029.5,
+      "carteira_ampliada": 708200.0,
+      "captacoes_clientes": 670000.0,
+      "roae_gerencial_pct": 17.2,
+      "jcp_distribuido_2025": 7620.0
+    }
+  },
+  "company_specific": {
+    "lucro_liquido_individual_brgaap": 15463.8,
+    "lucro_liquido_consolidado_recorrente_brgaap": 15540.8,
+    "lucro_liquido_consolidado_total_brgaap": 15338.6,
+    "_nota_lucro": "DFP traz três visões consolidadas: (a) Cosif consolidado total = 12.965,1 (formato CVM antigo); (b) Recorrente/não-recorrente Consolidado total = 15.338,6 (alinha com IFRS e com gerencial contábil reportado); (c) Gerencial = 15.615,0 (reclassifica ágio, hedge e PDD sobre debêntures/descontos). O número que o mercado segue é o gerencial 15,6 bi.",
+    "carteira_ampliada_growth_yoy_pct": 3.7,
+    "captacoes_clientes_growth_yoy_pct": 3.9,
+    "carteira_por_produto_growth_yoy": {
+      "cartao_credito_pct": 13.4,
+      "financiamento_consumo_pct": 13.0,
+      "imobiliario_pct": 9.6,
+      "pmes_pct": 13.0
+    },
+    "captacoes_por_produto_growth_yoy": {
+      "lci_lca_pct": 15.5,
+      "lf_outros_pct": 18.3
+    },
+    "comissoes_por_linha_growth_yoy": {
+      "cartoes_pct": 12.0,
+      "seguros_pct": 8.7
+    },
+    "margem_financeira_clientes_growth_yoy_pct": 9.5,
+    "segmento_2025": {
+      "banco_comercial": {
+        "receita_liquida_juros": 53125.7,
+        "comissoes_liquidas": 15396.6,
+        "total_receitas": 63993.8,
+        "resultado_operacional_antes_imposto": 8937.6,
+        "ativo_total": 1180389.9,
+        "emprestimos_clientes": 484676.3,
+        "depositos_clientes": 475642.0
+      },
+      "banco_atacado_global": {
+        "receita_liquida_juros": 4508.6,
+        "comissoes_liquidas": 2098.8,
+        "total_receitas": 11002.8,
+        "resultado_operacional_antes_imposto": 7791.4,
+        "ativo_total": 89639.6,
+        "emprestimos_clientes": 79872.2,
+        "depositos_clientes": 117686.8
+      }
+    },
+    "jcp_2025_distribuicao": {
+      "total_bruto": 7620.0,
+      "tranches": [
+        {"valor": 1500.0, "deliberado": "2025-01-10", "pago": "2025-02-12"},
+        {"valor": 1500.0, "deliberado": "2025-04-10", "pago": "2025-05-08"},
+        {"valor": 2000.0, "deliberado": "2025-07-10", "pago": "2025-08-09"},
+        {"valor": 2000.0, "deliberado": "2025-10-10", "pago": "2025-11-08"},
+        {"valor": 620.0, "deliberado": "2025-12-22", "pago": "2026-02-05"}
+      ],
+      "dividendos_caixa": 0.0,
+      "_nota": "100% da remuneração 2025 via JCP, imputado ao mínimo obrigatório."
+    },
+    "evento_subsequente_jcp_2026": {
+      "valor": 2000.0,
+      "deliberado": "2026-01-09",
+      "pago": "2026-02-05",
+      "ex_date": "2026-01-21",
+      "_nota": "JCP referente ao exercício 2026, com base na Reserva de Equalização de Dividendos."
+    },
+    "estrutura_acionaria_2025": {
+      "sterrebeeck_bv_pct": 47.3,
+      "grupo_empresarial_santander_pct": 42.2,
+      "free_float_pct": 10.0,
+      "tesouraria_pct": 0.4,
+      "_nota": "Controle indireto via Sterrebeeck B.V. + GES (Grupo Empresarial Santander S.L.), ambas subsidiárias de Banco Santander Espanha. Ações em circulação total: 7.471 mm."
+    },
+    "investimentos_atividades_2025": {
+      "caixa_atividades_operacionais": 4992.2,
+      "caixa_atividades_investimento": -3322.8,
+      "caixa_atividades_financiamento": 4402.4,
+      "_nota": "Operacional volátil ano-a-ano (-21.131 em 2024, +36.626 em 2023)."
+    }
+  }
+}
