@@ -118,6 +118,9 @@ O impacto sobre [[localiza|Localiza]], [[movida|Movida]] e demais locadoras list
 
 ### Tratamento transitório dos bens de capital — Art. 406 LC 214/2025
 
+> **Detalhamento técnico para modelagem:** ver [[mecanica_ibs_cbs_locadoras]] — framework completo com cronograma, fórmulas, fatores, cenários numéricos e especificação para Excel/JSON.
+
+
 Locadoras vendendo seminovos durante a transição beneficiam-se de redução estrutural na carga IBS+CBS. A regra aplica-se à venda de **máquinas, veículos e equipamentos usados** que (i) estavam no ativo imobilizado por mais de 12 meses, (ii) foram adquiridos com NF idônea e (iii) foram adquiridos até 31/12/2032 (fonte: full/generic/Texto Reforma tributaria jan-2025.md §Art. 406, em: 2026-04-22).
 
 **CBS** (§§1-2):

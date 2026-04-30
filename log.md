@@ -1178,3 +1178,4 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 [wiki-queue] 2026-04-30 | santander | release | 4T24 | sources/digested/santander_release_4T24_summary.md
 [wiki-done] 2026-04-30 | batch_20260430_112739
 [edit] 2026-04-30 | reforma_tributaria.md | add §Tratamento transitório dos bens de capital — Art. 406 LC 214/2025 com cenários numéricos para Localiza/Movida (CBS/IBS sobre seminovos durante a transição, fórmula com piso zero, fatores 1,0→0,6, valor líquido de aquisição §6)
+[edit] 2026-04-30 | mecanica_ibs_cbs_locadoras.md (new, concept) + nota_mecanica_ibs_cbs_locadoras_summary.md (digest) | framework completo IBS/CBS Art. 406 LC 214/2025 para modelagem locadoras: cronograma 2026-2033, valor liquido aquisicao §6, fator decrescente 1,0→0,6, cenarios A-E, especificacao Excel/JSON. Linkado de reforma_tributaria, locadoras, localiza, movida.

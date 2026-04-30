@@ -164,3 +164,16 @@ Sinalização para melhora: management quer ver margem de seminovos subindo por 
 3. **Reprecificação do Fleet** — ciclo de alta de preços em GTF em curso; novos contratos com rentabilidade saudável.
 4. **Custo fixo e variável** — programa top-down concluído; espaço para continuar.
 5. **Mix RAC** — ganho marginal de PF sobre corporativo; corporativo deve retomar ao longo de 2025.
+
+---
+
+## Reforma tributária — IBS/CBS na transição
+
+A [[reforma_tributaria]] tem efeito assimétrico positivo no curto-médio prazo para Localiza:
+
+- **Frota legada (≤2026)** vendida em 2027-2032 paga IBS+CBS **quase nulo** sobre seminovos (Art. 406 §§1-4 LC 214/2025) — reduz custo fiscal sobre o desinvestimento.
+- **Frota nova (≥2027)** paga **CBS full** na venda mas com **crédito CBS upfront** na compra — neutro econômico, com timing favorável de fluxo de caixa para empresa com alto giro de renovação.
+- **Pós-2033** (regime pleno): equivalência econômica vs sistema atual, vantagem residual de timing.
+- **Risco assimétrico**: alíquota efetiva IBS+CBS sobre receita de **locação** ainda incerta — modelar 14% (reduzida setorial) vs 27% (full) como sensibilidade.
+
+Detalhamento técnico para modelagem (cronograma, fórmulas, fatores 1,0→0,6, cenários numéricos completos, especificação Excel/JSON): ver [[mecanica_ibs_cbs_locadoras]].

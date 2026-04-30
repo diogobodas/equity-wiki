@@ -158,6 +158,18 @@ As locadoras são clientes relevantes para as montadoras. A Volkswagen vende 20�
 - **IPI**: queda de ~3% no carro zero; carro de 1 ano ~1–1,5%; carro de 3–4+ anos praticamente não impactado. Frota mais velha como vantagem relativa neste evento (fonte: sources/digested/notion_localiza_unidas_ubs_2e800ca3_summary.md).
 - **Preço do diesel**: pressiona uso severo e segmento de pesados (fonte: sources/digested/notion_localiza_rent_22_05_2024_a7b00ca3_summary.md).
 
+## Reforma tributária — IBS/CBS na transição
+
+A [[reforma_tributaria]] (LC 214/2025 com alterações da LC 227/2026) traz três efeitos para o setor:
+
+1. **Crédito IBS+CBS upfront na compra** do veículo (vs creditamento gradual via depreciação fiscal hoje) — antecipa benefício fiscal, favorece locadoras com **alto giro de renovação**.
+2. **Frota legada (≤2026) vendida 2027-2032 paga IBS+CBS quase nulo** sobre seminovos via Art. 406 §§1-4 — vento de cauda fiscal de curto prazo.
+3. **Frota nova (≥2027) paga CBS full** na venda mas com crédito CBS upfront na compra — net economicamente neutro vs sistema atual, com mismatch de timing favorável ao caixa.
+
+A [[abla|ABLA]] classifica o impacto geral como "muito pouco relevante" durante a transição. Riscos principais: (i) alíquota efetiva IBS+CBS sobre **receita de locação** ainda incerta (modelar 14% reduzida vs 27% full); (ii) capital de giro fiscal pós-2033 quando crédito upfront e débito na venda passam a conviver com holding period mais longo.
+
+Detalhamento técnico para modelagem em planilha (cronograma 2026-2033, fórmulas Art. 406, fator decrescente 1,0→0,6, cenários numéricos, especificação Excel/JSON): ver [[mecanica_ibs_cbs_locadoras]].
+
 ## Perspectivas (2026)
 
 - **Localiza**: retomada de volume ~75k unidades/trimestre; ROIC spread esperado ~6% (meio da banda 5–8%) em 2026; mix varejo crescendo; Meeo como alavanca de longo prazo (fonte: sources/digested/notion_localiza_localiza_safra_2025_5ce00ca3_summary.md).

@@ -186,6 +186,7 @@ Desvalorização FIPE caiu de 0,7%/mês (2024) para 0,4%/mês (2025), contribuin
 ### Reforma tributária
 
 - Reversão de provisão de R$ 60 mm [?] em 2025, relacionada ao aproveitamento de créditos fiscais habilitados pela [[reforma_tributaria]] (fonte: sources/digested/notion_movida_conversa_movida_pos_3t25_2b700ca3_summary.md).
+- **Mecânica IBS/CBS na transição** — frota legada (≤2026) vendida 2027-2032 escapa quase integralmente da carga; frota nova paga CBS full mas com crédito upfront na compra. Detalhamento técnico (cronograma, fórmulas Art. 406 LC 214/2025, cenários numéricos) em [[mecanica_ibs_cbs_locadoras]].
 
 ---
 
