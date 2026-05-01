@@ -41,9 +41,9 @@ ws.merge_cells("A3:C3")
 
 # Receita NÃO é input — é output. Inputs = drivers operacionais.
 inputs_op = [
-    ("# academias Smart Fit Brasil próprias EoP", 720, "+27 net adds vs 4T25 (1T tipicamente menor que 4T)"),
-    ("# alunos Smart Fit Brasil próprias EoP (mil)", 1_818, "+6% YoY (desaceleração; 1T25 foi +12% YoY vs 1T24)"),
-    ("Ticket ex-TP 1T26 (R$/mês — balcão puro)", 105.0, "1T25 ex-TP foi 104.6; +0.4% YoY (repasse Black novos cancela vs 1T25)"),
+    ("# academias Smart Fit Brasil próprias EoP", 720, "+27 net adds vs 4T25=693 (1T tipicamente menor que 4T)"),
+    ("# alunos Smart Fit Brasil próprias EoP (mil)", 1_770, "+175 net adds vs 4T25=1595 (em linha com histórico 1T: +142/+172/+155)"),
+    ("Ticket ex-TP 1T26 (R$/mês — balcão puro)", 107.0, "Flat QoQ vs 4T25 normalizado (4T25=109.2 inflado por aberturas; +2.3% YoY vs 1T25=104.6)"),
 ]
 for i, (label, val, note) in enumerate(inputs_op, start=4):
     ws[f"A{i}"] = label
@@ -64,8 +64,8 @@ ws["A9"].fill = gray
 ws.merge_cells("A9:C9")
 
 inputs_tp = [
-    ("TP freq% 1T26 (% check-ins TP em SF próprias BR)", 0.165, "Default: 2026 anual 18% × peso MAU 1T26 × intensidade 1.10 = 16.5%"),
-    ("TP rev% 1T26 (% receita SF própria BR via TP)", 0.138, "Default: 2026 anual 15% × mesmo peso = 13.8%"),
+    ("TP freq% 1T26 (% check-ins TP em SF próprias BR)", 0.175, "Default: 2026 anual 19% (extrapolação 11→15→19) × peso MAU 1T26 × intensidade 1.10 = 17.5%"),
+    ("TP rev% 1T26 (% receita SF própria BR via TP)", 0.140, "Default: 2026 anual 15.5% × mesmo peso = 14.0% (ratio rev/freq ~0.8)"),
 ]
 for i, (label, val, note) in enumerate(inputs_tp, start=10):
     ws[f"A{i}"] = label
