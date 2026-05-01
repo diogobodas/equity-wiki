@@ -34,35 +34,36 @@ import re
 import sys
 from dataclasses import dataclass
 
-# MAU TotalPass Brasil mensal (Sensor Tower, fonte: Modelo SmartFit 4T25, sheet "Dados SensorTower MS").
-# Coluna 1 = Smart Fit MAU BR (próprias + franquias, app SF). Coluna 2 = TotalPass MAU BR (rede inteira TP).
-# Usado pra derivar tp_freq_pct trimestral via fator de calibração 0,32 (TP MAU share × 0,32 = TP freq% em SF próprias BR,
-# calibrado em 2024 e 2025 onde a empresa divulga o anual).
-MAU_BR = {
-    # ano-mes: (SF_MAU, TP_MAU)
-    "2022-01": (903_134, 56_016),  "2022-02": (917_499, 60_420),  "2022-03": (1_019_887, 64_964),
-    "2022-04": (1_019_853, 62_770),  "2022-05": (981_487, 71_017),  "2022-06": (983_832, 71_105),
-    "2022-07": (1_052_574, 84_632),  "2022-08": (1_114_635, 104_021),  "2022-09": (1_107_760, 115_686),
-    "2022-10": (1_153_057, 119_422),  "2022-11": (1_114_131, 124_851),  "2022-12": (1_048_517, 120_108),
-    "2023-01": (1_318_336, 162_563),  "2023-02": (1_247_561, 158_209),  "2023-03": (1_332_297, 170_654),
-    "2023-04": (1_221_605, 169_716),  "2023-05": (1_239_654, 188_580),  "2023-06": (1_200_977, 195_697),
-    "2023-07": (1_212_341, 214_422),  "2023-08": (1_283_055, 243_411),  "2023-09": (1_956_050, 620_953),
-    "2023-10": (2_071_948, 655_143),  "2023-11": (1_948_185, 635_367),  "2023-12": (1_780_797, 649_056),
-    "2024-01": (2_242_588, 914_783),  "2024-02": (2_186_254, 919_313),  "2024-03": (2_080_875, 943_212),
-    "2024-04": (2_229_682, 1_011_408),  "2024-05": (2_262_863, 1_112_143),  "2024-06": (2_208_680, 1_270_681),
-    "2024-07": (2_170_910, 1_317_651),  "2024-08": (2_257_763, 1_332_291),  "2024-09": (2_218_251, 1_350_567),
-    "2024-10": (2_326_951, 1_570_178),  "2024-11": (2_233_478, 1_453_835),  "2024-12": (2_216_340, 1_450_829),
-    "2025-01": (2_851_984, 1_865_022),  "2025-02": (2_615_124, 1_831_584),  "2025-03": (2_759_353, 1_944_460),
-    "2025-04": (2_705_414, 1_925_001),  "2025-05": (2_541_838, 1_928_034),  "2025-06": (2_386_289, 2_089_796),
-    "2025-07": (2_494_912, 2_138_221),  "2025-08": (2_479_000, 2_189_000),  "2025-09": (2_571_017, 2_677_354),
-    "2025-10": (2_687_878, 2_957_492),  "2025-11": (2_675_084, 2_876_594),  "2025-12": (2_759_172, 2_889_637),
-    "2026-01": (3_133_000, 3_732_000),  "2026-02": (2_840_000, 3_712_000),  "2026-03": (2_848_000, 4_110_000),
+# TotalPass MAU Brasil mensal (Sensor Tower, fonte: Modelo SmartFit 4T25, sheet "Dados SensorTower MS").
+# IMPORTANTE: NÃO usamos SF MAU porque Smart Fit balcão não exige abrir o app pra entrar na academia
+# (Sensor Tower não captura balcão). TP MAU é o único sinal real de atividade, usado pra fatiar a freq% anual
+# disclosed entre os 4 trimestres do ano.
+TP_MAU_BR = {
+    # ano-mes: TP MAU
+    "2022-01":  56_016, "2022-02":  60_420, "2022-03":  64_964,
+    "2022-04":  62_770, "2022-05":  71_017, "2022-06":  71_105,
+    "2022-07":  84_632, "2022-08": 104_021, "2022-09": 115_686,
+    "2022-10": 119_422, "2022-11": 124_851, "2022-12": 120_108,
+    "2023-01": 162_563, "2023-02": 158_209, "2023-03": 170_654,
+    "2023-04": 169_716, "2023-05": 188_580, "2023-06": 195_697,
+    "2023-07": 214_422, "2023-08": 243_411, "2023-09": 620_953,
+    "2023-10": 655_143, "2023-11": 635_367, "2023-12": 649_056,
+    "2024-01": 914_783, "2024-02": 919_313, "2024-03": 943_212,
+    "2024-04": 1_011_408, "2024-05": 1_112_143, "2024-06": 1_270_681,
+    "2024-07": 1_317_651, "2024-08": 1_332_291, "2024-09": 1_350_567,
+    "2024-10": 1_570_178, "2024-11": 1_453_835, "2024-12": 1_450_829,
+    "2025-01": 1_865_022, "2025-02": 1_831_584, "2025-03": 1_944_460,
+    "2025-04": 1_925_001, "2025-05": 1_928_034, "2025-06": 2_089_796,
+    "2025-07": 2_138_221, "2025-08": 2_189_000, "2025-09": 2_677_354,
+    "2025-10": 2_957_492, "2025-11": 2_876_594, "2025-12": 2_889_637,
+    "2026-01": 3_732_000, "2026-02": 3_712_000, "2026-03": 4_110_000,
 }
 
-# Disclosed anual TP freq/rev % (do release 4T do ano respectivo).
+# Disclosed anual TP freq/rev % (do release 4T do ano respectivo) — usados como ANCHORS.
 TP_ANNUAL_DISCLOSED = {
     2024: (11.0, 8.0),   # freq, rev (revisado pós-controle antifraude no release 4T25)
     2025: (15.0, 12.0),  # do release 4T25
+    # 2026: (?, ?)        # TBD until 4T26 release; pode passar via --tp_freq_2026 e --tp_rev_2026
 }
 
 
@@ -72,43 +73,42 @@ def quarter_of(ym: str) -> str:
     return f"{q}T{y[2:]}"
 
 
-def quarterly_mau_share() -> dict:
-    """Agrega MAU mensal em trimestral e retorna {periodo: TP_share}."""
+def derive_tp_quarterly(year_anchors: dict | None = None) -> dict:
+    """
+    Para cada trimestre, deriva tp_freq_pct e tp_rev_pct via:
+      tp_freq_q = anual_disclosed × (TP_MAU_q / quarterly_avg_TP_MAU_year)
+
+    Onde quarterly_avg = sum(TP_MAU_year) / 4. Resultado: a média dos 4 tris bate exatamente no
+    anual disclosed, e a sazonalidade do TP MAU distribui o peso entre os 4 trimestres.
+
+    year_anchors override default TP_ANNUAL_DISCLOSED (útil pra estimar 2026 antes do release).
+    Para anos sem anchor (2022, 2023, 2026+ se não passado), retorna (None, None) → deixa n/d.
+    """
+    anchors = {**TP_ANNUAL_DISCLOSED, **(year_anchors or {})}
+    # Agrega TP MAU mensal em trimestral
     by_q = {}
-    for ym, (sf, tp) in MAU_BR.items():
+    by_year = {}
+    for ym, tp in TP_MAU_BR.items():
         q = quarter_of(ym)
-        if q not in by_q:
-            by_q[q] = [0, 0]
-        by_q[q][0] += sf
-        by_q[q][1] += tp
-    return {q: tp / (sf + tp) * 100 for q, (sf, tp) in by_q.items()}
-
-
-def derive_tp_quarterly() -> dict:
-    """
-    Para cada trimestre, deriva tp_freq_pct e tp_rev_pct calibrados ao MAU.
-    Usa a anchor anual disclosed e aplica o multiplicador (TP_freq_year_disclosed / TP_MAU_share_year_avg)
-    em cada trimestre do ano. Para anos sem disclosure (2022, 2023, 2026+), usa fator do ano mais próximo.
-    """
-    q_share = quarterly_mau_share()
-    # Calibração por ano
-    year_factor = {}  # year -> (freq_factor, rev_factor)
-    for year, (freq_disc, rev_disc) in TP_ANNUAL_DISCLOSED.items():
-        year_qs = [q for q in q_share if int("20" + q[2:]) == year]
-        avg_share = sum(q_share[q] for q in year_qs) / len(year_qs)
-        year_factor[year] = (freq_disc / avg_share, rev_disc / avg_share)
-    # Para 2022-2023: usa fator 2024 (TP era imaterial mas o ratio extrapolado da estimativa)
-    for y in (2022, 2023):
-        year_factor[y] = year_factor[2024]
-    # Para 2026+: usa fator 2025 (último disponível)
-    for y in (2026, 2027):
-        year_factor[y] = year_factor[2025]
-    # Aplica
-    out = {}
-    for q, share in q_share.items():
         year = int("20" + q[2:])
-        ff, rf = year_factor.get(year, year_factor[2025])
-        out[q] = (share * ff, share * rf)
+        by_q[q] = by_q.get(q, 0) + tp
+        by_year.setdefault(year, []).append(tp)
+    # Para cada trimestre, calcula peso vs avg do ano (3-month avg)
+    out = {}
+    for q, tp_q in by_q.items():
+        year = int("20" + q[2:])
+        if year not in anchors:
+            out[q] = (None, None)
+            continue
+        annual_total = sum(by_year[year])
+        if len(by_year[year]) < 12:
+            # ano parcial → não calibra (avg incompleto)
+            out[q] = (None, None)
+            continue
+        avg_q = annual_total / 4
+        weight = tp_q / avg_q
+        freq_disc, rev_disc = anchors[year]
+        out[q] = (freq_disc * weight, rev_disc * weight)
     return out
 
 
@@ -116,7 +116,7 @@ _TP_DERIVED = derive_tp_quarterly()
 
 
 def tp_for(periodo: str):
-    """Retorna (tp_freq_pct, tp_rev_pct) trimestral derivado de MAU + calibração anual."""
+    """Retorna (tp_freq_pct, tp_rev_pct) trimestral fatiado do anual disclosed via TP MAU sazonal."""
     return _TP_DERIVED.get(periodo, (None, None))
 
 
@@ -223,12 +223,13 @@ def show(kpis):
     print()
     print("Notas:")
     print("- Medias = (EoP_q + EoP_{q-1}) / 2 (proxy - empresa nao publica media absoluta)")
-    print("- 'Alunos/loja(c/TP)' = (alunos_med / (1 - tp_freq_pct)) / acad_med - assume freq TP user = freq balcao")
+    print("- 'Alunos/loja(c/TP)' = (alunos_med / (1 - tp_freq_pct)) / acad_med - assume freq de uso TP user = freq balcao")
     print("- 'Ticket ex-TP' = receita * (1 - tp_rev_pct) * 1000 / 3 / alunos_med (R$/mes do balcao puro)")
-    print("- tp_freq_pct e tp_rev_pct sao TRIMESTRAIS, derivados de MAU Sensor Tower (TP+SF Brasil) calibrado anual")
-    print("  via fator (TP_freq_disclosed_anual / TP_MAU_share_anual_avg). Calibrado em 2024 (factor 0.31) e 2025 (0.33)")
-    print("  Para 2022-2023 (TP imaterial, sem disclosure) e 2026+ usa fator do ano calibrado mais proximo.")
-    print("- 4T22: receita pre-1T23 sem dado, KPIs n/d.")
+    print("- tp_freq_pct e tp_rev_pct: anual disclosed FATIADO entre os 4 trimestres pelo peso de TP MAU (Sensor Tower).")
+    print("  Formula: tp_freq_q = freq_anual * (TP_MAU_q / TP_MAU_q_avg_anual). Media dos 4 tris bate o anual disclosed.")
+    print("  Sazonalidade clara: 1T < anual, 4T > anual (TP MAU cresce ao longo do ano).")
+    print("- SF MAU NAO usado: balcao Smart Fit nao precisa abrir o app pra entrar, Sensor Tower nao captura.")
+    print("- Anos sem disclosure (2022-2023, 2026+): KPIs TP-ajustados ficam n/d. Pra estimar 1T26, ver --tp_freq_2026.")
 
 
 def auto_load(periodo: str):
