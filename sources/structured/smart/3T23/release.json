@@ -1,0 +1,328 @@
+{
+  "_schema": "incorporadora/v1",
+  "_schema_path": "sources/structured/_schemas/incorporadora.json",
+  "_empresa": "smart",
+  "_periodo": "3T23",
+  "_source": "sources/full/smart/3T23/release.md",
+  "_notes": [
+    "Smart Fit (SMFT3) é uma rede de academias (fitness/serviços), NÃO uma incorporadora. O bloco canonical.operacional não se aplica e está null. Métricas operacionais relevantes (academias, clientes, vintages, capex por categoria) vivem em company_specific.operacional.",
+    "DRE canonical reflete IFRS reportado (com IFRS-16). Métricas ex-IFRS-16 (que a empresa destaca) vivem em financeiro_ajustado e em company_specific.dre_ex_ifrs16.",
+    "BP é o reportado (com IFRS-16). Ativos de direito de uso e passivos de arrendamento estão em company_specific.bp_ifrs16."
+  ],
+  "canonical": {
+    "operacional": null,
+    "dre": {
+      "receita_liquida": 1089.2,
+      "custos_operacionais": -652.4,
+      "lucro_bruto": 436.7,
+      "lucro_bruto_ajustado": null,
+      "margem_bruta": 0.401,
+      "margem_bruta_ajustada": null,
+      "despesas_operacionais": -223.5,
+      "despesas_com_vendas": -86.9,
+      "despesas_administrativas": -127.2,
+      "outras_desp_rec_operacionais": -7.9,
+      "depreciacao_amortizacao": -295.7,
+      "equivalencia_patrimonial": -1.5,
+      "lucro_operacional": 213.2,
+      "receita_financeira": null,
+      "despesa_financeira": null,
+      "lucro_antes_ir": 86.6,
+      "impostos_diferidos": null,
+      "ir_csll": -25.1,
+      "lucro_apos_ir": 61.6,
+      "participacao_minoritarios": null,
+      "lucro_liquido": 61.6,
+      "lucro_liquido_ajustado": 94.4,
+      "margem_liquida": 0.057,
+      "margem_liquida_ajustada": 0.087
+    },
+    "bp": {
+      "ativo_circulante": 3471.0,
+      "caixa_e_equivalentes": 2767.0,
+      "recebiveis_clientes_circulante": 350.0,
+      "imoveis_comercializar_circulante": null,
+      "outros_contas_receber_circulante": 347.0,
+      "ativo_nao_circulante": 9724.0,
+      "recebiveis_clientes_nc": null,
+      "imoveis_comercializar_nc": null,
+      "outros_nc": 539.0,
+      "intangivel_imobilizado": 5585.0,
+      "investimentos": 43.0,
+      "ativo_total": 13195.0,
+      "passivo_circulante": 2369.0,
+      "emprestimos_financiamentos_c": 792.0,
+      "debentures_c": null,
+      "obrig_terrenos_adiant_c": null,
+      "fornecedores_materiais": 293.0,
+      "dividendos_a_pagar": null,
+      "impostos_contribuicoes": null,
+      "cessao_creditos_c": null,
+      "outros_passivo_c": 406.0,
+      "passivo_nao_circulante": 6088.0,
+      "emprestimos_financiamentos_nc": 2673.0,
+      "debentures_nc": null,
+      "obrig_terrenos_adiant_nc": null,
+      "impostos_diferidos_bp": null,
+      "provisao_contingencias": null,
+      "cessao_creditos_nc": null,
+      "outros_passivo_nc": 103.0,
+      "patrimonio_liquido_total": 4738.0,
+      "patrimonio_liquido": 4713.0,
+      "participacao_minoritarios_bp": 25.0,
+      "passivo_pl_total": 13195.0
+    },
+    "financeiro_ajustado": {
+      "ebitda_ajustado": 327.2,
+      "margem_ebitda_ajustada_pct": 0.300,
+      "margem_bruta_ajustada_pct": 0.502,
+      "margem_bruta_ajustada_ex_pode_entrar_pct": null,
+      "resultado_financeiro_liquido": -44.1,
+      "receitas_a_apropriar": null,
+      "resultados_a_apropriar": null,
+      "margem_resultados_a_apropriar_pct": null,
+      "caixa_disponibilidades": 2767.0,
+      "divida_bruta": 3576.0,
+      "divida_liquida": 809.0,
+      "divida_liquida_ajustada": 1008.0,
+      "patrimonio_liquido_minoritarios": 25.0,
+      "divida_liquida_sobre_pl_pct": 0.171,
+      "divida_liquida_ajustada_sobre_pl_pct": 0.213,
+      "lucro_liquido_ltm": null,
+      "nopat_ltm": null,
+      "capital_empregado": null,
+      "roe_ltm_pct": null,
+      "roce_ltm_pct": null,
+      "despesas_com_vendas_sga": -79.3,
+      "despesas_administrativas_sga": -123.6,
+      "total_sga": -218.4,
+      "despesas_vendas_sobre_vl_pct": 0.073,
+      "despesas_adm_sobre_lancamentos_pct": null,
+      "capitalizacao_juros": null,
+      "contas_a_receber_cap_empregado": null,
+      "estoque_cap_empregado": null,
+      "outros_cap_empregado": null,
+      "despesas_com_demandas_judiciais": null,
+      "outras_receitas_despesas_op": -7.9,
+      "equivalencia_patrimonial_fin": -1.5,
+      "receitas_financeiras": null,
+      "despesas_financeiras": null,
+      "resultado_financeiro_ex_swap": null,
+      "reducao_capital": null,
+      "divida_liquida_ajustada_det": 1008.0,
+      "caixa_aplicacoes_financeiras_ded": 2767.0,
+      "lucro_liquido_destaque": 94.4,
+      "lucro_bruto_ajustado_destaque": 547.1,
+      "receita_liquida_destaque": 1089.2
+    }
+  },
+  "company_specific": {
+    "operacional": {
+      "academias": {
+        "total": 1306,
+        "proprias": 1031,
+        "franquias": 275,
+        "por_marca": {
+          "smart_fit": 1278,
+          "smart_fit_proprias": 1008,
+          "smart_fit_franquias": 270,
+          "bio_ritmo_o2": 28
+        },
+        "por_regiao": {
+          "brasil": 658,
+          "mexico": 288,
+          "outros_am_latina": 360
+        },
+        "studios": 17,
+        "obras_em_andamento": 112,
+        "contratos_assinados_novas_unidades": 90,
+        "novas_aberturas_3T23_proprias": 37,
+        "novas_aberturas_3T23_franquias": 10,
+        "academias_maduras_pct": 0.64,
+        "comentario_maduras": "647 unidades Smart Fit próprias maduras (≥24 meses no início do ano)"
+      },
+      "clientes": {
+        "totais_mil": 4404,
+        "em_academias_mil": 4087,
+        "em_studios_mil": 5,
+        "em_digital_mil": 312,
+        "queima_diaria_mil": 308,
+        "smart_fit_nutri_mil": 154,
+        "por_regiao_academias_mil": {
+          "brasil": 1929,
+          "mexico": 909,
+          "outros_am_latina": 1249
+        },
+        "pct_plano_black_proprias": 0.65,
+        "crescimento_yoy_clientes_academias_pct": 0.21,
+        "adicoes_3T23_academias_mil": 134
+      },
+      "receita_por_marca_regiao_rmm": {
+        "smart_fit_brasil": 413.0,
+        "smart_fit_mexico": 268.1,
+        "smart_fit_outros_am_latina": 313.4,
+        "bio_ritmo_o2": 35.7,
+        "outras_royalties": 59.0,
+        "receita_internacional_pct": 0.54
+      },
+      "ebitda_por_regiao_rmm": {
+        "brasil": 203.2,
+        "mexico": 96.4,
+        "outros_am_latina": 160.6,
+        "g_a_e_outras_consolidadas": -131.5,
+        "equivalencia_patrimonial": -1.5,
+        "margem_ebitda_brasil_pct": 0.402,
+        "margem_ebitda_mexico_pct": 0.360,
+        "margem_ebitda_outros_pct": 0.509
+      },
+      "vintages_margem_bruta_caixa": {
+        "maduras_pct": 0.52,
+        "vintage_2021_pct": 0.51,
+        "vintage_2022_pct": 0.49
+      },
+      "lucro_bruto_por_unidade_madura_anualizado_rmm": 2.2,
+      "geracao_caixa_operacional_rmm": 314.1,
+      "geracao_caixa_op_9M23_rmm": 1062.3,
+      "capex_rmm": {
+        "total": 325.0,
+        "expansao": 270.3,
+        "manutencao": 45.3,
+        "corporativo_inovacao": 9.4
+      },
+      "capex_9M23_rmm": {
+        "total": 795.8,
+        "expansao": 638.5,
+        "manutencao": 116.9,
+        "corporativo_inovacao": 40.4
+      }
+    },
+    "dre_ex_ifrs16": {
+      "receita_liquida": 1089.2,
+      "custo_caixa_servicos": -542.1,
+      "lucro_bruto_caixa": 547.1,
+      "margem_bruta_caixa_pct": 0.502,
+      "custos_pre_operacionais": -9.0,
+      "lucro_bruto_caixa_antes_pre_op": 556.1,
+      "margem_bruta_caixa_antes_pre_op_pct": 0.511,
+      "sga": -218.4,
+      "despesas_com_vendas": -79.3,
+      "despesas_gerais_administrativas": -123.6,
+      "despesas_pre_operacionais": -7.6,
+      "outras_desp_receitas": -7.9,
+      "reavaliacao_panama": 0.0,
+      "equivalencia_patrimonial": -1.5,
+      "ebitda": 327.2,
+      "margem_ebitda_pct": 0.300,
+      "ebitda_ajustado": 327.2,
+      "margem_ebitda_ajustada_pct": 0.300,
+      "ebitda_aj_antes_pre_op": 343.9,
+      "margem_ebitda_aj_antes_pre_op_pct": 0.316,
+      "depreciacao_amortizacao": -163.6,
+      "resultado_financeiro": -44.1,
+      "ir_csll": -25.1,
+      "lucro_liquido": 94.4,
+      "margem_liquida_pct": 0.087,
+      "lucro_liquido_recorrente": 101.0,
+      "margem_liquida_recorrente_pct": 0.093
+    },
+    "custo_caixa_por_natureza_rmm": {
+      "ocupacao": 212.0,
+      "pessoal": 140.9,
+      "consumo": 100.5,
+      "outros": 88.6,
+      "total": 542.1
+    },
+    "bp_ifrs16": {
+      "ativos_direito_uso": 3557.0,
+      "passivos_arrendamento_circulante": 572.0,
+      "passivos_arrendamento_nao_circulante": 3312.0,
+      "imobilizado": 3710.0,
+      "intangivel": 1875.0,
+      "receita_diferida_circulante": 228.0,
+      "contas_a_pagar_circulante": 78.0,
+      "instrumentos_financeiros_derivativos": 7.0
+    },
+    "endividamento_rmm": {
+      "caixa_e_garantias": 2767.0,
+      "divida_bruta": 3576.0,
+      "emprestimos_e_debentures": 3465.0,
+      "passivo_arrendamento_equipamentos": 111.0,
+      "divida_curto_prazo": 843.0,
+      "divida_longo_prazo": 2733.0,
+      "divida_liquida": 809.0,
+      "outros_passivos_ativos": 199.0,
+      "divida_liquida_ajustada": 1008.0,
+      "divida_liquida_aj_ebitda_ltm_x": 0.49,
+      "divida_liquida_aj_ebitda_ltm_ex_ifrs16_x": 0.73
+    },
+    "cronograma_divida_bruta_rmm": {
+      "2023": 279.0,
+      "2024": 735.0,
+      "2025": 573.0,
+      "2026": 606.0,
+      "2027": 668.0,
+      "2028": 582.0,
+      "2029": 133.0,
+      "total": 3576.0,
+      "pct_curto_prazo_2023": 0.08
+    },
+    "fluxo_caixa_rmm": {
+      "caixa_liquido_op_3T23": 340.1,
+      "caixa_liquido_op_9M23": 989.6,
+      "caixa_liquido_inv_3T23": -237.4,
+      "caixa_liquido_fin_3T23": -0.9,
+      "variacao_caixa_3T23": 101.8
+    },
+    "eventos_subsequentes": {
+      "oitava_emissao_debentures": {
+        "data": "2023-10-28",
+        "valor_rmm": 600.0,
+        "vencimento": "2029-2030",
+        "taxa": "CDI + 1,95%",
+        "destinacao": "propósitos corporativos gerais e reforço de capital de giro"
+      },
+      "resgate_notas_comerciais": {
+        "data_aprovacao": "2023-11-06",
+        "valor_rmm": 223.0,
+        "premio_resgate": "0,30% a.a.",
+        "taxa_original": "CDI + 2,15%"
+      },
+      "jcp": {
+        "data": "outubro/2023",
+        "valor_bruto_rmm": 206.6,
+        "valor_por_acao": 0.3524153209
+      }
+    },
+    "linha_credito_mexico": {
+      "valor_mxn_mm": 1750,
+      "valor_brl_aprox_rmm": 500,
+      "prazo_total_meses": 60,
+      "carencia_meses": 24,
+      "taxa": "TIIE 28d + 2,0% a.a.",
+      "desembolsado_3T23_mxn_mm": 400
+    },
+    "repactuacao_5a_emissao_debentures": {
+      "taxa_anterior": "CDI + 2,15%",
+      "taxa_nova": "CDI + 1,90%",
+      "novo_vencimento": "3T28"
+    },
+    "consolidacao": {
+      "panama_costa_rica_consolidados_a_partir": "1T23",
+      "ganho_reavaliacao_panama_2T23_rmm": 176.6,
+      "contribuicao_panama_costa_rica_3T23": {
+        "receita_rmm": 36.0,
+        "custo_caixa_rmm": 15.0,
+        "lucro_bruto_caixa_rmm": 21.0,
+        "ebitda_rmm": 17.0,
+        "sga_rmm": 4.0
+      },
+      "contribuicao_panama_costa_rica_9M23": {
+        "receita_rmm": 107.0
+      }
+    },
+    "incentivo_longo_prazo_ilp": {
+      "outorga_adicional_3T23_rmm": 14.0,
+      "impacto_g_a": "elevou despesas G&A em R$14M no 3T23"
+    }
+  }
+}

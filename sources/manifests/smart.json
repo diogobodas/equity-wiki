@@ -1,0 +1,711 @@
+{
+  "_schema": "manifest/v1",
+  "_updated": "2026-04-30",
+  "empresa": "smart",
+  "display_name": "SMART FIT ESCOLA DE GINASTICA E DANCA S.A.",
+  "aliases": [
+    "SMFT3",
+    "SmartFit",
+    "Smart Fit",
+    "Grupo Smart Fit",
+    "SMART FIT"
+  ],
+  "ticker": "SMFT3",
+  "setor": "fitness",
+  "wiki_page": "smartfit.md",
+  "sources": [
+    {
+      "type": "fato_relevante",
+      "asof": "1T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T23/fato_relevante_570670.md"
+    },
+    {
+      "type": "itr",
+      "asof": "1T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T23/itr.md",
+      "structured": [
+        "sources/structured/smart/1T23/itr.json"
+      ],
+      "digested": "sources/digested/smart_itr_1T23_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "1T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T23/release.md",
+      "structured": [
+        "sources/structured/smart/1T23/release.json"
+      ],
+      "digested": "sources/digested/smart_release_1T23_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T24/fato_relevante_715143.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T24/fato_relevante_715148.md"
+    },
+    {
+      "type": "itr",
+      "asof": "1T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T24/itr.md",
+      "structured": [
+        "sources/structured/smart/1T24/itr.json"
+      ],
+      "digested": "sources/digested/smart_itr_1T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "1T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T24/release.md",
+      "structured": [
+        "sources/structured/smart/1T24/release.json"
+      ]
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T25/fato_relevante_871568.md"
+    },
+    {
+      "type": "itr",
+      "asof": "1T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T25/itr.md",
+      "structured": [
+        "sources/structured/smart/1T25/itr.json"
+      ],
+      "digested": "sources/digested/smart_itr_1T25_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "1T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T25/release.md",
+      "structured": [
+        "sources/structured/smart/1T25/release.json"
+      ]
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T26/fato_relevante_1000558.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T26/fato_relevante_1005543.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T26/fato_relevante_1009820.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "1T26",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T26/fato_relevante_1013422.md"
+    },
+    {
+      "type": "dfp",
+      "asof": "2023",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2023/dfp.md",
+      "structured": [
+        "sources/structured/smart/2023/dfp.json"
+      ],
+      "digested": "sources/digested/smart_dfp_2023_summary.md"
+    },
+    {
+      "type": "dfp",
+      "asof": "2024",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2024/dfp.md",
+      "structured": [
+        "sources/structured/smart/2024/dfp.json"
+      ],
+      "digested": "sources/digested/smart_dfp_2024_summary.md"
+    },
+    {
+      "type": "dfp",
+      "asof": "2025",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2025/dfp.md",
+      "structured": [
+        "sources/structured/smart/2025/dfp.json"
+      ],
+      "digested": "sources/digested/smart_dfp_2025_summary.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T23/fato_relevante_630790.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T23/fato_relevante_631282.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T23/fato_relevante_632228.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T23/fato_relevante_635899.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T23/fato_relevante_636924.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T23/fato_relevante_638619.md"
+    },
+    {
+      "type": "itr",
+      "asof": "2T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T23/itr.md",
+      "structured": [
+        "sources/structured/smart/2T23/itr.json"
+      ],
+      "digested": "sources/digested/smart_itr_2T23_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "2T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T23/release.md",
+      "structured": [
+        "sources/structured/smart/2T23/release.json"
+      ]
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T24/fato_relevante_743073.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T24/fato_relevante_743555.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T24/fato_relevante_753437.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T24/fato_relevante_769296.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T24/fato_relevante_770868.md"
+    },
+    {
+      "type": "itr",
+      "asof": "2T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T24/itr.md",
+      "structured": [
+        "sources/structured/smart/2T24/itr.json"
+      ],
+      "digested": "sources/digested/smart_itr_2T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "2T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T24/release.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "2T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T25/fato_relevante_903767.md"
+    },
+    {
+      "type": "itr",
+      "asof": "2T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T25/itr.md",
+      "structured": [
+        "sources/structured/smart/2T25/itr.json"
+      ],
+      "digested": "sources/digested/smart_itr_2T25_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "2T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T25/release.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "3T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/3T23/fato_relevante_670636.md"
+    },
+    {
+      "type": "itr",
+      "asof": "3T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/3T23/itr.md",
+      "structured": [
+        "sources/structured/smart/3T23/itr.json"
+      ],
+      "digested": "sources/digested/smart_itr_3T23_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "3T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/3T23/release.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "3T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/3T24/fato_relevante_787482.md"
+    },
+    {
+      "type": "itr",
+      "asof": "3T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/3T24/itr.md",
+      "structured": [
+        "sources/structured/smart/3T24/itr.json"
+      ],
+      "digested": "sources/digested/smart_itr_3T24_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "3T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/3T24/release.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "3T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/3T25/fato_relevante_941296.md"
+    },
+    {
+      "type": "itr",
+      "asof": "3T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/3T25/itr.md",
+      "structured": [
+        "sources/structured/smart/3T25/itr.json"
+      ],
+      "digested": "sources/digested/smart_itr_3T25_summary.md"
+    },
+    {
+      "type": "release",
+      "asof": "3T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/3T25/release.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/4T23/fato_relevante_673942.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/4T23/fato_relevante_673944.md"
+    },
+    {
+      "type": "release",
+      "asof": "4T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/4T23/release.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/4T24/fato_relevante_818403.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/4T24/fato_relevante_824305.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/4T24/fato_relevante_830862.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/4T24/fato_relevante_838137.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/4T24/fato_relevante_839381.md"
+    },
+    {
+      "type": "release",
+      "asof": "4T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/4T24/release.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/4T25/fato_relevante_956141.md"
+    },
+    {
+      "type": "fato_relevante",
+      "asof": "4T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/4T25/fato_relevante_976124.md"
+    },
+    {
+      "type": "release",
+      "asof": "4T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/4T25/release.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "1T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T23/call_transcript.md",
+      "digested": "sources/digested/smart_call_transcript_1T23_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "1T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T24/call_transcript.md",
+      "digested": "sources/digested/smart_call_transcript_1T24_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "1T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/1T25/call_transcript.md",
+      "digested": "sources/digested/smart_call_transcript_1T25_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "2T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T23/call_transcript.md",
+      "digested": "sources/digested/smart_call_transcript_2T23_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "2T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T24/call_transcript.md",
+      "digested": "sources/digested/smart_call_transcript_2T24_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "2T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/2T25/call_transcript.md",
+      "digested": "sources/digested/smart_call_transcript_2T25_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "3T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/3T23/call_transcript.md",
+      "digested": "sources/digested/smart_call_transcript_3T23_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "3T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/3T24/call_transcript.md",
+      "digested": "sources/digested/smart_call_transcript_3T24_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "3T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/3T25/call_transcript.md",
+      "digested": "sources/digested/smart_call_transcript_3T25_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "4T23",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/4T23/call_transcript.md",
+      "digested": "sources/digested/smart_call_transcript_4T23_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "4T24",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/4T24/call_transcript.md",
+      "digested": "sources/digested/smart_call_transcript_4T24_summary.md"
+    },
+    {
+      "type": "call_transcript",
+      "asof": "4T25",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/smart/4T25/call_transcript.md",
+      "digested": "sources/digested/smart_call_transcript_4T25_summary.md"
+    }
+  ],
+  "coverage": {
+    "1T23": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/smart/1T23/itr.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/smart/1T23/itr.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/smart/1T23/release.json"
+      }
+    },
+    "1T24": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/smart/1T24/itr.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/smart/1T24/itr.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/smart/1T24/release.json"
+      }
+    },
+    "1T25": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/smart/1T25/itr.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/smart/1T25/itr.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/smart/1T25/release.json"
+      }
+    },
+    "2023": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/smart/2023/dfp.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/smart/2023/dfp.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/smart/2023/dfp.json"
+      }
+    },
+    "2024": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/smart/2024/dfp.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/smart/2024/dfp.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/smart/2024/dfp.json"
+      }
+    },
+    "2025": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/smart/2025/dfp.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/smart/2025/dfp.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/smart/2025/dfp.json"
+      }
+    },
+    "2T23": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/smart/2T23/itr.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/smart/2T23/itr.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/smart/2T23/release.json"
+      }
+    },
+    "2T24": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/smart/2T24/itr.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/smart/2T24/itr.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/smart/2T24/release.json"
+      }
+    },
+    "2T25": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/smart/2T25/itr.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/smart/2T25/itr.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/smart/2T25/release.json"
+      }
+    },
+    "3T23": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/smart/3T23/itr.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/smart/3T23/itr.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/smart/3T23/release.json"
+      }
+    },
+    "3T24": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/smart/3T24/itr.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/smart/3T24/itr.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/smart/3T24/release.json"
+      }
+    },
+    "3T25": {
+      "bp": {
+        "status": "filled",
+        "source": "sources/structured/smart/3T25/itr.json"
+      },
+      "dre": {
+        "status": "filled",
+        "source": "sources/structured/smart/3T25/itr.json"
+      },
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/smart/3T25/release.json"
+      }
+    },
+    "4T23": {
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/smart/4T23/release.json"
+      }
+    },
+    "4T24": {
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/smart/4T24/release.json"
+      }
+    },
+    "4T25": {
+      "financeiro_ajustado": {
+        "status": "filled",
+        "source": "sources/structured/smart/4T25/release.json"
+      }
+    }
+  },
+  "precedence": [],
+  "caveats": [],
+  "fetch_profile": {
+    "_created": "2026-04-30",
+    "_sample_period": "1T26",
+    "categories": {
+      "fato_relevante": {
+        "action": "include",
+        "description": "Fatos relevantes CVM — eventos materiais (governança, guidance, estrutura acionária)",
+        "sample_files": [
+          "SMFT3_1T26_fato_relevante_1000558.pdf",
+          "SMFT3_1T26_fato_relevante_1005543.pdf",
+          "SMFT3_1T26_fato_relevante_1013422.pdf"
+        ]
+      },
+      "rating_action": {
+        "action": "include",
+        "description": "Rating action de agência (Fitch/S&P/Moody's) — alavancagem e perfil de crédito; CVM rotula como release",
+        "sample_files": [
+          "SMFT3_1T26_release_1009820.pdf"
+        ]
+      }
+    }
+  }
+}

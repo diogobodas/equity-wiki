@@ -11,13 +11,14 @@ sources:
   - sources/digested/notion_resia_mrv_laic_2f600ca3_summary.md
   - sources/digested/notion_resia_resia_impairment_call_cdb00ca3_summary.md
   - sources/digested/notion_cyrela_call_cambauva_btg_1t26_33a00ca3_summary.md
+  - sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-01
 ---
 
 # MRV&Co (MRVE3)
 
-Maior incorporadora do segmento [[mcmv]] do Brasil, com ~40 mil unidades/ano e receita líquida de R$ 10,1 bi em 2025. Opera também via subsidiárias: Resia (multifamily EUA, em run-off), Urba (loteadora) e LuGgo (multifamily Brasil). Sede em Belo Horizonte, presença em ~80 cidades.
+Maior incorporadora do segmento [[mcmv]] do Brasil, com ~40 mil unidades/ano e receita líquida de R$ 10,1 bi em 2025. Opera também via subsidiárias: Resia (multifamily EUA, em run-off), Urba (loteadora) e LuGgo (multifamily Brasil). Sede em Belo Horizonte, presença em ~80 cidades / 28 núcleos operacionais. Ao longo da história: >600 mil apartamentos lançados, ~1,8 mi de brasileiros vivendo em produto MRV (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md).
 
 ## Financeiros 2025 — Realizado vs. Guidance
 
@@ -57,6 +58,7 @@ A margem contábil converge para a margem de novas vendas com lag de 18–24 mes
 ### Lançamentos e vendas
 
 - Vendas líquidas: >40k unidades/ano; capacidade de 46k com mesmo G&A (fonte: sources/digested/notion_mrv_bfc00ca3_summary.md)
+- Crescimento de vendas: ~5% a.a. nos últimos anos; capaz de crescer 5–10% com geração de caixa positiva (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md)
 - Lançamentos 2026: +5–8% em volume, +8–10% em VGV sobre 2025 (fonte: sources/digested/notion_call_cfo_mrv_ricardo_paixao_32200ca3_summary.md)
 - 42% dos lançamentos de 2026 concentrados em 10 cidades (fonte: sources/digested/notion_mrv_day_31f00ca3_summary.md)
 - Portfólio novo: 30% das vendas de 2025; transicao completa estimada em 4–5 anos (fonte: sources/digested/notion_call_cfo_mrv_ricardo_paixao_32200ca3_summary.md)
@@ -75,6 +77,10 @@ A margem contábil converge para a margem de novas vendas com lag de 18–24 mes
 
 Grupo 1 MCMV: 15–18% das vendas em 2025; passa a ~25% com novos tetos de renda. Teto de financiamento MCMV subiu de R$ 350 mil para R$ 400 mil (mudança abril/2026) (fonte: sources/digested/notion_mrv_day_31f00ca3_summary.md).
 
+### MCMV — Funding e Limites
+
+Funding via [[fgts]], descorrelacionado da Selic — clientes pagam 4,5% + TR mesmo com Selic >14%. Orçamento plurianual do programa aprovado acima de R$ 200 bi (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md, em: 2026-04-01). Limite prático do programa: 500–600k moradias/ano, determinado pelo balanço do fundo — não pela demanda (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md).
+
 ### Banco de terrenos
 
 | Métrica | Valor |
@@ -88,6 +94,7 @@ R$ 258 mi em terrenos vendidos sem prejuízo em 2025. MRV comprou 71 mil fracoes
 ### Producao e engenharia
 
 - 22 mil pessoas nos canteiros; 180–200 apartamentos/dia (fonte: sources/digested/notion_mrv_day_31f00ca3_summary.md)
+- Produtividade de obra: de 12 operários/unidade/mês (IPO, 2007) para >4 hoje — fruto de industrialização e sequenciamento de canteiros na mesma praça (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md)
 - Índice de produtividade (IP): 5,5 → 4,5; meta 4,0; velocidade atual ~3,7%/mês, meta 4–5%/mês
 - Projeto Lego: 80% de reducao de variabilidade de tipologias; reducao de R$ 5 mil/apartamento em custo
 - Potencial de R$ 300 mi em otimizacao de capital: R$ 200 mi em formas de alumínio + R$ 100 mi em estoques de materiais
@@ -111,6 +118,7 @@ R$ 258 mi em terrenos vendidos sem prejuízo em 2025. MRV comprou 71 mil fracoes
 - Dívida corporativa com vencimento em 2 anos: R$ 300 mi (fonte: sources/digested/notion_mrv_day_31f00ca3_summary.md)
 - Passivo de cessão ProSoluto: R$ 1.850 mi (4T24) → R$ 1.360 mi (1T25) (fonte: sources/digested/notion_call_cfo_mrv_ricardo_paixao_32200ca3_summary.md)
 - Reducao esperada do passivo de cessão: R$ 500–600 mi/ano; irrelevante em 2–2,5 anos (fonte: sources/digested/notion_call_cfo_mrv_ricardo_paixao_32200ca3_summary.md)
+- Meta de desalavancagem: retornar a Net Debt/Equity de 0–10% (patamar histórico pré-Resia) (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md)
 
 ### Estratégia ProSoluto / Cessão Flex
 
@@ -141,7 +149,9 @@ Tres pracas sofreram trava: Rio Grande do Sul, Ceará e Amazonas (novos estados 
 
 ### Decisao estratégica
 
-No Investor Day de marco/2026, a MRV anunciou que a Resia nao iniciará novos projetos sob a estrutura societária da MRV&Co. Decisao do Conselho: vender todos os ativos da forma mais rentável possível. Reestruturacao: de 164 para 54 funcionários (fonte: sources/digested/notion_mrv_day_31f00ca3_summary.md). Em 2–3 anos, a Resia nao estará mais sob o guarda-chuva da MRV S.A. (fonte: sources/digested/notion_resia_mrv_laic_2f600ca3_summary.md).
+No Investor Day de março/2026, a MRV anunciou que a Resia não iniciará novos projetos sob a estrutura societária da MRV&Co. Decisão do Conselho: vender todos os ativos da forma mais rentável possível. Reestruturação: de 164 para 54 funcionários (fonte: sources/digested/notion_mrv_day_31f00ca3_summary.md). Plano de zeragem de ativos/passivos dentro da estrutura MRV até fim de 2027 / meados de 2028 (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md). A família Menin avalia nova venture de multifamily nos EUA fora da MRV, menor e separada (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md).
+
+**Contexto da destruição de valor.** MRV aportou ~USD 240 mi em 2020 para acelerar a Resia. "Tempestade perfeita" no ciclo pós-compra: inflação ~12% a.a. nos EUA, alavancagem de projeto caindo de 75% para <50%, cap rate de 3,6–3,8% para >6%, oversupply no Texas (Dallas/Houston) (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md).
 
 ### Balanco Resia
 
@@ -193,7 +203,7 @@ Resultado binário: venda de todos os projetos → ~R$ 150 mi de caixa + ~R$ 20 
 
 (fonte: sources/digested/notion_mrv_day_31f00ca3_summary.md; sources/digested/notion_call_cfo_mrv_ricardo_paixao_32200ca3_summary.md)
 
-Ciclo 2026–2028 denominado "Excelência Operacional": expansao de margem + otimizacao de capital após turnaround de 2023–2025. Dividendos sem prazo definido; prioridade é desalavancagem (fonte: sources/digested/notion_mrv_day_31f00ca3_summary.md). Investidor estrangeiro caiu de 92% para 20% do free float (fonte: sources/digested/notion_mrv_bfc00ca3_summary.md). NPS: 69 em 2025 vs. 43 em 2019 (fonte: sources/digested/notion_mrv_day_31f00ca3_summary.md).
+Ciclo 2026–2028 denominado "Excelência Operacional": dois pilares — (1) recuperação de rentabilidade (em curso) e (2) eficiência de capital (giro mais rápido, redução de ProSoluto, permuta em terrenos). Margem bruta de 2026 prevista pelo CEO como melhor que 2025, sustentada por landbank barato e ganhos de produtividade, mesmo com pressão de insumos (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md). Dividendos e recompra somente após desalavancagem próxima de zero; precedente de ~R$ 3 bi distribuídos entre 2013–2019 como referência (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md). Investidor estrangeiro caiu de 92% para 20% do free float (fonte: sources/digested/notion_mrv_bfc00ca3_summary.md). NPS: 69 em 2025 vs. 43 em 2019 (fonte: sources/digested/notion_mrv_day_31f00ca3_summary.md).
 
 ## Premissas de Custo
 
@@ -201,11 +211,20 @@ Ciclo 2026–2028 denominado "Excelência Operacional": expansao de margem + oti
 - Premissa de inflacao de custos revisada ao longo de 2024: 5% → 6,5% (3T24) → 8% (2025) → 7% (2026) (fonte: sources/digested/notion_cyrela_mrv_real_estate_btg_ee100ca3_summary.md)
 - Custo efetivo rodando abaixo do INCC; MRV mais diversificada geograficamente que concorrentes de SP
 - Custo de obra para novos SKUs: reducao de 3–5% só na linha de obra (fonte: sources/digested/notion_mrv_bfc00ca3_summary.md)
+- Inflação COVID em materiais (~40%) já superada; repique em 2026 via hidrocarbonetos (energia + óleo/gás) — CEO não espera queda relevante de preços no ano (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md)
+- Restrição estrutural de mão de obra especializada: trabalhador jovem migra para setores menos exigentes fisicamente (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md)
+
+## Gestão
+
+Modelo co-CEO vigente desde 2011–2012: Rafael Menin (CEO desde 2014, 27 anos de empresa, filho do fundador Rubens Menin) e Eduardo Fischer (primo, ~32 anos de empresa). Perfis complementares; Rafael visita 4–5 cidades/semana. Concentração geográfica deliberada (redução de praças) eleva sequenciamento de canteiros — o mesmo time migra entre obras na mesma cidade, eliminando rampup de treinamento (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md).
 
 ## Riscos Principais
 
-1. **Resia**: US$ 456 mi de dívida líquida é o principal risco no balanco consolidado; "outros terrenos" (US$ 157 mi) e imobilizados (US$ 108 mi) concentram risco de marcacao adicional (fonte: sources/digested/notion_call_cfo_mrv_ricardo_paixao_32200ca3_summary.md)
+1. **Resia**: US$ 456 mi de dívida líquida é o principal risco no balanco consolidado; "outros terrenos" (US$ 157 mi) e imobilizados (US$ 108 mi) concentram risco de marcacao adicional; zeragem até 2028 com incerteza de execução no mercado texano (fonte: sources/digested/notion_call_cfo_mrv_ricardo_paixao_32200ca3_summary.md; sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md)
 2. **Descasamento producao/repasse**: se [[vso]] nao acelerar em 2026, geracao de caixa continua negativa
-3. **Aprovacao de crédito PJ**: mais lenta do que no ano anterior (fonte: sources/digested/notion_mrv_bfc00ca3_summary.md)
-4. **Cessao Flex**: permanece on balance durante a obra; impacto em despesa financeira até 2026
-5. **Covenant de dívida**: disparado em 2025, com tendência de melhora; detalhe do nível/gatilho nao capturado nas notas
+3. **Funding [[fgts]]**: balanço do fundo operando próximo ao limite prático de 500–600k moradias/ano; risco de contenção de volumes se arrecadação enfraquecer (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md)
+4. **Inflação de insumos 2026**: hidrocarbonetos elevados "dados" para o ano — pressão sobre custo de construção (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md)
+5. **Aprovacao de crédito PJ**: mais lenta do que no ano anterior (fonte: sources/digested/notion_mrv_bfc00ca3_summary.md)
+6. **Cessao Flex**: permanece on balance durante a obra; impacto em despesa financeira até 2026
+7. **Alavancagem**: patamar atual distante do objetivo histórico de 0–10% net/equity — geração de caixa precisa escalar antes de qualquer retorno ao acionista (fonte: sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md)
+8. **Covenant de dívida**: disparado em 2025, com tendência de melhora; detalhe do nível/gatilho nao capturado nas notas

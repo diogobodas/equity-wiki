@@ -1,0 +1,130 @@
+{
+  "_schema": "incorporadora/v1",
+  "_schema_path": "sources/structured/_schemas/incorporadora.json",
+  "_empresa": "smart",
+  "_periodo": "4T24",
+  "_source": "C:/Users/diogo.bodas/Desktop/Equity-wiki/equity-wiki/sources/full/smart/4T24/release.md",
+  "_warnings": [
+    "Schema mismatch: 'incorporadora/v1' does not fit Smartfit (SMFT3 — fitness/gym chain operator, NOT real estate incorporadora). All canonical operacional/dre/bp/financeiro_ajustado fields below are nulled because the source document carries no Smartfit consolidated financials.",
+    "Document misclassification: filed under CVM categoria 'release' (4T24) but content is actually a CVM corporate restructuring filing — six 'Laudos de Avaliação do Valor Contábil do Patrimônio Líquido' for subsidiary academias being absorbed by Smartfit Academia de Ginástica e Dança S.A. via incorporação (arts. 1.116/1.117 CC). Data base of all valuations: 30/08/2024. Avaliador: Vera Cruz Investimentos Ltda. Laudos signed 30/09/2024."
+  ],
+  "canonical": {
+    "operacional": null,
+    "dre": null,
+    "bp": null,
+    "financeiro_ajustado": null
+  },
+  "company_specific": {
+    "tipo_documento": "laudos_avaliacao_patrimonial_para_incorporacao_de_subsidiarias",
+    "incorporadora_juridica": {
+      "razao_social": "Smartfit Academia de Ginástica e Dança S.A.",
+      "cnpj": "07.594.978/0001-78",
+      "regime_tributario": "Lucro Real",
+      "sede": "Avenida Paulista, 1294, 20º andar, Bela Vista, São Paulo/SP, CEP 01310-100"
+    },
+    "avaliador": {
+      "razao_social": "Vera Cruz Investimentos Ltda.",
+      "cnpj": "17.160.120/0001-59",
+      "responsaveis_tecnicos": [
+        "Marcio Macedo de Almeida (CGA, CRC 1SP350716)",
+        "Solange Pascholatti (CRC 1SP131447/O-0)",
+        "Antonio Carlos Pascholatti (CRC 1SP121230/O-9)"
+      ],
+      "data_emissao_laudos": "2024-09-30",
+      "data_base_avaliacoes": "2024-08-30",
+      "fundamentacao_legal": "Arts. 1.116 e 1.117 do Código Civil (Lei 10.406/2002)"
+    },
+    "subsidiarias_incorporadas": [
+      {
+        "razao_social": "Academia Cohama Ltda.",
+        "denominacao_curta": "Cohama",
+        "cnpj": "33.879.084/0001-34",
+        "sede": "Av. Daniel de La Touche, 100, Cohama, São Luiz/MA, CEP 65074-115",
+        "cnae_principal": "93.13-1-00 — Atividades de condicionamento físico",
+        "balanco_patrimonial_brl": {
+          "data_base": "2024-08-30",
+          "ativo_circulante": 2552325.47,
+          "disponivel": 2421998.81,
+          "contas_a_receber": 114411.02,
+          "despesas_antecipadas": 15915.64,
+          "ativo_nao_circulante": 2053686.32,
+          "imobilizado": 892683.92,
+          "imobilizado_arrendado": 1161002.40,
+          "ativo_total": 4606011.79,
+          "passivo_circulante": 413442.45,
+          "fornecedores": 71028.76,
+          "obrigacoes_trabalhistas": 78473.58,
+          "obrigacoes_fiscais": 92837.32,
+          "arrendamentos_a_pagar_c": 171102.79,
+          "passivo_nao_circulante": 1255292.20,
+          "arrendamentos_a_pagar_nc": 1255292.20,
+          "patrimonio_liquido": 2937277.14,
+          "capital_social": 2000000.00,
+          "reservas_de_capital": 526471.17,
+          "prejuizos_acumulados": -484926.76,
+          "lucro_do_exercicio": 895732.73,
+          "passivo_total": 4606011.79
+        }
+      },
+      {
+        "razao_social": "Academia de Ginástica Tietê Plaza Ltda.",
+        "denominacao_curta": "Tietê Plaza",
+        "cnpj": "29.445.219/0001-86",
+        "sede": "Av. Raimundo Pereira de Magalhães, 1465, lj 3035, Jardim Iris, São Paulo/SP, CEP 05145-000",
+        "cnae_principal": "93.13-1-00 — Atividades de condicionamento físico",
+        "balanco_patrimonial_brl": {
+          "data_base": "2024-08-30",
+          "ativo_circulante": 2456534.52,
+          "disponivel": 2340739.66,
+          "contas_a_receber": 108069.58,
+          "impostos_a_recuperar": 7725.28,
+          "ativo_nao_circulante": 1421145.07,
+          "imobilizado": 787344.15,
+          "imobilizado_arrendado": 633800.92,
+          "ativo_total": 3877679.59,
+          "passivo_circulante": 406148.35,
+          "fornecedores": 60059.96,
+          "obrigacoes_trabalhistas": 93284.26,
+          "obrigacoes_fiscais": 37653.82,
+          "arrendamentos_a_pagar_c": 215150.31,
+          "passivo_nao_circulante": 533624.68,
+          "arrendamentos_a_pagar_nc": 533624.68,
+          "patrimonio_liquido": 2937906.56,
+          "capital_social": 500000.00,
+          "lucro_do_exercicio": 2437906.56,
+          "passivo_total": 3877679.59
+        }
+      },
+      {
+        "razao_social": "Academia Smart Holandeses Ltda.",
+        "denominacao_curta": "Holandeses",
+        "patrimonio_liquido_brl": 4109026.06,
+        "data_base": "2024-08-30"
+      },
+      {
+        "razao_social": "ACL Academia de Ginástica Ltda.",
+        "denominacao_curta": "ACL",
+        "patrimonio_liquido_brl": 1596310.78,
+        "data_base": "2024-08-30"
+      },
+      {
+        "razao_social": "Lake Academia de Ginástica Ltda.",
+        "denominacao_curta": "Lake",
+        "patrimonio_liquido_brl": 3452493.31,
+        "data_base": "2024-08-30"
+      },
+      {
+        "razao_social": "Smartrfe Academia de Ginástica e Dança Ltda.",
+        "denominacao_curta": "SmartRFE",
+        "sede": "Rua Ernesto de Paula Santos, 187, lj 01, Boa Viagem, Recife/PE",
+        "patrimonio_liquido_brl": 34315268.97,
+        "data_base": "2024-08-30"
+      }
+    ],
+    "totais_agregados": {
+      "patrimonio_liquido_total_incorporado_brl": 49348282.82,
+      "n_subsidiarias_incorporadas": 6,
+      "observacao": "Soma simples dos seis PLs apurados nos laudos. Não reflete eliminações de partes relacionadas que serão feitas na consolidação contábil pós-incorporação."
+    }
+  }
+}

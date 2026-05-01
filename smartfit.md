@@ -4,6 +4,42 @@ aliases:
   - SMFT3
   - Grupo Smart Fit
 sources:
+  - sources/digested/smart_dfp_2023_summary.md
+  - sources/digested/smart_dfp_2024_summary.md
+  - sources/digested/smart_dfp_2025_summary.md
+  - sources/digested/smart_fatos_relevantes_batch_summary.md
+  - sources/digested/smart_itr_1T23_summary.md
+  - sources/digested/smart_itr_2T23_summary.md
+  - sources/digested/smart_itr_3T23_summary.md
+  - sources/digested/smart_itr_1T24_summary.md
+  - sources/digested/smart_itr_2T24_summary.md
+  - sources/digested/smart_itr_3T24_summary.md
+  - sources/digested/smart_itr_1T25_summary.md
+  - sources/digested/smart_itr_2T25_summary.md
+  - sources/digested/smart_itr_3T25_summary.md
+  - sources/digested/smart_release_1T23_summary.md
+  - sources/digested/smart_release_2T23_summary.md
+  - sources/digested/smart_release_3T23_summary.md
+  - sources/digested/smart_release_4T23_summary.md
+  - sources/digested/smart_release_1T24_summary.md
+  - sources/digested/smart_release_2T24_summary.md
+  - sources/digested/smart_release_3T24_summary.md
+  - sources/digested/smart_release_1T25_summary.md
+  - sources/digested/smart_release_2T25_summary.md
+  - sources/digested/smart_release_3T25_summary.md
+  - sources/digested/smart_release_4T25_summary.md
+  - sources/digested/smart_call_transcript_1T23_summary.md
+  - sources/digested/smart_call_transcript_2T23_summary.md
+  - sources/digested/smart_call_transcript_3T23_summary.md
+  - sources/digested/smart_call_transcript_4T23_summary.md
+  - sources/digested/smart_call_transcript_1T24_summary.md
+  - sources/digested/smart_call_transcript_2T24_summary.md
+  - sources/digested/smart_call_transcript_3T24_summary.md
+  - sources/digested/smart_call_transcript_4T24_summary.md
+  - sources/digested/smart_call_transcript_1T25_summary.md
+  - sources/digested/smart_call_transcript_2T25_summary.md
+  - sources/digested/smart_call_transcript_3T25_summary.md
+  - sources/digested/smart_call_transcript_4T25_summary.md
   - sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md
   - sources/digested/notion_smartfit_smartfit_03600ca3_summary.md
   - sources/digested/notion_smartfit_perguntas_diogo_corona_smart_00400ca3_summary.md
@@ -50,12 +86,81 @@ sources:
   - sources/digested/notion_smartfit_smartfit_rafael_pires_ex_trade_marketing_32d00ca3_summary.md
   - sources/digested/notion_smart_pos_1t25_rizzardo_36900ca3_summary.md
 created: 2026-04-16
-updated: 2026-04-21
+updated: 2026-05-01
 ---
 
 # SmartFit (SMFT3)
 
-Maior rede de academias da América Latina, posicionada no segmento mass-market / low-cost. CEO: Diogo Corona (formalmente nomeado março/2026; Chairman: Edgar Corona; CFO/IRO: José Luiz Risardo). Opera sob as marcas SmartFit (principal), Bio Ritmo (premium, Brasil), Sports World (premium, México) e [[selfit]] (low-cost, Brasil). Vertical de estúdios consolidada como "Beyond" (2026): Velocity, Aera Pilates, Race Run Club, Vidya Sessions.
+Maior rede de academias da América Latina, posicionada no segmento mass-market / low-cost. CEO: Diogo Corona (formalmente nomeado março/2026; Chairman: Edgar Corona; CFO/IRO: José Luiz Risardo). Opera sob as marcas SmartFit (principal), Bio Ritmo (premium, Brasil), Sports World (premium, México) e [[selfit]] (low-cost, Brasil). Vertical de estúdios consolidada como "BeOn" (lançamento 2026): Velocity, Aera Pilates, Race Run Club, Vidya Sessions.
+
+---
+
+## Série histórica de resultados
+
+### Resultados anuais
+
+| Ano | Receita líq. | YoY | EBITDA adj. | Mg. EBITDA | Academias | Alunos (acad.) | CAPEX |
+|-----|-------------|-----|------------|------------|-----------|---------------|-------|
+| 2023 | R$ 4.245 bi | +45% | R$ 1.302 bi | 30,7% | 1.438 | 4,14 mm | R$ 1.336 bi |
+| 2024 | R$ 5.580 bi | +31% | R$ 1.762 bi | 31,6% | 1.743 | 5,214 mm | — |
+| 2025 | R$ 7.242 bi | +30% | R$ 2.292 bi | 31,7% | 2.084 | 5,2 mm | R$ 2.332 bi |
+
+(fonte: sources/digested/smart_dfp_2023_summary.md; sources/digested/smart_dfp_2024_summary.md; sources/digested/smart_dfp_2025_summary.md; sources/digested/smart_release_4T25_summary.md)
+
+- Adições líquidas de academias: 215 em 2023, 305 em 2024 (recorde), 341 em 2025 (novo recorde) (fonte: sources/digested/smart_dfp_2023_summary.md; sources/digested/smart_dfp_2024_summary.md; sources/digested/smart_release_4T25_summary.md).
+- SMFT3 integrou Ibovespa e IBRX-50 em 2025 (fonte: sources/digested/smart_dfp_2025_summary.md).
+- Primeiro JCP pós-IPO distribuído em 2023: R$ 266 mm (fonte: sources/digested/smart_dfp_2023_summary.md).
+- JCP 2024: R$ 308,5 mm; JCP 2025: R$ 502,7 mm (fonte: sources/digested/smart_dfp_2024_summary.md; sources/digested/smart_fatos_relevantes_batch_summary.md).
+
+### Série trimestral (1T23–4T25)
+
+| Período | Receita líq. | YoY | EBITDA adj. | Mg. EBITDA | LL rec. | Academias | DL/EBITDA LTM |
+|---------|-------------|-----|------------|------------|---------|-----------|---------------|
+| 1T23 | R$ 982 mm | +58% | R$ 304 mm | 30,9% | R$ 105 mm | 1.231 | 0,66x |
+| 2T23 | R$ 1.042 bi | +51% | R$ 339 mm | 32,6% | R$ 121 mm | 1.259 | 0,48x |
+| 3T23 | R$ 1.089 bi | +42% | R$ 327 mm | 30,0% | R$ 101 mm | 1.306 | 0,49x |
+| 4T23 | R$ 1.131 bi | +33% | R$ 332 mm | 29,4% | R$ 209 mm | 1.438 | 0,68x |
+| 1T24 | R$ 1.260 bi | +28% | R$ 395 mm | 31,4% | R$ 110 mm | 1.469 | 0,80x |
+| 2T24 | R$ 1.358 bi | +30% | R$ 437 mm | 32,2% | R$ 143 mm | 1.529 | 0,93x |
+| 3T24 | R$ 1.422 bi | +31% | R$ 442 mm | 31,1% | R$ 118 mm | 1.591 | 0,94x |
+| 4T24¹ | R$ 1.540 bi | +36% | R$ 488 mm | 31,7% | — | 1.743 | 1,78x² |
+| 1T25 | R$ 1.678 bi | +33% | R$ 520 mm | 31,0% | R$ 141 mm | 1.759 | 1,09x |
+| 2T25 | R$ 1.791 bi | +32% | R$ 576 mm | 32,1% | R$ 189 mm | 1.818 | 1,08x |
+| 3T25 | R$ 1.824 bi | +28% | R$ 586 mm | 32,1% | R$ 177 mm | 1.867 | 1,04x |
+| 4T25 | R$ 1.948 bi | +26% | R$ 610 mm | 31,3% | R$ 235 mm | 2.084 | 1,19x³ |
+
+¹ 4T24 implícito: receita e EBITDA derivados de DFP 2024 menos soma de 1T24–3T24; LL rec. não disponível de forma isolada.
+² Ex-IFRS16 property conforme Notion source (notion_smartfit_smartfit_4t24_2d500ca3).
+³ Métrica padrão (DLA/EBITDA LTM); ex-IFRS16 property: 1,78x (fonte: sources/digested/smart_release_4T25_summary.md).
+
+(fonte: sources/digested/smart_release_1T23_summary.md; sources/digested/smart_release_2T23_summary.md; sources/digested/smart_release_3T23_summary.md; sources/digested/smart_release_4T23_summary.md; sources/digested/smart_release_1T24_summary.md; sources/digested/smart_release_2T24_summary.md; sources/digested/smart_release_3T24_summary.md; sources/digested/smart_dfp_2024_summary.md; sources/digested/smart_release_1T25_summary.md; sources/digested/smart_release_2T25_summary.md; sources/digested/smart_release_3T25_summary.md; sources/digested/smart_release_4T25_summary.md)
+
+### Marcos históricos
+
+- Jan/2023: melhor mês de vendas da história da rede até então — primeiro sem impacto externo relevante pós-pandemia (fonte: sources/digested/smart_call_transcript_1T23_summary.md).
+- 2T23: primeiro trimestre com receita > R$ 1 bi (fonte: sources/digested/smart_release_2T23_summary.md).
+- Jan/2024: +322 mil novos alunos — recorde mensal de captação na época (fonte: sources/digested/smart_release_4T23_summary.md).
+- 2T24: México atinge marco de 1 mm de alunos; receita LTM ultrapassa R$ 5 bi (fonte: sources/digested/smart_release_2T24_summary.md; sources/digested/smart_release_3T24_summary.md).
+- 2T25: EBITDA LTM cruza R$ 2 bi pela primeira vez (fonte: sources/digested/smart_release_2T25_summary.md).
+- 3T25: primeira academia no Marrocos — 16º país, primeiro no continente africano (fonte: sources/digested/smart_release_3T25_summary.md).
+- 4T25: receita anual ultrapassa R$ 7 bi; rede ultrapassa 2.000 unidades pela primeira vez na LatAm (fonte: sources/digested/smart_release_4T25_summary.md).
+
+### Margem bruta caixa das unidades maduras — evolução
+
+- 1T23: maduras 52% (levemente acima do pré-pandemia de 50% em 2019); vintages 2020/2021 em 50%; vintage 2022 em 44% (fonte: sources/digested/smart_call_transcript_1T23_summary.md).
+- 1T25: 53% — recorde, acima dos 52% dos 8 trimestres anteriores (fonte: sources/digested/smart_release_1T25_summary.md).
+- 2T25: maduras sustentam 52% pelo 6º trimestre consecutivo; vintage 2024 com 51% de margem e 2,7 mil alunos/clube (fonte: sources/digested/smart_release_2T25_summary.md).
+- 4T25: maduras 52% pelo 11º trimestre consecutivo; vintage 2024 com 55%; vintage 2023 com 53% pelo 4º trimestre consecutivo (fonte: sources/digested/smart_release_4T25_summary.md).
+
+### Black Card — penetração
+
+| Período | Brasil | México | Outros |
+|---------|--------|--------|--------|
+| 3T23 | 65% | — | — |
+| 1T24 | 66% | — | — |
+| 4T25 | 70% | 62% (+15pp YoY) | 75% |
+
+(fonte: sources/digested/smart_release_3T23_summary.md; sources/digested/smart_release_1T24_summary.md; sources/digested/smart_release_4T25_summary.md)
 
 ---
 
@@ -63,17 +168,17 @@ Maior rede de academias da América Latina, posicionada no segmento mass-market 
 
 | Métrica | 2025 | 4T25 |
 |---|---|---|
-| Receita líquida | R$ 7,0 bilhões (+30%) | R$ 1,9 bilhão (+26%) |
+| Receita líquida | R$ 7,242 bilhões (+30%) | R$ 1,948 bilhão (+26%) |
 | Lucro bruto caixa | R$ 3,6 bilhões (50,3%) | — |
 | Margem bruta caixa (antes pré-op.) | 51,4% (+0,6 p.p.) | — |
-| EBITDA | R$ 2,3 bilhões (31,7%) | R$ 610 mm (31,3%) |
-| Lucro líquido recorrente | R$ 741 mm (10,2%) | R$ 234,6 mm (12%) |
-| Geração de caixa operacional | R$ 2,2 bilhões (97% conv.) | — |
+| EBITDA | R$ 2,292 bilhões (31,7%) | R$ 610 mm (31,3%) |
+| Lucro líquido recorrente | R$ 741 mm (10,2%) | R$ 235 mm (12%) |
+| Geração de caixa operacional | R$ 2,218 bilhões (97% conv.) | — |
 | Receita média por academia | — | R$ 4,3 mm anualizados (+3%) |
 
-(fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md)
+(fonte: sources/digested/smart_release_4T25_summary.md)
 
-- 18º trimestre consecutivo de crescimento de receita em 4T25 (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
+- 18º trimestre consecutivo de crescimento de receita em 4T25 (fonte: sources/digested/smart_release_4T25_summary.md).
 - Operações internacionais (México + outros): 63% da receita de academias próprias (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
 - Crescimento de ticket 2T25: 7% veio de tabela/revenue management + 5% de TotalPass ganhando representatividade na base (fonte: sources/digested/notion_smartfit_smartfit_2t25_call_84e00ca3_summary.md).
 - Ticket Brasil ex-TotalPass em 2025: crescimento mais próximo de mid single digit do que de high single digit (fonte: sources/digested/notion_smart_pos_1t25_rizzardo_36900ca3_summary.md).
@@ -95,8 +200,10 @@ Maior rede de academias da América Latina, posicionada no segmento mass-market 
 (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md)
 
 - Brasil: 47% das academias próprias; México e outros: 53% (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
+- 4T25: 217 inaugurações no trimestre (recorde); 150 apenas em dezembro (fonte: sources/digested/smart_release_4T25_summary.md).
 - CAPEX expansão 2025: R$ 1,9 bilhão (+25%); 275 unidades próprias SmartFit inauguradas; capex por unidade: R$ 6,3 mm (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
 - CAPEX manutenção 2025: R$ 346 mm (7,1% da receita de maduras) (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
+- Estúdios: 180 unidades em 2025 (+45 no ano); 100 unidades Velocity (fonte: sources/digested/smart_release_4T25_summary.md).
 
 ---
 
@@ -127,7 +234,7 @@ Maior rede de academias da América Latina, posicionada no segmento mass-market 
 - Duas fontes de receita de academia: (1) mensalidades diretas; (2) [[totalpass]] — plataforma B2B de benefícios corporativos.
 - Precificação não benchmarkada contra concorrentes — determinada pela capacidade de vendas na ponta e pela locação (fonte: sources/digested/notion_smartfit_smartfit_03600ca3_summary.md).
 - Lógica do plano Black: enquanto o percentual de clientes subia, a empresa elevava preço; ao estabilizar, prioridade passou a ser manter preço e melhorar captação (fonte: sources/digested/notion_smartfit_smartfit_03600ca3_summary.md).
-- Plano Fit: cobrar menos sem canibalizar Black, com LTV positivo; rollout em 1T23; utilização total aumentou 15%–20% após introdução (fonte: sources/digested/notion_smartfit_smartfit_3b400ca3_summary.md).
+- Plano Fit: cobrar menos sem canibalizar Black, com LTV positivo; rollout em 1T23; utilização total aumentou 15%–20% após introdução (fonte: sources/digested/notion_smartfit_smartfit_3b400ca3_summary.md; sources/digested/smart_call_transcript_1T23_summary.md).
 - Política de dividendos: distribuições semestrais; payout de 100% do resultado contábil (fonte: sources/digested/notion_smartfit_smartfit_3b400ca3_summary.md).
 - Aumento de preço realizado no fim de 2023 gerou recomposição de margem e ganho de receita carregados para 2024, com captação acima do esperado; margem beneficiada também porque inflação ficou abaixo do esperado (fonte: sources/digested/notion_smartfit_smartfit_03600ca3_summary.md; sources/digested/notion_smartfit_smartfit_46500ca3_summary.md).
 - Em 2022, expansão foi reduzida deliberadamente para remodelar o processo de abertura — decisão que gerou as safras melhores nos anos subsequentes: cada vintage é incrementalmente melhor (2025 > 2024 > 2023) (fonte: sources/digested/notion_smartfit_smartfit_edgar_xp_pos_1t25_76e00ca3_summary.md).
@@ -146,19 +253,21 @@ Maior rede de academias da América Latina, posicionada no segmento mass-market 
 | Métrica | 2025 | YoY |
 |---|---|---|
 | Usuários finais | 1,7 mm | +62% |
-| Academias parceiras (Brasil) | 32 mil | +52% |
+| Academias parceiras (Brasil) | 32 mil (+52%) | vs 21 mil em 2024 |
 | Cidades (Brasil) | 1.900 | +36% |
 | Academias parceiras (México) | 8 mil | +46% |
 | Market share Brasil (Sensor Tower) | 29% | vs 17% em 2023 |
 
 (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md)
 
+- 2T25: 26 mil academias parceiras no Brasil, 7 mil no México — referência de patamar intermediário (fonte: sources/digested/smart_release_2T25_summary.md).
 - Frequência TotalPass em Smart Brasil: 15% do total em 2025 vs 11% em 2024 (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
 - TotalPass representa 12% da receita Smart Brasil em 2025; frequência ~15%–17% — frequência acima do peso na receita implica custo marginal mais alto por membro TotalPass (fonte: sources/digested/notion_smartfit_smartfit_46500ca3_summary.md).
 - Em 2024: TotalPass representava 13% da frequência e 8% da receita da SmartFit Brasil — gap "praticamente fechando" na visão da gestão (fonte: sources/digested/notion_smartfit_smartfit_edgar_xp_pos_1t25_76e00ca3_summary.md).
 - SmartFit tem ~60% do uso total da rede TotalPass segundo ex-executiva (fonte: sources/digested/notion_smartfit_silvia_totalpass_9f400ca3_summary.md); gestão menciona 1/3 dos check-ins TotalPass são do grupo Smart (fonte: sources/digested/notion_smartfit_smartfit_laic_2f500ca3_summary.md).
 - México: ~80% de market share na plataforma TotalPass (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
 - TotalPass foi subsidiado pela SmartFit Brasil no passado; normalização do repasse deve recuperar margem das lojas maduras (fonte: sources/digested/notion_smartfit_smartfit_edgar_xp_pos_1t25_76e00ca3_summary.md).
+- Fev/2026: SmartFit aumentou participação no TotalPass México de 33,33% para 66,67% (controle) (fonte: sources/digested/smart_fatos_relevantes_batch_summary.md).
 
 ### Migração TP1 → TP2
 
@@ -237,7 +346,7 @@ Quatro canais: PAT, Corporation, OAB/associações, canais de distribuição. Ti
 
 - Mercados prioritários ex-Brasil: Peru, Chile e México, com destaque para Peru e Chile pela menor presença de concorrentes (fonte: sources/digested/notion_smartfit_smartfit_rafael_pires_ex_trade_marketing_32d00ca3_summary.md).
 - Argentina: projeção de apenas ~5 unidades em 2025 (fonte: sources/digested/notion_smartfit_smartfit_rafael_pires_ex_trade_marketing_32d00ca3_summary.md).
-- Marrocos: primeiro mercado africano; meta de ~10 unidades no primeiro ano; brand manager do Peru foi relocado para liderar (fonte: sources/digested/notion_smartfit_smartfit_rafael_pires_ex_trade_marketing_32d00ca3_summary.md).
+- Marrocos: primeiro mercado africano; 2 unidades em Casablanca inauguradas em 3T25; brand manager do Peru foi relocado para liderar (fonte: sources/digested/smart_release_3T25_summary.md; sources/digested/notion_smartfit_smartfit_rafael_pires_ex_trade_marketing_32d00ca3_summary.md).
 - Colômbia: reajuste salarial de 23% em 2026, compensado por repasse de ~10 mil pesos colombianos; Bodytech cobra 40%–60% a mais que SmartFit no mercado colombiano (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md; sources/digested/notion_smartfit_smartfit_jefferies_06_01_2025_5fb00ca3_summary.md).
 - Bio Ritmo expandiu para Chile e Peru em 2025 (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
 - Pré-vendas Brasil: média histórica 500–600 membros; outros países LatAm: ~100 membros — orçamento de pré-venda historicamente menor (fonte: sources/digested/notion_smartfit_smartfit_rafael_pires_ex_trade_marketing_32d00ca3_summary.md).
@@ -248,7 +357,7 @@ Quatro canais: PAT, Corporation, OAB/associações, canais de distribuição. Ti
 
 ## Guidance e perspectivas 2026
 
-- Expansão: 330–350 novas academias líquidas, ~80% próprias (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
+- Expansão: 330–350 novas academias líquidas, ~80% próprias (fonte: sources/digested/smart_release_4T25_summary.md).
 - SG&A: crescimento nominal abaixo do crescimento da receita (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
 - CAPEX por unidade: sem mudança significativa de patamar excluindo câmbio (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
 - Alíquota efetiva de IR: range 15–20% por TBU (tributação em bases universais) (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
@@ -273,11 +382,11 @@ Subsidiária premium no México. CEO Gabriela Prado (desde final 2024, vinda do 
 
 ### FitMaster (México — B2B estúdios)
 
-Consolidado desde 2T25. Receita recorrente: R$ 33 mm. Margem EBITDA 10%–15%; contribuição ao EBITDA consolidado: menos de R$ 5 mm (fonte: sources/digested/notion_smartfit_smartfit_2t25_call_84e00ca3_summary.md).
+Consolidado a 100% desde 2T25 (aquisição dos 45% remanescentes por USD 6,545 mm em mai/2025). Receita recorrente: R$ 33 mm. Margem EBITDA 10%–15%; contribuição ao EBITDA consolidado: menos de R$ 5 mm (fonte: sources/digested/notion_smartfit_smartfit_2t25_call_84e00ca3_summary.md; sources/digested/smart_release_1T25_summary.md).
 
-### Beyond / Velocity / estúdios
+### BeOn / Velocity / estúdios
 
-Velocity: integração de processos/sistemas concluída em 2025; 80 lojas; recompra de studios a 3x EBITDA. Beyond (marca corporativa lançada 2026): consolida vertical de estúdios (Velocity, Aera Pilates, Race Run Club, Vidya Sessions). Pilates é a vertical que mais cresce; SmartFit avalia formato "estádio" (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md; sources/digested/notion_smartfit_smartfit_xp_conference_87800ca3_summary.md; sources/digested/notion_smartfit_smartfit_3b400ca3_summary.md).
+Velocity: 100 lojas ao final de 2025; integração de processos/sistemas concluída; recompra de studios a 3x EBITDA. BeOn (marca corporativa lançada 2026): consolida vertical de estúdios (Velocity, Aera Pilates, Race Run Club, Vidya Sessions); 180 unidades de estúdios no total ao final de 2025. Pilates é a vertical que mais cresce; SmartFit avalia formato "estádio" (fonte: sources/digested/smart_release_4T25_summary.md; sources/digested/notion_smartfit_smartfit_xp_conference_87800ca3_summary.md; sources/digested/notion_smartfit_smartfit_3b400ca3_summary.md).
 
 ### Evolve
 
@@ -287,13 +396,43 @@ Aquisição anunciada, sujeita a condições; sem conversão para marca SmartFit
 
 ## Estrutura de capital
 
-- Dívida líquida/EBITDA ex-IFRS16: 1,78x no 4T25 vs 1,76x no 4T24; anualizado 4T25: 1,65x (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
+- Dívida líquida/EBITDA ex-IFRS16: 1,78x no 4T25 vs 1,76x no 4T24; DL/EBITDA padrão 4T25: 1,19x (fonte: sources/digested/smart_release_4T25_summary.md).
 - Meta de alavancagem: ~1,5x (fonte: sources/digested/notion_smartfit_smartfit_btg_23_01_2025_13100ca3_summary.md).
 - 25% da dívida líquida em 2024 estava no Brasil; restante alavancado em subsidiárias (fonte: sources/digested/notion_smartfit_smartfit_btg_23_01_2025_13100ca3_summary.md).
 - Custo da dívida: ~14% nesse mix, abaixo da Selic; empresa reconhece resultado financeiro sobre impostos já pagos no Brasil (fonte: sources/digested/notion_smartfit_smartfit_citi_4ee00ca3_summary.md).
 - Sensibilidade ao juro: impacto no lucro líquido de +1 p.p. na Selic = R$ 20 mm (fonte: sources/digested/notion_smartfit_smartfit_jefferies_06_01_2025_5fb00ca3_summary.md).
 - Energia: empresa comprou energia há 2 anos a preço baixo via geração distribuída / mercado livre — offseta custos em 2025 (fonte: sources/digested/notion_smartfit_smartfit_btg_23_01_2025_13100ca3_summary.md).
 - 6 franquiados adquiridos em 2025; ritmo orientativo: 0–10 unidades/ano (fonte: sources/digested/notion_smartfit_smartfit_xp_conference_87800ca3_summary.md).
+- Linha sindicada México (2T23): MXN 1.750 mm (~R$ 500 mm) (fonte: sources/digested/smart_release_2T23_summary.md).
+
+### Emissões de dívida (debêntures)
+
+| # | Período | Volume | Spread / taxa | Obs |
+|---|---------|--------|--------------|-----|
+| 5ª | anterior | — | CDI+2,15% | Repactuada em 3T23 para CDI+1,90% |
+| 8ª | 4T23 | R$ 600 mm | CDI+1,95% | — |
+| 9ª | 2T24 | R$ 1,2 bi | — | — |
+| 10ª | 3T24 | R$ 450 mm | CDI+1,10% | — |
+| 11ª | 4T24 | R$ 300 mm | CDI+0,89% | Menor spread histórico até então |
+| 12ª | 3T25 | R$ 650 mm | — | — |
+| 13ª | out/2025 | R$ 1,2 bi | — | 3 séries |
+| 14ª | 1T26 | R$ 1,32 bi | — | + 25% opção adicional |
+
+(fonte: sources/digested/smart_fatos_relevantes_batch_summary.md; sources/digested/smart_release_3T23_summary.md; sources/digested/smart_release_3T24_summary.md)
+
+Tendência de melhora do spread (CDI+2,15% → CDI+0,89% entre 5ª e 11ª emissões) reflete upgrade de rating e escala.
+
+### Rating Fitch
+
+- Jun/2023: AA-(bra) → AA(bra) (fonte: sources/digested/smart_fatos_relevantes_batch_summary.md, em: 2023-06-01).
+- Mai/2024: AA(bra) → AA+(bra) (fonte: sources/digested/smart_fatos_relevantes_batch_summary.md, em: 2024-05-01).
+- Confirmações periódicas ao longo de 2025 sem alteração de nível.
+
+### Governança e estrutura acionária (2026)
+
+- Fev/2026: Edgard Corona migra para Chairman do Conselho; Diogo Corona assume CEO; José Luís Rizzardo assume CFO/DRI (fonte: sources/digested/smart_fatos_relevantes_batch_summary.md).
+- Fev/2026: Fundos Pátria alienam 6,88% em block trade; Acordo de Acionistas rescindido; companhia passa a não ter controlador definido; Família Corona com 14,88% como acionista de referência (fonte: sources/digested/smart_release_4T25_summary.md).
+- Fev/2026: aumento de capital por JCP R$ 376,5 mm; 18,9 mm novas ações; capital social R$ 3,524 bi (616,1 mm ações) (fonte: sources/digested/smart_fatos_relevantes_batch_summary.md).
 
 ---
 
@@ -380,6 +519,7 @@ CEO da Bodytech menciona que possibilidade de deal Smart+BT é nula: Pátria (co
 - TotalPass como flywheel: mais parceiros → mais atratividade para empresas → mais usuários → maior frequência na Smart → menor gap receita/frequência → rentabilidade incremental via diluição de G&A.
 - México é o principal driver de upside não precificado; recovery apoia-se em melhoria de governança, troca de pessoas e disciplina de capex/custos; vintage 2024 já mostra evidência da melhora.
 - Aggregators destruindo rentabilidade de concorrentes de menor escala — SmartFit como única rede com capacidade de usar TotalPass como vantagem (em vez de ameaça).
+- Melhora de crédito estrutural: spread de debêntures comprimiu de CDI+2,15% para CDI+0,89% entre 5ª e 11ª emissões — reflete escala e diversificação de funding.
 
 **Dúvidas abertas:**
 - Alunos médios por academia no México conseguem retornar ao patamar de 3.500 (CDMX) ou o novo equilíbrio é estruturalmente menor?
@@ -389,6 +529,7 @@ CEO da Bodytech menciona que possibilidade de deal Smart+BT é nula: Pátria (co
 - Sensibilidade Selic: com R$ 20 mm de impacto por +1 pp, ciclo de alta de juros em 2025–26 representa risco relevante ao lucro líquido.
 - Saturação regional (ex: Piracicaba) é fenômeno localizado ou sinal sistêmico para grandes cidades?
 - Marrocos: mercado com dinâmica cultural distinta — verificar se o modelo low-cost HVLP tem aderência.
+- Saída do Pátria (fev/2026) e fim do Acordo de Acionistas: impacto na governança e na disciplina de alocação de capital a longo prazo?
 
 **Follow-ups:**
 - Acompanhar queda do gap receita/frequência TotalPass (próximo disclosure: anual).
@@ -397,3 +538,4 @@ CEO da Bodytech menciona que possibilidade de deal Smart+BT é nula: Pátria (co
 - Aquisição Evolve: detalhar termos e timing de conversão para marca SmartFit.
 - Penetração TotalPass em Corporation: acompanhar mix de novos contratos e renovações anuais.
 - Verificar status das importações SmartFit via Impulse (equipamentos reportados como não montados até jun/2025).
+- Acompanhar resultados Marrocos na abertura de 2026 — primeiro mercado africano, valida ou invalida premissa de penetrabilidade do modelo HVLP fora da LatAm.

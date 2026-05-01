@@ -7,25 +7,99 @@ sources:
   - sources/digested/notion_bodytech_e3900ca3_summary.md
   - sources/digested/notion_bodytech_fev_2026_30200ca3_summary.md
   - sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md
+  - sources/digested/smart_dfp_2025_summary.md
+  - sources/digested/smart_release_4T25_summary.md
 created: 2026-04-21
-updated: 2026-04-29
+updated: 2026-05-01
 ---
 
 # Academias Fitness — Setor
 
-Setor de academias no Brasil cobre um espectro que vai do low-cost (mensalidades abaixo de R$ 100) ao premium/high-end (R$ 400–700+/mês). Os dois principais players cobertos são [[bluefit]] (baixo custo, capital fechado, controlado pelo Mubadala) e [[bodytech]] (premium, capital fechado, expansão via franquias). No segmento low-cost listado, a referência é [[smartfit]] (SMFT3).
+Setor de academias no Brasil cobre um espectro que vai do low-cost (mensalidades abaixo de R$ 100) ao premium/high-end (R$ 400–700+/mês). O maior player listado é [[smartfit]] (SMFT3), com 2.084 unidades em 16 países e receita líquida de R$ 7,2 bi em 2025. No segmento premium fechado, a referência é [[bodytech]] (~R$ 650 mm de receita líquida projetada). No low-cost fechado, [[bluefit]] (controlada pelo Mubadala) opera predominantemente com unidades próprias.
 
 ---
 
 ## Players — visão geral
 
-| Player | Segmento | Capital | Modelo | Receita bruta (ref.) | Capex/unidade |
-|--------|----------|---------|--------|----------------------|---------------|
-| [[bodytech]] | Premium/high-end | Fechado | Próprias + franquias | ~R$ 650–680 mm (2025/26) | R$ 5–6 mm (5k m²) |
+| Player | Segmento | Capital | Modelo | Receita líquida (ref.) | Capex/unidade |
+|--------|----------|---------|--------|------------------------|---------------|
+| [[smartfit]] (SMFT3) | Low-cost | Listado | Próprias + franquias | R$ 7.242 mm (2025) | R$ 6,3 mm (Smart Fit) |
+| [[bodytech]] | Premium/high-end | Fechado | Próprias + franquias | ~R$ 650–680 mm (guidance 2025/26) | R$ 5–6 mm (5k m²) |
 | [[bluefit]] | Low-cost | Fechado (Mubadala) | Predominantemente próprias | n/d | R$ 5–5,2 mm |
-| [[smartfit]] (SMFT3) | Low-cost | Listado | Próprias + franquias | n/d | n/d |
 | [[panobianco]] | Mid-market | Fechado | n/d | n/d | n/d |
 | Skyfit | Mid-market | Fechado | n/d | n/d | n/d |
+
+---
+
+## Smart Fit (SMFT3)
+
+[[smartfit]] é a maior rede de academias da América Latina, operando no segmento low-cost em 16 países. Em 2025, cruzou o marco de 2.000 unidades Smart Fit e foi incluída no Ibovespa/IBRX-50.
+
+### Financeiro 2025
+
+| Linha | 2025 | 2024 | 2023 |
+|---|---:|---:|---:|
+| Receita líquida (R$ mm) | 7.242 | 5.580 | 4.245 |
+| EBITDA aj. ex-IFRS-16 (R$ mm) | 2.292 | 1.763 | n/d |
+| Margem EBITDA aj. | 31,7% | 31,6% | n/d |
+| LL recorrente ex-IFRS-16 (R$ mm) | 741 | 578 | n/d |
+| LL IFRS pleno (R$ mm) | 641 | 441 | 1.044* |
+| Geração caixa op. ex-IFRS-16 (R$ mm) | 2.218 | n/d | n/d |
+
+*2023 distorcido por reconhecimento de tributo diferido de R$ 600,4 mm.
+
+(fonte: sources/digested/smart_dfp_2025_summary.md)
+
+- **4T25 standalone**: Receita R$ 1.948 mm (+26% YoY), EBITDA aj. R$ 610 mm (margem 31,3%, -0,3pp — pressão por mix de inaugurações), LL recorrente R$ 235 mm (+19%). (fonte: sources/digested/smart_release_4T25_summary.md)
+
+### Receita por segmento (2025)
+
+| Segmento | R$ mm | % total | YoY |
+|---|---:|---:|---:|
+| Smart Fit (próprias) | 6.432 | 89% | +26% |
+| → Brasil | 2.390 | 33% | +21% |
+| → México | 1.554 | 21% | +14% |
+| → Outros Países | 2.488 | 34% | +41% |
+| Bio Ritmo e outras (high-end) | 208 | 3% | +26% |
+| Outras (TotalPass, Queima, Studios, FitMaster) | 602 | 8% | +88% |
+| **Total** | **7.242** | **100%** | **+30%** |
+
+Ticket médio Smart Fit +12% YoY (todas as regiões). Internacional (México + Outros) representou 63% da receita Smart Fit (+2pp vs. 2024). (fonte: sources/digested/smart_dfp_2025_summary.md)
+
+### Operacional — rede e clientes
+
+- **2.084 academias** em 16 países ao final do 4T25 (+341 líquidas em 2025, recorde histórico, +20% YoY). Composição: 1.683 próprias (81%) + 401 franquias. Smart Fit: 2.048 unidades (1.653 próprias); Brasil 693 / México 435 / Outros 525. (fonte: sources/digested/smart_release_4T25_summary.md)
+- **Bio Ritmo + outras high-end**: 36 unidades (+4 em 2025; entrada Chile e Peru). (fonte: sources/digested/smart_release_4T25_summary.md)
+- **Studios/BeOn**: 180 unidades (154 franquias + 26 próprias), +45 em 2025. Velocity atingiu 100 unidades (1ª rede indoor cycling na América Latina). (fonte: sources/digested/smart_release_4T25_summary.md)
+- **Base de clientes em academias**: 5,21 mm no 4T25 (+8% YoY, +370 mil). Brasil 2,2 mm / México 1,1 mm / Outros 1,9 mm. (fonte: sources/digested/smart_dfp_2025_summary.md)
+- **Plano Black**: 70% das próprias Smart Fit Brasil (+4pp YoY); México 62% (+15pp); Outros Países 75% (+1pp). (fonte: sources/digested/smart_release_4T25_summary.md)
+- **950 unidades próprias maduras** (≥24m), 57% da base própria. Margem bruta caixa maduras: 52% (consistente nos últimos 11 trimestres). (fonte: sources/digested/smart_release_4T25_summary.md)
+- **Outros clientes**: 438 mil Queima Diária; 455 mil digitais exclusivos (+23% YoY); 23 mil colaboradores. (fonte: sources/digested/smart_dfp_2025_summary.md)
+
+### TotalPass
+
+[[totalpass]] é subsidiária da Smart Fit e o principal agregador de benefícios fitness concorrente do Wellhub no Brasil.
+
+- **Escala**: 40 mil+ academias parceiras (32 mil Brasil + 8 mil México), 1.900 cidades, 1,7 mm usuários finais. (fonte: sources/digested/smart_release_4T25_summary.md)
+- **Peso nas próprias Smart Fit Brasil**: 15% da frequência total em 2025 e **12% da receita das próprias** (vs. 8% em 2024). (fonte: sources/digested/smart_release_4T25_summary.md)
+- Smart Fit assumiu controle da TotalPass México em jan/2026 (33,33% → 66,67% via subscrição da Latamgym). (fonte: sources/digested/smart_release_4T25_summary.md, em: 2026-01-02)
+
+### Capex e estrutura de capital
+
+- **Capex 2025**: R$ 2.332 mm (+26% YoY) — Expansão R$ 1.916 mm / Manutenção R$ 346 mm / Corporativo R$ 70 mm. (fonte: sources/digested/smart_dfp_2025_summary.md)
+- **Capex/unidade Smart Fit**: R$ 6,3 mm (2025) vs. R$ 5,9 mm (2024). (fonte: sources/digested/smart_release_4T25_summary.md)
+- Concentração de aberturas em dez/25: 150 das 217 unidades do 4T25 inauguradas em dezembro; contribuição para base de alunos de 2025 é limitada (ramp-up ocorre em 2026). (fonte: sources/digested/smart_dfp_2025_summary.md)
+- **Geração de caixa**: R$ 2.218 mm (97% conversão de EBITDA aj.); 4T25 isolado R$ 600 mm (98%). (fonte: sources/digested/smart_dfp_2025_summary.md)
+- **Caixa**: R$ 3.426 mm. **Dívida bruta**: R$ 7.504 mm (87% LP). **Dívida líquida ajustada**: R$ 4.098 mm. (fonte: sources/digested/smart_dfp_2025_summary.md)
+- **Alavancagem**: 1,19x EBITDA LTM (def. debêntures); **1,78x ex-IFRS-16** (vs. 1,57x no 3T25); anualizado 4T25: 1,65x. Considerada saudável dado perfil de vencimentos (87% em LP). (fonte: sources/digested/smart_release_4T25_summary.md)
+- **Patrimônio líquido**: R$ 5.663 mm. (fonte: sources/digested/smart_dfp_2025_summary.md)
+
+### Governance e eventos subsequentes
+
+- **23/02/2026**: Fundos Pátria alienaram 6,88% em block trade na B3; Acordo de Acionistas resilido. Companhia deixou de ter controlador definido. Família Corona mantém 14,88% como acionista de referência. (fonte: sources/digested/smart_release_4T25_summary.md, em: 2026-02-23)
+- **Mudança de liderança (2026)**: Edgard Corona → Presidente Executivo do Conselho; Diogo Corona → CEO; José Luís Rizzardo → CFO/DRI (sucede André Pezeta). Transição estruturada via ascensão interna. (fonte: sources/digested/smart_release_4T25_summary.md, em: 2026-03-11)
+- **04/02/2026**: Aumento de capital privado via JCP — R$ 376,5 mm com emissão de 18,9 mm novas ações; capital social passou para R$ 3,524 bi (616,1 mm ações). (fonte: sources/digested/smart_release_4T25_summary.md, em: 2026-02-04)
+- **03/03/2026**: 14ª emissão de debêntures aprovada — R$ 1.320 mm (+25% lote adicional opcional) para resgate antecipado das 1ª e 2ª séries da 9ª emissão. (fonte: sources/digested/smart_release_4T25_summary.md, em: 2026-03-03)
 
 ---
 
@@ -129,7 +203,8 @@ Bluefit é academia de baixo custo, capital fechado, controlada pelo Mubadala. O
 - **Tendências de modalidade:** musculação ("vedete" atual), salas de mobilidade (lotadas), recovery (banheira de gelo, descompressão), longevidade, Hyrox, Pickleball (fonte: sources/digested/notion_bodytech_fev_2026_30200ca3_summary.md)
 - **Mercado low-end:** sinais de saturação segundo management da Bodytech (fonte: sources/digested/notion_bodytech_fev_2026_30200ca3_summary.md)
 - **Penetração de mercado total:** ~7% (fonte: sources/digested/notion_bodytech_fev_2026_30200ca3_summary.md)
-- **Benefícios corporativos:** crescimento de 5–8% para 15–20% de penetração em empresas via Wellhub (fonte: sources/digested/notion_bodytech_fev_2026_30200ca3_summary.md)
+- **Benefícios corporativos:** crescimento de 5–8% para 15–20% de penetração em empresas via Wellhub (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+- **Expansão geográfica:** Smart Fit entrou no Marrocos (Casablanca, 2 unidades em 2025) — primeiro continente novo (África). Argentina reacelerou (+7 unidades) com início de modelo de franquias. (fonte: sources/digested/smart_release_4T25_summary.md)
 
 ---
 
@@ -154,6 +229,13 @@ Os dois principais agregadores de benefícios fitness no Brasil são [[wellhub]]
 - Wellhub está sendo "mais flexível com desconto, mas de forma comportada"; preço médio por segmento caiu marginalmente, mas sem ser fator de preocupação na visão da empresa (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
 - Wellhub tem ~15 anos de vantagem de tempo de mercado frente ao Totalpass (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
 - Em número de academias e capilaridade, Wellhub ainda está à frente; porém os produtos já são avaliados como muito similares (fonte: sources/digested/notion_wellhub_renato_vp_pme_global_wellhub_34f00ca3_summary.md)
+
+### Escala do TotalPass (perspectiva Smart Fit)
+
+- **40 mil+ academias parceiras** acessíveis (32 mil Brasil + 8 mil México), 1.900 cidades. (fonte: sources/digested/smart_release_4T25_summary.md)
+- **1,7 mm usuários finais** (Brasil + México). (fonte: sources/digested/smart_release_4T25_summary.md)
+- Peso nas próprias Smart Fit Brasil: **15% da frequência total** em 2025 e **12% da receita das próprias** (vs. 8% em 2024) — crescimento acelerado. (fonte: sources/digested/smart_release_4T25_summary.md)
+- Smart Fit assumiu controle da TotalPass México em jan/2026 (33,33% → 66,67%). (fonte: sources/digested/smart_release_4T25_summary.md, em: 2026-01-02)
 
 ### Movimento Totalpass — B2B via PAT e B2C
 
@@ -185,7 +267,7 @@ Os dois principais agregadores de benefícios fitness no Brasil são [[wellhub]]
 
 ## Concorrência e posicionamento
 
-- **Premium:** Bodytech compete com Bio Ritmo (controlada pela [[smartfit]]/SMFT3) e estúdios nichados (Velocity, adquirida pela Smartfit); impacto competitivo descrito como mínimo até o momento (fonte: sources/digested/notion_bodytech_fev_2026_30200ca3_summary.md)
+- **Premium:** Bodytech compete com Bio Ritmo (36 unidades, controlada pela [[smartfit]]/SMFT3; entrou em Chile e Peru em 2025) e estúdios nichados (Velocity, 100 unidades, controlada pela Smartfit); impacto competitivo descrito como mínimo até o momento (fonte: sources/digested/notion_bodytech_fev_2026_30200ca3_summary.md; sources/digested/smart_release_4T25_summary.md)
 - **Low-cost:** Bluefit compete com Smartfit e outros regionais; executivo ex-Bluefit declara preferência por Smartfit como investimento vs. Bluefit (fonte: sources/digested/notion_bluefit_renato_bair_o_a8100ca3_summary.md)
 - **Mid-market:** [[panobianco]] e Skyfit como concorrentes diretos da Bluefit em regiões específicas; quando entram em bairros mais caros, se adequam a modelos de melhor qualidade (fonte: sources/digested/notion_bluefit_diretora_de_expansao_sem_ramis_2e200ca3_summary.md)
 - **[[selfit]]:** player do setor mencionado no wiki; sem dados nas fontes cobertas.

@@ -1179,3 +1179,90 @@ Added formal "Ingest (file — data_pack, update)" operation to SCHEMA.md. Cover
 [wiki-done] 2026-04-30 | batch_20260430_112739
 [edit] 2026-04-30 | reforma_tributaria.md | add §Tratamento transitório dos bens de capital — Art. 406 LC 214/2025 com cenários numéricos para Localiza/Movida (CBS/IBS sobre seminovos durante a transição, fórmula com piso zero, fatores 1,0→0,6, valor líquido de aquisição §6)
 [edit] 2026-04-30 | mecanica_ibs_cbs_locadoras.md (new, concept) + nota_mecanica_ibs_cbs_locadoras_summary.md (digest) | framework completo IBS/CBS Art. 406 LC 214/2025 para modelagem locadoras: cronograma 2026-2033, valor liquido aquisicao §6, fator decrescente 1,0→0,6, cenarios A-E, especificacao Excel/JSON. Linkado de reforma_tributaria, locadoras, localiza, movida.
+[fetch-calls] 2026-04-30 | mrv | 1T26_xp_menin | https://www.youtube.com/watch?v=Mh71tr3gD8k | auto_forced
+2026-04-30 — ingest call_transcript 1T26_xp_menin: sources/full/mrv/1T26_xp_menin/call_transcript.md, sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md
+[wiki-queue] 2026-04-30 | mrv | call_transcript | 1T26_xp_menin | sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md
+2026-04-30 — ingest release 1T24: sources/full/smart/1T24/release.md, sources/structured/smart/1T24/release.json, sources/digested/smart_release_1T24_summary.md
+2026-04-30 — ingest release 1T25: sources/full/smart/1T25/release.md, sources/structured/smart/1T25/release.json, sources/digested/smart_release_1T25_summary.md
+2026-04-30 — ingest release 2T23: sources/full/smart/2T23/release.md, sources/structured/smart/2T23/release.json, sources/digested/smart_release_2T23_summary.md
+2026-04-30 — ingest release 2T24: sources/full/smart/2T24/release.md, sources/structured/smart/2T24/release.json, sources/digested/smart_release_2T24_summary.md
+2026-04-30 — ingest release 2T25: sources/full/smart/2T25/release.md, sources/structured/smart/2T25/release.json, sources/digested/smart_release_2T25_summary.md
+2026-04-30 — ingest release 3T23: sources/full/smart/3T23/release.md, sources/structured/smart/3T23/release.json, sources/digested/smart_release_3T23_summary.md
+2026-04-30 — ingest release 3T24: sources/full/smart/3T24/release.md, sources/structured/smart/3T24/release.json, sources/digested/smart_release_3T24_summary.md
+2026-04-30 — ingest release 3T25: sources/full/smart/3T25/release.md, sources/structured/smart/3T25/release.json, sources/digested/smart_release_3T25_summary.md
+2026-04-30 — ingest release 4T23: sources/full/smart/4T23/release.md, sources/structured/smart/4T23/release.json, sources/digested/smart_release_4T23_summary.md
+2026-04-30 — ingest release 4T24: sources/full/smart/4T24/release.md, sources/structured/smart/4T24/release.json, sources/digested/smart_release_4T24_summary.md
+2026-04-30 — ingest release 4T25: sources/full/smart/4T25/release.md, sources/structured/smart/4T25/release.json, sources/digested/smart_release_4T25_summary.md
+2026-04-30 — ingest fato_relevante 1T23: sources/full/smart/1T23/fato_relevante_570670.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 1T24: sources/full/smart/1T24/fato_relevante_715143.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 1T24: sources/full/smart/1T24/fato_relevante_715148.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 1T25: sources/full/smart/1T25/fato_relevante_871568.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 1T26: sources/full/smart/1T26/fato_relevante_1000558.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 1T26: sources/full/smart/1T26/fato_relevante_1005543.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 1T26: sources/full/smart/1T26/fato_relevante_1009820.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 1T26: sources/full/smart/1T26/fato_relevante_1013422.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 2T23: sources/full/smart/2T23/fato_relevante_630790.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 2T23: sources/full/smart/2T23/fato_relevante_631282.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 2T23: sources/full/smart/2T23/fato_relevante_632228.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 2T23: sources/full/smart/2T23/fato_relevante_635899.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 2T23: sources/full/smart/2T23/fato_relevante_636924.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 2T23: sources/full/smart/2T23/fato_relevante_638619.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 2T24: sources/full/smart/2T24/fato_relevante_743073.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 2T24: sources/full/smart/2T24/fato_relevante_743555.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 2T24: sources/full/smart/2T24/fato_relevante_753437.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 2T24: sources/full/smart/2T24/fato_relevante_769296.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 2T24: sources/full/smart/2T24/fato_relevante_770868.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 2T25: sources/full/smart/2T25/fato_relevante_903767.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 3T23: sources/full/smart/3T23/fato_relevante_670636.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 3T24: sources/full/smart/3T24/fato_relevante_787482.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 3T25: sources/full/smart/3T25/fato_relevante_941296.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 4T23: sources/full/smart/4T23/fato_relevante_673942.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 4T23: sources/full/smart/4T23/fato_relevante_673944.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 4T24: sources/full/smart/4T24/fato_relevante_818403.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 4T24: sources/full/smart/4T24/fato_relevante_824305.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 4T24: sources/full/smart/4T24/fato_relevante_830862.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 4T24: sources/full/smart/4T24/fato_relevante_838137.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 4T24: sources/full/smart/4T24/fato_relevante_839381.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 4T25: sources/full/smart/4T25/fato_relevante_956141.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+2026-04-30 — ingest fato_relevante 4T25: sources/full/smart/4T25/fato_relevante_976124.md, sources/digested/smart_fatos_relevantes_batch_summary.md
+[wiki-queue] 2026-04-30 | smart | fatos_relevantes | batch | sources/digested/smart_fatos_relevantes_batch_summary.md
+[wiki-queue] 2026-04-30 | smart | release | 1T24 | sources/digested/smart_release_1T24_summary.md
+[wiki-queue] 2026-04-30 | smart | release | 1T25 | sources/digested/smart_release_1T25_summary.md
+[wiki-queue] 2026-04-30 | smart | release | 2T23 | sources/digested/smart_release_2T23_summary.md
+[wiki-queue] 2026-04-30 | smart | release | 2T24 | sources/digested/smart_release_2T24_summary.md
+[wiki-queue] 2026-04-30 | smart | release | 2T25 | sources/digested/smart_release_2T25_summary.md
+[wiki-queue] 2026-04-30 | smart | release | 3T23 | sources/digested/smart_release_3T23_summary.md
+[wiki-queue] 2026-04-30 | smart | release | 3T24 | sources/digested/smart_release_3T24_summary.md
+[wiki-queue] 2026-04-30 | smart | release | 3T25 | sources/digested/smart_release_3T25_summary.md
+[wiki-queue] 2026-04-30 | smart | release | 4T23 | sources/digested/smart_release_4T23_summary.md
+[wiki-queue] 2026-04-30 | smart | release | 4T24 | sources/digested/smart_release_4T24_summary.md
+[wiki-queue] 2026-04-30 | smart | release | 4T25 | sources/digested/smart_release_4T25_summary.md
+2026-04-30 — ingest call_transcript 1T23: sources/full/smart/1T23/call_transcript.md, sources/digested/smart_call_transcript_1T23_summary.md
+[wiki-queue] 2026-04-30 | smart | call_transcript | 1T23 | sources/digested/smart_call_transcript_1T23_summary.md
+2026-04-30 — ingest call_transcript 1T24: sources/full/smart/1T24/call_transcript.md, sources/digested/smart_call_transcript_1T24_summary.md
+[wiki-queue] 2026-04-30 | smart | call_transcript | 1T24 | sources/digested/smart_call_transcript_1T24_summary.md
+2026-04-30 — ingest call_transcript 1T25: sources/full/smart/1T25/call_transcript.md, sources/digested/smart_call_transcript_1T25_summary.md
+[wiki-queue] 2026-04-30 | smart | call_transcript | 1T25 | sources/digested/smart_call_transcript_1T25_summary.md
+2026-04-30 — ingest call_transcript 2T23: sources/full/smart/2T23/call_transcript.md, sources/digested/smart_call_transcript_2T23_summary.md
+[wiki-queue] 2026-04-30 | smart | call_transcript | 2T23 | sources/digested/smart_call_transcript_2T23_summary.md
+2026-04-30 — ingest call_transcript 2T24: sources/full/smart/2T24/call_transcript.md, sources/digested/smart_call_transcript_2T24_summary.md
+[wiki-queue] 2026-04-30 | smart | call_transcript | 2T24 | sources/digested/smart_call_transcript_2T24_summary.md
+2026-04-30 — ingest call_transcript 2T25: sources/full/smart/2T25/call_transcript.md, sources/digested/smart_call_transcript_2T25_summary.md
+[wiki-queue] 2026-04-30 | smart | call_transcript | 2T25 | sources/digested/smart_call_transcript_2T25_summary.md
+2026-04-30 — ingest call_transcript 3T23: sources/full/smart/3T23/call_transcript.md, sources/digested/smart_call_transcript_3T23_summary.md
+[wiki-queue] 2026-04-30 | smart | call_transcript | 3T23 | sources/digested/smart_call_transcript_3T23_summary.md
+2026-04-30 — ingest call_transcript 3T24: sources/full/smart/3T24/call_transcript.md, sources/digested/smart_call_transcript_3T24_summary.md
+[wiki-queue] 2026-04-30 | smart | call_transcript | 3T24 | sources/digested/smart_call_transcript_3T24_summary.md
+2026-04-30 — ingest call_transcript 3T25: sources/full/smart/3T25/call_transcript.md, sources/digested/smart_call_transcript_3T25_summary.md
+[wiki-queue] 2026-04-30 | smart | call_transcript | 3T25 | sources/digested/smart_call_transcript_3T25_summary.md
+2026-04-30 — ingest call_transcript 4T23: sources/full/smart/4T23/call_transcript.md, sources/digested/smart_call_transcript_4T23_summary.md
+[wiki-queue] 2026-04-30 | smart | call_transcript | 4T23 | sources/digested/smart_call_transcript_4T23_summary.md
+2026-04-30 — ingest call_transcript 4T24: sources/full/smart/4T24/call_transcript.md, sources/digested/smart_call_transcript_4T24_summary.md
+[wiki-queue] 2026-04-30 | smart | call_transcript | 4T24 | sources/digested/smart_call_transcript_4T24_summary.md
+2026-04-30 — ingest call_transcript 4T25: sources/full/smart/4T25/call_transcript.md, sources/digested/smart_call_transcript_4T25_summary.md
+[wiki-queue] 2026-04-30 | smart | call_transcript | 4T25 | sources/digested/smart_call_transcript_4T25_summary.md
+[wiki-done] 2026-04-30 | batch_20260430_214835
+[edit] 2026-05-01 | smartfit.md | update com série histórica 1T23-4T25, debêntures, Fitch, BeOn fix, FitMaster consolidation | fontes: smart_itr/release/dfp/calls/fatos 1T23-4T25
+[wiki-done] 2026-05-01 | mrv.md | update | sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md
+[wiki-done] 2026-05-01 | academias_fitness.md | updated | sources: smart_dfp_2025_summary.md, smart_release_4T25_summary.md
+[wiki-done] 2026-05-01 | batch_20260501_071622

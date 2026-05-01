@@ -1,0 +1,31 @@
+{
+  "_schema": "manifest/v1",
+  "_updated": "2026-04-30",
+  "empresa": "mrv",
+  "display_name": "MRV Engenharia e Participacoes S.A.",
+  "aliases": [
+    "MRVE3",
+    "MRV",
+    "MRV&Co",
+    "MRV Engenharia"
+  ],
+  "ticker": "MRVE3",
+  "setor": "incorporadora",
+  "setor_schema": "sources/structured/_schemas/incorporadora.json",
+  "youtube_channel": "https://www.youtube.com/@mrvoficial",
+  "wiki_page": "mrv.md",
+  "sources": [
+    {
+      "type": "call_transcript",
+      "asof": "1T26_xp_menin",
+      "ingested_on": "2026-04-30",
+      "full": "sources/full/mrv/1T26_xp_menin/call_transcript.md",
+      "digested": "sources/digested/mrv_call_transcript_1T26_xp_menin_summary.md"
+    }
+  ],
+  "coverage": {},
+  "precedence": [],
+  "caveats": [
+    "cold-start — manifest criado em 2026-04-30 para ingest pontual de entrevista CEO Menin (XP) 1T26"
+  ]
+}
