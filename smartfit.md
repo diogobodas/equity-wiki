@@ -256,14 +256,19 @@ Maior rede de academias da América Latina, posicionada no segmento mass-market 
 | Academias parceiras (Brasil) | 32 mil (+52%) | vs 21 mil em 2024 |
 | Cidades (Brasil) | 1.900 | +36% |
 | Academias parceiras (México) | 8 mil | +46% |
-| Market share Brasil (Sensor Tower) | 29% | vs 17% em 2023 |
+| Market share TotalPass MAU Brasil (Sensor Tower) | 29% | 17% (2023) → 22% (2024) → 29% (2025) — vs Wellhub/outros caindo 83→78→71% |
+| Market share TotalPass MAU México (Sensor Tower) | 20% | 18% (2023) → 20% (2024) → 20% (2025) — estável |
 
 (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md)
 
 - 2T25: 26 mil academias parceiras no Brasil, 7 mil no México — referência de patamar intermediário (fonte: sources/digested/smart_release_2T25_summary.md).
 - Frequência TotalPass em Smart Brasil: 15% do total em 2025 vs 11% em 2024 (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
 - TotalPass representa 12% da receita Smart Brasil em 2025; frequência ~15%–17% — frequência acima do peso na receita implica custo marginal mais alto por membro TotalPass (fonte: sources/digested/notion_smartfit_smartfit_46500ca3_summary.md).
-- Em 2024: TotalPass representava 13% da frequência e 8% da receita da SmartFit Brasil — gap "praticamente fechando" na visão da gestão (fonte: sources/digested/notion_smartfit_smartfit_edgar_xp_pos_1t25_76e00ca3_summary.md).
+- Em 2024: TotalPass representava 11% da frequência e 8% da receita da SmartFit Brasil — número de freq foi **revisado de 13% para 11% no call do 4T25** após melhoria nos controles antifraude; mesmo assim, a evolução 11% (2024) → 15% (2025) é real (fonte: sources/digested/smart_call_transcript_4T25_summary.md, em: 2026-02; substitui claim anterior baseado em sources/digested/notion_smartfit_smartfit_edgar_xp_pos_1t25_76e00ca3_summary.md).
+- TotalPass tratado como **demanda incremental, não canibalização** — long-term unit economics deveriam ser indiferentes vs balcão; gap residual = inadimplência + CAC (fonte: sources/digested/smart_call_transcript_4T25_summary.md, em: 2026-02; sources/digested/smart_call_transcript_2T25_summary.md).
+- **Smart Fit não é parte do processo CADE** sobre exclusividades Wellhub; empresa confiante na vantagem de capilaridade + custo menor (fonte: sources/digested/smart_call_transcript_4T25_summary.md, em: 2026-02).
+- **2 players de agregadores hoje** no mercado (TotalPass + Wellhub) — reduz vulnerabilidade de concentração vs cenário 2023 quando só Gympass dominava; gestão descreve Gympass/Wellhub como "agressivo até demais" pressionando pricing (fonte: sources/digested/smart_call_transcript_2T25_summary.md; sources/digested/smart_call_transcript_4T25_summary.md, em: 2026-02).
+- **Membros TotalPass não divulgados** por razões de gestão de canal — gestão não quer dar visibilidade do tamanho exato da rede de usuários aos clientes corporativos; churn e cohort estáveis a despeito de aumentos de preço (fonte: sources/digested/smart_call_transcript_2T25_summary.md).
 - SmartFit tem ~60% do uso total da rede TotalPass segundo ex-executiva (fonte: sources/digested/notion_smartfit_silvia_totalpass_9f400ca3_summary.md); gestão menciona 1/3 dos check-ins TotalPass são do grupo Smart (fonte: sources/digested/notion_smartfit_smartfit_laic_2f500ca3_summary.md).
 - México: ~80% de market share na plataforma TotalPass (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
 - TotalPass foi subsidiado pela SmartFit Brasil no passado; normalização do repasse deve recuperar margem das lojas maduras (fonte: sources/digested/notion_smartfit_smartfit_edgar_xp_pos_1t25_76e00ca3_summary.md).
@@ -293,7 +298,10 @@ Evolução trimestral das academias SmartFit no tier TP2 da TotalPass:
 - Modelo de rentabilidade: fee de empresas (B2B) supera o SG&A do TotalPass conforme a escala cresce — rentabilidade escala pelo lado do G&A diluído, não por upgrade de plano (fonte: sources/digested/notion_smartfit_smartfit_2t25_call_84e00ca3_summary.md).
 - TotalPass: BU separada com alavancagem operacional própria em TI e canal de vendas; iniciou mais em PMEs pela cobertura de rede inicialmente limitada; grandes (Bradesco, Banco do Brasil, Magalu) exigem escala de rede (fonte: sources/digested/notion_smartfit_smartfit_edgar_xp_pos_1t25_76e00ca3_summary.md).
 - Grande parte do G&A de 2024 foi relacionada à estruturação do TotalPass; diluição de ao menos 50 bps esperada para 2025; estimativa para 2025 aponta para banda baixa do intervalo (~50 bps) (fonte: sources/digested/notion_smartfit_smartfit_btg_23_01_2025_13100ca3_summary.md; sources/digested/notion_smart_pos_1t25_rizzardo_36900ca3_summary.md).
-- TotalPass já atingiu breakeven no México; no Brasil, objetivo ao longo de 2025 (fonte: sources/digested/notion_smartfit_smartfit_btg_23_01_2025_13100ca3_summary.md).
+- TotalPass já atingiu breakeven no México; no Brasil, objetivo era ao longo de 2025 (fonte: sources/digested/notion_smartfit_smartfit_btg_23_01_2025_13100ca3_summary.md). No 2T25, contribuição EBITDA ainda <R$ 5 mm; gestão sinalizava breakeven Brasil dependente do repasse à Smart Fit (fonte: sources/digested/smart_call_transcript_2T25_summary.md).
+- Range alvo de **margem bruta madura: 51–53%** — inclui pressão estrutural do TotalPass (margem mais baixa); fechamento do gap freq–receita é alavanca não-trivial (fonte: sources/digested/smart_call_transcript_1T25_summary.md, em: 2025-05).
+- **SG&A 2026** vai crescer mas abaixo da receita; investimento em TotalPass antecipado por movimentos competitivos — alavancagem operacional grande no segmento academias mascarada no consolidado pelo investimento TP (fonte: sources/digested/smart_call_transcript_4T25_summary.md, em: 2026-02).
+- **Bio Ritmo como complementar TotalPass:** retomada (10 lojas em 2025) é dual-driver — alta demanda no high-end + complementaridade ao TotalPass (oferta premium agregando portfolio); Bio Ritmo + Nation com bom retorno standalone + vantagem competitiva no TotalPass (fonte: sources/digested/smart_call_transcript_2T25_summary.md; sources/digested/smart_call_transcript_3T25_summary.md).
 - Renegociação 2025: repasse reduzido 10% com 10 mil academias parceiras; apenas 130 foram perdidas (fonte: sources/digested/notion_smartfit_smartfit_laic_2f500ca3_summary.md).
 - TotalPass acelera maturação de novas lojas no Brasil — entrega clientes no dia da inauguração (fonte: sources/digested/notion_smartfit_smartfit_xp_conference_87800ca3_summary.md).
 - Uber passou a pagar pelo acesso dos funcionários ao TotalPass (antes pagava zero) — exemplo de melhoria de revenue management (fonte: sources/digested/notion_smartfit_smartfit_laic_2f500ca3_summary.md).
@@ -305,6 +313,24 @@ Quatro canais: PAT, Corporation, OAB/associações, canais de distribuição. Ti
 - Ciclo de renovação em Corporation é anual — dificulta crescimento acelerado; estratégia: abordar empresas com relação estressada com [[wellhub]] e fazer brand awareness junto ao colaborador (fonte: sources/digested/notion_smartfit_smartfit_xp_conference_87800ca3_summary.md).
 - Postura: não buscar exclusividades; diferencial é volume e capilaridade (32 mil parceiros, 1.900 cidades) (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
 - Saída do Panobianco da rede TotalPass (fev/2026); impacto descrito como baixo — Velocity ajudou a compensar (fonte: sources/digested/notion_smartfit_silvia_totalpass_9f400ca3_summary.md).
+
+### Modelo de monetização (apresentação 4T25)
+
+- **B2B2C asset light:** empresa paga "Fee RH" por colaborador → colaborador contrata planos mensais ("Copay") → rede parceira recebe repasse por visita do usuário final (fonte: sources/full/smart/4T25/apresentacao.md, em: 2026-02).
+- **Mensalidades TotalPass:** R$ 39,90 a R$ 699,90 (range de planos) (fonte: sources/full/smart/4T25/apresentacao.md, em: 2026-02).
+
+### Receita "Outros" — TotalPass + FitMaster + Studios + Queima Diária
+
+- Academias Smart Fit próprias = 89% da receita líquida do Grupo em 2025 (vs 91% em 2024) → "Outros" subiu de 9% → 11% (fonte: sources/full/smart/4T25/apresentacao.md, em: 2026-02).
+- "Outros negócios" cresceram **80% no 4T25 vs 4T24** — destaque para "robusta performance do TotalPass Brasil e consolidação da FitMaster" (fonte: sources/full/smart/4T25/apresentacao.md, em: 2026-02).
+- Segmento "Outras": 11% do lucro bruto caixa ex-pré-operacionais em 2025 (vs 9% em 2024) (fonte: sources/full/smart/4T25/apresentacao.md, em: 2026-02).
+- **Margem bruta caixa ex-pré-op do segmento "Outras":** 76,7% em 2024 → **68,8% em 2025** — queda atribuída à consolidação da FitMaster a partir do 2T25 (margens estruturalmente abaixo do consolidado) (fonte: sources/full/smart/4T25/apresentacao.md, em: 2026-02).
+
+### Brand building 2025
+
+- **1ª grande campanha de marca de alcance massivo** focada em usuários finais (2025) — investimento em brand awareness para reduzir gap de conhecimento vs Wellhub no canal RH (fonte: sources/full/smart/4T25/apresentacao.md, em: 2026-02).
+- **Orla TotalPass no Parque Villa Lobos (SP):** espaço físico de brand awareness lançado em 2025 (fonte: sources/full/smart/4T25/apresentacao.md, em: 2026-02).
+- TotalPass descrito como "vertical de alto crescimento e diferencial competitivo único" — mecanismo para ampliar mercado endereçável do Grupo (fonte: sources/full/smart/4T25/apresentacao.md, em: 2026-02).
 
 ---
 
