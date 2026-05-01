@@ -66,6 +66,15 @@ TP_ANNUAL_DISCLOSED = {
     # 2026: (?, ?)        # TBD until 4T26 release; pode passar via --tp_freq_2026 e --tp_rev_2026
 }
 
+# Sazonalidade de USO (check-ins por usuário ativo) — multiplicador trimestral.
+# 1T: promessa de ano novo + verão BR → mais check-ins/usuário
+# 3T: inverno, alta retenção
+# 2T+4T: queda pós-resolução / fim de ano + férias
+# Soma dos 4 multiplicadores = 4 (média anual = 1.0).
+# Importa porque TP gera receita por VISITA (não por mensalidade como balcão), então
+# TP MAU constante × intensidade alta = mais TP receita = mais peso no freq% disclosed.
+CHECKIN_INTENSITY = {1: 1.10, 2: 0.95, 3: 1.05, 4: 0.90}
+
 
 def quarter_of(ym: str) -> str:
     y, m = ym.split("-")
@@ -73,18 +82,25 @@ def quarter_of(ym: str) -> str:
     return f"{q}T{y[2:]}"
 
 
-def derive_tp_quarterly(year_anchors: dict | None = None) -> dict:
+def derive_tp_quarterly(year_anchors: dict | None = None, intensity: dict | None = None) -> dict:
     """
     Para cada trimestre, deriva tp_freq_pct e tp_rev_pct via:
-      tp_freq_q = anual_disclosed × (TP_MAU_q / quarterly_avg_TP_MAU_year)
+      tp_freq_q = anual_disclosed × (TP_MAU_q × intensity_q) / weighted_avg_year
 
-    Onde quarterly_avg = sum(TP_MAU_year) / 4. Resultado: a média dos 4 tris bate exatamente no
-    anual disclosed, e a sazonalidade do TP MAU distribui o peso entre os 4 trimestres.
+    Onde:
+      - TP_MAU_q = soma TP MAU dos 3 meses do trimestre (Sensor Tower, only TotalPass)
+      - intensity_q = sazonalidade de USO (check-ins/usuário) — 1T+3T altos, 2T+4T baixos
+      - weighted_avg = sum(TP_MAU_q × intensity_q) / 4
 
-    year_anchors override default TP_ANNUAL_DISCLOSED (útil pra estimar 2026 antes do release).
-    Para anos sem anchor (2022, 2023, 2026+ se não passado), retorna (None, None) → deixa n/d.
+    Por construção, average dos 4 tris = anual disclosed exato.
+    A sazonalidade combina (a) crescimento da base TP MAU + (b) intensidade de uso por trimestre.
+
+    year_anchors: override default TP_ANNUAL_DISCLOSED (pra estimar 2026 antes do release).
+    intensity: override CHECKIN_INTENSITY (pra sensibilidade).
+    Anos sem anchor (2022, 2023, 2026+ se não passado): retorna (None, None) → deixa n/d.
     """
     anchors = {**TP_ANNUAL_DISCLOSED, **(year_anchors or {})}
+    intens = {**CHECKIN_INTENSITY, **(intensity or {})}
     # Agrega TP MAU mensal em trimestral
     by_q = {}
     by_year = {}
@@ -93,20 +109,24 @@ def derive_tp_quarterly(year_anchors: dict | None = None) -> dict:
         year = int("20" + q[2:])
         by_q[q] = by_q.get(q, 0) + tp
         by_year.setdefault(year, []).append(tp)
-    # Para cada trimestre, calcula peso vs avg do ano (3-month avg)
+    # Para cada trimestre, calcula peso vs avg ponderado por intensity do ano
     out = {}
     for q, tp_q in by_q.items():
         year = int("20" + q[2:])
         if year not in anchors:
             out[q] = (None, None)
             continue
-        annual_total = sum(by_year[year])
         if len(by_year[year]) < 12:
-            # ano parcial → não calibra (avg incompleto)
             out[q] = (None, None)
             continue
-        avg_q = annual_total / 4
-        weight = tp_q / avg_q
+        # Avg ponderado: sum(TP_MAU_q × intens_q) / 4 onde q vai de 1 a 4 do ano
+        weighted_total = 0
+        for q_num in (1, 2, 3, 4):
+            q_label = f"{q_num}T{year-2000:02d}"
+            weighted_total += by_q[q_label] * intens[q_num]
+        weighted_avg = weighted_total / 4
+        q_num = int(q[0])
+        weight = (tp_q * intens[q_num]) / weighted_avg
         freq_disc, rev_disc = anchors[year]
         out[q] = (freq_disc * weight, rev_disc * weight)
     return out
@@ -225,11 +245,13 @@ def show(kpis):
     print("- Medias = (EoP_q + EoP_{q-1}) / 2 (proxy - empresa nao publica media absoluta)")
     print("- 'Alunos/loja(c/TP)' = (alunos_med / (1 - tp_freq_pct)) / acad_med - assume freq de uso TP user = freq balcao")
     print("- 'Ticket ex-TP' = receita * (1 - tp_rev_pct) * 1000 / 3 / alunos_med (R$/mes do balcao puro)")
-    print("- tp_freq_pct e tp_rev_pct: anual disclosed FATIADO entre os 4 trimestres pelo peso de TP MAU (Sensor Tower).")
-    print("  Formula: tp_freq_q = freq_anual * (TP_MAU_q / TP_MAU_q_avg_anual). Media dos 4 tris bate o anual disclosed.")
-    print("  Sazonalidade clara: 1T < anual, 4T > anual (TP MAU cresce ao longo do ano).")
-    print("- SF MAU NAO usado: balcao Smart Fit nao precisa abrir o app pra entrar, Sensor Tower nao captura.")
-    print("- Anos sem disclosure (2022-2023, 2026+): KPIs TP-ajustados ficam n/d. Pra estimar 1T26, ver --tp_freq_2026.")
+    print("- tp_freq_pct/tp_rev_pct: anual disclosed FATIADO entre os 4 trimestres por (TP MAU * intensidade de uso).")
+    print("  Formula: tp_freq_q = freq_anual * (TP_MAU_q * intens_q) / weighted_avg(TP_MAU * intens) sobre o ano.")
+    print("  Por construcao, average dos 4 tris = anual disclosed exato.")
+    print("- TP MAU = sinal de base ativa (Sensor Tower). Smart Fit balcao nao captado (nao exige abrir app).")
+    print("- INTENSIDADE de uso por trimestre (check-ins/usuario): 1T=1.10 (resolucao), 2T=0.95, 3T=1.05, 4T=0.90 (ferias).")
+    print("  Importa porque TP gera receita por VISITA (mais check-ins = mais TP rev), enquanto balcao paga mensalidade fixa.")
+    print("- Anos sem disclosure (2022-2023, 2026+): TP-ajustados ficam n/d. Pra estimar 1T26+, passar via --tp_freq_2026.")
 
 
 def auto_load(periodo: str):
