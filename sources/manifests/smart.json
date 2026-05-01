@@ -1,6 +1,6 @@
 {
   "_schema": "manifest/v1",
-  "_updated": "2026-04-30",
+  "_updated": "2026-05-01",
   "empresa": "smart",
   "display_name": "SMART FIT ESCOLA DE GINASTICA E DANCA S.A.",
   "aliases": [
@@ -494,6 +494,20 @@
       "ingested_on": "2026-04-30",
       "full": "sources/full/smart/4T25/call_transcript.md",
       "digested": "sources/digested/smart_call_transcript_4T25_summary.md"
+    },
+    {
+      "type": "reference_data",
+      "asof": "2022-2026",
+      "ingested_on": "2026-05-01",
+      "full": "sources/full/smart/totalpass_mau_brasil_mensal.md",
+      "description": "TotalPass MAU Brasil mensal — Sensor Tower via Morgan Stanley Research"
+    },
+    {
+      "type": "analysis",
+      "asof": "1T26_estimate",
+      "ingested_on": "2026-05-01",
+      "digested": "sources/digested/smart_kpis_brasil_proprias_analise_summary.md",
+      "description": "KPIs Brasil próprias 1T23-4T25 + projecao 1T26 (calibrada com TP MAU + sazonalidade)"
     }
   ],
   "coverage": {

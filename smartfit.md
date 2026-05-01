@@ -314,6 +314,15 @@ Quatro canais: PAT, Corporation, OAB/associações, canais de distribuição. Ti
 - Postura: não buscar exclusividades; diferencial é volume e capilaridade (32 mil parceiros, 1.900 cidades) (fonte: sources/digested/notion_smartfit_call_smartfit_4t25_32100ca3_summary.md).
 - Saída do Panobianco da rede TotalPass (fev/2026); impacto descrito como baixo — Velocity ajudou a compensar (fonte: sources/digested/notion_smartfit_silvia_totalpass_9f400ca3_summary.md).
 
+### MAU TotalPass Brasil — série mensal Sensor Tower
+
+Série mensal jan/2022 a mar/2026 disponível em [`sources/full/smart/totalpass_mau_brasil_mensal.md`](sources/full/smart/totalpass_mau_brasil_mensal.md). Trajetória:
+- 1T22: 181k MAU médio mensal → 1T26: **3,85 mm MAU médio mensal** (+21x em 4 anos)
+- 2024 anual: 14,6 mm | 2025 anual: 27,3 mm (+86% YoY) | 1T26: +105% YoY vs 1T25
+- Calibração: TP MAU anual × fator 0,4 ≈ TP freq% disclosed (em 2024 e 2025) — usado para extrapolar 2026
+
+(fonte: sources/full/smart/totalpass_mau_brasil_mensal.md, em: 2026-05-01)
+
 ### Modelo de monetização (apresentação 4T25)
 
 - **B2B2C asset light:** empresa paga "Fee RH" por colaborador → colaborador contrata planos mensais ("Copay") → rede parceira recebe repasse por visita do usuário final (fonte: sources/full/smart/4T25/apresentacao.md, em: 2026-02).
@@ -331,6 +340,26 @@ Quatro canais: PAT, Corporation, OAB/associações, canais de distribuição. Ti
 - **1ª grande campanha de marca de alcance massivo** focada em usuários finais (2025) — investimento em brand awareness para reduzir gap de conhecimento vs Wellhub no canal RH (fonte: sources/full/smart/4T25/apresentacao.md, em: 2026-02).
 - **Orla TotalPass no Parque Villa Lobos (SP):** espaço físico de brand awareness lançado em 2025 (fonte: sources/full/smart/4T25/apresentacao.md, em: 2026-02).
 - TotalPass descrito como "vertical de alto crescimento e diferencial competitivo único" — mecanismo para ampliar mercado endereçável do Grupo (fonte: sources/full/smart/4T25/apresentacao.md, em: 2026-02).
+
+### KPIs operacionais Brasil próprias + estimativa 1T26
+
+Análise completa em [`sources/digested/smart_kpis_brasil_proprias_analise_summary.md`](sources/digested/smart_kpis_brasil_proprias_analise_summary.md). Tabela histórica trimestral 1T23-4T25 + projeção 1T26 (anchor: padrões 3T→1T + Plano Black + sazonalidade resolução). Planilha interativa em [`analises/smartfit_kpis_1T26_estimate.xlsx`](analises/smartfit_kpis_1T26_estimate.xlsx).
+
+**Estimativa 1T26** (premissas ajustadas):
+
+| KPI | 1T25 | 4T25 | 1T26 (est) | YoY |
+|---|---|---|---|---|
+| Receita SF Brasil próprias (R$ mm) | 577,5 | 611,7 | **697,2** | +20,7% |
+| # academias EoP | 573 | 693 | 703 | +22,7% |
+| Alunos EoP (mil) | 1.715 | 1.595 | 1.860 | +8,5% |
+| R/Loja anualizada (R$ mm) | 4,05 | 3,77 | **4,00** | -1,2% |
+| Ticket consolidado (R$/mês) | 117,6 | 126,8 | **134,5** | +14,4% |
+| Ticket ex-TP (R$/mês) | 104,6 | 109,2 | **113,0** | +8,0% |
+| Alunos/loja c/TP (mil) | 3,33 | 3,00 | **3,04** | -8,7% |
+| TP freq% | 13,8% | 17,4% | 18,5% | +4,7pp |
+| TP rev% | 11,0% | 13,9% | 16,0% | +5,0pp |
+
+Drivers 1T26 vs 1T25: (i) ticket ex-TP +8% pelo Plano Black acumulado + price ajuste anual; (ii) TP rev% +5pp pelo crescimento da plataforma; (iii) alunos/loja c/TP -8,7% pela aceleração de aberturas no 4T25 (88 lojas) ainda em ramp; (iv) repasse Plano Black novos alunos ocorreu tanto em 1T25 quanto em 1T26 → YoY incremental ~neutro. (fonte: sources/digested/smart_kpis_brasil_proprias_analise_summary.md, em: 2026-05-01)
 
 ---
 
